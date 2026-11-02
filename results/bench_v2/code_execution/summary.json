@@ -1,0 +1,180 @@
+{
+  "results": [
+    {
+      "method": "base",
+      "dataset": "humaneval",
+      "n": 164,
+      "base_correct": 117,
+      "plus_correct": 106,
+      "base_pass_at_1": 0.7134146341463414,
+      "plus_pass_at_1": 0.6463414634146342,
+      "base_official_status_counts": {
+        "pass": 117,
+        "fail": 47,
+        "timeout": 0
+      },
+      "plus_official_status_counts": {
+        "pass": 107,
+        "fail": 57,
+        "timeout": 0
+      },
+      "runtime_error_subtype": "not distinguished by official fast_check status; do not equate fail with runtime error",
+      "run_status": "VERIFIED_COMPLETE"
+    },
+    {
+      "method": "full",
+      "dataset": "humaneval",
+      "n": 164,
+      "base_correct": 100,
+      "plus_correct": 93,
+      "base_pass_at_1": 0.6097560975609756,
+      "plus_pass_at_1": 0.5670731707317073,
+      "base_official_status_counts": {
+        "pass": 100,
+        "fail": 64,
+        "timeout": 0
+      },
+      "plus_official_status_counts": {
+        "pass": 95,
+        "fail": 69,
+        "timeout": 0
+      },
+      "runtime_error_subtype": "not distinguished by official fast_check status; do not equate fail with runtime error",
+      "run_status": "VERIFIED_COMPLETE"
+    },
+    {
+      "method": "lora",
+      "dataset": "humaneval",
+      "n": 164,
+      "base_correct": 90,
+      "plus_correct": 82,
+      "base_pass_at_1": 0.5487804878048781,
+      "plus_pass_at_1": 0.5,
+      "base_official_status_counts": {
+        "pass": 90,
+        "fail": 74,
+        "timeout": 0
+      },
+      "plus_official_status_counts": {
+        "pass": 84,
+        "fail": 80,
+        "timeout": 0
+      },
+      "runtime_error_subtype": "not distinguished by official fast_check status; do not equate fail with runtime error",
+      "run_status": "VERIFIED_COMPLETE"
+    },
+    {
+      "method": "ssu",
+      "dataset": "humaneval",
+      "n": 164,
+      "base_correct": 103,
+      "plus_correct": 94,
+      "base_pass_at_1": 0.6280487804878049,
+      "plus_pass_at_1": 0.573170731707317,
+      "base_official_status_counts": {
+        "pass": 103,
+        "fail": 61,
+        "timeout": 0
+      },
+      "plus_official_status_counts": {
+        "pass": 95,
+        "fail": 69,
+        "timeout": 0
+      },
+      "runtime_error_subtype": "not distinguished by official fast_check status; do not equate fail with runtime error",
+      "run_status": "VERIFIED_COMPLETE"
+    },
+    {
+      "method": "base",
+      "dataset": "mbpp",
+      "n": 378,
+      "base_correct": 227,
+      "plus_correct": 195,
+      "base_pass_at_1": 0.6005291005291006,
+      "plus_pass_at_1": 0.5158730158730159,
+      "base_official_status_counts": {
+        "pass": 227,
+        "fail": 151,
+        "timeout": 0
+      },
+      "plus_official_status_counts": {
+        "pass": 197,
+        "fail": 181,
+        "timeout": 0
+      },
+      "runtime_error_subtype": "not distinguished by official fast_check status; do not equate fail with runtime error",
+      "run_status": "VERIFIED_COMPLETE"
+    },
+    {
+      "method": "full",
+      "dataset": "mbpp",
+      "n": 378,
+      "base_correct": 231,
+      "plus_correct": 193,
+      "base_pass_at_1": 0.6111111111111112,
+      "plus_pass_at_1": 0.5105820105820106,
+      "base_official_status_counts": {
+        "pass": 231,
+        "fail": 147,
+        "timeout": 0
+      },
+      "plus_official_status_counts": {
+        "pass": 200,
+        "fail": 178,
+        "timeout": 0
+      },
+      "runtime_error_subtype": "not distinguished by official fast_check status; do not equate fail with runtime error",
+      "run_status": "VERIFIED_COMPLETE"
+    },
+    {
+      "method": "lora",
+      "dataset": "mbpp",
+      "n": 378,
+      "base_correct": 238,
+      "plus_correct": 201,
+      "base_pass_at_1": 0.6296296296296297,
+      "plus_pass_at_1": 0.5317460317460317,
+      "base_official_status_counts": {
+        "pass": 238,
+        "fail": 140,
+        "timeout": 0
+      },
+      "plus_official_status_counts": {
+        "pass": 204,
+        "fail": 174,
+        "timeout": 0
+      },
+      "runtime_error_subtype": "not distinguished by official fast_check status; do not equate fail with runtime error",
+      "run_status": "VERIFIED_COMPLETE"
+    },
+    {
+      "method": "ssu",
+      "dataset": "mbpp",
+      "n": 378,
+      "base_correct": 244,
+      "plus_correct": 207,
+      "base_pass_at_1": 0.6455026455026455,
+      "plus_pass_at_1": 0.5476190476190477,
+      "base_official_status_counts": {
+        "pass": 244,
+        "fail": 134,
+        "timeout": 0
+      },
+      "plus_official_status_counts": {
+        "pass": 209,
+        "fail": 169,
+        "timeout": 0
+      },
+      "runtime_error_subtype": "not distinguished by official fast_check status; do not equate fail with runtime error",
+      "run_status": "VERIFIED_COMPLETE"
+    }
+  ],
+  "canonical_calibration_passed": 542,
+  "evaluations": 2168,
+  "protocol": {
+    "evalplus": "0.3.1+find_zero-success-bookkeeping-fix",
+    "humaneval_plus": "v0.1.10",
+    "mbpp_plus": "v0.2.0",
+    "plus_requires_base_pass": true
+  }
+}

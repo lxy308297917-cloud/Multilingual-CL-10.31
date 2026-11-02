@@ -1,0 +1,13 @@
+{
+  "status": "VERIFIED_COMPLETE",
+  "canonical": 542,
+  "model_executions": 2168,
+  "sources_verified": 10,
+  "per_job_hashes_verified": 8130,
+  "summary_sha256": "ab72a23e8edf1345f2dda7c7feedacc3bb69dad05ba714e277ca29a08a259d7a",
+  "runtime_manifest_sha256": "49239b30dfe3c03e96d6053d94112c886787b2ae9553947ae531c38270630b0a",
+  "humaneval_changed_results_vs_896MiB_run": [],
+  "formal_scorer": "EvalPlus0.3.1 + find_zero-success-bookkeeping-fix",
+  "plus_requires_base_pass": true,
+  "uncertainty": "one training seed, task-resampling CI only"
+}

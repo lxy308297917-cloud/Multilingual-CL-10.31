@@ -1,3 +1,5 @@
+> 2026-11-03更新：代码已完成真实隔离执行，四模型HumanEval/+/MBPP/+的完整成绩见[代码执行报告](code_execution.md)。本文其余正文保留执行前快照；代码NOT_RUN已由该附录替代，原始生成与MT/SUM结果未改。
+
 # Benchmark v2 复现
 
 运行前读取[固定协议](benchmark_protocol.md)和[限制](limitations.md)。以下命令在仓库根目录执行；路径由调用者配置，模型必须是对应冻结Final，不能用中间checkpoint代替。共享GPU先检查显存、利用率和进程归属，显式选择空闲GPU UUID；不要修改他人进程。
@@ -33,7 +35,7 @@ FLORES复用[官方原版FLORES-200](https://github.com/facebookresearch/flores/
 ## 单模型单任务
 
 ```bash
-export CUDA_VISIBLE_DEVICES=GPU-replace-with-verified-free-uuid
+export CUDA_VISIBLE_DEVICES=REPLACE_WITH_VERIFIED_FREE_GPU_UUID
 "$EVAL_PY" scripts/bench_v2/generate.py \
   --dataset "$BENCH_DATA/prepared/xlsum_sw_v2" \
   --model "$BASE_MODEL" --tokenizer "$BASE_MODEL" --method base \

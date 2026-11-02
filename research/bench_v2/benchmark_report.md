@@ -1,3 +1,5 @@
+> 2026-11-03更新：代码已完成真实隔离执行，四模型HumanEval/+/MBPP/+的完整成绩见[代码执行报告](code_execution.md)。本文其余正文保留执行前快照；代码NOT_RUN已由该附录替代，原始生成与MT/SUM结果未改。
+
 # SW/EN Benchmark v2 结果报告
 
 核验完成时间：2026-11-02T21:10:30+08:00。四个固定Final，不新增训练，不按测试选checkpoint。

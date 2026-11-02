@@ -1,0 +1,194 @@
+[
+  {
+    "dataset": "humaneval",
+    "method": "full",
+    "metric": "base_pass",
+    "n": 164,
+    "delta_percentage_points": -10.365853658536585,
+    "paired_bootstrap_95ci_pp": [
+      -17.073170731707318,
+      -3.6585365853658534
+    ],
+    "base_pass_final_fail": 25,
+    "base_fail_final_pass": 8,
+    "mcnemar_exact_two_sided_unadjusted_p": 0.004551384132355452,
+    "bootstrap_resamples": 10000,
+    "scope": "task-sampling uncertainty for one fixed training seed; exploratory12 comparisons, no multiplicity adjustment"
+  },
+  {
+    "dataset": "humaneval",
+    "method": "full",
+    "metric": "plus_pass",
+    "n": 164,
+    "delta_percentage_points": -7.926829268292683,
+    "paired_bootstrap_95ci_pp": [
+      -14.634146341463413,
+      -1.2195121951219512
+    ],
+    "base_pass_final_fail": 22,
+    "base_fail_final_pass": 9,
+    "mcnemar_exact_two_sided_unadjusted_p": 0.029449373483657837,
+    "bootstrap_resamples": 10000,
+    "scope": "task-sampling uncertainty for one fixed training seed; exploratory12 comparisons, no multiplicity adjustment"
+  },
+  {
+    "dataset": "humaneval",
+    "method": "lora",
+    "metric": "base_pass",
+    "n": 164,
+    "delta_percentage_points": -16.463414634146343,
+    "paired_bootstrap_95ci_pp": [
+      -24.390243902439025,
+      -9.146341463414634
+    ],
+    "base_pass_final_fail": 36,
+    "base_fail_final_pass": 9,
+    "mcnemar_exact_two_sided_unadjusted_p": 6.57466324582856e-05,
+    "bootstrap_resamples": 10000,
+    "scope": "task-sampling uncertainty for one fixed training seed; exploratory12 comparisons, no multiplicity adjustment"
+  },
+  {
+    "dataset": "humaneval",
+    "method": "lora",
+    "metric": "plus_pass",
+    "n": 164,
+    "delta_percentage_points": -14.634146341463413,
+    "paired_bootstrap_95ci_pp": [
+      -21.951219512195124,
+      -7.317073170731707
+    ],
+    "base_pass_final_fail": 33,
+    "base_fail_final_pass": 9,
+    "mcnemar_exact_two_sided_unadjusted_p": 0.00027153923429068527,
+    "bootstrap_resamples": 10000,
+    "scope": "task-sampling uncertainty for one fixed training seed; exploratory12 comparisons, no multiplicity adjustment"
+  },
+  {
+    "dataset": "humaneval",
+    "method": "ssu",
+    "metric": "base_pass",
+    "n": 164,
+    "delta_percentage_points": -8.536585365853659,
+    "paired_bootstrap_95ci_pp": [
+      -14.634146341463413,
+      -2.4390243902439024
+    ],
+    "base_pass_final_fail": 21,
+    "base_fail_final_pass": 7,
+    "mcnemar_exact_two_sided_unadjusted_p": 0.012540951371192932,
+    "bootstrap_resamples": 10000,
+    "scope": "task-sampling uncertainty for one fixed training seed; exploratory12 comparisons, no multiplicity adjustment"
+  },
+  {
+    "dataset": "humaneval",
+    "method": "ssu",
+    "metric": "plus_pass",
+    "n": 164,
+    "delta_percentage_points": -7.317073170731707,
+    "paired_bootstrap_95ci_pp": [
+      -13.414634146341465,
+      -1.2195121951219512
+    ],
+    "base_pass_final_fail": 20,
+    "base_fail_final_pass": 8,
+    "mcnemar_exact_two_sided_unadjusted_p": 0.03569813817739487,
+    "bootstrap_resamples": 10000,
+    "scope": "task-sampling uncertainty for one fixed training seed; exploratory12 comparisons, no multiplicity adjustment"
+  },
+  {
+    "dataset": "mbpp",
+    "method": "full",
+    "metric": "base_pass",
+    "n": 378,
+    "delta_percentage_points": 1.0582010582010581,
+    "paired_bootstrap_95ci_pp": [
+      -3.439153439153439,
+      5.555555555555555
+    ],
+    "base_pass_final_fail": 35,
+    "base_fail_final_pass": 39,
+    "mcnemar_exact_two_sided_unadjusted_p": 0.72754708348947,
+    "bootstrap_resamples": 10000,
+    "scope": "task-sampling uncertainty for one fixed training seed; exploratory12 comparisons, no multiplicity adjustment"
+  },
+  {
+    "dataset": "mbpp",
+    "method": "full",
+    "metric": "plus_pass",
+    "n": 378,
+    "delta_percentage_points": -0.5291005291005291,
+    "paired_bootstrap_95ci_pp": [
+      -5.026455026455026,
+      3.968253968253968
+    ],
+    "base_pass_final_fail": 37,
+    "base_fail_final_pass": 35,
+    "mcnemar_exact_two_sided_unadjusted_p": 0.9062943247030809,
+    "bootstrap_resamples": 10000,
+    "scope": "task-sampling uncertainty for one fixed training seed; exploratory12 comparisons, no multiplicity adjustment"
+  },
+  {
+    "dataset": "mbpp",
+    "method": "lora",
+    "metric": "base_pass",
+    "n": 378,
+    "delta_percentage_points": 2.91005291005291,
+    "paired_bootstrap_95ci_pp": [
+      -1.5873015873015872,
+      7.142857142857142
+    ],
+    "base_pass_final_fail": 30,
+    "base_fail_final_pass": 41,
+    "mcnemar_exact_two_sided_unadjusted_p": 0.23509756240834184,
+    "bootstrap_resamples": 10000,
+    "scope": "task-sampling uncertainty for one fixed training seed; exploratory12 comparisons, no multiplicity adjustment"
+  },
+  {
+    "dataset": "mbpp",
+    "method": "lora",
+    "metric": "plus_pass",
+    "n": 378,
+    "delta_percentage_points": 1.5873015873015872,
+    "paired_bootstrap_95ci_pp": [
+      -2.6455026455026456,
+      5.82010582010582
+    ],
+    "base_pass_final_fail": 31,
+    "base_fail_final_pass": 37,
+    "mcnemar_exact_two_sided_unadjusted_p": 0.5446122234192591,
+    "bootstrap_resamples": 10000,
+    "scope": "task-sampling uncertainty for one fixed training seed; exploratory12 comparisons, no multiplicity adjustment"
+  },
+  {
+    "dataset": "mbpp",
+    "method": "ssu",
+    "metric": "base_pass",
+    "n": 378,
+    "delta_percentage_points": 4.497354497354497,
+    "paired_bootstrap_95ci_pp": [
+      0.5291005291005291,
+      8.465608465608465
+    ],
+    "base_pass_final_fail": 21,
+    "base_fail_final_pass": 38,
+    "mcnemar_exact_two_sided_unadjusted_p": 0.036343179957053884,
+    "bootstrap_resamples": 10000,
+    "scope": "task-sampling uncertainty for one fixed training seed; exploratory12 comparisons, no multiplicity adjustment"
+  },
+  {
+    "dataset": "mbpp",
+    "method": "ssu",
+    "metric": "plus_pass",
+    "n": 378,
+    "delta_percentage_points": 3.1746031746031744,
+    "paired_bootstrap_95ci_pp": [
+      -0.7936507936507936,
+      7.142857142857142
+    ],
+    "base_pass_final_fail": 23,
+    "base_fail_final_pass": 35,
+    "mcnemar_exact_two_sided_unadjusted_p": 0.14800580076020597,
+    "bootstrap_resamples": 10000,
+    "scope": "task-sampling uncertainty for one fixed training seed; exploratory12 comparisons, no multiplicity adjustment"
+  }
+]
