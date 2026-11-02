@@ -1,6 +1,6 @@
 {
   "scope": "Curated baseline plus user-directed mechanism diagnostics; no private runtime metadata, raw datasets, model weights or cancelled candidate method publication",
-  "source_local_commit": "953d94b25f7700a0cb203a357090d2a9e823ea0a",
+  "source_local_commit": "f3dbf453f24960ba11517fdefc627f2571981587",
   "source_files": {
     "configs/eval_tasks/_belebele_locked_base.yaml": {
       "original_sha256": "0634916091a6aa37684ac9e01198ec797cd2e487963171fe2ba4887306489fb4",
@@ -419,8 +419,8 @@
       "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
     },
     "research/mechanism/activation_patching_v1.md": {
-      "original_sha256": "a7eb34f3f2f840979a3ec3159d94ed05228dac442f34ec01c2d8db747baaa49b",
-      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+      "original_sha256": "b1574b8dd75abc4bab5dcd5ae13aaa4fc8b56ae482ae5bb7eeae75c32ae7b04c",
+      "publication_change": "Scientific documentation; local figure reference converted to curated SVG and private paths omitted where present"
     },
     "research/mechanism/asset_inventory.md": {
       "original_sha256": "fa047d6f27070894c6213f3333871c6efa8f3f08f6776646ca7b0c71e5d364ea",
@@ -479,8 +479,8 @@
       "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
     },
     "research/mechanism/mechanism_report.md": {
-      "original_sha256": "5967cc1de23517c62d3a7a846ee1e64fc00680779f9504b78a492bfcb2411844",
-      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+      "original_sha256": "c9fe2b3bb325a46aa88a79e0b5284c455778d676569c85b4d6430fafb54e119a",
+      "publication_change": "Scientific documentation; local figure reference converted to curated SVG and private paths omitted where present"
     },
     "results/mechanism/full_conditional_effects.csv": {
       "original_sha256": "00d0d903f41769679a6fbbb077624cd49f2d54b9dfee3de418afbb4f5cb43b00",
@@ -575,7 +575,7 @@
       "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
     },
     "research/chatgpt_handoff.md": {
-      "original_sha256": "2cf662da2a6424e9680921368768744ce96a52828eab5f709fe7028556fcbb1b",
+      "original_sha256": "4df2c85138cab15de6cbb12573e7efb21e760d0b3a69cbb98ac5ea5127d7e44b",
       "publication_change": "Scientific handoff; no private operational metadata"
     },
     "research/mechanism/parameter_summary.md": {
@@ -639,14 +639,14 @@
     "configs/sft_v1/formal_sw_lora_seed42.yaml": "c69f148823756d097661b7700d03f8e9aabc3ec80184b8cc08cc7f6dbcf9f4bb",
     "configs/sft_v1/formal_sw_ssu_seed42.yaml": "7f3bd39ba9926ab127dd2265dfb2d123bb8213b1293a658d609fb8baa114110c",
     "configs/sft_v1/stack.lock.json": "2f7d0317c03162894e14de50086f43718e82158736cb34f2d9f6cb9878874e10",
-    "research/chatgpt_handoff.md": "2cf662da2a6424e9680921368768744ce96a52828eab5f709fe7028556fcbb1b",
+    "research/chatgpt_handoff.md": "4df2c85138cab15de6cbb12573e7efb21e760d0b3a69cbb98ac5ea5127d7e44b",
     "research/mechanism/README.md": "d5433a8552e442b6d759501513fb150a39c2a72c65462897f7fb3180aefe0c7e",
-    "research/mechanism/activation_patching_v1.md": "a7eb34f3f2f840979a3ec3159d94ed05228dac442f34ec01c2d8db747baaa49b",
+    "research/mechanism/activation_patching_v1.md": "b1574b8dd75abc4bab5dcd5ae13aaa4fc8b56ae482ae5bb7eeae75c32ae7b04c",
     "research/mechanism/asset_inventory.md": "fa047d6f27070894c6213f3333871c6efa8f3f08f6776646ca7b0c71e5d364ea",
     "research/mechanism/development_probe_manifest.json": "6ccb6fafea75c403c2189f20511e249940cc90edc458cafec684383047829544",
     "research/mechanism/development_probes_v1.md": "3c9558b52339d6263c3a0fca84e5f373f31389281c57380f03c45466069eed63",
     "research/mechanism/experiment_protocol.md": "111bd452669a66ce13c29dbb3aab6c8d112c111099e0a4ff3d3c7663d15d7e46",
-    "research/mechanism/mechanism_report.md": "1cb50471640802c7b3f7b418c869e6938e22039c2c7eced2f3116611cc487777",
+    "research/mechanism/mechanism_report.md": "beff4bc262293999a98c91004457defe74ee5719287c4158585122b97ec2ef28",
     "research/mechanism/morning_brief.md": "22b571c5334a0e0be2ade1aec581729c6f913ebc1fce20e27e3e761472b1d68c",
     "research/mechanism/parameter_summary.md": "e1ecebd3ee8f706b1671f02aab6ace0e89d53c4f23c190176e438c217cc1a919",
     "results/README.md": "2237a13ae5dee9cfe2a219824bc6e4b14420ef03629315bbe66830aab16efcdd",
