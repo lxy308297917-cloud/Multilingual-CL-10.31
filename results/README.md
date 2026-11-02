@@ -31,3 +31,7 @@ EN阅读ACC：Base60.78、FFT77.11、LoRA78.22、SSU79.67；EN MMLU：57.01、58
 
 公开CSV/JSON保留80项完整首轮、141项全部已完成任务和60项旧MURI结果；来源以逻辑artifact名及SHA256表示。原始权重、数据、逐题大日志和服务器运行文件不包含。
 
+
+## Benchmark v2
+
+见[正式汇总](bench_v2/summary/paper_table.md)及[机器可读结果](bench_v2/summary/results.json)。代码生成完成不代表pass@1已运行；所有Code执行分数为null/NOT_RUN。

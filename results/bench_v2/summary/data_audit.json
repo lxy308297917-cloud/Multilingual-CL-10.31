@@ -1,0 +1,96 @@
+{
+  "datasets": {
+    "flores200_en_sw_full_devtest_v2": {
+      "samples": 1012,
+      "ids_unique": true,
+      "split": "devtest",
+      "data_sha256": "962873c694e06f8fc51fc9aaf60bd4936e937ed7969ee9b7c9438ed15645431c",
+      "empty_sources": 0
+    },
+    "flores200_sw_en_full_devtest_v2": {
+      "samples": 1012,
+      "ids_unique": true,
+      "split": "devtest",
+      "data_sha256": "84d78ac3cded1563dc8dbf491b8e3ab5faa8735f528e240056452f838cd05780",
+      "empty_sources": 0
+    },
+    "xlsum_sw_v2": {
+      "samples": 987,
+      "ids_unique": true,
+      "split": "test",
+      "data_sha256": "7a2a449245c044386030adc9a60ea0c1c8c62354458dc2ad40e10b1e64990d5e",
+      "empty_sources": 0
+    },
+    "xlsum_en_v2": {
+      "samples": 11535,
+      "ids_unique": true,
+      "split": "test",
+      "data_sha256": "296eaacf964c366948ce588f09482112a60e376a5932b8cacde902324e8bea20",
+      "empty_sources": 0
+    },
+    "crosssum_en_sw_v2": {
+      "samples": 270,
+      "ids_unique": true,
+      "split": "test",
+      "data_sha256": "5dc92235c0b3c6cd7400cab7420b7d6a2e7f0ff338b72c7b7378f9a224550feb",
+      "empty_sources": 0
+    },
+    "crosssum_sw_en_v2": {
+      "samples": 270,
+      "ids_unique": true,
+      "split": "test",
+      "data_sha256": "7a006d6a9d65238ea8adc617011f60b07545197bf1db81850da57745a326a593",
+      "empty_sources": 0
+    },
+    "humaneval_plus_v2": {
+      "samples": 164,
+      "ids_unique": true,
+      "split": "official_full",
+      "data_sha256": "3f573025dd791c57d631e5a09964e3a31d169157520b122f0aaa264b241f15a5",
+      "empty_sources": 0
+    },
+    "mbpp_plus_v2": {
+      "samples": 378,
+      "ids_unique": true,
+      "split": "official_full",
+      "data_sha256": "e31b88504a9504f7ca72383f523361a551adc21db3f48b928c871f2f78008929",
+      "empty_sources": 0
+    }
+  },
+  "crosssum_xlsum_overlap": {
+    "en->sw": {
+      "samples": 270,
+      "source_url_shared_with_xlsum_test": 6,
+      "target_url_shared_with_xlsum_test": 37,
+      "exact_source_text_shared_with_xlsum_test": 6,
+      "exact_target_summary_shared_with_xlsum_test": 37,
+      "scope": "Against official XL-Sum test splits only; source or target may also share XL-Sum train/val, not counted here",
+      "semantic_alignment_verified": false
+    },
+    "sw->en": {
+      "samples": 270,
+      "source_url_shared_with_xlsum_test": 37,
+      "target_url_shared_with_xlsum_test": 6,
+      "exact_source_text_shared_with_xlsum_test": 37,
+      "exact_target_summary_shared_with_xlsum_test": 6,
+      "scope": "Against official XL-Sum test splits only; source or target may also share XL-Sum train/val, not counted here",
+      "semantic_alignment_verified": false
+    }
+  },
+  "exact_training_overlap": {
+    "training_samples": 6400,
+    "training_text_fields": 12800,
+    "training_sha256": "174a2b1406a15c213bbb89eb45b8014fb7e27f0d552a4869df2d765b736bd9e2",
+    "hits": {
+      "flores200_en_sw_full_devtest_v2": [],
+      "flores200_sw_en_full_devtest_v2": [],
+      "xlsum_sw_v2": [],
+      "xlsum_en_v2": [],
+      "crosssum_en_sw_v2": [],
+      "crosssum_sw_en_v2": [],
+      "humaneval_plus_v2": [],
+      "mbpp_plus_v2": []
+    },
+    "scope": "Normalized exact complete user/assistant field matches only; not a broad decontamination or proof of unseen text. Official test IDs are retained unchanged."
+  }
+}

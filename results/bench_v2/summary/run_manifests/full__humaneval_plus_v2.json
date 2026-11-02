@@ -1,0 +1,112 @@
+{
+  "result_schema_version": "bench-v2.1",
+  "benchmark_id": "humaneval_plus_v2",
+  "benchmark_protocol": {
+    "benchmark_id": "humaneval_plus_v2",
+    "benchmark_version": "2.1",
+    "source_repository": "evalplus/humanevalplus_release",
+    "dataset_revision": "v0.1.10",
+    "dataset_split": "official_full",
+    "sample_ids_sha256": "2fc7921d5d83497e8d34c31237cf7cf4a77d7afed395969f1ff2f19ca698b34b",
+    "samples": 164,
+    "data_sha256": "3f573025dd791c57d631e5a09964e3a31d169157520b122f0aaa264b241f15a5",
+    "source": {
+      "repository": "evalplus/humanevalplus_release",
+      "revision": "v0.1.10",
+      "archive_uncompressed_sha256": "42526ec0e7d5f3ee0b06d6ced98f8c8bae3d76519151bfb3d36f79010645bd7f",
+      "evalplus_version": "0.3.1",
+      "data_scope": "Official complete EvalPlus curated evaluation release; original MBPP base and plus are evaluated on the same378 tasks",
+      "prompt_compatibility": "Official default user instruction prefix; native response-prefill replaced by Base Qwen3 apply_chat_template enable_thinking=False, one greedy complete Python script"
+    },
+    "language": "en->python",
+    "prompt_template": "Please provide a self-contained Python script that solves the following problem in a markdown code block:\n```\n{official_problem_prompt}\n```\n",
+    "tokenizer_revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+    "chat_template": "Base tokenizer.apply_chat_template(add_generation_prompt=True, enable_thinking=False)",
+    "enable_thinking": false,
+    "decoding_config": {
+      "temperature": 0,
+      "top_p": 1,
+      "top_k": -1,
+      "max_new_tokens": 1024,
+      "stop_token_ids": [
+        151645,
+        151643
+      ],
+      "seed": 42
+    },
+    "max_input_tokens": 7168,
+    "max_model_len": 8192,
+    "overlong_policy": "Reject overlong prompt, no silent truncation",
+    "scorer_version": {
+      "evalplus": "0.3.1"
+    },
+    "metric_names": [
+      "pass@1_base",
+      "pass@1_plus"
+    ],
+    "result_schema_version": "bench-v2.1",
+    "run_status": "NOT_RUN",
+    "pilot_ids": [
+      "HumanEval/47",
+      "HumanEval/43",
+      "HumanEval/118",
+      "HumanEval/71",
+      "HumanEval/138",
+      "HumanEval/89",
+      "HumanEval/96",
+      "HumanEval/75",
+      "HumanEval/55",
+      "HumanEval/139",
+      "HumanEval/80",
+      "HumanEval/29",
+      "HumanEval/19",
+      "HumanEval/0",
+      "HumanEval/140",
+      "HumanEval/64"
+    ],
+    "smoke_ids": [
+      "HumanEval/2",
+      "HumanEval/17",
+      "HumanEval/125",
+      "HumanEval/64"
+    ],
+    "execution_status": "NOT_RUN",
+    "execution_gate": "Requires independently verified strong isolated executor; no host execution"
+  },
+  "method": "full",
+  "training_seed": 42,
+  "model_revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "checkpoint_identity": {
+    "sw_aya6400_full_seed42_final_v1/config.json": "289247dd72c5d673c42846c1ea51472553c774ec33331d8c36c81558c572f6f2",
+    "Qwen3-1.7B/tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "Qwen3-1.7B/tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+    "sw_aya6400_full_seed42_final_v1/model.safetensors": "79bdf3bbb79ebf32734544bdc2fe28774510ed7e824fe74e0609e41f9cdbd124"
+  },
+  "code_commit": "5bf1d409f4239fd7d3c2d81a9530e6f608ce6dda",
+  "source_files_sha256": {
+    "common.py": "681ed15a96994fb0bca04de7cd89ecd18fbbdd9eac108ead98ee25bd5809e722",
+    "prompting.py": "b813f3eb6aef30a15a58da2aea57cb4df81197cc5da3f32ec926b44696be43e0",
+    "generate.py": "a645d44d6676e06791f08d3eed6f7e8306a16720805396e0be332b670ea8e4ae"
+  },
+  "data_manifest_hash": "96afccb01b0f5462d0367bf43cd6bc0d37edae6e6933d0fb26e0874ba923fd95",
+  "sample_ids_sha256": "2fc7921d5d83497e8d34c31237cf7cf4a77d7afed395969f1ff2f19ca698b34b",
+  "scope": "full",
+  "tokenizer": "Qwen3-1.7B Base tokenizer",
+  "prompt_tokens_sha256": "59e130774d8d1d86546953088e5b806491145cd9edbb57563932b50c174d59cd",
+  "backend": {
+    "vllm": "0.9.2+cu118",
+    "transformers": "4.53.2",
+    "torch": "2.7.0+cu118",
+    "dtype": "bfloat16",
+    "max_model_len": 8192,
+    "max_num_seqs": 32,
+    "max_num_batched_tokens": 8192,
+    "gpu_memory_utilization": 0.8,
+    "tensor_parallel_size": 1,
+    "generation_config": "vllm"
+  },
+  "batch_size": 32,
+  "sample_ids_ref": "sample_ids/humaneval_plus_v2/manifest.json",
+  "runtime_manifest_sha256": "532df98fe88718ca3635bd36b3d3bfc060c6bee7d3eae2e387753a4085830075",
+  "public_projection": "Original runtime manifest SHA retained; host paths replaced with model-role names and ordered sample IDs factored into shared shards. Original experiment code_commit may belong to local history; published core source hashes are unchanged."
+}

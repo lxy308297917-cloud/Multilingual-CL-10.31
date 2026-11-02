@@ -1,0 +1,39 @@
+{
+  "benchmark": "xlsum_sw_v2",
+  "method": "base",
+  "run_status": "VERIFIED_COMPLETE",
+  "scope": "full",
+  "samples": 987,
+  "metrics": {
+    "ROUGE-1": 11.021040845531775,
+    "ROUGE-2": 2.880711561310731,
+    "ROUGE-Lsum": 9.216827597059916,
+    "chrF++": 19.55054159607475
+  },
+  "signatures": {
+    "chrF++": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0",
+    "BLEU": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0"
+  },
+  "metric_protocol": {
+    "sacrebleu": "2.6.0",
+    "rouge_score": "0.1.2",
+    "rouge_stemmer": false,
+    "rouge_tokenizer": "rouge_score default lower-case ASCII alphanumeric tokenizer",
+    "rouge_sentence_split": "NLTK English Punkt for both EN/SW; locked but not a validated SW sentence model"
+  },
+  "subsets": {},
+  "source_manifest_sha256": "0c60afff53ee6d1cd8a8b72108811e7f591af31835341c00a9ce6e28231cb05a",
+  "predictions_sha256": "2dc51397df21d6e73f9b500266844ffcf01011246115d28aab707c3746ac270a",
+  "errors": 0,
+  "missing": 0,
+  "scoring_cpu_wall_seconds": 5.467212196439505,
+  "diagnostics": {
+    "empty_count": 0,
+    "repetition_count": 324,
+    "cap_count": 980,
+    "input_truncated_count": 0,
+    "language_measured": 985,
+    "language_mismatch": 1,
+    "language_unknown": 2
+  }
+}

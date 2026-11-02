@@ -1,0 +1,213 @@
+{
+  "results": [
+    {
+      "method": "base",
+      "direction": "en_sw",
+      "legacy_samples": 500,
+      "legacy_frozen_chrf": 5.106949994010351,
+      "legacy_recomputed": {
+        "chrF++": 5.106949994010351,
+        "BLEU": 0.13594672764760987
+      },
+      "legacy_prediction_sha256": "62047fade8e3cf7c3e92fd17cbe707db15c23a7b21edc21ea5324fbafd4b42da",
+      "legacy_summary_sha256": "a5a25bdfce2bf7453d72b643420407fa92723af5c1b9c6894952a355d301066c",
+      "legacy_signatures": {
+        "chrF++": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0",
+        "BLEU": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0"
+      },
+      "new_generation_on_same_500": {
+        "chrF++": 5.260267754376018,
+        "BLEU": 0.14758300330153273
+      },
+      "identical_prediction_count": 268,
+      "legacy_repetition_count": 439,
+      "new_overlap_repetition_count": 432,
+      "full_samples": 1012,
+      "supplementary_samples": 512,
+      "independent_of_legacy": false
+    },
+    {
+      "method": "base",
+      "direction": "sw_en",
+      "legacy_samples": 500,
+      "legacy_frozen_chrf": 22.909869893917335,
+      "legacy_recomputed": {
+        "chrF++": 22.909869893917335,
+        "BLEU": 3.8143530629774243
+      },
+      "legacy_prediction_sha256": "413014e899e27bdafcfa590a7301bb8ac4d3f46c84798d28c3b27bb6ecdba71d",
+      "legacy_summary_sha256": "a5a25bdfce2bf7453d72b643420407fa92723af5c1b9c6894952a355d301066c",
+      "legacy_signatures": {
+        "chrF++": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0",
+        "BLEU": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0"
+      },
+      "new_generation_on_same_500": {
+        "chrF++": 23.331242702384994,
+        "BLEU": 4.030595201032385
+      },
+      "identical_prediction_count": 309,
+      "legacy_repetition_count": 2,
+      "new_overlap_repetition_count": 3,
+      "full_samples": 1012,
+      "supplementary_samples": 512,
+      "independent_of_legacy": false
+    },
+    {
+      "method": "full",
+      "direction": "en_sw",
+      "legacy_samples": 500,
+      "legacy_frozen_chrf": 8.096147514337519,
+      "legacy_recomputed": {
+        "chrF++": 8.096147514337519,
+        "BLEU": 0.34478002974999394
+      },
+      "legacy_prediction_sha256": "a7c7a66912ecd3f6a8472e1d804ef820297c43460554c5d5e276522a8b05e043",
+      "legacy_summary_sha256": "b3846ed7c3087ce5912613cf628bc887501b4a6e405dd74559481fb6ada59ea9",
+      "legacy_signatures": {
+        "chrF++": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0",
+        "BLEU": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0"
+      },
+      "new_generation_on_same_500": {
+        "chrF++": 7.952569590392847,
+        "BLEU": 0.31894382770604
+      },
+      "identical_prediction_count": 255,
+      "legacy_repetition_count": 285,
+      "new_overlap_repetition_count": 298,
+      "full_samples": 1012,
+      "supplementary_samples": 512,
+      "independent_of_legacy": false
+    },
+    {
+      "method": "full",
+      "direction": "sw_en",
+      "legacy_samples": 500,
+      "legacy_frozen_chrf": 14.52736131422909,
+      "legacy_recomputed": {
+        "chrF++": 14.52736131422909,
+        "BLEU": 1.909252149886058
+      },
+      "legacy_prediction_sha256": "080ded2c80f35914179e22ea92341e02c2b74e29401065d3b96de955b18c6c28",
+      "legacy_summary_sha256": "b3846ed7c3087ce5912613cf628bc887501b4a6e405dd74559481fb6ada59ea9",
+      "legacy_signatures": {
+        "chrF++": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0",
+        "BLEU": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0"
+      },
+      "new_generation_on_same_500": {
+        "chrF++": 14.550653845101802,
+        "BLEU": 1.9408898918068362
+      },
+      "identical_prediction_count": 466,
+      "legacy_repetition_count": 4,
+      "new_overlap_repetition_count": 3,
+      "full_samples": 1012,
+      "supplementary_samples": 512,
+      "independent_of_legacy": false
+    },
+    {
+      "method": "lora",
+      "direction": "en_sw",
+      "legacy_samples": 500,
+      "legacy_frozen_chrf": 7.196446055388976,
+      "legacy_recomputed": {
+        "chrF++": 7.196446055388976,
+        "BLEU": 0.2592948893359495
+      },
+      "legacy_prediction_sha256": "70781fde55804ad2ff291dc87bcc5eecab0427f11574c2ca099c065429f64874",
+      "legacy_summary_sha256": "c8ab54fd7d431fb724f73d6592e007b1ba141c665417eea02fe015a155971e60",
+      "legacy_signatures": {
+        "chrF++": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0",
+        "BLEU": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0"
+      },
+      "new_generation_on_same_500": {
+        "chrF++": 6.976494218470459,
+        "BLEU": 0.25362199658442225
+      },
+      "identical_prediction_count": 249,
+      "legacy_repetition_count": 345,
+      "new_overlap_repetition_count": 357,
+      "full_samples": 1012,
+      "supplementary_samples": 512,
+      "independent_of_legacy": false
+    },
+    {
+      "method": "lora",
+      "direction": "sw_en",
+      "legacy_samples": 500,
+      "legacy_frozen_chrf": 16.19817531242172,
+      "legacy_recomputed": {
+        "chrF++": 16.19817531242172,
+        "BLEU": 2.561050461843706
+      },
+      "legacy_prediction_sha256": "ff8c7f4bc8023c02941328cb8a2b9279df58a4a89acb0005549959b9b7df25ed",
+      "legacy_summary_sha256": "c8ab54fd7d431fb724f73d6592e007b1ba141c665417eea02fe015a155971e60",
+      "legacy_signatures": {
+        "chrF++": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0",
+        "BLEU": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0"
+      },
+      "new_generation_on_same_500": {
+        "chrF++": 16.26709035573271,
+        "BLEU": 2.5071001445898644
+      },
+      "identical_prediction_count": 413,
+      "legacy_repetition_count": 8,
+      "new_overlap_repetition_count": 8,
+      "full_samples": 1012,
+      "supplementary_samples": 512,
+      "independent_of_legacy": false
+    },
+    {
+      "method": "ssu",
+      "direction": "en_sw",
+      "legacy_samples": 500,
+      "legacy_frozen_chrf": 5.961397059463463,
+      "legacy_recomputed": {
+        "chrF++": 5.961397059463463,
+        "BLEU": 0.1694845423353456
+      },
+      "legacy_prediction_sha256": "741e180c6246fc015f91a89cc5609a7ab0534315470be2baaa037534396e8035",
+      "legacy_summary_sha256": "51a115b6a826ac7955b3424aba09b833ef24e1f05edb6ba3d7f2f4d704b1c81f",
+      "legacy_signatures": {
+        "chrF++": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0",
+        "BLEU": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0"
+      },
+      "new_generation_on_same_500": {
+        "chrF++": 5.920894173128333,
+        "BLEU": 0.1628409667291232
+      },
+      "identical_prediction_count": 298,
+      "legacy_repetition_count": 390,
+      "new_overlap_repetition_count": 381,
+      "full_samples": 1012,
+      "supplementary_samples": 512,
+      "independent_of_legacy": false
+    },
+    {
+      "method": "ssu",
+      "direction": "sw_en",
+      "legacy_samples": 500,
+      "legacy_frozen_chrf": 19.704462905423057,
+      "legacy_recomputed": {
+        "chrF++": 19.704462905423057,
+        "BLEU": 2.848830788139812
+      },
+      "legacy_prediction_sha256": "c39ee01219f2bf249118f9cfc3eab17513277e1eeda7bd284a2a407a500be235",
+      "legacy_summary_sha256": "51a115b6a826ac7955b3424aba09b833ef24e1f05edb6ba3d7f2f4d704b1c81f",
+      "legacy_signatures": {
+        "chrF++": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.6.0",
+        "BLEU": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.6.0"
+      },
+      "new_generation_on_same_500": {
+        "chrF++": 19.61934815635738,
+        "BLEU": 2.6006138037294995
+      },
+      "identical_prediction_count": 315,
+      "legacy_repetition_count": 10,
+      "new_overlap_repetition_count": 10,
+      "full_samples": 1012,
+      "supplementary_samples": 512,
+      "independent_of_legacy": false
+    }
+  ],
+  "interpretation": "Legacy scores remain frozen. New generation uses vLLM BF16 rather than historical Transformers BF16; identical greedy settings do not guarantee identical predictions. Overlapping500 and full1012 are not independent. Legacy BLEU recomputed here is an additional derived diagnostic, not a previously published score."
+}

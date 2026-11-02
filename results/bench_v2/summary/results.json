@@ -1,0 +1,2274 @@
+{
+  "created_at": "2026-11-02T13:08:58.921730+00:00",
+  "state_sha256": "238faa3ae56e87b0d957888211f3d0ea3088df24ef1cd9ba3bc605c11d959f85",
+  "analysis_source_sha256": {
+    "aggregate.py": "618ad75d2ca163003e7b85424c18d8e69f44478fa9dbd5ad38a1d1630e71c0c7",
+    "paired_statistics.py": "f203923ba11df900ec901a114ceade1e1391688d3ef1abdc1670c77da386b1cc"
+  },
+  "results": [
+    {
+      "method": "base",
+      "benchmark": "flores200_en_sw_full_devtest_v2",
+      "status": "VERIFIED_COMPLETE",
+      "execution_state": "COMPLETE",
+      "samples": 1012,
+      "metrics": {
+        "chrF++": 5.397397235044736,
+        "BLEU": 0.17296896529989303
+      },
+      "summary": "individual/base__flores200_en_sw_full_devtest_v2.json",
+      "diagnostics": {
+        "empty_count": 0,
+        "repetition_count": 867,
+        "cap_count": 887,
+        "input_truncated_count": 0,
+        "language_measured": 997,
+        "language_mismatch": 82,
+        "language_unknown": 15
+      },
+      "checkpoint": {
+        "Qwen3-1.7B/config.json": "1ddb5b89ebc90dcb417a45c213d818577e65976454d29385c8f6140771d95197",
+        "Qwen3-1.7B/tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+        "Qwen3-1.7B/tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+        "Qwen3-1.7B/model-00001-of-00002.safetensors": "169ad53ec313c3a34b06c0809216e4fc072cce444a5d4ff2b59690d064130ed5",
+        "Qwen3-1.7B/model-00002-of-00002.safetensors": "912becff8d60672aa8628ef08c05898d9adf17c2ad4ae3caf99b065622fdeff9"
+      },
+      "direction": "en->sw",
+      "protocol_version": "bench-v2.1",
+      "generation_parameters": {
+        "backend": {
+          "vllm": "0.9.2+cu118",
+          "transformers": "4.53.2",
+          "torch": "2.7.0+cu118",
+          "dtype": "bfloat16",
+          "max_model_len": 8192,
+          "max_num_seqs": 32,
+          "max_num_batched_tokens": 8192,
+          "gpu_memory_utilization": 0.8,
+          "tensor_parallel_size": 1,
+          "generation_config": "vllm"
+        },
+        "decoding": {
+          "temperature": 0,
+          "top_p": 1,
+          "top_k": -1,
+          "max_new_tokens": 512,
+          "stop_token_ids": [
+            151645,
+            151643
+          ],
+          "seed": 42
+        },
+        "batch_size": 32
+      },
+      "prediction_sha256": "dd2aaacfd587b8ebe80370ff9ca1972e862a2fa284ea32bf885964acb1776e42",
+      "errors": 0,
+      "missing": 0,
+      "compute_cost": {
+        "elapsed_seconds": 228.87048014253378,
+        "input_tokens": 384857,
+        "generated_tokens": 462783,
+        "gpu_peak_allocated_bytes": null,
+        "torch_cuda_reserved_bytes": null,
+        "note": "allocated/reserved do not include all vLLM GPU allocations; wall time excludes CPU prompt/hash preparation"
+      }
+    },
+    {
+      "method": "base",
+      "benchmark": "flores200_sw_en_full_devtest_v2",
+      "status": "VERIFIED_COMPLETE",
+      "execution_state": "COMPLETE",
+      "samples": 1012,
+      "metrics": {
+        "chrF++": 23.677884061735483,
+        "BLEU": 4.355916990455009
+      },
+      "summary": "individual/base__flores200_sw_en_full_devtest_v2.json",
+      "diagnostics": {
+        "empty_count": 0,
+        "repetition_count": 4,
+        "cap_count": 17,
+        "input_truncated_count": 0,
+        "language_measured": 1000,
+        "language_mismatch": 14,
+        "language_unknown": 12
+      },
+      "checkpoint": {
+        "Qwen3-1.7B/config.json": "1ddb5b89ebc90dcb417a45c213d818577e65976454d29385c8f6140771d95197",
+        "Qwen3-1.7B/tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+        "Qwen3-1.7B/tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+        "Qwen3-1.7B/model-00001-of-00002.safetensors": "169ad53ec313c3a34b06c0809216e4fc072cce444a5d4ff2b59690d064130ed5",
+        "Qwen3-1.7B/model-00002-of-00002.safetensors": "912becff8d60672aa8628ef08c05898d9adf17c2ad4ae3caf99b065622fdeff9"
+      },
+      "direction": "sw->en",
+      "protocol_version": "bench-v2.1",
+      "generation_parameters": {
+        "backend": {
+          "vllm": "0.9.2+cu118",
+          "transformers": "4.53.2",
+          "torch": "2.7.0+cu118",
+          "dtype": "bfloat16",
+          "max_model_len": 8192,
+          "max_num_seqs": 32,
+          "max_num_batched_tokens": 8192,
+          "gpu_memory_utilization": 0.8,
+          "tensor_parallel_size": 1,
+          "generation_config": "vllm"
+        },
+        "decoding": {
+          "temperature": 0,
+          "top_p": 1,
+          "top_k": -1,
+          "max_new_tokens": 512,
+          "stop_token_ids": [
+            151645,
+            151643
+          ],
+          "seed": 42
+        },
+        "batch_size": 32
+      },
+      "prediction_sha256": "f6d569af4e3762d681f7433e70b35ae3b7c3b82b908b047659b55cad61ed013e",
+      "errors": 0,
+      "missing": 0,
+      "compute_cost": {
+        "elapsed_seconds": 126.54900282248855,
+        "input_tokens": 410719,
+        "generated_tokens": 40480,
+        "gpu_peak_allocated_bytes": null,
+        "torch_cuda_reserved_bytes": null,
+        "note": "allocated/reserved do not include all vLLM GPU allocations; wall time excludes CPU prompt/hash preparation"
+      }
+    },
+    {
+      "method": "base",
+      "benchmark": "xlsum_en_v2",
+      "status": "VERIFIED_COMPLETE",
+      "execution_state": "COMPLETE",
+      "samples": 11535,
+      "metrics": {
+        "ROUGE-1": 14.81740261042857,
+        "ROUGE-2": 3.0795293025246475,
+        "ROUGE-Lsum": 12.500583116088753,
+        "chrF++": 21.054947127131317
+      },
+      "summary": "individual/base__xlsum_en_v2.json",
+      "diagnostics": {
+        "empty_count": 0,
+        "repetition_count": 0,
+        "cap_count": 397,
+        "input_truncated_count": 0,
+        "language_measured": 11535,
+        "language_mismatch": 0,
+        "language_unknown": 0
+      },
+      "checkpoint": {
+        "Qwen3-1.7B/config.json": "1ddb5b89ebc90dcb417a45c213d818577e65976454d29385c8f6140771d95197",
+        "Qwen3-1.7B/tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+        "Qwen3-1.7B/tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+        "Qwen3-1.7B/model-00001-of-00002.safetensors": "169ad53ec313c3a34b06c0809216e4fc072cce444a5d4ff2b59690d064130ed5",
+        "Qwen3-1.7B/model-00002-of-00002.safetensors": "912becff8d60672aa8628ef08c05898d9adf17c2ad4ae3caf99b065622fdeff9"
+      },
+      "direction": "en->en",
+      "protocol_version": "bench-v2.1",
+      "generation_parameters": {
+        "backend": {
+          "vllm": "0.9.2+cu118",
+          "transformers": "4.53.2",
+          "torch": "2.7.0+cu118",
+          "dtype": "bfloat16",
+          "max_model_len": 8192,
+          "max_num_seqs": 32,
+          "max_num_batched_tokens": 8192,
+          "gpu_memory_utilization": 0.8,
+          "tensor_parallel_size": 1,
+          "generation_config": "vllm"
+        },
+        "decoding": {
+          "temperature": 0,
+          "top_p": 1,
+          "top_k": -1,
+          "max_new_tokens": 256,
+          "stop_token_ids": [
+            151645,
+            151643
+          ],
+          "seed": 42
+        },
+        "batch_size": 32
+      },
+      "prediction_sha256": "a46605e57cfe5372140ad99ad05f3f753feffaa1c65d26bf67823012f51a8b68",
+      "errors": 0,
+      "missing": 0,
+      "compute_cost": {
+        "elapsed_seconds": 1323.1784335728735,
+        "input_tokens": 6822432,
+        "generated_tokens": 1883717,
+        "gpu_peak_allocated_bytes": null,
+        "torch_cuda_reserved_bytes": null,
+        "note": "allocated/reserved do not include all vLLM GPU allocations; wall time excludes CPU prompt/hash preparation"
+      }
+    },
+    {
+      "method": "base",
+      "benchmark": "xlsum_sw_v2",
+      "status": "VERIFIED_COMPLETE",
+      "execution_state": "COMPLETE",
+      "samples": 987,
+      "metrics": {
+        "ROUGE-1": 11.021040845531775,
+        "ROUGE-2": 2.880711561310731,
+        "ROUGE-Lsum": 9.216827597059916,
+        "chrF++": 19.55054159607475
+      },
+      "summary": "individual/base__xlsum_sw_v2.json",
+      "diagnostics": {
+        "empty_count": 0,
+        "repetition_count": 324,
+        "cap_count": 980,
+        "input_truncated_count": 0,
+        "language_measured": 985,
+        "language_mismatch": 1,
+        "language_unknown": 2
+      },
+      "checkpoint": {
+        "Qwen3-1.7B/config.json": "1ddb5b89ebc90dcb417a45c213d818577e65976454d29385c8f6140771d95197",
+        "Qwen3-1.7B/tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+        "Qwen3-1.7B/tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+        "Qwen3-1.7B/model-00001-of-00002.safetensors": "169ad53ec313c3a34b06c0809216e4fc072cce444a5d4ff2b59690d064130ed5",
+        "Qwen3-1.7B/model-00002-of-00002.safetensors": "912becff8d60672aa8628ef08c05898d9adf17c2ad4ae3caf99b065622fdeff9"
+      },
+      "direction": "sw->sw",
+      "protocol_version": "bench-v2.1",
+      "generation_parameters": {
+        "backend": {
+          "vllm": "0.9.2+cu118",
+          "transformers": "4.53.2",
+          "torch": "2.7.0+cu118",
+          "dtype": "bfloat16",
+          "max_model_len": 8192,
+          "max_num_seqs": 32,
+          "max_num_batched_tokens": 8192,
+          "gpu_memory_utilization": 0.8,
+          "tensor_parallel_size": 1,
+          "generation_config": "vllm"
+        },
+        "decoding": {
+          "temperature": 0,
+          "top_p": 1,
+          "top_k": -1,
+          "max_new_tokens": 256,
+          "stop_token_ids": [
+            151645,
+            151643
+          ],
+          "seed": 42
+        },
+        "batch_size": 32
+      },
+      "prediction_sha256": "2dc51397df21d6e73f9b500266844ffcf01011246115d28aab707c3746ac270a",
+      "errors": 0,
+      "missing": 0,
+      "compute_cost": {
+        "elapsed_seconds": 225.29573237150908,
+        "input_tokens": 979052,
+        "generated_tokens": 252322,
+        "gpu_peak_allocated_bytes": null,
+        "torch_cuda_reserved_bytes": null,
+        "note": "allocated/reserved do not include all vLLM GPU allocations; wall time excludes CPU prompt/hash preparation"
+      }
+    },
+    {
+      "method": "base",
+      "benchmark": "humaneval_plus_v2",
+      "status": "NOT_RUN",
+      "execution_state": "COMPLETE",
+      "samples": 164,
+      "metrics": {
+        "pass@1_base": null,
+        "pass@1_plus": null
+      },
+      "summary": "individual/base__humaneval_plus_v2.json",
+      "diagnostics": {
+        "empty_code_count": 0,
+        "syntax_error_count": 0,
+        "signature_arity_valid_count": 164,
+        "cap_count": 0,
+        "fenced_output_count": 164,
+        "runtime_error_count": null,
+        "timeout_count": null
+      },
+      "checkpoint": {
+        "Qwen3-1.7B/config.json": "1ddb5b89ebc90dcb417a45c213d818577e65976454d29385c8f6140771d95197",
+        "Qwen3-1.7B/tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+        "Qwen3-1.7B/tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+        "Qwen3-1.7B/model-00001-of-00002.safetensors": "169ad53ec313c3a34b06c0809216e4fc072cce444a5d4ff2b59690d064130ed5",
+        "Qwen3-1.7B/model-00002-of-00002.safetensors": "912becff8d60672aa8628ef08c05898d9adf17c2ad4ae3caf99b065622fdeff9"
+      },
+      "direction": "en->python",
+      "protocol_version": "bench-v2.1",
+      "generation_parameters": {
+        "backend": {
+          "vllm": "0.9.2+cu118",
+          "transformers": "4.53.2",
+          "torch": "2.7.0+cu118",
+          "dtype": "bfloat16",
+          "max_model_len": 8192,
+          "max_num_seqs": 32,
+          "max_num_batched_tokens": 8192,
+          "gpu_memory_utilization": 0.8,
+          "tensor_parallel_size": 1,
+          "generation_config": "vllm"
+        },
+        "decoding": {
+          "temperature": 0,
+          "top_p": 1,
+          "top_k": -1,
+          "max_new_tokens": 1024,
+          "stop_token_ids": [
+            151645,
+            151643
+          ],
+          "seed": 42
+        },
+        "batch_size": 32
+      },
+      "prediction_sha256": "f564b63b733624978d5f8a0bd8496780a081e9ba2c5f036feb93da02339c4304",
+      "errors": 0,
+      "missing": 0,
+      "compute_cost": {
+        "elapsed_seconds": 90.19037676416337,
+        "input_tokens": 27424,
+        "generated_tokens": 47377,
+        "gpu_peak_allocated_bytes": null,
+        "torch_cuda_reserved_bytes": null,
+        "note": "allocated/reserved do not include all vLLM GPU allocations; wall time excludes CPU prompt/hash preparation"
+      }
+    },
+    {
+      "method": "base",
+      "benchmark": "mbpp_plus_v2",
+      "status": "NOT_RUN",
+      "execution_state": "COMPLETE",
+      "samples": 378,
+      "metrics": {
+        "pass@1_base": null,
+        "pass@1_plus": null
+      },
+      "summary": "individual/base__mbpp_plus_v2.json",
+      "diagnostics": {
+        "empty_code_count": 0,
+        "syntax_error_count": 0,
+        "signature_arity_valid_count": 326,
+        "cap_count": 0,
+        "fenced_output_count": 378,
+        "runtime_error_count": null,
+        "timeout_count": null
+      },
+      "checkpoint": {
+        "Qwen3-1.7B/config.json": "1ddb5b89ebc90dcb417a45c213d818577e65976454d29385c8f6140771d95197",
+        "Qwen3-1.7B/tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+        "Qwen3-1.7B/tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+        "Qwen3-1.7B/model-00001-of-00002.safetensors": "169ad53ec313c3a34b06c0809216e4fc072cce444a5d4ff2b59690d064130ed5",
+        "Qwen3-1.7B/model-00002-of-00002.safetensors": "912becff8d60672aa8628ef08c05898d9adf17c2ad4ae3caf99b065622fdeff9"
+      },
+      "direction": "en->python",
+      "protocol_version": "bench-v2.1",
+      "generation_parameters": {
+        "backend": {
+          "vllm": "0.9.2+cu118",
+          "transformers": "4.53.2",
+          "torch": "2.7.0+cu118",
+          "dtype": "bfloat16",
+          "max_model_len": 8192,
+          "max_num_seqs": 32,
+          "max_num_batched_tokens": 8192,
+          "gpu_memory_utilization": 0.8,
+          "tensor_parallel_size": 1,
+          "generation_config": "vllm"
+        },
+        "decoding": {
+          "temperature": 0,
+          "top_p": 1,
+          "top_k": -1,
+          "max_new_tokens": 1024,
+          "stop_token_ids": [
+            151645,
+            151643
+          ],
+          "seed": 42
+        },
+        "batch_size": 32
+      },
+      "prediction_sha256": "50eb5ad9d56e67e16338eb4feb3d544e6abe462d570c52173e77383c81894cf3",
+      "errors": 0,
+      "missing": 0,
+      "compute_cost": {
+        "elapsed_seconds": 104.22364067845047,
+        "input_tokens": 31943,
+        "generated_tokens": 69511,
+        "gpu_peak_allocated_bytes": null,
+        "torch_cuda_reserved_bytes": null,
+        "note": "allocated/reserved do not include all vLLM GPU allocations; wall time excludes CPU prompt/hash preparation"
+      }
+    },
+    {
+      "method": "full",
+      "benchmark": "flores200_en_sw_full_devtest_v2",
+      "status": "VERIFIED_COMPLETE",
+      "execution_state": "COMPLETE",
+      "samples": 1012,
+      "metrics": {
+        "chrF++": 7.998636519130642,
+        "BLEU": 0.30565546396056065
+      },
+      "summary": "individual/full__flores200_en_sw_full_devtest_v2.json",
+      "diagnostics": {
+        "empty_count": 0,
+        "repetition_count": 595,
+        "cap_count": 641,
+        "input_truncated_count": 0,
+        "language_measured": 999,
+        "language_mismatch": 8,
+        "language_unknown": 13
+      },
+      "checkpoint": {
+        "sw_aya6400_full_seed42_final_v1/config.json": "289247dd72c5d673c42846c1ea51472553c774ec33331d8c36c81558c572f6f2",
+        "Qwen3-1.7B/tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+        "Qwen3-1.7B/tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+        "sw_aya6400_full_seed42_final_v1/model.safetensors": "79bdf3bbb79ebf32734544bdc2fe28774510ed7e824fe74e0609e41f9cdbd124"
+      },
+      "direction": "en->sw",
+      "protocol_version": "bench-v2.1",
+      "generation_parameters": {
+        "backend": {
+          "vllm": "0.9.2+cu118",
+          "transformers": "4.53.2",
+          "torch": "2.7.0+cu118",
+          "dtype": "bfloat16",
+          "max_model_len": 8192,
+          "max_num_seqs": 32,
+          "max_num_batched_tokens": 8192,
+          "gpu_memory_utilization": 0.8,
+          "tensor_parallel_size": 1,
+          "generation_config": "vllm"
+        },
+        "decoding": {
+          "temperature": 0,
+          "top_p": 1,
+          "top_k": -1,
+          "max_new_tokens": 512,
+          "stop_token_ids": [
+            151645,
+            151643
+          ],
+          "seed": 42
+        },
+        "batch_size": 32
+      },
+      "prediction_sha256": "44f248bc33d88d538c711876e503cdcc0a3c8570f7f058e1a75c9b2b1f81571e",
+      "errors": 0,
+      "missing": 0,
+      "compute_cost": {
+        "elapsed_seconds": 225.52613337524235,
+        "input_tokens": 384857,
+        "generated_tokens": 355620,
+        "gpu_peak_allocated_bytes": null,
+        "torch_cuda_reserved_bytes": null,
+        "note": "allocated/reserved do not include all vLLM GPU allocations; wall time excludes CPU prompt/hash preparation"
+      }
+    },
+    {
+      "method": "full",
+      "benchmark": "flores200_sw_en_full_devtest_v2",
+      "status": "VERIFIED_COMPLETE",
+      "execution_state": "COMPLETE",
+      "samples": 1012,
+      "metrics": {
+        "chrF++": 14.884572070157212,
+        "BLEU": 2.2216433939779643
+      },
+      "summary": "individual/full__flores200_sw_en_full_devtest_v2.json",
+      "diagnostics": {
+        "empty_count": 0,
+        "repetition_count": 8,
+        "cap_count": 8,
+        "input_truncated_count": 0,
+        "language_measured": 1006,
+        "language_mismatch": 994,
+        "language_unknown": 6
+      },
+      "checkpoint": {
+        "sw_aya6400_full_seed42_final_v1/config.json": "289247dd72c5d673c42846c1ea51472553c774ec33331d8c36c81558c572f6f2",
+        "Qwen3-1.7B/tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+        "Qwen3-1.7B/tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+        "sw_aya6400_full_seed42_final_v1/model.safetensors": "79bdf3bbb79ebf32734544bdc2fe28774510ed7e824fe74e0609e41f9cdbd124"
+      },
+      "direction": "sw->en",
+      "protocol_version": "bench-v2.1",
+      "generation_parameters": {
+        "backend": {
+          "vllm": "0.9.2+cu118",
+          "transformers": "4.53.2",
+          "torch": "2.7.0+cu118",
+          "dtype": "bfloat16",
+          "max_model_len": 8192,
+          "max_num_seqs": 32,
+          "max_num_batched_tokens": 8192,
+          "gpu_memory_utilization": 0.8,
+          "tensor_parallel_size": 1,
+          "generation_config": "vllm"
+        },
+        "decoding": {
+          "temperature": 0,
+          "top_p": 1,
+          "top_k": -1,
+          "max_new_tokens": 512,
+          "stop_token_ids": [
+            151645,
+            151643
+          ],
+          "seed": 42
+        },
+        "batch_size": 32
+      },
+      "prediction_sha256": "10b97f37bb1d56135739fe74c8b68247f0368fec852d86f1a1338753b240a98f",
+      "errors": 0,
+      "missing": 0,
+      "compute_cost": {
+        "elapsed_seconds": 113.81002366170287,
+        "input_tokens": 410719,
+        "generated_tokens": 56470,
+        "gpu_peak_allocated_bytes": null,
+        "torch_cuda_reserved_bytes": null,
+        "note": "allocated/reserved do not include all vLLM GPU allocations; wall time excludes CPU prompt/hash preparation"
+      }
+    },
+    {
+      "method": "full",
+      "benchmark": "xlsum_en_v2",
+      "status": "VERIFIED_COMPLETE",
+      "execution_state": "COMPLETE",
+      "samples": 11535,
+      "metrics": {
+        "ROUGE-1": 16.448416787399257,
+        "ROUGE-2": 3.7755874155572324,
+        "ROUGE-Lsum": 13.867101649065738,
+        "chrF++": 22.01551627028978
+      },
+      "summary": "individual/full__xlsum_en_v2.json",
+      "diagnostics": {
+        "empty_count": 0,
+        "repetition_count": 3,
+        "cap_count": 1781,
+        "input_truncated_count": 0,
+        "language_measured": 11535,
+        "language_mismatch": 1,
+        "language_unknown": 0
+      },
+      "checkpoint": {
+        "sw_aya6400_full_seed42_final_v1/config.json": "289247dd72c5d673c42846c1ea51472553c774ec33331d8c36c81558c572f6f2",
+        "Qwen3-1.7B/tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+        "Qwen3-1.7B/tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+        "sw_aya6400_full_seed42_final_v1/model.safetensors": "79bdf3bbb79ebf32734544bdc2fe28774510ed7e824fe74e0609e41f9cdbd124"
+      },
+      "direction": "en->en",
+      "protocol_version": "bench-v2.1",
+      "generation_parameters": {
+        "backend": {
+          "vllm": "0.9.2+cu118",
+          "transformers": "4.53.2",
+          "torch": "2.7.0+cu118",
+          "dtype": "bfloat16",
+          "max_model_len": 8192,
+          "max_num_seqs": 32,
+          "max_num_batched_tokens": 8192,
+          "gpu_memory_utilization": 0.8,
+          "tensor_parallel_size": 1,
+          "generation_config": "vllm"
+        },
+        "decoding": {
+          "temperature": 0,
+          "top_p": 1,
+          "top_k": -1,
+          "max_new_tokens": 256,
+          "stop_token_ids": [
+            151645,
+            151643
+          ],
+          "seed": 42
+        },
+        "batch_size": 32
+      },
+      "prediction_sha256": "b4f42c9caa5722fc7e6d6739f51a7eaa86af3fca344389db4027dc1e6a4529c8",
+      "errors": 0,
+      "missing": 0,
+      "compute_cost": {
+        "elapsed_seconds": 1314.4611207153648,
+        "input_tokens": 6822432,
+        "generated_tokens": 1636959,
+        "gpu_peak_allocated_bytes": null,
+        "torch_cuda_reserved_bytes": null,
+        "note": "allocated/reserved do not include all vLLM GPU allocations; wall time excludes CPU prompt/hash preparation"
+      }
+    },
+    {
+      "method": "full",
+      "benchmark": "xlsum_sw_v2",
+      "status": "VERIFIED_COMPLETE",
+      "execution_state": "COMPLETE",
+      "samples": 987,
+      "metrics": {
+        "ROUGE-1": 17.305938578794827,
+        "ROUGE-2": 4.548889741819464,
+        "ROUGE-Lsum": 13.994400843318422,
+        "chrF++": 26.53671656837504
+      },
+      "summary": "individual/full__xlsum_sw_v2.json",
+      "diagnostics": {
+        "empty_count": 0,
+        "repetition_count": 23,
+        "cap_count": 505,
+        "input_truncated_count": 0,
+        "language_measured": 983,
+        "language_mismatch": 0,
+        "language_unknown": 4
+      },
+      "checkpoint": {
+        "sw_aya6400_full_seed42_final_v1/config.json": "289247dd72c5d673c42846c1ea51472553c774ec33331d8c36c81558c572f6f2",
+        "Qwen3-1.7B/tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+        "Qwen3-1.7B/tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+        "sw_aya6400_full_seed42_final_v1/model.safetensors": "79bdf3bbb79ebf32734544bdc2fe28774510ed7e824fe74e0609e41f9cdbd124"
+      },
+      "direction": "sw->sw",
+      "protocol_version": "bench-v2.1",
+      "generation_parameters": {
+        "backend": {
+          "vllm": "0.9.2+cu118",
+          "transformers": "4.53.2",
+          "torch": "2.7.0+cu118",
+          "dtype": "bfloat16",
+          "max_model_len": 8192,
+          "max_num_seqs": 32,
+          "max_num_batched_tokens": 8192,
+          "gpu_memory_utilization": 0.8,
+          "tensor_parallel_size": 1,
+          "generation_config": "vllm"
+        },
+        "decoding": {
+          "temperature": 0,
+          "top_p": 1,
+          "top_k": -1,
+          "max_new_tokens": 256,
+          "stop_token_ids": [
+            151645,
+            151643
+          ],
+          "seed": 42
+        },
+        "batch_size": 32
+      },
+      "prediction_sha256": "a608df08ea9f985fb75a99dfd87af9ebfeea35c1652f1e7607accbafa6ada03a",
+      "errors": 0,
+      "missing": 0,
+      "compute_cost": {
+        "elapsed_seconds": 215.8908665534109,
+        "input_tokens": 979052,
+        "generated_tokens": 198355,
+        "gpu_peak_allocated_bytes": null,
+        "torch_cuda_reserved_bytes": null,
+        "note": "allocated/reserved do not include all vLLM GPU allocations; wall time excludes CPU prompt/hash preparation"
+      }
+    },
+    {
+      "method": "full",
+      "benchmark": "humaneval_plus_v2",
+      "status": "NOT_RUN",
+      "execution_state": "COMPLETE",
+      "samples": 164,
+      "metrics": {
+        "pass@1_base": null,
+        "pass@1_plus": null
+      },
+      "summary": "individual/full__humaneval_plus_v2.json",
+      "diagnostics": {
+        "empty_code_count": 0,
+        "syntax_error_count": 0,
+        "signature_arity_valid_count": 162,
+        "cap_count": 9,
+        "fenced_output_count": 164,
+        "runtime_error_count": null,
+        "timeout_count": null
+      },
+      "checkpoint": {
+        "sw_aya6400_full_seed42_final_v1/config.json": "289247dd72c5d673c42846c1ea51472553c774ec33331d8c36c81558c572f6f2",
+        "Qwen3-1.7B/tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+        "Qwen3-1.7B/tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+        "sw_aya6400_full_seed42_final_v1/model.safetensors": "79bdf3bbb79ebf32734544bdc2fe28774510ed7e824fe74e0609e41f9cdbd124"
+      },
+      "direction": "en->python",
+      "protocol_version": "bench-v2.1",
+      "generation_parameters": {
+        "backend": {
+          "vllm": "0.9.2+cu118",
+          "transformers": "4.53.2",
+          "torch": "2.7.0+cu118",
+          "dtype": "bfloat16",
+          "max_model_len": 8192,
+          "max_num_seqs": 32,
+          "max_num_batched_tokens": 8192,
+          "gpu_memory_utilization": 0.8,
+          "tensor_parallel_size": 1,
+          "generation_config": "vllm"
+        },
+        "decoding": {
+          "temperature": 0,
+          "top_p": 1,
+          "top_k": -1,
+          "max_new_tokens": 1024,
+          "stop_token_ids": [
+            151645,
+            151643
+          ],
+          "seed": 42
+        },
+        "batch_size": 32
+      },
+      "prediction_sha256": "845a5a2ea18de03cd2610dfe670122d29800d19c24524d032287543406732972",
+      "errors": 0,
+      "missing": 0,
+      "compute_cost": {
+        "elapsed_seconds": 104.55658918619156,
+        "input_tokens": 27424,
+        "generated_tokens": 33576,
+        "gpu_peak_allocated_bytes": null,
+        "torch_cuda_reserved_bytes": null,
+        "note": "allocated/reserved do not include all vLLM GPU allocations; wall time excludes CPU prompt/hash preparation"
+      }
+    },
+    {
+      "method": "full",
+      "benchmark": "mbpp_plus_v2",
+      "status": "NOT_RUN",
+      "execution_state": "COMPLETE",
+      "samples": 378,
+      "metrics": {
+        "pass@1_base": null,
+        "pass@1_plus": null
+      },
+      "summary": "individual/full__mbpp_plus_v2.json",
+      "diagnostics": {
+        "empty_code_count": 0,
+        "syntax_error_count": 1,
+        "signature_arity_valid_count": 350,
+        "cap_count": 12,
+        "fenced_output_count": 368,
+        "runtime_error_count": null,
+        "timeout_count": null
+      },
+      "checkpoint": {
+        "sw_aya6400_full_seed42_final_v1/config.json": "289247dd72c5d673c42846c1ea51472553c774ec33331d8c36c81558c572f6f2",
+        "Qwen3-1.7B/tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+        "Qwen3-1.7B/tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+        "sw_aya6400_full_seed42_final_v1/model.safetensors": "79bdf3bbb79ebf32734544bdc2fe28774510ed7e824fe74e0609e41f9cdbd124"
+      },
+      "direction": "en->python",
+      "protocol_version": "bench-v2.1",
+      "generation_parameters": {
+        "backend": {
+          "vllm": "0.9.2+cu118",
+          "transformers": "4.53.2",
+          "torch": "2.7.0+cu118",
+          "dtype": "bfloat16",
+          "max_model_len": 8192,
+          "max_num_seqs": 32,
+          "max_num_batched_tokens": 8192,
+          "gpu_memory_utilization": 0.8,
+          "tensor_parallel_size": 1,
+          "generation_config": "vllm"
+        },
+        "decoding": {
+          "temperature": 0,
+          "top_p": 1,
+          "top_k": -1,
+          "max_new_tokens": 1024,
+          "stop_token_ids": [
+            151645,
+            151643
+          ],
+          "seed": 42
+        },
+        "batch_size": 32
+      },
+      "prediction_sha256": "ad22011e2b4164e9541418c2717747e70d0359a12c4390d4c4614af5a154fbed",
+      "errors": 0,
+      "missing": 0,
+      "compute_cost": {
+        "elapsed_seconds": 134.99342359788716,
+        "input_tokens": 31943,
+        "generated_tokens": 42880,
+        "gpu_peak_allocated_bytes": null,
+        "torch_cuda_reserved_bytes": null,
+        "note": "allocated/reserved do not include all vLLM GPU allocations; wall time excludes CPU prompt/hash preparation"
+      }
+    },
+    {
+      "method": "lora",
+      "benchmark": "flores200_en_sw_full_devtest_v2",
+      "status": "VERIFIED_COMPLETE",
+      "execution_state": "COMPLETE",
+      "samples": 1012,
+      "metrics": {
+        "chrF++": 7.129592035050804,
+        "BLEU": 0.24304512602628947
+      },
+      "summary": "individual/lora__flores200_en_sw_full_devtest_v2.json",
+      "diagnostics": {
+        "empty_count": 0,
+        "repetition_count": 694,
+        "cap_count": 745,
+        "input_truncated_count": 0,
+        "language_measured": 990,
+        "language_mismatch": 20,
+        "language_unknown": 22
+      },
+      "checkpoint": {
+        "Qwen3-1.7B/config.json": "1ddb5b89ebc90dcb417a45c213d818577e65976454d29385c8f6140771d95197",
+        "Qwen3-1.7B/tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+        "Qwen3-1.7B/tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+        "Qwen3-1.7B/model-00001-of-00002.safetensors": "169ad53ec313c3a34b06c0809216e4fc072cce444a5d4ff2b59690d064130ed5",
+        "Qwen3-1.7B/model-00002-of-00002.safetensors": "912becff8d60672aa8628ef08c05898d9adf17c2ad4ae3caf99b065622fdeff9",
+        "sw_aya6400_lora_seed42_final_v1/adapter_config.json": "c568b0d01b32d84d5c5ea32dc9547a4109d535b3c247334b1ca44b5390620e39",
+        "sw_aya6400_lora_seed42_final_v1/adapter_model.safetensors": "b7252b125768d3a63a2290f84f64c3f6556fadaddf57fb511e30ae274dcc4d52"
+      },
+      "direction": "en->sw",
+      "protocol_version": "bench-v2.1",
+      "generation_parameters": {
+        "backend": {
+          "vllm": "0.9.2+cu118",
+          "transformers": "4.53.2",
+          "torch": "2.7.0+cu118",
+          "dtype": "bfloat16",
+          "max_model_len": 8192,
+          "max_num_seqs": 32,
+          "max_num_batched_tokens": 8192,
+          "gpu_memory_utilization": 0.8,
+          "tensor_parallel_size": 1,
+          "generation_config": "vllm"
+        },
+        "decoding": {
+          "temperature": 0,
+          "top_p": 1,
+          "top_k": -1,
+          "max_new_tokens": 512,
+          "stop_token_ids": [
+            151645,
+            151643
+          ],
+          "seed": 42
+        },
+        "batch_size": 32
+      },
+      "prediction_sha256": "c7a76ab6bc6ba8d2e5d3755e0e60205a6f01d0216ed71722d8b8672761cce7f1",
+      "errors": 0,
+      "missing": 0,
+      "compute_cost": {
+        "elapsed_seconds": 273.3917649127543,
+        "input_tokens": 384857,
+        "generated_tokens": 395393,
+        "gpu_peak_allocated_bytes": null,
+        "torch_cuda_reserved_bytes": null,
+        "note": "allocated/reserved do not include all vLLM GPU allocations; wall time excludes CPU prompt/hash preparation"
+      }
+    },
+    {
+      "method": "lora",
+      "benchmark": "flores200_sw_en_full_devtest_v2",
+      "status": "VERIFIED_COMPLETE",
+      "execution_state": "COMPLETE",
+      "samples": 1012,
+      "metrics": {
+        "chrF++": 16.227148771587675,
+        "BLEU": 2.6602443322730296
+      },
+      "summary": "individual/lora__flores200_sw_en_full_devtest_v2.json",
+      "diagnostics": {
+        "empty_count": 0,
+        "repetition_count": 16,
+        "cap_count": 24,
+        "input_truncated_count": 0,
+        "language_measured": 1002,
+        "language_mismatch": 810,
+        "language_unknown": 10
+      },
+      "checkpoint": {
+        "Qwen3-1.7B/config.json": "1ddb5b89ebc90dcb417a45c213d818577e65976454d29385c8f6140771d95197",
+        "Qwen3-1.7B/tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+        "Qwen3-1.7B/tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+        "Qwen3-1.7B/model-00001-of-00002.safetensors": "169ad53ec313c3a34b06c0809216e4fc072cce444a5d4ff2b59690d064130ed5",
+        "Qwen3-1.7B/model-00002-of-00002.safetensors": "912becff8d60672aa8628ef08c05898d9adf17c2ad4ae3caf99b065622fdeff9",
+        "sw_aya6400_lora_seed42_final_v1/adapter_config.json": "c568b0d01b32d84d5c5ea32dc9547a4109d535b3c247334b1ca44b5390620e39",
+        "sw_aya6400_lora_seed42_final_v1/adapter_model.safetensors": "b7252b125768d3a63a2290f84f64c3f6556fadaddf57fb511e30ae274dcc4d52"
+      },
+      "direction": "sw->en",
+      "protocol_version": "bench-v2.1",
+      "generation_parameters": {
+        "backend": {
+          "vllm": "0.9.2+cu118",
+          "transformers": "4.53.2",
+          "torch": "2.7.0+cu118",
+          "dtype": "bfloat16",
+          "max_model_len": 8192,
+          "max_num_seqs": 32,
+          "max_num_batched_tokens": 8192,
+          "gpu_memory_utilization": 0.8,
+          "tensor_parallel_size": 1,
+          "generation_config": "vllm"
+        },
+        "decoding": {
+          "temperature": 0,
+          "top_p": 1,
+          "top_k": -1,
+          "max_new_tokens": 512,
+          "stop_token_ids": [
+            151645,
+            151643
+          ],
+          "seed": 42
+        },
+        "batch_size": 32
+      },
+      "prediction_sha256": "725992a9a8f7f32fdf5827bfaff208109821cf709f9ce82979bbb521c95bf0a9",
+      "errors": 0,
+      "missing": 0,
+      "compute_cost": {
+        "elapsed_seconds": 186.55140215344727,
+        "input_tokens": 410719,
+        "generated_tokens": 59025,
+        "gpu_peak_allocated_bytes": null,
+        "torch_cuda_reserved_bytes": null,
+        "note": "allocated/reserved do not include all vLLM GPU allocations; wall time excludes CPU prompt/hash preparation"
+      }
+    },
+    {
+      "method": "lora",
+      "benchmark": "xlsum_en_v2",
+      "status": "VERIFIED_COMPLETE",
+      "execution_state": "COMPLETE",
+      "samples": 11535,
+      "metrics": {
+        "ROUGE-1": 18.252116196420157,
+        "ROUGE-2": 4.0568743089226835,
+        "ROUGE-Lsum": 15.266551051252051,
+        "chrF++": 23.475386130190593
+      },
+      "summary": "individual/lora__xlsum_en_v2.json",
+      "diagnostics": {
+        "empty_count": 0,
+        "repetition_count": 0,
+        "cap_count": 975,
+        "input_truncated_count": 0,
+        "language_measured": 11535,
+        "language_mismatch": 0,
+        "language_unknown": 0
+      },
+      "checkpoint": {
+        "Qwen3-1.7B/config.json": "1ddb5b89ebc90dcb417a45c213d818577e65976454d29385c8f6140771d95197",
+        "Qwen3-1.7B/tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+        "Qwen3-1.7B/tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+        "Qwen3-1.7B/model-00001-of-00002.safetensors": "169ad53ec313c3a34b06c0809216e4fc072cce444a5d4ff2b59690d064130ed5",
+        "Qwen3-1.7B/model-00002-of-00002.safetensors": "912becff8d60672aa8628ef08c05898d9adf17c2ad4ae3caf99b065622fdeff9",
+        "sw_aya6400_lora_seed42_final_v1/adapter_config.json": "c568b0d01b32d84d5c5ea32dc9547a4109d535b3c247334b1ca44b5390620e39",
+        "sw_aya6400_lora_seed42_final_v1/adapter_model.safetensors": "b7252b125768d3a63a2290f84f64c3f6556fadaddf57fb511e30ae274dcc4d52"
+      },
+      "direction": "en->en",
+      "protocol_version": "bench-v2.1",
+      "generation_parameters": {
+        "backend": {
+          "vllm": "0.9.2+cu118",
+          "transformers": "4.53.2",
+          "torch": "2.7.0+cu118",
+          "dtype": "bfloat16",
+          "max_model_len": 8192,
+          "max_num_seqs": 32,
+          "max_num_batched_tokens": 8192,
+          "gpu_memory_utilization": 0.8,
+          "tensor_parallel_size": 1,
+          "generation_config": "vllm"
+        },
+        "decoding": {
+          "temperature": 0,
+          "top_p": 1,
+          "top_k": -1,
+          "max_new_tokens": 256,
+          "stop_token_ids": [
+            151645,
+            151643
+          ],
+          "seed": 42
+        },
+        "batch_size": 32
+      },
+      "prediction_sha256": "b8bff769719e31160a15d5e7e41bb6f6e39c32d53a56e41d9e2200bda1c7cc91",
+      "errors": 0,
+      "missing": 0,
+      "compute_cost": {
+        "elapsed_seconds": 1463.068839404732,
+        "input_tokens": 6822432,
+        "generated_tokens": 1333321,
+        "gpu_peak_allocated_bytes": null,
+        "torch_cuda_reserved_bytes": null,
+        "note": "allocated/reserved do not include all vLLM GPU allocations; wall time excludes CPU prompt/hash preparation"
+      }
+    },
+    {
+      "method": "lora",
+      "benchmark": "xlsum_sw_v2",
+      "status": "VERIFIED_COMPLETE",
+      "execution_state": "COMPLETE",
+      "samples": 987,
+      "metrics": {
+        "ROUGE-1": 17.359114324571536,
+        "ROUGE-2": 4.477299101621271,
+        "ROUGE-Lsum": 14.053709728018491,
+        "chrF++": 26.47398924870594
+      },
+      "summary": "individual/lora__xlsum_sw_v2.json",
+      "diagnostics": {
+        "empty_count": 0,
+        "repetition_count": 26,
+        "cap_count": 550,
+        "input_truncated_count": 0,
+        "language_measured": 981,
+        "language_mismatch": 6,
+        "language_unknown": 6
+      },
+      "checkpoint": {
+        "Qwen3-1.7B/config.json": "1ddb5b89ebc90dcb417a45c213d818577e65976454d29385c8f6140771d95197",
+        "Qwen3-1.7B/tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+        "Qwen3-1.7B/tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+        "Qwen3-1.7B/model-00001-of-00002.safetensors": "169ad53ec313c3a34b06c0809216e4fc072cce444a5d4ff2b59690d064130ed5",
+        "Qwen3-1.7B/model-00002-of-00002.safetensors": "912becff8d60672aa8628ef08c05898d9adf17c2ad4ae3caf99b065622fdeff9",
+        "sw_aya6400_lora_seed42_final_v1/adapter_config.json": "c568b0d01b32d84d5c5ea32dc9547a4109d535b3c247334b1ca44b5390620e39",
+        "sw_aya6400_lora_seed42_final_v1/adapter_model.safetensors": "b7252b125768d3a63a2290f84f64c3f6556fadaddf57fb511e30ae274dcc4d52"
+      },
+      "direction": "sw->sw",
+      "protocol_version": "bench-v2.1",
+      "generation_parameters": {
+        "backend": {
+          "vllm": "0.9.2+cu118",
+          "transformers": "4.53.2",
+          "torch": "2.7.0+cu118",
+          "dtype": "bfloat16",
+          "max_model_len": 8192,
+          "max_num_seqs": 32,
+          "max_num_batched_tokens": 8192,
+          "gpu_memory_utilization": 0.8,
+          "tensor_parallel_size": 1,
+          "generation_config": "vllm"
+        },
+        "decoding": {
+          "temperature": 0,
+          "top_p": 1,
+          "top_k": -1,
+          "max_new_tokens": 256,
+          "stop_token_ids": [
+            151645,
+            151643
+          ],
+          "seed": 42
+        },
+        "batch_size": 32
+      },
+      "prediction_sha256": "9699e9e5145ae91fc3402f1918b9554837031ea48d35fb1776003e011d759035",
+      "errors": 0,
+      "missing": 0,
+      "compute_cost": {
+        "elapsed_seconds": 256.15452029183507,
+        "input_tokens": 979052,
+        "generated_tokens": 198098,
+        "gpu_peak_allocated_bytes": null,
+        "torch_cuda_reserved_bytes": null,
+        "note": "allocated/reserved do not include all vLLM GPU allocations; wall time excludes CPU prompt/hash preparation"
+      }
+    },
+    {
+      "method": "lora",
+      "benchmark": "humaneval_plus_v2",
+      "status": "NOT_RUN",
+      "execution_state": "COMPLETE",
+      "samples": 164,
+      "metrics": {
+        "pass@1_base": null,
+        "pass@1_plus": null
+      },
+      "summary": "individual/lora__humaneval_plus_v2.json",
+      "diagnostics": {
+        "empty_code_count": 0,
+        "syntax_error_count": 0,
+        "signature_arity_valid_count": 163,
+        "cap_count": 4,
+        "fenced_output_count": 162,
+        "runtime_error_count": null,
+        "timeout_count": null
+      },
+      "checkpoint": {
+        "Qwen3-1.7B/config.json": "1ddb5b89ebc90dcb417a45c213d818577e65976454d29385c8f6140771d95197",
+        "Qwen3-1.7B/tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+        "Qwen3-1.7B/tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+        "Qwen3-1.7B/model-00001-of-00002.safetensors": "169ad53ec313c3a34b06c0809216e4fc072cce444a5d4ff2b59690d064130ed5",
+        "Qwen3-1.7B/model-00002-of-00002.safetensors": "912becff8d60672aa8628ef08c05898d9adf17c2ad4ae3caf99b065622fdeff9",
+        "sw_aya6400_lora_seed42_final_v1/adapter_config.json": "c568b0d01b32d84d5c5ea32dc9547a4109d535b3c247334b1ca44b5390620e39",
+        "sw_aya6400_lora_seed42_final_v1/adapter_model.safetensors": "b7252b125768d3a63a2290f84f64c3f6556fadaddf57fb511e30ae274dcc4d52"
+      },
+      "direction": "en->python",
+      "protocol_version": "bench-v2.1",
+      "generation_parameters": {
+        "backend": {
+          "vllm": "0.9.2+cu118",
+          "transformers": "4.53.2",
+          "torch": "2.7.0+cu118",
+          "dtype": "bfloat16",
+          "max_model_len": 8192,
+          "max_num_seqs": 32,
+          "max_num_batched_tokens": 8192,
+          "gpu_memory_utilization": 0.8,
+          "tensor_parallel_size": 1,
+          "generation_config": "vllm"
+        },
+        "decoding": {
+          "temperature": 0,
+          "top_p": 1,
+          "top_k": -1,
+          "max_new_tokens": 1024,
+          "stop_token_ids": [
+            151645,
+            151643
+          ],
+          "seed": 42
+        },
+        "batch_size": 32
+      },
+      "prediction_sha256": "e58aa2495f2f7027ea2a62b38874a5a493a1ef1fe665d31fbd57063ed3aa83ac",
+      "errors": 0,
+      "missing": 0,
+      "compute_cost": {
+        "elapsed_seconds": 116.63230733387172,
+        "input_tokens": 27424,
+        "generated_tokens": 18808,
+        "gpu_peak_allocated_bytes": null,
+        "torch_cuda_reserved_bytes": null,
+        "note": "allocated/reserved do not include all vLLM GPU allocations; wall time excludes CPU prompt/hash preparation"
+      }
+    },
+    {
+      "method": "lora",
+      "benchmark": "mbpp_plus_v2",
+      "status": "NOT_RUN",
+      "execution_state": "COMPLETE",
+      "samples": 378,
+      "metrics": {
+        "pass@1_base": null,
+        "pass@1_plus": null
+      },
+      "summary": "individual/lora__mbpp_plus_v2.json",
+      "diagnostics": {
+        "empty_code_count": 0,
+        "syntax_error_count": 1,
+        "signature_arity_valid_count": 359,
+        "cap_count": 7,
+        "fenced_output_count": 372,
+        "runtime_error_count": null,
+        "timeout_count": null
+      },
+      "checkpoint": {
+        "Qwen3-1.7B/config.json": "1ddb5b89ebc90dcb417a45c213d818577e65976454d29385c8f6140771d95197",
+        "Qwen3-1.7B/tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+        "Qwen3-1.7B/tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+        "Qwen3-1.7B/model-00001-of-00002.safetensors": "169ad53ec313c3a34b06c0809216e4fc072cce444a5d4ff2b59690d064130ed5",
+        "Qwen3-1.7B/model-00002-of-00002.safetensors": "912becff8d60672aa8628ef08c05898d9adf17c2ad4ae3caf99b065622fdeff9",
+        "sw_aya6400_lora_seed42_final_v1/adapter_config.json": "c568b0d01b32d84d5c5ea32dc9547a4109d535b3c247334b1ca44b5390620e39",
+        "sw_aya6400_lora_seed42_final_v1/adapter_model.safetensors": "b7252b125768d3a63a2290f84f64c3f6556fadaddf57fb511e30ae274dcc4d52"
+      },
+      "direction": "en->python",
+      "protocol_version": "bench-v2.1",
+      "generation_parameters": {
+        "backend": {
+          "vllm": "0.9.2+cu118",
+          "transformers": "4.53.2",
+          "torch": "2.7.0+cu118",
+          "dtype": "bfloat16",
+          "max_model_len": 8192,
+          "max_num_seqs": 32,
+          "max_num_batched_tokens": 8192,
+          "gpu_memory_utilization": 0.8,
+          "tensor_parallel_size": 1,
+          "generation_config": "vllm"
+        },
+        "decoding": {
+          "temperature": 0,
+          "top_p": 1,
+          "top_k": -1,
+          "max_new_tokens": 1024,
+          "stop_token_ids": [
+            151645,
+            151643
+          ],
+          "seed": 42
+        },
+        "batch_size": 32
+      },
+      "prediction_sha256": "5ea8ef0e1f87ba0725d2a3f6e341fe87d56b2b1355f321815b473c57347c655e",
+      "errors": 0,
+      "missing": 0,
+      "compute_cost": {
+        "elapsed_seconds": 152.8025017157197,
+        "input_tokens": 31943,
+        "generated_tokens": 28428,
+        "gpu_peak_allocated_bytes": null,
+        "torch_cuda_reserved_bytes": null,
+        "note": "allocated/reserved do not include all vLLM GPU allocations; wall time excludes CPU prompt/hash preparation"
+      }
+    },
+    {
+      "method": "ssu",
+      "benchmark": "flores200_en_sw_full_devtest_v2",
+      "status": "VERIFIED_COMPLETE",
+      "execution_state": "COMPLETE",
+      "samples": 1012,
+      "metrics": {
+        "chrF++": 6.131103136774949,
+        "BLEU": 0.1845244010567919
+      },
+      "summary": "individual/ssu__flores200_en_sw_full_devtest_v2.json",
+      "diagnostics": {
+        "empty_count": 0,
+        "repetition_count": 777,
+        "cap_count": 835,
+        "input_truncated_count": 0,
+        "language_measured": 1003,
+        "language_mismatch": 14,
+        "language_unknown": 9
+      },
+      "checkpoint": {
+        "sw_aya6400_ssu_wanda_seed42_final_v1/config.json": "289247dd72c5d673c42846c1ea51472553c774ec33331d8c36c81558c572f6f2",
+        "Qwen3-1.7B/tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+        "Qwen3-1.7B/tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+        "sw_aya6400_ssu_wanda_seed42_final_v1/model.safetensors": "6ff02928690dc4fd8e39c42908507eecd6e47d6e968f1454bc14cf75f2f90450"
+      },
+      "direction": "en->sw",
+      "protocol_version": "bench-v2.1",
+      "generation_parameters": {
+        "backend": {
+          "vllm": "0.9.2+cu118",
+          "transformers": "4.53.2",
+          "torch": "2.7.0+cu118",
+          "dtype": "bfloat16",
+          "max_model_len": 8192,
+          "max_num_seqs": 32,
+          "max_num_batched_tokens": 8192,
+          "gpu_memory_utilization": 0.8,
+          "tensor_parallel_size": 1,
+          "generation_config": "vllm"
+        },
+        "decoding": {
+          "temperature": 0,
+          "top_p": 1,
+          "top_k": -1,
+          "max_new_tokens": 512,
+          "stop_token_ids": [
+            151645,
+            151643
+          ],
+          "seed": 42
+        },
+        "batch_size": 32
+      },
+      "prediction_sha256": "8433a5f55baaffe5c94c1f048f93e87c81ab913770237cabfb7ce62735623430",
+      "errors": 0,
+      "missing": 0,
+      "compute_cost": {
+        "elapsed_seconds": 229.34271972998977,
+        "input_tokens": 384857,
+        "generated_tokens": 437582,
+        "gpu_peak_allocated_bytes": null,
+        "torch_cuda_reserved_bytes": null,
+        "note": "allocated/reserved do not include all vLLM GPU allocations; wall time excludes CPU prompt/hash preparation"
+      }
+    },
+    {
+      "method": "ssu",
+      "benchmark": "flores200_sw_en_full_devtest_v2",
+      "status": "VERIFIED_COMPLETE",
+      "execution_state": "COMPLETE",
+      "samples": 1012,
+      "metrics": {
+        "chrF++": 19.369755414592102,
+        "BLEU": 2.5040594625943324
+      },
+      "summary": "individual/ssu__flores200_sw_en_full_devtest_v2.json",
+      "diagnostics": {
+        "empty_count": 0,
+        "repetition_count": 21,
+        "cap_count": 66,
+        "input_truncated_count": 0,
+        "language_measured": 992,
+        "language_mismatch": 153,
+        "language_unknown": 20
+      },
+      "checkpoint": {
+        "sw_aya6400_ssu_wanda_seed42_final_v1/config.json": "289247dd72c5d673c42846c1ea51472553c774ec33331d8c36c81558c572f6f2",
+        "Qwen3-1.7B/tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+        "Qwen3-1.7B/tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+        "sw_aya6400_ssu_wanda_seed42_final_v1/model.safetensors": "6ff02928690dc4fd8e39c42908507eecd6e47d6e968f1454bc14cf75f2f90450"
+      },
+      "direction": "sw->en",
+      "protocol_version": "bench-v2.1",
+      "generation_parameters": {
+        "backend": {
+          "vllm": "0.9.2+cu118",
+          "transformers": "4.53.2",
+          "torch": "2.7.0+cu118",
+          "dtype": "bfloat16",
+          "max_model_len": 8192,
+          "max_num_seqs": 32,
+          "max_num_batched_tokens": 8192,
+          "gpu_memory_utilization": 0.8,
+          "tensor_parallel_size": 1,
+          "generation_config": "vllm"
+        },
+        "decoding": {
+          "temperature": 0,
+          "top_p": 1,
+          "top_k": -1,
+          "max_new_tokens": 512,
+          "stop_token_ids": [
+            151645,
+            151643
+          ],
+          "seed": 42
+        },
+        "batch_size": 32
+      },
+      "prediction_sha256": "e27f0176ee4b3f31ba08014f06f09ebb6f911c4a226904ea25ba57718cbf227d",
+      "errors": 0,
+      "missing": 0,
+      "compute_cost": {
+        "elapsed_seconds": 174.85558588430285,
+        "input_tokens": 410719,
+        "generated_tokens": 65485,
+        "gpu_peak_allocated_bytes": null,
+        "torch_cuda_reserved_bytes": null,
+        "note": "allocated/reserved do not include all vLLM GPU allocations; wall time excludes CPU prompt/hash preparation"
+      }
+    },
+    {
+      "method": "ssu",
+      "benchmark": "xlsum_en_v2",
+      "status": "VERIFIED_COMPLETE",
+      "execution_state": "COMPLETE",
+      "samples": 11535,
+      "metrics": {
+        "ROUGE-1": 15.4715898130302,
+        "ROUGE-2": 3.5236080122304583,
+        "ROUGE-Lsum": 13.181292981342768,
+        "chrF++": 21.51408202721488
+      },
+      "summary": "individual/ssu__xlsum_en_v2.json",
+      "diagnostics": {
+        "empty_count": 0,
+        "repetition_count": 1,
+        "cap_count": 1922,
+        "input_truncated_count": 0,
+        "language_measured": 11535,
+        "language_mismatch": 0,
+        "language_unknown": 0
+      },
+      "checkpoint": {
+        "sw_aya6400_ssu_wanda_seed42_final_v1/config.json": "289247dd72c5d673c42846c1ea51472553c774ec33331d8c36c81558c572f6f2",
+        "Qwen3-1.7B/tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+        "Qwen3-1.7B/tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+        "sw_aya6400_ssu_wanda_seed42_final_v1/model.safetensors": "6ff02928690dc4fd8e39c42908507eecd6e47d6e968f1454bc14cf75f2f90450"
+      },
+      "direction": "en->en",
+      "protocol_version": "bench-v2.1",
+      "generation_parameters": {
+        "backend": {
+          "vllm": "0.9.2+cu118",
+          "transformers": "4.53.2",
+          "torch": "2.7.0+cu118",
+          "dtype": "bfloat16",
+          "max_model_len": 8192,
+          "max_num_seqs": 32,
+          "max_num_batched_tokens": 8192,
+          "gpu_memory_utilization": 0.8,
+          "tensor_parallel_size": 1,
+          "generation_config": "vllm"
+        },
+        "decoding": {
+          "temperature": 0,
+          "top_p": 1,
+          "top_k": -1,
+          "max_new_tokens": 256,
+          "stop_token_ids": [
+            151645,
+            151643
+          ],
+          "seed": 42
+        },
+        "batch_size": 32
+      },
+      "prediction_sha256": "63d3c9907637046be35efb4d39dd30765225c8d6368d2f2bae3e8821d29c9abf",
+      "errors": 0,
+      "missing": 0,
+      "compute_cost": {
+        "elapsed_seconds": 1345.269347768277,
+        "input_tokens": 6822432,
+        "generated_tokens": 1880846,
+        "gpu_peak_allocated_bytes": null,
+        "torch_cuda_reserved_bytes": null,
+        "note": "allocated/reserved do not include all vLLM GPU allocations; wall time excludes CPU prompt/hash preparation"
+      }
+    },
+    {
+      "method": "ssu",
+      "benchmark": "xlsum_sw_v2",
+      "status": "VERIFIED_COMPLETE",
+      "execution_state": "COMPLETE",
+      "samples": 987,
+      "metrics": {
+        "ROUGE-1": 16.52132413572779,
+        "ROUGE-2": 4.39695760959939,
+        "ROUGE-Lsum": 13.460002964196226,
+        "chrF++": 26.34421540837113
+      },
+      "summary": "individual/ssu__xlsum_sw_v2.json",
+      "diagnostics": {
+        "empty_count": 0,
+        "repetition_count": 19,
+        "cap_count": 726,
+        "input_truncated_count": 0,
+        "language_measured": 981,
+        "language_mismatch": 0,
+        "language_unknown": 6
+      },
+      "checkpoint": {
+        "sw_aya6400_ssu_wanda_seed42_final_v1/config.json": "289247dd72c5d673c42846c1ea51472553c774ec33331d8c36c81558c572f6f2",
+        "Qwen3-1.7B/tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+        "Qwen3-1.7B/tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+        "sw_aya6400_ssu_wanda_seed42_final_v1/model.safetensors": "6ff02928690dc4fd8e39c42908507eecd6e47d6e968f1454bc14cf75f2f90450"
+      },
+      "direction": "sw->sw",
+      "protocol_version": "bench-v2.1",
+      "generation_parameters": {
+        "backend": {
+          "vllm": "0.9.2+cu118",
+          "transformers": "4.53.2",
+          "torch": "2.7.0+cu118",
+          "dtype": "bfloat16",
+          "max_model_len": 8192,
+          "max_num_seqs": 32,
+          "max_num_batched_tokens": 8192,
+          "gpu_memory_utilization": 0.8,
+          "tensor_parallel_size": 1,
+          "generation_config": "vllm"
+        },
+        "decoding": {
+          "temperature": 0,
+          "top_p": 1,
+          "top_k": -1,
+          "max_new_tokens": 256,
+          "stop_token_ids": [
+            151645,
+            151643
+          ],
+          "seed": 42
+        },
+        "batch_size": 32
+      },
+      "prediction_sha256": "501819421e630510e9fb8069c415a4aa21e54e8bf55fef7fed2894a707176e66",
+      "errors": 0,
+      "missing": 0,
+      "compute_cost": {
+        "elapsed_seconds": 222.30442175269127,
+        "input_tokens": 979052,
+        "generated_tokens": 221940,
+        "gpu_peak_allocated_bytes": null,
+        "torch_cuda_reserved_bytes": null,
+        "note": "allocated/reserved do not include all vLLM GPU allocations; wall time excludes CPU prompt/hash preparation"
+      }
+    },
+    {
+      "method": "ssu",
+      "benchmark": "humaneval_plus_v2",
+      "status": "NOT_RUN",
+      "execution_state": "COMPLETE",
+      "samples": 164,
+      "metrics": {
+        "pass@1_base": null,
+        "pass@1_plus": null
+      },
+      "summary": "individual/ssu__humaneval_plus_v2.json",
+      "diagnostics": {
+        "empty_code_count": 0,
+        "syntax_error_count": 0,
+        "signature_arity_valid_count": 164,
+        "cap_count": 0,
+        "fenced_output_count": 164,
+        "runtime_error_count": null,
+        "timeout_count": null
+      },
+      "checkpoint": {
+        "sw_aya6400_ssu_wanda_seed42_final_v1/config.json": "289247dd72c5d673c42846c1ea51472553c774ec33331d8c36c81558c572f6f2",
+        "Qwen3-1.7B/tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+        "Qwen3-1.7B/tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+        "sw_aya6400_ssu_wanda_seed42_final_v1/model.safetensors": "6ff02928690dc4fd8e39c42908507eecd6e47d6e968f1454bc14cf75f2f90450"
+      },
+      "direction": "en->python",
+      "protocol_version": "bench-v2.1",
+      "generation_parameters": {
+        "backend": {
+          "vllm": "0.9.2+cu118",
+          "transformers": "4.53.2",
+          "torch": "2.7.0+cu118",
+          "dtype": "bfloat16",
+          "max_model_len": 8192,
+          "max_num_seqs": 32,
+          "max_num_batched_tokens": 8192,
+          "gpu_memory_utilization": 0.8,
+          "tensor_parallel_size": 1,
+          "generation_config": "vllm"
+        },
+        "decoding": {
+          "temperature": 0,
+          "top_p": 1,
+          "top_k": -1,
+          "max_new_tokens": 1024,
+          "stop_token_ids": [
+            151645,
+            151643
+          ],
+          "seed": 42
+        },
+        "batch_size": 32
+      },
+      "prediction_sha256": "9987154c60eeaef0747711b28c43c9f8bb66f0240fd63c8091ce0bfff3d7ad1c",
+      "errors": 0,
+      "missing": 0,
+      "compute_cost": {
+        "elapsed_seconds": 83.51898758485913,
+        "input_tokens": 27424,
+        "generated_tokens": 20081,
+        "gpu_peak_allocated_bytes": null,
+        "torch_cuda_reserved_bytes": null,
+        "note": "allocated/reserved do not include all vLLM GPU allocations; wall time excludes CPU prompt/hash preparation"
+      }
+    },
+    {
+      "method": "ssu",
+      "benchmark": "mbpp_plus_v2",
+      "status": "NOT_RUN",
+      "execution_state": "COMPLETE",
+      "samples": 378,
+      "metrics": {
+        "pass@1_base": null,
+        "pass@1_plus": null
+      },
+      "summary": "individual/ssu__mbpp_plus_v2.json",
+      "diagnostics": {
+        "empty_code_count": 0,
+        "syntax_error_count": 1,
+        "signature_arity_valid_count": 348,
+        "cap_count": 10,
+        "fenced_output_count": 378,
+        "runtime_error_count": null,
+        "timeout_count": null
+      },
+      "checkpoint": {
+        "sw_aya6400_ssu_wanda_seed42_final_v1/config.json": "289247dd72c5d673c42846c1ea51472553c774ec33331d8c36c81558c572f6f2",
+        "Qwen3-1.7B/tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+        "Qwen3-1.7B/tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+        "sw_aya6400_ssu_wanda_seed42_final_v1/model.safetensors": "6ff02928690dc4fd8e39c42908507eecd6e47d6e968f1454bc14cf75f2f90450"
+      },
+      "direction": "en->python",
+      "protocol_version": "bench-v2.1",
+      "generation_parameters": {
+        "backend": {
+          "vllm": "0.9.2+cu118",
+          "transformers": "4.53.2",
+          "torch": "2.7.0+cu118",
+          "dtype": "bfloat16",
+          "max_model_len": 8192,
+          "max_num_seqs": 32,
+          "max_num_batched_tokens": 8192,
+          "gpu_memory_utilization": 0.8,
+          "tensor_parallel_size": 1,
+          "generation_config": "vllm"
+        },
+        "decoding": {
+          "temperature": 0,
+          "top_p": 1,
+          "top_k": -1,
+          "max_new_tokens": 1024,
+          "stop_token_ids": [
+            151645,
+            151643
+          ],
+          "seed": 42
+        },
+        "batch_size": 32
+      },
+      "prediction_sha256": "d94ad60d13d89d9930a90f4a3deb5ce9d4c72639fb9c3df3e061d1b81b14aa0b",
+      "errors": 0,
+      "missing": 0,
+      "compute_cost": {
+        "elapsed_seconds": 126.85347920842469,
+        "input_tokens": 31943,
+        "generated_tokens": 34764,
+        "gpu_peak_allocated_bytes": null,
+        "torch_cuda_reserved_bytes": null,
+        "note": "allocated/reserved do not include all vLLM GPU allocations; wall time excludes CPU prompt/hash preparation"
+      }
+    }
+  ],
+  "paired_comparisons": [
+    {
+      "benchmark": "flores200_en_sw_full_devtest_v2",
+      "method": "full",
+      "metric": "chrF++",
+      "delta": 2.6012392840859055,
+      "ci95_low": 2.3002338590827938,
+      "ci95_high": 2.897940262858782,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 1012,
+      "unit": "paired original sample IDs",
+      "algorithm": "resample segment statistics then recompute corpus metric; not mean sentence scores",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "benchmark": "flores200_en_sw_full_devtest_v2",
+      "method": "full",
+      "metric": "BLEU",
+      "delta": 0.13268649866066762,
+      "ci95_low": 0.089569217367965,
+      "ci95_high": 0.17528290732922314,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 1012,
+      "unit": "paired original sample IDs",
+      "algorithm": "resample segment statistics then recompute corpus metric; not mean sentence scores",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "benchmark": "flores200_sw_en_full_devtest_v2",
+      "method": "full",
+      "metric": "chrF++",
+      "delta": -8.793311991578271,
+      "ci95_low": -9.501944217547893,
+      "ci95_high": -8.041562662836409,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 1012,
+      "unit": "paired original sample IDs",
+      "algorithm": "resample segment statistics then recompute corpus metric; not mean sentence scores",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "benchmark": "flores200_sw_en_full_devtest_v2",
+      "method": "full",
+      "metric": "BLEU",
+      "delta": -2.134273596477045,
+      "ci95_low": -2.7927700321040456,
+      "ci95_high": -1.5572574051682049,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 1012,
+      "unit": "paired original sample IDs",
+      "algorithm": "resample segment statistics then recompute corpus metric; not mean sentence scores",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "benchmark": "xlsum_en_v2",
+      "method": "full",
+      "metric": "chrF++",
+      "delta": 0.9605691431584624,
+      "ci95_low": 0.8586400393581008,
+      "ci95_high": 1.0596833406201744,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 11535,
+      "unit": "paired original sample IDs",
+      "algorithm": "resample segment statistics then recompute corpus metric; not mean sentence scores",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "benchmark": "xlsum_en_v2",
+      "method": "full",
+      "metric": "ROUGE-1",
+      "delta": 1.6310141769706845,
+      "ci95_low": 1.5288618361224675,
+      "ci95_high": 1.7244688268885766,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 11535,
+      "unit": "paired original article IDs",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "benchmark": "xlsum_en_v2",
+      "method": "full",
+      "metric": "ROUGE-2",
+      "delta": 0.6960581130325849,
+      "ci95_low": 0.644823701703623,
+      "ci95_high": 0.7550755990962399,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 11535,
+      "unit": "paired original article IDs",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "benchmark": "xlsum_en_v2",
+      "method": "full",
+      "metric": "ROUGE-Lsum",
+      "delta": 1.366518532976983,
+      "ci95_low": 1.2726815661818347,
+      "ci95_high": 1.45231728534061,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 11535,
+      "unit": "paired original article IDs",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "benchmark": "xlsum_sw_v2",
+      "method": "full",
+      "metric": "chrF++",
+      "delta": 6.98617497230029,
+      "ci95_low": 6.336776149039966,
+      "ci95_high": 7.577212928498861,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 987,
+      "unit": "paired original sample IDs",
+      "algorithm": "resample segment statistics then recompute corpus metric; not mean sentence scores",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "benchmark": "xlsum_sw_v2",
+      "method": "full",
+      "metric": "ROUGE-1",
+      "delta": 6.284897733263055,
+      "ci95_low": 5.687226319293092,
+      "ci95_high": 6.816764094117885,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 987,
+      "unit": "paired original article IDs",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "benchmark": "xlsum_sw_v2",
+      "method": "full",
+      "metric": "ROUGE-2",
+      "delta": 1.6681781805087323,
+      "ci95_low": 1.405666422811933,
+      "ci95_high": 1.9257166841076923,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 987,
+      "unit": "paired original article IDs",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "benchmark": "xlsum_sw_v2",
+      "method": "full",
+      "metric": "ROUGE-Lsum",
+      "delta": 4.777573246258505,
+      "ci95_low": 4.285052914312654,
+      "ci95_high": 5.235324987083257,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 987,
+      "unit": "paired original article IDs",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "benchmark": "flores200_en_sw_full_devtest_v2",
+      "method": "lora",
+      "metric": "chrF++",
+      "delta": 1.7321948000060674,
+      "ci95_low": 1.4421528367690546,
+      "ci95_high": 2.0397021100266977,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 1012,
+      "unit": "paired original sample IDs",
+      "algorithm": "resample segment statistics then recompute corpus metric; not mean sentence scores",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "benchmark": "flores200_en_sw_full_devtest_v2",
+      "method": "lora",
+      "metric": "BLEU",
+      "delta": 0.07007616072639644,
+      "ci95_low": 0.03311795143561361,
+      "ci95_high": 0.10612842932967276,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 1012,
+      "unit": "paired original sample IDs",
+      "algorithm": "resample segment statistics then recompute corpus metric; not mean sentence scores",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "benchmark": "flores200_sw_en_full_devtest_v2",
+      "method": "lora",
+      "metric": "chrF++",
+      "delta": -7.450735290147808,
+      "ci95_low": -8.292212013889213,
+      "ci95_high": -6.568726928345969,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 1012,
+      "unit": "paired original sample IDs",
+      "algorithm": "resample segment statistics then recompute corpus metric; not mean sentence scores",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "benchmark": "flores200_sw_en_full_devtest_v2",
+      "method": "lora",
+      "metric": "BLEU",
+      "delta": -1.6956726581819797,
+      "ci95_low": -2.3483619321292677,
+      "ci95_high": -1.0465931862745101,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 1012,
+      "unit": "paired original sample IDs",
+      "algorithm": "resample segment statistics then recompute corpus metric; not mean sentence scores",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "benchmark": "xlsum_en_v2",
+      "method": "lora",
+      "metric": "chrF++",
+      "delta": 2.4204390030592755,
+      "ci95_low": 2.3262079750142868,
+      "ci95_high": 2.5254607623050327,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 11535,
+      "unit": "paired original sample IDs",
+      "algorithm": "resample segment statistics then recompute corpus metric; not mean sentence scores",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "benchmark": "xlsum_en_v2",
+      "method": "lora",
+      "metric": "ROUGE-1",
+      "delta": 3.434713585991585,
+      "ci95_low": 3.330201798538804,
+      "ci95_high": 3.5420694881014354,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 11535,
+      "unit": "paired original article IDs",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "benchmark": "xlsum_en_v2",
+      "method": "lora",
+      "metric": "ROUGE-2",
+      "delta": 0.9773450063980353,
+      "ci95_low": 0.9236169606125879,
+      "ci95_high": 1.0410550592322358,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 11535,
+      "unit": "paired original article IDs",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "benchmark": "xlsum_en_v2",
+      "method": "lora",
+      "metric": "ROUGE-Lsum",
+      "delta": 2.7659679351632973,
+      "ci95_low": 2.6762838660862163,
+      "ci95_high": 2.857274085513106,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 11535,
+      "unit": "paired original article IDs",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "benchmark": "xlsum_sw_v2",
+      "method": "lora",
+      "metric": "chrF++",
+      "delta": 6.923447652631189,
+      "ci95_low": 6.256190822505067,
+      "ci95_high": 7.570337080176133,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 987,
+      "unit": "paired original sample IDs",
+      "algorithm": "resample segment statistics then recompute corpus metric; not mean sentence scores",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "benchmark": "xlsum_sw_v2",
+      "method": "lora",
+      "metric": "ROUGE-1",
+      "delta": 6.3380734790397595,
+      "ci95_low": 5.780122424996154,
+      "ci95_high": 6.885048326923867,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 987,
+      "unit": "paired original article IDs",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "benchmark": "xlsum_sw_v2",
+      "method": "lora",
+      "metric": "ROUGE-2",
+      "delta": 1.59658754031054,
+      "ci95_low": 1.2898555126332134,
+      "ci95_high": 1.9030870261298531,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 987,
+      "unit": "paired original article IDs",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "benchmark": "xlsum_sw_v2",
+      "method": "lora",
+      "metric": "ROUGE-Lsum",
+      "delta": 4.836882130958575,
+      "ci95_low": 4.357360755041573,
+      "ci95_high": 5.272171363512365,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 987,
+      "unit": "paired original article IDs",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "benchmark": "flores200_en_sw_full_devtest_v2",
+      "method": "ssu",
+      "metric": "chrF++",
+      "delta": 0.7337059017302128,
+      "ci95_low": 0.5154999116938346,
+      "ci95_high": 0.9576922766503064,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 1012,
+      "unit": "paired original sample IDs",
+      "algorithm": "resample segment statistics then recompute corpus metric; not mean sentence scores",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "benchmark": "flores200_en_sw_full_devtest_v2",
+      "method": "ssu",
+      "metric": "BLEU",
+      "delta": 0.01155543575689888,
+      "ci95_low": -0.01613841613749977,
+      "ci95_high": 0.038209252155592205,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 1012,
+      "unit": "paired original sample IDs",
+      "algorithm": "resample segment statistics then recompute corpus metric; not mean sentence scores",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "benchmark": "flores200_sw_en_full_devtest_v2",
+      "method": "ssu",
+      "metric": "chrF++",
+      "delta": -4.308128647143381,
+      "ci95_low": -5.2620776727092435,
+      "ci95_high": -3.310143533240516,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 1012,
+      "unit": "paired original sample IDs",
+      "algorithm": "resample segment statistics then recompute corpus metric; not mean sentence scores",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "benchmark": "flores200_sw_en_full_devtest_v2",
+      "method": "ssu",
+      "metric": "BLEU",
+      "delta": -1.8518575278606768,
+      "ci95_low": -2.4617927082059015,
+      "ci95_high": -1.2043163529676524,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 1012,
+      "unit": "paired original sample IDs",
+      "algorithm": "resample segment statistics then recompute corpus metric; not mean sentence scores",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "benchmark": "xlsum_en_v2",
+      "method": "ssu",
+      "metric": "chrF++",
+      "delta": 0.45913490008356206,
+      "ci95_low": 0.39063956854108195,
+      "ci95_high": 0.5315353966208772,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 11535,
+      "unit": "paired original sample IDs",
+      "algorithm": "resample segment statistics then recompute corpus metric; not mean sentence scores",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "benchmark": "xlsum_en_v2",
+      "method": "ssu",
+      "metric": "ROUGE-1",
+      "delta": 0.6541872026016318,
+      "ci95_low": 0.5763436687316015,
+      "ci95_high": 0.7314283430235006,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 11535,
+      "unit": "paired original article IDs",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "benchmark": "xlsum_en_v2",
+      "method": "ssu",
+      "metric": "ROUGE-2",
+      "delta": 0.4440787097058111,
+      "ci95_low": 0.4016027197126875,
+      "ci95_high": 0.4896943542153179,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 11535,
+      "unit": "paired original article IDs",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "benchmark": "xlsum_en_v2",
+      "method": "ssu",
+      "metric": "ROUGE-Lsum",
+      "delta": 0.6807098652540128,
+      "ci95_low": 0.6091421765660767,
+      "ci95_high": 0.7534608088169725,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 11535,
+      "unit": "paired original article IDs",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "benchmark": "xlsum_sw_v2",
+      "method": "ssu",
+      "metric": "chrF++",
+      "delta": 6.79367381229638,
+      "ci95_low": 6.138882175877942,
+      "ci95_high": 7.38438896982451,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 987,
+      "unit": "paired original sample IDs",
+      "algorithm": "resample segment statistics then recompute corpus metric; not mean sentence scores",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "benchmark": "xlsum_sw_v2",
+      "method": "ssu",
+      "metric": "ROUGE-1",
+      "delta": 5.500283290196017,
+      "ci95_low": 4.959076583367298,
+      "ci95_high": 5.994618356264031,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 987,
+      "unit": "paired original article IDs",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "benchmark": "xlsum_sw_v2",
+      "method": "ssu",
+      "metric": "ROUGE-2",
+      "delta": 1.5162460482886588,
+      "ci95_low": 1.2276764933063544,
+      "ci95_high": 1.7737884847845724,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 987,
+      "unit": "paired original article IDs",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "benchmark": "xlsum_sw_v2",
+      "method": "ssu",
+      "metric": "ROUGE-Lsum",
+      "delta": 4.243175367136311,
+      "ci95_low": 3.791808490690547,
+      "ci95_high": 4.6804700318244565,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 987,
+      "unit": "paired original article IDs",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    }
+  ],
+  "evidence": [
+    {
+      "key": "base|flores200_en_sw_full_devtest_v2|full",
+      "manifest_sha256": "f711c60ceda3fc72d7bce4aae2bbf06a6df58e704c2f6c6ddd69bab5bcbd58cf",
+      "prediction_sha256": "dd2aaacfd587b8ebe80370ff9ca1972e862a2fa284ea32bf885964acb1776e42",
+      "summary_sha256": "aaca8d2290a91d14c20652cecd12c63c643df6c76f0b8af49c98c62e1e896eeb"
+    },
+    {
+      "key": "base|flores200_sw_en_full_devtest_v2|full",
+      "manifest_sha256": "be50d9a1786bbc25c7d33e2be7c3e0090bb15e05e55a0a9ce484609fe9a1d78c",
+      "prediction_sha256": "f6d569af4e3762d681f7433e70b35ae3b7c3b82b908b047659b55cad61ed013e",
+      "summary_sha256": "7d2e5461789818a8d24c911d21eb146ffc49cf54d365ce53de6c9cffea8969ab"
+    },
+    {
+      "key": "base|xlsum_en_v2|full",
+      "manifest_sha256": "0ae570dc118291e5a714c9fdbfea2a18d3f77ede0f209940607aaaa07fec698f",
+      "prediction_sha256": "a46605e57cfe5372140ad99ad05f3f753feffaa1c65d26bf67823012f51a8b68",
+      "summary_sha256": "c6472d4d2cfbaa2cdeb9aabea235cb4444aca9c6f0cea49d42ebfebab675c2ff"
+    },
+    {
+      "key": "base|xlsum_sw_v2|full",
+      "manifest_sha256": "0c60afff53ee6d1cd8a8b72108811e7f591af31835341c00a9ce6e28231cb05a",
+      "prediction_sha256": "2dc51397df21d6e73f9b500266844ffcf01011246115d28aab707c3746ac270a",
+      "summary_sha256": "a12825d572fcdd87b2f5e949a6fc5d253dd32d4e18eeb149b307c39144fca406"
+    },
+    {
+      "key": "base|humaneval_plus_v2|full",
+      "manifest_sha256": "4d5c3826793b471360648e5272ecc60db75d510ca961eb72b4f7746068015326",
+      "prediction_sha256": "f564b63b733624978d5f8a0bd8496780a081e9ba2c5f036feb93da02339c4304",
+      "summary_sha256": "a627f503f96129493f60b88db73869822884821f9eea3538a203bc4987d4b783"
+    },
+    {
+      "key": "base|mbpp_plus_v2|full",
+      "manifest_sha256": "dfd71f54e2012d2480d37146f1fc664a30523a22bb7af73992d5cbe8f25aa88a",
+      "prediction_sha256": "50eb5ad9d56e67e16338eb4feb3d544e6abe462d570c52173e77383c81894cf3",
+      "summary_sha256": "c16acdd3c882583c9df852cc98e87e09f3ef76a6406bf512fbc2e2e18aed6ae6"
+    },
+    {
+      "key": "full|flores200_en_sw_full_devtest_v2|full",
+      "manifest_sha256": "f0bb751c54292c1bfa63ff461705395d92de755456a9962facedc9f4411be23e",
+      "prediction_sha256": "44f248bc33d88d538c711876e503cdcc0a3c8570f7f058e1a75c9b2b1f81571e",
+      "summary_sha256": "303be5ad4bfea6010f6c9a690a7395558ca5104a48e026f4b5a96cdee72f26bc"
+    },
+    {
+      "key": "full|flores200_sw_en_full_devtest_v2|full",
+      "manifest_sha256": "b994d00d054f55af6cb86066d1bdff24ebd7c45704fe8912177f71149e6cb745",
+      "prediction_sha256": "10b97f37bb1d56135739fe74c8b68247f0368fec852d86f1a1338753b240a98f",
+      "summary_sha256": "e162b3c9d4f8deb38509fde44eb18b6266e02f0707473fed4a829e5f46d292ec"
+    },
+    {
+      "key": "full|xlsum_en_v2|full",
+      "manifest_sha256": "7f5623c0b56b2c13b68b7982735e99cfb7d79d484ade51a8647797c0888dc09e",
+      "prediction_sha256": "b4f42c9caa5722fc7e6d6739f51a7eaa86af3fca344389db4027dc1e6a4529c8",
+      "summary_sha256": "488f6aaeb7507d328a24d39116d82dbcd18d86458d3d0699ae476bc0f123378b"
+    },
+    {
+      "key": "full|xlsum_sw_v2|full",
+      "manifest_sha256": "b0b690226453122e937bf826037e633bafa5c5ffa3674a029ed231f4889227ee",
+      "prediction_sha256": "a608df08ea9f985fb75a99dfd87af9ebfeea35c1652f1e7607accbafa6ada03a",
+      "summary_sha256": "063ec4f7869cdceb9ba7715a57a857402ed7856f74f64c0cf6c1b02e70896612"
+    },
+    {
+      "key": "full|humaneval_plus_v2|full",
+      "manifest_sha256": "532df98fe88718ca3635bd36b3d3bfc060c6bee7d3eae2e387753a4085830075",
+      "prediction_sha256": "845a5a2ea18de03cd2610dfe670122d29800d19c24524d032287543406732972",
+      "summary_sha256": "a8098f495d850db05ecec1804d666e8e3fffd9fcc25f27989e0351e750c68add"
+    },
+    {
+      "key": "full|mbpp_plus_v2|full",
+      "manifest_sha256": "73e7b0afa1e22230214ce164608f4674aea8370ff08cbb9ce88f6e0f7fd45c5e",
+      "prediction_sha256": "ad22011e2b4164e9541418c2717747e70d0359a12c4390d4c4614af5a154fbed",
+      "summary_sha256": "f485b0d95db951beb0cdeefde8bfcfca7c6a4d39b84f709c78c78e7d0905dec8"
+    },
+    {
+      "key": "lora|flores200_en_sw_full_devtest_v2|full",
+      "manifest_sha256": "6fd6cc32ed53ee8ba3ad106ab93251db6d8c24d3bf2d8a176fb399071301e8b2",
+      "prediction_sha256": "c7a76ab6bc6ba8d2e5d3755e0e60205a6f01d0216ed71722d8b8672761cce7f1",
+      "summary_sha256": "e0d618f8d5bc74f8eecb5c005efc7307908734330d718c6da0fcb5124c6adfb1"
+    },
+    {
+      "key": "lora|flores200_sw_en_full_devtest_v2|full",
+      "manifest_sha256": "cde4b8d2f5531f83d1109b91401b9b6533f8c3e919894a45f5293f15524fcb53",
+      "prediction_sha256": "725992a9a8f7f32fdf5827bfaff208109821cf709f9ce82979bbb521c95bf0a9",
+      "summary_sha256": "e237762113f19abb64e761894ade52e506adfc26cb5a0f5271e62271ebca6c25"
+    },
+    {
+      "key": "lora|xlsum_en_v2|full",
+      "manifest_sha256": "f3d95ab625e20ac60e121e1a5aa250d6d955db85a9fb3c09d8f667d4d502b679",
+      "prediction_sha256": "b8bff769719e31160a15d5e7e41bb6f6e39c32d53a56e41d9e2200bda1c7cc91",
+      "summary_sha256": "9cb8cc523ce31ac73503dc90c8bb3d878c1a640cfc054826f1a7f98651125468"
+    },
+    {
+      "key": "lora|xlsum_sw_v2|full",
+      "manifest_sha256": "2d9b889164dae3f018d4454c9c961a8df782f4970b32cb1f25bd9a206376de72",
+      "prediction_sha256": "9699e9e5145ae91fc3402f1918b9554837031ea48d35fb1776003e011d759035",
+      "summary_sha256": "b34909cf978f59be435fc65d5fd805dc7c3825ffb23773333d8d4ac77312ccdd"
+    },
+    {
+      "key": "lora|humaneval_plus_v2|full",
+      "manifest_sha256": "16f1eef84278d552d268fac25e6efd5e4c84458e62746805a2723380c63811e8",
+      "prediction_sha256": "e58aa2495f2f7027ea2a62b38874a5a493a1ef1fe665d31fbd57063ed3aa83ac",
+      "summary_sha256": "6ea3f026574052a51241f398c59d571228f0cd4bb7a688564b38ebe5458ec0a7"
+    },
+    {
+      "key": "lora|mbpp_plus_v2|full",
+      "manifest_sha256": "d421c5238186335ecffa9e17c2ec2e80b8dd10d4c6d32b713aa441a612072645",
+      "prediction_sha256": "5ea8ef0e1f87ba0725d2a3f6e341fe87d56b2b1355f321815b473c57347c655e",
+      "summary_sha256": "537460a059f24f7736460e39172494e403095061ac321f30fc9a25d97f81608a"
+    },
+    {
+      "key": "ssu|flores200_en_sw_full_devtest_v2|full",
+      "manifest_sha256": "7821b89483a37cae0dbc9ffdf2160e7e18e1e956d494a6a38fb8c78e75dca45c",
+      "prediction_sha256": "8433a5f55baaffe5c94c1f048f93e87c81ab913770237cabfb7ce62735623430",
+      "summary_sha256": "cbb6a67258452a9e5401dc83d91e97a7b58b5b343994e04976022c4237e58df1"
+    },
+    {
+      "key": "ssu|flores200_sw_en_full_devtest_v2|full",
+      "manifest_sha256": "8da74f18d427353072b0cbefaf4e81fbadec067ab17c3a7a536389a4a1e5da7a",
+      "prediction_sha256": "e27f0176ee4b3f31ba08014f06f09ebb6f911c4a226904ea25ba57718cbf227d",
+      "summary_sha256": "974a197f26148a63e71d4e4a936166451525730870c2a360ece2446c3fa293a3"
+    },
+    {
+      "key": "ssu|xlsum_en_v2|full",
+      "manifest_sha256": "db2ab4a7fc0477531ccd9ee65fb7cbc5a93638d056bf451942a7cbb3f03a26a3",
+      "prediction_sha256": "63d3c9907637046be35efb4d39dd30765225c8d6368d2f2bae3e8821d29c9abf",
+      "summary_sha256": "cc8bc75d4b18cd0ea6a429b8ed5617fab82b9cb4936ffb91754b7ffd91e44100"
+    },
+    {
+      "key": "ssu|xlsum_sw_v2|full",
+      "manifest_sha256": "7ca6d1c4bd3ce8d20cb3f954622b4128615567fc3d201bb931749be16c79947d",
+      "prediction_sha256": "501819421e630510e9fb8069c415a4aa21e54e8bf55fef7fed2894a707176e66",
+      "summary_sha256": "1311ea3ba97300daba5eb25111836d3f655aa5eeac6e7c9b0792a233e3dafcda"
+    },
+    {
+      "key": "ssu|humaneval_plus_v2|full",
+      "manifest_sha256": "d2f879d88d0c058d7a708ecef60f3b7ad9c92aeb425d8ee522a32e40475197f5",
+      "prediction_sha256": "9987154c60eeaef0747711b28c43c9f8bb66f0240fd63c8091ce0bfff3d7ad1c",
+      "summary_sha256": "23ea0e14872ac2a207ebbbef51dfda36e06bdf6443b763fb360f62d8a68271c4"
+    },
+    {
+      "key": "ssu|mbpp_plus_v2|full",
+      "manifest_sha256": "f9e4e6c2de9cc0cfe5e2f9fcc936d2a1d9c499651e89844854fe0796e0983d15",
+      "prediction_sha256": "d94ad60d13d89d9930a90f4a3deb5ce9d4c72639fb9c3df3e061d1b81b14aa0b",
+      "summary_sha256": "287505c0a45d38101cc1ec2f360a10c44fb932c7f2020cc7e39c86d8a9d3ed50"
+    }
+  ],
+  "limitations": [
+    "Code execution pass@1 remains NOT_RUN; static generation is not functional correctness.",
+    "Unadjusted exploratory intervals; no model selection from these formal test results.",
+    "Preliminary tables can contain pending tasks and do not establish final comparisons."
+  ],
+  "public_projection": "Host paths/GPU UUIDs omitted; checkpoint file hashes retained; summary paths are relative to this results directory."
+}

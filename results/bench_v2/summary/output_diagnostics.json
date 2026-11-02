@@ -1,0 +1,760 @@
+{
+  "results": [
+    {
+      "method": "base",
+      "benchmark": "flores200_en_sw_full_devtest_v2",
+      "samples": 1012,
+      "generated_tokens_mean": 457.29545454545456,
+      "generated_tokens_p50": 512.0,
+      "generated_tokens_p95": 512.0,
+      "input_tokens_mean": 380.29347826086956,
+      "cap_count": 887,
+      "source_exact_copy_count": 3,
+      "empty_count": 0,
+      "repetition_count": 867,
+      "language_measured": 997,
+      "language_mismatch_count": 82,
+      "language_mismatch_rate_among_measured": 0.08224674022066199,
+      "language_unknown": 15
+    },
+    {
+      "method": "base",
+      "benchmark": "flores200_sw_en_full_devtest_v2",
+      "samples": 1012,
+      "generated_tokens_mean": 40.0,
+      "generated_tokens_p50": 29.0,
+      "generated_tokens_p95": 58.0,
+      "input_tokens_mean": 405.848814229249,
+      "cap_count": 17,
+      "source_exact_copy_count": 5,
+      "empty_count": 0,
+      "repetition_count": 4,
+      "language_measured": 1000,
+      "language_mismatch_count": 14,
+      "language_mismatch_rate_among_measured": 0.014,
+      "language_unknown": 12
+    },
+    {
+      "method": "base",
+      "benchmark": "xlsum_en_v2",
+      "samples": 11535,
+      "generated_tokens_mean": 163.30446467273515,
+      "generated_tokens_p50": 160.0,
+      "generated_tokens_p95": 243.0,
+      "input_tokens_mean": 591.4548764629388,
+      "cap_count": 397,
+      "source_exact_copy_count": 0,
+      "empty_count": 0,
+      "repetition_count": 0,
+      "language_measured": 11535,
+      "language_mismatch_count": 0,
+      "language_mismatch_rate_among_measured": 0.0,
+      "language_unknown": 0,
+      "article_tokens_quantiles": {
+        "min": 77.0,
+        "p25": 318.0,
+        "p50": 458.0,
+        "p75": 720.0,
+        "p95": 1210.0,
+        "max": 2122.0
+      },
+      "article_truncated_count": 0,
+      "length_rouge_lsum_spearman": -0.18741229346795177,
+      "length_quartile_cutpoints": [
+        318.0,
+        458.0,
+        720.0
+      ],
+      "length_quartile_scores": [
+        {
+          "quartile": 1,
+          "samples": 2872,
+          "rouge_lsum": 13.624764796830734
+        },
+        {
+          "quartile": 2,
+          "samples": 2888,
+          "rouge_lsum": 12.664555344349427
+        },
+        {
+          "quartile": 3,
+          "samples": 2884,
+          "rouge_lsum": 12.222050738325102
+        },
+        {
+          "quartile": 4,
+          "samples": 2891,
+          "rouge_lsum": 11.497845584149148
+        }
+      ],
+      "source_copy_scope": "Exact whole-article copy only; does not measure partial extractiveness"
+    },
+    {
+      "method": "base",
+      "benchmark": "xlsum_sw_v2",
+      "samples": 987,
+      "generated_tokens_mean": 255.645390070922,
+      "generated_tokens_p50": 256.0,
+      "generated_tokens_p95": 256.0,
+      "input_tokens_mean": 991.9473150962513,
+      "cap_count": 980,
+      "source_exact_copy_count": 1,
+      "empty_count": 0,
+      "repetition_count": 324,
+      "language_measured": 985,
+      "language_mismatch_count": 1,
+      "language_mismatch_rate_among_measured": 0.0010152284263959391,
+      "language_unknown": 2,
+      "article_tokens_quantiles": {
+        "min": 215.0,
+        "p25": 501.5,
+        "p50": 799.0,
+        "p75": 1184.0,
+        "p95": 2025.2999999999993,
+        "max": 3338.0
+      },
+      "article_truncated_count": 0,
+      "length_rouge_lsum_spearman": -0.19735501167242198,
+      "length_quartile_cutpoints": [
+        501.5,
+        799.0,
+        1184.0
+      ],
+      "length_quartile_scores": [
+        {
+          "quartile": 1,
+          "samples": 247,
+          "rouge_lsum": 10.6148773909084
+        },
+        {
+          "quartile": 2,
+          "samples": 246,
+          "rouge_lsum": 10.329664539392803
+        },
+        {
+          "quartile": 3,
+          "samples": 246,
+          "rouge_lsum": 8.859681518300825
+        },
+        {
+          "quartile": 4,
+          "samples": 248,
+          "rouge_lsum": 7.074818518351327
+        }
+      ],
+      "source_copy_scope": "Exact whole-article copy only; does not measure partial extractiveness"
+    },
+    {
+      "method": "base",
+      "benchmark": "humaneval_plus_v2",
+      "samples": 164,
+      "generated_tokens_mean": 288.8841463414634,
+      "generated_tokens_p50": 286.5,
+      "generated_tokens_p95": 473.09999999999997,
+      "input_tokens_mean": 167.21951219512195,
+      "cap_count": 0,
+      "source_exact_copy_count": 0,
+      "static_diagnostics": {
+        "empty_code_count": 0,
+        "syntax_error_count": 0,
+        "signature_arity_valid_count": 164,
+        "cap_count": 0,
+        "fenced_output_count": 164,
+        "runtime_error_count": null,
+        "timeout_count": null
+      },
+      "execution_status": "NOT_RUN"
+    },
+    {
+      "method": "base",
+      "benchmark": "mbpp_plus_v2",
+      "samples": 378,
+      "generated_tokens_mean": 183.89153439153438,
+      "generated_tokens_p50": 174.0,
+      "generated_tokens_p95": 354.0,
+      "input_tokens_mean": 84.505291005291,
+      "cap_count": 0,
+      "source_exact_copy_count": 0,
+      "static_diagnostics": {
+        "empty_code_count": 0,
+        "syntax_error_count": 0,
+        "signature_arity_valid_count": 326,
+        "cap_count": 0,
+        "fenced_output_count": 378,
+        "runtime_error_count": null,
+        "timeout_count": null
+      },
+      "execution_status": "NOT_RUN"
+    },
+    {
+      "method": "full",
+      "benchmark": "flores200_en_sw_full_devtest_v2",
+      "samples": 1012,
+      "generated_tokens_mean": 351.40316205533594,
+      "generated_tokens_p50": 512.0,
+      "generated_tokens_p95": 512.0,
+      "input_tokens_mean": 380.29347826086956,
+      "cap_count": 641,
+      "source_exact_copy_count": 4,
+      "empty_count": 0,
+      "repetition_count": 595,
+      "language_measured": 999,
+      "language_mismatch_count": 8,
+      "language_mismatch_rate_among_measured": 0.008008008008008008,
+      "language_unknown": 13
+    },
+    {
+      "method": "full",
+      "benchmark": "flores200_sw_en_full_devtest_v2",
+      "samples": 1012,
+      "generated_tokens_mean": 55.80039525691699,
+      "generated_tokens_p50": 50.0,
+      "generated_tokens_p95": 87.0,
+      "input_tokens_mean": 405.848814229249,
+      "cap_count": 8,
+      "source_exact_copy_count": 669,
+      "empty_count": 0,
+      "repetition_count": 8,
+      "language_measured": 1006,
+      "language_mismatch_count": 994,
+      "language_mismatch_rate_among_measured": 0.9880715705765407,
+      "language_unknown": 6
+    },
+    {
+      "method": "full",
+      "benchmark": "xlsum_en_v2",
+      "samples": 11535,
+      "generated_tokens_mean": 141.91235370611184,
+      "generated_tokens_p50": 123.0,
+      "generated_tokens_p95": 256.0,
+      "input_tokens_mean": 591.4548764629388,
+      "cap_count": 1781,
+      "source_exact_copy_count": 74,
+      "empty_count": 0,
+      "repetition_count": 3,
+      "language_measured": 11535,
+      "language_mismatch_count": 1,
+      "language_mismatch_rate_among_measured": 8.669267446900737e-05,
+      "language_unknown": 0,
+      "article_tokens_quantiles": {
+        "min": 77.0,
+        "p25": 318.0,
+        "p50": 458.0,
+        "p75": 720.0,
+        "p95": 1210.0,
+        "max": 2122.0
+      },
+      "article_truncated_count": 0,
+      "length_rouge_lsum_spearman": -0.1868851147100555,
+      "length_quartile_cutpoints": [
+        318.0,
+        458.0,
+        720.0
+      ],
+      "length_quartile_scores": [
+        {
+          "quartile": 1,
+          "samples": 2872,
+          "rouge_lsum": 15.184528391577237
+        },
+        {
+          "quartile": 2,
+          "samples": 2888,
+          "rouge_lsum": 14.419823778797756
+        },
+        {
+          "quartile": 3,
+          "samples": 2884,
+          "rouge_lsum": 13.57178603902917
+        },
+        {
+          "quartile": 4,
+          "samples": 2891,
+          "rouge_lsum": 12.300785185622765
+        }
+      ],
+      "source_copy_scope": "Exact whole-article copy only; does not measure partial extractiveness",
+      "article_length_paired_rouge_delta_spearman": -0.0591732553243231
+    },
+    {
+      "method": "full",
+      "benchmark": "xlsum_sw_v2",
+      "samples": 987,
+      "generated_tokens_mean": 200.96757852077002,
+      "generated_tokens_p50": 256.0,
+      "generated_tokens_p95": 256.0,
+      "input_tokens_mean": 991.9473150962513,
+      "cap_count": 505,
+      "source_exact_copy_count": 0,
+      "empty_count": 0,
+      "repetition_count": 23,
+      "language_measured": 983,
+      "language_mismatch_count": 0,
+      "language_mismatch_rate_among_measured": 0.0,
+      "language_unknown": 4,
+      "article_tokens_quantiles": {
+        "min": 215.0,
+        "p25": 501.5,
+        "p50": 799.0,
+        "p75": 1184.0,
+        "p95": 2025.2999999999993,
+        "max": 3338.0
+      },
+      "article_truncated_count": 0,
+      "length_rouge_lsum_spearman": -0.12184840763537957,
+      "length_quartile_cutpoints": [
+        501.5,
+        799.0,
+        1184.0
+      ],
+      "length_quartile_scores": [
+        {
+          "quartile": 1,
+          "samples": 247,
+          "rouge_lsum": 14.598359969640148
+        },
+        {
+          "quartile": 2,
+          "samples": 246,
+          "rouge_lsum": 14.930411756389292
+        },
+        {
+          "quartile": 3,
+          "samples": 246,
+          "rouge_lsum": 14.367925820783508
+        },
+        {
+          "quartile": 4,
+          "samples": 248,
+          "rouge_lsum": 12.09390191882926
+        }
+      ],
+      "source_copy_scope": "Exact whole-article copy only; does not measure partial extractiveness",
+      "article_length_paired_rouge_delta_spearman": 0.08227887865221085
+    },
+    {
+      "method": "full",
+      "benchmark": "humaneval_plus_v2",
+      "samples": 164,
+      "generated_tokens_mean": 204.73170731707316,
+      "generated_tokens_p50": 146.5,
+      "generated_tokens_p95": 952.5999999999973,
+      "input_tokens_mean": 167.21951219512195,
+      "cap_count": 9,
+      "source_exact_copy_count": 0,
+      "static_diagnostics": {
+        "empty_code_count": 0,
+        "syntax_error_count": 0,
+        "signature_arity_valid_count": 162,
+        "cap_count": 9,
+        "fenced_output_count": 164,
+        "runtime_error_count": null,
+        "timeout_count": null
+      },
+      "execution_status": "NOT_RUN"
+    },
+    {
+      "method": "full",
+      "benchmark": "mbpp_plus_v2",
+      "samples": 378,
+      "generated_tokens_mean": 113.43915343915344,
+      "generated_tokens_p50": 59.0,
+      "generated_tokens_p95": 318.5999999999999,
+      "input_tokens_mean": 84.505291005291,
+      "cap_count": 12,
+      "source_exact_copy_count": 0,
+      "static_diagnostics": {
+        "empty_code_count": 0,
+        "syntax_error_count": 1,
+        "signature_arity_valid_count": 350,
+        "cap_count": 12,
+        "fenced_output_count": 368,
+        "runtime_error_count": null,
+        "timeout_count": null
+      },
+      "execution_status": "NOT_RUN"
+    },
+    {
+      "method": "lora",
+      "benchmark": "flores200_en_sw_full_devtest_v2",
+      "samples": 1012,
+      "generated_tokens_mean": 390.70454545454544,
+      "generated_tokens_p50": 512.0,
+      "generated_tokens_p95": 512.0,
+      "input_tokens_mean": 380.29347826086956,
+      "cap_count": 745,
+      "source_exact_copy_count": 2,
+      "empty_count": 0,
+      "repetition_count": 694,
+      "language_measured": 990,
+      "language_mismatch_count": 20,
+      "language_mismatch_rate_among_measured": 0.020202020202020204,
+      "language_unknown": 22
+    },
+    {
+      "method": "lora",
+      "benchmark": "flores200_sw_en_full_devtest_v2",
+      "samples": 1012,
+      "generated_tokens_mean": 58.32509881422925,
+      "generated_tokens_p50": 45.0,
+      "generated_tokens_p95": 88.0,
+      "input_tokens_mean": 405.848814229249,
+      "cap_count": 24,
+      "source_exact_copy_count": 412,
+      "empty_count": 0,
+      "repetition_count": 16,
+      "language_measured": 1002,
+      "language_mismatch_count": 810,
+      "language_mismatch_rate_among_measured": 0.8083832335329342,
+      "language_unknown": 10
+    },
+    {
+      "method": "lora",
+      "benchmark": "xlsum_en_v2",
+      "samples": 11535,
+      "generated_tokens_mean": 115.58916341569137,
+      "generated_tokens_p50": 98.0,
+      "generated_tokens_p95": 256.0,
+      "input_tokens_mean": 591.4548764629388,
+      "cap_count": 975,
+      "source_exact_copy_count": 36,
+      "empty_count": 0,
+      "repetition_count": 0,
+      "language_measured": 11535,
+      "language_mismatch_count": 0,
+      "language_mismatch_rate_among_measured": 0.0,
+      "language_unknown": 0,
+      "article_tokens_quantiles": {
+        "min": 77.0,
+        "p25": 318.0,
+        "p50": 458.0,
+        "p75": 720.0,
+        "p95": 1210.0,
+        "max": 2122.0
+      },
+      "article_truncated_count": 0,
+      "length_rouge_lsum_spearman": -0.16851124894851144,
+      "length_quartile_cutpoints": [
+        318.0,
+        458.0,
+        720.0
+      ],
+      "length_quartile_scores": [
+        {
+          "quartile": 1,
+          "samples": 2872,
+          "rouge_lsum": 16.505850286003113
+        },
+        {
+          "quartile": 2,
+          "samples": 2888,
+          "rouge_lsum": 15.757497953065064
+        },
+        {
+          "quartile": 3,
+          "samples": 2884,
+          "rouge_lsum": 15.07332562291042
+        },
+        {
+          "quartile": 4,
+          "samples": 2891,
+          "rouge_lsum": 13.737716765778595
+        }
+      ],
+      "source_copy_scope": "Exact whole-article copy only; does not measure partial extractiveness",
+      "article_length_paired_rouge_delta_spearman": -0.04193015346843214
+    },
+    {
+      "method": "lora",
+      "benchmark": "xlsum_sw_v2",
+      "samples": 987,
+      "generated_tokens_mean": 200.70719351570415,
+      "generated_tokens_p50": 256.0,
+      "generated_tokens_p95": 256.0,
+      "input_tokens_mean": 991.9473150962513,
+      "cap_count": 550,
+      "source_exact_copy_count": 0,
+      "empty_count": 0,
+      "repetition_count": 26,
+      "language_measured": 981,
+      "language_mismatch_count": 6,
+      "language_mismatch_rate_among_measured": 0.0061162079510703364,
+      "language_unknown": 6,
+      "article_tokens_quantiles": {
+        "min": 215.0,
+        "p25": 501.5,
+        "p50": 799.0,
+        "p75": 1184.0,
+        "p95": 2025.2999999999993,
+        "max": 3338.0
+      },
+      "article_truncated_count": 0,
+      "length_rouge_lsum_spearman": -0.16408566674421274,
+      "length_quartile_cutpoints": [
+        501.5,
+        799.0,
+        1184.0
+      ],
+      "length_quartile_scores": [
+        {
+          "quartile": 1,
+          "samples": 247,
+          "rouge_lsum": 15.153789310926056
+        },
+        {
+          "quartile": 2,
+          "samples": 246,
+          "rouge_lsum": 15.164515930022892
+        },
+        {
+          "quartile": 3,
+          "samples": 246,
+          "rouge_lsum": 13.766964829456374
+        },
+        {
+          "quartile": 4,
+          "samples": 248,
+          "rouge_lsum": 12.140650302111354
+        }
+      ],
+      "source_copy_scope": "Exact whole-article copy only; does not measure partial extractiveness",
+      "article_length_paired_rouge_delta_spearman": 0.045314143121375744
+    },
+    {
+      "method": "lora",
+      "benchmark": "humaneval_plus_v2",
+      "samples": 164,
+      "generated_tokens_mean": 114.6829268292683,
+      "generated_tokens_p50": 76.0,
+      "generated_tokens_p95": 234.1499999999999,
+      "input_tokens_mean": 167.21951219512195,
+      "cap_count": 4,
+      "source_exact_copy_count": 0,
+      "static_diagnostics": {
+        "empty_code_count": 0,
+        "syntax_error_count": 0,
+        "signature_arity_valid_count": 163,
+        "cap_count": 4,
+        "fenced_output_count": 162,
+        "runtime_error_count": null,
+        "timeout_count": null
+      },
+      "execution_status": "NOT_RUN"
+    },
+    {
+      "method": "lora",
+      "benchmark": "mbpp_plus_v2",
+      "samples": 378,
+      "generated_tokens_mean": 75.2063492063492,
+      "generated_tokens_p50": 42.0,
+      "generated_tokens_p95": 173.14999999999998,
+      "input_tokens_mean": 84.505291005291,
+      "cap_count": 7,
+      "source_exact_copy_count": 0,
+      "static_diagnostics": {
+        "empty_code_count": 0,
+        "syntax_error_count": 1,
+        "signature_arity_valid_count": 359,
+        "cap_count": 7,
+        "fenced_output_count": 372,
+        "runtime_error_count": null,
+        "timeout_count": null
+      },
+      "execution_status": "NOT_RUN"
+    },
+    {
+      "method": "ssu",
+      "benchmark": "flores200_en_sw_full_devtest_v2",
+      "samples": 1012,
+      "generated_tokens_mean": 432.39328063241106,
+      "generated_tokens_p50": 512.0,
+      "generated_tokens_p95": 512.0,
+      "input_tokens_mean": 380.29347826086956,
+      "cap_count": 835,
+      "source_exact_copy_count": 2,
+      "empty_count": 0,
+      "repetition_count": 777,
+      "language_measured": 1003,
+      "language_mismatch_count": 14,
+      "language_mismatch_rate_among_measured": 0.013958125623130608,
+      "language_unknown": 9
+    },
+    {
+      "method": "ssu",
+      "benchmark": "flores200_sw_en_full_devtest_v2",
+      "samples": 1012,
+      "generated_tokens_mean": 64.70849802371542,
+      "generated_tokens_p50": 31.0,
+      "generated_tokens_p95": 512.0,
+      "input_tokens_mean": 405.848814229249,
+      "cap_count": 66,
+      "source_exact_copy_count": 52,
+      "empty_count": 0,
+      "repetition_count": 21,
+      "language_measured": 992,
+      "language_mismatch_count": 153,
+      "language_mismatch_rate_among_measured": 0.15423387096774194,
+      "language_unknown": 20
+    },
+    {
+      "method": "ssu",
+      "benchmark": "xlsum_en_v2",
+      "samples": 11535,
+      "generated_tokens_mean": 163.05557000433464,
+      "generated_tokens_p50": 152.0,
+      "generated_tokens_p95": 256.0,
+      "input_tokens_mean": 591.4548764629388,
+      "cap_count": 1922,
+      "source_exact_copy_count": 73,
+      "empty_count": 0,
+      "repetition_count": 1,
+      "language_measured": 11535,
+      "language_mismatch_count": 0,
+      "language_mismatch_rate_among_measured": 0.0,
+      "language_unknown": 0,
+      "article_tokens_quantiles": {
+        "min": 77.0,
+        "p25": 318.0,
+        "p50": 458.0,
+        "p75": 720.0,
+        "p95": 1210.0,
+        "max": 2122.0
+      },
+      "article_truncated_count": 0,
+      "length_rouge_lsum_spearman": -0.16624599279183633,
+      "length_quartile_cutpoints": [
+        318.0,
+        458.0,
+        720.0
+      ],
+      "length_quartile_scores": [
+        {
+          "quartile": 1,
+          "samples": 2872,
+          "rouge_lsum": 14.324488891955058
+        },
+        {
+          "quartile": 2,
+          "samples": 2888,
+          "rouge_lsum": 13.400380251053958
+        },
+        {
+          "quartile": 3,
+          "samples": 2884,
+          "rouge_lsum": 12.932543521454459
+        },
+        {
+          "quartile": 4,
+          "samples": 2891,
+          "rouge_lsum": 12.074897530672922
+        }
+      ],
+      "source_copy_scope": "Exact whole-article copy only; does not measure partial extractiveness",
+      "article_length_paired_rouge_delta_spearman": -0.006044305369778147
+    },
+    {
+      "method": "ssu",
+      "benchmark": "xlsum_sw_v2",
+      "samples": 987,
+      "generated_tokens_mean": 224.86322188449847,
+      "generated_tokens_p50": 256.0,
+      "generated_tokens_p95": 256.0,
+      "input_tokens_mean": 991.9473150962513,
+      "cap_count": 726,
+      "source_exact_copy_count": 2,
+      "empty_count": 0,
+      "repetition_count": 19,
+      "language_measured": 981,
+      "language_mismatch_count": 0,
+      "language_mismatch_rate_among_measured": 0.0,
+      "language_unknown": 6,
+      "article_tokens_quantiles": {
+        "min": 215.0,
+        "p25": 501.5,
+        "p50": 799.0,
+        "p75": 1184.0,
+        "p95": 2025.2999999999993,
+        "max": 3338.0
+      },
+      "article_truncated_count": 0,
+      "length_rouge_lsum_spearman": -0.09202335177726095,
+      "length_quartile_cutpoints": [
+        501.5,
+        799.0,
+        1184.0
+      ],
+      "length_quartile_scores": [
+        {
+          "quartile": 1,
+          "samples": 247,
+          "rouge_lsum": 13.916094469883529
+        },
+        {
+          "quartile": 2,
+          "samples": 246,
+          "rouge_lsum": 14.204174418867854
+        },
+        {
+          "quartile": 3,
+          "samples": 246,
+          "rouge_lsum": 13.312062760385214
+        },
+        {
+          "quartile": 4,
+          "samples": 248,
+          "rouge_lsum": 12.41432760283947
+        }
+      ],
+      "source_copy_scope": "Exact whole-article copy only; does not measure partial extractiveness",
+      "article_length_paired_rouge_delta_spearman": 0.14181026767868557
+    },
+    {
+      "method": "ssu",
+      "benchmark": "humaneval_plus_v2",
+      "samples": 164,
+      "generated_tokens_mean": 122.4451219512195,
+      "generated_tokens_p50": 94.0,
+      "generated_tokens_p95": 247.04999999999993,
+      "input_tokens_mean": 167.21951219512195,
+      "cap_count": 0,
+      "source_exact_copy_count": 0,
+      "static_diagnostics": {
+        "empty_code_count": 0,
+        "syntax_error_count": 0,
+        "signature_arity_valid_count": 164,
+        "cap_count": 0,
+        "fenced_output_count": 164,
+        "runtime_error_count": null,
+        "timeout_count": null
+      },
+      "execution_status": "NOT_RUN"
+    },
+    {
+      "method": "ssu",
+      "benchmark": "mbpp_plus_v2",
+      "samples": 378,
+      "generated_tokens_mean": 91.96825396825396,
+      "generated_tokens_p50": 51.0,
+      "generated_tokens_p95": 212.44999999999993,
+      "input_tokens_mean": 84.505291005291,
+      "cap_count": 10,
+      "source_exact_copy_count": 0,
+      "static_diagnostics": {
+        "empty_code_count": 0,
+        "syntax_error_count": 1,
+        "signature_arity_valid_count": 348,
+        "cap_count": 10,
+        "fenced_output_count": 378,
+        "runtime_error_count": null,
+        "timeout_count": null
+      },
+      "execution_status": "NOT_RUN"
+    }
+  ],
+  "limitations": [
+    "Language detection is an auxiliary classifier with unmeasured short outputs, not ground truth translation-direction accuracy.",
+    "Length correlations and quartiles are descriptive, not causal.",
+    "Exact source-copy is stricter than partial extractiveness; paraphrase and factuality are unmeasured.",
+    "Generated-code syntax/signature heuristics cannot establish test pass rates."
+  ]
+}

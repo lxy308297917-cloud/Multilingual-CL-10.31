@@ -1,0 +1,112 @@
+{
+  "result_schema_version": "bench-v2.1",
+  "benchmark_id": "mbpp_plus_v2",
+  "benchmark_protocol": {
+    "benchmark_id": "mbpp_plus_v2",
+    "benchmark_version": "2.1",
+    "source_repository": "evalplus/mbppplus_release",
+    "dataset_revision": "v0.2.0",
+    "dataset_split": "official_full",
+    "sample_ids_sha256": "86c837b8f6e55b10041d81daf275bf16379ef02ae4d16901929a789599d895e4",
+    "samples": 378,
+    "data_sha256": "e31b88504a9504f7ca72383f523361a551adc21db3f48b928c871f2f78008929",
+    "source": {
+      "repository": "evalplus/mbppplus_release",
+      "revision": "v0.2.0",
+      "archive_uncompressed_sha256": "b54e762755248ca411b523c917fa9f93c07b5ff2966bf60b3917b853926a3dad",
+      "evalplus_version": "0.3.1",
+      "data_scope": "Official complete EvalPlus curated evaluation release; original MBPP base and plus are evaluated on the same378 tasks",
+      "prompt_compatibility": "Official default user instruction prefix; native response-prefill replaced by Base Qwen3 apply_chat_template enable_thinking=False, one greedy complete Python script"
+    },
+    "language": "en->python",
+    "prompt_template": "Please provide a self-contained Python script that solves the following problem in a markdown code block:\n```\n{official_problem_prompt}\n```\n",
+    "tokenizer_revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+    "chat_template": "Base tokenizer.apply_chat_template(add_generation_prompt=True, enable_thinking=False)",
+    "enable_thinking": false,
+    "decoding_config": {
+      "temperature": 0,
+      "top_p": 1,
+      "top_k": -1,
+      "max_new_tokens": 1024,
+      "stop_token_ids": [
+        151645,
+        151643
+      ],
+      "seed": 42
+    },
+    "max_input_tokens": 7168,
+    "max_model_len": 8192,
+    "overlong_policy": "Reject overlong prompt, no silent truncation",
+    "scorer_version": {
+      "evalplus": "0.3.1"
+    },
+    "metric_names": [
+      "pass@1_base",
+      "pass@1_plus"
+    ],
+    "result_schema_version": "bench-v2.1",
+    "run_status": "NOT_RUN",
+    "pilot_ids": [
+      "Mbpp/641",
+      "Mbpp/7",
+      "Mbpp/598",
+      "Mbpp/602",
+      "Mbpp/79",
+      "Mbpp/477",
+      "Mbpp/245",
+      "Mbpp/104",
+      "Mbpp/293",
+      "Mbpp/745",
+      "Mbpp/296",
+      "Mbpp/20",
+      "Mbpp/227",
+      "Mbpp/309",
+      "Mbpp/643",
+      "Mbpp/170"
+    ],
+    "smoke_ids": [
+      "Mbpp/618",
+      "Mbpp/126",
+      "Mbpp/447",
+      "Mbpp/579"
+    ],
+    "execution_status": "NOT_RUN",
+    "execution_gate": "Requires independently verified strong isolated executor; no host execution"
+  },
+  "method": "ssu",
+  "training_seed": 42,
+  "model_revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "checkpoint_identity": {
+    "sw_aya6400_ssu_wanda_seed42_final_v1/config.json": "289247dd72c5d673c42846c1ea51472553c774ec33331d8c36c81558c572f6f2",
+    "Qwen3-1.7B/tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "Qwen3-1.7B/tokenizer_config.json": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+    "sw_aya6400_ssu_wanda_seed42_final_v1/model.safetensors": "6ff02928690dc4fd8e39c42908507eecd6e47d6e968f1454bc14cf75f2f90450"
+  },
+  "code_commit": "5bf1d409f4239fd7d3c2d81a9530e6f608ce6dda",
+  "source_files_sha256": {
+    "common.py": "681ed15a96994fb0bca04de7cd89ecd18fbbdd9eac108ead98ee25bd5809e722",
+    "prompting.py": "b813f3eb6aef30a15a58da2aea57cb4df81197cc5da3f32ec926b44696be43e0",
+    "generate.py": "a645d44d6676e06791f08d3eed6f7e8306a16720805396e0be332b670ea8e4ae"
+  },
+  "data_manifest_hash": "417a815d87b821376ae685beb1a1b845f77077546ce0231aa4cbeb5fbe527978",
+  "sample_ids_sha256": "86c837b8f6e55b10041d81daf275bf16379ef02ae4d16901929a789599d895e4",
+  "scope": "full",
+  "tokenizer": "Qwen3-1.7B Base tokenizer",
+  "prompt_tokens_sha256": "6e117cb0646d78cbd859f121ea3ab26a00ad43d85902eba4da8a58078fcff525",
+  "backend": {
+    "vllm": "0.9.2+cu118",
+    "transformers": "4.53.2",
+    "torch": "2.7.0+cu118",
+    "dtype": "bfloat16",
+    "max_model_len": 8192,
+    "max_num_seqs": 32,
+    "max_num_batched_tokens": 8192,
+    "gpu_memory_utilization": 0.8,
+    "tensor_parallel_size": 1,
+    "generation_config": "vllm"
+  },
+  "batch_size": 32,
+  "sample_ids_ref": "sample_ids/mbpp_plus_v2/manifest.json",
+  "runtime_manifest_sha256": "f9e4e6c2de9cc0cfe5e2f9fcc936d2a1d9c499651e89844854fe0796e0983d15",
+  "public_projection": "Original runtime manifest SHA retained; host paths replaced with model-role names and ordered sample IDs factored into shared shards. Original experiment code_commit may belong to local history; published core source hashes are unchanged."
+}

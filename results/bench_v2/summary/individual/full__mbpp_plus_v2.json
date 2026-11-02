@@ -1,0 +1,28 @@
+{
+  "benchmark": "mbpp_plus_v2",
+  "method": "full",
+  "scope": "full",
+  "generation_status": "VERIFIED_COMPLETE",
+  "run_status": "NOT_RUN",
+  "execution_status": "NOT_RUN",
+  "reason": "No confirmed strong execution sandbox; host execution forbidden. Docker permission denied; requested user-scope cgroup pids/memory/CPU limits did not take effect.",
+  "samples": 378,
+  "metrics": {
+    "pass@1_base": null,
+    "pass@1_plus": null
+  },
+  "static_diagnostics": {
+    "empty_code_count": 0,
+    "syntax_error_count": 1,
+    "signature_arity_valid_count": 350,
+    "cap_count": 12,
+    "fenced_output_count": 368,
+    "runtime_error_count": null,
+    "timeout_count": null
+  },
+  "extractor_version": "evalplus0.3.1 sanitize",
+  "signature_scope": "Top-level Python function accepts each official base-input positional argument count; static heuristic, not execution correctness",
+  "predictions_sha256": "ad22011e2b4164e9541418c2717747e70d0359a12c4390d4c4614af5a154fbed",
+  "sanitized_samples_sha256": "25942e9c5f8bece36547486706d53671decc50a89fb2467d9f9ea7dbcb6698f0",
+  "official_dataset_sha256": "b54e762755248ca411b523c917fa9f93c07b5ff2966bf60b3917b853926a3dad"
+}

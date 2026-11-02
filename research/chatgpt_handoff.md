@@ -1,3 +1,15 @@
+# 最新交付：Benchmark v2
+
+## Benchmark v2 补充测评（2026-11-02完成）
+
+固定Base/FFT/LoRA/SSU Final，全量生成60,352条；16组翻译/摘要正式评分及8组代码生成/静态检查完成，28项测试通过。SW摘要和EN→SW有收益，SW→EN下降，EN摘要没有一致遗忘。代码pass@1为NOT_RUN；CrossSum仅可行性审计。原机制诊断负面结果保留。
+
+- [Benchmark v2报告](bench_v2/benchmark_report.md)
+- [正式表与配对区间](../results/bench_v2/summary/paper_table.md)
+- [复现与限制](bench_v2/reproduce.md)
+
+---
+
 # 给 ChatGPT 的项目交接：Qwen3 多语言 SFT 与机制诊断
 
 更新时间：2026-11-02。本轮主要实验、报告及代码结果交付已完成。请先审查现有证据，再讨论下一步；当前没有已经验证的新方法。

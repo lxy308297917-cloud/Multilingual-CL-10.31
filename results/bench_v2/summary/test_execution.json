@@ -1,0 +1,21 @@
+{
+  "passed": 28,
+  "command": "python -m unittest discover -s tests/bench_v2 -p 'test_*.py'",
+  "log_sha256": "2721b9c51286aaacfc5fa05b17afe3e508247e984d7ed50eb6cc6501b80ab01e",
+  "log": "............................\n----------------------------------------------------------------------\nRan 28 tests in 0.047s\n\nOK\n",
+  "test_source_sha256": {
+    "test_core.py": "e96e220a5feef260aa582df4a36daa9ecb5c0b18ff8864ea240a608c4bacc6e7",
+    "test_diagnose.py": "1ba81330ea08e9302ed99ecabea9afb801e8216fc92e59e89f87c902791dd3e7",
+    "test_verify_runs.py": "e0045466118ccf2ecfc7bb6974c2ff873f55ef078018f5de93bfee64aad9beae",
+    "test_protocol_safety.py": "cb0b6fab04b8c17607d4905d62b11eb32618d073b8bfa9c5b0d7d05941fd55b2",
+    "test_statistics.py": "3f3a43e204c1cf448519f9ab074cc9ec133e89607651a5212e44538de73467e1"
+  },
+  "data_download_verify_only": "Six source files rehashed successfully",
+  "full_groups_verified": 6,
+  "generated_samples_full": 60352,
+  "scored_mt_sum_full_tasks": 16,
+  "code_generation_static_full_tasks": 8,
+  "code_execution": "NOT_RUN",
+  "independent_index_reconstruction_runs": 34,
+  "independent_index_reconstruction_sha256": "7acea08baa599419887ed0d131f7030ffee06664c08ab4d297d99ac1ab58a93a"
+}

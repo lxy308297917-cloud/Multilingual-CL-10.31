@@ -1,0 +1,28 @@
+{
+  "benchmark": "humaneval_plus_v2",
+  "method": "full",
+  "scope": "full",
+  "generation_status": "VERIFIED_COMPLETE",
+  "run_status": "NOT_RUN",
+  "execution_status": "NOT_RUN",
+  "reason": "No confirmed strong execution sandbox; host execution forbidden. Docker permission denied; requested user-scope cgroup pids/memory/CPU limits did not take effect.",
+  "samples": 164,
+  "metrics": {
+    "pass@1_base": null,
+    "pass@1_plus": null
+  },
+  "static_diagnostics": {
+    "empty_code_count": 0,
+    "syntax_error_count": 0,
+    "signature_arity_valid_count": 162,
+    "cap_count": 9,
+    "fenced_output_count": 164,
+    "runtime_error_count": null,
+    "timeout_count": null
+  },
+  "extractor_version": "evalplus0.3.1 sanitize",
+  "signature_scope": "Top-level Python function accepts each official base-input positional argument count; static heuristic, not execution correctness",
+  "predictions_sha256": "845a5a2ea18de03cd2610dfe670122d29800d19c24524d032287543406732972",
+  "sanitized_samples_sha256": "b1f582914dfce95074920b3f2526f4a5d7909ea42d00c5b6f192441bcb888721",
+  "official_dataset_sha256": "42526ec0e7d5f3ee0b06d6ced98f8c8bae3d76519151bfb3d36f79010645bd7f"
+}

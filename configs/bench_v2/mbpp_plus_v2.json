@@ -1,0 +1,72 @@
+{
+  "benchmark_id": "mbpp_plus_v2",
+  "benchmark_version": "2.1",
+  "source_repository": "evalplus/mbppplus_release",
+  "dataset_revision": "v0.2.0",
+  "dataset_split": "official_full",
+  "sample_ids_sha256": "86c837b8f6e55b10041d81daf275bf16379ef02ae4d16901929a789599d895e4",
+  "samples": 378,
+  "data_sha256": "e31b88504a9504f7ca72383f523361a551adc21db3f48b928c871f2f78008929",
+  "source": {
+    "repository": "evalplus/mbppplus_release",
+    "revision": "v0.2.0",
+    "archive_uncompressed_sha256": "b54e762755248ca411b523c917fa9f93c07b5ff2966bf60b3917b853926a3dad",
+    "evalplus_version": "0.3.1",
+    "data_scope": "Official complete EvalPlus curated evaluation release; original MBPP base and plus are evaluated on the same378 tasks",
+    "prompt_compatibility": "Official default user instruction prefix; native response-prefill replaced by Base Qwen3 apply_chat_template enable_thinking=False, one greedy complete Python script"
+  },
+  "language": "en->python",
+  "prompt_template": "Please provide a self-contained Python script that solves the following problem in a markdown code block:\n```\n{official_problem_prompt}\n```\n",
+  "tokenizer_revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "chat_template": "Base tokenizer.apply_chat_template(add_generation_prompt=True, enable_thinking=False)",
+  "enable_thinking": false,
+  "decoding_config": {
+    "temperature": 0,
+    "top_p": 1,
+    "top_k": -1,
+    "max_new_tokens": 1024,
+    "stop_token_ids": [
+      151645,
+      151643
+    ],
+    "seed": 42
+  },
+  "max_input_tokens": 7168,
+  "max_model_len": 8192,
+  "overlong_policy": "Reject overlong prompt, no silent truncation",
+  "scorer_version": {
+    "evalplus": "0.3.1"
+  },
+  "metric_names": [
+    "pass@1_base",
+    "pass@1_plus"
+  ],
+  "result_schema_version": "bench-v2.1",
+  "run_status": "NOT_RUN",
+  "pilot_ids": [
+    "Mbpp/641",
+    "Mbpp/7",
+    "Mbpp/598",
+    "Mbpp/602",
+    "Mbpp/79",
+    "Mbpp/477",
+    "Mbpp/245",
+    "Mbpp/104",
+    "Mbpp/293",
+    "Mbpp/745",
+    "Mbpp/296",
+    "Mbpp/20",
+    "Mbpp/227",
+    "Mbpp/309",
+    "Mbpp/643",
+    "Mbpp/170"
+  ],
+  "smoke_ids": [
+    "Mbpp/618",
+    "Mbpp/126",
+    "Mbpp/447",
+    "Mbpp/579"
+  ],
+  "execution_status": "NOT_RUN",
+  "execution_gate": "Requires independently verified strong isolated executor; no host execution"
+}

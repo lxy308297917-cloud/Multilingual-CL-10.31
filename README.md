@@ -1,5 +1,13 @@
 > 当前机制诊断、报告与代码结果交付已完成：三组模块恢复／注入、激活补丁与对照，尚无清晰功能分离证据。见[研究报告](research/mechanism/mechanism_report.md)与[早间汇报](research/mechanism/morning_brief.md)。正式baseline结果保持原样。
 
+## Benchmark v2 补充测评（2026-11-02完成）
+
+固定Base/FFT/LoRA/SSU Final，全量生成60,352条；16组翻译/摘要正式评分及8组代码生成/静态检查完成，28项测试通过。SW摘要和EN→SW有收益，SW→EN下降，EN摘要没有一致遗忘。代码pass@1为NOT_RUN；CrossSum仅可行性审计。原机制诊断负面结果保留。
+
+- [Benchmark v2报告](research/bench_v2/benchmark_report.md)
+- [正式表与配对区间](results/bench_v2/summary/paper_table.md)
+- [复现与限制](research/bench_v2/reproduce.md)
+
 # Qwen3 Multilingual Continual Learning
 
 斯瓦希里语适配中的目标收益、通用任务退化和方法研究。

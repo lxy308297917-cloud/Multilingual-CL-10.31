@@ -1,0 +1,67 @@
+{
+  "samples": 11535,
+  "sample_ids_sha256": "47c53d2b64f30eee32215afde3927b7bcc8d74eecfee19e8770b340c6b5d82fc",
+  "ordering": "Concatenate shard lists in manifest order",
+  "shards": [
+    {
+      "file": "000.json",
+      "sha256": "7e987a16635ab2ec2c90e2b9f0750c8da69c91e220521fed36bb3cb30c62c256",
+      "samples": 1024
+    },
+    {
+      "file": "001.json",
+      "sha256": "3948cc285583fcc9e1b5135b50b28e48647c79dbbb426677436e602bbe247cc6",
+      "samples": 1024
+    },
+    {
+      "file": "002.json",
+      "sha256": "474ed07946bb4d5890146991df294e610ddf3576270b83df6b1e434a17994031",
+      "samples": 1024
+    },
+    {
+      "file": "003.json",
+      "sha256": "bc71a4f11d658b6a73f3148ad5cc9a477058eeeaf91c51e1aed15edff84a155e",
+      "samples": 1024
+    },
+    {
+      "file": "004.json",
+      "sha256": "eb3b33475bf4873aa8997ca232d3311e261e297b53a326dcc2f40f13c34db0f6",
+      "samples": 1024
+    },
+    {
+      "file": "005.json",
+      "sha256": "d50d3fa5c751e461ff7af579562c1d2dd9478c3f738f1680ce014093c7b60e0f",
+      "samples": 1024
+    },
+    {
+      "file": "006.json",
+      "sha256": "c3e13c8fbe38fd0e7f470c47e1dc3d1e81b805976b6e44ef6af33ed3ae6202d4",
+      "samples": 1024
+    },
+    {
+      "file": "007.json",
+      "sha256": "48109b95119c45a32c054cd42ef861a204ec5a02b46b656d3fb305ff2b09e2c9",
+      "samples": 1024
+    },
+    {
+      "file": "008.json",
+      "sha256": "b1b56d07839f95ed473a3b9bc1118a543a269707b939852f578a517f844dfc06",
+      "samples": 1024
+    },
+    {
+      "file": "009.json",
+      "sha256": "6196cf1b1a807d32777a8129baf5a0c8871c852d547f2db37d7ec0934af27e75",
+      "samples": 1024
+    },
+    {
+      "file": "010.json",
+      "sha256": "61cf98fc3c5d1a63ec89be0fa355ae1d61a069b0d339accfd122dda0bddd7eb7",
+      "samples": 1024
+    },
+    {
+      "file": "011.json",
+      "sha256": "ac0d7b15f70179361beb81a884b49b52034aeabab175d1bb5bf7c5f35bebbffe",
+      "samples": 271
+    }
+  ]
+}
