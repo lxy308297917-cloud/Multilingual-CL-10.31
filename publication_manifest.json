@@ -1,0 +1,664 @@
+{
+  "scope": "Curated public source/configuration/results; local paths replaced; private operational metadata omitted",
+  "source_local_commit": "5e9b1b8c7eb9f31cef2eb5dadd0e5a9b67b4d582",
+  "source_files": {
+    "configs/eval_tasks/_belebele_locked_base.yaml": {
+      "original_sha256": "0634916091a6aa37684ac9e01198ec797cd2e487963171fe2ba4887306489fb4",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "configs/eval_tasks/belebele_eng_Latn_locked.yaml": {
+      "original_sha256": "d7e2f6ef55dbbb7bd0894f109384362daa2fbe7b7162ec6a88f4ffbf361e8f36",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "configs/eval_tasks/belebele_swh_Latn_locked.yaml": {
+      "original_sha256": "7c28078ee22ec019222f93b9554f133114379e246e9869276747afdffb0a7dcf",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "configs/eval_tasks/gsm8k_locked.yaml": {
+      "original_sha256": "2df822742bbead98fbe5df56a1241082c915020333e466c5db6e205db0ea9ace",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "configs/eval_tasks/ifeval_locked.yaml": {
+      "original_sha256": "068429f705b09fc3d39a4778ba72cb6a1942d1e7cb66570ac6d3b287dc993b3a",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "configs/sft_v1/deepspeed_z3.json": {
+      "original_sha256": "0c1ecdb498326ee1b733bc98adda7f5299b47eda2db6ec4ee29ec83f4ca23813",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "configs/sft_v1/eval_tasks/benchmax_sw.yaml": {
+      "original_sha256": "7e575f21274da6db973e9127af67b003eda840f1d0b944fc65f3fc26ecfb1799",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "configs/sft_v1/eval_tasks/gsm8k.yaml": {
+      "original_sha256": "664dbeb0f31e9b328889728a03fb0e36ea9f579f534fcdd21705c6bd45c379b9",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "configs/sft_v1/eval_tasks/ifeval.yaml": {
+      "original_sha256": "a9d802386355e28ddbfb5eb15a7907ec1d1ab53d1ba2e6c3d5f995b5c0b80a04",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "configs/sft_v1/eval_tasks/mgsm_sw.yaml": {
+      "original_sha256": "cd23a7d87e9c92fc5a6a3418dbc3af3d64bc46d7cfea30ce18dd6433cd9b85fe",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/en/_mmlu_prox_en.yaml": {
+      "original_sha256": "9161fa5bd24304ec27639a8e20490b38cf73701905dbeb127c2520e1bd04dff7",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_biology.yaml": {
+      "original_sha256": "d111b752982c8724fdf1ec2ced9873096ff7d0e0d3a3b4d8053c40b5dd579da3",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_business.yaml": {
+      "original_sha256": "fe934e15b295aed0a8083491b0489653fa6d945bd9b28e7d97999eae993b7802",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_chemistry.yaml": {
+      "original_sha256": "a2fbcd97ff7c7805f7050d369569b6a5e7ed1b13733ac6242e0c0d6fb27b2c16",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_computer_science.yaml": {
+      "original_sha256": "0de17a8aedae8301a243ee5c958efefa030cbf5243e8e69870396feeb47ebc66",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_economics.yaml": {
+      "original_sha256": "bc10338728db4633b84be79aacd383210d6b779d15645f9ad96c1d59166b05a9",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_engineering.yaml": {
+      "original_sha256": "9795059968b1d2218e1151912af310997fe08235cde5237179420ed43bf333e9",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_health.yaml": {
+      "original_sha256": "0e73ea5d1bbe7b074479e999ebf0b2622458e5e720a04d542edf2899ec5c2ebc",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_history.yaml": {
+      "original_sha256": "67a2738115fa08b25543a1833925594a422215944f670d20ff081d4b0a98feba",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_law.yaml": {
+      "original_sha256": "69322804f382f26dfb6f7979a89ec363e957cb929d6f78fb4f327a887ca19ab2",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_math.yaml": {
+      "original_sha256": "6ce112811182cd78d516a72f50e5483696c2f8582a50168eaf2a4783b359a8b3",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_other.yaml": {
+      "original_sha256": "301d57fa35ae593432d53a7c9d66f6207b9ef857dcbb13b73cdb876bfd9f728d",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_philosophy.yaml": {
+      "original_sha256": "8c970673e8a13513a12472a2d1a30e8281681fc01454a2c5c9f6234f0362e7f1",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_physics.yaml": {
+      "original_sha256": "0d36c4a11f8bc47b6a7a488979f32993d14a523366d0fee9db6d63519ba15f96",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_psychology.yaml": {
+      "original_sha256": "91d33986e9aaca1a81c01f14fc6bfed57875a39c59540511e558399d5a90722b",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/sw/_mmlu_prox_sw.yaml": {
+      "original_sha256": "2f0551c8e25cee184623b20d0baeb23e0b20568bfecd0dc1240de03433d14b92",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_biology.yaml": {
+      "original_sha256": "b20a0acfd4c54359a7d782a6e9ae3f1e1838cb46b0bf67255edf43ecf1fddd20",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_business.yaml": {
+      "original_sha256": "ba0cffa7f3b1f5a2992c4de0f2fec0cec44bd014554e14225de8b0989e3ffe9b",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_chemistry.yaml": {
+      "original_sha256": "c8386f42de77ff3fb74b43ee776e8d43aab990057f1c1b21ec3a552b9b71ca64",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_computer_science.yaml": {
+      "original_sha256": "765c464b8008156543629dac5ccac057437800112e29d8b4374435a57661ed8d",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_economics.yaml": {
+      "original_sha256": "4863206b76a0cdbdca2a681c124f757d532f2c8f71b52911a2087f8b76c7cba2",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_engineering.yaml": {
+      "original_sha256": "d1226a04992423807d88bcaca00a8a09416aa40f0051bfc4d6861fd8327d3ad8",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_health.yaml": {
+      "original_sha256": "91948e3b6faa06e47b6a18cea80de30feada2870734992d44e743e9e9b94a1a9",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_history.yaml": {
+      "original_sha256": "5fb112284fa15fe090db9720302d9d49f741718f93b95a9895cc18c993a32d70",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_law.yaml": {
+      "original_sha256": "d6146cb0411d8516f7237b502054d48d395308580f2e809665d8f3a77142ae24",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_math.yaml": {
+      "original_sha256": "f778fe42b5ab6f781143346e2780921629b29203157a122f3e70ceab7a6fc540",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_other.yaml": {
+      "original_sha256": "95b27f8950784aa50d71a66e1ada1f2944b01c11c0eca95b44fa8baa0e84c823",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_philosophy.yaml": {
+      "original_sha256": "237b21c65eb6aea48f2d6b848623f9dce80bf423389b9f17d7a596f0bc3ad6ab",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_physics.yaml": {
+      "original_sha256": "b89ed7162919025eee72abd2487e5961cc14a11c9ab788391de60fd8379026ed",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_psychology.yaml": {
+      "original_sha256": "15a178112d6269b739c59b21eca707a948c80c85c5f190cdb6a4e6c42d1b3d63",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "configs/sft_v1/formal_sw_full_seed42.yaml": {
+      "original_sha256": "51c783785efbddd1107971e995f554bfa0b949f0b40402d05f795db83e6dc966",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "configs/sft_v1/formal_sw_lora_seed42.yaml": {
+      "original_sha256": "518f420c5dc855aa5975fc86d62a809390b99aaea9a0ea5fd652796c4a3b2445",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "configs/sft_v1/formal_sw_ssu_seed42.yaml": {
+      "original_sha256": "65e2141fb468784a3e6179e260521915e90213a93b18cf029a5dafad74658ac2",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "scripts/audit_flores.py": {
+      "original_sha256": "994b8f40e9691a7d97bec3b7299d8aa98889173a49f032a1667c87384fef031f",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "scripts/audit_gsm8k.py": {
+      "original_sha256": "0c4a94d779648e5d7ef469dac825d294868eada6bde9b8b8ecc168a030876409",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "scripts/audit_harness_accuracy.py": {
+      "original_sha256": "0040ffe6e608dae65c11886b7170a8d3f5e8a8e960a005eb0cf8e055bdbb835a",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "scripts/audit_ifeval.py": {
+      "original_sha256": "ac8ff20dc0a80e5a95b5c9196d90434df9e9c596a1cce1d81475a51639f85da0",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "scripts/audit_ssu_weight_delta.py": {
+      "original_sha256": "84f0f64b80f0390f1beeac6f5cb9f0047cd1dd28ec0cebf2656ac9258ed7d6b0",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "scripts/audit_training_tokens.py": {
+      "original_sha256": "5199c96d3e8027ab8c60d097d6c998a275115ad4cce2c226b8ee9b39f9a320e3",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "scripts/build_ssu_wanda_mask.py": {
+      "original_sha256": "a1717fc36aa9a38859cf80a709ac9d7a46c9f0af1bd6a397304f9b4931965a4c",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "scripts/check_final_model.py": {
+      "original_sha256": "cf4517c46c8b23ad32a13d0b2b95535ffe7f222b1a292447f8f4add5b2b61f37",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "scripts/evaluate_flores.py": {
+      "original_sha256": "62c1f36c32a380dcbc67cbcec5c35a28b56d8bf150e4789c203e05610a441794",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "scripts/evaluate_flores_17b.py": {
+      "original_sha256": "a095b2ed21ce24c104f1a93cb080680ccd8abe2cf020253d03d222213818128c",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "scripts/materialize_mmlu_tasks.py": {
+      "original_sha256": "3476b15fc9b6b3c405dbb00e8b6aae82725131e9ecbf72c13e5e91ce4ee82ce7",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "scripts/prepare_ssu_calibration.py": {
+      "original_sha256": "39f38b8f841a70d4c21cd0732d7473e07b05b2d433372fcbfd72d6d393cff965",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "scripts/sft_v1/analyze_ifeval_errors.py": {
+      "original_sha256": "a0c3c26198de6fd2fc08247deb9ce5808d09c97e75d200e33679ff2fbc3d2d23",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "scripts/sft_v1/analyze_math_format.py": {
+      "original_sha256": "980149e29d68c50342b64fc8f1b686788f4d5c0d1af9eee348c27abfdb0f82c4",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "scripts/sft_v1/analyze_translation_outputs.py": {
+      "original_sha256": "f2a12dcbd527f96b4749e17c7404ecfc296b92e82de1f2b1bae1f6d80c1b1c43",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "scripts/sft_v1/audit_core.py": {
+      "original_sha256": "c36779b34437d34d0d00c4896cef7b82cd0450e195a3c06b357d776f70f356c4",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "scripts/sft_v1/check_cpuadam_resume.py": {
+      "original_sha256": "5a53d9b7019a61f51e3c689b6fa77dc9e9312d30c1ff51f079f5e68e4f72e670",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "scripts/sft_v1/export_baselines.py": {
+      "original_sha256": "806c6e38a8077ecae9f9e8fb17cc4e2771b4bea45c71c3a7aaffcc082be8c40f",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "scripts/sft_v1/export_legacy_baselines.py": {
+      "original_sha256": "921e6e17a60af6c8ba8f304432830ae0437372fa7b0ad5aa812bdeb1bcaf2301",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "scripts/sft_v1/harness.py": {
+      "original_sha256": "adf676d482df09578d12ccd0a916d61ee796c23affae818f41f9c6ea0778f1c1",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "scripts/sft_v1/paired_core_changes.py": {
+      "original_sha256": "ac02a0e27ebc1ac2c8bea5786819a0a90852c780ec755d8151d33c91ffe842a3",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "scripts/sft_v1/prepare_aya.py": {
+      "original_sha256": "616cb8f49a317073fb83dca1bcb8d0d5932aabbf76f50b63bd26e0c4d8fc524f",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "scripts/sft_v1/train.py": {
+      "original_sha256": "c4f4528de81eb2ec154f4af6cc2d1497b3a192fdf74dcbea708d1175012fef7c",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "scripts/sft_v1/train_formal.py": {
+      "original_sha256": "48a466bdf75f0a88c10d19502a9b9c364e7ceae65f265f1b3400b1fcdc6a9534",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "scripts/sft_v1/train_resume_safe.py": {
+      "original_sha256": "1a2efef1aec82def135d12594a9032707ff619244487dd9c8bc48d46c864fd76",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "scripts/sft_v1/train_ssu.py": {
+      "original_sha256": "fa4e3bb65f65b727046d5b7621af7a77f68c489beffc8632cd9bc6e1304aaba3",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "scripts/sft_v1/vllm_compat.py": {
+      "original_sha256": "579c7df59e1f758ad0fb2fa8f59ed14fa8a3201c6517b813e58a1f97c04952dd",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "scripts/ssu_mask_adapter.py": {
+      "original_sha256": "11853f10fd169590de1d7380cb22463b72c51bd2aa6532431a4ac540d95fb654",
+      "publication_change": "Local path strings replaced with generic placeholders"
+    },
+    "configs/deepspeed_z2_cpu_offload.json": {
+      "original_sha256": "0f24bc34218e099cec48cc2722993f1b1bdfb8f97e9d86a56af8a6f4824390c4",
+      "publication_change": "Unchanged scientific configuration; no local paths"
+    },
+    "configs/flores_sw_en_500_seed42.json": {
+      "original_sha256": "85a8d82490b6056689d7391c6f1ad5bbc9feb8ae71049ea99e76deec27002816",
+      "publication_change": "Unchanged scientific configuration; no local paths"
+    }
+  },
+  "public_files": {
+    "README.md": {
+      "bytes": 2461,
+      "sha256": "0e1b0c48fcc51f86f21a65fb965f9f9e69f41a7ebb9442e76a116f16a39334b9"
+    },
+    "STATUS.md": {
+      "bytes": 638,
+      "sha256": "bc03ce431e735754b04404fc470ce474337f4ed45e30b37ba89970ebe61de0ab"
+    },
+    ".gitignore": {
+      "bytes": 74,
+      "sha256": "755ad3aa19b057fc90f883af75846e61edcff35eadd60a8a8ddbf9e2ef6c3487"
+    },
+    "results/legacy_track_b.json": {
+      "bytes": 27106,
+      "sha256": "8f68296c023457ac0be87e80f4efc919ecc2c0e40a860293506f3882771fa965"
+    },
+    "results/README.md": {
+      "bytes": 2299,
+      "sha256": "2237a13ae5dee9cfe2a219824bc6e4b14420ef03629315bbe66830aab16efcdd"
+    },
+    "results/baselines_seed42.csv": {
+      "bytes": 16323,
+      "sha256": "bd7f35e133848440aef3a8ff8071e1645430454eba3e8cf8a9ac3b87589896c7"
+    },
+    "results/baselines_current.csv": {
+      "bytes": 28828,
+      "sha256": "b65fd477616b741ffdc7ed35c93f906f011871dfc7cd5399337688ddfa69f7a1"
+    },
+    "results/baselines_seed42.json": {
+      "bytes": 32610,
+      "sha256": "7315c854789d7e1a518384a388d935272e752f55ea7582179b848b19ae2153a3"
+    },
+    "results/baselines_current.json": {
+      "bytes": 58364,
+      "sha256": "80e9cc2f38289b44135bd5eed282b0cc748cd42a7d8ab9204e373f90a0f26a36"
+    },
+    "results/legacy_track_b.csv": {
+      "bytes": 12393,
+      "sha256": "937f63989f7d9bc6b204e4044a29bc46119609fa432d2b5c39c4bd099012a7c5"
+    },
+    "results/diagnostics/translation_generation_seed42.json": {
+      "bytes": 36365,
+      "sha256": "fe77aadfbfa8be4823c212c30adc154d0d72f022aa4bfdfdb68a1ec40ce0905b"
+    },
+    "results/diagnostics/choice_labels_seed42.json": {
+      "bytes": 3088,
+      "sha256": "eacaf716d657d222774eeada32627a9ca2638a545f0d8dd19afe9b3bcb7ed05b"
+    },
+    "results/diagnostics/math_format_seed42.json": {
+      "bytes": 27226,
+      "sha256": "ed16a5ead34a40c13585ccbd9f167ecd7ac8e2766ec5a1203073a9c720f1a990"
+    },
+    "results/diagnostics/ifeval_instruction_types_seed42.json": {
+      "bytes": 78272,
+      "sha256": "f15dcbc59dde7d834a413c0ffa1cd05f7a3eb621072d33e57f0a0fd6c827df39"
+    },
+    "results/diagnostics/prox_generation_seed42.json": {
+      "bytes": 3305,
+      "sha256": "f0372a2ed921c8c4d826ac1bdeb006006d38b49a40fc74e8cc6bab16b5533e0b"
+    },
+    "research/chatgpt_handoff.md": {
+      "bytes": 6817,
+      "sha256": "452f46832f4b522b38bd8eb4f5242d4a99f0e8526b156df22a7526b519e81a0b"
+    },
+    "configs/mask_17b.lock.json": {
+      "bytes": 454,
+      "sha256": "1cf7143a805834caab66b3696e0cf34afeb47a52042b0ce83821385af67c0cc3"
+    },
+    "configs/sft_v1/formal_sw_full_seed42.yaml": {
+      "bytes": 1220,
+      "sha256": "b02a09c0afb341c5395f806d40aaf77e482d0523c95e780e89a2a2b2be58f520"
+    },
+    "configs/sft_v1/deepspeed_z3.json": {
+      "bytes": 551,
+      "sha256": "0c1ecdb498326ee1b733bc98adda7f5299b47eda2db6ec4ee29ec83f4ca23813"
+    },
+    "configs/sft_v1/formal_sw_lora_seed42.yaml": {
+      "bytes": 1275,
+      "sha256": "c69f148823756d097661b7700d03f8e9aabc3ec80184b8cc08cc7f6dbcf9f4bb"
+    },
+    "configs/sft_v1/formal_sw_ssu_seed42.yaml": {
+      "bytes": 1235,
+      "sha256": "7f3bd39ba9926ab127dd2265dfb2d123bb8213b1293a658d609fb8baa114110c"
+    },
+    "configs/sft_v1/stack.lock.json": {
+      "bytes": 452,
+      "sha256": "2f7d0317c03162894e14de50086f43718e82158736cb34f2d9f6cb9878874e10"
+    },
+    "configs/sft_v1/eval_tasks/ifeval.yaml": {
+      "bytes": 443,
+      "sha256": "fb492656b26d5bf2a719da7ebae0642e28615b6cc1a988472ac5ffa7396b7c9b"
+    },
+    "configs/sft_v1/eval_tasks/mgsm_sw.yaml": {
+      "bytes": 599,
+      "sha256": "36da893decde30baf2694a484bac260c930e2c290f31fa17ee576b96e80f0b62"
+    },
+    "configs/sft_v1/eval_tasks/benchmax_sw.yaml": {
+      "bytes": 292,
+      "sha256": "a4b53e6bfb2be2610afcfae34a0e663d7e740249988b9ae8c480e0f8693076ea"
+    },
+    "configs/sft_v1/eval_tasks/gsm8k.yaml": {
+      "bytes": 625,
+      "sha256": "4f5c375d7c46b3365c53245d71c58a7caf8ef58e10326b318280e7fb7b752070"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_engineering.yaml": {
+      "bytes": 502,
+      "sha256": "74b1e9733ab53b9b9c5718e87e8fa1369c41f679d8143cc637e69522584d91e9"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_psychology.yaml": {
+      "bytes": 500,
+      "sha256": "d7aabe5658521d3fe890e69e507021656d46a50175a35f59d7d3ee578ffd39b9"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_computer_science.yaml": {
+      "bytes": 512,
+      "sha256": "6616db28533a8d42a1f1ce0c1fb09b96d1eafb169ccc81534a6581ff6b700259"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_physics.yaml": {
+      "bytes": 494,
+      "sha256": "b4929c9081d3f6205bda95717f38cff8d97c0ffdd3992560344a45b7b2b95521"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_math.yaml": {
+      "bytes": 488,
+      "sha256": "b6e47918bc06e3e649a41d5c9695b1400db099b4f6140a2f6b52a073648f1483"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_chemistry.yaml": {
+      "bytes": 498,
+      "sha256": "051e50e53f07713b7d2b462dbac440e5263fe214551c1e3369e1e5a63edc6f72"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_economics.yaml": {
+      "bytes": 498,
+      "sha256": "d1e98cb7bfa831e8e6fb3d183fdb39b75d937e75fa40c09f6fbc37301b3b7ba4"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_history.yaml": {
+      "bytes": 494,
+      "sha256": "122795cfcfabc27b1ba77bdb056f3e53fd269124a1882e1c504aa7e6f5c5bd91"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_other.yaml": {
+      "bytes": 490,
+      "sha256": "a65ca33a26f215c60eed0e43b2a9d81d74757a45e925af077527e56e504f4223"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_law.yaml": {
+      "bytes": 486,
+      "sha256": "3f37dd9b81c04fc03a0dda1987ebc3c96115ad709b857e923e4e692617ae9bae"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/sw/_mmlu_prox_sw.yaml": {
+      "bytes": 610,
+      "sha256": "2f0551c8e25cee184623b20d0baeb23e0b20568bfecd0dc1240de03433d14b92"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_biology.yaml": {
+      "bytes": 494,
+      "sha256": "712ae792672f9879abcde30e2763cbe9ce7298ec90df09da624956f5ec92e3e0"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_health.yaml": {
+      "bytes": 492,
+      "sha256": "d70c44560b7bf463400b8099dccd4445ebe10528387f6baeff691a3b7639d8f5"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_business.yaml": {
+      "bytes": 496,
+      "sha256": "f83dca27ba2b4e9f1e79d07dc24ff356a96681fdf3e24cde23ea88f13a5be9e9"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_philosophy.yaml": {
+      "bytes": 500,
+      "sha256": "e5642eb190ad507919c5d07707c6b8bf7b1c8392594cb6acac40b8043993c080"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_biology.yaml": {
+      "bytes": 494,
+      "sha256": "432033a77b5f9ea089ae3a53df0e384d6f8985156da1ea03e854fec377934876"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_philosophy.yaml": {
+      "bytes": 500,
+      "sha256": "a650864d4b568a30f8ff17d7244a5554bb6b5b29efc0fff229f96480b98ec91f"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_business.yaml": {
+      "bytes": 496,
+      "sha256": "06d33cc18c97b4d90028309476ba92f52b48e7896b0f3cc1b8832aa466522489"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_law.yaml": {
+      "bytes": 486,
+      "sha256": "7ea73bbbb1d64d97199afba6641e688040fcb0435317451d1ff631f6f7d6cef6"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/en/_mmlu_prox_en.yaml": {
+      "bytes": 610,
+      "sha256": "9161fa5bd24304ec27639a8e20490b38cf73701905dbeb127c2520e1bd04dff7"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_history.yaml": {
+      "bytes": 494,
+      "sha256": "7823985ed2e4c4177031e31432c2b4fa22770fd8718fcddc387b49fc3935ee14"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_other.yaml": {
+      "bytes": 490,
+      "sha256": "934bdbccd5031841bbffc7024da30bfcf252b2deadf5f5e6ae6704b25d959f28"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_computer_science.yaml": {
+      "bytes": 512,
+      "sha256": "9f2248c190daa3bb85ee3b23f612c5e8ab085fe77e22b667455324a02945cbbd"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_engineering.yaml": {
+      "bytes": 502,
+      "sha256": "3739ca9e75daab82969738d3fa668f60a65033cb0ee50c8ea08cb973c459e0b8"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_health.yaml": {
+      "bytes": 492,
+      "sha256": "5f9234ea60d514cf7cfa7b8df86b9365fb487b8a82f2384eff544b4e990ccd35"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_physics.yaml": {
+      "bytes": 494,
+      "sha256": "0c1d7330e9a7be69130cdac9800fe8ada57e292cbd9695d90b275f96e83d3572"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_economics.yaml": {
+      "bytes": 498,
+      "sha256": "07ee220de88a133f04a2b04956c946fec5ab12a4b823f8b0d057e6f0ea6131d8"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_math.yaml": {
+      "bytes": 488,
+      "sha256": "e72ae4c2f627973f35c597161194d550ff54fd24abe0a2aca735594eef75d41f"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_psychology.yaml": {
+      "bytes": 500,
+      "sha256": "7c88caf67a12f94ab42e51c47189125bc53e4e821fa67cff9e22d2cad6f1123b"
+    },
+    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_chemistry.yaml": {
+      "bytes": 498,
+      "sha256": "ed054fb2ad1ac955a2aac24277174189b620238ab001753223e91500d3f063d6"
+    },
+    "configs/eval_tasks/gsm8k_locked.yaml": {
+      "bytes": 699,
+      "sha256": "16380c2a364529fafd268c142ab8abb8d7ead2d5d838e173bb02079f97c01e06"
+    },
+    "configs/eval_tasks/belebele_eng_Latn_locked.yaml": {
+      "bytes": 175,
+      "sha256": "09a9f6efbb6ab5983b9da7013c9191f90d5c572f5b8dc85d9b84db952328226b"
+    },
+    "configs/eval_tasks/ifeval_locked.yaml": {
+      "bytes": 421,
+      "sha256": "278be3d539163b882890ce05dc65e909f37e462c9812e4b74289024b2b2d0350"
+    },
+    "configs/eval_tasks/belebele_swh_Latn_locked.yaml": {
+      "bytes": 175,
+      "sha256": "8f721cce792f49c7607b0c2ce52f1577c9fd5cee77e47ea6d0de8225409f2b5a"
+    },
+    "configs/eval_tasks/_belebele_locked_base.yaml": {
+      "bytes": 662,
+      "sha256": "0634916091a6aa37684ac9e01198ec797cd2e487963171fe2ba4887306489fb4"
+    },
+    "scripts/prepare_ssu_calibration.py": {
+      "bytes": 4655,
+      "sha256": "96e4393b0eaed2f7b6b2b1d255f877308a1874f3c6cf98beaa5a6d7effe13210"
+    },
+    "scripts/evaluate_flores_17b.py": {
+      "bytes": 321,
+      "sha256": "a433e13d373678892c1463a4ba84816fb8c10af1484158d7bc914d5721df146f"
+    },
+    "scripts/audit_flores.py": {
+      "bytes": 2650,
+      "sha256": "0ac4daa121135f4915bf204093835e0b40f40218d07a955011287b6e46d54bd0"
+    },
+    "scripts/build_ssu_wanda_mask.py": {
+      "bytes": 8964,
+      "sha256": "a1717fc36aa9a38859cf80a709ac9d7a46c9f0af1bd6a397304f9b4931965a4c"
+    },
+    "scripts/audit_ifeval.py": {
+      "bytes": 2414,
+      "sha256": "ac8ff20dc0a80e5a95b5c9196d90434df9e9c596a1cce1d81475a51639f85da0"
+    },
+    "scripts/ssu_mask_adapter.py": {
+      "bytes": 2261,
+      "sha256": "11853f10fd169590de1d7380cb22463b72c51bd2aa6532431a4ac540d95fb654"
+    },
+    "scripts/audit_training_tokens.py": {
+      "bytes": 4253,
+      "sha256": "0bd0b87bf9255b465b78982e2b187a3c2cd7f1a105675ac08876b1392d9aba07"
+    },
+    "scripts/evaluate_flores.py": {
+      "bytes": 6041,
+      "sha256": "0d1cf9e01032ebf42b892585a6764a0dbe38945690c8a1ad8b5c160645820933"
+    },
+    "scripts/audit_harness_accuracy.py": {
+      "bytes": 3051,
+      "sha256": "0040ffe6e608dae65c11886b7170a8d3f5e8a8e960a005eb0cf8e055bdbb835a"
+    },
+    "scripts/check_final_model.py": {
+      "bytes": 6005,
+      "sha256": "c18d84c720e65f1ede531d306222d1e93c43b39bcca2ec81b3a7d21a993d46ae"
+    },
+    "scripts/audit_gsm8k.py": {
+      "bytes": 4333,
+      "sha256": "0c4a94d779648e5d7ef469dac825d294868eada6bde9b8b8ecc168a030876409"
+    },
+    "scripts/materialize_mmlu_tasks.py": {
+      "bytes": 3126,
+      "sha256": "3476b15fc9b6b3c405dbb00e8b6aae82725131e9ecbf72c13e5e91ce4ee82ce7"
+    },
+    "scripts/audit_ssu_weight_delta.py": {
+      "bytes": 2818,
+      "sha256": "84f0f64b80f0390f1beeac6f5cb9f0047cd1dd28ec0cebf2656ac9258ed7d6b0"
+    },
+    "scripts/sft_v1/train_ssu.py": {
+      "bytes": 2529,
+      "sha256": "fa4e3bb65f65b727046d5b7621af7a77f68c489beffc8632cd9bc6e1304aaba3"
+    },
+    "scripts/sft_v1/paired_core_changes.py": {
+      "bytes": 9686,
+      "sha256": "58459fb89040e57e2852ab7a547a17f08d0fe4087f58ff393708e3202c1d2b2b"
+    },
+    "scripts/sft_v1/analyze_translation_outputs.py": {
+      "bytes": 5415,
+      "sha256": "4e2b2a074e8e28254023997f8282f7dc4e80bb2b4b222ed6900c531bd231c702"
+    },
+    "scripts/sft_v1/audit_core.py": {
+      "bytes": 4706,
+      "sha256": "27445576756770ce9013ca0fc38571f7d1f627daca6ef6b7fa459998be988af3"
+    },
+    "scripts/sft_v1/check_cpuadam_resume.py": {
+      "bytes": 3306,
+      "sha256": "bc35cb0c52e0b2854c11bc841ec27ccf59b552b2ddfd896774f59144f6d10895"
+    },
+    "scripts/sft_v1/vllm_compat.py": {
+      "bytes": 1154,
+      "sha256": "579c7df59e1f758ad0fb2fa8f59ed14fa8a3201c6517b813e58a1f97c04952dd"
+    },
+    "scripts/sft_v1/train.py": {
+      "bytes": 4000,
+      "sha256": "c4f4528de81eb2ec154f4af6cc2d1497b3a192fdf74dcbea708d1175012fef7c"
+    },
+    "scripts/sft_v1/analyze_ifeval_errors.py": {
+      "bytes": 3907,
+      "sha256": "5a1e01e8d1a21b0495af25f59269337ff6f64c6ed34f2673e3441d785cbabd82"
+    },
+    "scripts/sft_v1/analyze_math_format.py": {
+      "bytes": 4502,
+      "sha256": "16fa389e47193d621ac1a99b50eceef5edde37e3387a5afc312feb1866acea2e"
+    },
+    "scripts/sft_v1/export_baselines.py": {
+      "bytes": 40224,
+      "sha256": "c04f219d6242e7d1c780341604a4c13d30844dcbe4e53d9dde1ee960252ae4c6"
+    },
+    "scripts/sft_v1/train_formal.py": {
+      "bytes": 3689,
+      "sha256": "48a466bdf75f0a88c10d19502a9b9c364e7ceae65f265f1b3400b1fcdc6a9534"
+    },
+    "scripts/sft_v1/export_legacy_baselines.py": {
+      "bytes": 8325,
+      "sha256": "723805dd88067dada579660308ec59eecbfeaa2e1ffac608dbc2731e1d8f33ab"
+    },
+    "scripts/sft_v1/train_resume_safe.py": {
+      "bytes": 9367,
+      "sha256": "1a2efef1aec82def135d12594a9032707ff619244487dd9c8bc48d46c864fd76"
+    },
+    "scripts/sft_v1/prepare_aya.py": {
+      "bytes": 10323,
+      "sha256": "5abf02654cb6cf0658616b0279988aa816bbeeddb349403955b0e096519ef2cd"
+    },
+    "scripts/sft_v1/harness.py": {
+      "bytes": 1686,
+      "sha256": "adf676d482df09578d12ccd0a916d61ee796c23affae818f41f9c6ea0778f1c1"
+    },
+    "configs/deepspeed_z2_cpu_offload.json": {
+      "bytes": 594,
+      "sha256": "0f24bc34218e099cec48cc2722993f1b1bdfb8f97e9d86a56af8a6f4824390c4"
+    },
+    "configs/flores_sw_en_500_seed42.json": {
+      "bytes": 4926,
+      "sha256": "85a8d82490b6056689d7391c6f1ad5bbc9feb8ae71049ea99e76deec27002816"
+    }
+  }
+}

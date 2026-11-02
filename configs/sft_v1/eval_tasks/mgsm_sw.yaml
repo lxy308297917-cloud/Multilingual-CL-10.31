@@ -1,0 +1,16 @@
+include: /path/to/storage/envs/qwen3-multilingual-20261031/lib/python3.11/site-packages/lm_eval/tasks/mgsm/native_cot/mgsm_native_cot_sw.yaml
+task: sft_v1_mgsm_native_cot_sw
+dataset_path: parquet
+dataset_name: null
+num_fewshot: 8
+dataset_kwargs:
+  data_files:
+    train: /path/to/storage/datasets/qwen3-sft-v1-20261101/benchmarks/juletxara--mgsm/sw/train-00000-of-00001.parquet
+    test: /path/to/storage/datasets/qwen3-sft-v1-20261101/benchmarks/juletxara--mgsm/sw/test-00000-of-00001.parquet
+generation_kwargs:
+  max_gen_toks: 2048
+  do_sample: false
+  until:
+  - 'Swali:'
+  - </s>
+  - <|im_end|>

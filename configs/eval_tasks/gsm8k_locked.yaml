@@ -1,0 +1,17 @@
+# Standard harness answer extraction, fixed local train/test parquet revision.
+include: /path/to/storage/envs/qwen3-multilingual-20261031/lib/python3.11/site-packages/lm_eval/tasks/gsm8k/gsm8k.yaml
+task: gsm8k_locked
+dataset_path: parquet
+dataset_name: null
+dataset_kwargs:
+  data_files:
+    train: /path/to/storage/datasets/benchmarks-20261031/gsm8k/740312add88f781978c0658806c59bc2815b9866/main/train-00000-of-00001.parquet
+    test: /path/to/storage/datasets/benchmarks-20261031/gsm8k/740312add88f781978c0658806c59bc2815b9866/main/test-00000-of-00001.parquet
+generation_kwargs:
+  until:
+    - "Question:"
+    - "</s>"
+    - "<|im_end|>"
+  do_sample: false
+  temperature: 0.0
+  max_gen_toks: 1280

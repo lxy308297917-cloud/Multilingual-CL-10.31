@@ -1,0 +1,13 @@
+include: /path/to/storage/envs/qwen3-multilingual-20261031/lib/python3.11/site-packages/lm_eval/tasks/ifeval/ifeval.yaml
+task: sft_v1_ifeval
+dataset_path: json
+dataset_name: null
+dataset_kwargs:
+  data_files:
+    train: /path/to/storage/datasets/benchmarks-20261031/ifeval/966cd89545d6b6acfd7638bc708b98261ca58e84/ifeval_input_data.jsonl
+num_fewshot: 0
+generation_kwargs:
+  until: []
+  do_sample: false
+  temperature: 0.0
+  max_gen_toks: 1280

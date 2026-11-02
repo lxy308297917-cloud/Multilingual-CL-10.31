@@ -1,0 +1,735 @@
+{
+  "scope": "Exploratory description of saved complete FLORES outputs; original chrF++ retained",
+  "training_seed": 42,
+  "rule": "Casefold and split whitespace; at least10 consecutive identical blocks of1–5 words",
+  "caveats": [
+    "Rule fixed after inspecting repetition examples, before aggregate counts; not preregistered",
+    "Generated_token_count_padded is a batch width, not each response length or truncation indicator",
+    "Repetition is observed output behavior; it does not identify a training/backend/prompt root cause"
+  ],
+  "methods": {
+    "base": {
+      "eng_Latn_to_swh_Latn": {
+        "samples": 500,
+        "official_chrFpp": 5.106949994010351,
+        "repeated_response_count": 439,
+        "references_with_same_pattern": 0,
+        "empty_responses": 0,
+        "exact_source_copies": 2,
+        "mean_whitespace_words": 199.038,
+        "median_whitespace_words": 207.0,
+        "batch_width_counts": {
+          "512": 125
+        },
+        "source_sha256": "62047fade8e3cf7c3e92fd17cbe707db15c23a7b21edc21ea5324fbafd4b42da",
+        "examples": [
+          {
+            "index": 0,
+            "source": "\"We now have 4-month-old mice that are non-diabetic that used to be diabetic,\" he added.",
+            "reference": "\"Sasa tuna panya wenye umri wa miezi minne ambao hawana kisukari ambao awali walikuwa na kisukari\", aliongeza. ",
+            "repetition": {
+              "consecutive_repeats": 169,
+              "repeated_words": 169,
+              "phrase": [
+                "kisasa"
+              ],
+              "start_word": 1
+            },
+            "prediction_excerpt": "\"Kisasa kisasa kisasa kisasa kisasa kisasa kisasa kisasa kisasa kisasa kisasa kisasa kisasa kisasa kisasa kisasa kisasa kisasa kisasa kisasa kisasa kisasa kisasa kisasa kisasa kisasa kisasa kisasa kisasa kisasa kisasa kisasa kisasa kisasa kisasa kisasa kisasa kisasa kisasa kisasa kisasa kisasa kisasa kisasa kisasa kisasa kisasa kisasa kisasa kisasa kisasa kisasa kisasa kisasa kisasa kisasa kisasa ",
+            "excerpt_is_truncated": true
+          },
+          {
+            "index": 2,
+            "source": "Like some other experts, he is skeptical about whether diabetes can be cured, noting that these findings have no relevance to people who already have Type 1 diabetes.",
+            "reference": "Kama wataalam wengine, ana shaka kuhusu kama ugonjwa wa kisukari unaweza kutibiwa, akagundua kuwa matokeo haya hayana umuhimu kwa watu ambao tayari wana ugojwa wa kisukari wa aina 1.",
+            "repetition": {
+              "consecutive_repeats": 56,
+              "repeated_words": 224,
+              "phrase": [
+                "kaka,",
+                "kama",
+                "kama",
+                "kaka"
+              ],
+              "start_word": 4
+            },
+            "prediction_excerpt": "Kama kama kaka kaka kaka, kama kama kaka kaka, kama kama kaka kaka, kama kama kaka kaka, kama kama kaka kaka, kama kama kaka kaka, kama kama kaka kaka, kama kama kaka kaka, kama kama kaka kaka, kama kama kaka kaka, kama kama kaka kaka, kama kama kaka kaka, kama kama kaka kaka, kama kama kaka kaka, kama kama kaka kaka, kama kama kaka kaka, kama kama kaka kaka, kama kama kaka kaka, kama kama kaka ka",
+            "excerpt_is_truncated": true
+          },
+          {
+            "index": 3,
+            "source": "On Monday, Sara Danius, permanent secretary of the Nobel Committee for Literature at the Swedish Academy, publicly announced during a radio program on Sveriges Radio in Sweden the committee, unable to reach Bob Dylan directly about winning the 2016 Nobel Prize in Literature, had abandoned its efforts to reach him.",
+            "reference": "Mnamo Jumatatu, Sara Danius, katibu wa kudumu wa Kamati ya Nobel ya Fasihi katika Chuo cha Uswidi, alitangaza hadharani wakati wa kipindi cha redio kwenye Sveriges Radio katika Uswidi kwamba kamati hiyo, kwa kutoweza kumfikia Bob Dylan moja kwa moja kuhusu ushindi wa Tuzo la Nobel la Fasihi 2016, iliacha juhudi zake za kujaribu kumfikia.",
+            "repetition": {
+              "consecutive_repeats": 123,
+              "repeated_words": 246,
+              "phrase": [
+                "kisasa",
+                "ya"
+              ],
+              "start_word": 9
+            },
+            "prediction_excerpt": "Saa kama kipindi kwa mji wa Monday, Sara Danius, kisasa ya kisasa ya kisasa ya kisasa ya kisasa ya kisasa ya kisasa ya kisasa ya kisasa ya kisasa ya kisasa ya kisasa ya kisasa ya kisasa ya kisasa ya kisasa ya kisasa ya kisasa ya kisasa ya kisasa ya kisasa ya kisasa ya kisasa ya kisasa ya kisasa ya kisasa ya kisasa ya kisasa ya kisasa ya kisasa ya kisasa ya kisasa ya kisasa ya kisasa ya kisasa ya k",
+            "excerpt_is_truncated": true
+          }
+        ]
+      },
+      "swh_Latn_to_eng_Latn": {
+        "samples": 500,
+        "official_chrFpp": 22.909869893917335,
+        "repeated_response_count": 2,
+        "references_with_same_pattern": 0,
+        "empty_responses": 0,
+        "exact_source_copies": 5,
+        "mean_whitespace_words": 32.492,
+        "median_whitespace_words": 22.0,
+        "batch_width_counts": {
+          "73": 1,
+          "512": 8,
+          "94": 1,
+          "93": 1,
+          "45": 5,
+          "52": 3,
+          "46": 4,
+          "37": 5,
+          "47": 6,
+          "57": 1,
+          "42": 3,
+          "29": 3,
+          "50": 3,
+          "24": 2,
+          "160": 1,
+          "51": 8,
+          "69": 1,
+          "34": 1,
+          "70": 1,
+          "39": 3,
+          "36": 4,
+          "75": 2,
+          "43": 4,
+          "40": 7,
+          "38": 2,
+          "65": 1,
+          "41": 5,
+          "26": 4,
+          "44": 3,
+          "323": 1,
+          "32": 4,
+          "27": 2,
+          "353": 1,
+          "33": 4,
+          "31": 4,
+          "30": 3,
+          "54": 1,
+          "20": 1,
+          "35": 2,
+          "22": 1,
+          "187": 1,
+          "49": 3,
+          "48": 1,
+          "56": 1,
+          "25": 1,
+          "63": 1
+        },
+        "source_sha256": "413014e899e27bdafcfa590a7301bb8ac4d3f46c84798d28c3b27bb6ecdba71d",
+        "examples": [
+          {
+            "index": 105,
+            "source": "Amri ya Kimkakati ya Marekani ya ofisi ya Idara ya Ulinzi ya Marekani inafuatilia vifusi.",
+            "reference": "The United States Strategic Command of the U.S. Department of Defense office is tracking the debris.",
+            "repetition": {
+              "consecutive_repeats": 167,
+              "repeated_words": 501,
+              "phrase": [
+                "the",
+                "office",
+                "of"
+              ],
+              "start_word": 7
+            },
+            "prediction_excerpt": "The Kimakati of the Republic of Tanzania, the Office of the Office of the Office of the Office of the Office of the Office of the Office of the Office of the Office of the Office of the Office of the Office of the Office of the Office of the Office of the Office of the Office of the Office of the Office of the Office of the Office of the Office of the Office of the Office of the Office of the Offi",
+            "excerpt_is_truncated": true
+          },
+          {
+            "index": 714,
+            "source": "Japo kwa kiwango kizuri Goma ni salama, ziara zozote nje ya Goma zinapaswa kuchunguzwa ili kufahamu hali ya mapigano yanayoendelea katika jimbo la Kaskazini mwa Kivu.",
+            "reference": "While Goma is reasonably safe, any visits outside of Goma should be researched to understand the state of the fighting that persists in the North Kivu province.",
+            "repetition": {
+              "consecutive_repeats": 165,
+              "repeated_words": 495,
+              "phrase": [
+                "be",
+                "able",
+                "to"
+              ],
+              "start_word": 14
+            },
+            "prediction_excerpt": "The Japanese people of the Goma region are peaceful, and the Goma people should be able to be able to be able to be able to be able to be able to be able to be able to be able to be able to be able to be able to be able to be able to be able to be able to be able to be able to be able to be able to be able to be able to be able to be able to be able to be able to be able to be able to be able to b",
+            "excerpt_is_truncated": true
+          }
+        ]
+      }
+    },
+    "full": {
+      "eng_Latn_to_swh_Latn": {
+        "samples": 500,
+        "official_chrFpp": 8.096147514337519,
+        "repeated_response_count": 285,
+        "references_with_same_pattern": 0,
+        "empty_responses": 0,
+        "exact_source_copies": 3,
+        "mean_whitespace_words": 142.352,
+        "median_whitespace_words": 172.0,
+        "batch_width_counts": {
+          "512": 122,
+          "68": 1,
+          "50": 1,
+          "60": 1
+        },
+        "source_sha256": "a7c7a66912ecd3f6a8472e1d804ef820297c43460554c5d5e276522a8b05e043",
+        "examples": [
+          {
+            "index": 0,
+            "source": "\"We now have 4-month-old mice that are non-diabetic that used to be diabetic,\" he added.",
+            "reference": "\"Sasa tuna panya wenye umri wa miezi minne ambao hawana kisukari ambao awali walikuwa na kisukari\", aliongeza. ",
+            "repetition": {
+              "consecutive_repeats": 127,
+              "repeated_words": 254,
+              "phrase": [
+                "michezo",
+                "ya"
+              ],
+              "start_word": 1
+            },
+            "prediction_excerpt": "\"Kuna michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo y",
+            "excerpt_is_truncated": true
+          },
+          {
+            "index": 2,
+            "source": "Like some other experts, he is skeptical about whether diabetes can be cured, noting that these findings have no relevance to people who already have Type 1 diabetes.",
+            "reference": "Kama wataalam wengine, ana shaka kuhusu kama ugonjwa wa kisukari unaweza kutibiwa, akagundua kuwa matokeo haya hayana umuhimu kwa watu ambao tayari wana ugojwa wa kisukari wa aina 1.",
+            "repetition": {
+              "consecutive_repeats": 505,
+              "repeated_words": 505,
+              "phrase": [
+                "vile"
+              ],
+              "start_word": 3
+            },
+            "prediction_excerpt": "Kwa hiyo, kama vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile vile ",
+            "excerpt_is_truncated": true
+          },
+          {
+            "index": 3,
+            "source": "On Monday, Sara Danius, permanent secretary of the Nobel Committee for Literature at the Swedish Academy, publicly announced during a radio program on Sveriges Radio in Sweden the committee, unable to reach Bob Dylan directly about winning the 2016 Nobel Prize in Literature, had abandoned its efforts to reach him.",
+            "reference": "Mnamo Jumatatu, Sara Danius, katibu wa kudumu wa Kamati ya Nobel ya Fasihi katika Chuo cha Uswidi, alitangaza hadharani wakati wa kipindi cha redio kwenye Sveriges Radio katika Uswidi kwamba kamati hiyo, kwa kutoweza kumfikia Bob Dylan moja kwa moja kuhusu ushindi wa Tuzo la Nobel la Fasihi 2016, iliacha juhudi zake za kujaribu kumfikia.",
+            "repetition": {
+              "consecutive_repeats": 124,
+              "repeated_words": 248,
+              "phrase": [
+                "wa",
+                "kawaida"
+              ],
+              "start_word": 6
+            },
+            "prediction_excerpt": "Tambuzi wa Jumatatu, Sara Danius, mshindi wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kaw",
+            "excerpt_is_truncated": true
+          }
+        ]
+      },
+      "swh_Latn_to_eng_Latn": {
+        "samples": 500,
+        "official_chrFpp": 14.52736131422909,
+        "repeated_response_count": 4,
+        "references_with_same_pattern": 0,
+        "empty_responses": 0,
+        "exact_source_copies": 320,
+        "mean_whitespace_words": 21.874,
+        "median_whitespace_words": 19.0,
+        "batch_width_counts": {
+          "131": 1,
+          "68": 3,
+          "125": 1,
+          "90": 1,
+          "73": 9,
+          "60": 3,
+          "70": 3,
+          "56": 2,
+          "57": 2,
+          "95": 1,
+          "71": 7,
+          "48": 2,
+          "99": 1,
+          "40": 1,
+          "72": 5,
+          "69": 2,
+          "117": 2,
+          "82": 4,
+          "512": 4,
+          "80": 3,
+          "66": 3,
+          "58": 2,
+          "45": 2,
+          "81": 2,
+          "75": 2,
+          "51": 5,
+          "74": 4,
+          "63": 1,
+          "87": 4,
+          "50": 3,
+          "126": 1,
+          "49": 3,
+          "85": 1,
+          "46": 2,
+          "77": 2,
+          "102": 2,
+          "43": 1,
+          "61": 1,
+          "111": 1,
+          "88": 1,
+          "53": 3,
+          "41": 2,
+          "59": 3,
+          "39": 1,
+          "76": 2,
+          "65": 3,
+          "55": 1,
+          "47": 2,
+          "62": 3,
+          "64": 1,
+          "54": 1,
+          "97": 1,
+          "83": 1,
+          "86": 1
+        },
+        "source_sha256": "080ded2c80f35914179e22ea92341e02c2b74e29401065d3b96de955b18c6c28",
+        "examples": [
+          {
+            "index": 175,
+            "source": "Wakaaji kadhaa wa Bishkek waliwalaumu waandamanaji kutoka kusini kwa uvunjaji huo wa sheria.",
+            "reference": "Several Bishkek residents blamed protesters from the south for the lawlessness.",
+            "repetition": {
+              "consecutive_repeats": 64,
+              "repeated_words": 192,
+              "phrase": [
+                "wakati",
+                "wa",
+                "kusini,"
+              ],
+              "start_word": 0
+            },
+            "prediction_excerpt": "Wakati wa kusini, wakati wa kusini, wakati wa kusini, wakati wa kusini, wakati wa kusini, wakati wa kusini, wakati wa kusini, wakati wa kusini, wakati wa kusini, wakati wa kusini, wakati wa kusini, wakati wa kusini, wakati wa kusini, wakati wa kusini, wakati wa kusini, wakati wa kusini, wakati wa kusini, wakati wa kusini, wakati wa kusini, wakati wa kusini, wakati wa kusini, wakati wa kusini, waka",
+            "excerpt_is_truncated": true
+          },
+          {
+            "index": 505,
+            "source": "Huenda watoto wasiotagusana walipitia unyanyasaji mkuu au kiwewe utotoni mwao kabla ya kuachiliwa au kutoroka.",
+            "reference": "Feral children may have experienced severe child abuse or trauma before being abandoned or running away.",
+            "repetition": {
+              "consecutive_repeats": 55,
+              "repeated_words": 220,
+              "phrase": [
+                "kipindi",
+                "cha",
+                "kijamii",
+                "cha"
+              ],
+              "start_word": 5
+            },
+            "prediction_excerpt": "Watu wengine wamekubaliwa wakati wa kipindi cha kijamii cha kipindi cha kijamii cha kipindi cha kijamii cha kipindi cha kijamii cha kipindi cha kijamii cha kipindi cha kijamii cha kipindi cha kijamii cha kipindi cha kijamii cha kipindi cha kijamii cha kipindi cha kijamii cha kipindi cha kijamii cha kipindi cha kijamii cha kipindi cha kijamii cha kipindi cha kijamii cha kipindi cha kijamii cha kipi",
+            "excerpt_is_truncated": true
+          },
+          {
+            "index": 686,
+            "source": "Kwa mfano, kila mwaka wanafunzi kutoka Shule ya Bennet katika Karolina Kaskazini hubuni tovuti kuhusu safari yao katika Mji Mkuu wa Jimbo, kila mwaka tovuti hiyo hurekebishwa, lakini matoleo ya zamani hubaki mtandaoni kutumika kama kitabu chakavu.",
+            "reference": "For example, each year students from Bennet School in North Carolina design a website about their trip to the State Capital, each year the website gets remodeled, but old versions are kept online to serve as a scrapbook.",
+            "repetition": {
+              "consecutive_repeats": 50,
+              "repeated_words": 250,
+              "phrase": [
+                "wa",
+                "baridi,",
+                "wakati",
+                "wa",
+                "msimu"
+              ],
+              "start_word": 5
+            },
+            "prediction_excerpt": "Kila mwaka, wakati wa msimu wa baridi, wakati wa msimu wa baridi, wakati wa msimu wa baridi, wakati wa msimu wa baridi, wakati wa msimu wa baridi, wakati wa msimu wa baridi, wakati wa msimu wa baridi, wakati wa msimu wa baridi, wakati wa msimu wa baridi, wakati wa msimu wa baridi, wakati wa msimu wa baridi, wakati wa msimu wa baridi, wakati wa msimu wa baridi, wakati wa msimu wa baridi, wakati wa ",
+            "excerpt_is_truncated": true
+          }
+        ]
+      }
+    },
+    "lora": {
+      "eng_Latn_to_swh_Latn": {
+        "samples": 500,
+        "official_chrFpp": 7.196446055388976,
+        "repeated_response_count": 345,
+        "references_with_same_pattern": 0,
+        "empty_responses": 0,
+        "exact_source_copies": 1,
+        "mean_whitespace_words": 158.718,
+        "median_whitespace_words": 192.0,
+        "batch_width_counts": {
+          "512": 125
+        },
+        "source_sha256": "70781fde55804ad2ff291dc87bcc5eecab0427f11574c2ca099c065429f64874",
+        "examples": [
+          {
+            "index": 0,
+            "source": "\"We now have 4-month-old mice that are non-diabetic that used to be diabetic,\" he added.",
+            "reference": "\"Sasa tuna panya wenye umri wa miezi minne ambao hawana kisukari ambao awali walikuwa na kisukari\", aliongeza. ",
+            "repetition": {
+              "consecutive_repeats": 125,
+              "repeated_words": 250,
+              "phrase": [
+                "michezo",
+                "ya"
+              ],
+              "start_word": 2
+            },
+            "prediction_excerpt": "\"Uwezi kujitumia michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo ya michezo y",
+            "excerpt_is_truncated": true
+          },
+          {
+            "index": 2,
+            "source": "Like some other experts, he is skeptical about whether diabetes can be cured, noting that these findings have no relevance to people who already have Type 1 diabetes.",
+            "reference": "Kama wataalam wengine, ana shaka kuhusu kama ugonjwa wa kisukari unaweza kutibiwa, akagundua kuwa matokeo haya hayana umuhimu kwa watu ambao tayari wana ugojwa wa kisukari wa aina 1.",
+            "repetition": {
+              "consecutive_repeats": 83,
+              "repeated_words": 166,
+              "phrase": [
+                "hata",
+                "hivyo,"
+              ],
+              "start_word": 4
+            },
+            "prediction_excerpt": "Hapana kwa mwezi mwingi, hata hivyo, hata hivyo, hata hivyo, hata hivyo, hata hivyo, hata hivyo, hata hivyo, hata hivyo, hata hivyo, hata hivyo, hata hivyo, hata hivyo, hata hivyo, hata hivyo, hata hivyo, hata hivyo, hata hivyo, hata hivyo, hata hivyo, hata hivyo, hata hivyo, hata hivyo, hata hivyo, hata hivyo, hata hivyo, hata hivyo, hata hivyo, hata hivyo, hata hivyo, hata hivyo, hata hivyo, hat",
+            "excerpt_is_truncated": true
+          },
+          {
+            "index": 3,
+            "source": "On Monday, Sara Danius, permanent secretary of the Nobel Committee for Literature at the Swedish Academy, publicly announced during a radio program on Sveriges Radio in Sweden the committee, unable to reach Bob Dylan directly about winning the 2016 Nobel Prize in Literature, had abandoned its efforts to reach him.",
+            "reference": "Mnamo Jumatatu, Sara Danius, katibu wa kudumu wa Kamati ya Nobel ya Fasihi katika Chuo cha Uswidi, alitangaza hadharani wakati wa kipindi cha redio kwenye Sveriges Radio katika Uswidi kwamba kamati hiyo, kwa kutoweza kumfikia Bob Dylan moja kwa moja kuhusu ushindi wa Tuzo la Nobel la Fasihi 2016, iliacha juhudi zake za kujaribu kumfikia.",
+            "repetition": {
+              "consecutive_repeats": 124,
+              "repeated_words": 248,
+              "phrase": [
+                "kawaida",
+                "wa"
+              ],
+              "start_word": 6
+            },
+            "prediction_excerpt": "Tumia mwanamke Sara Danius, mshirika wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida ",
+            "excerpt_is_truncated": true
+          }
+        ]
+      },
+      "swh_Latn_to_eng_Latn": {
+        "samples": 500,
+        "official_chrFpp": 16.19817531242172,
+        "repeated_response_count": 8,
+        "references_with_same_pattern": 0,
+        "empty_responses": 0,
+        "exact_source_copies": 203,
+        "mean_whitespace_words": 26.644,
+        "median_whitespace_words": 19.0,
+        "batch_width_counts": {
+          "131": 1,
+          "68": 5,
+          "125": 1,
+          "90": 1,
+          "60": 3,
+          "69": 4,
+          "54": 3,
+          "47": 3,
+          "98": 1,
+          "73": 8,
+          "48": 1,
+          "99": 1,
+          "40": 1,
+          "76": 4,
+          "70": 2,
+          "45": 3,
+          "41": 2,
+          "512": 12,
+          "58": 5,
+          "82": 1,
+          "117": 1,
+          "80": 3,
+          "66": 3,
+          "49": 3,
+          "42": 3,
+          "50": 5,
+          "86": 1,
+          "46": 4,
+          "77": 1,
+          "92": 1,
+          "128": 1,
+          "56": 2,
+          "67": 1,
+          "44": 1,
+          "57": 1,
+          "51": 2,
+          "63": 1,
+          "71": 3,
+          "95": 1,
+          "102": 1,
+          "53": 2,
+          "72": 3,
+          "59": 2,
+          "79": 1,
+          "62": 2,
+          "31": 1,
+          "37": 1,
+          "65": 2,
+          "52": 1,
+          "87": 1,
+          "61": 2,
+          "101": 1,
+          "74": 2,
+          "64": 1,
+          "55": 2
+        },
+        "source_sha256": "ff8c7f4bc8023c02941328cb8a2b9279df58a4a89acb0005549959b9b7df25ed",
+        "examples": [
+          {
+            "index": 183,
+            "source": "Kitovu cha mtetemeko huo kilikuwa takriban kilomita 20 (maili 15) kaskazini mwa kaskazini mashariki mwa Dillon, na takriban kilomita 65 (maili 40) kusini mwa Butte.",
+            "reference": "The earthquake was centered about 20 km (15 miles) north-northeast of Dillon, and about 65 km (40 miles) south of Butte.",
+            "repetition": {
+              "consecutive_repeats": 125,
+              "repeated_words": 500,
+              "phrase": [
+                "in",
+                "the",
+                "cold",
+                "season"
+              ],
+              "start_word": 7
+            },
+            "prediction_excerpt": "This is about 20 km (15 miles) in the cold season in the cold season in the cold season in the cold season in the cold season in the cold season in the cold season in the cold season in the cold season in the cold season in the cold season in the cold season in the cold season in the cold season in the cold season in the cold season in the cold season in the cold season in the cold season in the c",
+            "excerpt_is_truncated": true
+          },
+          {
+            "index": 271,
+            "source": "Silaha ya Uka ilikosa kufanya kazi huku ikilenga kichwa cha mwanamume wa tano. Schneider ana maumivu yanayoendelea, upofu katika jicho moja, hana sehemu ya fuvu na uso uliotengenezwa kwa titani.",
+            "reference": "Uka's weapon failed whilst pointed at a fifth man's head. Schneider has ongoing pain, blindness in one eye, a missing section of skull and a face rebuilt from titanium.",
+            "repetition": {
+              "consecutive_repeats": 81,
+              "repeated_words": 405,
+              "phrase": [
+                "a",
+                "man",
+                "of",
+                "the",
+                "people,"
+              ],
+              "start_word": 21
+            },
+            "prediction_excerpt": "Weapons of the Uka were used to carry out work and to carry out the work of the tano. Schneider was a man of the people, a man of the people, a man of the people, a man of the people, a man of the people, a man of the people, a man of the people, a man of the people, a man of the people, a man of the people, a man of the people, a man of the people, a man of the people, a man of the people, a man ",
+            "excerpt_is_truncated": true
+          },
+          {
+            "index": 578,
+            "source": "Nambari ya bainari yaweza tu kuwa na thamani moja kati ya mbili, yaani 0 au 1, na hizi nambari zinajulikana kama takwimu jozi, au biti, katika msamiati wa kompyuta.",
+            "reference": "A binary number can have only one of two values, i.e. 0 or 1, and these numbers are referred to as binary digits - or bits, to use computer jargon.",
+            "repetition": {
+              "consecutive_repeats": 127,
+              "repeated_words": 127,
+              "phrase": [
+                "binafsi"
+              ],
+              "start_word": 1
+            },
+            "prediction_excerpt": "Bainari binafsi binafsi binafsi binafsi binafsi binafsi binafsi binafsi binafsi binafsi binafsi binafsi binafsi binafsi binafsi binafsi binafsi binafsi binafsi binafsi binafsi binafsi binafsi binafsi binafsi binafsi binafsi binafsi binafsi binafsi binafsi binafsi binafsi binafsi binafsi binafsi binafsi binafsi binafsi binafsi binafsi binafsi binafsi binafsi binafsi binafsi binafsi binafsi binafsi ",
+            "excerpt_is_truncated": true
+          }
+        ]
+      }
+    },
+    "ssu": {
+      "eng_Latn_to_swh_Latn": {
+        "samples": 500,
+        "official_chrFpp": 5.961397059463463,
+        "repeated_response_count": 390,
+        "references_with_same_pattern": 0,
+        "empty_responses": 0,
+        "exact_source_copies": 1,
+        "mean_whitespace_words": 175.01,
+        "median_whitespace_words": 205.0,
+        "batch_width_counts": {
+          "512": 125
+        },
+        "source_sha256": "741e180c6246fc015f91a89cc5609a7ab0534315470be2baaa037534396e8035",
+        "examples": [
+          {
+            "index": 0,
+            "source": "\"We now have 4-month-old mice that are non-diabetic that used to be diabetic,\" he added.",
+            "reference": "\"Sasa tuna panya wenye umri wa miezi minne ambao hawana kisukari ambao awali walikuwa na kisukari\", aliongeza. ",
+            "repetition": {
+              "consecutive_repeats": 237,
+              "repeated_words": 237,
+              "phrase": [
+                "kama"
+              ],
+              "start_word": 13
+            },
+            "prediction_excerpt": "\"Kwa sababu kama kwa mwanamke, kama kama kwa mwanamke, kama kama kwa mwanamke, kama kama kama kama kama kama kama kama kama kama kama kama kama kama kama kama kama kama kama kama kama kama kama kama kama kama kama kama kama kama kama kama kama kama kama kama kama kama kama kama kama kama kama kama kama kama kama kama kama kama kama kama kama kama kama kama kama kama kama kama kama kama kama kama k",
+            "excerpt_is_truncated": true
+          },
+          {
+            "index": 2,
+            "source": "Like some other experts, he is skeptical about whether diabetes can be cured, noting that these findings have no relevance to people who already have Type 1 diabetes.",
+            "reference": "Kama wataalam wengine, ana shaka kuhusu kama ugonjwa wa kisukari unaweza kutibiwa, akagundua kuwa matokeo haya hayana umuhimu kwa watu ambao tayari wana ugojwa wa kisukari wa aina 1.",
+            "repetition": {
+              "consecutive_repeats": 99,
+              "repeated_words": 198,
+              "phrase": [
+                "kwa",
+                "kawaida"
+              ],
+              "start_word": 7
+            },
+            "prediction_excerpt": "Kwa kawaida, kama vile kawaida, ni kufanya kwa kawaida kwa kawaida kwa kawaida kwa kawaida kwa kawaida kwa kawaida kwa kawaida kwa kawaida kwa kawaida kwa kawaida kwa kawaida kwa kawaida kwa kawaida kwa kawaida kwa kawaida kwa kawaida kwa kawaida kwa kawaida kwa kawaida kwa kawaida kwa kawaida kwa kawaida kwa kawaida kwa kawaida kwa kawaida kwa kawaida kwa kawaida kwa kawaida kwa kawaida kwa kawai",
+            "excerpt_is_truncated": true
+          },
+          {
+            "index": 3,
+            "source": "On Monday, Sara Danius, permanent secretary of the Nobel Committee for Literature at the Swedish Academy, publicly announced during a radio program on Sveriges Radio in Sweden the committee, unable to reach Bob Dylan directly about winning the 2016 Nobel Prize in Literature, had abandoned its efforts to reach him.",
+            "reference": "Mnamo Jumatatu, Sara Danius, katibu wa kudumu wa Kamati ya Nobel ya Fasihi katika Chuo cha Uswidi, alitangaza hadharani wakati wa kipindi cha redio kwenye Sveriges Radio katika Uswidi kwamba kamati hiyo, kwa kutoweza kumfikia Bob Dylan moja kwa moja kuhusu ushindi wa Tuzo la Nobel la Fasihi 2016, iliacha juhudi zake za kujaribu kumfikia.",
+            "repetition": {
+              "consecutive_repeats": 126,
+              "repeated_words": 252,
+              "phrase": [
+                "kawaida",
+                "wa"
+              ],
+              "start_word": 4
+            },
+            "prediction_excerpt": "Sara Danius, kazi wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawaida wa kawai",
+            "excerpt_is_truncated": true
+          }
+        ]
+      },
+      "swh_Latn_to_eng_Latn": {
+        "samples": 500,
+        "official_chrFpp": 19.704462905423057,
+        "repeated_response_count": 10,
+        "references_with_same_pattern": 0,
+        "empty_responses": 0,
+        "exact_source_copies": 25,
+        "mean_whitespace_words": 43.17,
+        "median_whitespace_words": 21.0,
+        "batch_width_counts": {
+          "512": 28,
+          "37": 1,
+          "72": 1,
+          "53": 1,
+          "68": 2,
+          "60": 1,
+          "32": 4,
+          "94": 1,
+          "47": 3,
+          "29": 2,
+          "44": 3,
+          "41": 5,
+          "42": 2,
+          "27": 3,
+          "34": 5,
+          "81": 1,
+          "48": 2,
+          "45": 2,
+          "54": 2,
+          "33": 3,
+          "43": 5,
+          "74": 1,
+          "55": 1,
+          "51": 5,
+          "25": 1,
+          "26": 1,
+          "40": 2,
+          "65": 4,
+          "39": 3,
+          "38": 2,
+          "63": 2,
+          "57": 2,
+          "66": 1,
+          "52": 3,
+          "30": 2,
+          "59": 1,
+          "50": 2,
+          "78": 1,
+          "56": 1,
+          "71": 1,
+          "36": 1,
+          "62": 1,
+          "35": 4,
+          "58": 2,
+          "31": 1,
+          "46": 1,
+          "87": 1,
+          "303": 1
+        },
+        "source_sha256": "c39ee01219f2bf249118f9cfc3eab17513277e1eeda7bd284a2a407a500be235",
+        "examples": [
+          {
+            "index": 128,
+            "source": "Umoja wa Mataifa pia una matumaini ya kumaliza ufadhili wa kusaidia mataifa yaliyoathirika kutokana na ongezeko la joto duniani ili kuweza kupambana na athari.",
+            "reference": "The U.N. also hopes to finalize a fund to help countries affected by global warming to cope with the impacts.",
+            "repetition": {
+              "consecutive_repeats": 84,
+              "repeated_words": 168,
+              "phrase": [
+                "kusaidia",
+                "kwa"
+              ],
+              "start_word": 2
+            },
+            "prediction_excerpt": "Mataifa ya kusaidia kwa kusaidia kwa kusaidia kwa kusaidia kwa kusaidia kwa kusaidia kwa kusaidia kwa kusaidia kwa kusaidia kwa kusaidia kwa kusaidia kwa kusaidia kwa kusaidia kwa kusaidia kwa kusaidia kwa kusaidia kwa kusaidia kwa kusaidia kwa kusaidia kwa kusaidia kwa kusaidia kwa kusaidia kwa kusaidia kwa kusaidia kwa kusaidia kwa kusaidia kwa kusaidia kwa kusaidia kwa kusaidia kwa kusaidia kwa",
+            "excerpt_is_truncated": true
+          },
+          {
+            "index": 165,
+            "source": "Tangu 1988, ni lazima masanduku ya kura yawe maangavu ili wapigaji kura na wachunguzi waweze kushuhudia kwamba hakuna bahasha zinazoongezwa isipokuwa zile za wapigaji kura waliohesabiwa na kuidhinishwa.",
+            "reference": "Since 1988, ballot boxes must be transparent so that voters and observers can witness that no envelopes are present at the start of the vote and that no envelopes are added except those of the duly counted and authorized voters.",
+            "repetition": {
+              "consecutive_repeats": 125,
+              "repeated_words": 500,
+              "phrase": [
+                "a",
+                "good",
+                "quality",
+                "of"
+              ],
+              "start_word": 7
+            },
+            "prediction_excerpt": "In 1988, it is essential to use a good quality of a good quality of a good quality of a good quality of a good quality of a good quality of a good quality of a good quality of a good quality of a good quality of a good quality of a good quality of a good quality of a good quality of a good quality of a good quality of a good quality of a good quality of a good quality of a good quality of a good q",
+            "excerpt_is_truncated": true
+          },
+          {
+            "index": 367,
+            "source": "Chui yuko kwenye kundi moja (jenasi panther) na simba, lengau na chui wa America ya kusini na kati. Hawa paka wanne pekee ndio wanaoweza kunguruma.",
+            "reference": "The tiger is in the same group (Genus Panthera) as lions, leopards, and jaguars. These four cats are the only ones who can roar.",
+            "repetition": {
+              "consecutive_repeats": 82,
+              "repeated_words": 410,
+              "phrase": [
+                "the",
+                "lion",
+                "and",
+                "the",
+                "tiger,"
+              ],
+              "start_word": 12
+            },
+            "prediction_excerpt": "The lion (jungle lion) and the tiger, the lion and the panther, the lion and the tiger, the lion and the tiger, the lion and the tiger, the lion and the tiger, the lion and the tiger, the lion and the tiger, the lion and the tiger, the lion and the tiger, the lion and the tiger, the lion and the tiger, the lion and the tiger, the lion and the tiger, the lion and the tiger, the lion and the tiger, ",
+            "excerpt_is_truncated": true
+          }
+        ]
+      }
+    }
+  },
+  "publication_note": "Summary and illustrative excerpts; complete per-response diagnostic remains at the recorded server path."
+}

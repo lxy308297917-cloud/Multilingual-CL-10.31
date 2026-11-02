@@ -1,0 +1,23 @@
+group: sft_v1_mmlu_prox_sw
+task:
+- sft_v1_mmlu_prox_sw_biology
+- sft_v1_mmlu_prox_sw_business
+- sft_v1_mmlu_prox_sw_chemistry
+- sft_v1_mmlu_prox_sw_computer_science
+- sft_v1_mmlu_prox_sw_economics
+- sft_v1_mmlu_prox_sw_engineering
+- sft_v1_mmlu_prox_sw_health
+- sft_v1_mmlu_prox_sw_history
+- sft_v1_mmlu_prox_sw_law
+- sft_v1_mmlu_prox_sw_math
+- sft_v1_mmlu_prox_sw_other
+- sft_v1_mmlu_prox_sw_philosophy
+- sft_v1_mmlu_prox_sw_physics
+- sft_v1_mmlu_prox_sw_psychology
+aggregate_metric_list:
+- aggregation: mean
+  metric: exact_match
+  weight_by_size: true
+  filter_list: custom-extract
+metadata:
+  version: 0.0

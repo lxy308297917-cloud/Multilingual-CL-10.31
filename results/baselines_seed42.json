@@ -1,0 +1,806 @@
+{
+  "scope": "Completed official metrics only; full seed42 and separately labeled partial repetitions/legacy results",
+  "replications": "Remaining seed43/44 work intentionally stopped by user; not queued or zero scores",
+  "rows": [
+    {
+      "method": "base",
+      "task": "belebele_eng_Latn_locked",
+      "metric": "acc,none",
+      "score_0_to_100": 60.77777777777777,
+      "question_or_prompt_count": 900,
+      "training_seed": null,
+      "source_sha256": "645c003242076b7a7193d956cc85de5b1b30013f9896301f707245e8d96fd38c",
+      "source_artifact": "None/base/belebele_eng_Latn_locked/results_2026-10-31T12-56-07.013526.json"
+    },
+    {
+      "method": "base",
+      "task": "belebele_swh_Latn_locked",
+      "metric": "acc,none",
+      "score_0_to_100": 28.333333333333332,
+      "question_or_prompt_count": 900,
+      "training_seed": null,
+      "source_sha256": "645c003242076b7a7193d956cc85de5b1b30013f9896301f707245e8d96fd38c",
+      "source_artifact": "None/base/belebele_swh_Latn_locked/results_2026-10-31T12-56-07.013526.json"
+    },
+    {
+      "method": "base",
+      "task": "eng_Latn_to_swh_Latn",
+      "metric": "chrF++",
+      "score_0_to_100": 5.106949994010351,
+      "question_or_prompt_count": 500,
+      "training_seed": null,
+      "source_sha256": "a5a25bdfce2bf7453d72b643420407fa92723af5c1b9c6894952a355d301066c",
+      "source_artifact": "None/base/eng_Latn_to_swh_Latn/summary.json"
+    },
+    {
+      "method": "base",
+      "task": "global_mmlu_full_sw_locked",
+      "metric": "acc,none",
+      "score_0_to_100": 27.866400797607177,
+      "question_or_prompt_count": 14042,
+      "training_seed": null,
+      "source_sha256": "b224cc96582f56ef34627c61ae311a7f2416a10a7985598e320c5b22d6bfb395",
+      "source_artifact": "None/base/global_mmlu_full_sw_locked/results_2026-10-31T16-15-23.230112.json"
+    },
+    {
+      "method": "base",
+      "task": "mmlu_locked",
+      "metric": "acc,none",
+      "score_0_to_100": 57.00754878222476,
+      "question_or_prompt_count": 14042,
+      "training_seed": null,
+      "source_sha256": "82ddcbc563ca8e717145ce20d950e8a8de26564c79e6851fe692cce137affb0f",
+      "source_artifact": "None/base/mmlu_locked/results_2026-10-31T15-46-01.986979.json"
+    },
+    {
+      "method": "base",
+      "task": "sft_v1_gsm8k",
+      "metric": "exact_match,flexible-extract",
+      "score_0_to_100": 73.0098559514784,
+      "question_or_prompt_count": 1319,
+      "training_seed": null,
+      "source_sha256": "fab7370321553ece1b614a72084291f5559eb734214f95d3082febe625e08aef",
+      "source_artifact": "None/base/sft_v1_gsm8k/results_2026-11-01T18-58-47.545298.json"
+    },
+    {
+      "method": "base",
+      "task": "sft_v1_gsm8k",
+      "metric": "exact_match,strict-match",
+      "score_0_to_100": 45.034116755117516,
+      "question_or_prompt_count": 1319,
+      "training_seed": null,
+      "source_sha256": "fab7370321553ece1b614a72084291f5559eb734214f95d3082febe625e08aef",
+      "source_artifact": "None/base/sft_v1_gsm8k/results_2026-11-01T18-58-47.545298.json"
+    },
+    {
+      "method": "base",
+      "task": "sft_v1_ifeval",
+      "metric": "inst_level_loose_acc,none",
+      "score_0_to_100": 78.17745803357315,
+      "question_or_prompt_count": 541,
+      "training_seed": null,
+      "source_sha256": "fab7370321553ece1b614a72084291f5559eb734214f95d3082febe625e08aef",
+      "source_artifact": "None/base/sft_v1_ifeval/results_2026-11-01T18-58-47.545298.json"
+    },
+    {
+      "method": "base",
+      "task": "sft_v1_ifeval",
+      "metric": "inst_level_strict_acc,none",
+      "score_0_to_100": 75.17985611510791,
+      "question_or_prompt_count": 541,
+      "training_seed": null,
+      "source_sha256": "fab7370321553ece1b614a72084291f5559eb734214f95d3082febe625e08aef",
+      "source_artifact": "None/base/sft_v1_ifeval/results_2026-11-01T18-58-47.545298.json"
+    },
+    {
+      "method": "base",
+      "task": "sft_v1_ifeval",
+      "metric": "prompt_level_loose_acc,none",
+      "score_0_to_100": 70.42513863216267,
+      "question_or_prompt_count": 541,
+      "training_seed": null,
+      "source_sha256": "fab7370321553ece1b614a72084291f5559eb734214f95d3082febe625e08aef",
+      "source_artifact": "None/base/sft_v1_ifeval/results_2026-11-01T18-58-47.545298.json"
+    },
+    {
+      "method": "base",
+      "task": "sft_v1_ifeval",
+      "metric": "prompt_level_strict_acc,none",
+      "score_0_to_100": 66.91312384473198,
+      "question_or_prompt_count": 541,
+      "training_seed": null,
+      "source_sha256": "fab7370321553ece1b614a72084291f5559eb734214f95d3082febe625e08aef",
+      "source_artifact": "None/base/sft_v1_ifeval/results_2026-11-01T18-58-47.545298.json"
+    },
+    {
+      "method": "base",
+      "task": "sft_v1_mgsm_native_cot_sw",
+      "metric": "exact_match,flexible-extract",
+      "score_0_to_100": 10.0,
+      "question_or_prompt_count": 250,
+      "training_seed": null,
+      "source_sha256": "fab7370321553ece1b614a72084291f5559eb734214f95d3082febe625e08aef",
+      "source_artifact": "None/base/sft_v1_mgsm_native_cot_sw/results_2026-11-01T18-58-47.545298.json"
+    },
+    {
+      "method": "base",
+      "task": "sft_v1_mgsm_native_cot_sw",
+      "metric": "exact_match,strict-match",
+      "score_0_to_100": 1.6,
+      "question_or_prompt_count": 250,
+      "training_seed": null,
+      "source_sha256": "fab7370321553ece1b614a72084291f5559eb734214f95d3082febe625e08aef",
+      "source_artifact": "None/base/sft_v1_mgsm_native_cot_sw/results_2026-11-01T18-58-47.545298.json"
+    },
+    {
+      "method": "base",
+      "task": "sft_v1_mmlu_prox_en",
+      "metric": "exact_match,custom-extract",
+      "score_0_to_100": 46.19440428607875,
+      "question_or_prompt_count": 11759,
+      "training_seed": null,
+      "source_sha256": "b22d2effa7d86eb1eda71d8e7ad3e37d55feaab6da8ccd9445e7986c14fd9e09",
+      "source_artifact": "None/base/sft_v1_mmlu_prox_en/results_2026-11-01T18-10-17.011459.json"
+    },
+    {
+      "method": "base",
+      "task": "sft_v1_mmlu_prox_sw",
+      "metric": "exact_match,custom-extract",
+      "score_0_to_100": 0.7228505825325282,
+      "question_or_prompt_count": 11759,
+      "training_seed": null,
+      "source_sha256": "6fbfefc503f32d0155205c0e29aa3ee6ccee8dc924e66ad21b81c4ab6489d932",
+      "source_artifact": "None/base/sft_v1_mmlu_prox_sw/results_2026-11-01T18-40-49.999265.json"
+    },
+    {
+      "method": "base",
+      "task": "sft_v1_xifeval_sw",
+      "metric": "inst_level_loose_acc,none",
+      "score_0_to_100": 25.908372827804104,
+      "question_or_prompt_count": 429,
+      "training_seed": null,
+      "source_sha256": "fab7370321553ece1b614a72084291f5559eb734214f95d3082febe625e08aef",
+      "source_artifact": "None/base/sft_v1_xifeval_sw/results_2026-11-01T18-58-47.545298.json"
+    },
+    {
+      "method": "base",
+      "task": "sft_v1_xifeval_sw",
+      "metric": "inst_level_strict_acc,none",
+      "score_0_to_100": 23.22274881516588,
+      "question_or_prompt_count": 429,
+      "training_seed": null,
+      "source_sha256": "fab7370321553ece1b614a72084291f5559eb734214f95d3082febe625e08aef",
+      "source_artifact": "None/base/sft_v1_xifeval_sw/results_2026-11-01T18-58-47.545298.json"
+    },
+    {
+      "method": "base",
+      "task": "sft_v1_xifeval_sw",
+      "metric": "prompt_level_loose_acc,none",
+      "score_0_to_100": 17.24941724941725,
+      "question_or_prompt_count": 429,
+      "training_seed": null,
+      "source_sha256": "fab7370321553ece1b614a72084291f5559eb734214f95d3082febe625e08aef",
+      "source_artifact": "None/base/sft_v1_xifeval_sw/results_2026-11-01T18-58-47.545298.json"
+    },
+    {
+      "method": "base",
+      "task": "sft_v1_xifeval_sw",
+      "metric": "prompt_level_strict_acc,none",
+      "score_0_to_100": 14.918414918414918,
+      "question_or_prompt_count": 429,
+      "training_seed": null,
+      "source_sha256": "fab7370321553ece1b614a72084291f5559eb734214f95d3082febe625e08aef",
+      "source_artifact": "None/base/sft_v1_xifeval_sw/results_2026-11-01T18-58-47.545298.json"
+    },
+    {
+      "method": "base",
+      "task": "swh_Latn_to_eng_Latn",
+      "metric": "chrF++",
+      "score_0_to_100": 22.909869893917335,
+      "question_or_prompt_count": 500,
+      "training_seed": null,
+      "source_sha256": "a5a25bdfce2bf7453d72b643420407fa92723af5c1b9c6894952a355d301066c",
+      "source_artifact": "None/base/swh_Latn_to_eng_Latn/summary.json"
+    },
+    {
+      "method": "full",
+      "task": "belebele_eng_Latn_locked",
+      "metric": "acc,none",
+      "score_0_to_100": 77.11111111111111,
+      "question_or_prompt_count": 900,
+      "training_seed": 42,
+      "source_sha256": "f51484e428acf45233a6714d6470fb7b9d5c1fe2f25ef6c01206085f376afac9",
+      "source_artifact": "42/full/belebele_eng_Latn_locked/results_2026-11-02T01-57-37.349958.json"
+    },
+    {
+      "method": "full",
+      "task": "belebele_swh_Latn_locked",
+      "metric": "acc,none",
+      "score_0_to_100": 36.666666666666664,
+      "question_or_prompt_count": 900,
+      "training_seed": 42,
+      "source_sha256": "f51484e428acf45233a6714d6470fb7b9d5c1fe2f25ef6c01206085f376afac9",
+      "source_artifact": "42/full/belebele_swh_Latn_locked/results_2026-11-02T01-57-37.349958.json"
+    },
+    {
+      "method": "full",
+      "task": "eng_Latn_to_swh_Latn",
+      "metric": "chrF++",
+      "score_0_to_100": 8.096147514337519,
+      "question_or_prompt_count": 500,
+      "training_seed": 42,
+      "source_sha256": "b3846ed7c3087ce5912613cf628bc887501b4a6e405dd74559481fb6ada59ea9",
+      "source_artifact": "42/full/eng_Latn_to_swh_Latn/summary.json"
+    },
+    {
+      "method": "full",
+      "task": "global_mmlu_full_sw_locked",
+      "metric": "acc,none",
+      "score_0_to_100": 31.6479134026492,
+      "question_or_prompt_count": 14042,
+      "training_seed": 42,
+      "source_sha256": "648c6d4c7b95795f839c38848f35747d9b30fac2b985d034fb250317f3c65c71",
+      "source_artifact": "42/full/global_mmlu_full_sw_locked/results_2026-11-02T02-50-36.345921.json"
+    },
+    {
+      "method": "full",
+      "task": "mmlu_locked",
+      "metric": "acc,none",
+      "score_0_to_100": 58.44609030052699,
+      "question_or_prompt_count": 14042,
+      "training_seed": 42,
+      "source_sha256": "b6d288c1d2d47e48e21c57af0b32177f7e40fa2773b645c9ec86b2e8cb875fcb",
+      "source_artifact": "42/full/mmlu_locked/results_2026-11-02T02-17-34.485180.json"
+    },
+    {
+      "method": "full",
+      "task": "sft_v1_gsm8k",
+      "metric": "exact_match,flexible-extract",
+      "score_0_to_100": 61.25852918877938,
+      "question_or_prompt_count": 1319,
+      "training_seed": 42,
+      "source_sha256": "86dad053b15fa8bd408689f1be81db0f323d31d73d0753fa778f33a773e94851",
+      "source_artifact": "42/full/sft_v1_gsm8k/results_2026-11-02T00-12-10.940869.json"
+    },
+    {
+      "method": "full",
+      "task": "sft_v1_gsm8k",
+      "metric": "exact_match,strict-match",
+      "score_0_to_100": 3.790750568612585,
+      "question_or_prompt_count": 1319,
+      "training_seed": 42,
+      "source_sha256": "86dad053b15fa8bd408689f1be81db0f323d31d73d0753fa778f33a773e94851",
+      "source_artifact": "42/full/sft_v1_gsm8k/results_2026-11-02T00-12-10.940869.json"
+    },
+    {
+      "method": "full",
+      "task": "sft_v1_ifeval",
+      "metric": "inst_level_loose_acc,none",
+      "score_0_to_100": 41.48681055155875,
+      "question_or_prompt_count": 541,
+      "training_seed": 42,
+      "source_sha256": "86dad053b15fa8bd408689f1be81db0f323d31d73d0753fa778f33a773e94851",
+      "source_artifact": "42/full/sft_v1_ifeval/results_2026-11-02T00-12-10.940869.json"
+    },
+    {
+      "method": "full",
+      "task": "sft_v1_ifeval",
+      "metric": "inst_level_strict_acc,none",
+      "score_0_to_100": 41.007194244604314,
+      "question_or_prompt_count": 541,
+      "training_seed": 42,
+      "source_sha256": "86dad053b15fa8bd408689f1be81db0f323d31d73d0753fa778f33a773e94851",
+      "source_artifact": "42/full/sft_v1_ifeval/results_2026-11-02T00-12-10.940869.json"
+    },
+    {
+      "method": "full",
+      "task": "sft_v1_ifeval",
+      "metric": "prompt_level_loose_acc,none",
+      "score_0_to_100": 27.35674676524954,
+      "question_or_prompt_count": 541,
+      "training_seed": 42,
+      "source_sha256": "86dad053b15fa8bd408689f1be81db0f323d31d73d0753fa778f33a773e94851",
+      "source_artifact": "42/full/sft_v1_ifeval/results_2026-11-02T00-12-10.940869.json"
+    },
+    {
+      "method": "full",
+      "task": "sft_v1_ifeval",
+      "metric": "prompt_level_strict_acc,none",
+      "score_0_to_100": 27.171903881700555,
+      "question_or_prompt_count": 541,
+      "training_seed": 42,
+      "source_sha256": "86dad053b15fa8bd408689f1be81db0f323d31d73d0753fa778f33a773e94851",
+      "source_artifact": "42/full/sft_v1_ifeval/results_2026-11-02T00-12-10.940869.json"
+    },
+    {
+      "method": "full",
+      "task": "sft_v1_mgsm_native_cot_sw",
+      "metric": "exact_match,flexible-extract",
+      "score_0_to_100": 8.4,
+      "question_or_prompt_count": 250,
+      "training_seed": 42,
+      "source_sha256": "86dad053b15fa8bd408689f1be81db0f323d31d73d0753fa778f33a773e94851",
+      "source_artifact": "42/full/sft_v1_mgsm_native_cot_sw/results_2026-11-02T00-12-10.940869.json"
+    },
+    {
+      "method": "full",
+      "task": "sft_v1_mgsm_native_cot_sw",
+      "metric": "exact_match,strict-match",
+      "score_0_to_100": 4.8,
+      "question_or_prompt_count": 250,
+      "training_seed": 42,
+      "source_sha256": "86dad053b15fa8bd408689f1be81db0f323d31d73d0753fa778f33a773e94851",
+      "source_artifact": "42/full/sft_v1_mgsm_native_cot_sw/results_2026-11-02T00-12-10.940869.json"
+    },
+    {
+      "method": "full",
+      "task": "sft_v1_mmlu_prox_en",
+      "metric": "exact_match,custom-extract",
+      "score_0_to_100": 36.933412705162006,
+      "question_or_prompt_count": 11759,
+      "training_seed": 42,
+      "source_sha256": "142443f7ace7e2e183348170e2aafbacce2274eb088e35a2b24589ef704e4185",
+      "source_artifact": "42/full/sft_v1_mmlu_prox_en/results_2026-11-02T00-43-24.811197.json"
+    },
+    {
+      "method": "full",
+      "task": "sft_v1_mmlu_prox_sw",
+      "metric": "exact_match,custom-extract",
+      "score_0_to_100": 2.517220852113275,
+      "question_or_prompt_count": 11759,
+      "training_seed": 42,
+      "source_sha256": "6dd5cb50d8f1eb1d85d6a968ce86a108a1de2138ab038bbcba5f420371f86847",
+      "source_artifact": "42/full/sft_v1_mmlu_prox_sw/results_2026-11-02T02-01-18.355265.json"
+    },
+    {
+      "method": "full",
+      "task": "sft_v1_xifeval_sw",
+      "metric": "inst_level_loose_acc,none",
+      "score_0_to_100": 23.06477093206951,
+      "question_or_prompt_count": 429,
+      "training_seed": 42,
+      "source_sha256": "86dad053b15fa8bd408689f1be81db0f323d31d73d0753fa778f33a773e94851",
+      "source_artifact": "42/full/sft_v1_xifeval_sw/results_2026-11-02T00-12-10.940869.json"
+    },
+    {
+      "method": "full",
+      "task": "sft_v1_xifeval_sw",
+      "metric": "inst_level_strict_acc,none",
+      "score_0_to_100": 23.06477093206951,
+      "question_or_prompt_count": 429,
+      "training_seed": 42,
+      "source_sha256": "86dad053b15fa8bd408689f1be81db0f323d31d73d0753fa778f33a773e94851",
+      "source_artifact": "42/full/sft_v1_xifeval_sw/results_2026-11-02T00-12-10.940869.json"
+    },
+    {
+      "method": "full",
+      "task": "sft_v1_xifeval_sw",
+      "metric": "prompt_level_loose_acc,none",
+      "score_0_to_100": 14.685314685314685,
+      "question_or_prompt_count": 429,
+      "training_seed": 42,
+      "source_sha256": "86dad053b15fa8bd408689f1be81db0f323d31d73d0753fa778f33a773e94851",
+      "source_artifact": "42/full/sft_v1_xifeval_sw/results_2026-11-02T00-12-10.940869.json"
+    },
+    {
+      "method": "full",
+      "task": "sft_v1_xifeval_sw",
+      "metric": "prompt_level_strict_acc,none",
+      "score_0_to_100": 14.685314685314685,
+      "question_or_prompt_count": 429,
+      "training_seed": 42,
+      "source_sha256": "86dad053b15fa8bd408689f1be81db0f323d31d73d0753fa778f33a773e94851",
+      "source_artifact": "42/full/sft_v1_xifeval_sw/results_2026-11-02T00-12-10.940869.json"
+    },
+    {
+      "method": "full",
+      "task": "swh_Latn_to_eng_Latn",
+      "metric": "chrF++",
+      "score_0_to_100": 14.52736131422909,
+      "question_or_prompt_count": 500,
+      "training_seed": 42,
+      "source_sha256": "b3846ed7c3087ce5912613cf628bc887501b4a6e405dd74559481fb6ada59ea9",
+      "source_artifact": "42/full/swh_Latn_to_eng_Latn/summary.json"
+    },
+    {
+      "method": "lora",
+      "task": "belebele_eng_Latn_locked",
+      "metric": "acc,none",
+      "score_0_to_100": 78.22222222222223,
+      "question_or_prompt_count": 900,
+      "training_seed": 42,
+      "source_sha256": "d88e14165fd7612253697cda7d6ebdfa4da1948d274a28c65efcec87439f1193",
+      "source_artifact": "42/lora/belebele_eng_Latn_locked/results_2026-11-02T02-49-59.091853.json"
+    },
+    {
+      "method": "lora",
+      "task": "belebele_swh_Latn_locked",
+      "metric": "acc,none",
+      "score_0_to_100": 36.888888888888886,
+      "question_or_prompt_count": 900,
+      "training_seed": 42,
+      "source_sha256": "d88e14165fd7612253697cda7d6ebdfa4da1948d274a28c65efcec87439f1193",
+      "source_artifact": "42/lora/belebele_swh_Latn_locked/results_2026-11-02T02-49-59.091853.json"
+    },
+    {
+      "method": "lora",
+      "task": "eng_Latn_to_swh_Latn",
+      "metric": "chrF++",
+      "score_0_to_100": 7.196446055388976,
+      "question_or_prompt_count": 500,
+      "training_seed": 42,
+      "source_sha256": "c8ab54fd7d431fb724f73d6592e007b1ba141c665417eea02fe015a155971e60",
+      "source_artifact": "42/lora/eng_Latn_to_swh_Latn/summary.json"
+    },
+    {
+      "method": "lora",
+      "task": "global_mmlu_full_sw_locked",
+      "metric": "acc,none",
+      "score_0_to_100": 31.37729668138442,
+      "question_or_prompt_count": 14042,
+      "training_seed": 42,
+      "source_sha256": "766f7d531c07145d57230896327823dedb7eb1534967496b2ec96aeabd6bb5d6",
+      "source_artifact": "42/lora/global_mmlu_full_sw_locked/results_2026-11-02T03-52-39.101683.json"
+    },
+    {
+      "method": "lora",
+      "task": "mmlu_locked",
+      "metric": "acc,none",
+      "score_0_to_100": 58.332146417889184,
+      "question_or_prompt_count": 14042,
+      "training_seed": 42,
+      "source_sha256": "9beedccd9e811fa690a5fdeba0484bcbc3826f29cb1c481aae985961aec249c0",
+      "source_artifact": "42/lora/mmlu_locked/results_2026-11-02T03-13-55.423127.json"
+    },
+    {
+      "method": "lora",
+      "task": "sft_v1_gsm8k",
+      "metric": "exact_match,flexible-extract",
+      "score_0_to_100": 56.785443517816525,
+      "question_or_prompt_count": 1319,
+      "training_seed": 42,
+      "source_sha256": "c1f28be89ee975fc6828bf7c1c2ed08a888de220cf3486de5f9cf157e98e6f5a",
+      "source_artifact": "42/lora/sft_v1_gsm8k/results_2026-11-02T00-32-32.048004.json"
+    },
+    {
+      "method": "lora",
+      "task": "sft_v1_gsm8k",
+      "metric": "exact_match,strict-match",
+      "score_0_to_100": 7.354056103108415,
+      "question_or_prompt_count": 1319,
+      "training_seed": 42,
+      "source_sha256": "c1f28be89ee975fc6828bf7c1c2ed08a888de220cf3486de5f9cf157e98e6f5a",
+      "source_artifact": "42/lora/sft_v1_gsm8k/results_2026-11-02T00-32-32.048004.json"
+    },
+    {
+      "method": "lora",
+      "task": "sft_v1_ifeval",
+      "metric": "inst_level_loose_acc,none",
+      "score_0_to_100": 45.68345323741007,
+      "question_or_prompt_count": 541,
+      "training_seed": 42,
+      "source_sha256": "c1f28be89ee975fc6828bf7c1c2ed08a888de220cf3486de5f9cf157e98e6f5a",
+      "source_artifact": "42/lora/sft_v1_ifeval/results_2026-11-02T00-32-32.048004.json"
+    },
+    {
+      "method": "lora",
+      "task": "sft_v1_ifeval",
+      "metric": "inst_level_strict_acc,none",
+      "score_0_to_100": 45.563549160671464,
+      "question_or_prompt_count": 541,
+      "training_seed": 42,
+      "source_sha256": "c1f28be89ee975fc6828bf7c1c2ed08a888de220cf3486de5f9cf157e98e6f5a",
+      "source_artifact": "42/lora/sft_v1_ifeval/results_2026-11-02T00-32-32.048004.json"
+    },
+    {
+      "method": "lora",
+      "task": "sft_v1_ifeval",
+      "metric": "prompt_level_loose_acc,none",
+      "score_0_to_100": 31.053604436229204,
+      "question_or_prompt_count": 541,
+      "training_seed": 42,
+      "source_sha256": "c1f28be89ee975fc6828bf7c1c2ed08a888de220cf3486de5f9cf157e98e6f5a",
+      "source_artifact": "42/lora/sft_v1_ifeval/results_2026-11-02T00-32-32.048004.json"
+    },
+    {
+      "method": "lora",
+      "task": "sft_v1_ifeval",
+      "metric": "prompt_level_strict_acc,none",
+      "score_0_to_100": 31.053604436229204,
+      "question_or_prompt_count": 541,
+      "training_seed": 42,
+      "source_sha256": "c1f28be89ee975fc6828bf7c1c2ed08a888de220cf3486de5f9cf157e98e6f5a",
+      "source_artifact": "42/lora/sft_v1_ifeval/results_2026-11-02T00-32-32.048004.json"
+    },
+    {
+      "method": "lora",
+      "task": "sft_v1_mgsm_native_cot_sw",
+      "metric": "exact_match,flexible-extract",
+      "score_0_to_100": 7.6,
+      "question_or_prompt_count": 250,
+      "training_seed": 42,
+      "source_sha256": "c1f28be89ee975fc6828bf7c1c2ed08a888de220cf3486de5f9cf157e98e6f5a",
+      "source_artifact": "42/lora/sft_v1_mgsm_native_cot_sw/results_2026-11-02T00-32-32.048004.json"
+    },
+    {
+      "method": "lora",
+      "task": "sft_v1_mgsm_native_cot_sw",
+      "metric": "exact_match,strict-match",
+      "score_0_to_100": 4.0,
+      "question_or_prompt_count": 250,
+      "training_seed": 42,
+      "source_sha256": "c1f28be89ee975fc6828bf7c1c2ed08a888de220cf3486de5f9cf157e98e6f5a",
+      "source_artifact": "42/lora/sft_v1_mgsm_native_cot_sw/results_2026-11-02T00-32-32.048004.json"
+    },
+    {
+      "method": "lora",
+      "task": "sft_v1_mmlu_prox_en",
+      "metric": "exact_match,custom-extract",
+      "score_0_to_100": 36.00646313462029,
+      "question_or_prompt_count": 11759,
+      "training_seed": 42,
+      "source_sha256": "59a484376633e9aae4d6a016da7ccd5d815f77709c6dc50583fd90bcb5e817c6",
+      "source_artifact": "42/lora/sft_v1_mmlu_prox_en/results_2026-11-02T01-20-31.328833.json"
+    },
+    {
+      "method": "lora",
+      "task": "sft_v1_mmlu_prox_sw",
+      "metric": "exact_match,custom-extract",
+      "score_0_to_100": 5.19602006973382,
+      "question_or_prompt_count": 11759,
+      "training_seed": 42,
+      "source_sha256": "9c53e71d9e0a8382169b63166edf42a82e57bd0309785983567a9df50867da7c",
+      "source_artifact": "42/lora/sft_v1_mmlu_prox_sw/results_2026-11-02T04-53-31.219255.json"
+    },
+    {
+      "method": "lora",
+      "task": "sft_v1_xifeval_sw",
+      "metric": "inst_level_loose_acc,none",
+      "score_0_to_100": 22.748815165876778,
+      "question_or_prompt_count": 429,
+      "training_seed": 42,
+      "source_sha256": "c1f28be89ee975fc6828bf7c1c2ed08a888de220cf3486de5f9cf157e98e6f5a",
+      "source_artifact": "42/lora/sft_v1_xifeval_sw/results_2026-11-02T00-32-32.048004.json"
+    },
+    {
+      "method": "lora",
+      "task": "sft_v1_xifeval_sw",
+      "metric": "inst_level_strict_acc,none",
+      "score_0_to_100": 22.748815165876778,
+      "question_or_prompt_count": 429,
+      "training_seed": 42,
+      "source_sha256": "c1f28be89ee975fc6828bf7c1c2ed08a888de220cf3486de5f9cf157e98e6f5a",
+      "source_artifact": "42/lora/sft_v1_xifeval_sw/results_2026-11-02T00-32-32.048004.json"
+    },
+    {
+      "method": "lora",
+      "task": "sft_v1_xifeval_sw",
+      "metric": "prompt_level_loose_acc,none",
+      "score_0_to_100": 14.918414918414918,
+      "question_or_prompt_count": 429,
+      "training_seed": 42,
+      "source_sha256": "c1f28be89ee975fc6828bf7c1c2ed08a888de220cf3486de5f9cf157e98e6f5a",
+      "source_artifact": "42/lora/sft_v1_xifeval_sw/results_2026-11-02T00-32-32.048004.json"
+    },
+    {
+      "method": "lora",
+      "task": "sft_v1_xifeval_sw",
+      "metric": "prompt_level_strict_acc,none",
+      "score_0_to_100": 14.918414918414918,
+      "question_or_prompt_count": 429,
+      "training_seed": 42,
+      "source_sha256": "c1f28be89ee975fc6828bf7c1c2ed08a888de220cf3486de5f9cf157e98e6f5a",
+      "source_artifact": "42/lora/sft_v1_xifeval_sw/results_2026-11-02T00-32-32.048004.json"
+    },
+    {
+      "method": "lora",
+      "task": "swh_Latn_to_eng_Latn",
+      "metric": "chrF++",
+      "score_0_to_100": 16.19817531242172,
+      "question_or_prompt_count": 500,
+      "training_seed": 42,
+      "source_sha256": "c8ab54fd7d431fb724f73d6592e007b1ba141c665417eea02fe015a155971e60",
+      "source_artifact": "42/lora/swh_Latn_to_eng_Latn/summary.json"
+    },
+    {
+      "method": "ssu",
+      "task": "belebele_eng_Latn_locked",
+      "metric": "acc,none",
+      "score_0_to_100": 79.66666666666666,
+      "question_or_prompt_count": 900,
+      "training_seed": 42,
+      "source_sha256": "50ba100ae5194fbed6267c7900973059fd20715e180707c72649fefc7a98cf60",
+      "source_artifact": "42/ssu/belebele_eng_Latn_locked/results_2026-11-02T03-33-17.382987.json"
+    },
+    {
+      "method": "ssu",
+      "task": "belebele_swh_Latn_locked",
+      "metric": "acc,none",
+      "score_0_to_100": 35.44444444444444,
+      "question_or_prompt_count": 900,
+      "training_seed": 42,
+      "source_sha256": "50ba100ae5194fbed6267c7900973059fd20715e180707c72649fefc7a98cf60",
+      "source_artifact": "42/ssu/belebele_swh_Latn_locked/results_2026-11-02T03-33-17.382987.json"
+    },
+    {
+      "method": "ssu",
+      "task": "eng_Latn_to_swh_Latn",
+      "metric": "chrF++",
+      "score_0_to_100": 5.961397059463463,
+      "question_or_prompt_count": 500,
+      "training_seed": 42,
+      "source_sha256": "51a115b6a826ac7955b3424aba09b833ef24e1f05edb6ba3d7f2f4d704b1c81f",
+      "source_artifact": "42/ssu/eng_Latn_to_swh_Latn/summary.json"
+    },
+    {
+      "method": "ssu",
+      "task": "global_mmlu_full_sw_locked",
+      "metric": "acc,none",
+      "score_0_to_100": 31.24198832075203,
+      "question_or_prompt_count": 14042,
+      "training_seed": 42,
+      "source_sha256": "40630e1172c7eaae32f70d5caafc62f651b6bfc0b3b0070d5fe3ab30b5a1039f",
+      "source_artifact": "42/ssu/global_mmlu_full_sw_locked/results_2026-11-02T04-26-05.433505.json"
+    },
+    {
+      "method": "ssu",
+      "task": "mmlu_locked",
+      "metric": "acc,none",
+      "score_0_to_100": 58.816407919099845,
+      "question_or_prompt_count": 14042,
+      "training_seed": 42,
+      "source_sha256": "a1a155864b8929b886f789bb10265ce875b106936d3a49a8a12c51017f57570c",
+      "source_artifact": "42/ssu/mmlu_locked/results_2026-11-02T03-53-10.379944.json"
+    },
+    {
+      "method": "ssu",
+      "task": "sft_v1_gsm8k",
+      "metric": "exact_match,flexible-extract",
+      "score_0_to_100": 65.42835481425323,
+      "question_or_prompt_count": 1319,
+      "training_seed": 42,
+      "source_sha256": "d068ae0ab061e7a52cc68d1130ef2e63994613eace1a7054e243455b67b95d76",
+      "source_artifact": "42/ssu/sft_v1_gsm8k/results_2026-11-02T02-20-49.276961.json"
+    },
+    {
+      "method": "ssu",
+      "task": "sft_v1_gsm8k",
+      "metric": "exact_match,strict-match",
+      "score_0_to_100": 13.798332069749812,
+      "question_or_prompt_count": 1319,
+      "training_seed": 42,
+      "source_sha256": "d068ae0ab061e7a52cc68d1130ef2e63994613eace1a7054e243455b67b95d76",
+      "source_artifact": "42/ssu/sft_v1_gsm8k/results_2026-11-02T02-20-49.276961.json"
+    },
+    {
+      "method": "ssu",
+      "task": "sft_v1_ifeval",
+      "metric": "inst_level_loose_acc,none",
+      "score_0_to_100": 60.431654676258994,
+      "question_or_prompt_count": 541,
+      "training_seed": 42,
+      "source_sha256": "d068ae0ab061e7a52cc68d1130ef2e63994613eace1a7054e243455b67b95d76",
+      "source_artifact": "42/ssu/sft_v1_ifeval/results_2026-11-02T02-20-49.276961.json"
+    },
+    {
+      "method": "ssu",
+      "task": "sft_v1_ifeval",
+      "metric": "inst_level_strict_acc,none",
+      "score_0_to_100": 59.592326139088726,
+      "question_or_prompt_count": 541,
+      "training_seed": 42,
+      "source_sha256": "d068ae0ab061e7a52cc68d1130ef2e63994613eace1a7054e243455b67b95d76",
+      "source_artifact": "42/ssu/sft_v1_ifeval/results_2026-11-02T02-20-49.276961.json"
+    },
+    {
+      "method": "ssu",
+      "task": "sft_v1_ifeval",
+      "metric": "prompt_level_loose_acc,none",
+      "score_0_to_100": 47.874306839186694,
+      "question_or_prompt_count": 541,
+      "training_seed": 42,
+      "source_sha256": "d068ae0ab061e7a52cc68d1130ef2e63994613eace1a7054e243455b67b95d76",
+      "source_artifact": "42/ssu/sft_v1_ifeval/results_2026-11-02T02-20-49.276961.json"
+    },
+    {
+      "method": "ssu",
+      "task": "sft_v1_ifeval",
+      "metric": "prompt_level_strict_acc,none",
+      "score_0_to_100": 47.504621072088725,
+      "question_or_prompt_count": 541,
+      "training_seed": 42,
+      "source_sha256": "d068ae0ab061e7a52cc68d1130ef2e63994613eace1a7054e243455b67b95d76",
+      "source_artifact": "42/ssu/sft_v1_ifeval/results_2026-11-02T02-20-49.276961.json"
+    },
+    {
+      "method": "ssu",
+      "task": "sft_v1_mgsm_native_cot_sw",
+      "metric": "exact_match,flexible-extract",
+      "score_0_to_100": 10.4,
+      "question_or_prompt_count": 250,
+      "training_seed": 42,
+      "source_sha256": "d068ae0ab061e7a52cc68d1130ef2e63994613eace1a7054e243455b67b95d76",
+      "source_artifact": "42/ssu/sft_v1_mgsm_native_cot_sw/results_2026-11-02T02-20-49.276961.json"
+    },
+    {
+      "method": "ssu",
+      "task": "sft_v1_mgsm_native_cot_sw",
+      "metric": "exact_match,strict-match",
+      "score_0_to_100": 6.4,
+      "question_or_prompt_count": 250,
+      "training_seed": 42,
+      "source_sha256": "d068ae0ab061e7a52cc68d1130ef2e63994613eace1a7054e243455b67b95d76",
+      "source_artifact": "42/ssu/sft_v1_mgsm_native_cot_sw/results_2026-11-02T02-20-49.276961.json"
+    },
+    {
+      "method": "ssu",
+      "task": "sft_v1_mmlu_prox_en",
+      "metric": "exact_match,custom-extract",
+      "score_0_to_100": 38.651245854239306,
+      "question_or_prompt_count": 11759,
+      "training_seed": 42,
+      "source_sha256": "e1fc90f9b6a7ebc931f32310576f6aca6cd61e5c8a37fca3d345cc981d853bb2",
+      "source_artifact": "42/ssu/sft_v1_mmlu_prox_en/results_2026-11-02T02-38-14.701538.json"
+    },
+    {
+      "method": "ssu",
+      "task": "sft_v1_mmlu_prox_sw",
+      "metric": "exact_match,custom-extract",
+      "score_0_to_100": 7.2114975763245175,
+      "question_or_prompt_count": 11759,
+      "training_seed": 42,
+      "source_sha256": "02374f1c5d59b792b7e86f702458c82a85915f05ced47e44cebfe3b086e2a8b4",
+      "source_artifact": "42/ssu/sft_v1_mmlu_prox_sw/results_2026-11-02T04-33-15.335601.json"
+    },
+    {
+      "method": "ssu",
+      "task": "sft_v1_xifeval_sw",
+      "metric": "inst_level_loose_acc,none",
+      "score_0_to_100": 22.432859399684045,
+      "question_or_prompt_count": 429,
+      "training_seed": 42,
+      "source_sha256": "d068ae0ab061e7a52cc68d1130ef2e63994613eace1a7054e243455b67b95d76",
+      "source_artifact": "42/ssu/sft_v1_xifeval_sw/results_2026-11-02T02-20-49.276961.json"
+    },
+    {
+      "method": "ssu",
+      "task": "sft_v1_xifeval_sw",
+      "metric": "inst_level_strict_acc,none",
+      "score_0_to_100": 22.432859399684045,
+      "question_or_prompt_count": 429,
+      "training_seed": 42,
+      "source_sha256": "d068ae0ab061e7a52cc68d1130ef2e63994613eace1a7054e243455b67b95d76",
+      "source_artifact": "42/ssu/sft_v1_xifeval_sw/results_2026-11-02T02-20-49.276961.json"
+    },
+    {
+      "method": "ssu",
+      "task": "sft_v1_xifeval_sw",
+      "metric": "prompt_level_loose_acc,none",
+      "score_0_to_100": 14.452214452214452,
+      "question_or_prompt_count": 429,
+      "training_seed": 42,
+      "source_sha256": "d068ae0ab061e7a52cc68d1130ef2e63994613eace1a7054e243455b67b95d76",
+      "source_artifact": "42/ssu/sft_v1_xifeval_sw/results_2026-11-02T02-20-49.276961.json"
+    },
+    {
+      "method": "ssu",
+      "task": "sft_v1_xifeval_sw",
+      "metric": "prompt_level_strict_acc,none",
+      "score_0_to_100": 14.452214452214452,
+      "question_or_prompt_count": 429,
+      "training_seed": 42,
+      "source_sha256": "d068ae0ab061e7a52cc68d1130ef2e63994613eace1a7054e243455b67b95d76",
+      "source_artifact": "42/ssu/sft_v1_xifeval_sw/results_2026-11-02T02-20-49.276961.json"
+    },
+    {
+      "method": "ssu",
+      "task": "swh_Latn_to_eng_Latn",
+      "metric": "chrF++",
+      "score_0_to_100": 19.704462905423057,
+      "question_or_prompt_count": 500,
+      "training_seed": 42,
+      "source_sha256": "51a115b6a826ac7955b3424aba09b833ef24e1f05edb6ba3d7f2f4d704b1c81f",
+      "source_artifact": "42/ssu/swh_Latn_to_eng_Latn/summary.json"
+    }
+  ]
+}

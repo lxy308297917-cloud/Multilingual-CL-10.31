@@ -1,0 +1,464 @@
+{
+  "status": "saved official scores unchanged; paired filter categories verified",
+  "inference_started": false,
+  "interpretation": "Flexible match is auxiliary extraction, not a replacement primary score or proof of valid reasoning. Strict-invalid yet flexible-correct illustrates format contribution; flexible accuracy changes still remain task score changes.",
+  "example_selection": "First3 sorted doc_ids per model/task with strict-invalid and flexible-correct; descriptive only; no tuning.",
+  "methods": {
+    "base": {
+      "sft_v1_gsm8k": {
+        "expected_literal_prefix": "#### ",
+        "samples": 1319,
+        "strict_correct": 594,
+        "flexible_correct": 963,
+        "counts": {
+          "both_correct": 594,
+          "strict_only_correct": 0,
+          "flexible_only_correct": 369,
+          "both_wrong": 356,
+          "strict_invalid": 563,
+          "flexible_invalid": 0,
+          "strict_invalid_flexible_correct": 368,
+          "strict_invalid_without_expected_prefix": 553,
+          "empty_response": 0
+        },
+        "first_three_strict_invalid_but_flexible_correct": [
+          {
+            "doc_id": 13,
+            "target": "First multiply the five remaining vacuum cleaners by two to find out how many Melanie had before she visited the orange house: 5 * 2 = <<5*2=10>>10\nThen add two to figure out how many vacuum cleaners she had before visiting the red house: 10 + 2 = <<10+2=12>>12\nNow we know that 2/3 * x = 12, where x is the number of vacuum cleaners Melanie started with. We can find x by dividing each side of the equation by 2/3, which produces x = 18\n#### 18",
+            "official_strict_filtered": [
+              "[invalid]"
+            ],
+            "official_flexible_filtered": [
+              "18"
+            ],
+            "response_excerpt": "Let's break it down step by step:\n\n1. Let the total number of vacuum cleaners Melanie started with be $ x $.\n\n2. She sold a third of them at the green house:  \n   $ \\frac{1}{3}x $.\n\n3. She sold 2 more to the red house:  \n   $ 2 $.\n\n4. She sold half of what was left at the orange house:  \n   The remaining after the green and red houses is:  \n   $ x - \\frac{1}{3}x - 2 = \\frac{2}{3}x - 2 $  \n   Half of that is:  \n   $ \\frac{1}{2} \\left( \\frac{2}{3}x - 2 \\right) = \\frac{1}{3}x - 1 $.\n\n5. After all this, she has 5 vacuum cleaners left:  \n   $ x - \\left( \\frac{1}{3}x + 2 + \\frac{1}{3}x - 1 \\right) = 5 $  \n   Simplify:  \n   $ x - \\left( \\frac{2}{3}x + 1 \\right) = 5 $  \n   $ \\frac{1}{3}x - 1 = 5 $  \n   $ \\frac{1}{3}x = 6 $  \n   $ x = 18 $.\n\n### Final Answer: $ \\boxed{18} $",
+            "excerpt_truncated": false
+          },
+          {
+            "doc_id": 14,
+            "target": "There are 20 x 20/100 = <<20*20/100=4>>4 students who enrolled in contemporary dance.\nSo, 20 - 4 = <<20-4=16>>16 students are enrolled in either jazz or hip-hop dance.\nThere are 16 x 25/100 = <<16*25/100=4>>4 students who enrolled in jazz dance.\nHence, 16 - 4 = <<16-4=12>>12 students enrolled in hip-hop dance.\nThis is 12/20 x 100% = 60% of the entire students.\n#### 60",
+            "official_strict_filtered": [
+              "[invalid]"
+            ],
+            "official_flexible_filtered": [
+              "60"
+            ],
+            "response_excerpt": "Let's break it down step by step:\n\n1. **Total students = 20**  \n2. **20% of 20 students = 0.20 × 20 = 4 students**  \n   - These 4 students enrolled in **contemporary dance**.\n\n3. **Remaining students = 20 - 4 = 16**  \n4. **25% of 16 students = 0.25 × 16 = 4 students**  \n   - These 4 students enrolled in **jazz dance**.\n\n5. **Remaining students = 16 - 4 = 12**  \n   - These 12 students enrolled in **hip-hop dance**.\n\n6. **Percentage of students in hip-hop dance = (12 / 20) × 100 = 60%**\n\n### Final Answer: **60%**",
+            "excerpt_truncated": false
+          },
+          {
+            "doc_id": 15,
+            "target": "If he purchases jewelry, he will make a profit of 2.5% which is $5000*(2.5/100) = $<<5000*(2.5/100)=125>>125\nIf he purchases electronic gadgets, he will make a profit of 1.2% which is $8000*(1.2/100) = $<<8000*(1.2/100)=96>>96\nIf he wants to maximize profit, since $125 > $96, he will choose to purchase jewelry, thereby making a profit of $<<125=125>>125\n#### 125",
+            "official_strict_filtered": [
+              "[invalid]"
+            ],
+            "official_flexible_filtered": [
+              "$125"
+            ],
+            "response_excerpt": "To find the profit, we calculate the profit for each item based on the given growth rates.\n\n### 1. **Jewelry:**\n- **Wholesale price:** $5,000  \n- **Growth rate:** 2.5%  \n- **Profit:** $5,000 × 2.5% = $5,000 × 0.025 = **$125**\n\n### 2. **Electronic Gadgets:**\n- **Wholesale price:** $8,000  \n- **Growth rate:** 1.2%  \n- **Profit:** $8,000 × 1.2% = $8,000 × 0.012 = **$96**\n\n### 3. **Profit Comparison:**\n- **Jewelry profit:** $125  \n- **Gadgets profit:** $96  \n\nThe **maximum profit** is **$125**.\n\n### ✅ Final Answer: **$125**",
+            "excerpt_truncated": false
+          }
+        ],
+        "samples_sha256": "e829aefa6591c2e41c992fdb8e79f303111425939437087e5255416c25156264"
+      },
+      "sft_v1_mgsm_native_cot_sw": {
+        "expected_literal_prefix": "Jibu ni ",
+        "samples": 250,
+        "strict_correct": 4,
+        "flexible_correct": 25,
+        "counts": {
+          "both_correct": 4,
+          "strict_only_correct": 0,
+          "flexible_only_correct": 21,
+          "both_wrong": 225,
+          "strict_invalid": 186,
+          "flexible_invalid": 5,
+          "strict_invalid_flexible_correct": 21,
+          "strict_invalid_without_expected_prefix": 102,
+          "empty_response": 1
+        },
+        "first_three_strict_invalid_but_flexible_correct": [
+          {
+            "doc_id": 3,
+            "target": "540",
+            "official_strict_filtered": [
+              "[invalid]"
+            ],
+            "official_flexible_filtered": [
+              "540"
+            ],
+            "response_excerpt": "Kuna mbio 3 fupi mara 3 kwa wiki, hivyo kuna mbio 3 × 3 = 9 kwa wiki.  \nAnakimbia mita 60 kwa kila mbio fupi, hivyo kwa jumla kuna 9 × 60 = 540 kwa wiki.  \n\nJibu ni **540**.",
+            "excerpt_truncated": false
+          },
+          {
+            "doc_id": 16,
+            "target": "230",
+            "official_strict_filtered": [
+              "[invalid]"
+            ],
+            "official_flexible_filtered": [
+              "230"
+            ],
+            "response_excerpt": "Treni mbili zimetoka San Rafael kwa wakati mmoja.  \nZimeanza kusafiri kwenda upande wa Magharibi, umbali wa maili 80.  \nSiku inayofuata, zinasafiri kwenda upande wa Kaskazini, umbali wa maili 150.  \n\nUmbali ambao treni hizo mbili zilienda kwa siku hizo mbili ni:  \n**80 + 150 = 230**.  \n\nJibu ni **230**.",
+            "excerpt_truncated": false
+          },
+          {
+            "doc_id": 23,
+            "target": "8",
+            "official_strict_filtered": [
+              "[invalid]"
+            ],
+            "official_flexible_filtered": [
+              "8"
+            ],
+            "response_excerpt": "Mshumaa huyeyuka kwa 2 sentimetra kila saa. Kuanzia saa 7:00 mchana hadi saa 11:00 jioni, kila saa kila mshumaa kila 4 saa.  \n\nKila mshumaa kila 2 sentimetra kila saa, hivyo kwa jumla kila mshumaa kila 2 × 4 = 8 sentimetra.  \n\nJibu ni **8 sentimetra**.",
+            "excerpt_truncated": false
+          }
+        ],
+        "samples_sha256": "ed3de7383a97e6d7979072f4477c7b404ba1f20766af569760e2527ddab67b02"
+      }
+    },
+    "full": {
+      "sft_v1_gsm8k": {
+        "expected_literal_prefix": "#### ",
+        "samples": 1319,
+        "strict_correct": 50,
+        "flexible_correct": 808,
+        "counts": {
+          "both_correct": 50,
+          "strict_only_correct": 0,
+          "flexible_only_correct": 758,
+          "both_wrong": 511,
+          "strict_invalid": 1235,
+          "flexible_invalid": 0,
+          "strict_invalid_flexible_correct": 758,
+          "strict_invalid_without_expected_prefix": 1235,
+          "empty_response": 0
+        },
+        "first_three_strict_invalid_but_flexible_correct": [
+          {
+            "doc_id": 4,
+            "target": "If each chicken eats 3 cups of feed per day, then for 20 chickens they would need 3*20=<<3*20=60>>60 cups of feed per day.\nIf she feeds the flock 15 cups of feed in the morning, and 25 cups in the afternoon, then the final meal would require 60-15-25=<<60-15-25=20>>20 cups of chicken feed.\n#### 20",
+            "official_strict_filtered": [
+              "[invalid]"
+            ],
+            "official_flexible_filtered": [
+              "20"
+            ],
+            "response_excerpt": "Wendi has 20 chickens. She gives 15 cups in the morning and 25 cups in the afternoon. 15 + 25 = 40 cups. 40 cups of feed is given to the chickens in the morning and afternoon. She needs to give the chickens 20 * 3 = 60 cups of feed in the final meal. 60 - 40 = 20 cups of feed.",
+            "excerpt_truncated": false
+          },
+          {
+            "doc_id": 6,
+            "target": "If Seattle has 20 sheep, Charleston has 4 * 20 sheep = <<20*4=80>>80 sheep\nToulouse has twice as many sheep as Charleston, which is 2 * 80 sheep = <<2*80=160>>160 sheep\nTogether, the three has 20 sheep + 160 sheep + 80 sheep = <<20+160+80=260>>260 sheep\n#### 260",
+            "official_strict_filtered": [
+              "[invalid]"
+            ],
+            "official_flexible_filtered": [
+              "260"
+            ],
+            "response_excerpt": "Toulouse has 2*4=8 times as many sheep as Seattle. So Toulouse has 8*20=160 sheep. Charleston has 4*20=80 sheep. So Toulouse, Charleston, and Seattle have 160+80+20=260 sheep.",
+            "excerpt_truncated": false
+          },
+          {
+            "doc_id": 9,
+            "target": "Eliza is entitled to 45 -40 = <<45-40=5>>5 hours overtime pay.\nHer hourly rate for the overtime pay is $10 x 1.2 = $<<10*1.2=12>>12.\nSo, Eliza will receive $12 x 5 =$<<12*5=60>>60 for overtime pay.\nHer regular weekly earning is $10 x 40 = $<<10*40=400>>400.\nThus, Eliza will receive a total of $400 + $60 = $<<400+60=460>>460 for this week's work.\n#### 460",
+            "official_strict_filtered": [
+              "[invalid]"
+            ],
+            "official_flexible_filtered": [
+              "460"
+            ],
+            "response_excerpt": "First, calculate the regular pay for the first 40 hours: 40 hours * $10/hour = $<<40*10=400>>400\nThen calculate the overtime pay for the 5 hours of overtime: 5 hours * 1.2 * $10/hour = $<<5*1.2*10=60>>60\nTotal earnings for the week: $400 + $60 = $<<400+60=460>>460",
+            "excerpt_truncated": false
+          }
+        ],
+        "samples_sha256": "018d55544bf6654c3dcad261b8922ae882fc5d0fd21cdac586064b601887e486"
+      },
+      "sft_v1_mgsm_native_cot_sw": {
+        "expected_literal_prefix": "Jibu ni ",
+        "samples": 250,
+        "strict_correct": 12,
+        "flexible_correct": 21,
+        "counts": {
+          "both_correct": 12,
+          "strict_only_correct": 0,
+          "flexible_only_correct": 9,
+          "both_wrong": 229,
+          "strict_invalid": 141,
+          "flexible_invalid": 7,
+          "strict_invalid_flexible_correct": 9,
+          "strict_invalid_without_expected_prefix": 113,
+          "empty_response": 0
+        },
+        "first_three_strict_invalid_but_flexible_correct": [
+          {
+            "doc_id": 44,
+            "target": "20",
+            "official_strict_filtered": [
+              "[invalid]"
+            ],
+            "official_flexible_filtered": [
+              "20"
+            ],
+            "response_excerpt": "Charlie anataka kuuza mishumaa ya nta ya nyuki. Kwa kila pauni ya nta ya nyuki, anaweza kutengeneza mishumaa 10. Pauni moja ya nta ya nyuki na tambi zote zinagharimu $10.00. Akiuza kila mshumaa kwa $2.00 kwa kila moja, jumla ya faida yake akitengeneza na kuuza mishumaa 20 itakuwa ngapi?",
+            "excerpt_truncated": false
+          },
+          {
+            "doc_id": 53,
+            "target": "40",
+            "official_strict_filtered": [
+              "[invalid]"
+            ],
+            "official_flexible_filtered": [
+              "$40."
+            ],
+            "response_excerpt": "Kuna tairi 6 za lori na tairi 4 za gari. Kwa kila tairi ya lori, makanika atatoza $60. Kwa kila tairi ya gari, makanika atatoza $40. Kwa kila tairi ya lori, makanika atatoza $60. Kwa kila tairi ya gari, makanika atatoza $40. Kwa kila tairi ya lori, makanika atatoza $60. Kwa kila tairi ya gari, makanika atatoza $40. Kwa kila tairi ya lori, makanika atatoza $60. Kwa kila tairi ya gari, makanika atatoza $40. Kwa kila tairi ya lori, makanika atatoza $60. Kwa kila tairi ya gari, makanika atatoza $40. Kwa kila tairi ya lori, makanika atatoza $60. Kwa kila tairi ya gari, makanika atatoza $40. Kwa kila tairi ya lori, makanika atatoza $60. Kwa kila tairi ya gari, makanika atatoza $40. Kwa kila tairi ya lori, makanika atatoza $60. Kwa kila tairi ya gari, makanika atatoza $40. Kwa kila tairi ya lori, makanika atatoza $60. Kwa kila tairi ya gari, makanika atatoza $40. Kwa kila tairi ya lori, makanika atatoza $60. Kwa kila tairi ya gari, makanika atatoza $40. Kwa kila tairi ya lori, makanika atatoza $60. Kwa kila tairi ya gari, makanika atatoza $40. Kwa kila tairi ya lori, makanika atatoza $60. Kwa kila tairi ya gari, makanika atatoza $40. Kwa kila tairi ya lori, makanika atatoza $60. Kwa kila tairi ya gari, makanika atatoza $40. Kwa kila tairi ya lori, makanika atatoza $60. Kwa kila tairi ya gari, makanika atatoza $40. Kwa kila tairi ya lori, makanika atatoza $60. Kwa kila tairi ya gari, makanika atatoza $40. Kwa kila tairi ya lori, makanika atatoza $60. Kwa kila tairi ya gari, makanika ",
+            "excerpt_truncated": true
+          },
+          {
+            "doc_id": 58,
+            "target": "57",
+            "official_strict_filtered": [
+              "[invalid]"
+            ],
+            "official_flexible_filtered": [
+              "$57"
+            ],
+            "response_excerpt": "Stephen alianza na $40.00. Aliongeza $25% kwa jumla, $25% kwa $40.00 ni $10.00. Aliongeza $3.00 kama ada ya uwasilishaji. Aliongeza $4.00 ya bahshishi. Hivyo Stephen alianza na $40.00 + $10.00 + $3.00 + $4.00 = $57.00. Stephen alianza na $57.00. Stephen alianza na $57.00. Stephen alianza na $57.00. Stephen alianza na $57.00. Stephen alianza na $57.00. Stephen alianza na $57.00. Stephen alianza na $57.00. Stephen alianza na $57.00. Stephen alianza na $57.00. Stephen alianza na $57.00. Stephen alianza na $57.00. Stephen alianza na $57.00. Stephen alianza na $57.00. Stephen alianza na $57.00. Stephen alianza na $57.00. Stephen alianza na $57.00. Stephen alianza na $57.00. Stephen alianza na $57.00. Stephen alianza na $57.00. Stephen alianza na $57.00. Stephen alianza na $57.00. Stephen alianza na $57.00. Stephen alianza na $57.00. Stephen alianza na $57.00. Stephen alianza na $57.00. Stephen alianza na $57.00. Stephen alianza na $57.00. Stephen alianza na $57.00. Stephen alianza na $57.00. Stephen alianza na $57.00. Stephen alianza na $57.00. Stephen alianza na $57.00. Stephen alianza na $57.00. Stephen alianza na $57.00. Stephen alianza na $57.00. Stephen alianza na $57.00. Stephen alianza na $57.00. Stephen alianza na $57.00. Stephen alianza na $57.00. Stephen alianza na $57.00. Stephen alianza na $57.00. Stephen alianza na $57.00. Stephen alianza na $57.00. Stephen alianza na $57.00. Stephen alianza na $57.00. Stephen alianza na $57.00. Stephen alianza na $57.00. Stephen alia",
+            "excerpt_truncated": true
+          }
+        ],
+        "samples_sha256": "98c3afc5dd2e66eb512acb7cc2d34685878daba19d0eedc42dc6a90dca0062ce"
+      }
+    },
+    "lora": {
+      "sft_v1_gsm8k": {
+        "expected_literal_prefix": "#### ",
+        "samples": 1319,
+        "strict_correct": 97,
+        "flexible_correct": 749,
+        "counts": {
+          "both_correct": 97,
+          "strict_only_correct": 0,
+          "flexible_only_correct": 652,
+          "both_wrong": 570,
+          "strict_invalid": 1166,
+          "flexible_invalid": 0,
+          "strict_invalid_flexible_correct": 652,
+          "strict_invalid_without_expected_prefix": 1166,
+          "empty_response": 0
+        },
+        "first_three_strict_invalid_but_flexible_correct": [
+          {
+            "doc_id": 0,
+            "target": "Janet sells 16 - 3 - 4 = <<16-3-4=9>>9 duck eggs a day.\nShe makes 9 * 2 = $<<9*2=18>>18 every day at the farmer’s market.\n#### 18",
+            "official_strict_filtered": [
+              "[invalid]"
+            ],
+            "official_flexible_filtered": [
+              "18."
+            ],
+            "response_excerpt": "Janet eats 3 eggs for breakfast and bakes 4 eggs for muffins, so she uses 3 + 4 = <<3+4=7>>7 eggs per day. She has 16 - 7 = <<16-7=9>>9 eggs left. She sells 9 eggs at the market for $2 each, so she makes 9 * $2 = $<<9*2=18>>18.",
+            "excerpt_truncated": false
+          },
+          {
+            "doc_id": 1,
+            "target": "It takes 2/2=<<2/2=1>>1 bolt of white fiber\nSo the total amount of fabric is 2+1=<<2+1=3>>3 bolts of fabric\n#### 3",
+            "official_strict_filtered": [
+              "[invalid]"
+            ],
+            "official_flexible_filtered": [
+              "3"
+            ],
+            "response_excerpt": "A robe takes 2 bolts of blue fiber and half that much white fiber.  So, the white fiber is 2 bolts / 2 = 1 bolt.  So, the total number of bolts is 2 + 1 = 3 bolts.",
+            "excerpt_truncated": false
+          },
+          {
+            "doc_id": 6,
+            "target": "If Seattle has 20 sheep, Charleston has 4 * 20 sheep = <<20*4=80>>80 sheep\nToulouse has twice as many sheep as Charleston, which is 2 * 80 sheep = <<2*80=160>>160 sheep\nTogether, the three has 20 sheep + 160 sheep + 80 sheep = <<20+160+80=260>>260 sheep\n#### 260",
+            "official_strict_filtered": [
+              "[invalid]"
+            ],
+            "official_flexible_filtered": [
+              "260"
+            ],
+            "response_excerpt": "Seattle has 20 sheep. Charleston has 4 times as many sheep as Seattle, so 20 x 4 = <<20*4=80>>80 sheep. Toulouse has twice as many sheep as Charleston, so 80 x 2 = <<80*2=160>>160 sheep. The total number of sheep is 20 + 80 + 160 = <<20+80+160=260>>260 sheep.",
+            "excerpt_truncated": false
+          }
+        ],
+        "samples_sha256": "0d4474271418c13acebfcdc2b88cffba3935b6ded3c3c977f974c00bed5650b2"
+      },
+      "sft_v1_mgsm_native_cot_sw": {
+        "expected_literal_prefix": "Jibu ni ",
+        "samples": 250,
+        "strict_correct": 10,
+        "flexible_correct": 19,
+        "counts": {
+          "both_correct": 10,
+          "strict_only_correct": 0,
+          "flexible_only_correct": 9,
+          "both_wrong": 231,
+          "strict_invalid": 118,
+          "flexible_invalid": 7,
+          "strict_invalid_flexible_correct": 8,
+          "strict_invalid_without_expected_prefix": 99,
+          "empty_response": 0
+        },
+        "first_three_strict_invalid_but_flexible_correct": [
+          {
+            "doc_id": 53,
+            "target": "40",
+            "official_strict_filtered": [
+              "[invalid]"
+            ],
+            "official_flexible_filtered": [
+              "$40."
+            ],
+            "response_excerpt": "Makanika alikarabati tairi 6 za lori na tairi 4 za gari. Kwa kila tairi ya lori, makanika atatoza $60. Kwa kila tairi ya gari, makanika atatoza $40. Kwa kila tairi ya lori, makanika atatoza $60. Kwa kila tairi ya gari, makanika atatoza $40. Kwa kila tairi ya lori, makanika atatoza $60. Kwa kila tairi ya gari, makanika atatoza $40. Kwa kila tairi ya lori, makanika atatoza $60. Kwa kila tairi ya gari, makanika atatoza $40. Kwa kila tairi ya lori, makanika atatoza $60. Kwa kila tairi ya gari, makanika atatoza $40. Kwa kila tairi ya lori, makanika atatoza $60. Kwa kila tairi ya gari, makanika atatoza $40. Kwa kila tairi ya lori, makanika atatoza $60. Kwa kila tairi ya gari, makanika atatoza $40. Kwa kila tairi ya lori, makanika atatoza $60. Kwa kila tairi ya gari, makanika atatoza $40. Kwa kila tairi ya lori, makanika atatoza $60. Kwa kila tairi ya gari, makanika atatoza $40. Kwa kila tairi ya lori, makanika atatoza $60. Kwa kila tairi ya gari, makanika atatoza $40. Kwa kila tairi ya lori, makanika atatoza $60. Kwa kila tairi ya gari, makanika atatoza $40. Kwa kila tairi ya lori, makanika atatoza $60. Kwa kila tairi ya gari, makanika atatoza $40. Kwa kila tairi ya lori, makanika atatoza $60. Kwa kila tairi ya gari, makanika atatoza $40. Kwa kila tairi ya lori, makanika atatoza $60. Kwa kila tairi ya gari, makanika atatoza $40. Kwa kila tairi ya lori, makanika atatoza $60. Kwa kila tairi ya gari, makanika atatoza $40. Kwa kila tairi ya lori, makanika atatoza $60. Kwa kila tairi ya",
+            "excerpt_truncated": true
+          },
+          {
+            "doc_id": 61,
+            "target": "1430",
+            "official_strict_filtered": [
+              "[invalid]"
+            ],
+            "official_flexible_filtered": [
+              "$1430."
+            ],
+            "response_excerpt": "Janet alianza $500 ya kitambaa. Alipata $800 nyingine ya mtengeneza. Kwa jumla alikuwa na $500 + $800 = $1300. Alipoteza 10% kwa $1300, hivyo alikuwa na $130. Kwa jumla alikuwa na $1300 + $130 = $1430. Jibu ni $1430.",
+            "excerpt_truncated": false
+          },
+          {
+            "doc_id": 72,
+            "target": "221",
+            "official_strict_filtered": [
+              "[invalid]"
+            ],
+            "official_flexible_filtered": [
+              "$221."
+            ],
+            "response_excerpt": "Kuuza keki za kahawia 43 * 3 = $129. Kuuza keki za jibini 23 * 4 = $92. Kwa jumla, Tommy alikuwa na $129 + $92 = $221. Jibu ni $221.",
+            "excerpt_truncated": false
+          }
+        ],
+        "samples_sha256": "11957b12b74dfbceaac32eae00660953ba456f305c84847dbb99f07b1ea85168"
+      }
+    },
+    "ssu": {
+      "sft_v1_gsm8k": {
+        "expected_literal_prefix": "#### ",
+        "samples": 1319,
+        "strict_correct": 182,
+        "flexible_correct": 863,
+        "counts": {
+          "both_correct": 182,
+          "strict_only_correct": 0,
+          "flexible_only_correct": 681,
+          "both_wrong": 456,
+          "strict_invalid": 1048,
+          "flexible_invalid": 0,
+          "strict_invalid_flexible_correct": 681,
+          "strict_invalid_without_expected_prefix": 1048,
+          "empty_response": 0
+        },
+        "first_three_strict_invalid_but_flexible_correct": [
+          {
+            "doc_id": 0,
+            "target": "Janet sells 16 - 3 - 4 = <<16-3-4=9>>9 duck eggs a day.\nShe makes 9 * 2 = $<<9*2=18>>18 every day at the farmer’s market.\n#### 18",
+            "official_strict_filtered": [
+              "[invalid]"
+            ],
+            "official_flexible_filtered": [
+              "18."
+            ],
+            "response_excerpt": "Janet eats 3 eggs for breakfast, so she has 16 - 3 = 13 eggs left for the day. She bakes 4 eggs for muffins, so she has 13 - 4 = 9 eggs left. She sells 9 eggs at the market for $2 each, so she makes 9 * $2 = $<<9*2=18>>18.",
+            "excerpt_truncated": false
+          },
+          {
+            "doc_id": 1,
+            "target": "It takes 2/2=<<2/2=1>>1 bolt of white fiber\nSo the total amount of fabric is 2+1=<<2+1=3>>3 bolts of fabric\n#### 3",
+            "official_strict_filtered": [
+              "[invalid]"
+            ],
+            "official_flexible_filtered": [
+              "3"
+            ],
+            "response_excerpt": "A robe takes 2 bolts of blue fiber and half that much white fiber.  Half of 2 is 1, so it takes 1 bolt of white fiber.  Therefore, a robe takes 2 + 1 = 3 bolts in total.",
+            "excerpt_truncated": false
+          },
+          {
+            "doc_id": 3,
+            "target": "He sprints 3*3=<<3*3=9>>9 times\nSo he runs 9*60=<<9*60=540>>540 meters\n#### 540",
+            "official_strict_filtered": [
+              "[invalid]"
+            ],
+            "official_flexible_filtered": [
+              "540"
+            ],
+            "response_excerpt": "3 sprints * 60 meters/sprint * 3 times a week = <<3*60*3=540>>540 meters.",
+            "excerpt_truncated": false
+          }
+        ],
+        "samples_sha256": "a8c80e42ef0735f6b8def0630582f554e61d5a3aa3986a86050f4c6ecc9ba5b0"
+      },
+      "sft_v1_mgsm_native_cot_sw": {
+        "expected_literal_prefix": "Jibu ni ",
+        "samples": 250,
+        "strict_correct": 16,
+        "flexible_correct": 26,
+        "counts": {
+          "both_correct": 16,
+          "strict_only_correct": 0,
+          "flexible_only_correct": 10,
+          "both_wrong": 224,
+          "strict_invalid": 123,
+          "flexible_invalid": 13,
+          "strict_invalid_flexible_correct": 10,
+          "strict_invalid_without_expected_prefix": 100,
+          "empty_response": 0
+        },
+        "first_three_strict_invalid_but_flexible_correct": [
+          {
+            "doc_id": 4,
+            "target": "20",
+            "official_strict_filtered": [
+              "[invalid]"
+            ],
+            "official_flexible_filtered": [
+              "20."
+            ],
+            "response_excerpt": "Wendi alianza kila mmoja kati ya kuku wake vikombe vitatu vya chakula mseto cha kuku, kilicho na mbegu, wadudu na mboga ili kusaidia kudumisha afya yao nzuri. Yeye hupatia kuku hao chakula chao katika milo mitatu tofauti. Asubuhi, huwapa kuku wake vikombe 15 vya chakula. Mchana, huwapa kuku wake vikombe vingine 25 vya chakula. Anahitaji kuwapa kuku wake vikombe vingapi vya chakula katika mlo wa mwisho wa siku iwapo idadi ya kuku wa Wendi ni kuku 20.",
+            "excerpt_truncated": false
+          },
+          {
+            "doc_id": 69,
+            "target": "60",
+            "official_strict_filtered": [
+              "[invalid]"
+            ],
+            "official_flexible_filtered": [
+              "$60."
+            ],
+            "response_excerpt": "Bailey alianza kwa kiasi fulani cha pesa. Kila wiki ya $5 kwa wiki 8. Hiyo inamaanisha kuwa awali kulikuwa na pesa 5 * 8 = $40. Mwishoni mwa wiki 8, iwapo ana jumla ya $100, kwa jumla bado kuna pesa 100 - 40 = $60. Jibu ni $60.",
+            "excerpt_truncated": false
+          },
+          {
+            "doc_id": 72,
+            "target": "221",
+            "official_strict_filtered": [
+              "[invalid]"
+            ],
+            "official_flexible_filtered": [
+              "$221."
+            ],
+            "response_excerpt": "Kuuza keki za kahawia 43 slesi, kuuza keki za jibini 23 slesi. Kuuza keki za kahawia 43 * 3 = $129. Kuuza keki za jibini 23 * 4 = $92. Kuuza keki za kahawia 129 + 92 = $221. Jibu ni $221.",
+            "excerpt_truncated": false
+          }
+        ],
+        "samples_sha256": "8917c18b617215654b0e9761ae01dcab34b079ab5ca208e03c900e8da464dcd6"
+      }
+    }
+  }
+}

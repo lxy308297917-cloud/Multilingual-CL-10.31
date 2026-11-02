@@ -1,0 +1,110 @@
+{
+  "status": "all4 model core audits complete; official scores unchanged",
+  "interpretation": "Generated-answer EM mixes correctness, extraction validity and frozen stop behavior; no conditional-valid score replaces primary EM. Separate HF choice accuracy is reported alongside.",
+  "models": {
+    "base": {
+      "en": {
+        "questions": 11759,
+        "correct": 5432,
+        "official_em": 0.4619440428607875,
+        "answer_extraction_failures": 171,
+        "empty_outputs": 0,
+        "requests": 11759,
+        "normal_stop": 11598,
+        "length_limit": 161,
+        "mean_generated_tokens": 367.7580576579641,
+        "other_finish_reasons": []
+      },
+      "sw": {
+        "questions": 11759,
+        "correct": 85,
+        "official_em": 0.007228505825325283,
+        "answer_extraction_failures": 11319,
+        "empty_outputs": 10470,
+        "requests": 11759,
+        "normal_stop": 11081,
+        "length_limit": 678,
+        "mean_generated_tokens": 133.87184284377923,
+        "other_finish_reasons": []
+      }
+    },
+    "full": {
+      "en": {
+        "questions": 11759,
+        "correct": 4343,
+        "official_em": 0.36933412705162005,
+        "answer_extraction_failures": 681,
+        "empty_outputs": 0,
+        "requests": 11759,
+        "normal_stop": 11123,
+        "length_limit": 636,
+        "mean_generated_tokens": 185.65515775150948,
+        "other_finish_reasons": []
+      },
+      "sw": {
+        "questions": 11759,
+        "correct": 296,
+        "official_em": 0.02517220852113275,
+        "answer_extraction_failures": 10438,
+        "empty_outputs": 20,
+        "requests": 11759,
+        "normal_stop": 9394,
+        "length_limit": 2365,
+        "mean_generated_tokens": 447.1845395016583,
+        "other_finish_reasons": []
+      }
+    },
+    "lora": {
+      "en": {
+        "questions": 11759,
+        "correct": 4234,
+        "official_em": 0.3600646313462029,
+        "answer_extraction_failures": 647,
+        "empty_outputs": 0,
+        "requests": 11759,
+        "normal_stop": 11164,
+        "length_limit": 595,
+        "mean_generated_tokens": 175.26311761204184,
+        "other_finish_reasons": []
+      },
+      "sw": {
+        "questions": 11759,
+        "correct": 611,
+        "official_em": 0.051960200697338206,
+        "answer_extraction_failures": 8973,
+        "empty_outputs": 215,
+        "requests": 11759,
+        "normal_stop": 7884,
+        "length_limit": 3875,
+        "mean_generated_tokens": 726.467301641296,
+        "other_finish_reasons": []
+      }
+    },
+    "ssu": {
+      "en": {
+        "questions": 11759,
+        "correct": 4545,
+        "official_em": 0.3865124585423931,
+        "answer_extraction_failures": 601,
+        "empty_outputs": 0,
+        "requests": 11759,
+        "normal_stop": 11160,
+        "length_limit": 599,
+        "mean_generated_tokens": 209.79241432094565,
+        "other_finish_reasons": []
+      },
+      "sw": {
+        "questions": 11759,
+        "correct": 848,
+        "official_em": 0.07211497576324517,
+        "answer_extraction_failures": 7624,
+        "empty_outputs": 792,
+        "requests": 11759,
+        "normal_stop": 7794,
+        "length_limit": 3965,
+        "mean_generated_tokens": 732.6753975678204,
+        "other_finish_reasons": []
+      }
+    }
+  }
+}

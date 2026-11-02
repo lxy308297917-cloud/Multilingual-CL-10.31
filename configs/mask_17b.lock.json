@@ -1,0 +1,10 @@
+{
+  "model": "Qwen/Qwen3-1.7B",
+  "mask_path": "/path/to/storage/datasets/qwen3-ssu-masks-20261031/ssu_wanda_17b_tulu500_20261031_v1/mask.json",
+  "mask_sha256": "00c434672f1743fb28dbf3f5c6721f8de2bc6e30c7d596afac91994135aca072",
+  "masked_parameter_entries": 310,
+  "total_unique_elements": 1720574976,
+  "num_blocks": 500,
+  "block_length": 2048,
+  "meaning": "1.7B实际激活生成的梯度遮罩；不是4B掩码复用，不代表下游收益。"
+}

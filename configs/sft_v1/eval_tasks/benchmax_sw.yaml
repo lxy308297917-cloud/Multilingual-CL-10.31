@@ -1,0 +1,7 @@
+include: /path/to/storage/upstream/qwen3-sft-v1/BenchMAX/tasks/ifeval/xifeval_sw.yaml
+task: sft_v1_xifeval_sw
+dataset_path: json
+dataset_name: null
+dataset_kwargs:
+  data_files:
+    train: /path/to/storage/datasets/qwen3-sft-v1-20261101/benchmarks/LLaMAX--BenchMAX_Rule-based/ifeval_sw.jsonl

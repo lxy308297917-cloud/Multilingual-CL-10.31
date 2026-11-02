@@ -1,0 +1,8 @@
+include: /path/to/storage/envs/qwen3-multilingual-20261031/lib/python3.11/site-packages/lm_eval/tasks/mmlu_prox/en/mmlu_prox_en_psychology.yaml
+task: sft_v1_mmlu_prox_en_psychology
+dataset_path: parquet
+dataset_name: null
+dataset_kwargs:
+  data_files:
+    test: /path/to/storage/datasets/qwen3-sft-v1-20261101/benchmarks/li-lab--MMLU-ProX/en/test-00000-of-00001.parquet
+    validation: /path/to/storage/datasets/qwen3-sft-v1-20261101/benchmarks/li-lab--MMLU-ProX/en/validation-00000-of-00001.parquet

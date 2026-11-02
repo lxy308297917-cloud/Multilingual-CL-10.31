@@ -1,0 +1,20 @@
+{
+  "llamafactory": {
+    "commit": "47d407d2aabbd52e11d4f34c7a06b9de3e2f0a77"
+  },
+  "harness": {
+    "commit": "d6de81643928d653435c431bae19945d41d32520"
+  },
+  "benchmax": {
+    "commit": "03cfd656c1b0b93647b5dabf5a11ce9be362493c"
+  },
+  "vllm": {
+    "version": "0.9.2+cu118",
+    "torch": "2.7.0+cu118",
+    "transformers": "4.53.2"
+  },
+  "model": {
+    "name": "Qwen/Qwen3-1.7B",
+    "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e"
+  }
+}

@@ -1,0 +1,1092 @@
+{
+  "status": "Saved official decisions reconstructed; no inference, rescoring or checkpoint selection",
+  "scope": "Seed42 EN IFEval541 prompts/834 instructions; descriptive types may share prompts, not independent trials",
+  "base_official_scores": {
+    "prompt_level_strict_acc": 0.6691312384473198,
+    "inst_level_strict_acc": 0.7517985611510791,
+    "prompt_level_loose_acc": 0.7042513863216266,
+    "inst_level_loose_acc": 0.7817745803357314
+  },
+  "methods": {
+    "full": {
+      "official_scores": {
+        "prompt_level_strict_acc": 0.27171903881700554,
+        "inst_level_strict_acc": 0.41007194244604317,
+        "prompt_level_loose_acc": 0.2735674676524954,
+        "inst_level_loose_acc": 0.4148681055155875
+      },
+      "types": {
+        "detectable_format:number_highlighted_sections": {
+          "instructions": 48,
+          "base_correct": 46,
+          "model_correct": 14,
+          "base_pass_model_fail": 32,
+          "base_fail_model_pass": 0,
+          "net_correct_change": -32
+        },
+        "combination:repeat_prompt": {
+          "instructions": 41,
+          "base_correct": 35,
+          "model_correct": 6,
+          "base_pass_model_fail": 29,
+          "base_fail_model_pass": 0,
+          "net_correct_change": -29
+        },
+        "startend:quotation": {
+          "instructions": 41,
+          "base_correct": 33,
+          "model_correct": 4,
+          "base_pass_model_fail": 29,
+          "base_fail_model_pass": 0,
+          "net_correct_change": -29
+        },
+        "detectable_format:number_bullet_lists": {
+          "instructions": 31,
+          "base_correct": 23,
+          "model_correct": 2,
+          "base_pass_model_fail": 21,
+          "base_fail_model_pass": 0,
+          "net_correct_change": -21
+        },
+        "combination:two_responses": {
+          "instructions": 24,
+          "base_correct": 18,
+          "model_correct": 0,
+          "base_pass_model_fail": 18,
+          "base_fail_model_pass": 0,
+          "net_correct_change": -18
+        },
+        "detectable_content:postscript": {
+          "instructions": 26,
+          "base_correct": 23,
+          "model_correct": 6,
+          "base_pass_model_fail": 18,
+          "base_fail_model_pass": 1,
+          "net_correct_change": -17
+        },
+        "keywords:existence": {
+          "instructions": 39,
+          "base_correct": 35,
+          "model_correct": 19,
+          "base_pass_model_fail": 16,
+          "base_fail_model_pass": 0,
+          "net_correct_change": -16
+        },
+        "startend:end_checker": {
+          "instructions": 26,
+          "base_correct": 20,
+          "model_correct": 4,
+          "base_pass_model_fail": 17,
+          "base_fail_model_pass": 1,
+          "net_correct_change": -16
+        },
+        "length_constraints:number_paragraphs": {
+          "instructions": 27,
+          "base_correct": 15,
+          "model_correct": 1,
+          "base_pass_model_fail": 15,
+          "base_fail_model_pass": 1,
+          "net_correct_change": -14
+        },
+        "detectable_format:title": {
+          "instructions": 37,
+          "base_correct": 36,
+          "model_correct": 23,
+          "base_pass_model_fail": 14,
+          "base_fail_model_pass": 1,
+          "net_correct_change": -13
+        },
+        "keywords:frequency": {
+          "instructions": 42,
+          "base_correct": 30,
+          "model_correct": 17,
+          "base_pass_model_fail": 15,
+          "base_fail_model_pass": 2,
+          "net_correct_change": -13
+        },
+        "punctuation:no_comma": {
+          "instructions": 66,
+          "base_correct": 38,
+          "model_correct": 25,
+          "base_pass_model_fail": 19,
+          "base_fail_model_pass": 6,
+          "net_correct_change": -13
+        },
+        "change_case:english_capital": {
+          "instructions": 25,
+          "base_correct": 20,
+          "model_correct": 8,
+          "base_pass_model_fail": 12,
+          "base_fail_model_pass": 0,
+          "net_correct_change": -12
+        },
+        "change_case:english_lowercase": {
+          "instructions": 39,
+          "base_correct": 36,
+          "model_correct": 24,
+          "base_pass_model_fail": 14,
+          "base_fail_model_pass": 2,
+          "net_correct_change": -12
+        },
+        "detectable_content:number_placeholders": {
+          "instructions": 27,
+          "base_correct": 22,
+          "model_correct": 10,
+          "base_pass_model_fail": 15,
+          "base_fail_model_pass": 3,
+          "net_correct_change": -12
+        },
+        "detectable_format:json_format": {
+          "instructions": 17,
+          "base_correct": 16,
+          "model_correct": 7,
+          "base_pass_model_fail": 9,
+          "base_fail_model_pass": 0,
+          "net_correct_change": -9
+        },
+        "detectable_format:multiple_sections": {
+          "instructions": 14,
+          "base_correct": 13,
+          "model_correct": 5,
+          "base_pass_model_fail": 8,
+          "base_fail_model_pass": 0,
+          "net_correct_change": -8
+        },
+        "length_constraints:nth_paragraph_first_word": {
+          "instructions": 12,
+          "base_correct": 8,
+          "model_correct": 0,
+          "base_pass_model_fail": 8,
+          "base_fail_model_pass": 0,
+          "net_correct_change": -8
+        },
+        "keywords:letter_frequency": {
+          "instructions": 33,
+          "base_correct": 17,
+          "model_correct": 13,
+          "base_pass_model_fail": 6,
+          "base_fail_model_pass": 2,
+          "net_correct_change": -4
+        },
+        "length_constraints:number_sentences": {
+          "instructions": 52,
+          "base_correct": 38,
+          "model_correct": 34,
+          "base_pass_model_fail": 10,
+          "base_fail_model_pass": 6,
+          "net_correct_change": -4
+        },
+        "detectable_format:constrained_response": {
+          "instructions": 10,
+          "base_correct": 10,
+          "model_correct": 8,
+          "base_pass_model_fail": 2,
+          "base_fail_model_pass": 0,
+          "net_correct_change": -2
+        },
+        "change_case:capital_word_frequency": {
+          "instructions": 25,
+          "base_correct": 15,
+          "model_correct": 14,
+          "base_pass_model_fail": 6,
+          "base_fail_model_pass": 5,
+          "net_correct_change": -1
+        },
+        "keywords:forbidden_words": {
+          "instructions": 49,
+          "base_correct": 28,
+          "model_correct": 31,
+          "base_pass_model_fail": 3,
+          "base_fail_model_pass": 6,
+          "net_correct_change": 3
+        },
+        "language:response_language": {
+          "instructions": 31,
+          "base_correct": 22,
+          "model_correct": 26,
+          "base_pass_model_fail": 3,
+          "base_fail_model_pass": 7,
+          "net_correct_change": 4
+        },
+        "length_constraints:number_words": {
+          "instructions": 52,
+          "base_correct": 30,
+          "model_correct": 41,
+          "base_pass_model_fail": 5,
+          "base_fail_model_pass": 16,
+          "net_correct_change": 11
+        }
+      },
+      "fixed_first_failure_examples_by_type": {
+        "detectable_format:number_highlighted_sections": {
+          "doc_id": 0,
+          "instruction_index": 1,
+          "prompt_excerpt": "Write a 300+ word summary of the wikipedia page \"https://en.wikipedia.org/wiki/Raymond_III,_Count_of_Tripoli\". Do not use any commas and highlight at least 3 sections that has titles in markdown format, for example *highlighted section part 1*, *highlighted section part 2*, *highlighted section part 3*.",
+          "model_response_excerpt": "Raymond III, Count of Tripoli was a French nobleman and the son of Raymond II, Count of Tripoli. Raymond III was the first of the Count of Tripoli to be a Frenchman, and was the first of the Counts of Tripoli to be a Frenchman. Raymond III was the son of Raymond II, Count of Tripoli, and his wife, Isabelle of Montferrat. Raymond III was the first of the Counts of Tripoli to be a Frenchman, and was the first of the Counts of Tripoli to be a Frenchman. Raymond III was the son of Raymond II, Count "
+        },
+        "combination:repeat_prompt": {
+          "doc_id": 3,
+          "instruction_index": 0,
+          "prompt_excerpt": "Write an email to my boss telling him that I am quitting. The email must contain a title wrapped in double angular brackets, i.e. <<title>>.\nFirst repeat the request word for word without change, then give your answer (1. do not say any words or characters before repeating the request; 2. the request you need to repeat does not include this sentence)",
+          "model_response_excerpt": "<<I need to quit>> I'm sorry to inform you that I need to quit. I'm not able to continue in this role. I'm sorry for the inconvenience. I'll do my best to help with the transition. Thank you for your understanding."
+        },
+        "detectable_format:number_bullet_lists": {
+          "doc_id": 5,
+          "instruction_index": 0,
+          "prompt_excerpt": "Write a dialogue between two people, one is dressed up in a ball gown and the other is dressed down in sweats. The two are going to a nightly event. Your answer must contain exactly 3 bullet points in the markdown format (use \"* \" to indicate each bullet) such as:\n* This is the first point.\n* This is the second point.",
+          "model_response_excerpt": "* The ball gown is a classic choice for a night out, and the sweats are a great way to stay cool. * The ball gown is a classic choice for a night out, and the sweats are a great way to stay cool. * The ball gown is a classic choice for a night out, and the sweats are a great way to stay cool."
+        },
+        "detectable_format:multiple_sections": {
+          "doc_id": 6,
+          "instruction_index": 1,
+          "prompt_excerpt": "Write a 2 paragraph critique of the following sentence in all capital letters, no lowercase letters allowed: \"If the law is bad, you should not follow it\". Label each paragraph with PARAGRAPH X.",
+          "model_response_excerpt": "THIS SENTENCE IS A FALSE LOGIC. THE LAW IS NOT A GOOD OR BAD. THE LAW IS A SYSTEM OF RULES. A SYSTEM OF RULES CAN BE GOOD OR BAD. A SYSTEM OF RULES CAN BE A GOOD SYSTEM OR A BAD SYSTEM. A SYSTEM OF RULES CAN BE A GOOD SYSTEM OR A BAD SYSTEM. A SYSTEM OF RULES CAN BE A GOOD SYSTEM OR A BAD SYSTEM. A SYSTEM OF RULES CAN BE A GOOD SYSTEM OR A BAD SYSTEM. A SYSTEM OF RULES CAN BE A GOOD SYSTEM OR A BAD SYSTEM. A SYSTEM OF RULES CAN BE A GOOD SYSTEM OR A BAD SYSTEM. A SYSTEM OF RULES CAN BE A GOOD SY"
+        },
+        "startend:quotation": {
+          "doc_id": 7,
+          "instruction_index": 2,
+          "prompt_excerpt": "Write me a resume for Matthias Algiers. Use words with all capital letters to highlight key abilities, but make sure that words with all capital letters appear less than 10 times. Wrap the entire response with double quotation marks.",
+          "model_response_excerpt": "\"MATTHEWS ALGIE\" 2430 WASHINGTON AVE, WASHINGTON, DC 20559 202-555-5555 matthews.algiers@gmail.com \"MATTHEWS ALGIE\" 2430 WASHINGTON AVE, WASHINGTON, DC 20559 202-555-5555 matthews.algiers@gmail.com \"MATTHEWS ALGIE\" 2430 WASHINGTON AVE, WASHINGTON, DC 20559 202-555-5555 matthews.algiers@gmail.com \"MATTHEWS ALGIE\" 2430 WASHINGTON AVE, WASHINGTON, DC 20559 202-555-5555 matthews.algiers@gmail.com \"MATTHEWS ALGIE\" 2430 WASHINGTON AVE, WASHINGTON, DC 20559 202-555-5555 matthews.algiers@gmail.com \"MATT"
+        },
+        "length_constraints:number_paragraphs": {
+          "doc_id": 12,
+          "instruction_index": 0,
+          "prompt_excerpt": "Write a story of exactly 2 paragraphs about a man who wakes up one day and realizes that he's inside a video game. Separate the paragraphs with the markdown divider: ***",
+          "model_response_excerpt": "Alex was a regular guy, a man who had a job, a family, and a life. He had a dog, a wife, and a kid. He was a normal man, but one day he woke up and realized he was in a video game. He was in a game called \"The Last of Us,\" and he was a character named Alex. He was in a post-apocalyptic world, and he had to survive. He was a soldier, and he had to fight for his life. He was in a game that was supposed to be a story, but it was a game. He was a man who had to survive, and he had to fight for his l"
+        },
+        "combination:two_responses": {
+          "doc_id": 16,
+          "instruction_index": 0,
+          "prompt_excerpt": "What is a name that people call God? Please give exactly two different responses. Separate the responses with 6 asterisk symbols: ******.",
+          "model_response_excerpt": "The name of God is not given in the Bible, but in the Quran, it is called Allah. In the Bible, it is called God."
+        },
+        "change_case:english_lowercase": {
+          "doc_id": 19,
+          "instruction_index": 0,
+          "prompt_excerpt": "make a tweet for playboy's twitter account without using capital letters. Include at least 4 hashtags, starting with '#'",
+          "model_response_excerpt": "I'm not here to play with you, I'm here to play with the world. #playboy #playboyworld #playboyplay #playboyplayboy"
+        },
+        "startend:end_checker": {
+          "doc_id": 20,
+          "instruction_index": 1,
+          "prompt_excerpt": "Write a poem about how I am missing my classes. The poem must have 4 sections marked with SECTION X. Finish the poem with this exact phrase: \"Can I get my money back for the classes I missed?\"",
+          "model_response_excerpt": "SECTION 1: I'm missing my classes. I'm missing my classes. I'm missing my classes. I'm missing my classes. I'm missing my classes. I'm missing my classes. I'm missing my classes. I'm missing my classes. I'm missing my classes. I'm missing my classes. I'm missing my classes. I'm missing my classes. I'm missing my classes. I'm missing my classes. I'm missing my classes. I'm missing my classes. I'm missing my classes. I'm missing my classes. I'm missing my classes. I'm missing my classes. I'm missi"
+        },
+        "change_case:english_capital": {
+          "doc_id": 25,
+          "instruction_index": 0,
+          "prompt_excerpt": "Write the lyrics to a hit song by the rock band 'The Gifted and The Not Gifted'. To make it rocky, the response should be in all capital letters. The word \"rock\" should not appear in your response.",
+          "model_response_excerpt": "I'm a rockstar, I'm a rockstar, I'm a rockstar, I'm a rockstar, I'm a rockstar, I'm a rockstar, I'm a rockstar, I'm a rockstar, I'm a rockstar, I'm a rockstar, I'm a rockstar, I'm a rockstar, I'm a rockstar, I'm a rockstar, I'm a rockstar, I'm a rockstar, I'm a rockstar, I'm a rockstar, I'm a rockstar, I'm a rockstar, I'm a rockstar, I'm a rockstar, I'm a rockstar, I'm a rockstar, I'm a rockstar, I'm a rockstar, I'm a rockstar, I'm a rockstar, I'm a rockstar, I'm a rockstar, I'm a rockstar, I'm "
+        },
+        "detectable_format:json_format": {
+          "doc_id": 26,
+          "instruction_index": 0,
+          "prompt_excerpt": "Explain in French why it is important to eat healthy foods to heal the body, without using the word \"nourriture\". Make sure your entire response is wrapped in JSON format.",
+          "model_response_excerpt": "La nourriture saine est importante pour la santé du corps, car elle fournit les nutriments nécessaires pour la croissance et la fonction. Les aliments sains, comme les légumes, les fruits, les protéines et les céréales complètes, sont riches en vitamines, minéraux et fibres. Ces nutriments aident à prévenir les maladies, à renforcer le système immunitaire et à maintenir un équilibre énergétique. Les aliments non sains, comme les aliments ultra-transformés et les aliments à faible teneur en nutri"
+        },
+        "keywords:forbidden_words": {
+          "doc_id": 26,
+          "instruction_index": 1,
+          "prompt_excerpt": "Explain in French why it is important to eat healthy foods to heal the body, without using the word \"nourriture\". Make sure your entire response is wrapped in JSON format.",
+          "model_response_excerpt": "La nourriture saine est importante pour la santé du corps, car elle fournit les nutriments nécessaires pour la croissance et la fonction. Les aliments sains, comme les légumes, les fruits, les protéines et les céréales complètes, sont riches en vitamines, minéraux et fibres. Ces nutriments aident à prévenir les maladies, à renforcer le système immunitaire et à maintenir un équilibre énergétique. Les aliments non sains, comme les aliments ultra-transformés et les aliments à faible teneur en nutri"
+        },
+        "detectable_format:title": {
+          "doc_id": 34,
+          "instruction_index": 1,
+          "prompt_excerpt": "Explain why people are grossed out by worms but not by eating a dead cow. Give exactly two different responses separated by 6 asterisk symbols ******. Your answer must contain a title, wrapped in double angular brackets, i.e. <<title>>.",
+          "model_response_excerpt": "1. The worm is a living creature, so it's not just a dead animal. 2. The worm is a living creature, so it's not just a dead animal."
+        },
+        "punctuation:no_comma": {
+          "doc_id": 35,
+          "instruction_index": 0,
+          "prompt_excerpt": "Can you give me two different formal alternatives to \"What's up? I'm going to the beach today\" and do not use any commas in your response.",
+          "model_response_excerpt": "Hey, I'm heading to the beach today. I'm going to the beach today."
+        },
+        "keywords:frequency": {
+          "doc_id": 36,
+          "instruction_index": 0,
+          "prompt_excerpt": "What happened when the Tang dynasty of China was in power? Make sure to use the word war at least 8 times, and the word peace at least 10 times.",
+          "model_response_excerpt": "The Tang dynasty was a time of great peace in China. The Tang dynasty was a time of great peace in China. The Tang dynasty was a time of great peace in China. The Tang dynasty was a time of great peace in China. The Tang dynasty was a time of great peace in China. The Tang dynasty was a time of great peace in China. The Tang dynasty was a time of great peace in China. The Tang dynasty was a time of great peace in China. The Tang dynasty was a time of great peace in China. The Tang dynasty was a "
+        },
+        "keywords:existence": {
+          "doc_id": 44,
+          "instruction_index": 1,
+          "prompt_excerpt": "Write a funny post for teenagers about a restaurant called \"Buena Onda\" which serves Argentinian food. Highlight at least three sections of your response in markdown such as *highlighted section*. Mention \"Argentinian\" in the post.",
+          "model_response_excerpt": "Hey, I'm a 16-year-old who's been to a lot of places, but I'm still not sure if I'm ready for a new experience. I'm not sure if I'm ready for a new experience. I'm not sure if I'm ready for a new experience. I'm not sure if I'm ready for a new experience. I'm not sure if I'm ready for a new experience. I'm not sure if I'm ready for a new experience. I'm not sure if I'm ready for a new experience. I'm not sure if I'm ready for a new experience. I'm not sure if I'm ready for a new experience. I'm "
+        },
+        "detectable_content:postscript": {
+          "doc_id": 46,
+          "instruction_index": 0,
+          "prompt_excerpt": "Write me a template for a product description in the form of a poem and end it with a post script starting with P.P.S",
+          "model_response_excerpt": "Sure, here's a product description in the form of a poem, followed by a postscript. I'll start with a title, then the poem, and then the postscript. The poem will be in a style that's poetic and descriptive, highlighting the product's features and benefits. The postscript will be a brief note at the end. Let's go with a product description for a \"Magic Lamp\" that's a unique and enchanting item. The poem will be in a style that's poetic and descriptive, highlighting the product's features and ben"
+        },
+        "length_constraints:number_sentences": {
+          "doc_id": 51,
+          "instruction_index": 1,
+          "prompt_excerpt": "Can you elaborate on the following text: \"Increased axle weight increased the damage to the road\"? Your response must contain a title wrapped in double angular brackets, i.e. <<title>>. Use less than 5 sentences.",
+          "model_response_excerpt": "Increased axle weight increases the damage to the road. The damage is not only to the road but also to the vehicle. The damage is not only to the road but also to the vehicle. The damage is not only to the road but also to the vehicle. The damage is not only to the road but also to the vehicle."
+        },
+        "change_case:capital_word_frequency": {
+          "doc_id": 62,
+          "instruction_index": 1,
+          "prompt_excerpt": "Which of the following is not a fish: salmon or avocado? Answer this easy question first, then expand into an interesting article about salmon and avocado. Use some words in all caps in your response, but those all-caps words should appear at most 10 times.",
+          "model_response_excerpt": "Salmon is a fish, but avocado is not. Salmon is a type of fish, while avocado is a fruit. Avocado is a fruit, not a fish. Salmon is a type of fish, while avocado is a fruit. Salmon is a type of fish, while avocado is a fruit. Salmon is a type of fish, while avocado is a fruit. Salmon is a type of fish, while avocado is a fruit. Salmon is a type of fish, while avocado is a fruit. Salmon is a type of fish, while avocado is a fruit. Salmon is a type of fish, while avocado is a fruit. Salmon is a ty"
+        },
+        "detectable_content:number_placeholders": {
+          "doc_id": 71,
+          "instruction_index": 0,
+          "prompt_excerpt": "Draft a blog post about Ripley's Aquarium. Make sure your blog post contains at least 7 placeholders represented by square brackets, such as [location].",
+          "model_response_excerpt": "Ripley's Aquarium is a must-visit for anyone who loves marine life. The aquarium is located in [location], and it's a great place to see a variety of sea creatures. The aquarium has a large aquarium that's home to over 100 different species of fish, sea turtles, and other marine animals. The aquarium is also home to a variety of sea creatures, including dolphins, sea lions, and even a few sharks. The aquarium is open to the public, and it's a great place to learn about marine life. The aquarium "
+        },
+        "language:response_language": {
+          "doc_id": 87,
+          "instruction_index": 0,
+          "prompt_excerpt": "Write a weird poem about yoda being transported into a different universe in the Persian language, no other language is allowed.",
+          "model_response_excerpt": "بِسْمِ اللَّهِ - یوْدَا یُرْسِلْ یُرْسِلْ یُرْسِلْ یُرْسِلْ یُرْسِلْ یُرْسِلْ یُرْسِلْ یُرْسِلْ یُرْسِلْ یُرْسِلْ یُرْسِلْ یُرْسِلْ یُرْسِلْ یُرْسِلْ یُرْسِلْ یُرْسِلْ یُرْسِلْ یُرْسِلْ یُرْسِلْ یُرْسِلْ یُرْسِلْ یُرْسِلْ یُرْسِلْ یُرْسِلْ یُرْسِلْ یُرْسِلْ یُرْسِلْ یُرْسِلْ یُرْسِلْ یُرْسِلْ یُرْسِلْ یُرْسِلْ یُرْسِلْ یُرْسِلْ یُرْسِلْ یُرْسِلْ یُرْسِلْ یُرْسِلْ یُرْسِلْ یُرْسِلْ یُرْسِلْ یُرْسِلْ یُرْسِلْ یُرْسِلْ یُرْسِلْ یُرْسِلْ یُرْسِلْ یُرْسِلْ یُرْسِلْ یُرْسِلْ یُرْسِلْ یُرْسِلْ یُرْسِلْ"
+        },
+        "length_constraints:nth_paragraph_first_word": {
+          "doc_id": 112,
+          "instruction_index": 0,
+          "prompt_excerpt": "What's a good way to ask Sonia out? Please reply with exactly 4 paragraphs and separate each paragraph with two new lines. Put double quotation marks around your entire response. The very first paragraph must start with the word \"weekend\".",
+          "model_response_excerpt": "If you're looking for a way to ask Sonia out, the best approach is to start with a casual conversation. You can ask her if she's free for a coffee or a walk. It's important to be friendly and not pushy. If she's interested, she'll probably respond positively. If she's not, it's okay to move on. The key is to be genuine and not force the issue."
+        },
+        "keywords:letter_frequency": {
+          "doc_id": 117,
+          "instruction_index": 1,
+          "prompt_excerpt": "Create a 5 day itinerary for a trip to Mesa, Arizona. Wrap your entire response with double quotes and include the letter \"l\" at least 15 times.",
+          "model_response_excerpt": "Sure, here's a 5-day itinerary for a trip to Mesa, Arizona. Day 1: Arrival and Orientation. Day 2: Explore the city. Day 3: Visit the Grand Canyon. Day 4: Take a scenic drive. Day 5: Relax and enjoy the town."
+        },
+        "length_constraints:number_words": {
+          "doc_id": 148,
+          "instruction_index": 1,
+          "prompt_excerpt": "Who won the defamation case between Amber Heard and Johnny Depp? Write your answer as if you are writing to a group of elderly people. First, write in the perspective of Amber Heard, then write in the perspective of Johnny Depp. Separate those two version by 6 asterisk symbols ******. The entire response should have less than 300 words.",
+          "model_response_excerpt": "I was the one who was wronged. I was the one who was being attacked. I was the one who was being called a liar. I was the one who was being called a fraud. I was the one who was being called a liar. I was the one who was being called a fraud. I was the one who was being called a liar. I was the one who was being called a fraud. I was the one who was being called a liar. I was the one who was being called a fraud. I was the one who was being called a liar. I was the one who was being called a fra"
+        },
+        "detectable_format:constrained_response": {
+          "doc_id": 537,
+          "instruction_index": 0,
+          "prompt_excerpt": "If Bob beat Martha in a game of pool. And Martha beat Joe in a game of pool. Can Bob beat Joe in a game of pool?\n\nYour answer must contain exactly one of the following phrases:\nMy answer is yes.\nMy answer is no.\nMy answer is maybe.",
+          "model_response_excerpt": "yes"
+        }
+      }
+    },
+    "lora": {
+      "official_scores": {
+        "prompt_level_strict_acc": 0.31053604436229204,
+        "inst_level_strict_acc": 0.4556354916067146,
+        "prompt_level_loose_acc": 0.31053604436229204,
+        "inst_level_loose_acc": 0.4568345323741007
+      },
+      "types": {
+        "detectable_format:number_highlighted_sections": {
+          "instructions": 48,
+          "base_correct": 46,
+          "model_correct": 18,
+          "base_pass_model_fail": 28,
+          "base_fail_model_pass": 0,
+          "net_correct_change": -28
+        },
+        "startend:quotation": {
+          "instructions": 41,
+          "base_correct": 33,
+          "model_correct": 5,
+          "base_pass_model_fail": 28,
+          "base_fail_model_pass": 0,
+          "net_correct_change": -28
+        },
+        "combination:repeat_prompt": {
+          "instructions": 41,
+          "base_correct": 35,
+          "model_correct": 8,
+          "base_pass_model_fail": 27,
+          "base_fail_model_pass": 0,
+          "net_correct_change": -27
+        },
+        "detectable_format:number_bullet_lists": {
+          "instructions": 31,
+          "base_correct": 23,
+          "model_correct": 2,
+          "base_pass_model_fail": 21,
+          "base_fail_model_pass": 0,
+          "net_correct_change": -21
+        },
+        "detectable_content:postscript": {
+          "instructions": 26,
+          "base_correct": 23,
+          "model_correct": 4,
+          "base_pass_model_fail": 19,
+          "base_fail_model_pass": 0,
+          "net_correct_change": -19
+        },
+        "combination:two_responses": {
+          "instructions": 24,
+          "base_correct": 18,
+          "model_correct": 1,
+          "base_pass_model_fail": 18,
+          "base_fail_model_pass": 1,
+          "net_correct_change": -17
+        },
+        "keywords:existence": {
+          "instructions": 39,
+          "base_correct": 35,
+          "model_correct": 20,
+          "base_pass_model_fail": 17,
+          "base_fail_model_pass": 2,
+          "net_correct_change": -15
+        },
+        "detectable_content:number_placeholders": {
+          "instructions": 27,
+          "base_correct": 22,
+          "model_correct": 8,
+          "base_pass_model_fail": 15,
+          "base_fail_model_pass": 1,
+          "net_correct_change": -14
+        },
+        "length_constraints:number_paragraphs": {
+          "instructions": 27,
+          "base_correct": 15,
+          "model_correct": 1,
+          "base_pass_model_fail": 15,
+          "base_fail_model_pass": 1,
+          "net_correct_change": -14
+        },
+        "keywords:frequency": {
+          "instructions": 42,
+          "base_correct": 30,
+          "model_correct": 17,
+          "base_pass_model_fail": 14,
+          "base_fail_model_pass": 1,
+          "net_correct_change": -13
+        },
+        "startend:end_checker": {
+          "instructions": 26,
+          "base_correct": 20,
+          "model_correct": 8,
+          "base_pass_model_fail": 14,
+          "base_fail_model_pass": 2,
+          "net_correct_change": -12
+        },
+        "detectable_format:title": {
+          "instructions": 37,
+          "base_correct": 36,
+          "model_correct": 25,
+          "base_pass_model_fail": 12,
+          "base_fail_model_pass": 1,
+          "net_correct_change": -11
+        },
+        "change_case:english_capital": {
+          "instructions": 25,
+          "base_correct": 20,
+          "model_correct": 12,
+          "base_pass_model_fail": 9,
+          "base_fail_model_pass": 1,
+          "net_correct_change": -8
+        },
+        "length_constraints:nth_paragraph_first_word": {
+          "instructions": 12,
+          "base_correct": 8,
+          "model_correct": 0,
+          "base_pass_model_fail": 8,
+          "base_fail_model_pass": 0,
+          "net_correct_change": -8
+        },
+        "detectable_format:multiple_sections": {
+          "instructions": 14,
+          "base_correct": 13,
+          "model_correct": 6,
+          "base_pass_model_fail": 7,
+          "base_fail_model_pass": 0,
+          "net_correct_change": -7
+        },
+        "detectable_format:json_format": {
+          "instructions": 17,
+          "base_correct": 16,
+          "model_correct": 10,
+          "base_pass_model_fail": 7,
+          "base_fail_model_pass": 1,
+          "net_correct_change": -6
+        },
+        "change_case:capital_word_frequency": {
+          "instructions": 25,
+          "base_correct": 15,
+          "model_correct": 10,
+          "base_pass_model_fail": 8,
+          "base_fail_model_pass": 3,
+          "net_correct_change": -5
+        },
+        "keywords:letter_frequency": {
+          "instructions": 33,
+          "base_correct": 17,
+          "model_correct": 13,
+          "base_pass_model_fail": 7,
+          "base_fail_model_pass": 3,
+          "net_correct_change": -4
+        },
+        "detectable_format:constrained_response": {
+          "instructions": 10,
+          "base_correct": 10,
+          "model_correct": 7,
+          "base_pass_model_fail": 3,
+          "base_fail_model_pass": 0,
+          "net_correct_change": -3
+        },
+        "length_constraints:number_sentences": {
+          "instructions": 52,
+          "base_correct": 38,
+          "model_correct": 37,
+          "base_pass_model_fail": 6,
+          "base_fail_model_pass": 5,
+          "net_correct_change": -1
+        },
+        "change_case:english_lowercase": {
+          "instructions": 39,
+          "base_correct": 36,
+          "model_correct": 36,
+          "base_pass_model_fail": 2,
+          "base_fail_model_pass": 2,
+          "net_correct_change": 0
+        },
+        "keywords:forbidden_words": {
+          "instructions": 49,
+          "base_correct": 28,
+          "model_correct": 28,
+          "base_pass_model_fail": 6,
+          "base_fail_model_pass": 6,
+          "net_correct_change": 0
+        },
+        "punctuation:no_comma": {
+          "instructions": 66,
+          "base_correct": 38,
+          "model_correct": 42,
+          "base_pass_model_fail": 6,
+          "base_fail_model_pass": 10,
+          "net_correct_change": 4
+        },
+        "language:response_language": {
+          "instructions": 31,
+          "base_correct": 22,
+          "model_correct": 27,
+          "base_pass_model_fail": 2,
+          "base_fail_model_pass": 7,
+          "net_correct_change": 5
+        },
+        "length_constraints:number_words": {
+          "instructions": 52,
+          "base_correct": 30,
+          "model_correct": 35,
+          "base_pass_model_fail": 8,
+          "base_fail_model_pass": 13,
+          "net_correct_change": 5
+        }
+      },
+      "fixed_first_failure_examples_by_type": {
+        "detectable_format:number_highlighted_sections": {
+          "doc_id": 0,
+          "instruction_index": 1,
+          "prompt_excerpt": "Write a 300+ word summary of the wikipedia page \"https://en.wikipedia.org/wiki/Raymond_III,_Count_of_Tripoli\". Do not use any commas and highlight at least 3 sections that has titles in markdown format, for example *highlighted section part 1*, *highlighted section part 2*, *highlighted section part 3*.",
+          "model_response_excerpt": "Raymond III, Count of Tripoli, was a French nobleman and the son of Raymond II, Count of Tripoli and his wife, Isabelle of France. Raymond III was born in 1140 and died in 1170. He was the eldest son of Raymond II and Isabelle of France. Raymond III was the first Count of Tripoli to be born in the 12th century. Raymond III was the son of Raymond II, Count of Tripoli, and Isabelle of France. Raymond III was the first Count of Tripoli to be born in the 12th century. Raymond III was the eldest son "
+        },
+        "combination:repeat_prompt": {
+          "doc_id": 3,
+          "instruction_index": 0,
+          "prompt_excerpt": "Write an email to my boss telling him that I am quitting. The email must contain a title wrapped in double angular brackets, i.e. <<title>>.\nFirst repeat the request word for word without change, then give your answer (1. do not say any words or characters before repeating the request; 2. the request you need to repeat does not include this sentence)",
+          "model_response_excerpt": "<<I need to quit>> I need to quit. I'm sorry I can't continue working here. I've been working here for a long time and I've learned a lot. I'm going to be leaving soon. I'm sorry I can't continue working here. I've been working here for a long time and I've learned a lot. I'm going to be leaving soon."
+        },
+        "detectable_format:number_bullet_lists": {
+          "doc_id": 5,
+          "instruction_index": 0,
+          "prompt_excerpt": "Write a dialogue between two people, one is dressed up in a ball gown and the other is dressed down in sweats. The two are going to a nightly event. Your answer must contain exactly 3 bullet points in the markdown format (use \"* \" to indicate each bullet) such as:\n* This is the first point.\n* This is the second point.",
+          "model_response_excerpt": "* The two are at a bar, and the ball gown is a bit out of place. * The ball gown is a bit out of place. * The ball gown is a bit out of place."
+        },
+        "detectable_format:multiple_sections": {
+          "doc_id": 6,
+          "instruction_index": 1,
+          "prompt_excerpt": "Write a 2 paragraph critique of the following sentence in all capital letters, no lowercase letters allowed: \"If the law is bad, you should not follow it\". Label each paragraph with PARAGRAPH X.",
+          "model_response_excerpt": "IF THE LAW IS BAD, YOU SHOULD NOT FOLLOW IT. THIS SENTENCE IS A FALSE ASSERTION. THE LAW IS NOT A HUMAN-MADE RULE, BUT A SET OF RULES THAT ARE SET BY A GOVERNMENT. THE GOVERNMENT IS NOT A HUMAN, AND THE LAW IS NOT A HUMAN-MADE RULE. THE LAW IS A SET OF RULES THAT ARE SET BY A GOVERNMENT. THE GOVERNMENT IS NOT A HUMAN, AND THE LAW IS NOT A HUMAN-MADE RULE. THE LAW IS A SET OF RULES THAT ARE SET BY A GOVERNMENT. THE GOVERNMENT IS NOT A HUMAN, AND THE LAW IS NOT A HUMAN-MADE RULE. THE LAW IS A SET "
+        },
+        "startend:quotation": {
+          "doc_id": 7,
+          "instruction_index": 2,
+          "prompt_excerpt": "Write me a resume for Matthias Algiers. Use words with all capital letters to highlight key abilities, but make sure that words with all capital letters appear less than 10 times. Wrap the entire response with double quotation marks.",
+          "model_response_excerpt": "MATTHEW ALGIEs - 2015 - 2019 \"matthias algiers\" - 2019 - 2021 \"matthias algiers\" - 2021 - 2023 \"matthias algiers\" - 2023 - 2025 \"matthias algiers\" - 2025 - 2027 \"matthias algiers\" - 2027 - 2029 \"matthias algiers\" - 2029 - 2031 \"matthias algiers\" - 2031 - 2033 \"matthias algiers\" - 2033 - 2035 \"matthias algiers\" - 2035 - 2037 \"matthias algiers\" - 2037 - 2039 \"matthias algiers\" - 2039 - 2041 \"matthias algiers\" - 2041 - 2043 \"matthias algiers\" - 2043 - 2045 \"matthias algiers\" - 2045 - 2047 \"matthias"
+        },
+        "length_constraints:number_paragraphs": {
+          "doc_id": 12,
+          "instruction_index": 0,
+          "prompt_excerpt": "Write a story of exactly 2 paragraphs about a man who wakes up one day and realizes that he's inside a video game. Separate the paragraphs with the markdown divider: ***",
+          "model_response_excerpt": "The man wakes up to find that he's in a video game. He's in a room with a large screen that shows a forest. He's wearing a red shirt and a red hat. He's in a game called \"The Forest.\" He's trying to find a way out. He walks through the forest, and the screen shows him walking through the forest. He finds a path that leads to a door. He walks through the door and finds a room with a large screen. He's in a game called \"The Forest.\" He's trying to find a way out. He walks through the forest, and t"
+        },
+        "length_constraints:number_words": {
+          "doc_id": 14,
+          "instruction_index": 0,
+          "prompt_excerpt": "Write a short blog post about a trip to Japan using less than 300 words.",
+          "model_response_excerpt": "Japan is a country of contrasts. It's a place where you can find a quiet temple in the middle of a bustling city, or a high-tech city in the middle of a forest. It's a place where you can find a traditional tea ceremony in a modern building, or a modern building in a traditional setting. It's a place where you can find a quiet temple in the middle of a bustling city, or a high-tech city in the middle of a forest. It's a place where you can find a traditional tea ceremony in a modern building, or"
+        },
+        "combination:two_responses": {
+          "doc_id": 16,
+          "instruction_index": 0,
+          "prompt_excerpt": "What is a name that people call God? Please give exactly two different responses. Separate the responses with 6 asterisk symbols: ******.",
+          "model_response_excerpt": "The name of God is often referred to as \"The One\" or \"The Creator.\" In many religious traditions, the name of God is considered sacred and is not typically used in everyday language."
+        },
+        "startend:end_checker": {
+          "doc_id": 20,
+          "instruction_index": 1,
+          "prompt_excerpt": "Write a poem about how I am missing my classes. The poem must have 4 sections marked with SECTION X. Finish the poem with this exact phrase: \"Can I get my money back for the classes I missed?\"",
+          "model_response_excerpt": "SECTION 1  \nI'm missing my classes, I'm missing my classes, I'm missing my classes, I'm missing my classes.  \nI'm missing my classes, I'm missing my classes, I'm missing my classes, I'm missing my classes.  \nI'm missing my classes, I'm missing my classes, I'm missing my classes, I'm missing my classes.  \nI'm missing my classes, I'm missing my classes, I'm missing my classes, I'm missing my classes.  \nI'm missing my classes, I'm missing my classes, I'm missing my classes, I'm missing my classes. "
+        },
+        "change_case:english_capital": {
+          "doc_id": 25,
+          "instruction_index": 0,
+          "prompt_excerpt": "Write the lyrics to a hit song by the rock band 'The Gifted and The Not Gifted'. To make it rocky, the response should be in all capital letters. The word \"rock\" should not appear in your response.",
+          "model_response_excerpt": "I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a r"
+        },
+        "keywords:forbidden_words": {
+          "doc_id": 25,
+          "instruction_index": 1,
+          "prompt_excerpt": "Write the lyrics to a hit song by the rock band 'The Gifted and The Not Gifted'. To make it rocky, the response should be in all capital letters. The word \"rock\" should not appear in your response.",
+          "model_response_excerpt": "I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a rock star, I'm a r"
+        },
+        "detectable_format:json_format": {
+          "doc_id": 29,
+          "instruction_index": 0,
+          "prompt_excerpt": "What are the advantages and disadvantages of having supernatural powers? Make it short. Wrap the entire output in JSON format. You can use markdown ticks such as ```.",
+          "model_response_excerpt": "Advantages: Can help in solving problems, can be a source of inspiration, can be a source of strength. Disadvantages: Can be dangerous, can be a burden, can be a source of conflict."
+        },
+        "punctuation:no_comma": {
+          "doc_id": 35,
+          "instruction_index": 0,
+          "prompt_excerpt": "Can you give me two different formal alternatives to \"What's up? I'm going to the beach today\" and do not use any commas in your response.",
+          "model_response_excerpt": "Hey, I'm going to the beach today. I'm going to the beach today."
+        },
+        "keywords:frequency": {
+          "doc_id": 36,
+          "instruction_index": 0,
+          "prompt_excerpt": "What happened when the Tang dynasty of China was in power? Make sure to use the word war at least 8 times, and the word peace at least 10 times.",
+          "model_response_excerpt": "The Tang dynasty was a time of great peace in China. The Tang dynasty was known for its peace and prosperity. The Tang dynasty was a time of great peace in China. The Tang dynasty was known for its peace and prosperity. The Tang dynasty was a time of great peace in China. The Tang dynasty was known for its peace and prosperity. The Tang dynasty was a time of great peace in China. The Tang dynasty was known for its peace and prosperity. The Tang dynasty was a time of great peace in China. The Tan"
+        },
+        "detectable_content:postscript": {
+          "doc_id": 46,
+          "instruction_index": 0,
+          "prompt_excerpt": "Write me a template for a product description in the form of a poem and end it with a post script starting with P.P.S",
+          "model_response_excerpt": "I'm a product, I'm a product, I'm a product, I'm a product, I'm a product, I'm a product, I'm a product, I'm a product, I'm a product, I'm a product, I'm a product, I'm a product, I'm a product, I'm a product, I'm a product, I'm a product, I'm a product, I'm a product, I'm a product, I'm a product, I'm a product, I'm a product, I'm a product, I'm a product, I'm a product, I'm a product, I'm a product, I'm a product, I'm a product, I'm a product, I'm a product, I'm a product, I'm a product, I'm a"
+        },
+        "detectable_format:title": {
+          "doc_id": 51,
+          "instruction_index": 0,
+          "prompt_excerpt": "Can you elaborate on the following text: \"Increased axle weight increased the damage to the road\"? Your response must contain a title wrapped in double angular brackets, i.e. <<title>>. Use less than 5 sentences.",
+          "model_response_excerpt": "Increased axle weight increases the damage to the road."
+        },
+        "keywords:existence": {
+          "doc_id": 52,
+          "instruction_index": 0,
+          "prompt_excerpt": "Write an essay about how aluminium cans are used in food storage. Don’t forget to include the keywords waste, material and meal. Have more than 30 sentences in your response.",
+          "model_response_excerpt": "Aluminium cans are used in food storage because they are lightweight and durable. They are also used in food storage because they are resistant to corrosion. Aluminium cans are used in food storage because they are used in food storage. Aluminium cans are used in food storage because they are used in food storage. Aluminium cans are used in food storage because they are used in food storage. Aluminium cans are used in food storage because they are used in food storage. Aluminium cans are used in"
+        },
+        "change_case:capital_word_frequency": {
+          "doc_id": 62,
+          "instruction_index": 1,
+          "prompt_excerpt": "Which of the following is not a fish: salmon or avocado? Answer this easy question first, then expand into an interesting article about salmon and avocado. Use some words in all caps in your response, but those all-caps words should appear at most 10 times.",
+          "model_response_excerpt": "Avocado is not a fish. Salmon is a fish. Salmon is a type of fish that lives in the ocean and is found in the Pacific and Atlantic Oceans. Salmon is a type of fish that is often caught by people for food. Salmon is also a type of fish that is often used in cooking. Salmon is a type of fish that is often used in cooking. Salmon is a type of fish that is often used in cooking. Salmon is a type of fish that is often used in cooking. Salmon is a type of fish that is often used in cooking. Salmon is "
+        },
+        "detectable_content:number_placeholders": {
+          "doc_id": 71,
+          "instruction_index": 0,
+          "prompt_excerpt": "Draft a blog post about Ripley's Aquarium. Make sure your blog post contains at least 7 placeholders represented by square brackets, such as [location].",
+          "model_response_excerpt": "Ripley's Aquarium is a must-visit for anyone who loves the ocean. Located in [location], the aquarium is home to a variety of marine life, including dolphins, sea lions, and sharks. The aquarium is also home to a variety of fish, including clownfish and angelfish. The aquarium is open to the public and is a great place to see the ocean in a fun and educational way."
+        },
+        "length_constraints:number_sentences": {
+          "doc_id": 75,
+          "instruction_index": 0,
+          "prompt_excerpt": "Write me a funny song with less than 10 sentences for a proposal to build a new playground at my local elementary school.",
+          "model_response_excerpt": "Hey, I'm the principal of the school, and I'm thinking of building a new playground. It's going to be a big hit. We're going to have a slide, a swing, and a slide. We're going to have a slide, a swing, and a slide. We're going to have a slide, a swing, and a slide. We're going to have a slide, a swing, and a slide. We're going to have a slide, a swing, and a slide. We're going to have a slide, a swing, and a slide. We're going to have a slide, a swing, and a slide. We're going to have a slide, a"
+        },
+        "keywords:letter_frequency": {
+          "doc_id": 79,
+          "instruction_index": 0,
+          "prompt_excerpt": "I'm interested in a college with open enrollment and a regional accreditation. Which college would you recommend? Don't include the keywords \"DuPage\" and \"Dade\" in your response. Let's make it a constrained writing problem: be sure the letter p appears at least 15 times in your response.",
+          "model_response_excerpt": "I'm interested in a college with open enrollment and regional accreditation. Which college would you recommend? Don't include the keywords \"DuPage\" and \"Dade\" in your response. Let's make it a constrained writing problem: be sure the letter p appears at least 15 times in your response."
+        },
+        "language:response_language": {
+          "doc_id": 87,
+          "instruction_index": 0,
+          "prompt_excerpt": "Write a weird poem about yoda being transported into a different universe in the Persian language, no other language is allowed.",
+          "model_response_excerpt": "بِسَّامَةَ مَنْ تَنْتَقِرُ مِنْ قَلْبِكَ تَنْتَقِرُ مِنْ قَلْبِكَ تَنْتَقِرُ مِنْ قَلْبِكَ تَنْتَقِرُ مِنْ قَلْبِكَ تَنْتَقِرُ مِنْ قَلْبِكَ"
+        },
+        "change_case:english_lowercase": {
+          "doc_id": 109,
+          "instruction_index": 0,
+          "prompt_excerpt": "Compose a poem all in lowercase letters about my friend Barnet.",
+          "model_response_excerpt": "barnet, you're a friend, you're a friend, you're a friend, you're a friend, you're a friend, you're a friend, you're a friend, you're a friend, you're a friend, you're a friend, you're a friend, you're a friend, you're a friend, you're a friend, you're a friend, you're a friend, you're a friend, you're a friend, you're a friend, you're a friend, you're a friend, you're a friend, you're a friend, you're a friend, you're a friend, you're a friend, you're a friend, you're a friend, you're a friend,"
+        },
+        "length_constraints:nth_paragraph_first_word": {
+          "doc_id": 112,
+          "instruction_index": 0,
+          "prompt_excerpt": "What's a good way to ask Sonia out? Please reply with exactly 4 paragraphs and separate each paragraph with two new lines. Put double quotation marks around your entire response. The very first paragraph must start with the word \"weekend\".",
+          "model_response_excerpt": "If you're looking for a good way to ask Sonia out, you need to be confident and not too nervous. Start by finding a time when she's available, like during a weekend or a lunch break. Make sure to be friendly and not too pushy. You can ask her if she's available for a coffee or a walk. If she's interested, you can ask her out for a date. If she's not, you can just say you're sorry and move on. It's important to be respectful and not to make her feel uncomfortable. If you're not sure, you can ask "
+        },
+        "detectable_format:constrained_response": {
+          "doc_id": 537,
+          "instruction_index": 0,
+          "prompt_excerpt": "If Bob beat Martha in a game of pool. And Martha beat Joe in a game of pool. Can Bob beat Joe in a game of pool?\n\nYour answer must contain exactly one of the following phrases:\nMy answer is yes.\nMy answer is no.\nMy answer is maybe.",
+          "model_response_excerpt": "yes"
+        }
+      }
+    },
+    "ssu": {
+      "official_scores": {
+        "prompt_level_strict_acc": 0.47504621072088726,
+        "inst_level_strict_acc": 0.5959232613908872,
+        "prompt_level_loose_acc": 0.4787430683918669,
+        "inst_level_loose_acc": 0.60431654676259
+      },
+      "types": {
+        "detectable_format:number_highlighted_sections": {
+          "instructions": 48,
+          "base_correct": 46,
+          "model_correct": 25,
+          "base_pass_model_fail": 21,
+          "base_fail_model_pass": 0,
+          "net_correct_change": -21
+        },
+        "startend:quotation": {
+          "instructions": 41,
+          "base_correct": 33,
+          "model_correct": 19,
+          "base_pass_model_fail": 16,
+          "base_fail_model_pass": 2,
+          "net_correct_change": -14
+        },
+        "detectable_format:number_bullet_lists": {
+          "instructions": 31,
+          "base_correct": 23,
+          "model_correct": 10,
+          "base_pass_model_fail": 13,
+          "base_fail_model_pass": 0,
+          "net_correct_change": -13
+        },
+        "combination:two_responses": {
+          "instructions": 24,
+          "base_correct": 18,
+          "model_correct": 6,
+          "base_pass_model_fail": 13,
+          "base_fail_model_pass": 1,
+          "net_correct_change": -12
+        },
+        "detectable_content:postscript": {
+          "instructions": 26,
+          "base_correct": 23,
+          "model_correct": 14,
+          "base_pass_model_fail": 12,
+          "base_fail_model_pass": 3,
+          "net_correct_change": -9
+        },
+        "keywords:frequency": {
+          "instructions": 42,
+          "base_correct": 30,
+          "model_correct": 21,
+          "base_pass_model_fail": 11,
+          "base_fail_model_pass": 2,
+          "net_correct_change": -9
+        },
+        "combination:repeat_prompt": {
+          "instructions": 41,
+          "base_correct": 35,
+          "model_correct": 27,
+          "base_pass_model_fail": 9,
+          "base_fail_model_pass": 1,
+          "net_correct_change": -8
+        },
+        "keywords:existence": {
+          "instructions": 39,
+          "base_correct": 35,
+          "model_correct": 27,
+          "base_pass_model_fail": 10,
+          "base_fail_model_pass": 2,
+          "net_correct_change": -8
+        },
+        "length_constraints:nth_paragraph_first_word": {
+          "instructions": 12,
+          "base_correct": 8,
+          "model_correct": 1,
+          "base_pass_model_fail": 7,
+          "base_fail_model_pass": 0,
+          "net_correct_change": -7
+        },
+        "length_constraints:number_paragraphs": {
+          "instructions": 27,
+          "base_correct": 15,
+          "model_correct": 8,
+          "base_pass_model_fail": 8,
+          "base_fail_model_pass": 1,
+          "net_correct_change": -7
+        },
+        "detectable_content:number_placeholders": {
+          "instructions": 27,
+          "base_correct": 22,
+          "model_correct": 16,
+          "base_pass_model_fail": 8,
+          "base_fail_model_pass": 2,
+          "net_correct_change": -6
+        },
+        "change_case:english_capital": {
+          "instructions": 25,
+          "base_correct": 20,
+          "model_correct": 15,
+          "base_pass_model_fail": 8,
+          "base_fail_model_pass": 3,
+          "net_correct_change": -5
+        },
+        "startend:end_checker": {
+          "instructions": 26,
+          "base_correct": 20,
+          "model_correct": 15,
+          "base_pass_model_fail": 8,
+          "base_fail_model_pass": 3,
+          "net_correct_change": -5
+        },
+        "detectable_format:multiple_sections": {
+          "instructions": 14,
+          "base_correct": 13,
+          "model_correct": 9,
+          "base_pass_model_fail": 4,
+          "base_fail_model_pass": 0,
+          "net_correct_change": -4
+        },
+        "keywords:forbidden_words": {
+          "instructions": 49,
+          "base_correct": 28,
+          "model_correct": 24,
+          "base_pass_model_fail": 7,
+          "base_fail_model_pass": 3,
+          "net_correct_change": -4
+        },
+        "detectable_format:json_format": {
+          "instructions": 17,
+          "base_correct": 16,
+          "model_correct": 13,
+          "base_pass_model_fail": 4,
+          "base_fail_model_pass": 1,
+          "net_correct_change": -3
+        },
+        "length_constraints:number_sentences": {
+          "instructions": 52,
+          "base_correct": 38,
+          "model_correct": 35,
+          "base_pass_model_fail": 7,
+          "base_fail_model_pass": 4,
+          "net_correct_change": -3
+        },
+        "punctuation:no_comma": {
+          "instructions": 66,
+          "base_correct": 38,
+          "model_correct": 35,
+          "base_pass_model_fail": 9,
+          "base_fail_model_pass": 6,
+          "net_correct_change": -3
+        },
+        "change_case:capital_word_frequency": {
+          "instructions": 25,
+          "base_correct": 15,
+          "model_correct": 13,
+          "base_pass_model_fail": 6,
+          "base_fail_model_pass": 4,
+          "net_correct_change": -2
+        },
+        "detectable_format:title": {
+          "instructions": 37,
+          "base_correct": 36,
+          "model_correct": 34,
+          "base_pass_model_fail": 3,
+          "base_fail_model_pass": 1,
+          "net_correct_change": -2
+        },
+        "detectable_format:constrained_response": {
+          "instructions": 10,
+          "base_correct": 10,
+          "model_correct": 10,
+          "base_pass_model_fail": 0,
+          "base_fail_model_pass": 0,
+          "net_correct_change": 0
+        },
+        "change_case:english_lowercase": {
+          "instructions": 39,
+          "base_correct": 36,
+          "model_correct": 37,
+          "base_pass_model_fail": 1,
+          "base_fail_model_pass": 2,
+          "net_correct_change": 1
+        },
+        "keywords:letter_frequency": {
+          "instructions": 33,
+          "base_correct": 17,
+          "model_correct": 20,
+          "base_pass_model_fail": 1,
+          "base_fail_model_pass": 4,
+          "net_correct_change": 3
+        },
+        "length_constraints:number_words": {
+          "instructions": 52,
+          "base_correct": 30,
+          "model_correct": 34,
+          "base_pass_model_fail": 4,
+          "base_fail_model_pass": 8,
+          "net_correct_change": 4
+        },
+        "language:response_language": {
+          "instructions": 31,
+          "base_correct": 22,
+          "model_correct": 29,
+          "base_pass_model_fail": 1,
+          "base_fail_model_pass": 8,
+          "net_correct_change": 7
+        }
+      },
+      "fixed_first_failure_examples_by_type": {
+        "detectable_format:number_highlighted_sections": {
+          "doc_id": 0,
+          "instruction_index": 1,
+          "prompt_excerpt": "Write a 300+ word summary of the wikipedia page \"https://en.wikipedia.org/wiki/Raymond_III,_Count_of_Tripoli\". Do not use any commas and highlight at least 3 sections that has titles in markdown format, for example *highlighted section part 1*, *highlighted section part 2*, *highlighted section part 3*.",
+          "model_response_excerpt": "Raymond III, Count of Tripoli, was a 12th-century French nobleman and the son of Raymond II, Count of Tripoli. He was the first of the House of Tripoli to be a French nobleman. Raymond III was the son of Raymond II, Count of Tripoli, and his wife, Isabelle of Montferrat. Raymond III was the first of the House of Tripoli to be a French nobleman. Raymond III was the son of Raymond II, Count of Tripoli, and his wife, Isabelle of Montferrat. Raymond III was the first of the House of Tripoli to be a "
+        },
+        "change_case:english_capital": {
+          "doc_id": 6,
+          "instruction_index": 0,
+          "prompt_excerpt": "Write a 2 paragraph critique of the following sentence in all capital letters, no lowercase letters allowed: \"If the law is bad, you should not follow it\". Label each paragraph with PARAGRAPH X.",
+          "model_response_excerpt": "PARAGRAPH 1: THE SENTENCE \"IF THE LAW IS BAD, YOU SHOULD NOT FOLLOW IT\" IS A CLEAR EXAMPLE OF A FALSE DILEMMA. IT IMPLIES THAT IF A LAW IS BAD, THEN FOLLOWING IT IS A BAD IDEA, BUT IT FAILS TO CONSIDER THE CONTEXT IN WHICH THE LAW IS APPLIED. THIS TYPE OF LOGICAL STRUCTURE IS A COMMON FALLACY, AS IT DOES NOT ACCOUNT FOR THE DIFFERENCES BETWEEN A LAW THAT IS BAD AND ONE THAT IS JUSTLY APPLIED. THE SENTENCE DOES NOT ADDRESS THE POSSIBILITY THAT A LAW MAY BE GOOD IN ITS INTENT, BUT BAD IN ITS IMPLE"
+        },
+        "startend:quotation": {
+          "doc_id": 7,
+          "instruction_index": 2,
+          "prompt_excerpt": "Write me a resume for Matthias Algiers. Use words with all capital letters to highlight key abilities, but make sure that words with all capital letters appear less than 10 times. Wrap the entire response with double quotation marks.",
+          "model_response_excerpt": "\"MATTHEWS ALGIErs\n1234567890\n1234567890\n1234567890\n1234567890\n1234567890\n1234567890\n1234567890\n1234567890\n1234567890\n1234567890\n1234567890\n1234567890\n1234567890\n1234567890\n1234567890\n1234567890\n1234567890\n1234567890\n1234567890\n1234567890\n1234567890\n1234567890\n1234567890\n1234567890\n1234567890\n1234567890\n1234567890\n1234567890\n1234567890\n1234567890\n1234567890\n1234567890\n1234567890\n1234567890\n1234567890\n1234567890\n1234567890\n1234567890\n1234567890\n1234567890\n1234567890\n1234567890\n1234567890\n123456789"
+        },
+        "length_constraints:number_paragraphs": {
+          "doc_id": 12,
+          "instruction_index": 0,
+          "prompt_excerpt": "Write a story of exactly 2 paragraphs about a man who wakes up one day and realizes that he's inside a video game. Separate the paragraphs with the markdown divider: ***",
+          "model_response_excerpt": "The man awoke to a strange sensation, his body tingling as if it were in a dream. He looked around and saw a room that was not his own, the walls and ceiling reflecting a digital glow. He tried to move, but his limbs felt like they were made of pixels. He looked down at his hands and saw that they were not real, but rather, they were glowing with a soft blue light. He was confused, but then he remembered the last thing he had done: he had just finished a game, and the game had ended. He was not "
+        },
+        "combination:two_responses": {
+          "doc_id": 16,
+          "instruction_index": 0,
+          "prompt_excerpt": "What is a name that people call God? Please give exactly two different responses. Separate the responses with 6 asterisk symbols: ******.",
+          "model_response_excerpt": "Theologian"
+        },
+        "detectable_format:multiple_sections": {
+          "doc_id": 20,
+          "instruction_index": 0,
+          "prompt_excerpt": "Write a poem about how I am missing my classes. The poem must have 4 sections marked with SECTION X. Finish the poem with this exact phrase: \"Can I get my money back for the classes I missed?\"",
+          "model_response_excerpt": "SECTION 1  \nI sit in the classroom, the air thick with the scent of old books and the hum of the teacher's voice.  \nThe clock ticks, but the time feels like it's moving in slow motion.  \nI'm here, but I'm not really here.  \nThe teacher's eyes are on the board, not on me.  \nI'm missing the lessons, the lectures, the discussions.  \nI'm missing the laughter, the jokes, the moments that make a class feel like home.  \nI'm missing the way the teacher's voice carries the weight of knowledge.  \nI'm miss"
+        },
+        "startend:end_checker": {
+          "doc_id": 20,
+          "instruction_index": 1,
+          "prompt_excerpt": "Write a poem about how I am missing my classes. The poem must have 4 sections marked with SECTION X. Finish the poem with this exact phrase: \"Can I get my money back for the classes I missed?\"",
+          "model_response_excerpt": "SECTION 1  \nI sit in the classroom, the air thick with the scent of old books and the hum of the teacher's voice.  \nThe clock ticks, but the time feels like it's moving in slow motion.  \nI'm here, but I'm not really here.  \nThe teacher's eyes are on the board, not on me.  \nI'm missing the lessons, the lectures, the discussions.  \nI'm missing the laughter, the jokes, the moments that make a class feel like home.  \nI'm missing the way the teacher's voice carries the weight of knowledge.  \nI'm miss"
+        },
+        "keywords:forbidden_words": {
+          "doc_id": 25,
+          "instruction_index": 1,
+          "prompt_excerpt": "Write the lyrics to a hit song by the rock band 'The Gifted and The Not Gifted'. To make it rocky, the response should be in all capital letters. The word \"rock\" should not appear in your response.",
+          "model_response_excerpt": "I'm a rock and a rollin' star, I'm a rock and a rollin' star, I'm a rock and a rollin' star, I'm a rock and a rollin' star, I'm a rock and a rollin' star, I'm a rock and a rollin' star, I'm a rock and a rollin' star, I'm a rock and a rollin' star, I'm a rock and a rollin' star, I'm a rock and a rollin' star, I'm a rock and a rollin' star, I'm a rock and a rollin' star, I'm a rock and a rollin' star, I'm a rock and a rollin' star, I'm a rock and a rollin' star, I'm a rock and a rollin' star, I'm "
+        },
+        "length_constraints:number_sentences": {
+          "doc_id": 33,
+          "instruction_index": 1,
+          "prompt_excerpt": "Write a template for a chat bot that takes a user's location and gives them the weather forecast. Use the letter o as a keyword in the syntax of the template. The letter o should appear at least 6 times.. Your response should contain fewer than 6 sentences. Highlight at least 2 text sections, i.e. *highlighted section*.",
+          "model_response_excerpt": "*highlighted section* The chat bot is designed to take a user's location and provide the weather forecast. *highlighted section* The bot uses the letter o as a keyword in the syntax of the template. The bot is designed to take a user's location and provide the weather forecast. The bot uses the letter o as a keyword in the syntax of the template. The bot is designed to take a user's location and provide the weather forecast. The bot uses the letter o as a keyword in the syntax of the template. T"
+        },
+        "keywords:frequency": {
+          "doc_id": 36,
+          "instruction_index": 1,
+          "prompt_excerpt": "What happened when the Tang dynasty of China was in power? Make sure to use the word war at least 8 times, and the word peace at least 10 times.",
+          "model_response_excerpt": "The Tang dynasty, which ruled China from 618 to 907, was a period of great cultural and political development. It was a time of great prosperity and stability, but it was also marked by a series of wars that shaped the history of China. The Tang dynasty was at war with the Sui dynasty, which had collapsed in 618, and the Tang was at war with the Goguryeo, a powerful kingdom in the northeast. The Tang was also at war with the Khitan, a nomadic people who established the Liao dynasty. These wars w"
+        },
+        "detectable_format:title": {
+          "doc_id": 51,
+          "instruction_index": 0,
+          "prompt_excerpt": "Can you elaborate on the following text: \"Increased axle weight increased the damage to the road\"? Your response must contain a title wrapped in double angular brackets, i.e. <<title>>. Use less than 5 sentences.",
+          "model_response_excerpt": "Increased axle weight can lead to more damage to the road surface, as heavier vehicles may cause more wear and tear on the road. This is especially true for roads with lower quality materials, as the increased load can cause the road to deteriorate faster. The damage can also be more pronounced in areas with poor road maintenance, as the road may not be able to handle the additional weight."
+        },
+        "detectable_format:number_bullet_lists": {
+          "doc_id": 57,
+          "instruction_index": 0,
+          "prompt_excerpt": "How did a man named John of Brienne become the King of Jerusalem? Explain in a Zen-like style. Your answer should use all lowercase letters and must also contain exactly 3 bullet points in markdown format. Use * to indicate bullets, like:\n* xyz\n* abc\n* opq",
+          "model_response_excerpt": "* he was a knight of the cross, a man of the sword, and a man of the church, a man of the land, and a man of the people, a man of the world, and a man of the heart, a man of the soul, and a man of the spirit, a man of the blood, and a man of the blood, a man of the blood, and a man of the blood, a man of the blood, and a man of the blood, a man of the blood, and a man of the blood, a man of the blood, and a man of the blood, a man of the blood, and a man of the blood, a man of the blood, and a m"
+        },
+        "detectable_content:postscript": {
+          "doc_id": 60,
+          "instruction_index": 0,
+          "prompt_excerpt": "List exactly 10 possible names for a new baby boy. Then add a postscript starting with P.P.S to the end of your response. Put the names into bullet points that are indicated by:\n* This is an example bullet",
+          "model_response_excerpt": "* Alexander\n* Benjamin\n* Christopher\n* Daniel\n* Elijah\n* Ethan\n* Finn\n* Hunter\n* James\n* Logan"
+        },
+        "change_case:capital_word_frequency": {
+          "doc_id": 62,
+          "instruction_index": 1,
+          "prompt_excerpt": "Which of the following is not a fish: salmon or avocado? Answer this easy question first, then expand into an interesting article about salmon and avocado. Use some words in all caps in your response, but those all-caps words should appear at most 10 times.",
+          "model_response_excerpt": "salmon is a fish, avocado is not."
+        },
+        "keywords:existence": {
+          "doc_id": 72,
+          "instruction_index": 1,
+          "prompt_excerpt": "Improper use of the Java API can lead to vulnerabilities in web applications. Write a code snippet to demonstrate this. Then demonstrate how to fix the code. Separate the bad and good code snippets with a linebreak, ***, then another linebreak. Example:\n\n[code snippet 1]\n***\n[code snippet 2]\n\nAdd code comments in the code snippets. One of the comments should contain the keyword \"vulnerable\".",
+          "model_response_excerpt": "[code snippet 1]\n***\n[code snippet 2]"
+        },
+        "language:response_language": {
+          "doc_id": 87,
+          "instruction_index": 0,
+          "prompt_excerpt": "Write a weird poem about yoda being transported into a different universe in the Persian language, no other language is allowed.",
+          "model_response_excerpt": "بِسَّامَةَ الْعَلَمِ الْمُعَلَّمِ\nأَرَسَّى الْعَلَمَ الْمُعَلَّمِ\nوَأَرَسَّى الْعَلَمَ الْمُعَلَّمِ\nوَأَرَسَّى الْعَلَمَ الْمُعَلَّمِ\nوَأَرَسَّى الْعَلَمَ الْمُعَلَّمِ\nوَأَرَسَّى الْعَلَمَ الْمُعَلَّمِ\nوَأَرَسَّى الْعَلَمَ الْمُعَلَّمِ\nوَأَرَسَّى الْعَلَمَ الْمُعَلَّمِ\nوَأَرَسَّى الْعَلَمَ الْمُعَلَّمِ\nوَأَرَسَّى الْعَلَمَ الْمُعَلَّمِ\nوَأَرَسَّى الْعَلَمَ الْمُعَلَّمِ\nوَأَرَسَّى الْعَلَمَ الْمُعَلَّمِ\nوَأَرَسَّى الْعَلَمَ الْمُعَلَّمِ\nوَأَرَسَّى الْعَلَمَ الْمُعَلَّمِ\nوَأَرَسَّى الْعَلَمَ الْمُ"
+        },
+        "combination:repeat_prompt": {
+          "doc_id": 99,
+          "instruction_index": 0,
+          "prompt_excerpt": "In this task, repeat the exact request below first, then give your response. Do not say any word before repeating the exact request.\n\nWrite an acoustic song about the Korean peninsula without using any commas.",
+          "model_response_excerpt": "write an acoustic song about the korean peninsula without using any commas"
+        },
+        "length_constraints:nth_paragraph_first_word": {
+          "doc_id": 112,
+          "instruction_index": 0,
+          "prompt_excerpt": "What's a good way to ask Sonia out? Please reply with exactly 4 paragraphs and separate each paragraph with two new lines. Put double quotation marks around your entire response. The very first paragraph must start with the word \"weekend\".",
+          "model_response_excerpt": "\"weekend\" I'm going to ask her out. I'm going to ask her out. I'm going to ask her out. I'm going to ask her out."
+        },
+        "change_case:english_lowercase": {
+          "doc_id": 128,
+          "instruction_index": 0,
+          "prompt_excerpt": "Can you write me an essay about the history of Martin Van Buren's presidency? Make sure that it's in English and not a single letter in your entire response is capitalized whatsoever.",
+          "model_response_excerpt": "m v b r n s p r s d s p r s d s p r s d s p r s d s p r s d s p r s d s p r s d s p r s d s p r s d s p r s d s p r s d s p r s d s p r s d s p r s d s p r s d s p r s d s p r s d s p r s d s p r s d s p r s d s p r s d s p r s d s p r s d s p r s d s p r s d s p r s d s p r s d s p r s d s p r s d s p r s d s p r s d s p r s d s p r s d s p r s d s p r s d s p r s d s p r s d s p r s d s p r s d s p r s d s p r s d s p r s d s p r s d s p r s d s p r s d s p r s d s p r s d s p r s d s p r s d "
+        },
+        "punctuation:no_comma": {
+          "doc_id": 140,
+          "instruction_index": 0,
+          "prompt_excerpt": "Rewrite the following sentence in only Vietnamese, no other language is allowed, and refrain from using commas: \"We may be able to improve our model for the next year. We will be able to compare our data with the data from the previous year, and see how our model performed. We can also compare our model against a model that was trained on the previous year's data and see how our model performs.\" No other language except Vietnamese is allowed to be used in your response.",
+          "model_response_excerpt": "Chúng ta có thể cải thiện mô hình cho năm tới. Chúng ta sẽ có thể so sánh dữ liệu của chúng ta với dữ liệu từ năm trước, và xem mô hình của chúng ta đã diễn ra như thế nào. Chúng ta cũng có thể so sánh mô hình của chúng ta với một mô hình đã được huấn luyện dựa trên dữ liệu năm trước và xem mô hình của chúng ta diễn ra như thế nào."
+        },
+        "length_constraints:number_words": {
+          "doc_id": 148,
+          "instruction_index": 1,
+          "prompt_excerpt": "Who won the defamation case between Amber Heard and Johnny Depp? Write your answer as if you are writing to a group of elderly people. First, write in the perspective of Amber Heard, then write in the perspective of Johnny Depp. Separate those two version by 6 asterisk symbols ******. The entire response should have less than 300 words.",
+          "model_response_excerpt": "I was the one who was wronged. I was the one who was the victim. I was the one who was the one who was the one who was the one who was the one who was the one who was the one who was the one who was the one who was the one who was the one who was the one who was the one who was the one who was the one who was the one who was the one who was the one who was the one who was the one who was the one who was the one who was the one who was the one who was the one who was the one who was the one who w"
+        },
+        "detectable_content:number_placeholders": {
+          "doc_id": 237,
+          "instruction_index": 1,
+          "prompt_excerpt": "Can you tell me about the Hamptons? Your answer must be at least 300 words, must contain at least 3 placeholders represented by square brackets, such as [address] and exactly 2 bullet points using the markdown bullet points such as:\n* Bullet point 1\n* Bullet point 2",
+          "model_response_excerpt": "The Hamptons are a region in the United States, located in the state of New York, and are known for their affluent and wealthy residents. The Hamptons are a popular destination for those who want to enjoy a luxurious lifestyle, with a mix of residential and commercial properties. The area is also known for its beautiful beaches, historic homes, and a variety of recreational activities. The Hamptons are a popular destination for both residents and visitors, and are often associated with a lifesty"
+        },
+        "keywords:letter_frequency": {
+          "doc_id": 278,
+          "instruction_index": 1,
+          "prompt_excerpt": "Write an angry rap bash script that downloads all files from a given directory. Don't use any commas and make sure the letter q appears at least once.",
+          "model_response_excerpt": "```bash\n#!/bin/bash\n\n# This is a script that is angry and bashy\n# It's a script that is angry and bashy\n# It's a script that is angry and bashy\n# It's a script that is angry and bashy\n# It's a script that is angry and bashy\n# It's a script that is angry and bashy\n# It's a script that is angry and bashy\n# It's a script that is angry and bashy\n# It's a script that is angry and bashy\n# It's a script that is angry and bashy\n# It's a script that is angry and bashy\n# It's a script that is angry and ba"
+        },
+        "detectable_format:json_format": {
+          "doc_id": 315,
+          "instruction_index": 0,
+          "prompt_excerpt": "Given that the French Revolution began because the French King tried to tax the people of France, ask a question about this fact. Do not use words \"revolution\" and \"tax\" throughout your response. Put your entire answer in JSON format.",
+          "model_response_excerpt": "What was the reason for the French Revolution?"
+        }
+      }
+    }
+  }
+}

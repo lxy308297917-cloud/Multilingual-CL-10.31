@@ -1,0 +1,136 @@
+{
+  "status": "descriptive actual likelihood choices; official ACC unchanged",
+  "interpretation": "Changed option distributions may contribute to benchmark improvements; this alone does not identify how much comes from semantic learning versus calibration. No option permutation or score correction.",
+  "tasks": {
+    "sw_reading": {
+      "full": {
+        "base_predictions_A_B_C_D": [
+          150,
+          728,
+          0,
+          22
+        ],
+        "model_predictions_A_B_C_D": [
+          424,
+          240,
+          123,
+          113
+        ],
+        "gold_A_B_C_D": [
+          206,
+          251,
+          246,
+          197
+        ],
+        "evidence": "/path/to/workspace/logs/qwen3-multilingual/sft-v1/paired-full-hf-belebele-20261102.json"
+      },
+      "lora": {
+        "base_predictions_A_B_C_D": [
+          150,
+          728,
+          0,
+          22
+        ],
+        "model_predictions_A_B_C_D": [
+          360,
+          278,
+          139,
+          123
+        ],
+        "gold_A_B_C_D": [
+          206,
+          251,
+          246,
+          197
+        ],
+        "evidence": "/path/to/workspace/logs/qwen3-multilingual/sft-v1/paired-lora-hf-belebele-choice-20261102.json"
+      },
+      "ssu": {
+        "base_predictions_A_B_C_D": [
+          150,
+          728,
+          0,
+          22
+        ],
+        "model_predictions_A_B_C_D": [
+          412,
+          259,
+          127,
+          102
+        ],
+        "gold_A_B_C_D": [
+          206,
+          251,
+          246,
+          197
+        ],
+        "evidence": "/path/to/workspace/logs/qwen3-multilingual/sft-v1/paired-ssu-hf-belebele-20261102.json"
+      }
+    },
+    "sw_knowledge": {
+      "full": {
+        "base_predictions_A_B_C_D": [
+          6245,
+          1970,
+          538,
+          5289
+        ],
+        "model_predictions_A_B_C_D": [
+          4960,
+          3076,
+          4105,
+          1901
+        ],
+        "gold_A_B_C_D": [
+          3222,
+          3462,
+          3582,
+          3776
+        ],
+        "evidence": "/path/to/workspace/logs/qwen3-multilingual/sft-v1/paired-full-hf-gmmlu-choice-20261102.json"
+      },
+      "lora": {
+        "base_predictions_A_B_C_D": [
+          6245,
+          1970,
+          538,
+          5289
+        ],
+        "model_predictions_A_B_C_D": [
+          4786,
+          3013,
+          4039,
+          2204
+        ],
+        "gold_A_B_C_D": [
+          3222,
+          3462,
+          3582,
+          3776
+        ],
+        "evidence": "/path/to/workspace/logs/qwen3-multilingual/sft-v1/paired-lora-hf-gmmlu-20261102.json"
+      },
+      "ssu": {
+        "base_predictions_A_B_C_D": [
+          6245,
+          1970,
+          538,
+          5289
+        ],
+        "model_predictions_A_B_C_D": [
+          4090,
+          5397,
+          3154,
+          1401
+        ],
+        "gold_A_B_C_D": [
+          3222,
+          3462,
+          3582,
+          3776
+        ],
+        "evidence": "/path/to/workspace/logs/qwen3-multilingual/sft-v1/paired-ssu-hf-gmmlu-20261102.json"
+      }
+    }
+  }
+}
