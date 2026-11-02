@@ -1,4 +1,4 @@
-> 当前机制诊断主要计算已完成：三组模块恢复／注入、激活补丁与对照，尚无清晰功能分离证据。见[研究报告](research/mechanism/mechanism_report.md)与[早间汇报](research/mechanism/morning_brief.md)。正式baseline结果保持原样。
+> 当前机制诊断、报告与代码结果交付已完成：三组模块恢复／注入、激活补丁与对照，尚无清晰功能分离证据。见[研究报告](research/mechanism/mechanism_report.md)与[早间汇报](research/mechanism/morning_brief.md)。正式baseline结果保持原样。
 
 # Qwen3 Multilingual Continual Learning
 
@@ -13,7 +13,7 @@
 
 ## 当前主任务
 
-当前按用户新计划开展内部机制诊断：资产核实、参数/激活漂移、局部模块恢复与注入、同输入激活补丁。见[机制诊断入口](research/mechanism/README.md)。暂不直接设计或训练最终My Method；旧候选四组已取消，剩余多种子复测保持停止。
+当前按用户新计划开展内部机制诊断：资产核实、参数/激活漂移、局部模块恢复与注入、同输入激活补丁。见[机制诊断入口](research/mechanism/README.md)。主要实验与报告均已完成，当前尚无可靠的功能分离证据。暂不直接设计或训练最终My Method；旧候选四组已取消，剩余多种子复测保持停止。
 
 | 方法 | SW阅读ACC | SW知识ACC | IFEval提示strict | GSM8K strict |
 |---|---:|---:|---:|---:|

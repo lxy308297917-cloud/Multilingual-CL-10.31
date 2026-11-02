@@ -1,6 +1,6 @@
 {
   "scope": "Curated baseline plus user-directed mechanism diagnostics; no private runtime metadata, raw datasets, model weights or cancelled candidate method publication",
-  "source_local_commit": "a06740c47836469d197d6a88182b097da4fea434",
+  "source_local_commit": "953d94b25f7700a0cb203a357090d2a9e823ea0a",
   "source_files": {
     "configs/eval_tasks/_belebele_locked_base.yaml": {
       "original_sha256": "0634916091a6aa37684ac9e01198ec797cd2e487963171fe2ba4887306489fb4",
@@ -575,13 +575,17 @@
       "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
     },
     "research/chatgpt_handoff.md": {
-      "original_sha256": null,
-      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+      "original_sha256": "2cf662da2a6424e9680921368768744ce96a52828eab5f709fe7028556fcbb1b",
+      "publication_change": "Scientific handoff; no private operational metadata"
+    },
+    "research/mechanism/parameter_summary.md": {
+      "original_sha256": "e1ecebd3ee8f706b1671f02aab6ace0e89d53c4f23c190176e438c217cc1a919",
+      "publication_change": "Scientific handoff; no private operational metadata"
     }
   },
   "public_files": {
     ".gitignore": "755ad3aa19b057fc90f883af75846e61edcff35eadd60a8a8ddbf9e2ef6c3487",
-    "README.md": "f2f826f5e00b2d98c75c93f4cd058be60c02ff5a327c9726f28de501c6465a42",
+    "README.md": "280fe12c22d2785018028d09497cce6075a9f0b873b14d359aaaff1f3540286f",
     "STATUS.md": "29ab2ad9d1e2ed19eb84f53f18509b71a932bd6bfc30534c20ecbd6168afa4be",
     "configs/deepspeed_z2_cpu_offload.json": "0f24bc34218e099cec48cc2722993f1b1bdfb8f97e9d86a56af8a6f4824390c4",
     "configs/eval_tasks/_belebele_locked_base.yaml": "0634916091a6aa37684ac9e01198ec797cd2e487963171fe2ba4887306489fb4",
@@ -635,7 +639,7 @@
     "configs/sft_v1/formal_sw_lora_seed42.yaml": "c69f148823756d097661b7700d03f8e9aabc3ec80184b8cc08cc7f6dbcf9f4bb",
     "configs/sft_v1/formal_sw_ssu_seed42.yaml": "7f3bd39ba9926ab127dd2265dfb2d123bb8213b1293a658d609fb8baa114110c",
     "configs/sft_v1/stack.lock.json": "2f7d0317c03162894e14de50086f43718e82158736cb34f2d9f6cb9878874e10",
-    "research/chatgpt_handoff.md": "57dc26821dfe0b8119b71eda50990b203dd5bdca53503f9b3e8d3097318af115",
+    "research/chatgpt_handoff.md": "2cf662da2a6424e9680921368768744ce96a52828eab5f709fe7028556fcbb1b",
     "research/mechanism/README.md": "d5433a8552e442b6d759501513fb150a39c2a72c65462897f7fb3180aefe0c7e",
     "research/mechanism/activation_patching_v1.md": "a7eb34f3f2f840979a3ec3159d94ed05228dac442f34ec01c2d8db747baaa49b",
     "research/mechanism/asset_inventory.md": "fa047d6f27070894c6213f3333871c6efa8f3f08f6776646ca7b0c71e5d364ea",
@@ -644,6 +648,7 @@
     "research/mechanism/experiment_protocol.md": "111bd452669a66ce13c29dbb3aab6c8d112c111099e0a4ff3d3c7663d15d7e46",
     "research/mechanism/mechanism_report.md": "1cb50471640802c7b3f7b418c869e6938e22039c2c7eced2f3116611cc487777",
     "research/mechanism/morning_brief.md": "22b571c5334a0e0be2ade1aec581729c6f913ebc1fce20e27e3e761472b1d68c",
+    "research/mechanism/parameter_summary.md": "e1ecebd3ee8f706b1671f02aab6ace0e89d53c4f23c190176e438c217cc1a919",
     "results/README.md": "2237a13ae5dee9cfe2a219824bc6e4b14420ef03629315bbe66830aab16efcdd",
     "results/baselines_current.csv": "b65fd477616b741ffdc7ed35c93f906f011871dfc7cd5399337688ddfa69f7a1",
     "results/baselines_current.json": "80e9cc2f38289b44135bd5eed282b0cc748cd42a7d8ab9204e373f90a0f26a36",
@@ -676,6 +681,7 @@
     "results/mechanism/parameter_full.csv": "3c7878e7bd1dbf3ad8cefedfc9d72d0fd3ed727fc7004cb6b77572436675d9a7",
     "results/mechanism/parameter_lora.csv": "9642e270afbf823ee99d6ac231fb0fb669facec4b4d5e39e42d0d5c0a1c3c7b7",
     "results/mechanism/parameter_ssu.csv": "4481232547351679a04497d3e9d8b298b02374b500e03bffec612ca7de9580c4",
+    "results/mechanism/public_snapshot_tests.json": "68ad5d7c9eafe2d2b839b6bbbe3568ad040481b17829d2a2bd5e9dfd5ef6561e",
     "results/mechanism/report_figures/protocol.json": "55d656be86712507c5401de114045bcf00494fe98652fadfb95d6dd12ffa7c8f",
     "results/mechanism/report_figures/restore_vs_inject.csv": "2bd829bec491364fcf6d5da6f0b9f2dd5212afeb9ce00637c7e21a1c20fa3f88",
     "results/mechanism/report_figures/restore_vs_inject.svg": "490298b1f84954bd1faa52e1e48b829d83a1099ea018cb781acd2d119ed71942",

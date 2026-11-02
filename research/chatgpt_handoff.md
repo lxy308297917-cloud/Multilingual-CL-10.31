@@ -1,76 +1,67 @@
-# 当前交接：先做内部机制诊断
+# 给 ChatGPT 的项目交接：Qwen3 多语言 SFT 与机制诊断
 
-用户2026-11-02的新任务替代此前直接寻找算法的执行重点。请先阅读[机制诊断入口](mechanism/README.md)。重点审查干预、数据质量、统计不确定性及结论边界；不把漂移或参考LL变化当作已证实的能力提升。
+更新时间：2026-11-02。本轮主要实验、报告及代码结果交付已完成。请先审查现有证据，再讨论下一步；当前没有已经验证的新方法。
 
-以下保留此前baseline背景和后续方法研究的约束，不能视为当前新算法训练授权。
+## 1. 我们希望你协助讨论什么
 
-# 给ChatGPT的项目交接：寻找my method
+我们最终希望设计一种多语言持续学习方法，兼顾目标语言收益与通用任务保留。目前先检验：SW SFT 是否存在可利用的语言接口／共享任务功能部分分离机制。请基于仓库证据判断假设是否值得继续，以及还缺什么最有区分力的证据。不要假设所有英语任务一起遗忘，也不要把CPT结论直接迁移到指令SFT。
 
-## 现在需要解决什么
+## 2. 已完成的 baseline
 
-用户最新要求：不要继续消耗时间做许多训练种子；重点是找到一个有创新性的CL + 多语言适配方法，并完成与同类型成熟baseline的比较。已有完整seed42结果足以作为现象和工程起点。**my method尚未实现、尚无分数。** 本仓库不将现有SSU或英语保护改名为创新。
+- 官方后训练 `Qwen/Qwen3-1.7B`，revision `70d244cc86ccca08cf5af4e1e306ecf908b1ad5e`，不是另一个Qwen3-Base。
+- Aya Collection SW6400，1 epoch，400 optimizer steps，有效batch16，assistant-only，non-thinking；固定Final，不依据正式测试选checkpoint。
+- 输入2,884,423 tokens，移位回答监督1,078,347 tokens；长度2048，不packing。
+- FFT LR1e-5；LoRA r16/alpha32、LR1e-4；SSU-Wanda静态英语保护、LR1e-5。SSU保护40.9594%唯一参数，校准含数学偏置，不是历史SSU15%。跨方法配方不同，不能把差异全部归因于机制。
 
-请先帮助明确：方法要解决的具体失败模式、与已有工作的实质区别、可证伪的机制假设、最小实现路径、对应baseline以及必要消融。创新性需要文献核查，当前未完成新方法的文献排重。
+|正式主要指标（%）|Base|FFT|LoRA|SSU-Wanda|
+|---|---:|---:|---:|---:|
+|SW Belebele ACC|28.33|36.67|36.89|35.44|
+|SW Global-MMLU ACC|27.87|31.65|31.38|31.24|
+|EN Belebele ACC|60.78|77.11|78.22|79.67|
+|EN MMLU ACC|57.01|58.45|58.33|58.82|
+|IFEval prompt strict|66.91|27.17|31.05|47.50|
+|GSM8K strict|45.03|3.79|7.35|13.80|
+|GSM8K flexible|73.01|61.26|56.79|65.43|
 
-## 已有研究现象
+完整80项seed42指标含双向翻译、IFEval其他标准指标等，见 [CSV](../results/baselines_seed42.csv) 与 [JSON](../results/baselines_seed42.json)。旧MURI B的训练数据、预算、协议不同，应独立看待，不与新Aya轨道拼表。已有完成复测保留，不继续新增训练种子。
 
-Qwen3-1.7B在Aya SW6400条指令上训练一轮后，SW阅读与知识ACC提高，部分通用任务（IFEval、GSM8K、SW→EN翻译）下降。英语阅读和选择题知识提高，不能将所有英语能力统一称为遗忘。SSU比FFT保留更多指令/数学表现，同时仍有目标阅读收益。完整上升/下降/持平结果见[结果总览](../results/README.md)，不只选符合叙事的指标。
+## 3. 已完成的机制实验
 
-## 当前主线的固定设置
+1. 三模型有效参数差分：正确PEFT merge/scaling与tied参数计数，逐28层/组件各280行；只作描述。
+2. 同60输入的Base/Final激活差分，各2352行；prompt与teacher-forced参考分开，不假装跨语言token对齐。
+3. 独立232条开发输入，17个预定干预加Base/Final，共19条件/模型、13,224条预测；代表层0/14/27，Attention/MLP/Block、连续层组、恢复、注入、alpha0.5、匹配参数量／范数随机对照。不是全层搜索。
+4. 三组共1224行条件效应、72行交互；同语义pair/重复提示聚类，2000次配对bootstrap，未做多重校正。
+5. 同输入激活补丁最终v3，各26样本/368行，包括随机扰动、26个中性语义与14个不同题控制。identity误差0，读数为参考答案LL，不是生成准确率。
+6. 37项CPU测试通过；直接在公开副本再运行同样37项也通过；真实模型smoke、identity、参数回滚及随机对照匹配均通过。
 
-- 原模型：`Qwen/Qwen3-1.7B@70d244cc86ccca08cf5af4e1e306ecf908b1ad5e`，发布的后训练模型；1,720,574,976个唯一参数。
-- 数据：Aya Collection SW固定6400条；一轮400步；输入2,884,423、移位assistant监督1,078,347 token；有效batch16。
-- 非思考chat模板、assistant-only、BF16、cutoff2048、不packing、cosine、warmup5%，主要比较固定预算Final。
-- FFT：LR1e-5、双卡ZeRO3，micro1×accum8×world2。
-- LoRA：r16/alpha32/dropout0.05、七种Attention/MLP投影，LR1e-4，单卡micro2×accum8。
-- SSU-Wanda：沿用锁定的Tulu500英语校准掩码，保护704,737,792/1,720,574,976≈40.9594%唯一参数；LR1e-5、WD0、单卡ZeRO2 CPU optimizer offload。**不是历史SSU15%。** Tulu500数学占比较高，需考虑校准代表性。
-- 训练工具：LLaMA-Factory；评测：lm-evaluation-harness、vLLM、BenchMAX及官方评分。版本在`configs/sft_v1/stack.lock.json`。
+## 4. 当前结论与关键限制
 
-## 应如何设计my method与baseline
+**已经看到的现象**：SW阅读与知识提升，EN阅读与知识也提升，数学/指令等部分通用任务退化。SSU在正式IFEval/GSM8K上减轻一部分退化，但未恢复Base。
 
-1. 优先只做SW、单个开发种子；先证明机制与正式任务收益，再考虑其他语言/多seed。
-2. 根据方法所属类型选择成熟对应baseline。稀疏方法匹配实际更新比例与候选参数范围；重放方法匹配英语样本/token及计算开销；投影方法使用同样可用的校准/记忆数据。FFT/LoRA是通用参考，不自动构成任何方法族的充分对照。
-3. 固定同一初始化、目标数据、输入顺序/曝光、预算和评测。英语校准/重放额外token、额外前后向和显存/耗时单独报告，不能隐去。
-4. 用独立开发材料检验假设和选择配置。正式测试已经用于报告和错误分析，不能再当作未见开发集反复调参；后续比较明确标记曝光情况。
-5. 不因英语下降早停普通baseline；保留Final及实际失败，不人为制造收益/遗忘。
-6. 从成熟开源实现/扩展接口作最小集成，不再维护多套自写Trainer或评分平台。不能把三处掩码抽查误写为全部参数的逐元素证明。
+**尚未获得的证据**：这批少量预定模块，没有可靠、清晰的局部功能分离结果。三组各192个字面恢复效应单元，经验95%区间均包含0。这个结果不证明模块无功能，也不否定更细粒度或其他范围下的分离。
 
-## 固定主要任务与诊断限制
+**必须注意的比较基准**：恢复用 `Final−restore(G)`；单独注入的充分性应看 `inject(G)−Base`。`Final−inject(G)`移除了其余全部更新，不能当作G的贡献。FFT/SSU完整Block还包含有变化的LayerNorm，Attention/MLP/Block差值不是纯交互。
 
-- SW/EN Belebele各900题：ACC；EN MMLU/SW Global-MMLU各14042题：ACC。
-- FLORES双向各500对：3-shot、SacreBLEU2.6.0语料级chrF++。
-- EN IFEval：541提示/834指令，0-shot，提示级/指令级strict为主。
-- GSM8K：1319题5-shot，strict最终答案ACC为主，flexible仅辅助。
-- 原生补充：ProX EN/SW各11759题5-shot生成EM、SW MGSM250题8-shot、SW BenchMAX429提示/633指令0-shot。
-- 原生SW ProX Base大量空输出；选择题字母偏置、数学提取标记、翻译连续重复均已记录。保持官方分数，另列诊断，不将代理指标或修改后的评分冒充主要收益。
+**评分限制**：原数学受限答案提取并非真正内容准确率。事后保守数值诊断中，16题的可解析正确/错误/未知分别为Base12/2/2、FFT2/11/3、LoRA0/6/10、SSU7/5/4。未知不判错，不改正式评分；FFT确有错误数字，因此不能说所有退化都来自格式。LoRA未知多，不能说全部答错。
 
-## 哪些工作已完成，哪些已停止
+**开发材料限制**：阅读span不是Belebele，合成约束不是官方IFEval，0-shot数学不是正式5-shotGSM8K。知识44行只有22语义实例；EN合成约束16行只有13提示簇。SSU在这批合成指令为5/16，FFT6/16，与正式IFEval顺序不同，应保留而不是只展示有利任务。短答alias有地板、SW合成措辞未独立人工校验，自由文本输出语言未充分测量。
 
-- seed42 Base/FFT/LoRA/SSU完整七组测评，共80个选定官方指标单元；各模型核心32叶任务/26057生成请求。
-- 已完成的seed43/44任务保留在141项快照。seed43 FFT/SSU全套完成；其余复测按用户最新要求停止，不能把不完整训练或测评冒充Final。
-- 旧MURI Full正确LR接续r3已完成1250步一轮及六组原HF测评；旧r2偏差结果、LoRA1250一轮/2500两轮分开。
-- 旧Qwen2.5-1.5B D2、旧A线MADLAD CPT40M、新Aya SFT的数据/预算/方法/协议不同，不能把差异全部归因于模型更换。
-- 当前只推进用户明确的机制诊断。已主动停止的复测与旧候选四组不恢复。
+**激活限制**：相对L2受Base每层尺度影响，不能把中间低谷解释为语义hub保留；补丁LL不等于生成收益，中性控制可能分布外。没有可靠跨语言token对齐，本轮未做位置一一的跨语言补丁。
 
-## 代码阅读入口
+## 5. 建议你重点审查的四个问题
 
-- `scripts/sft_v1/train_formal.py`：成熟训练框架的正式Full/LoRA入口。
-- `scripts/sft_v1/train_ssu.py`、`scripts/ssu_mask_adapter.py`：SSU薄适配。
-- `scripts/sft_v1/train_resume_safe.py`：已验证的单卡CPUAdam恢复绑定；旧canonical SSU resume修复尚未合并，当前请用该明确入口。
-- `configs/sft_v1/formal_sw_*_seed42.yaml`：共同预算及方法配置。
-- `scripts/sft_v1/harness.py`、`configs/sft_v1/eval_tasks/`：官方任务与实际生成观察。
-- `scripts/sft_v1/export_baselines.py`：已完成官方结果导出；各种`analyze_*.py`仅分析保存输出。
-- `research/sft_v1.md`：按时间保留的研究记录；历史“正在运行/下一步”等只代表当时快照，以`STATUS.md`为准。
+1. 当前证据究竟更支持输出行为／指令习惯变化，还是任务求解功能变化？哪些尚不能区分？
+2. 本轮弱局部干预能否对分离假设形成有意义约束，还是主要受样本量、地板、离散评分和干预范围限制？
+3. 如果只补充一个最小实验，什么设计最能区分竞争解释？请明确开发材料、控制组、读数和可能否定假设的结果，避免全层穷举。
+4. 哪些结论已经足以指导方法方向，哪些仍不足以支持新方法？请不要为了提出My Method而强行归因。
 
-## 工程与已知问题
+## 6. 推荐阅读顺序
 
-模型实体在`/path/to/storage/checkpoints/`，统一入口为`/path/to/workspace/models/checkpoint/`；数据/依赖环境在服务器外部目录，仓库不打包第三方源码、数据集或权重。跨机器复现需按锁文件准备资产并调整本地绝对路径；当前不是一键可移植发行包。
+1. [完整机制报告：Q1–Q4、正式与开发结果、限制](mechanism/mechanism_report.md)
+2. [诊断结果与图表入口](../results/mechanism/README.md)
+3. [独立探针来源和质量](mechanism/development_probes_v1.md)
+4. [实验协议](mechanism/experiment_protocol.md) 与 [资产清单](mechanism/asset_inventory.md)
+5. [层级参数描述补充](mechanism/parameter_summary.md)
+6. [代码与命令](mechanism/README.md)，重点 `weights.py`、`module_swap.py`、`analyze_interventions.py`、`activation_patching.py`、`diagnose_math_answers.py`。
 
-旧CPUAdam从checkpoint恢复曾发生scheduler和实际optimizer.param_groups引用失配，已在`train_resume_safe.py`修正并验证模型/FP32 Adam/RNG/实际LR恢复；BF16最终权重不承诺逐位相同。本轮seed42三方法均从头训练，不受该恢复故障影响。双卡Full必须使用`queue_full.sh`的`expandable_segments:True`，通用入口曾在seed43四步后OOM；失败独立保留，修正后seed43完成。
-
-多人共享服务器，账号最多四张GPU，显式CUDA UUID；不操作他人进程。检查data0和data1真实路径/余量，日志与产物独立存放。用户要求至少持续工作到2026-11-03中午12点，现重心是方法研究，不再扩展训练种子。
-
-
-## 公开发布范围
-
-这是精选公开副本：服务器运行管理文件、AGENTS、完整资产清单、进程状态和内部运行记录不包含。源代码中的本地路径统一替换为`/path/to/...`，算法逻辑保留。当前不是开箱即用发行包；需准备锁定上游、模型与数据并填写本地路径。CSV/JSON保留完整官方数值与原始来源哈希，不包含服务器路径。
+模型权重、原始数据文本和大日志未上传；公开副本提供来源/选题ID与科学统计，外部重跑还需取得模型、数据及few-shot排除材料。用户取消的paired/source/shuffled/replay四组训练及其测评保持停止，不是当前研究依据。
