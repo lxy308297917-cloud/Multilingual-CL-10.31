@@ -1,0 +1,6 @@
+base: null  # Supply existing local Base path
+final: null  # Supply existing local full checkpoint or adapter
+kind: full  # full or lora
+analysis_dtype: float32
+threads: 2
+output: null  # Require a new unique results/mechanism directory

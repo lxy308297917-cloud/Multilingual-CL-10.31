@@ -1,0 +1,223 @@
+{
+  "three_model_pipeline_smoke_verified.json": [
+    {
+      "label": "full",
+      "exit_code": 0,
+      "conditions": 6,
+      "probes_per_condition": 12,
+      "identity_predictions_exact": true,
+      "all_parameter_rollbacks_verified": true,
+      "random_parameter_and_norm_match_verified": true,
+      "elapsed_seconds": 149.11172076314688,
+      "gpu_peak_allocated_GiB": 12.848100185394287,
+      "engineering_only": true,
+      "base_predictions_sha256": "1df08b043bf106e7d63b4ec899fc1e297beff6a5a7b7d6ad991a85e313c69696"
+    },
+    {
+      "label": "lora",
+      "exit_code": 0,
+      "conditions": 6,
+      "probes_per_condition": 12,
+      "identity_predictions_exact": true,
+      "all_parameter_rollbacks_verified": true,
+      "random_parameter_and_norm_match_verified": true,
+      "elapsed_seconds": 177.22432843595743,
+      "gpu_peak_allocated_GiB": 12.848100185394287,
+      "engineering_only": true,
+      "base_predictions_sha256": "1df08b043bf106e7d63b4ec899fc1e297beff6a5a7b7d6ad991a85e313c69696"
+    },
+    {
+      "label": "ssu",
+      "exit_code": 0,
+      "conditions": 6,
+      "probes_per_condition": 12,
+      "identity_predictions_exact": true,
+      "all_parameter_rollbacks_verified": true,
+      "random_parameter_and_norm_match_verified": true,
+      "elapsed_seconds": 150.11505878530443,
+      "gpu_peak_allocated_GiB": 12.848100185394287,
+      "engineering_only": true,
+      "base_predictions_sha256": "1df08b043bf106e7d63b4ec899fc1e297beff6a5a7b7d6ad991a85e313c69696"
+    }
+  ],
+  "three_model_activation_drift_verified.json": [
+    {
+      "label": "full",
+      "exit_code": 0,
+      "samples": 60,
+      "aggregate_rows": 2352,
+      "elapsed_seconds": 35.84546837024391,
+      "gpu_peak_allocated_GiB": 12.943206310272217,
+      "result_sha256": "fe6bbae6513589e4eca6cf3e899a1b7e6f60d7f5bbf0ebace8bec60bfa702cb5",
+      "selected_ids_identical_across_models": true,
+      "scope": "Same-input prompt and teacher-forced reference, descriptive only; no generated-token or cross-language alignment claim"
+    },
+    {
+      "label": "lora",
+      "exit_code": 0,
+      "samples": 60,
+      "aggregate_rows": 2352,
+      "elapsed_seconds": 52.51956357434392,
+      "gpu_peak_allocated_GiB": 12.943206310272217,
+      "result_sha256": "bca448d2f155049e383ce866664b8bb168de6276549a6ad995c13d53372a3394",
+      "selected_ids_identical_across_models": true,
+      "scope": "Same-input prompt and teacher-forced reference, descriptive only; no generated-token or cross-language alignment claim"
+    },
+    {
+      "label": "ssu",
+      "exit_code": 0,
+      "samples": 60,
+      "aggregate_rows": 2352,
+      "elapsed_seconds": 33.131118260324,
+      "gpu_peak_allocated_GiB": 12.943206310272217,
+      "result_sha256": "6b6c1080819e33f77a306b62c11e57d7de3a5a9ffeb2b8ec6acb37938d3521b1",
+      "selected_ids_identical_across_models": true,
+      "scope": "Same-input prompt and teacher-forced reference, descriptive only; no generated-token or cross-language alignment claim"
+    }
+  ],
+  "activation_patching_v3_verified.json": [
+    {
+      "label": "full",
+      "version": 3,
+      "exit_code": 0,
+      "samples": 26,
+      "records": 368,
+      "different_item_controls": 14,
+      "neutral_semantic_controls": 26,
+      "identity_max_absolute_error": 0.0,
+      "all_source_hashes_matched_before_analysis_changes": true,
+      "elapsed_seconds": 34.43099704198539,
+      "peak_allocated_GiB": 12.923047542572021,
+      "source_commit": "4e127a86f8480dd27b722d0470701903639e785b",
+      "result_sha256": "762b6adaa8bd14d203d76f372802c25d566913a1c13bf444a82f1e43614cef8a",
+      "scope": "Format-valid reference LL and prompt-only patch; synthetic neutral control may be OOD, not generated benchmark recovery"
+    },
+    {
+      "label": "lora",
+      "version": 3,
+      "exit_code": 0,
+      "samples": 26,
+      "records": 368,
+      "different_item_controls": 14,
+      "neutral_semantic_controls": 26,
+      "identity_max_absolute_error": 0.0,
+      "all_source_hashes_matched_before_analysis_changes": true,
+      "elapsed_seconds": 46.20542355440557,
+      "peak_allocated_GiB": 12.923047542572021,
+      "source_commit": "4e127a86f8480dd27b722d0470701903639e785b",
+      "result_sha256": "cc0ca4724095dd0006b4dc9433629a0a6013f4343adb72501442b502b24649cd",
+      "scope": "Format-valid reference LL and prompt-only patch; synthetic neutral control may be OOD, not generated benchmark recovery"
+    },
+    {
+      "label": "ssu",
+      "version": 3,
+      "exit_code": 0,
+      "samples": 26,
+      "records": 368,
+      "different_item_controls": 14,
+      "neutral_semantic_controls": 26,
+      "identity_max_absolute_error": 0.0,
+      "all_source_hashes_matched_before_analysis_changes": true,
+      "elapsed_seconds": 35.9758071154356,
+      "peak_allocated_GiB": 12.923047542572021,
+      "source_commit": "4e127a86f8480dd27b722d0470701903639e785b",
+      "result_sha256": "463c51439551a7348b2b8414311810c59795501786b87178d6f935839261b4ec",
+      "scope": "Format-valid reference LL and prompt-only patch; synthetic neutral control may be OOD, not generated benchmark recovery"
+    }
+  ],
+  "unit_tests_release.json": {
+    "observed_at": "2026-11-02T10:23:42.555522+00:00",
+    "exit_code": 0,
+    "passed_test_count": 37,
+    "gpu_used": false,
+    "log": "unit_tests_release.log"
+  },
+  "three_model_effect_matrices_verified.json": {
+    "models": [
+      {
+        "label": "full",
+        "exit_code": 0,
+        "effect_rows": 408,
+        "interaction_rows": 24,
+        "original_primary_scores_unchanged": true,
+        "duplicate_prompt_clusters_checked": true,
+        "block_extra_components_changed": true,
+        "effect_file_sha256": "f3ffab7c599027df3d8eefab6b364e25cb7d4d75968012b4396d79f98e1425ad"
+      },
+      {
+        "label": "lora",
+        "exit_code": 0,
+        "effect_rows": 408,
+        "interaction_rows": 24,
+        "original_primary_scores_unchanged": true,
+        "duplicate_prompt_clusters_checked": true,
+        "block_extra_components_changed": false,
+        "effect_file_sha256": "105b01183630c8d203ff7928574a47a2867ebb9925d2411fbb4cc5dc105a4299"
+      },
+      {
+        "label": "ssu",
+        "exit_code": 0,
+        "effect_rows": 408,
+        "interaction_rows": 24,
+        "original_primary_scores_unchanged": true,
+        "duplicate_prompt_clusters_checked": true,
+        "block_extra_components_changed": true,
+        "effect_file_sha256": "f2aa217bb4d3fa65bc47643c03cf335270b012426311769a7b6d67398ef00afd"
+      }
+    ],
+    "base232_predictions_identical_across_models": true,
+    "effect_rows_total": 1224,
+    "interaction_rows_total": 72
+  },
+  "full_interventions": {
+    "label": "full",
+    "status": "verified_complete",
+    "conditions": 19,
+    "predictions_per_condition": 232,
+    "predictions_recomputed": 4408,
+    "all_primary_scores_recomputed_from_raw": true,
+    "all_unique_ids_and_prompts_matched": true,
+    "identity_predictions_exact": true,
+    "all_parameter_rollbacks_verified": true,
+    "random_parameter_and_norm_controls_verified": true,
+    "frozen_source_plan_data_hashes_match": true,
+    "source_commit": "6c37bf8616fe5a5e673cf3e3491cd14df17d1bf8",
+    "elapsed_seconds": 1995.468713477254,
+    "peak_allocated_GiB": 13.105398654937744,
+    "mechanism_effect_conclusion": "Requires uncertainty analysis, controls and limitations; no selection by test"
+  },
+  "lora_interventions": {
+    "label": "lora",
+    "status": "verified_complete",
+    "conditions": 19,
+    "predictions_per_condition": 232,
+    "predictions_recomputed": 4408,
+    "all_primary_scores_recomputed_from_raw": true,
+    "all_unique_ids_and_prompts_matched": true,
+    "identity_predictions_exact": true,
+    "all_parameter_rollbacks_verified": true,
+    "random_parameter_and_norm_controls_verified": true,
+    "frozen_source_plan_data_hashes_match": true,
+    "source_commit": "6c37bf8616fe5a5e673cf3e3491cd14df17d1bf8",
+    "elapsed_seconds": 3040.0402705557644,
+    "peak_allocated_GiB": 13.105398654937744,
+    "mechanism_effect_conclusion": "Requires uncertainty analysis, controls and limitations; no selection by test"
+  },
+  "ssu_interventions": {
+    "label": "ssu",
+    "status": "verified_complete",
+    "conditions": 19,
+    "predictions_per_condition": 232,
+    "predictions_recomputed": 4408,
+    "all_primary_scores_recomputed_from_raw": true,
+    "all_unique_ids_and_prompts_matched": true,
+    "identity_predictions_exact": true,
+    "all_parameter_rollbacks_verified": true,
+    "random_parameter_and_norm_controls_verified": true,
+    "frozen_source_plan_data_hashes_match": true,
+    "source_commit": "6c37bf8616fe5a5e673cf3e3491cd14df17d1bf8",
+    "elapsed_seconds": 3150.705056419596,
+    "peak_allocated_GiB": 13.105398654937744,
+    "mechanism_effect_conclusion": "Requires uncertainty analysis, controls and limitations; no selection by test"
+  }
+}

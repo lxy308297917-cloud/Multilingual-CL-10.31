@@ -1,0 +1,20 @@
+base: null
+final: null
+probes: null
+output: null
+middle_layer: 14
+random_layer_seed: 42
+max_per_group: 2
+intervention_region: prompt_only
+readout: teacher_forced_reference_loglikelihood
+controls:
+  - final_identity
+  - random_layer
+  - random_activation_same_perturbation_norm
+  - different_item_same_language_and_prompt_token_length_when_available
+cross_language_token_patch: false
+claim_of_benchmark_gain: false
+reference_format_version: 2
+numeric_reference_template: "#### {answer}"
+activation_control_version: 3
+neutral_semantic_control: same_language_fictional_clause_length_matched

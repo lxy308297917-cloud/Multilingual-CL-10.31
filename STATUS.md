@@ -1,10 +1,5 @@
-# 研究状态
+# 当前状态：内部机制诊断已完成计算
 
-主任务为创新my method与对应方法族baseline对照。my method尚未实现。
+固定seed42 Base/FFT/LoRA/SSU正式80指标、141项完成快照与旧结果保留。三组参数/激活审计、13,224条模块干预预测、1,224行条件效应、72行交互、最终v3激活补丁均完成。37项CPU测试通过。未取得明确功能分离证据，未设计或训练最终My Method。
 
-- seed42 Base/FFT/LoRA/SSU七组正式任务完整，80个选定官方指标。
-- 已完成复测任务共计入141项快照；剩余seed43/44已主动停止，未完成结果不填0或冒充Final。
-- 旧MURI修正Full已完成1250步一轮及原HF六组测评；与新Aya协议独立。
-- 当前不继续多seed扩张；先讨论具体方法、创新性核查、独立开发依据与同类型baseline。
-
-请从`research/chatgpt_handoff.md`和`results/README.md`开始。运行管理和服务器内部记录不在公开副本中。
+阅读[完整报告](research/mechanism/mechanism_report.md)及[早间摘要](research/mechanism/morning_brief.md)。已取消的候选四组与未完成多种子复测保持停止。本公开副本不包含服务器运行管理信息、原始数据或权重。

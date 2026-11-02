@@ -1,0 +1,9 @@
+probes_path: null  # Supply frozen independent probes.jsonl
+max_input_tokens: 1024
+max_new_tokens_by_task:
+  math: 256
+  reading_span: 96
+  knowledge_short_answer: 96
+  instruction_copy: 32
+  instruction_constraints: 64
+formal_test_for_module_selection: false

@@ -1,0 +1,25 @@
+task,input_language,output_language,metric,samples,clusters,contrast_pp,ci95_low_pp,ci95_high_pp,formula,remaining_block_components_changed,interpretation
+instruction_constraints,en,en,format_passed,16,13,0.0,0.0,0.0,Score(restoreAttention)+Score(restoreMLP)-Score(restoreBlock)-Score(Final),False,Conditional nonadditivity on this cohort
+instruction_constraints,sw,sw,format_passed,16,13,6.25,0.0,23.076923076923077,Score(restoreAttention)+Score(restoreMLP)-Score(restoreBlock)-Score(Final),False,Conditional nonadditivity on this cohort
+instruction_copy,en,en,content_correct,8,8,0.0,0.0,0.0,Score(restoreAttention)+Score(restoreMLP)-Score(restoreBlock)-Score(Final),False,Conditional nonadditivity on this cohort
+instruction_copy,en,en,format_passed,8,8,0.0,0.0,0.0,Score(restoreAttention)+Score(restoreMLP)-Score(restoreBlock)-Score(Final),False,Conditional nonadditivity on this cohort
+instruction_copy,en,en,language_correct,8,8,0.0,0.0,0.0,Score(restoreAttention)+Score(restoreMLP)-Score(restoreBlock)-Score(Final),False,Conditional nonadditivity on this cohort
+instruction_copy,en,sw,content_correct,8,8,0.0,0.0,0.0,Score(restoreAttention)+Score(restoreMLP)-Score(restoreBlock)-Score(Final),False,Conditional nonadditivity on this cohort
+instruction_copy,en,sw,format_passed,8,8,0.0,0.0,0.0,Score(restoreAttention)+Score(restoreMLP)-Score(restoreBlock)-Score(Final),False,Conditional nonadditivity on this cohort
+instruction_copy,en,sw,language_correct,8,8,0.0,0.0,0.0,Score(restoreAttention)+Score(restoreMLP)-Score(restoreBlock)-Score(Final),False,Conditional nonadditivity on this cohort
+instruction_copy,sw,en,content_correct,8,8,0.0,0.0,0.0,Score(restoreAttention)+Score(restoreMLP)-Score(restoreBlock)-Score(Final),False,Conditional nonadditivity on this cohort
+instruction_copy,sw,en,format_passed,8,8,0.0,0.0,0.0,Score(restoreAttention)+Score(restoreMLP)-Score(restoreBlock)-Score(Final),False,Conditional nonadditivity on this cohort
+instruction_copy,sw,en,language_correct,8,8,12.5,0.0,37.5,Score(restoreAttention)+Score(restoreMLP)-Score(restoreBlock)-Score(Final),False,Conditional nonadditivity on this cohort
+instruction_copy,sw,sw,content_correct,8,8,0.0,0.0,0.0,Score(restoreAttention)+Score(restoreMLP)-Score(restoreBlock)-Score(Final),False,Conditional nonadditivity on this cohort
+instruction_copy,sw,sw,format_passed,8,8,0.0,0.0,0.0,Score(restoreAttention)+Score(restoreMLP)-Score(restoreBlock)-Score(Final),False,Conditional nonadditivity on this cohort
+instruction_copy,sw,sw,language_correct,8,8,0.0,0.0,0.0,Score(restoreAttention)+Score(restoreMLP)-Score(restoreBlock)-Score(Final),False,Conditional nonadditivity on this cohort
+knowledge_choice,en,en,content_correct,44,22,0.0,0.0,0.0,Score(restoreAttention)+Score(restoreMLP)-Score(restoreBlock)-Score(Final),False,Conditional nonadditivity on this cohort
+knowledge_choice,sw,sw,content_correct,44,22,2.272727272727273,0.0,6.8181818181818175,Score(restoreAttention)+Score(restoreMLP)-Score(restoreBlock)-Score(Final),False,Conditional nonadditivity on this cohort
+knowledge_short_answer,en,en,content_correct,8,8,0.0,0.0,0.0,Score(restoreAttention)+Score(restoreMLP)-Score(restoreBlock)-Score(Final),False,Conditional nonadditivity on this cohort
+knowledge_short_answer,en,sw,content_correct,8,8,0.0,0.0,0.0,Score(restoreAttention)+Score(restoreMLP)-Score(restoreBlock)-Score(Final),False,Conditional nonadditivity on this cohort
+knowledge_short_answer,sw,en,content_correct,8,8,0.0,0.0,0.0,Score(restoreAttention)+Score(restoreMLP)-Score(restoreBlock)-Score(Final),False,Conditional nonadditivity on this cohort
+knowledge_short_answer,sw,sw,content_correct,8,8,0.0,0.0,0.0,Score(restoreAttention)+Score(restoreMLP)-Score(restoreBlock)-Score(Final),False,Conditional nonadditivity on this cohort
+math,en,en,content_correct,16,16,-6.25,-18.75,0.0,Score(restoreAttention)+Score(restoreMLP)-Score(restoreBlock)-Score(Final),False,Conditional nonadditivity on this cohort
+math,en,en,format_passed,16,16,-6.25,-18.75,0.0,Score(restoreAttention)+Score(restoreMLP)-Score(restoreBlock)-Score(Final),False,Conditional nonadditivity on this cohort
+reading_span,en,en,content_correct,16,16,0.0,0.0,0.0,Score(restoreAttention)+Score(restoreMLP)-Score(restoreBlock)-Score(Final),False,Conditional nonadditivity on this cohort
+reading_span,sw,sw,content_correct,16,16,0.0,0.0,0.0,Score(restoreAttention)+Score(restoreMLP)-Score(restoreBlock)-Score(Final),False,Conditional nonadditivity on this cohort

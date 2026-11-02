@@ -1,0 +1,4515 @@
+{
+  "rows": 232,
+  "task_counts": {
+    "knowledge_choice": 88,
+    "knowledge_short_answer": 32,
+    "math": 16,
+    "reading_span": 32,
+    "instruction_copy": 32,
+    "instruction_constraints": 32
+  },
+  "probes_sha256": "090bd62b4e418415ecb1ad93863716e9af6ad6fe7ebccfb9ad98586976f02e40",
+  "selection": "Frozen before any model/intervention probe scoring; SHA256 source-ID ordering, not model scores",
+  "gsm_excluded_unique_demo_questions": 4375,
+  "quality_limits": [
+    "AfriQA source labels human translation, factual/spelling errors may remain",
+    "MC negatives alias-disjoint, semantic uniqueness not independently validated",
+    "Reading EN/SW are separate sources, NOT parallel",
+    "GSM reference <=160 tokens selected before scores; generation cap must be disclosed",
+    "Instruction copy probes are synthetic and narrow, not official IFEval",
+    "No claim sources unseen in original pretraining; no formal test questions copied to probes",
+    "Exact alias generation can fail due to surface form; preserve raw outputs and report format limits"
+  ],
+  "reading_sources": {
+    "kenswquad_train": {
+      "url": "https://huggingface.co/datasets/Kencorpus/KenSwQuAD/resolve/a7f211970d5929c438c7cf3e971d8d34a7292d6e/train.parquet",
+      "revision": "a7f211970d5929c438c7cf3e971d8d34a7292d6e",
+      "sha256": "405daeda2b8be6f76749fcfc7421781f75a00d031ba1f405baadae807ac7974a",
+      "bytes": 3572582,
+      "role": "independent development source; no model scores inspected"
+    },
+    "squad_train": {
+      "url": "https://rajpurkar.github.io/SQuAD-explorer/dataset/train-v1.1.json",
+      "revision": "v1.1 official train",
+      "sha256": "3527663986b8295af4f7fcdff1ba1ff3f72d07d61a20f487cb238a6ef92fd955",
+      "bytes": 30288272,
+      "role": "independent development source; no model scores inspected"
+    }
+  },
+  "source_rows": [
+    {
+      "id": "knowledge-mc-186-en-r0",
+      "pair_id": "afriqa-186",
+      "task": "knowledge_choice",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "186",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 0
+      }
+    },
+    {
+      "id": "knowledge-mc-186-sw-r0",
+      "pair_id": "afriqa-186",
+      "task": "knowledge_choice",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "186",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 0
+      }
+    },
+    {
+      "id": "knowledge-mc-186-en-r1",
+      "pair_id": "afriqa-186",
+      "task": "knowledge_choice",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "186",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 1
+      }
+    },
+    {
+      "id": "knowledge-mc-186-sw-r1",
+      "pair_id": "afriqa-186",
+      "task": "knowledge_choice",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "186",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 1
+      }
+    },
+    {
+      "id": "knowledge-qa-186-en-en",
+      "pair_id": "afriqa-186",
+      "task": "knowledge_short_answer",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "186",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID"
+      }
+    },
+    {
+      "id": "knowledge-qa-186-en-sw",
+      "pair_id": "afriqa-186",
+      "task": "knowledge_short_answer",
+      "input_language": "en",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "186",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID"
+      }
+    },
+    {
+      "id": "knowledge-qa-186-sw-en",
+      "pair_id": "afriqa-186",
+      "task": "knowledge_short_answer",
+      "input_language": "sw",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "186",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID"
+      }
+    },
+    {
+      "id": "knowledge-qa-186-sw-sw",
+      "pair_id": "afriqa-186",
+      "task": "knowledge_short_answer",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "186",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID"
+      }
+    },
+    {
+      "id": "knowledge-mc-171-en-r0",
+      "pair_id": "afriqa-171",
+      "task": "knowledge_choice",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "171",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 0
+      }
+    },
+    {
+      "id": "knowledge-mc-171-sw-r0",
+      "pair_id": "afriqa-171",
+      "task": "knowledge_choice",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "171",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 0
+      }
+    },
+    {
+      "id": "knowledge-mc-171-en-r1",
+      "pair_id": "afriqa-171",
+      "task": "knowledge_choice",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "171",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 1
+      }
+    },
+    {
+      "id": "knowledge-mc-171-sw-r1",
+      "pair_id": "afriqa-171",
+      "task": "knowledge_choice",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "171",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 1
+      }
+    },
+    {
+      "id": "knowledge-qa-171-en-en",
+      "pair_id": "afriqa-171",
+      "task": "knowledge_short_answer",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "171",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID"
+      }
+    },
+    {
+      "id": "knowledge-qa-171-en-sw",
+      "pair_id": "afriqa-171",
+      "task": "knowledge_short_answer",
+      "input_language": "en",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "171",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID"
+      }
+    },
+    {
+      "id": "knowledge-qa-171-sw-en",
+      "pair_id": "afriqa-171",
+      "task": "knowledge_short_answer",
+      "input_language": "sw",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "171",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID"
+      }
+    },
+    {
+      "id": "knowledge-qa-171-sw-sw",
+      "pair_id": "afriqa-171",
+      "task": "knowledge_short_answer",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "171",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID"
+      }
+    },
+    {
+      "id": "knowledge-mc-8-en-r0",
+      "pair_id": "afriqa-8",
+      "task": "knowledge_choice",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "8",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 0
+      }
+    },
+    {
+      "id": "knowledge-mc-8-sw-r0",
+      "pair_id": "afriqa-8",
+      "task": "knowledge_choice",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "8",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 0
+      }
+    },
+    {
+      "id": "knowledge-mc-8-en-r1",
+      "pair_id": "afriqa-8",
+      "task": "knowledge_choice",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "8",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 1
+      }
+    },
+    {
+      "id": "knowledge-mc-8-sw-r1",
+      "pair_id": "afriqa-8",
+      "task": "knowledge_choice",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "8",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 1
+      }
+    },
+    {
+      "id": "knowledge-qa-8-en-en",
+      "pair_id": "afriqa-8",
+      "task": "knowledge_short_answer",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "8",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID"
+      }
+    },
+    {
+      "id": "knowledge-qa-8-en-sw",
+      "pair_id": "afriqa-8",
+      "task": "knowledge_short_answer",
+      "input_language": "en",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "8",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID"
+      }
+    },
+    {
+      "id": "knowledge-qa-8-sw-en",
+      "pair_id": "afriqa-8",
+      "task": "knowledge_short_answer",
+      "input_language": "sw",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "8",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID"
+      }
+    },
+    {
+      "id": "knowledge-qa-8-sw-sw",
+      "pair_id": "afriqa-8",
+      "task": "knowledge_short_answer",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "8",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID"
+      }
+    },
+    {
+      "id": "knowledge-mc-220-en-r0",
+      "pair_id": "afriqa-220",
+      "task": "knowledge_choice",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "220",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 0
+      }
+    },
+    {
+      "id": "knowledge-mc-220-sw-r0",
+      "pair_id": "afriqa-220",
+      "task": "knowledge_choice",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "220",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 0
+      }
+    },
+    {
+      "id": "knowledge-mc-220-en-r1",
+      "pair_id": "afriqa-220",
+      "task": "knowledge_choice",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "220",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 1
+      }
+    },
+    {
+      "id": "knowledge-mc-220-sw-r1",
+      "pair_id": "afriqa-220",
+      "task": "knowledge_choice",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "220",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 1
+      }
+    },
+    {
+      "id": "knowledge-qa-220-en-en",
+      "pair_id": "afriqa-220",
+      "task": "knowledge_short_answer",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "220",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID"
+      }
+    },
+    {
+      "id": "knowledge-qa-220-en-sw",
+      "pair_id": "afriqa-220",
+      "task": "knowledge_short_answer",
+      "input_language": "en",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "220",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID"
+      }
+    },
+    {
+      "id": "knowledge-qa-220-sw-en",
+      "pair_id": "afriqa-220",
+      "task": "knowledge_short_answer",
+      "input_language": "sw",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "220",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID"
+      }
+    },
+    {
+      "id": "knowledge-qa-220-sw-sw",
+      "pair_id": "afriqa-220",
+      "task": "knowledge_short_answer",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "220",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID"
+      }
+    },
+    {
+      "id": "knowledge-mc-201-en-r0",
+      "pair_id": "afriqa-201",
+      "task": "knowledge_choice",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "201",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 0
+      }
+    },
+    {
+      "id": "knowledge-mc-201-sw-r0",
+      "pair_id": "afriqa-201",
+      "task": "knowledge_choice",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "201",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 0
+      }
+    },
+    {
+      "id": "knowledge-mc-201-en-r1",
+      "pair_id": "afriqa-201",
+      "task": "knowledge_choice",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "201",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 1
+      }
+    },
+    {
+      "id": "knowledge-mc-201-sw-r1",
+      "pair_id": "afriqa-201",
+      "task": "knowledge_choice",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "201",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 1
+      }
+    },
+    {
+      "id": "knowledge-qa-201-en-en",
+      "pair_id": "afriqa-201",
+      "task": "knowledge_short_answer",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "201",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID"
+      }
+    },
+    {
+      "id": "knowledge-qa-201-en-sw",
+      "pair_id": "afriqa-201",
+      "task": "knowledge_short_answer",
+      "input_language": "en",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "201",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID"
+      }
+    },
+    {
+      "id": "knowledge-qa-201-sw-en",
+      "pair_id": "afriqa-201",
+      "task": "knowledge_short_answer",
+      "input_language": "sw",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "201",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID"
+      }
+    },
+    {
+      "id": "knowledge-qa-201-sw-sw",
+      "pair_id": "afriqa-201",
+      "task": "knowledge_short_answer",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "201",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID"
+      }
+    },
+    {
+      "id": "knowledge-mc-203-en-r0",
+      "pair_id": "afriqa-203",
+      "task": "knowledge_choice",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "203",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 0
+      }
+    },
+    {
+      "id": "knowledge-mc-203-sw-r0",
+      "pair_id": "afriqa-203",
+      "task": "knowledge_choice",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "203",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 0
+      }
+    },
+    {
+      "id": "knowledge-mc-203-en-r1",
+      "pair_id": "afriqa-203",
+      "task": "knowledge_choice",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "203",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 1
+      }
+    },
+    {
+      "id": "knowledge-mc-203-sw-r1",
+      "pair_id": "afriqa-203",
+      "task": "knowledge_choice",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "203",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 1
+      }
+    },
+    {
+      "id": "knowledge-qa-203-en-en",
+      "pair_id": "afriqa-203",
+      "task": "knowledge_short_answer",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "203",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID"
+      }
+    },
+    {
+      "id": "knowledge-qa-203-en-sw",
+      "pair_id": "afriqa-203",
+      "task": "knowledge_short_answer",
+      "input_language": "en",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "203",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID"
+      }
+    },
+    {
+      "id": "knowledge-qa-203-sw-en",
+      "pair_id": "afriqa-203",
+      "task": "knowledge_short_answer",
+      "input_language": "sw",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "203",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID"
+      }
+    },
+    {
+      "id": "knowledge-qa-203-sw-sw",
+      "pair_id": "afriqa-203",
+      "task": "knowledge_short_answer",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "203",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID"
+      }
+    },
+    {
+      "id": "knowledge-mc-106-en-r0",
+      "pair_id": "afriqa-106",
+      "task": "knowledge_choice",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "106",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 0
+      }
+    },
+    {
+      "id": "knowledge-mc-106-sw-r0",
+      "pair_id": "afriqa-106",
+      "task": "knowledge_choice",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "106",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 0
+      }
+    },
+    {
+      "id": "knowledge-mc-106-en-r1",
+      "pair_id": "afriqa-106",
+      "task": "knowledge_choice",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "106",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 1
+      }
+    },
+    {
+      "id": "knowledge-mc-106-sw-r1",
+      "pair_id": "afriqa-106",
+      "task": "knowledge_choice",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "106",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 1
+      }
+    },
+    {
+      "id": "knowledge-qa-106-en-en",
+      "pair_id": "afriqa-106",
+      "task": "knowledge_short_answer",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "106",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID"
+      }
+    },
+    {
+      "id": "knowledge-qa-106-en-sw",
+      "pair_id": "afriqa-106",
+      "task": "knowledge_short_answer",
+      "input_language": "en",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "106",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID"
+      }
+    },
+    {
+      "id": "knowledge-qa-106-sw-en",
+      "pair_id": "afriqa-106",
+      "task": "knowledge_short_answer",
+      "input_language": "sw",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "106",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID"
+      }
+    },
+    {
+      "id": "knowledge-qa-106-sw-sw",
+      "pair_id": "afriqa-106",
+      "task": "knowledge_short_answer",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "106",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID"
+      }
+    },
+    {
+      "id": "knowledge-mc-185-en-r0",
+      "pair_id": "afriqa-185",
+      "task": "knowledge_choice",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "185",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 0
+      }
+    },
+    {
+      "id": "knowledge-mc-185-sw-r0",
+      "pair_id": "afriqa-185",
+      "task": "knowledge_choice",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "185",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 0
+      }
+    },
+    {
+      "id": "knowledge-mc-185-en-r1",
+      "pair_id": "afriqa-185",
+      "task": "knowledge_choice",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "185",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 1
+      }
+    },
+    {
+      "id": "knowledge-mc-185-sw-r1",
+      "pair_id": "afriqa-185",
+      "task": "knowledge_choice",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "185",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 1
+      }
+    },
+    {
+      "id": "knowledge-qa-185-en-en",
+      "pair_id": "afriqa-185",
+      "task": "knowledge_short_answer",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "185",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID"
+      }
+    },
+    {
+      "id": "knowledge-qa-185-en-sw",
+      "pair_id": "afriqa-185",
+      "task": "knowledge_short_answer",
+      "input_language": "en",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "185",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID"
+      }
+    },
+    {
+      "id": "knowledge-qa-185-sw-en",
+      "pair_id": "afriqa-185",
+      "task": "knowledge_short_answer",
+      "input_language": "sw",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "185",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID"
+      }
+    },
+    {
+      "id": "knowledge-qa-185-sw-sw",
+      "pair_id": "afriqa-185",
+      "task": "knowledge_short_answer",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "185",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID"
+      }
+    },
+    {
+      "id": "knowledge-mc-129-en-r0",
+      "pair_id": "afriqa-129",
+      "task": "knowledge_choice",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "129",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 0
+      }
+    },
+    {
+      "id": "knowledge-mc-129-sw-r0",
+      "pair_id": "afriqa-129",
+      "task": "knowledge_choice",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "129",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 0
+      }
+    },
+    {
+      "id": "knowledge-mc-129-en-r1",
+      "pair_id": "afriqa-129",
+      "task": "knowledge_choice",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "129",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 1
+      }
+    },
+    {
+      "id": "knowledge-mc-129-sw-r1",
+      "pair_id": "afriqa-129",
+      "task": "knowledge_choice",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "129",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 1
+      }
+    },
+    {
+      "id": "knowledge-mc-124-en-r0",
+      "pair_id": "afriqa-124",
+      "task": "knowledge_choice",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "124",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 0
+      }
+    },
+    {
+      "id": "knowledge-mc-124-sw-r0",
+      "pair_id": "afriqa-124",
+      "task": "knowledge_choice",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "124",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 0
+      }
+    },
+    {
+      "id": "knowledge-mc-124-en-r1",
+      "pair_id": "afriqa-124",
+      "task": "knowledge_choice",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "124",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 1
+      }
+    },
+    {
+      "id": "knowledge-mc-124-sw-r1",
+      "pair_id": "afriqa-124",
+      "task": "knowledge_choice",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "124",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 1
+      }
+    },
+    {
+      "id": "knowledge-mc-167-en-r0",
+      "pair_id": "afriqa-167",
+      "task": "knowledge_choice",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "167",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 0
+      }
+    },
+    {
+      "id": "knowledge-mc-167-sw-r0",
+      "pair_id": "afriqa-167",
+      "task": "knowledge_choice",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "167",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 0
+      }
+    },
+    {
+      "id": "knowledge-mc-167-en-r1",
+      "pair_id": "afriqa-167",
+      "task": "knowledge_choice",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "167",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 1
+      }
+    },
+    {
+      "id": "knowledge-mc-167-sw-r1",
+      "pair_id": "afriqa-167",
+      "task": "knowledge_choice",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "167",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 1
+      }
+    },
+    {
+      "id": "knowledge-mc-162-en-r0",
+      "pair_id": "afriqa-162",
+      "task": "knowledge_choice",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "162",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 0
+      }
+    },
+    {
+      "id": "knowledge-mc-162-sw-r0",
+      "pair_id": "afriqa-162",
+      "task": "knowledge_choice",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "162",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 0
+      }
+    },
+    {
+      "id": "knowledge-mc-162-en-r1",
+      "pair_id": "afriqa-162",
+      "task": "knowledge_choice",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "162",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 1
+      }
+    },
+    {
+      "id": "knowledge-mc-162-sw-r1",
+      "pair_id": "afriqa-162",
+      "task": "knowledge_choice",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "162",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 1
+      }
+    },
+    {
+      "id": "knowledge-mc-214-en-r0",
+      "pair_id": "afriqa-214",
+      "task": "knowledge_choice",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "214",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 0
+      }
+    },
+    {
+      "id": "knowledge-mc-214-sw-r0",
+      "pair_id": "afriqa-214",
+      "task": "knowledge_choice",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "214",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 0
+      }
+    },
+    {
+      "id": "knowledge-mc-214-en-r1",
+      "pair_id": "afriqa-214",
+      "task": "knowledge_choice",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "214",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 1
+      }
+    },
+    {
+      "id": "knowledge-mc-214-sw-r1",
+      "pair_id": "afriqa-214",
+      "task": "knowledge_choice",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "214",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 1
+      }
+    },
+    {
+      "id": "knowledge-mc-62-en-r0",
+      "pair_id": "afriqa-62",
+      "task": "knowledge_choice",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "62",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 0
+      }
+    },
+    {
+      "id": "knowledge-mc-62-sw-r0",
+      "pair_id": "afriqa-62",
+      "task": "knowledge_choice",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "62",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 0
+      }
+    },
+    {
+      "id": "knowledge-mc-62-en-r1",
+      "pair_id": "afriqa-62",
+      "task": "knowledge_choice",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "62",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 1
+      }
+    },
+    {
+      "id": "knowledge-mc-62-sw-r1",
+      "pair_id": "afriqa-62",
+      "task": "knowledge_choice",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "62",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 1
+      }
+    },
+    {
+      "id": "knowledge-mc-14-en-r0",
+      "pair_id": "afriqa-14",
+      "task": "knowledge_choice",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "14",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 0
+      }
+    },
+    {
+      "id": "knowledge-mc-14-sw-r0",
+      "pair_id": "afriqa-14",
+      "task": "knowledge_choice",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "14",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 0
+      }
+    },
+    {
+      "id": "knowledge-mc-14-en-r1",
+      "pair_id": "afriqa-14",
+      "task": "knowledge_choice",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "14",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 1
+      }
+    },
+    {
+      "id": "knowledge-mc-14-sw-r1",
+      "pair_id": "afriqa-14",
+      "task": "knowledge_choice",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "14",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 1
+      }
+    },
+    {
+      "id": "knowledge-mc-34-en-r0",
+      "pair_id": "afriqa-34",
+      "task": "knowledge_choice",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "34",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 0
+      }
+    },
+    {
+      "id": "knowledge-mc-34-sw-r0",
+      "pair_id": "afriqa-34",
+      "task": "knowledge_choice",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "34",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 0
+      }
+    },
+    {
+      "id": "knowledge-mc-34-en-r1",
+      "pair_id": "afriqa-34",
+      "task": "knowledge_choice",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "34",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 1
+      }
+    },
+    {
+      "id": "knowledge-mc-34-sw-r1",
+      "pair_id": "afriqa-34",
+      "task": "knowledge_choice",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "34",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 1
+      }
+    },
+    {
+      "id": "knowledge-mc-88-en-r0",
+      "pair_id": "afriqa-88",
+      "task": "knowledge_choice",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "88",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 0
+      }
+    },
+    {
+      "id": "knowledge-mc-88-sw-r0",
+      "pair_id": "afriqa-88",
+      "task": "knowledge_choice",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "88",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 0
+      }
+    },
+    {
+      "id": "knowledge-mc-88-en-r1",
+      "pair_id": "afriqa-88",
+      "task": "knowledge_choice",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "88",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 1
+      }
+    },
+    {
+      "id": "knowledge-mc-88-sw-r1",
+      "pair_id": "afriqa-88",
+      "task": "knowledge_choice",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "88",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 1
+      }
+    },
+    {
+      "id": "knowledge-mc-133-en-r0",
+      "pair_id": "afriqa-133",
+      "task": "knowledge_choice",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "133",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 0
+      }
+    },
+    {
+      "id": "knowledge-mc-133-sw-r0",
+      "pair_id": "afriqa-133",
+      "task": "knowledge_choice",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "133",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 0
+      }
+    },
+    {
+      "id": "knowledge-mc-133-en-r1",
+      "pair_id": "afriqa-133",
+      "task": "knowledge_choice",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "133",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 1
+      }
+    },
+    {
+      "id": "knowledge-mc-133-sw-r1",
+      "pair_id": "afriqa-133",
+      "task": "knowledge_choice",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "133",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 1
+      }
+    },
+    {
+      "id": "knowledge-mc-142-en-r0",
+      "pair_id": "afriqa-142",
+      "task": "knowledge_choice",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "142",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 0
+      }
+    },
+    {
+      "id": "knowledge-mc-142-sw-r0",
+      "pair_id": "afriqa-142",
+      "task": "knowledge_choice",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "142",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 0
+      }
+    },
+    {
+      "id": "knowledge-mc-142-en-r1",
+      "pair_id": "afriqa-142",
+      "task": "knowledge_choice",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "142",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 1
+      }
+    },
+    {
+      "id": "knowledge-mc-142-sw-r1",
+      "pair_id": "afriqa-142",
+      "task": "knowledge_choice",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "142",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 1
+      }
+    },
+    {
+      "id": "knowledge-mc-15-en-r0",
+      "pair_id": "afriqa-15",
+      "task": "knowledge_choice",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "15",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 0
+      }
+    },
+    {
+      "id": "knowledge-mc-15-sw-r0",
+      "pair_id": "afriqa-15",
+      "task": "knowledge_choice",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "15",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 0
+      }
+    },
+    {
+      "id": "knowledge-mc-15-en-r1",
+      "pair_id": "afriqa-15",
+      "task": "knowledge_choice",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "15",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 1
+      }
+    },
+    {
+      "id": "knowledge-mc-15-sw-r1",
+      "pair_id": "afriqa-15",
+      "task": "knowledge_choice",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "15",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 1
+      }
+    },
+    {
+      "id": "knowledge-mc-205-en-r0",
+      "pair_id": "afriqa-205",
+      "task": "knowledge_choice",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "205",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 0
+      }
+    },
+    {
+      "id": "knowledge-mc-205-sw-r0",
+      "pair_id": "afriqa-205",
+      "task": "knowledge_choice",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "205",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 0
+      }
+    },
+    {
+      "id": "knowledge-mc-205-en-r1",
+      "pair_id": "afriqa-205",
+      "task": "knowledge_choice",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "205",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 1
+      }
+    },
+    {
+      "id": "knowledge-mc-205-sw-r1",
+      "pair_id": "afriqa-205",
+      "task": "knowledge_choice",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "205",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 1
+      }
+    },
+    {
+      "id": "knowledge-mc-70-en-r0",
+      "pair_id": "afriqa-70",
+      "task": "knowledge_choice",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "70",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 0
+      }
+    },
+    {
+      "id": "knowledge-mc-70-sw-r0",
+      "pair_id": "afriqa-70",
+      "task": "knowledge_choice",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "70",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 0
+      }
+    },
+    {
+      "id": "knowledge-mc-70-en-r1",
+      "pair_id": "afriqa-70",
+      "task": "knowledge_choice",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "70",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 1
+      }
+    },
+    {
+      "id": "knowledge-mc-70-sw-r1",
+      "pair_id": "afriqa-70",
+      "task": "knowledge_choice",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "masakhane-io/afriqa",
+        "version": "5c29933753692c28773c34ac1f68482007f1d2bb",
+        "split": "train",
+        "original_id": "70",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Source labels human translation; spelling and factual annotation not independently revalidated",
+        "parallel_verified": true,
+        "parallel_evidence": "Source bilingual questions and bilingual answer fields, shared source ID",
+        "choice_negative_quality": "Other heldout answers, alias-disjoint; semantic negative uniqueness is not independently verified",
+        "option_rotation": 1
+      }
+    },
+    {
+      "id": "math-en-5848",
+      "pair_id": null,
+      "task": "math",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "openai/gsm8k",
+        "version": "740312add88f781978c0658806c59bc2815b9866",
+        "split": "train",
+        "original_id": "5848",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "source annotation; not independently reannotated",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "math-en-286",
+      "pair_id": null,
+      "task": "math",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "openai/gsm8k",
+        "version": "740312add88f781978c0658806c59bc2815b9866",
+        "split": "train",
+        "original_id": "286",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "source annotation; not independently reannotated",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "math-en-1467",
+      "pair_id": null,
+      "task": "math",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "openai/gsm8k",
+        "version": "740312add88f781978c0658806c59bc2815b9866",
+        "split": "train",
+        "original_id": "1467",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "source annotation; not independently reannotated",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "math-en-3525",
+      "pair_id": null,
+      "task": "math",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "openai/gsm8k",
+        "version": "740312add88f781978c0658806c59bc2815b9866",
+        "split": "train",
+        "original_id": "3525",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "source annotation; not independently reannotated",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "math-en-4091",
+      "pair_id": null,
+      "task": "math",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "openai/gsm8k",
+        "version": "740312add88f781978c0658806c59bc2815b9866",
+        "split": "train",
+        "original_id": "4091",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "source annotation; not independently reannotated",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "math-en-6726",
+      "pair_id": null,
+      "task": "math",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "openai/gsm8k",
+        "version": "740312add88f781978c0658806c59bc2815b9866",
+        "split": "train",
+        "original_id": "6726",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "source annotation; not independently reannotated",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "math-en-6167",
+      "pair_id": null,
+      "task": "math",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "openai/gsm8k",
+        "version": "740312add88f781978c0658806c59bc2815b9866",
+        "split": "train",
+        "original_id": "6167",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "source annotation; not independently reannotated",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "math-en-6759",
+      "pair_id": null,
+      "task": "math",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "openai/gsm8k",
+        "version": "740312add88f781978c0658806c59bc2815b9866",
+        "split": "train",
+        "original_id": "6759",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "source annotation; not independently reannotated",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "math-en-3627",
+      "pair_id": null,
+      "task": "math",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "openai/gsm8k",
+        "version": "740312add88f781978c0658806c59bc2815b9866",
+        "split": "train",
+        "original_id": "3627",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "source annotation; not independently reannotated",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "math-en-2518",
+      "pair_id": null,
+      "task": "math",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "openai/gsm8k",
+        "version": "740312add88f781978c0658806c59bc2815b9866",
+        "split": "train",
+        "original_id": "2518",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "source annotation; not independently reannotated",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "math-en-6889",
+      "pair_id": null,
+      "task": "math",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "openai/gsm8k",
+        "version": "740312add88f781978c0658806c59bc2815b9866",
+        "split": "train",
+        "original_id": "6889",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "source annotation; not independently reannotated",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "math-en-2726",
+      "pair_id": null,
+      "task": "math",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "openai/gsm8k",
+        "version": "740312add88f781978c0658806c59bc2815b9866",
+        "split": "train",
+        "original_id": "2726",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "source annotation; not independently reannotated",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "math-en-245",
+      "pair_id": null,
+      "task": "math",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "openai/gsm8k",
+        "version": "740312add88f781978c0658806c59bc2815b9866",
+        "split": "train",
+        "original_id": "245",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "source annotation; not independently reannotated",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "math-en-6500",
+      "pair_id": null,
+      "task": "math",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "openai/gsm8k",
+        "version": "740312add88f781978c0658806c59bc2815b9866",
+        "split": "train",
+        "original_id": "6500",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "source annotation; not independently reannotated",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "math-en-2440",
+      "pair_id": null,
+      "task": "math",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "openai/gsm8k",
+        "version": "740312add88f781978c0658806c59bc2815b9866",
+        "split": "train",
+        "original_id": "2440",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "source annotation; not independently reannotated",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "math-en-5724",
+      "pair_id": null,
+      "task": "math",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "openai/gsm8k",
+        "version": "740312add88f781978c0658806c59bc2815b9866",
+        "split": "train",
+        "original_id": "5724",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "source annotation; not independently reannotated",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "reading-sw-2183_swa_3",
+      "pair_id": null,
+      "task": "reading_span",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "Kencorpus/KenSwQuAD",
+        "version": "a7f211970d5929c438c7cf3e971d8d34a7292d6e",
+        "split": "train",
+        "original_id": "2183_swa_3",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "source annotation; not independently reannotated",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "reading-sw-1634_swa_3",
+      "pair_id": null,
+      "task": "reading_span",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "Kencorpus/KenSwQuAD",
+        "version": "a7f211970d5929c438c7cf3e971d8d34a7292d6e",
+        "split": "train",
+        "original_id": "1634_swa_3",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "source annotation; not independently reannotated",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "reading-sw-2368_swa_1",
+      "pair_id": null,
+      "task": "reading_span",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "Kencorpus/KenSwQuAD",
+        "version": "a7f211970d5929c438c7cf3e971d8d34a7292d6e",
+        "split": "train",
+        "original_id": "2368_swa_1",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "source annotation; not independently reannotated",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "reading-sw-5227_swa_1",
+      "pair_id": null,
+      "task": "reading_span",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "Kencorpus/KenSwQuAD",
+        "version": "a7f211970d5929c438c7cf3e971d8d34a7292d6e",
+        "split": "train",
+        "original_id": "5227_swa_1",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "source annotation; not independently reannotated",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "reading-sw-3264_swa_5",
+      "pair_id": null,
+      "task": "reading_span",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "Kencorpus/KenSwQuAD",
+        "version": "a7f211970d5929c438c7cf3e971d8d34a7292d6e",
+        "split": "train",
+        "original_id": "3264_swa_5",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "source annotation; not independently reannotated",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "reading-sw-1492_swa_3",
+      "pair_id": null,
+      "task": "reading_span",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "Kencorpus/KenSwQuAD",
+        "version": "a7f211970d5929c438c7cf3e971d8d34a7292d6e",
+        "split": "train",
+        "original_id": "1492_swa_3",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "source annotation; not independently reannotated",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "reading-sw-3045_swa_0",
+      "pair_id": null,
+      "task": "reading_span",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "Kencorpus/KenSwQuAD",
+        "version": "a7f211970d5929c438c7cf3e971d8d34a7292d6e",
+        "split": "train",
+        "original_id": "3045_swa_0",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "source annotation; not independently reannotated",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "reading-sw-3322_swa_6",
+      "pair_id": null,
+      "task": "reading_span",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "Kencorpus/KenSwQuAD",
+        "version": "a7f211970d5929c438c7cf3e971d8d34a7292d6e",
+        "split": "train",
+        "original_id": "3322_swa_6",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "source annotation; not independently reannotated",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "reading-sw-1605_swa_3",
+      "pair_id": null,
+      "task": "reading_span",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "Kencorpus/KenSwQuAD",
+        "version": "a7f211970d5929c438c7cf3e971d8d34a7292d6e",
+        "split": "train",
+        "original_id": "1605_swa_3",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "source annotation; not independently reannotated",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "reading-sw-4720_swa_6",
+      "pair_id": null,
+      "task": "reading_span",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "Kencorpus/KenSwQuAD",
+        "version": "a7f211970d5929c438c7cf3e971d8d34a7292d6e",
+        "split": "train",
+        "original_id": "4720_swa_6",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "source annotation; not independently reannotated",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "reading-sw-1732_swa_2",
+      "pair_id": null,
+      "task": "reading_span",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "Kencorpus/KenSwQuAD",
+        "version": "a7f211970d5929c438c7cf3e971d8d34a7292d6e",
+        "split": "train",
+        "original_id": "1732_swa_2",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "source annotation; not independently reannotated",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "reading-sw-3301_swa_1",
+      "pair_id": null,
+      "task": "reading_span",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "Kencorpus/KenSwQuAD",
+        "version": "a7f211970d5929c438c7cf3e971d8d34a7292d6e",
+        "split": "train",
+        "original_id": "3301_swa_1",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "source annotation; not independently reannotated",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "reading-sw-0556_swa_4",
+      "pair_id": null,
+      "task": "reading_span",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "Kencorpus/KenSwQuAD",
+        "version": "a7f211970d5929c438c7cf3e971d8d34a7292d6e",
+        "split": "train",
+        "original_id": "0556_swa_4",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "source annotation; not independently reannotated",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "reading-sw-3225_swa_2",
+      "pair_id": null,
+      "task": "reading_span",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "Kencorpus/KenSwQuAD",
+        "version": "a7f211970d5929c438c7cf3e971d8d34a7292d6e",
+        "split": "train",
+        "original_id": "3225_swa_2",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "source annotation; not independently reannotated",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "reading-sw-3726_swa_1",
+      "pair_id": null,
+      "task": "reading_span",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "Kencorpus/KenSwQuAD",
+        "version": "a7f211970d5929c438c7cf3e971d8d34a7292d6e",
+        "split": "train",
+        "original_id": "3726_swa_1",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "source annotation; not independently reannotated",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "reading-sw-0568_swa_0",
+      "pair_id": null,
+      "task": "reading_span",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "Kencorpus/KenSwQuAD",
+        "version": "a7f211970d5929c438c7cf3e971d8d34a7292d6e",
+        "split": "train",
+        "original_id": "0568_swa_0",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "source annotation; not independently reannotated",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "reading-en-572b872c34ae481900deae6c",
+      "pair_id": null,
+      "task": "reading_span",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "Stanford/SQuAD",
+        "version": "v1.1 official train",
+        "split": "train",
+        "original_id": "572b872c34ae481900deae6c",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "source annotation; not independently reannotated",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "reading-en-573432b34776f41900661a5b",
+      "pair_id": null,
+      "task": "reading_span",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "Stanford/SQuAD",
+        "version": "v1.1 official train",
+        "split": "train",
+        "original_id": "573432b34776f41900661a5b",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "source annotation; not independently reannotated",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "reading-en-56cff817234ae51400d9c1a4",
+      "pair_id": null,
+      "task": "reading_span",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "Stanford/SQuAD",
+        "version": "v1.1 official train",
+        "split": "train",
+        "original_id": "56cff817234ae51400d9c1a4",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "source annotation; not independently reannotated",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "reading-en-57275d775951b619008f88ce",
+      "pair_id": null,
+      "task": "reading_span",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "Stanford/SQuAD",
+        "version": "v1.1 official train",
+        "split": "train",
+        "original_id": "57275d775951b619008f88ce",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "source annotation; not independently reannotated",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "reading-en-570d2598fed7b91900d45c52",
+      "pair_id": null,
+      "task": "reading_span",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "Stanford/SQuAD",
+        "version": "v1.1 official train",
+        "split": "train",
+        "original_id": "570d2598fed7b91900d45c52",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "source annotation; not independently reannotated",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "reading-en-56f8c74d9b226e1400dd0fb6",
+      "pair_id": null,
+      "task": "reading_span",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "Stanford/SQuAD",
+        "version": "v1.1 official train",
+        "split": "train",
+        "original_id": "56f8c74d9b226e1400dd0fb6",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "source annotation; not independently reannotated",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "reading-en-5733f58f4776f419006615b7",
+      "pair_id": null,
+      "task": "reading_span",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "Stanford/SQuAD",
+        "version": "v1.1 official train",
+        "split": "train",
+        "original_id": "5733f58f4776f419006615b7",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "source annotation; not independently reannotated",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "reading-en-57261f2f38643c19005ad045",
+      "pair_id": null,
+      "task": "reading_span",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "Stanford/SQuAD",
+        "version": "v1.1 official train",
+        "split": "train",
+        "original_id": "57261f2f38643c19005ad045",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "source annotation; not independently reannotated",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "reading-en-572eb3abdfa6aa1500f8d2d7",
+      "pair_id": null,
+      "task": "reading_span",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "Stanford/SQuAD",
+        "version": "v1.1 official train",
+        "split": "train",
+        "original_id": "572eb3abdfa6aa1500f8d2d7",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "source annotation; not independently reannotated",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "reading-en-5725ff4cec44d21400f3d7e9",
+      "pair_id": null,
+      "task": "reading_span",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "Stanford/SQuAD",
+        "version": "v1.1 official train",
+        "split": "train",
+        "original_id": "5725ff4cec44d21400f3d7e9",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "source annotation; not independently reannotated",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "reading-en-5728c13f2ca10214002da714",
+      "pair_id": null,
+      "task": "reading_span",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "Stanford/SQuAD",
+        "version": "v1.1 official train",
+        "split": "train",
+        "original_id": "5728c13f2ca10214002da714",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "source annotation; not independently reannotated",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "reading-en-57270cbadd62a815002e9850",
+      "pair_id": null,
+      "task": "reading_span",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "Stanford/SQuAD",
+        "version": "v1.1 official train",
+        "split": "train",
+        "original_id": "57270cbadd62a815002e9850",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "source annotation; not independently reannotated",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "reading-en-56e1399dcd28a01900c676cf",
+      "pair_id": null,
+      "task": "reading_span",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "Stanford/SQuAD",
+        "version": "v1.1 official train",
+        "split": "train",
+        "original_id": "56e1399dcd28a01900c676cf",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "source annotation; not independently reannotated",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "reading-en-56de42a5cffd8e1900b4b734",
+      "pair_id": null,
+      "task": "reading_span",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "Stanford/SQuAD",
+        "version": "v1.1 official train",
+        "split": "train",
+        "original_id": "56de42a5cffd8e1900b4b734",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "source annotation; not independently reannotated",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "reading-en-56d9a294dc89441400fdb662",
+      "pair_id": null,
+      "task": "reading_span",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "Stanford/SQuAD",
+        "version": "v1.1 official train",
+        "split": "train",
+        "original_id": "56d9a294dc89441400fdb662",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "source annotation; not independently reannotated",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "reading-en-572f876aa23a5019007fc6f3",
+      "pair_id": null,
+      "task": "reading_span",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "Stanford/SQuAD",
+        "version": "v1.1 official train",
+        "split": "train",
+        "original_id": "572f876aa23a5019007fc6f3",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "source annotation; not independently reannotated",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-0-en-en",
+      "pair_id": "instruction-0",
+      "task": "instruction_copy",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "project-original-constraints",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "0",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Synthetic copy/word-count diagnostic; SW wording not independently reviewed",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-0-en-sw",
+      "pair_id": "instruction-0",
+      "task": "instruction_copy",
+      "input_language": "en",
+      "output_language": "sw",
+      "source": {
+        "dataset": "project-original-constraints",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "0",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Synthetic copy/word-count diagnostic; SW wording not independently reviewed",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-0-sw-en",
+      "pair_id": "instruction-0",
+      "task": "instruction_copy",
+      "input_language": "sw",
+      "output_language": "en",
+      "source": {
+        "dataset": "project-original-constraints",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "0",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Synthetic copy/word-count diagnostic; SW wording not independently reviewed",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-0-sw-sw",
+      "pair_id": "instruction-0",
+      "task": "instruction_copy",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "project-original-constraints",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "0",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Synthetic copy/word-count diagnostic; SW wording not independently reviewed",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-1-en-en",
+      "pair_id": "instruction-1",
+      "task": "instruction_copy",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "project-original-constraints",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "1",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Synthetic copy/word-count diagnostic; SW wording not independently reviewed",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-1-en-sw",
+      "pair_id": "instruction-1",
+      "task": "instruction_copy",
+      "input_language": "en",
+      "output_language": "sw",
+      "source": {
+        "dataset": "project-original-constraints",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "1",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Synthetic copy/word-count diagnostic; SW wording not independently reviewed",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-1-sw-en",
+      "pair_id": "instruction-1",
+      "task": "instruction_copy",
+      "input_language": "sw",
+      "output_language": "en",
+      "source": {
+        "dataset": "project-original-constraints",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "1",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Synthetic copy/word-count diagnostic; SW wording not independently reviewed",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-1-sw-sw",
+      "pair_id": "instruction-1",
+      "task": "instruction_copy",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "project-original-constraints",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "1",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Synthetic copy/word-count diagnostic; SW wording not independently reviewed",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-2-en-en",
+      "pair_id": "instruction-2",
+      "task": "instruction_copy",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "project-original-constraints",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "2",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Synthetic copy/word-count diagnostic; SW wording not independently reviewed",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-2-en-sw",
+      "pair_id": "instruction-2",
+      "task": "instruction_copy",
+      "input_language": "en",
+      "output_language": "sw",
+      "source": {
+        "dataset": "project-original-constraints",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "2",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Synthetic copy/word-count diagnostic; SW wording not independently reviewed",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-2-sw-en",
+      "pair_id": "instruction-2",
+      "task": "instruction_copy",
+      "input_language": "sw",
+      "output_language": "en",
+      "source": {
+        "dataset": "project-original-constraints",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "2",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Synthetic copy/word-count diagnostic; SW wording not independently reviewed",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-2-sw-sw",
+      "pair_id": "instruction-2",
+      "task": "instruction_copy",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "project-original-constraints",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "2",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Synthetic copy/word-count diagnostic; SW wording not independently reviewed",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-3-en-en",
+      "pair_id": "instruction-3",
+      "task": "instruction_copy",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "project-original-constraints",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "3",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Synthetic copy/word-count diagnostic; SW wording not independently reviewed",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-3-en-sw",
+      "pair_id": "instruction-3",
+      "task": "instruction_copy",
+      "input_language": "en",
+      "output_language": "sw",
+      "source": {
+        "dataset": "project-original-constraints",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "3",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Synthetic copy/word-count diagnostic; SW wording not independently reviewed",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-3-sw-en",
+      "pair_id": "instruction-3",
+      "task": "instruction_copy",
+      "input_language": "sw",
+      "output_language": "en",
+      "source": {
+        "dataset": "project-original-constraints",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "3",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Synthetic copy/word-count diagnostic; SW wording not independently reviewed",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-3-sw-sw",
+      "pair_id": "instruction-3",
+      "task": "instruction_copy",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "project-original-constraints",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "3",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Synthetic copy/word-count diagnostic; SW wording not independently reviewed",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-4-en-en",
+      "pair_id": "instruction-4",
+      "task": "instruction_copy",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "project-original-constraints",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "4",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Synthetic copy/word-count diagnostic; SW wording not independently reviewed",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-4-en-sw",
+      "pair_id": "instruction-4",
+      "task": "instruction_copy",
+      "input_language": "en",
+      "output_language": "sw",
+      "source": {
+        "dataset": "project-original-constraints",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "4",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Synthetic copy/word-count diagnostic; SW wording not independently reviewed",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-4-sw-en",
+      "pair_id": "instruction-4",
+      "task": "instruction_copy",
+      "input_language": "sw",
+      "output_language": "en",
+      "source": {
+        "dataset": "project-original-constraints",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "4",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Synthetic copy/word-count diagnostic; SW wording not independently reviewed",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-4-sw-sw",
+      "pair_id": "instruction-4",
+      "task": "instruction_copy",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "project-original-constraints",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "4",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Synthetic copy/word-count diagnostic; SW wording not independently reviewed",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-5-en-en",
+      "pair_id": "instruction-5",
+      "task": "instruction_copy",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "project-original-constraints",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "5",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Synthetic copy/word-count diagnostic; SW wording not independently reviewed",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-5-en-sw",
+      "pair_id": "instruction-5",
+      "task": "instruction_copy",
+      "input_language": "en",
+      "output_language": "sw",
+      "source": {
+        "dataset": "project-original-constraints",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "5",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Synthetic copy/word-count diagnostic; SW wording not independently reviewed",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-5-sw-en",
+      "pair_id": "instruction-5",
+      "task": "instruction_copy",
+      "input_language": "sw",
+      "output_language": "en",
+      "source": {
+        "dataset": "project-original-constraints",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "5",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Synthetic copy/word-count diagnostic; SW wording not independently reviewed",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-5-sw-sw",
+      "pair_id": "instruction-5",
+      "task": "instruction_copy",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "project-original-constraints",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "5",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Synthetic copy/word-count diagnostic; SW wording not independently reviewed",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-6-en-en",
+      "pair_id": "instruction-6",
+      "task": "instruction_copy",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "project-original-constraints",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "6",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Synthetic copy/word-count diagnostic; SW wording not independently reviewed",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-6-en-sw",
+      "pair_id": "instruction-6",
+      "task": "instruction_copy",
+      "input_language": "en",
+      "output_language": "sw",
+      "source": {
+        "dataset": "project-original-constraints",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "6",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Synthetic copy/word-count diagnostic; SW wording not independently reviewed",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-6-sw-en",
+      "pair_id": "instruction-6",
+      "task": "instruction_copy",
+      "input_language": "sw",
+      "output_language": "en",
+      "source": {
+        "dataset": "project-original-constraints",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "6",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Synthetic copy/word-count diagnostic; SW wording not independently reviewed",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-6-sw-sw",
+      "pair_id": "instruction-6",
+      "task": "instruction_copy",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "project-original-constraints",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "6",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Synthetic copy/word-count diagnostic; SW wording not independently reviewed",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-7-en-en",
+      "pair_id": "instruction-7",
+      "task": "instruction_copy",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "project-original-constraints",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "7",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Synthetic copy/word-count diagnostic; SW wording not independently reviewed",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-7-en-sw",
+      "pair_id": "instruction-7",
+      "task": "instruction_copy",
+      "input_language": "en",
+      "output_language": "sw",
+      "source": {
+        "dataset": "project-original-constraints",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "7",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Synthetic copy/word-count diagnostic; SW wording not independently reviewed",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-7-sw-en",
+      "pair_id": "instruction-7",
+      "task": "instruction_copy",
+      "input_language": "sw",
+      "output_language": "en",
+      "source": {
+        "dataset": "project-original-constraints",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "7",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Synthetic copy/word-count diagnostic; SW wording not independently reviewed",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-7-sw-sw",
+      "pair_id": "instruction-7",
+      "task": "instruction_copy",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "project-original-constraints",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "7",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Synthetic copy/word-count diagnostic; SW wording not independently reviewed",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-constraints-0-en",
+      "pair_id": "instruction-constraints-0",
+      "task": "instruction_constraints",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "project-original-multiconstraint",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "0",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Author-constructed verifiable constraints; SW wording not independently reviewed; no factual content score",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-constraints-0-sw",
+      "pair_id": "instruction-constraints-0",
+      "task": "instruction_constraints",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "project-original-multiconstraint",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "0",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Author-constructed verifiable constraints; SW wording not independently reviewed; no factual content score",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-constraints-1-en",
+      "pair_id": "instruction-constraints-1",
+      "task": "instruction_constraints",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "project-original-multiconstraint",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "1",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Author-constructed verifiable constraints; SW wording not independently reviewed; no factual content score",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-constraints-1-sw",
+      "pair_id": "instruction-constraints-1",
+      "task": "instruction_constraints",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "project-original-multiconstraint",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "1",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Author-constructed verifiable constraints; SW wording not independently reviewed; no factual content score",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-constraints-2-en",
+      "pair_id": "instruction-constraints-2",
+      "task": "instruction_constraints",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "project-original-multiconstraint",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "2",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Author-constructed verifiable constraints; SW wording not independently reviewed; no factual content score",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-constraints-2-sw",
+      "pair_id": "instruction-constraints-2",
+      "task": "instruction_constraints",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "project-original-multiconstraint",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "2",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Author-constructed verifiable constraints; SW wording not independently reviewed; no factual content score",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-constraints-3-en",
+      "pair_id": "instruction-constraints-3",
+      "task": "instruction_constraints",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "project-original-multiconstraint",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "3",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Author-constructed verifiable constraints; SW wording not independently reviewed; no factual content score",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-constraints-3-sw",
+      "pair_id": "instruction-constraints-3",
+      "task": "instruction_constraints",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "project-original-multiconstraint",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "3",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Author-constructed verifiable constraints; SW wording not independently reviewed; no factual content score",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-constraints-4-en",
+      "pair_id": "instruction-constraints-4",
+      "task": "instruction_constraints",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "project-original-multiconstraint",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "4",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Author-constructed verifiable constraints; SW wording not independently reviewed; no factual content score",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-constraints-4-sw",
+      "pair_id": "instruction-constraints-4",
+      "task": "instruction_constraints",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "project-original-multiconstraint",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "4",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Author-constructed verifiable constraints; SW wording not independently reviewed; no factual content score",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-constraints-5-en",
+      "pair_id": "instruction-constraints-5",
+      "task": "instruction_constraints",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "project-original-multiconstraint",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "5",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Author-constructed verifiable constraints; SW wording not independently reviewed; no factual content score",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-constraints-5-sw",
+      "pair_id": "instruction-constraints-5",
+      "task": "instruction_constraints",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "project-original-multiconstraint",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "5",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Author-constructed verifiable constraints; SW wording not independently reviewed; no factual content score",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-constraints-6-en",
+      "pair_id": "instruction-constraints-6",
+      "task": "instruction_constraints",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "project-original-multiconstraint",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "6",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Author-constructed verifiable constraints; SW wording not independently reviewed; no factual content score",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-constraints-6-sw",
+      "pair_id": "instruction-constraints-6",
+      "task": "instruction_constraints",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "project-original-multiconstraint",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "6",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Author-constructed verifiable constraints; SW wording not independently reviewed; no factual content score",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-constraints-7-en",
+      "pair_id": "instruction-constraints-7",
+      "task": "instruction_constraints",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "project-original-multiconstraint",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "7",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Author-constructed verifiable constraints; SW wording not independently reviewed; no factual content score",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-constraints-7-sw",
+      "pair_id": "instruction-constraints-7",
+      "task": "instruction_constraints",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "project-original-multiconstraint",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "7",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Author-constructed verifiable constraints; SW wording not independently reviewed; no factual content score",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-constraints-8-en",
+      "pair_id": "instruction-constraints-8",
+      "task": "instruction_constraints",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "project-original-multiconstraint",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "8",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Author-constructed verifiable constraints; SW wording not independently reviewed; no factual content score",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-constraints-8-sw",
+      "pair_id": "instruction-constraints-8",
+      "task": "instruction_constraints",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "project-original-multiconstraint",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "8",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Author-constructed verifiable constraints; SW wording not independently reviewed; no factual content score",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-constraints-9-en",
+      "pair_id": "instruction-constraints-9",
+      "task": "instruction_constraints",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "project-original-multiconstraint",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "9",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Author-constructed verifiable constraints; SW wording not independently reviewed; no factual content score",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-constraints-9-sw",
+      "pair_id": "instruction-constraints-9",
+      "task": "instruction_constraints",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "project-original-multiconstraint",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "9",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Author-constructed verifiable constraints; SW wording not independently reviewed; no factual content score",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-constraints-10-en",
+      "pair_id": "instruction-constraints-10",
+      "task": "instruction_constraints",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "project-original-multiconstraint",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "10",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Author-constructed verifiable constraints; SW wording not independently reviewed; no factual content score",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-constraints-10-sw",
+      "pair_id": "instruction-constraints-10",
+      "task": "instruction_constraints",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "project-original-multiconstraint",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "10",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Author-constructed verifiable constraints; SW wording not independently reviewed; no factual content score",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-constraints-11-en",
+      "pair_id": "instruction-constraints-11",
+      "task": "instruction_constraints",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "project-original-multiconstraint",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "11",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Author-constructed verifiable constraints; SW wording not independently reviewed; no factual content score",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-constraints-11-sw",
+      "pair_id": "instruction-constraints-11",
+      "task": "instruction_constraints",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "project-original-multiconstraint",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "11",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Author-constructed verifiable constraints; SW wording not independently reviewed; no factual content score",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-constraints-12-en",
+      "pair_id": "instruction-constraints-12",
+      "task": "instruction_constraints",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "project-original-multiconstraint",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "12",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Author-constructed verifiable constraints; SW wording not independently reviewed; no factual content score",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-constraints-12-sw",
+      "pair_id": "instruction-constraints-12",
+      "task": "instruction_constraints",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "project-original-multiconstraint",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "12",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Author-constructed verifiable constraints; SW wording not independently reviewed; no factual content score",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-constraints-13-en",
+      "pair_id": "instruction-constraints-13",
+      "task": "instruction_constraints",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "project-original-multiconstraint",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "13",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Author-constructed verifiable constraints; SW wording not independently reviewed; no factual content score",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-constraints-13-sw",
+      "pair_id": "instruction-constraints-13",
+      "task": "instruction_constraints",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "project-original-multiconstraint",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "13",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Author-constructed verifiable constraints; SW wording not independently reviewed; no factual content score",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-constraints-14-en",
+      "pair_id": "instruction-constraints-14",
+      "task": "instruction_constraints",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "project-original-multiconstraint",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "14",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Author-constructed verifiable constraints; SW wording not independently reviewed; no factual content score",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-constraints-14-sw",
+      "pair_id": "instruction-constraints-14",
+      "task": "instruction_constraints",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "project-original-multiconstraint",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "14",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Author-constructed verifiable constraints; SW wording not independently reviewed; no factual content score",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-constraints-15-en",
+      "pair_id": "instruction-constraints-15",
+      "task": "instruction_constraints",
+      "input_language": "en",
+      "output_language": "en",
+      "source": {
+        "dataset": "project-original-multiconstraint",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "15",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Author-constructed verifiable constraints; SW wording not independently reviewed; no factual content score",
+        "parallel_verified": false
+      }
+    },
+    {
+      "id": "instruction-constraints-15-sw",
+      "pair_id": "instruction-constraints-15",
+      "task": "instruction_constraints",
+      "input_language": "sw",
+      "output_language": "sw",
+      "source": {
+        "dataset": "project-original-multiconstraint",
+        "version": "20261102-v1",
+        "split": "constructed",
+        "original_id": "15",
+        "role": "independent_development"
+      },
+      "quality": {
+        "status": "Author-constructed verifiable constraints; SW wording not independently reviewed; no factual content score",
+        "parallel_verified": false
+      }
+    }
+  ],
+  "raw_dataset_text_published": false,
+  "reproduction_limit": "Prepare script requires original local few-shot traces or reconstructed exclusion list; raw trace logs and original data are not in curated public snapshot."
+}

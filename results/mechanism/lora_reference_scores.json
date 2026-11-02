@@ -1,0 +1,686 @@
+{
+  "base": [
+    {
+      "task": "instruction_constraints",
+      "input_language": "en",
+      "output_language": "en",
+      "samples": 16,
+      "content_correct": {
+        "correct": 0,
+        "denominator": 0,
+        "rate": null
+      },
+      "format_passed": {
+        "correct": 14,
+        "denominator": 16,
+        "rate": 0.875
+      },
+      "language_correct": {
+        "correct": 0,
+        "denominator": 0,
+        "rate": null
+      },
+      "option_distribution": {}
+    },
+    {
+      "task": "instruction_constraints",
+      "input_language": "sw",
+      "output_language": "sw",
+      "samples": 16,
+      "content_correct": {
+        "correct": 0,
+        "denominator": 0,
+        "rate": null
+      },
+      "format_passed": {
+        "correct": 0,
+        "denominator": 16,
+        "rate": 0.0
+      },
+      "language_correct": {
+        "correct": 0,
+        "denominator": 0,
+        "rate": null
+      },
+      "option_distribution": {}
+    },
+    {
+      "task": "instruction_copy",
+      "input_language": "en",
+      "output_language": "en",
+      "samples": 8,
+      "content_correct": {
+        "correct": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "format_passed": {
+        "correct": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "language_correct": {
+        "correct": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "option_distribution": {}
+    },
+    {
+      "task": "instruction_copy",
+      "input_language": "en",
+      "output_language": "sw",
+      "samples": 8,
+      "content_correct": {
+        "correct": 7,
+        "denominator": 8,
+        "rate": 0.875
+      },
+      "format_passed": {
+        "correct": 7,
+        "denominator": 8,
+        "rate": 0.875
+      },
+      "language_correct": {
+        "correct": 7,
+        "denominator": 8,
+        "rate": 0.875
+      },
+      "option_distribution": {}
+    },
+    {
+      "task": "instruction_copy",
+      "input_language": "sw",
+      "output_language": "en",
+      "samples": 8,
+      "content_correct": {
+        "correct": 0,
+        "denominator": 8,
+        "rate": 0.0
+      },
+      "format_passed": {
+        "correct": 0,
+        "denominator": 8,
+        "rate": 0.0
+      },
+      "language_correct": {
+        "correct": 1,
+        "denominator": 8,
+        "rate": 0.125
+      },
+      "option_distribution": {}
+    },
+    {
+      "task": "instruction_copy",
+      "input_language": "sw",
+      "output_language": "sw",
+      "samples": 8,
+      "content_correct": {
+        "correct": 0,
+        "denominator": 8,
+        "rate": 0.0
+      },
+      "format_passed": {
+        "correct": 0,
+        "denominator": 8,
+        "rate": 0.0
+      },
+      "language_correct": {
+        "correct": 2,
+        "denominator": 8,
+        "rate": 0.25
+      },
+      "option_distribution": {}
+    },
+    {
+      "task": "knowledge_choice",
+      "input_language": "en",
+      "output_language": "en",
+      "samples": 44,
+      "content_correct": {
+        "correct": 36,
+        "denominator": 44,
+        "rate": 0.8181818181818182
+      },
+      "format_passed": {
+        "correct": 0,
+        "denominator": 0,
+        "rate": null
+      },
+      "language_correct": {
+        "correct": 0,
+        "denominator": 0,
+        "rate": null
+      },
+      "option_distribution": {
+        "D": 11,
+        "A": 7,
+        "C": 10,
+        "B": 16
+      }
+    },
+    {
+      "task": "knowledge_choice",
+      "input_language": "sw",
+      "output_language": "sw",
+      "samples": 44,
+      "content_correct": {
+        "correct": 14,
+        "denominator": 44,
+        "rate": 0.3181818181818182
+      },
+      "format_passed": {
+        "correct": 0,
+        "denominator": 0,
+        "rate": null
+      },
+      "language_correct": {
+        "correct": 0,
+        "denominator": 0,
+        "rate": null
+      },
+      "option_distribution": {
+        "A": 20,
+        "B": 20,
+        "C": 1,
+        "D": 3
+      }
+    },
+    {
+      "task": "knowledge_short_answer",
+      "input_language": "en",
+      "output_language": "en",
+      "samples": 8,
+      "content_correct": {
+        "correct": 0,
+        "denominator": 8,
+        "rate": 0.0
+      },
+      "format_passed": {
+        "correct": 0,
+        "denominator": 0,
+        "rate": null
+      },
+      "language_correct": {
+        "correct": 0,
+        "denominator": 0,
+        "rate": null
+      },
+      "option_distribution": {}
+    },
+    {
+      "task": "knowledge_short_answer",
+      "input_language": "en",
+      "output_language": "sw",
+      "samples": 8,
+      "content_correct": {
+        "correct": 0,
+        "denominator": 8,
+        "rate": 0.0
+      },
+      "format_passed": {
+        "correct": 0,
+        "denominator": 0,
+        "rate": null
+      },
+      "language_correct": {
+        "correct": 0,
+        "denominator": 0,
+        "rate": null
+      },
+      "option_distribution": {}
+    },
+    {
+      "task": "knowledge_short_answer",
+      "input_language": "sw",
+      "output_language": "en",
+      "samples": 8,
+      "content_correct": {
+        "correct": 0,
+        "denominator": 8,
+        "rate": 0.0
+      },
+      "format_passed": {
+        "correct": 0,
+        "denominator": 0,
+        "rate": null
+      },
+      "language_correct": {
+        "correct": 0,
+        "denominator": 0,
+        "rate": null
+      },
+      "option_distribution": {}
+    },
+    {
+      "task": "knowledge_short_answer",
+      "input_language": "sw",
+      "output_language": "sw",
+      "samples": 8,
+      "content_correct": {
+        "correct": 0,
+        "denominator": 8,
+        "rate": 0.0
+      },
+      "format_passed": {
+        "correct": 0,
+        "denominator": 0,
+        "rate": null
+      },
+      "language_correct": {
+        "correct": 0,
+        "denominator": 0,
+        "rate": null
+      },
+      "option_distribution": {}
+    },
+    {
+      "task": "math",
+      "input_language": "en",
+      "output_language": "en",
+      "samples": 16,
+      "content_correct": {
+        "correct": 12,
+        "denominator": 16,
+        "rate": 0.75
+      },
+      "format_passed": {
+        "correct": 12,
+        "denominator": 16,
+        "rate": 0.75
+      },
+      "language_correct": {
+        "correct": 0,
+        "denominator": 0,
+        "rate": null
+      },
+      "option_distribution": {}
+    },
+    {
+      "task": "reading_span",
+      "input_language": "en",
+      "output_language": "en",
+      "samples": 16,
+      "content_correct": {
+        "correct": 5,
+        "denominator": 16,
+        "rate": 0.3125
+      },
+      "format_passed": {
+        "correct": 0,
+        "denominator": 0,
+        "rate": null
+      },
+      "language_correct": {
+        "correct": 0,
+        "denominator": 0,
+        "rate": null
+      },
+      "option_distribution": {}
+    },
+    {
+      "task": "reading_span",
+      "input_language": "sw",
+      "output_language": "sw",
+      "samples": 16,
+      "content_correct": {
+        "correct": 0,
+        "denominator": 16,
+        "rate": 0.0
+      },
+      "format_passed": {
+        "correct": 0,
+        "denominator": 0,
+        "rate": null
+      },
+      "language_correct": {
+        "correct": 0,
+        "denominator": 0,
+        "rate": null
+      },
+      "option_distribution": {}
+    }
+  ],
+  "final": [
+    {
+      "task": "instruction_constraints",
+      "input_language": "en",
+      "output_language": "en",
+      "samples": 16,
+      "content_correct": {
+        "correct": 0,
+        "denominator": 0,
+        "rate": null
+      },
+      "format_passed": {
+        "correct": 6,
+        "denominator": 16,
+        "rate": 0.375
+      },
+      "language_correct": {
+        "correct": 0,
+        "denominator": 0,
+        "rate": null
+      },
+      "option_distribution": {}
+    },
+    {
+      "task": "instruction_constraints",
+      "input_language": "sw",
+      "output_language": "sw",
+      "samples": 16,
+      "content_correct": {
+        "correct": 0,
+        "denominator": 0,
+        "rate": null
+      },
+      "format_passed": {
+        "correct": 2,
+        "denominator": 16,
+        "rate": 0.125
+      },
+      "language_correct": {
+        "correct": 0,
+        "denominator": 0,
+        "rate": null
+      },
+      "option_distribution": {}
+    },
+    {
+      "task": "instruction_copy",
+      "input_language": "en",
+      "output_language": "en",
+      "samples": 8,
+      "content_correct": {
+        "correct": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "format_passed": {
+        "correct": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "language_correct": {
+        "correct": 8,
+        "denominator": 8,
+        "rate": 1.0
+      },
+      "option_distribution": {}
+    },
+    {
+      "task": "instruction_copy",
+      "input_language": "en",
+      "output_language": "sw",
+      "samples": 8,
+      "content_correct": {
+        "correct": 5,
+        "denominator": 8,
+        "rate": 0.625
+      },
+      "format_passed": {
+        "correct": 5,
+        "denominator": 8,
+        "rate": 0.625
+      },
+      "language_correct": {
+        "correct": 6,
+        "denominator": 8,
+        "rate": 0.75
+      },
+      "option_distribution": {}
+    },
+    {
+      "task": "instruction_copy",
+      "input_language": "sw",
+      "output_language": "en",
+      "samples": 8,
+      "content_correct": {
+        "correct": 0,
+        "denominator": 8,
+        "rate": 0.0
+      },
+      "format_passed": {
+        "correct": 0,
+        "denominator": 8,
+        "rate": 0.0
+      },
+      "language_correct": {
+        "correct": 0,
+        "denominator": 8,
+        "rate": 0.0
+      },
+      "option_distribution": {}
+    },
+    {
+      "task": "instruction_copy",
+      "input_language": "sw",
+      "output_language": "sw",
+      "samples": 8,
+      "content_correct": {
+        "correct": 0,
+        "denominator": 8,
+        "rate": 0.0
+      },
+      "format_passed": {
+        "correct": 0,
+        "denominator": 8,
+        "rate": 0.0
+      },
+      "language_correct": {
+        "correct": 4,
+        "denominator": 8,
+        "rate": 0.5
+      },
+      "option_distribution": {}
+    },
+    {
+      "task": "knowledge_choice",
+      "input_language": "en",
+      "output_language": "en",
+      "samples": 44,
+      "content_correct": {
+        "correct": 36,
+        "denominator": 44,
+        "rate": 0.8181818181818182
+      },
+      "format_passed": {
+        "correct": 0,
+        "denominator": 0,
+        "rate": null
+      },
+      "language_correct": {
+        "correct": 0,
+        "denominator": 0,
+        "rate": null
+      },
+      "option_distribution": {
+        "D": 7,
+        "C": 11,
+        "B": 16,
+        "A": 10
+      }
+    },
+    {
+      "task": "knowledge_choice",
+      "input_language": "sw",
+      "output_language": "sw",
+      "samples": 44,
+      "content_correct": {
+        "correct": 27,
+        "denominator": 44,
+        "rate": 0.6136363636363636
+      },
+      "format_passed": {
+        "correct": 0,
+        "denominator": 0,
+        "rate": null
+      },
+      "language_correct": {
+        "correct": 0,
+        "denominator": 0,
+        "rate": null
+      },
+      "option_distribution": {
+        "A": 12,
+        "B": 18,
+        "C": 10,
+        "D": 4
+      }
+    },
+    {
+      "task": "knowledge_short_answer",
+      "input_language": "en",
+      "output_language": "en",
+      "samples": 8,
+      "content_correct": {
+        "correct": 0,
+        "denominator": 8,
+        "rate": 0.0
+      },
+      "format_passed": {
+        "correct": 0,
+        "denominator": 0,
+        "rate": null
+      },
+      "language_correct": {
+        "correct": 0,
+        "denominator": 0,
+        "rate": null
+      },
+      "option_distribution": {}
+    },
+    {
+      "task": "knowledge_short_answer",
+      "input_language": "en",
+      "output_language": "sw",
+      "samples": 8,
+      "content_correct": {
+        "correct": 0,
+        "denominator": 8,
+        "rate": 0.0
+      },
+      "format_passed": {
+        "correct": 0,
+        "denominator": 0,
+        "rate": null
+      },
+      "language_correct": {
+        "correct": 0,
+        "denominator": 0,
+        "rate": null
+      },
+      "option_distribution": {}
+    },
+    {
+      "task": "knowledge_short_answer",
+      "input_language": "sw",
+      "output_language": "en",
+      "samples": 8,
+      "content_correct": {
+        "correct": 0,
+        "denominator": 8,
+        "rate": 0.0
+      },
+      "format_passed": {
+        "correct": 0,
+        "denominator": 0,
+        "rate": null
+      },
+      "language_correct": {
+        "correct": 0,
+        "denominator": 0,
+        "rate": null
+      },
+      "option_distribution": {}
+    },
+    {
+      "task": "knowledge_short_answer",
+      "input_language": "sw",
+      "output_language": "sw",
+      "samples": 8,
+      "content_correct": {
+        "correct": 0,
+        "denominator": 8,
+        "rate": 0.0
+      },
+      "format_passed": {
+        "correct": 0,
+        "denominator": 0,
+        "rate": null
+      },
+      "language_correct": {
+        "correct": 0,
+        "denominator": 0,
+        "rate": null
+      },
+      "option_distribution": {}
+    },
+    {
+      "task": "math",
+      "input_language": "en",
+      "output_language": "en",
+      "samples": 16,
+      "content_correct": {
+        "correct": 0,
+        "denominator": 16,
+        "rate": 0.0
+      },
+      "format_passed": {
+        "correct": 0,
+        "denominator": 16,
+        "rate": 0.0
+      },
+      "language_correct": {
+        "correct": 0,
+        "denominator": 0,
+        "rate": null
+      },
+      "option_distribution": {}
+    },
+    {
+      "task": "reading_span",
+      "input_language": "en",
+      "output_language": "en",
+      "samples": 16,
+      "content_correct": {
+        "correct": 8,
+        "denominator": 16,
+        "rate": 0.5
+      },
+      "format_passed": {
+        "correct": 0,
+        "denominator": 0,
+        "rate": null
+      },
+      "language_correct": {
+        "correct": 0,
+        "denominator": 0,
+        "rate": null
+      },
+      "option_distribution": {}
+    },
+    {
+      "task": "reading_span",
+      "input_language": "sw",
+      "output_language": "sw",
+      "samples": 16,
+      "content_correct": {
+        "correct": 1,
+        "denominator": 16,
+        "rate": 0.0625
+      },
+      "format_passed": {
+        "correct": 0,
+        "denominator": 0,
+        "rate": null
+      },
+      "language_correct": {
+        "correct": 0,
+        "denominator": 0,
+        "rate": null
+      },
+      "option_distribution": {}
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "version": "mechanism-module-swap-v1",
+  "purpose": "Small predeclared independent development diagnostic study, no final method training",
+  "layer_selection": "Architecture-only beginning0/middle14/end27; not chosen from parameter drift or formal scores",
+  "formal_test_used_for_selection": false,
+  "max_input_tokens": 1024,
+  "max_new_tokens": 256,
+  "max_new_tokens_by_task": {
+    "math": 256,
+    "reading_span": 96,
+    "knowledge_short_answer": 96,
+    "instruction_copy": 32,
+    "instruction_constraints": 64
+  },
+  "conditions": [
+    {
+      "id": "identity_mid_attention",
+      "selector": {
+        "layers": [
+          14
+        ],
+        "component": "attention"
+      },
+      "mode": "restore",
+      "alpha": 1
+    },
+    {
+      "id": "restore_L0_attention",
+      "selector": {
+        "layers": [
+          0
+        ],
+        "component": "attention"
+      },
+      "mode": "restore",
+      "alpha": 0
+    },
+    {
+      "id": "restore_L0_mlp",
+      "selector": {
+        "layers": [
+          0
+        ],
+        "component": "mlp"
+      },
+      "mode": "restore",
+      "alpha": 0
+    },
+    {
+      "id": "restore_L14_attention",
+      "selector": {
+        "layers": [
+          14
+        ],
+        "component": "attention"
+      },
+      "mode": "restore",
+      "alpha": 0
+    },
+    {
+      "id": "restore_L14_mlp",
+      "selector": {
+        "layers": [
+          14
+        ],
+        "component": "mlp"
+      },
+      "mode": "restore",
+      "alpha": 0
+    },
+    {
+      "id": "restore_L27_attention",
+      "selector": {
+        "layers": [
+          27
+        ],
+        "component": "attention"
+      },
+      "mode": "restore",
+      "alpha": 0
+    },
+    {
+      "id": "restore_L27_mlp",
+      "selector": {
+        "layers": [
+          27
+        ],
+        "component": "mlp"
+      },
+      "mode": "restore",
+      "alpha": 0
+    },
+    {
+      "id": "inject_L14_attention",
+      "selector": {
+        "layers": [
+          14
+        ],
+        "component": "attention"
+      },
+      "mode": "inject",
+      "alpha": 1
+    },
+    {
+      "id": "half_L14_attention",
+      "selector": {
+        "layers": [
+          14
+        ],
+        "component": "attention"
+      },
+      "mode": "restore",
+      "alpha": 0.5
+    },
+    {
+      "id": "inject_L14_mlp",
+      "selector": {
+        "layers": [
+          14
+        ],
+        "component": "mlp"
+      },
+      "mode": "inject",
+      "alpha": 1
+    },
+    {
+      "id": "half_L14_mlp",
+      "selector": {
+        "layers": [
+          14
+        ],
+        "component": "mlp"
+      },
+      "mode": "restore",
+      "alpha": 0.5
+    },
+    {
+      "id": "restore_L14_block",
+      "selector": {
+        "layers": [
+          14
+        ],
+        "component": "block"
+      },
+      "mode": "restore",
+      "alpha": 0,
+      "control_description": "Joint Attention/MLP/block-norm intervention; compare to individual components, not additive by assumption"
+    },
+    {
+      "id": "random_attention_parameter_matched",
+      "selector": {
+        "random_like": "restore_L14_attention",
+        "seed": 42
+      },
+      "mode": "restore",
+      "alpha": 0,
+      "control_description": "Seeded module, same unique parameter count; literal restore, native norm"
+    },
+    {
+      "id": "random_attention_norm_matched",
+      "selector": {
+        "random_like": "restore_L14_attention",
+        "seed": 42
+      },
+      "mode": "restore",
+      "alpha": 0,
+      "control_description": "Seeded module, same unique parameter count; rescale removed update to reference norm, possibly extrapolative",
+      "norm_like": "restore_L14_attention"
+    },
+    {
+      "id": "random_mlp_parameter_matched",
+      "selector": {
+        "random_like": "restore_L14_mlp",
+        "seed": 42
+      },
+      "mode": "restore",
+      "alpha": 0,
+      "control_description": "Seeded module, same unique parameter count; literal restore, native norm"
+    },
+    {
+      "id": "random_mlp_norm_matched",
+      "selector": {
+        "random_like": "restore_L14_mlp",
+        "seed": 42
+      },
+      "mode": "restore",
+      "alpha": 0,
+      "control_description": "Seeded module, same unique parameter count; rescale removed update to reference norm, possibly extrapolative",
+      "norm_like": "restore_L14_mlp"
+    },
+    {
+      "id": "restore_L13_14_block",
+      "selector": {
+        "layers": [
+          13,
+          14
+        ],
+        "component": "block"
+      },
+      "mode": "restore",
+      "alpha": 0,
+      "control_description": "Contiguous two-block interaction; not exhaustive combination search"
+    }
+  ],
+  "quality_limits": [
+    "AfriQA semantic negative uniqueness not independently validated",
+    "Independent reading QA exact aliases are NOT Belebele ACC",
+    "Constructed instruction constraints are NOT official IFEval",
+    "Small task groups require paired cluster confidence intervals",
+    "Cross-language paired answer/MC conditions coexist with unpaired reading/math; do not align token positions",
+    "Generated response caps and raw outputs reported; no model-specific rescue"
+  ]
+}

@@ -1,6 +1,6 @@
 {
-  "scope": "Curated public source/configuration/results; local paths replaced; private operational metadata omitted",
-  "source_local_commit": "5e9b1b8c7eb9f31cef2eb5dadd0e5a9b67b4d582",
+  "scope": "Curated baseline plus user-directed mechanism diagnostics; no private runtime metadata, raw datasets, model weights or cancelled candidate method publication",
+  "source_local_commit": "a06740c47836469d197d6a88182b097da4fea434",
   "source_files": {
     "configs/eval_tasks/_belebele_locked_base.yaml": {
       "original_sha256": "0634916091a6aa37684ac9e01198ec797cd2e487963171fe2ba4887306489fb4",
@@ -293,372 +293,462 @@
     "configs/flores_sw_en_500_seed42.json": {
       "original_sha256": "85a8d82490b6056689d7391c6f1ad5bbc9feb8ae71049ea99e76deec27002816",
       "publication_change": "Unchanged scientific configuration; no local paths"
+    },
+    "scripts/mechanism/activations.py": {
+      "original_sha256": "9c5fb9452e48c7878db8afc6795e87142c7fb5ceb901244bc57116b649f4b917",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "scripts/mechanism/build_impact_matrix.py": {
+      "original_sha256": "e1c099258bed9cd73a5edb605817628ff0808940c9f83baffa7579215d1715e9",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "scripts/mechanism/module_swap.py": {
+      "original_sha256": "ec29151b743c9ca08b5f00b73ab53421da10f07b94bacb6ccfd086793ee97dd3",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "scripts/mechanism/analyze_interventions.py": {
+      "original_sha256": "5b481a28766480d43b5fb2254e72be4ec01fbf59b7cdacf3d4cad3e9cd76e0cf",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "scripts/mechanism/inference.py": {
+      "original_sha256": "76ff7b93ebb55696b5ab76898489a76f5988c12357a405351241c8de2c4923c2",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "scripts/mechanism/audit_activation_drift.py": {
+      "original_sha256": "9dbdbde03b0c6dad4cedeb6476c36bce0b5112890e5f30184781f77a9c0761f1",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "scripts/mechanism/evaluate_probes.py": {
+      "original_sha256": "b0c834c6f2725a39dc058b94fddea2155339c861a8486cce931cd53c20c5491e",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "scripts/mechanism/audit_parameter_drift.py": {
+      "original_sha256": "ac3cea9438739ea92e306096b3c12919f05e119ba8ced0c5873c26b4bb98654b",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "scripts/mechanism/probes.py": {
+      "original_sha256": "f22af10b3f02a71fb2b8aa455fd92a397ff4db23a21e86b751642f5d9a672a7f",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "scripts/mechanism/weights.py": {
+      "original_sha256": "604dc34f3f22411a732eb13181debc9c58d9af30c623218606d66bf726c972a3",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "scripts/mechanism/prepare_probes.py": {
+      "original_sha256": "84ff3071f429dba6f3a8d501d92683508853040f677caf0a32f8bff1a70b813c",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "scripts/mechanism/activation_patching.py": {
+      "original_sha256": "286962a800e821ff7e231667553a2b69ba046d11ddec90fa0534e1b551da8304",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "scripts/mechanism/smoke.py": {
+      "original_sha256": "739281a7f6ef1aa08fd82631372b1d399ccbea6ea68609f6100fac7ff341bec7",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "tests/mechanism/test_probe_inference.py": {
+      "original_sha256": "af08960ed5dc3f9e1943ff7fd8e3d95ad2a998a8b3ae1ce629e284c213a56793",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "tests/mechanism/test_weight_delta.py": {
+      "original_sha256": "a5201b2e9bcddbbfee5b884d0de618174b0fc998fb9b4ab99c7530483a64e91d",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "tests/mechanism/test_probe_scoring.py": {
+      "original_sha256": "a0dc80bbf03d61361cc96c69f7195419242f8914be1bd06c5f64f652aea98828",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "tests/mechanism/test_analysis_equivalence.py": {
+      "original_sha256": "39219ffef10d83da6a129a84bd9ac31622fee7c0554dafcfe96892526c204448",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "tests/mechanism/test_activation_hooks.py": {
+      "original_sha256": "56f20a5d702e1f59a54e056dffd5610bd411bfc89bf2275a8af813245d3a3afb",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "tests/mechanism/test_intervention_plan.py": {
+      "original_sha256": "994ac4ecfa8909eace7c90ef572c81d00d4d2398e93b0a92e02807f33dff0fc0",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "tests/mechanism/test_module_swap.py": {
+      "original_sha256": "dad401f492cfc896f3b9ca011f0302ddaaa1be889a34ca16220f5b69c922ea54",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "tests/mechanism/test_activation_patching.py": {
+      "original_sha256": "d1d7363f0b0aceecf158e796503cff815058d1ca441b60127f06a93f6c166ff1",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "tests/mechanism/test_pipeline.py": {
+      "original_sha256": "16a5d4fa68922a0e83680f9d9ab85bb8e7de315b65778d90c56fce750a9aee02",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "tests/mechanism/test_impact_matrix.py": {
+      "original_sha256": "15a1926672109be41825aa294511677bc3716702bbd9f3dffc237608d55aa96e",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "scripts/preflight_gpu.py": {
+      "original_sha256": "b58631f7692acc32956a60eb3fc8244360e2bf9e438618df45872dabfe938367",
+      "publication_change": "Private path placeholders only, where present; selected scientific implementation/configuration"
+    },
+    "configs/mechanism/drift.yaml": {
+      "original_sha256": "cf6ed99b9b1ad9acc5ac0f4c83cb383b091b9321afc9e63dc0f016fcad1a46cb",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "configs/mechanism/probes.yaml": {
+      "original_sha256": "c6a7f79c61cbb37736fb747502d66b72cf06d3eca6a2c58788994f0613b84c02",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "configs/mechanism/module_swap_v1.json": {
+      "original_sha256": "ad063cb81e0e2e6f724b02bbd109f3c2d222d8d6b62ee0dcc18340b844449a37",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "configs/mechanism/patching.yaml": {
+      "original_sha256": "cb39181224b0c3da4a46de2d551ba8f1b28bf35509e9f051769727e7a4e90e5f",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "configs/mechanism/patching_selection_v1.json": {
+      "original_sha256": "41f3ae6b70bd3a6b11345b9d4dcc4cd99f065bda278e4baaa52321e3c5136ed1",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "research/mechanism/experiment_protocol.md": {
+      "original_sha256": "111bd452669a66ce13c29dbb3aab6c8d112c111099e0a4ff3d3c7663d15d7e46",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "research/mechanism/development_probes_v1.md": {
+      "original_sha256": "3c9558b52339d6263c3a0fca84e5f373f31389281c57380f03c45466069eed63",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "research/mechanism/activation_patching_v1.md": {
+      "original_sha256": "a7eb34f3f2f840979a3ec3159d94ed05228dac442f34ec01c2d8db747baaa49b",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "research/mechanism/asset_inventory.md": {
+      "original_sha256": "fa047d6f27070894c6213f3333871c6efa8f3f08f6776646ca7b0c71e5d364ea",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "results/mechanism/parameter_lora.csv": {
+      "original_sha256": "9642e270afbf823ee99d6ac231fb0fb669facec4b4d5e39e42d0d5c0a1c3c7b7",
+      "publication_change": "Selected descriptive parameter table; unchanged scientific rows"
+    },
+    "results/mechanism/parameter_full.csv": {
+      "original_sha256": "3c7878e7bd1dbf3ad8cefedfc9d72d0fd3ed727fc7004cb6b77572436675d9a7",
+      "publication_change": "Selected descriptive parameter table; unchanged scientific rows"
+    },
+    "results/mechanism/parameter_ssu.csv": {
+      "original_sha256": "4481232547351679a04497d3e9d8b298b02374b500e03bffec612ca7de9580c4",
+      "publication_change": "Selected descriptive parameter table; unchanged scientific rows"
+    },
+    "results/mechanism/activation_full.csv": {
+      "original_sha256": "5544a73479aaf7fe6b3204e3c55a6f84c2a60ba1c81edb4f1a72e81c8476c0ab",
+      "publication_change": "Selected same-input descriptive activation table, no operational metadata"
+    },
+    "results/mechanism/activation_lora.csv": {
+      "original_sha256": "f49e0b5475aadf5179ff7cbc3a2ab8b76365cbe6463bdcf578b0375d1dab1c45",
+      "publication_change": "Selected same-input descriptive activation table, no operational metadata"
+    },
+    "results/mechanism/activation_ssu.csv": {
+      "original_sha256": "5a70f3ba1898ecf2f0be9376d62eb83a1790dad786cafd21f4ea5294039ee590",
+      "publication_change": "Selected same-input descriptive activation table, no operational metadata"
+    },
+    "results/mechanism/activation_patching_full.csv": {
+      "original_sha256": "762b6adaa8bd14d203d76f372802c25d566913a1c13bf444a82f1e43614cef8a",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "results/mechanism/activation_patching_lora.csv": {
+      "original_sha256": "cc0ca4724095dd0006b4dc9433629a0a6013f4343adb72501442b502b24649cd",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "results/mechanism/activation_patching_ssu.csv": {
+      "original_sha256": "463c51439551a7348b2b8414311810c59795501786b87178d6f935839261b4ec",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "scripts/mechanism/plot_intervention_summary.py": {
+      "original_sha256": "1b55bbd496d4ef584f2bb7db5e7940cff3ca9437e003e56ed8d158ea90fb08d2",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "scripts/mechanism/diagnose_math_answers.py": {
+      "original_sha256": "5cc39229feb478991d6100e1247e6b1a215a423ff60e76320392b3525cfabfd8",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "tests/mechanism/test_math_response_diagnostic.py": {
+      "original_sha256": "b9cfead187d62a42f8af4f829ac9750be3704a89bf3860589b0434cbf4e42954",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "research/mechanism/README.md": {
+      "original_sha256": "11d5f6a5dd45d6529af9d50cc3b1a0f0dd2f321a865ee1591dc0edfb3485d43d",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "research/mechanism/mechanism_report.md": {
+      "original_sha256": "5967cc1de23517c62d3a7a846ee1e64fc00680779f9504b78a492bfcb2411844",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "results/mechanism/full_conditional_effects.csv": {
+      "original_sha256": "00d0d903f41769679a6fbbb077624cd49f2d54b9dfee3de418afbb4f5cb43b00",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "results/mechanism/full_interaction_contrasts.csv": {
+      "original_sha256": "36e85f2e743615417f0e87c147e5bf412fe152bc4b9bb949e66f6434d54e7065",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "results/mechanism/full_math_response_audit.json": {
+      "original_sha256": "9e7aa089df1d987923c418ecd24ba60143460e0fc181600c201fde49bdc35446",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "results/mechanism/full_conditional_effect_heatmap.svg": {
+      "original_sha256": "e9045738e6a4d96ea22053895534671f5fba910bd9658bcab0bd4dfbad486699",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "results/mechanism/full_reference_scores.json": {
+      "original_sha256": null,
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "results/mechanism/lora_conditional_effects.csv": {
+      "original_sha256": "c20922f46edde4bd62feeeca0a159ad2b758a109d0d5b105728abb393eb7924b",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "results/mechanism/lora_interaction_contrasts.csv": {
+      "original_sha256": "d3ab40a696e7673c4bd626008a7d5b0a4a3ea3b947ff002a0e0df4dc52b43dd5",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "results/mechanism/lora_math_response_audit.json": {
+      "original_sha256": "3ad417507bf4391d7723f1d19a2efcb90a824b317c1e0a241fb1612b13652222",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "results/mechanism/lora_conditional_effect_heatmap.svg": {
+      "original_sha256": "8bd9bffe8b02c6b6aebdee43dad26b979ba14bf64c9c28a919691602e4650743",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "results/mechanism/lora_reference_scores.json": {
+      "original_sha256": null,
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "results/mechanism/ssu_conditional_effects.csv": {
+      "original_sha256": "a3e1bdf11aa2d25ece71e4305c851b020836bde6e42b1c4c340da7c8e452d63b",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "results/mechanism/ssu_interaction_contrasts.csv": {
+      "original_sha256": "f324dd9b12de65aaa3cc030b05ee02b60b628dd2cdf2d0698e0c4da5ea520b43",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "results/mechanism/ssu_math_response_audit.json": {
+      "original_sha256": "0ea438875a55fb36081a9e90431774ca60df5464fac9f515d42cc83759aa855c",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "results/mechanism/ssu_conditional_effect_heatmap.svg": {
+      "original_sha256": "80a6fb38aa13860e25fa155a80bf4a6af768390a089281535ec59fc455032139",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "results/mechanism/ssu_reference_scores.json": {
+      "original_sha256": null,
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "results/mechanism/verification_summary.json": {
+      "original_sha256": null,
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "results/mechanism/report_figures/restore_vs_inject.svg": {
+      "original_sha256": "490298b1f84954bd1faa52e1e48b829d83a1099ea018cb781acd2d119ed71942",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "results/mechanism/report_figures/restore_vs_inject.csv": {
+      "original_sha256": "b89feacc4f20557a6dc17c910703b922b8f2646e2577d672aecf7be629843c88",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "results/mechanism/report_figures/protocol.json": {
+      "original_sha256": "55d656be86712507c5401de114045bcf00494fe98652fadfb95d6dd12ffa7c8f",
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "research/mechanism/morning_brief.md": {
+      "original_sha256": null,
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "results/mechanism/README.md": {
+      "original_sha256": null,
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "README.md": {
+      "original_sha256": null,
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "STATUS.md": {
+      "original_sha256": null,
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
+    },
+    "research/chatgpt_handoff.md": {
+      "original_sha256": null,
+      "publication_change": "Selected scientific artifact; private paths replaced where present; runtime management metadata excluded"
     }
   },
   "public_files": {
-    "README.md": {
-      "bytes": 2461,
-      "sha256": "0e1b0c48fcc51f86f21a65fb965f9f9e69f41a7ebb9442e76a116f16a39334b9"
-    },
-    "STATUS.md": {
-      "bytes": 638,
-      "sha256": "bc03ce431e735754b04404fc470ce474337f4ed45e30b37ba89970ebe61de0ab"
-    },
-    ".gitignore": {
-      "bytes": 74,
-      "sha256": "755ad3aa19b057fc90f883af75846e61edcff35eadd60a8a8ddbf9e2ef6c3487"
-    },
-    "results/legacy_track_b.json": {
-      "bytes": 27106,
-      "sha256": "8f68296c023457ac0be87e80f4efc919ecc2c0e40a860293506f3882771fa965"
-    },
-    "results/README.md": {
-      "bytes": 2299,
-      "sha256": "2237a13ae5dee9cfe2a219824bc6e4b14420ef03629315bbe66830aab16efcdd"
-    },
-    "results/baselines_seed42.csv": {
-      "bytes": 16323,
-      "sha256": "bd7f35e133848440aef3a8ff8071e1645430454eba3e8cf8a9ac3b87589896c7"
-    },
-    "results/baselines_current.csv": {
-      "bytes": 28828,
-      "sha256": "b65fd477616b741ffdc7ed35c93f906f011871dfc7cd5399337688ddfa69f7a1"
-    },
-    "results/baselines_seed42.json": {
-      "bytes": 32610,
-      "sha256": "7315c854789d7e1a518384a388d935272e752f55ea7582179b848b19ae2153a3"
-    },
-    "results/baselines_current.json": {
-      "bytes": 58364,
-      "sha256": "80e9cc2f38289b44135bd5eed282b0cc748cd42a7d8ab9204e373f90a0f26a36"
-    },
-    "results/legacy_track_b.csv": {
-      "bytes": 12393,
-      "sha256": "937f63989f7d9bc6b204e4044a29bc46119609fa432d2b5c39c4bd099012a7c5"
-    },
-    "results/diagnostics/translation_generation_seed42.json": {
-      "bytes": 36365,
-      "sha256": "fe77aadfbfa8be4823c212c30adc154d0d72f022aa4bfdfdb68a1ec40ce0905b"
-    },
-    "results/diagnostics/choice_labels_seed42.json": {
-      "bytes": 3088,
-      "sha256": "eacaf716d657d222774eeada32627a9ca2638a545f0d8dd19afe9b3bcb7ed05b"
-    },
-    "results/diagnostics/math_format_seed42.json": {
-      "bytes": 27226,
-      "sha256": "ed16a5ead34a40c13585ccbd9f167ecd7ac8e2766ec5a1203073a9c720f1a990"
-    },
-    "results/diagnostics/ifeval_instruction_types_seed42.json": {
-      "bytes": 78272,
-      "sha256": "f15dcbc59dde7d834a413c0ffa1cd05f7a3eb621072d33e57f0a0fd6c827df39"
-    },
-    "results/diagnostics/prox_generation_seed42.json": {
-      "bytes": 3305,
-      "sha256": "f0372a2ed921c8c4d826ac1bdeb006006d38b49a40fc74e8cc6bab16b5533e0b"
-    },
-    "research/chatgpt_handoff.md": {
-      "bytes": 6817,
-      "sha256": "452f46832f4b522b38bd8eb4f5242d4a99f0e8526b156df22a7526b519e81a0b"
-    },
-    "configs/mask_17b.lock.json": {
-      "bytes": 454,
-      "sha256": "1cf7143a805834caab66b3696e0cf34afeb47a52042b0ce83821385af67c0cc3"
-    },
-    "configs/sft_v1/formal_sw_full_seed42.yaml": {
-      "bytes": 1220,
-      "sha256": "b02a09c0afb341c5395f806d40aaf77e482d0523c95e780e89a2a2b2be58f520"
-    },
-    "configs/sft_v1/deepspeed_z3.json": {
-      "bytes": 551,
-      "sha256": "0c1ecdb498326ee1b733bc98adda7f5299b47eda2db6ec4ee29ec83f4ca23813"
-    },
-    "configs/sft_v1/formal_sw_lora_seed42.yaml": {
-      "bytes": 1275,
-      "sha256": "c69f148823756d097661b7700d03f8e9aabc3ec80184b8cc08cc7f6dbcf9f4bb"
-    },
-    "configs/sft_v1/formal_sw_ssu_seed42.yaml": {
-      "bytes": 1235,
-      "sha256": "7f3bd39ba9926ab127dd2265dfb2d123bb8213b1293a658d609fb8baa114110c"
-    },
-    "configs/sft_v1/stack.lock.json": {
-      "bytes": 452,
-      "sha256": "2f7d0317c03162894e14de50086f43718e82158736cb34f2d9f6cb9878874e10"
-    },
-    "configs/sft_v1/eval_tasks/ifeval.yaml": {
-      "bytes": 443,
-      "sha256": "fb492656b26d5bf2a719da7ebae0642e28615b6cc1a988472ac5ffa7396b7c9b"
-    },
-    "configs/sft_v1/eval_tasks/mgsm_sw.yaml": {
-      "bytes": 599,
-      "sha256": "36da893decde30baf2694a484bac260c930e2c290f31fa17ee576b96e80f0b62"
-    },
-    "configs/sft_v1/eval_tasks/benchmax_sw.yaml": {
-      "bytes": 292,
-      "sha256": "a4b53e6bfb2be2610afcfae34a0e663d7e740249988b9ae8c480e0f8693076ea"
-    },
-    "configs/sft_v1/eval_tasks/gsm8k.yaml": {
-      "bytes": 625,
-      "sha256": "4f5c375d7c46b3365c53245d71c58a7caf8ef58e10326b318280e7fb7b752070"
-    },
-    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_engineering.yaml": {
-      "bytes": 502,
-      "sha256": "74b1e9733ab53b9b9c5718e87e8fa1369c41f679d8143cc637e69522584d91e9"
-    },
-    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_psychology.yaml": {
-      "bytes": 500,
-      "sha256": "d7aabe5658521d3fe890e69e507021656d46a50175a35f59d7d3ee578ffd39b9"
-    },
-    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_computer_science.yaml": {
-      "bytes": 512,
-      "sha256": "6616db28533a8d42a1f1ce0c1fb09b96d1eafb169ccc81534a6581ff6b700259"
-    },
-    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_physics.yaml": {
-      "bytes": 494,
-      "sha256": "b4929c9081d3f6205bda95717f38cff8d97c0ffdd3992560344a45b7b2b95521"
-    },
-    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_math.yaml": {
-      "bytes": 488,
-      "sha256": "b6e47918bc06e3e649a41d5c9695b1400db099b4f6140a2f6b52a073648f1483"
-    },
-    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_chemistry.yaml": {
-      "bytes": 498,
-      "sha256": "051e50e53f07713b7d2b462dbac440e5263fe214551c1e3369e1e5a63edc6f72"
-    },
-    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_economics.yaml": {
-      "bytes": 498,
-      "sha256": "d1e98cb7bfa831e8e6fb3d183fdb39b75d937e75fa40c09f6fbc37301b3b7ba4"
-    },
-    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_history.yaml": {
-      "bytes": 494,
-      "sha256": "122795cfcfabc27b1ba77bdb056f3e53fd269124a1882e1c504aa7e6f5c5bd91"
-    },
-    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_other.yaml": {
-      "bytes": 490,
-      "sha256": "a65ca33a26f215c60eed0e43b2a9d81d74757a45e925af077527e56e504f4223"
-    },
-    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_law.yaml": {
-      "bytes": 486,
-      "sha256": "3f37dd9b81c04fc03a0dda1987ebc3c96115ad709b857e923e4e692617ae9bae"
-    },
-    "configs/sft_v1/eval_tasks/mmlu_prox/sw/_mmlu_prox_sw.yaml": {
-      "bytes": 610,
-      "sha256": "2f0551c8e25cee184623b20d0baeb23e0b20568bfecd0dc1240de03433d14b92"
-    },
-    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_biology.yaml": {
-      "bytes": 494,
-      "sha256": "712ae792672f9879abcde30e2763cbe9ce7298ec90df09da624956f5ec92e3e0"
-    },
-    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_health.yaml": {
-      "bytes": 492,
-      "sha256": "d70c44560b7bf463400b8099dccd4445ebe10528387f6baeff691a3b7639d8f5"
-    },
-    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_business.yaml": {
-      "bytes": 496,
-      "sha256": "f83dca27ba2b4e9f1e79d07dc24ff356a96681fdf3e24cde23ea88f13a5be9e9"
-    },
-    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_philosophy.yaml": {
-      "bytes": 500,
-      "sha256": "e5642eb190ad507919c5d07707c6b8bf7b1c8392594cb6acac40b8043993c080"
-    },
-    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_biology.yaml": {
-      "bytes": 494,
-      "sha256": "432033a77b5f9ea089ae3a53df0e384d6f8985156da1ea03e854fec377934876"
-    },
-    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_philosophy.yaml": {
-      "bytes": 500,
-      "sha256": "a650864d4b568a30f8ff17d7244a5554bb6b5b29efc0fff229f96480b98ec91f"
-    },
-    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_business.yaml": {
-      "bytes": 496,
-      "sha256": "06d33cc18c97b4d90028309476ba92f52b48e7896b0f3cc1b8832aa466522489"
-    },
-    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_law.yaml": {
-      "bytes": 486,
-      "sha256": "7ea73bbbb1d64d97199afba6641e688040fcb0435317451d1ff631f6f7d6cef6"
-    },
-    "configs/sft_v1/eval_tasks/mmlu_prox/en/_mmlu_prox_en.yaml": {
-      "bytes": 610,
-      "sha256": "9161fa5bd24304ec27639a8e20490b38cf73701905dbeb127c2520e1bd04dff7"
-    },
-    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_history.yaml": {
-      "bytes": 494,
-      "sha256": "7823985ed2e4c4177031e31432c2b4fa22770fd8718fcddc387b49fc3935ee14"
-    },
-    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_other.yaml": {
-      "bytes": 490,
-      "sha256": "934bdbccd5031841bbffc7024da30bfcf252b2deadf5f5e6ae6704b25d959f28"
-    },
-    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_computer_science.yaml": {
-      "bytes": 512,
-      "sha256": "9f2248c190daa3bb85ee3b23f612c5e8ab085fe77e22b667455324a02945cbbd"
-    },
-    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_engineering.yaml": {
-      "bytes": 502,
-      "sha256": "3739ca9e75daab82969738d3fa668f60a65033cb0ee50c8ea08cb973c459e0b8"
-    },
-    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_health.yaml": {
-      "bytes": 492,
-      "sha256": "5f9234ea60d514cf7cfa7b8df86b9365fb487b8a82f2384eff544b4e990ccd35"
-    },
-    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_physics.yaml": {
-      "bytes": 494,
-      "sha256": "0c1d7330e9a7be69130cdac9800fe8ada57e292cbd9695d90b275f96e83d3572"
-    },
-    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_economics.yaml": {
-      "bytes": 498,
-      "sha256": "07ee220de88a133f04a2b04956c946fec5ab12a4b823f8b0d057e6f0ea6131d8"
-    },
-    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_math.yaml": {
-      "bytes": 488,
-      "sha256": "e72ae4c2f627973f35c597161194d550ff54fd24abe0a2aca735594eef75d41f"
-    },
-    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_psychology.yaml": {
-      "bytes": 500,
-      "sha256": "7c88caf67a12f94ab42e51c47189125bc53e4e821fa67cff9e22d2cad6f1123b"
-    },
-    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_chemistry.yaml": {
-      "bytes": 498,
-      "sha256": "ed054fb2ad1ac955a2aac24277174189b620238ab001753223e91500d3f063d6"
-    },
-    "configs/eval_tasks/gsm8k_locked.yaml": {
-      "bytes": 699,
-      "sha256": "16380c2a364529fafd268c142ab8abb8d7ead2d5d838e173bb02079f97c01e06"
-    },
-    "configs/eval_tasks/belebele_eng_Latn_locked.yaml": {
-      "bytes": 175,
-      "sha256": "09a9f6efbb6ab5983b9da7013c9191f90d5c572f5b8dc85d9b84db952328226b"
-    },
-    "configs/eval_tasks/ifeval_locked.yaml": {
-      "bytes": 421,
-      "sha256": "278be3d539163b882890ce05dc65e909f37e462c9812e4b74289024b2b2d0350"
-    },
-    "configs/eval_tasks/belebele_swh_Latn_locked.yaml": {
-      "bytes": 175,
-      "sha256": "8f721cce792f49c7607b0c2ce52f1577c9fd5cee77e47ea6d0de8225409f2b5a"
-    },
-    "configs/eval_tasks/_belebele_locked_base.yaml": {
-      "bytes": 662,
-      "sha256": "0634916091a6aa37684ac9e01198ec797cd2e487963171fe2ba4887306489fb4"
-    },
-    "scripts/prepare_ssu_calibration.py": {
-      "bytes": 4655,
-      "sha256": "96e4393b0eaed2f7b6b2b1d255f877308a1874f3c6cf98beaa5a6d7effe13210"
-    },
-    "scripts/evaluate_flores_17b.py": {
-      "bytes": 321,
-      "sha256": "a433e13d373678892c1463a4ba84816fb8c10af1484158d7bc914d5721df146f"
-    },
-    "scripts/audit_flores.py": {
-      "bytes": 2650,
-      "sha256": "0ac4daa121135f4915bf204093835e0b40f40218d07a955011287b6e46d54bd0"
-    },
-    "scripts/build_ssu_wanda_mask.py": {
-      "bytes": 8964,
-      "sha256": "a1717fc36aa9a38859cf80a709ac9d7a46c9f0af1bd6a397304f9b4931965a4c"
-    },
-    "scripts/audit_ifeval.py": {
-      "bytes": 2414,
-      "sha256": "ac8ff20dc0a80e5a95b5c9196d90434df9e9c596a1cce1d81475a51639f85da0"
-    },
-    "scripts/ssu_mask_adapter.py": {
-      "bytes": 2261,
-      "sha256": "11853f10fd169590de1d7380cb22463b72c51bd2aa6532431a4ac540d95fb654"
-    },
-    "scripts/audit_training_tokens.py": {
-      "bytes": 4253,
-      "sha256": "0bd0b87bf9255b465b78982e2b187a3c2cd7f1a105675ac08876b1392d9aba07"
-    },
-    "scripts/evaluate_flores.py": {
-      "bytes": 6041,
-      "sha256": "0d1cf9e01032ebf42b892585a6764a0dbe38945690c8a1ad8b5c160645820933"
-    },
-    "scripts/audit_harness_accuracy.py": {
-      "bytes": 3051,
-      "sha256": "0040ffe6e608dae65c11886b7170a8d3f5e8a8e960a005eb0cf8e055bdbb835a"
-    },
-    "scripts/check_final_model.py": {
-      "bytes": 6005,
-      "sha256": "c18d84c720e65f1ede531d306222d1e93c43b39bcca2ec81b3a7d21a993d46ae"
-    },
-    "scripts/audit_gsm8k.py": {
-      "bytes": 4333,
-      "sha256": "0c4a94d779648e5d7ef469dac825d294868eada6bde9b8b8ecc168a030876409"
-    },
-    "scripts/materialize_mmlu_tasks.py": {
-      "bytes": 3126,
-      "sha256": "3476b15fc9b6b3c405dbb00e8b6aae82725131e9ecbf72c13e5e91ce4ee82ce7"
-    },
-    "scripts/audit_ssu_weight_delta.py": {
-      "bytes": 2818,
-      "sha256": "84f0f64b80f0390f1beeac6f5cb9f0047cd1dd28ec0cebf2656ac9258ed7d6b0"
-    },
-    "scripts/sft_v1/train_ssu.py": {
-      "bytes": 2529,
-      "sha256": "fa4e3bb65f65b727046d5b7621af7a77f68c489beffc8632cd9bc6e1304aaba3"
-    },
-    "scripts/sft_v1/paired_core_changes.py": {
-      "bytes": 9686,
-      "sha256": "58459fb89040e57e2852ab7a547a17f08d0fe4087f58ff393708e3202c1d2b2b"
-    },
-    "scripts/sft_v1/analyze_translation_outputs.py": {
-      "bytes": 5415,
-      "sha256": "4e2b2a074e8e28254023997f8282f7dc4e80bb2b4b222ed6900c531bd231c702"
-    },
-    "scripts/sft_v1/audit_core.py": {
-      "bytes": 4706,
-      "sha256": "27445576756770ce9013ca0fc38571f7d1f627daca6ef6b7fa459998be988af3"
-    },
-    "scripts/sft_v1/check_cpuadam_resume.py": {
-      "bytes": 3306,
-      "sha256": "bc35cb0c52e0b2854c11bc841ec27ccf59b552b2ddfd896774f59144f6d10895"
-    },
-    "scripts/sft_v1/vllm_compat.py": {
-      "bytes": 1154,
-      "sha256": "579c7df59e1f758ad0fb2fa8f59ed14fa8a3201c6517b813e58a1f97c04952dd"
-    },
-    "scripts/sft_v1/train.py": {
-      "bytes": 4000,
-      "sha256": "c4f4528de81eb2ec154f4af6cc2d1497b3a192fdf74dcbea708d1175012fef7c"
-    },
-    "scripts/sft_v1/analyze_ifeval_errors.py": {
-      "bytes": 3907,
-      "sha256": "5a1e01e8d1a21b0495af25f59269337ff6f64c6ed34f2673e3441d785cbabd82"
-    },
-    "scripts/sft_v1/analyze_math_format.py": {
-      "bytes": 4502,
-      "sha256": "16fa389e47193d621ac1a99b50eceef5edde37e3387a5afc312feb1866acea2e"
-    },
-    "scripts/sft_v1/export_baselines.py": {
-      "bytes": 40224,
-      "sha256": "c04f219d6242e7d1c780341604a4c13d30844dcbe4e53d9dde1ee960252ae4c6"
-    },
-    "scripts/sft_v1/train_formal.py": {
-      "bytes": 3689,
-      "sha256": "48a466bdf75f0a88c10d19502a9b9c364e7ceae65f265f1b3400b1fcdc6a9534"
-    },
-    "scripts/sft_v1/export_legacy_baselines.py": {
-      "bytes": 8325,
-      "sha256": "723805dd88067dada579660308ec59eecbfeaa2e1ffac608dbc2731e1d8f33ab"
-    },
-    "scripts/sft_v1/train_resume_safe.py": {
-      "bytes": 9367,
-      "sha256": "1a2efef1aec82def135d12594a9032707ff619244487dd9c8bc48d46c864fd76"
-    },
-    "scripts/sft_v1/prepare_aya.py": {
-      "bytes": 10323,
-      "sha256": "5abf02654cb6cf0658616b0279988aa816bbeeddb349403955b0e096519ef2cd"
-    },
-    "scripts/sft_v1/harness.py": {
-      "bytes": 1686,
-      "sha256": "adf676d482df09578d12ccd0a916d61ee796c23affae818f41f9c6ea0778f1c1"
-    },
-    "configs/deepspeed_z2_cpu_offload.json": {
-      "bytes": 594,
-      "sha256": "0f24bc34218e099cec48cc2722993f1b1bdfb8f97e9d86a56af8a6f4824390c4"
-    },
-    "configs/flores_sw_en_500_seed42.json": {
-      "bytes": 4926,
-      "sha256": "85a8d82490b6056689d7391c6f1ad5bbc9feb8ae71049ea99e76deec27002816"
-    }
+    ".gitignore": "755ad3aa19b057fc90f883af75846e61edcff35eadd60a8a8ddbf9e2ef6c3487",
+    "README.md": "f2f826f5e00b2d98c75c93f4cd058be60c02ff5a327c9726f28de501c6465a42",
+    "STATUS.md": "29ab2ad9d1e2ed19eb84f53f18509b71a932bd6bfc30534c20ecbd6168afa4be",
+    "configs/deepspeed_z2_cpu_offload.json": "0f24bc34218e099cec48cc2722993f1b1bdfb8f97e9d86a56af8a6f4824390c4",
+    "configs/eval_tasks/_belebele_locked_base.yaml": "0634916091a6aa37684ac9e01198ec797cd2e487963171fe2ba4887306489fb4",
+    "configs/eval_tasks/belebele_eng_Latn_locked.yaml": "09a9f6efbb6ab5983b9da7013c9191f90d5c572f5b8dc85d9b84db952328226b",
+    "configs/eval_tasks/belebele_swh_Latn_locked.yaml": "8f721cce792f49c7607b0c2ce52f1577c9fd5cee77e47ea6d0de8225409f2b5a",
+    "configs/eval_tasks/gsm8k_locked.yaml": "16380c2a364529fafd268c142ab8abb8d7ead2d5d838e173bb02079f97c01e06",
+    "configs/eval_tasks/ifeval_locked.yaml": "278be3d539163b882890ce05dc65e909f37e462c9812e4b74289024b2b2d0350",
+    "configs/flores_sw_en_500_seed42.json": "85a8d82490b6056689d7391c6f1ad5bbc9feb8ae71049ea99e76deec27002816",
+    "configs/mask_17b.lock.json": "1cf7143a805834caab66b3696e0cf34afeb47a52042b0ce83821385af67c0cc3",
+    "configs/mechanism/drift.yaml": "cf6ed99b9b1ad9acc5ac0f4c83cb383b091b9321afc9e63dc0f016fcad1a46cb",
+    "configs/mechanism/module_swap_v1.json": "ad063cb81e0e2e6f724b02bbd109f3c2d222d8d6b62ee0dcc18340b844449a37",
+    "configs/mechanism/patching.yaml": "cb39181224b0c3da4a46de2d551ba8f1b28bf35509e9f051769727e7a4e90e5f",
+    "configs/mechanism/patching_selection_v1.json": "41f3ae6b70bd3a6b11345b9d4dcc4cd99f065bda278e4baaa52321e3c5136ed1",
+    "configs/mechanism/probes.yaml": "c6a7f79c61cbb37736fb747502d66b72cf06d3eca6a2c58788994f0613b84c02",
+    "configs/sft_v1/deepspeed_z3.json": "0c1ecdb498326ee1b733bc98adda7f5299b47eda2db6ec4ee29ec83f4ca23813",
+    "configs/sft_v1/eval_tasks/benchmax_sw.yaml": "a4b53e6bfb2be2610afcfae34a0e663d7e740249988b9ae8c480e0f8693076ea",
+    "configs/sft_v1/eval_tasks/gsm8k.yaml": "4f5c375d7c46b3365c53245d71c58a7caf8ef58e10326b318280e7fb7b752070",
+    "configs/sft_v1/eval_tasks/ifeval.yaml": "fb492656b26d5bf2a719da7ebae0642e28615b6cc1a988472ac5ffa7396b7c9b",
+    "configs/sft_v1/eval_tasks/mgsm_sw.yaml": "36da893decde30baf2694a484bac260c930e2c290f31fa17ee576b96e80f0b62",
+    "configs/sft_v1/eval_tasks/mmlu_prox/en/_mmlu_prox_en.yaml": "9161fa5bd24304ec27639a8e20490b38cf73701905dbeb127c2520e1bd04dff7",
+    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_biology.yaml": "432033a77b5f9ea089ae3a53df0e384d6f8985156da1ea03e854fec377934876",
+    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_business.yaml": "06d33cc18c97b4d90028309476ba92f52b48e7896b0f3cc1b8832aa466522489",
+    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_chemistry.yaml": "ed054fb2ad1ac955a2aac24277174189b620238ab001753223e91500d3f063d6",
+    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_computer_science.yaml": "9f2248c190daa3bb85ee3b23f612c5e8ab085fe77e22b667455324a02945cbbd",
+    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_economics.yaml": "07ee220de88a133f04a2b04956c946fec5ab12a4b823f8b0d057e6f0ea6131d8",
+    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_engineering.yaml": "3739ca9e75daab82969738d3fa668f60a65033cb0ee50c8ea08cb973c459e0b8",
+    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_health.yaml": "5f9234ea60d514cf7cfa7b8df86b9365fb487b8a82f2384eff544b4e990ccd35",
+    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_history.yaml": "7823985ed2e4c4177031e31432c2b4fa22770fd8718fcddc387b49fc3935ee14",
+    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_law.yaml": "7ea73bbbb1d64d97199afba6641e688040fcb0435317451d1ff631f6f7d6cef6",
+    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_math.yaml": "e72ae4c2f627973f35c597161194d550ff54fd24abe0a2aca735594eef75d41f",
+    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_other.yaml": "934bdbccd5031841bbffc7024da30bfcf252b2deadf5f5e6ae6704b25d959f28",
+    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_philosophy.yaml": "a650864d4b568a30f8ff17d7244a5554bb6b5b29efc0fff229f96480b98ec91f",
+    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_physics.yaml": "0c1d7330e9a7be69130cdac9800fe8ada57e292cbd9695d90b275f96e83d3572",
+    "configs/sft_v1/eval_tasks/mmlu_prox/en/mmlu_prox_en_psychology.yaml": "7c88caf67a12f94ab42e51c47189125bc53e4e821fa67cff9e22d2cad6f1123b",
+    "configs/sft_v1/eval_tasks/mmlu_prox/sw/_mmlu_prox_sw.yaml": "2f0551c8e25cee184623b20d0baeb23e0b20568bfecd0dc1240de03433d14b92",
+    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_biology.yaml": "712ae792672f9879abcde30e2763cbe9ce7298ec90df09da624956f5ec92e3e0",
+    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_business.yaml": "f83dca27ba2b4e9f1e79d07dc24ff356a96681fdf3e24cde23ea88f13a5be9e9",
+    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_chemistry.yaml": "051e50e53f07713b7d2b462dbac440e5263fe214551c1e3369e1e5a63edc6f72",
+    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_computer_science.yaml": "6616db28533a8d42a1f1ce0c1fb09b96d1eafb169ccc81534a6581ff6b700259",
+    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_economics.yaml": "d1e98cb7bfa831e8e6fb3d183fdb39b75d937e75fa40c09f6fbc37301b3b7ba4",
+    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_engineering.yaml": "74b1e9733ab53b9b9c5718e87e8fa1369c41f679d8143cc637e69522584d91e9",
+    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_health.yaml": "d70c44560b7bf463400b8099dccd4445ebe10528387f6baeff691a3b7639d8f5",
+    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_history.yaml": "122795cfcfabc27b1ba77bdb056f3e53fd269124a1882e1c504aa7e6f5c5bd91",
+    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_law.yaml": "3f37dd9b81c04fc03a0dda1987ebc3c96115ad709b857e923e4e692617ae9bae",
+    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_math.yaml": "b6e47918bc06e3e649a41d5c9695b1400db099b4f6140a2f6b52a073648f1483",
+    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_other.yaml": "a65ca33a26f215c60eed0e43b2a9d81d74757a45e925af077527e56e504f4223",
+    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_philosophy.yaml": "e5642eb190ad507919c5d07707c6b8bf7b1c8392594cb6acac40b8043993c080",
+    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_physics.yaml": "b4929c9081d3f6205bda95717f38cff8d97c0ffdd3992560344a45b7b2b95521",
+    "configs/sft_v1/eval_tasks/mmlu_prox/sw/mmlu_prox_sw_psychology.yaml": "d7aabe5658521d3fe890e69e507021656d46a50175a35f59d7d3ee578ffd39b9",
+    "configs/sft_v1/formal_sw_full_seed42.yaml": "b02a09c0afb341c5395f806d40aaf77e482d0523c95e780e89a2a2b2be58f520",
+    "configs/sft_v1/formal_sw_lora_seed42.yaml": "c69f148823756d097661b7700d03f8e9aabc3ec80184b8cc08cc7f6dbcf9f4bb",
+    "configs/sft_v1/formal_sw_ssu_seed42.yaml": "7f3bd39ba9926ab127dd2265dfb2d123bb8213b1293a658d609fb8baa114110c",
+    "configs/sft_v1/stack.lock.json": "2f7d0317c03162894e14de50086f43718e82158736cb34f2d9f6cb9878874e10",
+    "research/chatgpt_handoff.md": "57dc26821dfe0b8119b71eda50990b203dd5bdca53503f9b3e8d3097318af115",
+    "research/mechanism/README.md": "d5433a8552e442b6d759501513fb150a39c2a72c65462897f7fb3180aefe0c7e",
+    "research/mechanism/activation_patching_v1.md": "a7eb34f3f2f840979a3ec3159d94ed05228dac442f34ec01c2d8db747baaa49b",
+    "research/mechanism/asset_inventory.md": "fa047d6f27070894c6213f3333871c6efa8f3f08f6776646ca7b0c71e5d364ea",
+    "research/mechanism/development_probe_manifest.json": "6ccb6fafea75c403c2189f20511e249940cc90edc458cafec684383047829544",
+    "research/mechanism/development_probes_v1.md": "3c9558b52339d6263c3a0fca84e5f373f31389281c57380f03c45466069eed63",
+    "research/mechanism/experiment_protocol.md": "111bd452669a66ce13c29dbb3aab6c8d112c111099e0a4ff3d3c7663d15d7e46",
+    "research/mechanism/mechanism_report.md": "1cb50471640802c7b3f7b418c869e6938e22039c2c7eced2f3116611cc487777",
+    "research/mechanism/morning_brief.md": "22b571c5334a0e0be2ade1aec581729c6f913ebc1fce20e27e3e761472b1d68c",
+    "results/README.md": "2237a13ae5dee9cfe2a219824bc6e4b14420ef03629315bbe66830aab16efcdd",
+    "results/baselines_current.csv": "b65fd477616b741ffdc7ed35c93f906f011871dfc7cd5399337688ddfa69f7a1",
+    "results/baselines_current.json": "80e9cc2f38289b44135bd5eed282b0cc748cd42a7d8ab9204e373f90a0f26a36",
+    "results/baselines_seed42.csv": "bd7f35e133848440aef3a8ff8071e1645430454eba3e8cf8a9ac3b87589896c7",
+    "results/baselines_seed42.json": "7315c854789d7e1a518384a388d935272e752f55ea7582179b848b19ae2153a3",
+    "results/diagnostics/choice_labels_seed42.json": "eacaf716d657d222774eeada32627a9ca2638a545f0d8dd19afe9b3bcb7ed05b",
+    "results/diagnostics/ifeval_instruction_types_seed42.json": "f15dcbc59dde7d834a413c0ffa1cd05f7a3eb621072d33e57f0a0fd6c827df39",
+    "results/diagnostics/math_format_seed42.json": "ed16a5ead34a40c13585ccbd9f167ecd7ac8e2766ec5a1203073a9c720f1a990",
+    "results/diagnostics/prox_generation_seed42.json": "f0372a2ed921c8c4d826ac1bdeb006006d38b49a40fc74e8cc6bab16b5533e0b",
+    "results/diagnostics/translation_generation_seed42.json": "fe77aadfbfa8be4823c212c30adc154d0d72f022aa4bfdfdb68a1ec40ce0905b",
+    "results/legacy_track_b.csv": "937f63989f7d9bc6b204e4044a29bc46119609fa432d2b5c39c4bd099012a7c5",
+    "results/legacy_track_b.json": "8f68296c023457ac0be87e80f4efc919ecc2c0e40a860293506f3882771fa965",
+    "results/mechanism/README.md": "ad3dfd4cbe68c629bc4025f6e7e55f306b758585b02934c2e856f75ecbeb8a42",
+    "results/mechanism/activation_full.csv": "5544a73479aaf7fe6b3204e3c55a6f84c2a60ba1c81edb4f1a72e81c8476c0ab",
+    "results/mechanism/activation_lora.csv": "f49e0b5475aadf5179ff7cbc3a2ab8b76365cbe6463bdcf578b0375d1dab1c45",
+    "results/mechanism/activation_patching_full.csv": "43b9d7e6952f9fba4e80895f0a31b4c8dae45c24b217ce92d183f4cd867c6af3",
+    "results/mechanism/activation_patching_lora.csv": "53c6930128c9d8ce937d0014b3c75ce80a00a108da66116d0f777e801ac8163d",
+    "results/mechanism/activation_patching_ssu.csv": "1a20495540798e8c0087796481fbc208d18da5fe33e62476eae4f746ead34f4e",
+    "results/mechanism/activation_ssu.csv": "5a70f3ba1898ecf2f0be9376d62eb83a1790dad786cafd21f4ea5294039ee590",
+    "results/mechanism/full_conditional_effect_heatmap.svg": "e9045738e6a4d96ea22053895534671f5fba910bd9658bcab0bd4dfbad486699",
+    "results/mechanism/full_conditional_effects.csv": "db5d58da6a6df8f836df75ac73c4b8200b60b1f1334516f9454ede37d5c2994c",
+    "results/mechanism/full_interaction_contrasts.csv": "ca27e8b1bd17889b3b6b9d6fdfb311e2e32725e3c3e2ef81f6abcdc3d9d3bdc9",
+    "results/mechanism/full_math_response_audit.json": "9e7aa089df1d987923c418ecd24ba60143460e0fc181600c201fde49bdc35446",
+    "results/mechanism/full_reference_scores.json": "0f9dcd92d219bc138fd0338846366b61448a14412de45b7061a6bbd6b56882aa",
+    "results/mechanism/lora_conditional_effect_heatmap.svg": "8bd9bffe8b02c6b6aebdee43dad26b979ba14bf64c9c28a919691602e4650743",
+    "results/mechanism/lora_conditional_effects.csv": "53e55aab4c45e945525c6705a7e2eef0b19c679545a16b122e107ea788d3ca2a",
+    "results/mechanism/lora_interaction_contrasts.csv": "474aa8be50a4bcbaef439d99514a19c0318af8483886b0ae0f5de55a8367c57a",
+    "results/mechanism/lora_math_response_audit.json": "3ad417507bf4391d7723f1d19a2efcb90a824b317c1e0a241fb1612b13652222",
+    "results/mechanism/lora_reference_scores.json": "cb2bd1b7181bc27c017fdd8212ff3d69bf5b982b50d89497c3e7ed1854788105",
+    "results/mechanism/parameter_full.csv": "3c7878e7bd1dbf3ad8cefedfc9d72d0fd3ed727fc7004cb6b77572436675d9a7",
+    "results/mechanism/parameter_lora.csv": "9642e270afbf823ee99d6ac231fb0fb669facec4b4d5e39e42d0d5c0a1c3c7b7",
+    "results/mechanism/parameter_ssu.csv": "4481232547351679a04497d3e9d8b298b02374b500e03bffec612ca7de9580c4",
+    "results/mechanism/report_figures/protocol.json": "55d656be86712507c5401de114045bcf00494fe98652fadfb95d6dd12ffa7c8f",
+    "results/mechanism/report_figures/restore_vs_inject.csv": "2bd829bec491364fcf6d5da6f0b9f2dd5212afeb9ce00637c7e21a1c20fa3f88",
+    "results/mechanism/report_figures/restore_vs_inject.svg": "490298b1f84954bd1faa52e1e48b829d83a1099ea018cb781acd2d119ed71942",
+    "results/mechanism/ssu_conditional_effect_heatmap.svg": "80a6fb38aa13860e25fa155a80bf4a6af768390a089281535ec59fc455032139",
+    "results/mechanism/ssu_conditional_effects.csv": "e5e42658cd9846508d5a62e89d5d857886285a2f376e668180bd4dbd0b9c2608",
+    "results/mechanism/ssu_interaction_contrasts.csv": "50d6b505f5caf2b6a1d76342402bdf02e73b9a0a3c616be2ad3ece955f935923",
+    "results/mechanism/ssu_math_response_audit.json": "0ea438875a55fb36081a9e90431774ca60df5464fac9f515d42cc83759aa855c",
+    "results/mechanism/ssu_reference_scores.json": "dc92f39c5139a224942d392de745a6019a956d26b93431801b560f679a4cad27",
+    "results/mechanism/verification_summary.json": "f68049875f74ae09542b6cbc4a4b0acc260354464f168fac0c16e98da04ecc39",
+    "scripts/audit_flores.py": "0ac4daa121135f4915bf204093835e0b40f40218d07a955011287b6e46d54bd0",
+    "scripts/audit_gsm8k.py": "0c4a94d779648e5d7ef469dac825d294868eada6bde9b8b8ecc168a030876409",
+    "scripts/audit_harness_accuracy.py": "0040ffe6e608dae65c11886b7170a8d3f5e8a8e960a005eb0cf8e055bdbb835a",
+    "scripts/audit_ifeval.py": "ac8ff20dc0a80e5a95b5c9196d90434df9e9c596a1cce1d81475a51639f85da0",
+    "scripts/audit_ssu_weight_delta.py": "84f0f64b80f0390f1beeac6f5cb9f0047cd1dd28ec0cebf2656ac9258ed7d6b0",
+    "scripts/audit_training_tokens.py": "0bd0b87bf9255b465b78982e2b187a3c2cd7f1a105675ac08876b1392d9aba07",
+    "scripts/build_ssu_wanda_mask.py": "a1717fc36aa9a38859cf80a709ac9d7a46c9f0af1bd6a397304f9b4931965a4c",
+    "scripts/check_final_model.py": "c18d84c720e65f1ede531d306222d1e93c43b39bcca2ec81b3a7d21a993d46ae",
+    "scripts/evaluate_flores.py": "0d1cf9e01032ebf42b892585a6764a0dbe38945690c8a1ad8b5c160645820933",
+    "scripts/evaluate_flores_17b.py": "a433e13d373678892c1463a4ba84816fb8c10af1484158d7bc914d5721df146f",
+    "scripts/materialize_mmlu_tasks.py": "3476b15fc9b6b3c405dbb00e8b6aae82725131e9ecbf72c13e5e91ce4ee82ce7",
+    "scripts/mechanism/activation_patching.py": "286962a800e821ff7e231667553a2b69ba046d11ddec90fa0534e1b551da8304",
+    "scripts/mechanism/activations.py": "9c5fb9452e48c7878db8afc6795e87142c7fb5ceb901244bc57116b649f4b917",
+    "scripts/mechanism/analyze_interventions.py": "5b481a28766480d43b5fb2254e72be4ec01fbf59b7cdacf3d4cad3e9cd76e0cf",
+    "scripts/mechanism/audit_activation_drift.py": "9dbdbde03b0c6dad4cedeb6476c36bce0b5112890e5f30184781f77a9c0761f1",
+    "scripts/mechanism/audit_parameter_drift.py": "ac3cea9438739ea92e306096b3c12919f05e119ba8ced0c5873c26b4bb98654b",
+    "scripts/mechanism/build_impact_matrix.py": "e1c099258bed9cd73a5edb605817628ff0808940c9f83baffa7579215d1715e9",
+    "scripts/mechanism/diagnose_math_answers.py": "5cc39229feb478991d6100e1247e6b1a215a423ff60e76320392b3525cfabfd8",
+    "scripts/mechanism/evaluate_probes.py": "b0c834c6f2725a39dc058b94fddea2155339c861a8486cce931cd53c20c5491e",
+    "scripts/mechanism/inference.py": "76ff7b93ebb55696b5ab76898489a76f5988c12357a405351241c8de2c4923c2",
+    "scripts/mechanism/module_swap.py": "ec29151b743c9ca08b5f00b73ab53421da10f07b94bacb6ccfd086793ee97dd3",
+    "scripts/mechanism/plot_intervention_summary.py": "1b55bbd496d4ef584f2bb7db5e7940cff3ca9437e003e56ed8d158ea90fb08d2",
+    "scripts/mechanism/prepare_probes.py": "84ff3071f429dba6f3a8d501d92683508853040f677caf0a32f8bff1a70b813c",
+    "scripts/mechanism/probes.py": "f22af10b3f02a71fb2b8aa455fd92a397ff4db23a21e86b751642f5d9a672a7f",
+    "scripts/mechanism/smoke.py": "739281a7f6ef1aa08fd82631372b1d399ccbea6ea68609f6100fac7ff341bec7",
+    "scripts/mechanism/weights.py": "604dc34f3f22411a732eb13181debc9c58d9af30c623218606d66bf726c972a3",
+    "scripts/preflight_gpu.py": "b58631f7692acc32956a60eb3fc8244360e2bf9e438618df45872dabfe938367",
+    "scripts/prepare_ssu_calibration.py": "96e4393b0eaed2f7b6b2b1d255f877308a1874f3c6cf98beaa5a6d7effe13210",
+    "scripts/sft_v1/analyze_ifeval_errors.py": "5a1e01e8d1a21b0495af25f59269337ff6f64c6ed34f2673e3441d785cbabd82",
+    "scripts/sft_v1/analyze_math_format.py": "16fa389e47193d621ac1a99b50eceef5edde37e3387a5afc312feb1866acea2e",
+    "scripts/sft_v1/analyze_translation_outputs.py": "4e2b2a074e8e28254023997f8282f7dc4e80bb2b4b222ed6900c531bd231c702",
+    "scripts/sft_v1/audit_core.py": "27445576756770ce9013ca0fc38571f7d1f627daca6ef6b7fa459998be988af3",
+    "scripts/sft_v1/check_cpuadam_resume.py": "bc35cb0c52e0b2854c11bc841ec27ccf59b552b2ddfd896774f59144f6d10895",
+    "scripts/sft_v1/export_baselines.py": "c04f219d6242e7d1c780341604a4c13d30844dcbe4e53d9dde1ee960252ae4c6",
+    "scripts/sft_v1/export_legacy_baselines.py": "723805dd88067dada579660308ec59eecbfeaa2e1ffac608dbc2731e1d8f33ab",
+    "scripts/sft_v1/harness.py": "adf676d482df09578d12ccd0a916d61ee796c23affae818f41f9c6ea0778f1c1",
+    "scripts/sft_v1/paired_core_changes.py": "58459fb89040e57e2852ab7a547a17f08d0fe4087f58ff393708e3202c1d2b2b",
+    "scripts/sft_v1/prepare_aya.py": "5abf02654cb6cf0658616b0279988aa816bbeeddb349403955b0e096519ef2cd",
+    "scripts/sft_v1/train.py": "c4f4528de81eb2ec154f4af6cc2d1497b3a192fdf74dcbea708d1175012fef7c",
+    "scripts/sft_v1/train_formal.py": "48a466bdf75f0a88c10d19502a9b9c364e7ceae65f265f1b3400b1fcdc6a9534",
+    "scripts/sft_v1/train_resume_safe.py": "1a2efef1aec82def135d12594a9032707ff619244487dd9c8bc48d46c864fd76",
+    "scripts/sft_v1/train_ssu.py": "fa4e3bb65f65b727046d5b7621af7a77f68c489beffc8632cd9bc6e1304aaba3",
+    "scripts/sft_v1/vllm_compat.py": "579c7df59e1f758ad0fb2fa8f59ed14fa8a3201c6517b813e58a1f97c04952dd",
+    "scripts/ssu_mask_adapter.py": "11853f10fd169590de1d7380cb22463b72c51bd2aa6532431a4ac540d95fb654",
+    "tests/mechanism/test_activation_hooks.py": "56f20a5d702e1f59a54e056dffd5610bd411bfc89bf2275a8af813245d3a3afb",
+    "tests/mechanism/test_activation_patching.py": "d1d7363f0b0aceecf158e796503cff815058d1ca441b60127f06a93f6c166ff1",
+    "tests/mechanism/test_analysis_equivalence.py": "39219ffef10d83da6a129a84bd9ac31622fee7c0554dafcfe96892526c204448",
+    "tests/mechanism/test_impact_matrix.py": "15a1926672109be41825aa294511677bc3716702bbd9f3dffc237608d55aa96e",
+    "tests/mechanism/test_intervention_plan.py": "994ac4ecfa8909eace7c90ef572c81d00d4d2398e93b0a92e02807f33dff0fc0",
+    "tests/mechanism/test_math_response_diagnostic.py": "b9cfead187d62a42f8af4f829ac9750be3704a89bf3860589b0434cbf4e42954",
+    "tests/mechanism/test_module_swap.py": "dad401f492cfc896f3b9ca011f0302ddaaa1be889a34ca16220f5b69c922ea54",
+    "tests/mechanism/test_pipeline.py": "16a5d4fa68922a0e83680f9d9ab85bb8e7de315b65778d90c56fce750a9aee02",
+    "tests/mechanism/test_probe_inference.py": "af08960ed5dc3f9e1943ff7fd8e3d95ad2a998a8b3ae1ce629e284c213a56793",
+    "tests/mechanism/test_probe_scoring.py": "a0dc80bbf03d61361cc96c69f7195419242f8914be1bd06c5f64f652aea98828",
+    "tests/mechanism/test_weight_delta.py": "a5201b2e9bcddbbfee5b884d0de618174b0fc998fb9b4ab99c7530483a64e91d"
+  },
+  "mechanism_delivery": {
+    "intervention_predictions": 13224,
+    "effect_rows": 1224,
+    "interaction_rows": 72,
+    "activation_patching_version": 3,
+    "patching_records_per_model": 368,
+    "cpu_tests": 37,
+    "functional_separation_established": false,
+    "raw_dataset_text_published": false
   }
 }

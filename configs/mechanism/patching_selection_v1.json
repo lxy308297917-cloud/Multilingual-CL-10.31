@@ -1,0 +1,215 @@
+{
+  "selected_before_model_patch_scoring": true,
+  "samples": 26,
+  "different_item_control_available": 14,
+  "selection": [
+    {
+      "id": "instruction-3-en-en",
+      "different_item_control_id": "instruction-6-en-en",
+      "prompt_tokens": 28,
+      "input_language": "en",
+      "output_language": "en",
+      "task": "instruction_copy"
+    },
+    {
+      "id": "instruction-6-en-en",
+      "different_item_control_id": "instruction-3-en-en",
+      "prompt_tokens": 28,
+      "input_language": "en",
+      "output_language": "en",
+      "task": "instruction_copy"
+    },
+    {
+      "id": "instruction-0-en-sw",
+      "different_item_control_id": "knowledge-qa-171-en-en",
+      "prompt_tokens": 32,
+      "input_language": "en",
+      "output_language": "sw",
+      "task": "instruction_copy"
+    },
+    {
+      "id": "instruction-1-en-sw",
+      "different_item_control_id": "knowledge-qa-171-en-en",
+      "prompt_tokens": 32,
+      "input_language": "en",
+      "output_language": "sw",
+      "task": "instruction_copy"
+    },
+    {
+      "id": "instruction-6-sw-en",
+      "different_item_control_id": "instruction-2-sw-en",
+      "prompt_tokens": 44,
+      "input_language": "sw",
+      "output_language": "en",
+      "task": "instruction_copy"
+    },
+    {
+      "id": "instruction-2-sw-en",
+      "different_item_control_id": "instruction-6-sw-en",
+      "prompt_tokens": 44,
+      "input_language": "sw",
+      "output_language": "en",
+      "task": "instruction_copy"
+    },
+    {
+      "id": "instruction-3-sw-sw",
+      "different_item_control_id": null,
+      "prompt_tokens": 49,
+      "input_language": "sw",
+      "output_language": "sw",
+      "task": "instruction_copy"
+    },
+    {
+      "id": "instruction-7-sw-sw",
+      "different_item_control_id": "instruction-4-sw-sw",
+      "prompt_tokens": 46,
+      "input_language": "sw",
+      "output_language": "sw",
+      "task": "instruction_copy"
+    },
+    {
+      "id": "knowledge-mc-205-en-r0",
+      "different_item_control_id": "knowledge-mc-214-en-r0",
+      "prompt_tokens": 58,
+      "input_language": "en",
+      "output_language": "en",
+      "task": "knowledge_choice"
+    },
+    {
+      "id": "knowledge-mc-88-en-r0",
+      "different_item_control_id": "knowledge-mc-106-en-r1",
+      "prompt_tokens": 66,
+      "input_language": "en",
+      "output_language": "en",
+      "task": "knowledge_choice"
+    },
+    {
+      "id": "knowledge-mc-70-sw-r0",
+      "different_item_control_id": null,
+      "prompt_tokens": 114,
+      "input_language": "sw",
+      "output_language": "sw",
+      "task": "knowledge_choice"
+    },
+    {
+      "id": "knowledge-mc-129-sw-r1",
+      "different_item_control_id": null,
+      "prompt_tokens": 121,
+      "input_language": "sw",
+      "output_language": "sw",
+      "task": "knowledge_choice"
+    },
+    {
+      "id": "knowledge-qa-220-en-en",
+      "different_item_control_id": "instruction-constraints-3-en",
+      "prompt_tokens": 33,
+      "input_language": "en",
+      "output_language": "en",
+      "task": "knowledge_short_answer"
+    },
+    {
+      "id": "knowledge-qa-106-en-en",
+      "different_item_control_id": "instruction-3-en-sw",
+      "prompt_tokens": 35,
+      "input_language": "en",
+      "output_language": "en",
+      "task": "knowledge_short_answer"
+    },
+    {
+      "id": "knowledge-qa-106-en-sw",
+      "different_item_control_id": "knowledge-qa-201-en-sw",
+      "prompt_tokens": 37,
+      "input_language": "en",
+      "output_language": "sw",
+      "task": "knowledge_short_answer"
+    },
+    {
+      "id": "knowledge-qa-201-en-sw",
+      "different_item_control_id": "knowledge-qa-106-en-sw",
+      "prompt_tokens": 37,
+      "input_language": "en",
+      "output_language": "sw",
+      "task": "knowledge_short_answer"
+    },
+    {
+      "id": "knowledge-qa-106-sw-en",
+      "different_item_control_id": null,
+      "prompt_tokens": 50,
+      "input_language": "sw",
+      "output_language": "en",
+      "task": "knowledge_short_answer"
+    },
+    {
+      "id": "knowledge-qa-220-sw-en",
+      "different_item_control_id": "instruction-constraints-3-sw",
+      "prompt_tokens": 51,
+      "input_language": "sw",
+      "output_language": "en",
+      "task": "knowledge_short_answer"
+    },
+    {
+      "id": "knowledge-qa-203-sw-sw",
+      "different_item_control_id": null,
+      "prompt_tokens": 60,
+      "input_language": "sw",
+      "output_language": "sw",
+      "task": "knowledge_short_answer"
+    },
+    {
+      "id": "knowledge-qa-106-sw-sw",
+      "different_item_control_id": null,
+      "prompt_tokens": 50,
+      "input_language": "sw",
+      "output_language": "sw",
+      "task": "knowledge_short_answer"
+    },
+    {
+      "id": "math-en-6167",
+      "different_item_control_id": null,
+      "prompt_tokens": 107,
+      "input_language": "en",
+      "output_language": "en",
+      "task": "math"
+    },
+    {
+      "id": "math-en-4091",
+      "different_item_control_id": null,
+      "prompt_tokens": 94,
+      "input_language": "en",
+      "output_language": "en",
+      "task": "math"
+    },
+    {
+      "id": "reading-en-56f8c74d9b226e1400dd0fb6",
+      "different_item_control_id": null,
+      "prompt_tokens": 171,
+      "input_language": "en",
+      "output_language": "en",
+      "task": "reading_span"
+    },
+    {
+      "id": "reading-en-572eb3abdfa6aa1500f8d2d7",
+      "different_item_control_id": null,
+      "prompt_tokens": 162,
+      "input_language": "en",
+      "output_language": "en",
+      "task": "reading_span"
+    },
+    {
+      "id": "reading-sw-1605_swa_3",
+      "different_item_control_id": null,
+      "prompt_tokens": 558,
+      "input_language": "sw",
+      "output_language": "sw",
+      "task": "reading_span"
+    },
+    {
+      "id": "reading-sw-4720_swa_6",
+      "different_item_control_id": null,
+      "prompt_tokens": 659,
+      "input_language": "sw",
+      "output_language": "sw",
+      "task": "reading_span"
+    }
+  ]
+}
