@@ -1,0 +1,21 @@
+{
+  "registration_sha256": "2d1924fe27bcc7780aa96c953e489dfc35992eb4468e594cc009ec21d39e92de",
+  "cohort_protocol_sha256": "5bf0568ccc921f8f955af1aca281e6efd28c3e764e6c6f10541f59fd75aabc88",
+  "script_sha256": "a8ab8b23af6b78d36f66b9208f739d87fbe22630699c5be1804d47c98bfbf6d3",
+  "model": "/local/checkpoints/sst_sw_aya6400_20261102/sw_aya6400_sst_r99_norefresh_seed42_final_v1",
+  "model_weights_sha256": {
+    "model.safetensors": "59aa7e26fb6de3786c162f3c65104a208dca834eb937760b0088b9151c200c6b"
+  },
+  "unique_parameter": "model.embed_tokens.weight tied to lm_head.weight",
+  "delta_squared_norm": 74.9349248345246,
+  "dtype": "Saved export promoted toFP32/eager",
+  "conditions": [
+    "unchanged",
+    "restore_tied_embedding_alpha0.5",
+    "restore_tied_embedding_alpha1.0",
+    "random_sign_matched_alpha0.5",
+    "random_sign_matched_alpha1.0"
+  ],
+  "no_optimizer_or_model_write": true,
+  "interpretation": "Conditional post-training restoration; not independent input/output role identification or causal reconstruction of training"
+}

@@ -1,0 +1,26 @@
+{
+  "source_commit": "acb135be579935abc99c8a587163a06a5dbe2cdd",
+  "source_sha256": {
+    "scripts/sst/train_sst.py": "d7df4f3adbc0da1d8712f11d0d8d00b61ed86a349d3148837aaef90db45617c2",
+    "scripts/sst/optimizer_adapter.py": "4ac4fbef6cae364cf870b277ec07ac7ed00c880f16a5b992e84b264e1e81cb69",
+    "scripts/sst/projector.py": "733089ee02b79f4c89da40fda2948210a5da8192e41cb2959ee7e6b28e26ff47",
+    "scripts/sst/training_adapter.py": "e89ce0c3c58dc02a010e012b25b239917db7e5cc2ab4a7ccd3702744ca20be45",
+    "scripts/sft_v1/train_formal.py": "48a466bdf75f0a88c10d19502a9b9c364e7ceae65f265f1b3400b1fcdc6a9534",
+    "scripts/sft_v1/train.py": "c4f4528de81eb2ec154f4af6cc2d1497b3a192fdf74dcbea708d1175012fef7c",
+    "configs/sst/sw_aya6400_sst_r99_norefresh_seed42_final_v1.yaml": "48b91f33f89c98e60a106c30430a927f973c35e25120f9231322fa4c7618d0b5"
+  },
+  "command": [
+    "/local/envs/qwen3-multilingual-20261031/bin/python",
+    "-m",
+    "torch.distributed.run",
+    "--standalone",
+    "--nnodes=1",
+    "--nproc_per_node=2",
+    "/local/project/scripts/sst/train_sst.py",
+    "--config",
+    "/local/project/configs/sst/sw_aya6400_sst_r99_norefresh_seed42_final_v1.yaml"
+  ],
+  "executed_entrypoint": "scripts/sst/train_sst.py",
+  "frozen_list_includes_unused_experimental_files": true,
+  "parallel_SVD_code_adopted": false
+}

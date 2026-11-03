@@ -1,0 +1,355 @@
+{
+  "scope": "Source download/version evidence only; reading extent documented separately, failed attempts retained, no paper fulltext redistributed",
+  "sources": [
+    {
+      "name": "shared_logical",
+      "url": "https://aclanthology.org/2026.acl-long.1806.pdf",
+      "sha256": "329623867ca5b40c4c1b411340ad2efd6ca21f5d013582b4acab1e05852ed952",
+      "bytes": 1784976,
+      "status": "DOWNLOADED",
+      "download_batch": "source-lock-neighbors-fifth.json"
+    },
+    {
+      "name": "zipper_lora",
+      "url": "https://arxiv.org/pdf/2603.17558v1",
+      "sha256": "40ce11c9fcb84df7e7f92993ffb5130be5d17ccaeb2848f1cf3bb75b17ef8fc3",
+      "bytes": 3067528,
+      "status": "DOWNLOADED",
+      "download_batch": "source-lock-neighbors-fifth.json"
+    },
+    {
+      "name": "share",
+      "url": "https://arxiv.org/pdf/2602.06043v1",
+      "sha256": "0345ffec70e1b5cb65a8ad73f8b271955d6ca0c7069b717e201d35dc74039f29",
+      "bytes": 9152094,
+      "status": "DOWNLOADED",
+      "download_batch": "source-lock-neighbors-fifth.json"
+    },
+    {
+      "name": "prism_delta",
+      "url": "https://arxiv.org/pdf/2603.10705v1",
+      "sha256": "88b6ca8967dac26bd4db88b2f3ab8fda1ac9f8a2d7a06a1af5c0168c374fdd02",
+      "bytes": 1233592,
+      "status": "DOWNLOADED",
+      "download_batch": "source-lock-neighbors-fifth.json"
+    },
+    {
+      "name": "crossling_unlearn",
+      "url": "https://arxiv.org/pdf/2601.06675v1",
+      "sha256": "9ae25e30a2df0849ce4a7f91fdeccb12a5871e62308201bbc49b2f199a4b5037",
+      "bytes": 1086751,
+      "status": "DOWNLOADED",
+      "download_batch": "source-lock-neighbors-fifth.json"
+    },
+    {
+      "name": "clo",
+      "url": "https://aclanthology.org/2025.acl-long.734.pdf",
+      "sha256": "1dcfb062a7759e340ef43fc6624cfcc62941c0fa3c86c57f94771a93cc39a284",
+      "bytes": 2983130,
+      "status": "DOWNLOADED",
+      "download_batch": "source-lock-neighbors-fourth.json"
+    },
+    {
+      "name": "cc_tuning",
+      "url": "https://aclanthology.org/2025.acl-long.933.pdf",
+      "sha256": "92284f50b23a65e4a526e67fe069993bbcba67b0fc9a5507a3dae60e87bf63fd",
+      "bytes": 3584180,
+      "status": "DOWNLOADED",
+      "download_batch": "source-lock-neighbors-fourth.json"
+    },
+    {
+      "name": "preserve_crossling",
+      "url": "https://aclanthology.org/2021.repl4nlp-1.8.pdf",
+      "sha256": "f1b48bc3043544a6723972582658629244224d8188639583e2038693009c026e",
+      "bytes": 366695,
+      "status": "DOWNLOADED",
+      "download_batch": "source-lock-neighbors-fourth.json"
+    },
+    {
+      "name": "prsr",
+      "url": "https://arxiv.org/pdf/2610.23807v1",
+      "sha256": "740fc65df8d66aea22f369e879d163b92f4dc50c9627a2a97d1f7007e1878b1d",
+      "bytes": 4962873,
+      "status": "DOWNLOADED",
+      "download_batch": "source-lock-neighbors-fourth.json"
+    },
+    {
+      "name": "pico",
+      "url": "https://aclanthology.org/2026.emnlp-main.528.pdf",
+      "sha256": "2d311aae590dfe3ad8d8cd4bd5284ae926a1d11b43fc3bfdca5e72f74da09ce3",
+      "bytes": 3990361,
+      "status": "DOWNLOADED",
+      "download_batch": "source-lock-neighbors-fourth.json"
+    },
+    {
+      "name": "sequential_reptile",
+      "url": "https://arxiv.org/pdf/2110.02600v1",
+      "sha256": "64dd70575583a4c9d884311a22bd724d521a726d460fd506595f9ced5641c0dd",
+      "bytes": 901665,
+      "status": "DOWNLOADED",
+      "download_batch": "source-lock-neighbors-fourth.json"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2405.19597v1",
+      "sha256": "276f27838c09c0eeca773cb6e705d43c2dda45b2e1b3ae00862ca66879575e9e",
+      "bytes": 942627,
+      "name": "svft",
+      "download_batch": "source-lock-neighbors-third-recovery.json"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.00762v1",
+      "sha256": "a5112f8311719a7c698b82b09423798ab64dbe782c09ce78892e2274446e12a1",
+      "bytes": 967160,
+      "name": "fcca_llm",
+      "download_batch": "source-lock-neighbors-third-recovery.json"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.29800v1",
+      "sha256": "a5e7703fdf84f2941ecf77e73176c52fac02992b052fb0db99a63c2b9ce83278",
+      "bytes": 266909,
+      "name": "fcca_asr",
+      "download_batch": "source-lock-neighbors-third-recovery.json"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2405.19597v1",
+      "error": "URLError(PermissionError(1, 'Operation not permitted'))",
+      "name": "svft",
+      "download_batch": "source-lock-neighbors-third.json"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.00762v1",
+      "error": "URLError(PermissionError(1, 'Operation not permitted'))",
+      "name": "fcca_llm",
+      "download_batch": "source-lock-neighbors-third.json"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2609.29800v1",
+      "error": "URLError(PermissionError(1, 'Operation not permitted'))",
+      "name": "fcca_asr",
+      "download_batch": "source-lock-neighbors-third.json"
+    },
+    {
+      "name": "compass",
+      "url": "https://arxiv.org/pdf/2604.20720v1",
+      "status": "DOWNLOADED",
+      "bytes": 1611494,
+      "sha256": "1d0dbdc4afacb57a29b262eb959c83127a1a787551c578f98e5d42737b125bcd",
+      "download_batch": "source-lock-neighbors.json"
+    },
+    {
+      "name": "ugp",
+      "url": "https://arxiv.org/pdf/2607.11163v1",
+      "status": "DOWNLOADED",
+      "bytes": 354654,
+      "sha256": "0da9b612eb59782f6e24320df3d6cacb4ca32ca9e2e337f24a9ea86811a69830",
+      "download_batch": "source-lock-neighbors.json"
+    },
+    {
+      "name": "palora",
+      "url": "https://arxiv.org/pdf/2610.04226v1",
+      "status": "DOWNLOADED",
+      "bytes": 1358533,
+      "sha256": "fad58447f2d1dbfce6c95a56d9dde14d067fc1396a021aefc2309c365a4d73dc",
+      "download_batch": "source-lock-neighbors.json"
+    },
+    {
+      "name": "eblora",
+      "url": "https://arxiv.org/pdf/2602.00722v1",
+      "status": "DOWNLOADED",
+      "bytes": 632133,
+      "sha256": "4621cf11a3167896f7551a8f1db8ed90227934be823b0ca3e04337d8843a6ef4",
+      "download_batch": "source-lock-neighbors.json"
+    },
+    {
+      "name": "learning_dynamics",
+      "url": "https://arxiv.org/pdf/2609.33620v1",
+      "status": "DOWNLOADED",
+      "bytes": 5588469,
+      "sha256": "14ccf94b1d56dba8e5c2ffcb3e78131b52772135028f749b08cbd56c77e3be79",
+      "download_batch": "source-lock-neighbors.json"
+    },
+    {
+      "name": "deafening_silence",
+      "url": "https://arxiv.org/pdf/2610.09835v1",
+      "status": "DOWNLOADED",
+      "bytes": 1040211,
+      "sha256": "6d51b8e75971db733e8c4bfb8884d14c8e7dc3af8f50400b221961cd88c57dd7",
+      "download_batch": "source-lock-neighbors.json"
+    },
+    {
+      "name": "madx",
+      "url": "https://aclanthology.org/2020.emnlp-main.617.pdf",
+      "status": "DOWNLOADED",
+      "bytes": 1885658,
+      "sha256": "5bcad75d2674a22550556db19b59b8c4551da120685eb9b04a230f57b78f6b6a",
+      "download_batch": "source-lock-neighbors.json"
+    },
+    {
+      "name": "pcgrad",
+      "url": "https://arxiv.org/pdf/2001.06782v1",
+      "status": "DOWNLOADED",
+      "bytes": 2820221,
+      "sha256": "4d19412f19abf5e6de79470e0b1e6e0d3a091852c794a541bcf73d4ef8ddb282",
+      "download_batch": "source-lock-neighbors.json"
+    },
+    {
+      "name": "gem",
+      "url": "https://arxiv.org/pdf/1706.08840v1",
+      "status": "DOWNLOADED",
+      "bytes": 587002,
+      "sha256": "bcc3dc2dcedc2907684d0c718f8fce0577943ff988c0f9ea3dd88a013df81ce0",
+      "download_batch": "source-lock-neighbors.json"
+    },
+    {
+      "name": "agem",
+      "url": "https://arxiv.org/pdf/1812.00420v1",
+      "status": "DOWNLOADED",
+      "bytes": 3093278,
+      "sha256": "668c17cbb0a19efa9d0b2cb1a8e6e9f7e32131c8358744d3642da0005b58a9d5",
+      "download_batch": "source-lock-neighbors.json"
+    },
+    {
+      "name": "op_lora",
+      "url": "https://arxiv.org/pdf/2510.13003v1",
+      "status": "DOWNLOADED",
+      "bytes": 457581,
+      "sha256": "9bbeb840ef254b734ba7009ca18e7cadaf6d579f5f8cb3041cf465a9f2a636cd",
+      "download_batch": "source-lock-second.json"
+    },
+    {
+      "name": "sculpting_subspaces_v1",
+      "url": "https://arxiv.org/pdf/2504.07097v1",
+      "status": "DOWNLOADED",
+      "bytes": 844847,
+      "sha256": "5c0cdb52a23ac25c67546f2836c82b54131c497ed3c9f456c29957e9de983878",
+      "download_batch": "source-lock-second.json"
+    },
+    {
+      "name": "sculpting_subspaces_iclr2026",
+      "url": "https://openreview.net/pdf/705fd8849abb4e88aeeeff733e7867c96a002d8b.pdf",
+      "status": "FAILED",
+      "error": "<HTTPError 403: 'Forbidden'>",
+      "download_batch": "source-lock-second.json"
+    },
+    {
+      "name": "pissa",
+      "url": "https://arxiv.org/pdf/2404.02948v1",
+      "status": "DOWNLOADED",
+      "bytes": 532619,
+      "sha256": "724a50ff0cced9e17e220f07b3e01c970e239addbf6c731891883861e97e63b2",
+      "download_batch": "source-lock-second.json"
+    },
+    {
+      "name": "corda",
+      "url": "https://arxiv.org/pdf/2406.05223v1",
+      "status": "DOWNLOADED",
+      "bytes": 669591,
+      "sha256": "15f36a2e1bf6892da2c8acb73d715c6b5241c134fabc27cbc2aed281bb31b384",
+      "download_batch": "source-lock-second.json"
+    },
+    {
+      "name": "gpm",
+      "url": "https://arxiv.org/pdf/2103.09762v1",
+      "status": "DOWNLOADED",
+      "bytes": 602736,
+      "sha256": "8824b492c6d65485dcd157b37b83c26ddb12183ae1562a423ca3acf72cdf768d",
+      "download_batch": "source-lock-second.json"
+    },
+    {
+      "name": "ogd",
+      "url": "https://proceedings.mlr.press/v108/farajtabar20a/farajtabar20a.pdf",
+      "status": "DOWNLOADED",
+      "bytes": 838966,
+      "sha256": "d148f051634d1839ff77635b3be79422f03e4a68325ce75b65f57d89fc6b18d5",
+      "download_batch": "source-lock-second.json"
+    },
+    {
+      "name": "fs_dgpm",
+      "url": "https://arxiv.org/pdf/2110.04593v1",
+      "status": "DOWNLOADED",
+      "bytes": 3332962,
+      "sha256": "5f6fb5540a35becffa0c3091d64a6d7798c400f8961b9982da564617bef3cf52",
+      "download_batch": "source-lock-second.json"
+    },
+    {
+      "name": "layra",
+      "url": "https://arxiv.org/pdf/2509.11414v1",
+      "status": "DOWNLOADED",
+      "bytes": 662146,
+      "sha256": "ef8b3f2bfe563c5660d75126a3624c20ba335266721697045e1b12b015a96bb6",
+      "download_batch": "source-lock-second.json"
+    },
+    {
+      "name": "mwork",
+      "url": "https://arxiv.org/pdf/2402.18815v1",
+      "status": "DOWNLOADED",
+      "bytes": 1976667,
+      "sha256": "cfe18a1862d1d06db73baba651ed03bfddde50fcf3ff6991a5deae46e89a2040",
+      "download_batch": "source-lock-second.json"
+    },
+    {
+      "name": "loda",
+      "url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/he26f/he26f.pdf",
+      "status": "DOWNLOADED",
+      "bytes": 7999928,
+      "sha256": "7c80ba0bd90dbc290b00e933d08523e8654acab913ee024e1621e42aa743643b",
+      "download_batch": "source-lock.json"
+    },
+    {
+      "name": "o_lora",
+      "url": "https://aclanthology.org/2023.findings-emnlp.715.pdf",
+      "status": "DOWNLOADED",
+      "bytes": 407962,
+      "sha256": "4753f5c850339fd023118ff6cae3e4113a3535f78b8dfc6988046a90878be09d",
+      "download_batch": "source-lock.json"
+    },
+    {
+      "name": "tl_cl",
+      "url": "https://aclanthology.org/2024.emnlp-main.676.pdf",
+      "status": "DOWNLOADED",
+      "bytes": 1896423,
+      "sha256": "c585df38c747d64e084ad8c8e87143b21f6de2d088da2501813b314cf3355ac5",
+      "download_batch": "source-lock.json"
+    },
+    {
+      "name": "two_phase_cft",
+      "url": "https://aclanthology.org/2026.findings-acl.1595.pdf",
+      "status": "DOWNLOADED",
+      "bytes": 535798,
+      "sha256": "f1330f7e9698fb3b70a38dc40f6bb139475dd6d2367275a7d2e2e7d207bef7ce",
+      "download_batch": "source-lock.json"
+    },
+    {
+      "name": "semantic_hub_cpt",
+      "url": "https://aclanthology.org/2026.findings-acl.1218.pdf",
+      "status": "DOWNLOADED",
+      "bytes": 4844265,
+      "sha256": "515f4d2eeb112a8508d9ebc7934c597dc1eaa796686051a56e75ac9986e21ad9",
+      "download_batch": "source-lock.json"
+    },
+    {
+      "name": "negative_neurons",
+      "url": "https://aclanthology.org/2025.insights-1.6.pdf",
+      "status": "DOWNLOADED",
+      "bytes": 7007211,
+      "sha256": "6db4ebd66ca2c89c59ddfc13187f8b99184f1c54716a88a6b0c3fda3b6362e6d",
+      "download_batch": "source-lock.json"
+    },
+    {
+      "name": "milora",
+      "url": "https://aclanthology.org/2025.naacl-long.248.pdf",
+      "status": "DOWNLOADED",
+      "bytes": 427818,
+      "sha256": "8f3fc8463a05bd43fab86ebd8882f0e0ccbc34aaf9b1be5a2ca33340a24a6bac",
+      "download_batch": "source-lock.json"
+    },
+    {
+      "name": "sst",
+      "url": "https://arxiv.org/pdf/2610.22293v1",
+      "sha256": "fca71b91c57146aaf00a2b60bb0ce6340b5038450cad7a42d35b294aedea831c",
+      "bytes": 680146,
+      "status": "DOWNLOADED_FROM_LOCKED_OFFICIAL_REPOSITORY_ASSET",
+      "upstream_commit": "ff0c5bfb32f621ca952d12042b046251181b8aa5"
+    }
+  ]
+}

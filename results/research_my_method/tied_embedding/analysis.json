@@ -1,0 +1,361 @@
+{
+  "status": "VERIFIED_EXPLORATORY_CONTROL_COMPLETE",
+  "predictions_verified": 1710,
+  "scores": {
+    "unchanged": {
+      "en": {
+        "n": 114,
+        "correct": 71,
+        "acc": 0.6228070175438597
+      },
+      "sw": {
+        "n": 114,
+        "correct": 36,
+        "acc": 0.3157894736842105
+      },
+      "ha": {
+        "n": 114,
+        "correct": 33,
+        "acc": 0.2894736842105263
+      }
+    },
+    "restore_tied_embedding_alpha0.5": {
+      "en": {
+        "n": 114,
+        "correct": 67,
+        "acc": 0.5877192982456141
+      },
+      "sw": {
+        "n": 114,
+        "correct": 37,
+        "acc": 0.32456140350877194
+      },
+      "ha": {
+        "n": 114,
+        "correct": 34,
+        "acc": 0.2982456140350877
+      }
+    },
+    "restore_tied_embedding_alpha1.0": {
+      "en": {
+        "n": 114,
+        "correct": 67,
+        "acc": 0.5877192982456141
+      },
+      "sw": {
+        "n": 114,
+        "correct": 36,
+        "acc": 0.3157894736842105
+      },
+      "ha": {
+        "n": 114,
+        "correct": 36,
+        "acc": 0.3157894736842105
+      }
+    },
+    "random_sign_matched_alpha0.5": {
+      "en": {
+        "n": 114,
+        "correct": 71,
+        "acc": 0.6228070175438597
+      },
+      "sw": {
+        "n": 114,
+        "correct": 36,
+        "acc": 0.3157894736842105
+      },
+      "ha": {
+        "n": 114,
+        "correct": 33,
+        "acc": 0.2894736842105263
+      }
+    },
+    "random_sign_matched_alpha1.0": {
+      "en": {
+        "n": 114,
+        "correct": 71,
+        "acc": 0.6228070175438597
+      },
+      "sw": {
+        "n": 114,
+        "correct": 35,
+        "acc": 0.30701754385964913
+      },
+      "ha": {
+        "n": 114,
+        "correct": 34,
+        "acc": 0.2982456140350877
+      }
+    }
+  },
+  "contrasts": [
+    {
+      "treatment": "restore_tied_embedding_alpha1.0",
+      "control": "random_sign_matched_alpha1.0",
+      "language": "en",
+      "primary_exploratory": true,
+      "delta": -3.508771929824561,
+      "ci95_low": -9.649122807017545,
+      "ci95_high": 2.6315789473684212,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired original semantic IDs",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "restore_tied_embedding_alpha1.0",
+      "control": "random_sign_matched_alpha1.0",
+      "language": "sw",
+      "primary_exploratory": true,
+      "delta": 0.8771929824561403,
+      "ci95_low": -8.771929824561404,
+      "ci95_high": 10.526315789473685,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired original semantic IDs",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "restore_tied_embedding_alpha1.0",
+      "control": "random_sign_matched_alpha1.0",
+      "language": "ha",
+      "primary_exploratory": false,
+      "delta": 1.7543859649122806,
+      "ci95_low": -9.649122807017545,
+      "ci95_high": 14.035087719298245,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired original semantic IDs",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "restore_tied_embedding_alpha1.0",
+      "control": "unchanged",
+      "language": "en",
+      "primary_exploratory": false,
+      "delta": -3.508771929824561,
+      "ci95_low": -9.649122807017545,
+      "ci95_high": 2.6315789473684212,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired original semantic IDs",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "restore_tied_embedding_alpha1.0",
+      "control": "unchanged",
+      "language": "sw",
+      "primary_exploratory": false,
+      "delta": 0.0,
+      "ci95_low": -9.649122807017545,
+      "ci95_high": 9.649122807017545,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired original semantic IDs",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "restore_tied_embedding_alpha1.0",
+      "control": "unchanged",
+      "language": "ha",
+      "primary_exploratory": false,
+      "delta": 2.6315789473684212,
+      "ci95_low": -8.771929824561404,
+      "ci95_high": 14.912280701754385,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired original semantic IDs",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "random_sign_matched_alpha1.0",
+      "control": "unchanged",
+      "language": "en",
+      "primary_exploratory": false,
+      "delta": 0.0,
+      "ci95_low": -2.6315789473684212,
+      "ci95_high": 2.6315789473684212,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired original semantic IDs",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "random_sign_matched_alpha1.0",
+      "control": "unchanged",
+      "language": "sw",
+      "primary_exploratory": false,
+      "delta": -0.8771929824561403,
+      "ci95_low": -2.6315789473684212,
+      "ci95_high": 0.0,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired original semantic IDs",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "random_sign_matched_alpha1.0",
+      "control": "unchanged",
+      "language": "ha",
+      "primary_exploratory": false,
+      "delta": 0.8771929824561403,
+      "ci95_low": 0.0,
+      "ci95_high": 2.6315789473684212,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired original semantic IDs",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "restore_tied_embedding_alpha0.5",
+      "control": "random_sign_matched_alpha0.5",
+      "language": "en",
+      "primary_exploratory": false,
+      "delta": -3.508771929824561,
+      "ci95_low": -8.771929824561404,
+      "ci95_high": 1.7543859649122806,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired original semantic IDs",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "restore_tied_embedding_alpha0.5",
+      "control": "random_sign_matched_alpha0.5",
+      "language": "sw",
+      "primary_exploratory": false,
+      "delta": 0.8771929824561403,
+      "ci95_low": -4.385964912280702,
+      "ci95_high": 6.140350877192983,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired original semantic IDs",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "restore_tied_embedding_alpha0.5",
+      "control": "random_sign_matched_alpha0.5",
+      "language": "ha",
+      "primary_exploratory": false,
+      "delta": 0.8771929824561403,
+      "ci95_low": -7.017543859649122,
+      "ci95_high": 8.771929824561404,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired original semantic IDs",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "restore_tied_embedding_alpha0.5",
+      "control": "unchanged",
+      "language": "en",
+      "primary_exploratory": false,
+      "delta": -3.508771929824561,
+      "ci95_low": -8.771929824561404,
+      "ci95_high": 1.7543859649122806,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired original semantic IDs",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "restore_tied_embedding_alpha0.5",
+      "control": "unchanged",
+      "language": "sw",
+      "primary_exploratory": false,
+      "delta": 0.8771929824561403,
+      "ci95_low": -4.385964912280702,
+      "ci95_high": 6.140350877192983,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired original semantic IDs",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "restore_tied_embedding_alpha0.5",
+      "control": "unchanged",
+      "language": "ha",
+      "primary_exploratory": false,
+      "delta": 0.8771929824561403,
+      "ci95_low": -7.017543859649122,
+      "ci95_high": 8.771929824561404,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired original semantic IDs",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "random_sign_matched_alpha0.5",
+      "control": "unchanged",
+      "language": "en",
+      "primary_exploratory": false,
+      "delta": 0.0,
+      "ci95_low": 0.0,
+      "ci95_high": 0.0,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired original semantic IDs",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "random_sign_matched_alpha0.5",
+      "control": "unchanged",
+      "language": "sw",
+      "primary_exploratory": false,
+      "delta": 0.0,
+      "ci95_low": 0.0,
+      "ci95_high": 0.0,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired original semantic IDs",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "random_sign_matched_alpha0.5",
+      "control": "unchanged",
+      "language": "ha",
+      "primary_exploratory": false,
+      "delta": 0.0,
+      "ci95_low": 0.0,
+      "ci95_high": 0.0,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired original semantic IDs",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    }
+  ],
+  "baseline_logits_exact": true,
+  "all_four_effective_norm_controls_verified": true,
+  "registration_sha256": "2d1924fe27bcc7780aa96c953e489dfc35992eb4468e594cc009ec21d39e92de",
+  "cohort_sha256": "5bf0568ccc921f8f955af1aca281e6efd28c3e764e6c6f10541f59fd75aabc88",
+  "source_predictions_sha256": "85a8d3d80e1e1e10e3b93da8c9e2b18f4eae43571ef284f46aad19f0d7255fd3",
+  "source_protocol_sha256": "62a45b7a4795d48efd4d665c097ba1198edac880d11d5230764f8774c60afd62",
+  "analysis_code_sha256": "8e234ef8e623e0e7682cb8af4b78ac414332da5b657542d6bf893b5cca59e454",
+  "formal_benchmark": false,
+  "adoption_claim_allowed": false,
+  "limitations": [
+    "Historically exposed knowledge dev,114 semantic IDs, unadjusted intervals.",
+    "Jointly tied input/output intervention cannot identify independent roles.",
+    "Conditional Final perturbation does not reconstruct training cause.",
+    "Energy is not component importance; no cross-component matched test.",
+    "No IFEval/GSM/code protection demonstrated."
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "registered_at": "2026-11-03T03:25:11.016414+08:00",
+  "status": "EXPLORATORY_MECHANISM_PREREGISTERED_BEFORE_READING_FULL_PILOT_OR_FORMAL_SST_SCORES",
+  "motivation": "SST NoRefresh Final parameter audit places most update energy outside196 constrained matrices; energy alone is not causality. Test the jointly tied embedding/head as an alternative explanation.",
+  "geometry_audit_sha256": "6373197f534ff287b26b4d3469f08c59b1ca2d9fde5aa06ff3a752c49f56d948",
+  "outside196_energy_fraction": 0.9621306914451486,
+  "cohort_protocol_sha256": "5bf0568ccc921f8f955af1aca281e6efd28c3e764e6c6f10541f59fd75aabc88",
+  "models": "Completed NoRefresh actual BF16 export promoted toFP32; same FP32/eager dev scoring as precision control",
+  "interventions": [
+    "unchanged",
+    "restore_tied_embedding_alpha0.5",
+    "restore_tied_embedding_alpha1.0",
+    "random_sign_matched_alpha0.5",
+    "random_sign_matched_alpha1.0"
+  ],
+  "definition": "E_restore(alpha)=E_final-alpha*(E_final-E_Base);random uses fixed independent Rademacher sign on every delta element, preserving element magnitudes and row/global norms. Keep input/output tied; all other model weights fixed. Restore exact E_final between conditions.",
+  "primary_contrast": "Full tied-embedding restore versus random-sign magnitude control, report EN/SW ACC jointly; HA and half dose secondary. No best-dose selection.",
+  "seed": 20261103,
+  "data": "Same pre-frozen114 semantic IDs/EN SW HA; historically exposed dev, exploratory only",
+  "constraints": [
+    "No optimizer steps or model checkpoint written",
+    "Not a new method or new training",
+    "Cannot separate input and output roles of tied E",
+    "Cannot rank embedding versus backbone importance without cross-component matched interventions",
+    "Not a formal BF16-compute benchmark"
+  ],
+  "execution": "Use GPU1 only after predeclared FFT stage2 formal main shard completes; avoid delaying existing formal benchmark or stage2 training critical path",
+  "formal_test_used": false,
+  "adoption_claim_allowed": false
+}

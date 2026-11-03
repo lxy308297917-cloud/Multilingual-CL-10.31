@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "stage": 3,
+  "world_size": 2,
+  "microsteps": 8,
+  "optimizer_steps": 4,
+  "refresh_steps": [
+    2,
+    4
+  ],
+  "all_seven_matrices": true,
+  "all_master_writebacks_exact": true,
+  "all_adam_moments_unchanged": true,
+  "all_bf16_partitions_synchronized": true
+}

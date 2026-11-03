@@ -1,0 +1,112 @@
+{
+  "status": "EXPLORATORY_EMBEDDING_CONTROL_COMPLETE",
+  "results": {
+    "unchanged": {
+      "en": {
+        "n": 114,
+        "correct": 71,
+        "acc": 0.6228070175438597,
+        "four_way_ce_aux": 1.592230963786588
+      },
+      "sw": {
+        "n": 114,
+        "correct": 36,
+        "acc": 0.3157894736842105,
+        "four_way_ce_aux": 1.8713353365535128
+      },
+      "ha": {
+        "n": 114,
+        "correct": 33,
+        "acc": 0.2894736842105263,
+        "four_way_ce_aux": 1.6478218603496269
+      }
+    },
+    "restore_tied_embedding_alpha0.5": {
+      "en": {
+        "n": 114,
+        "correct": 67,
+        "acc": 0.5877192982456141,
+        "four_way_ce_aux": 1.704882419316507
+      },
+      "sw": {
+        "n": 114,
+        "correct": 37,
+        "acc": 0.32456140350877194,
+        "four_way_ce_aux": 1.7071810568120687
+      },
+      "ha": {
+        "n": 114,
+        "correct": 34,
+        "acc": 0.2982456140350877,
+        "four_way_ce_aux": 1.5522658686468116
+      }
+    },
+    "restore_tied_embedding_alpha1.0": {
+      "en": {
+        "n": 114,
+        "correct": 67,
+        "acc": 0.5877192982456141,
+        "four_way_ce_aux": 1.965025682905518
+      },
+      "sw": {
+        "n": 114,
+        "correct": 36,
+        "acc": 0.3157894736842105,
+        "four_way_ce_aux": 1.7210752638131548
+      },
+      "ha": {
+        "n": 114,
+        "correct": 36,
+        "acc": 0.3157894736842105,
+        "four_way_ce_aux": 1.6402793079068305
+      }
+    },
+    "random_sign_matched_alpha0.5": {
+      "en": {
+        "n": 114,
+        "correct": 71,
+        "acc": 0.6228070175438597,
+        "four_way_ce_aux": 1.5967649011098506
+      },
+      "sw": {
+        "n": 114,
+        "correct": 36,
+        "acc": 0.3157894736842105,
+        "four_way_ce_aux": 1.8485344860032855
+      },
+      "ha": {
+        "n": 114,
+        "correct": 33,
+        "acc": 0.2894736842105263,
+        "four_way_ce_aux": 1.6331834091775308
+      }
+    },
+    "random_sign_matched_alpha1.0": {
+      "en": {
+        "n": 114,
+        "correct": 71,
+        "acc": 0.6228070175438597,
+        "four_way_ce_aux": 1.6021195515924458
+      },
+      "sw": {
+        "n": 114,
+        "correct": 35,
+        "acc": 0.30701754385964913,
+        "four_way_ce_aux": 1.8275088081386537
+      },
+      "ha": {
+        "n": 114,
+        "correct": 34,
+        "acc": 0.2982456140350877,
+        "four_way_ce_aux": 1.6193238869758748
+      }
+    }
+  },
+  "predictions_sha256": "85a8d3d80e1e1e10e3b93da8c9e2b18f4eae43571ef284f46aad19f0d7255fd3",
+  "protocol_sha256": "62a45b7a4795d48efd4d665c097ba1198edac880d11d5230764f8774c60afd62",
+  "baseline_max_absolute_logit_difference": 0.0,
+  "seconds": 139.40585660934448,
+  "peak_cuda_allocated": 8160514560,
+  "formal_test_used": false,
+  "adoption_claim_allowed": false
+}

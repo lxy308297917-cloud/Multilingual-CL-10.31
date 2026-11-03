@@ -1,0 +1,26 @@
+{
+  "status": "FULL6400_EXPOSURE_EXACT",
+  "reference": "Original SW FFT400 Final",
+  "candidate": "SST NoRefresh400 Final",
+  "all_inputs_labels_order_update_microstep_fields_exact": true,
+  "ranks": [
+    {
+      "rank": 0,
+      "samples": 3200,
+      "full_exposure_exact": true,
+      "source_sha256": [
+        "aa332b3120c6a005e5ad42784c2c830c51254db76e067dc1593b7963a50bf6ee",
+        "aa332b3120c6a005e5ad42784c2c830c51254db76e067dc1593b7963a50bf6ee"
+      ]
+    },
+    {
+      "rank": 1,
+      "samples": 3200,
+      "full_exposure_exact": true,
+      "source_sha256": [
+        "8f67b7d9e3e60828205b802f7a5e8ad3f6280b91943e719b963af5c5b171a7c0",
+        "8f67b7d9e3e60828205b802f7a5e8ad3f6280b91943e719b963af5c5b171a7c0"
+      ]
+    }
+  ]
+}

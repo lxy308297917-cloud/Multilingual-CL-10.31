@@ -1,0 +1,83 @@
+{
+  "purpose": "Stage2 Hausa6400, fixed same source-family counts as original Stage1 SW6400, not claimed token/content matched",
+  "source_audit_sha256": "5a674e8ecdee7d3cd9b1bac318bbf76f2ffce6c01cae3d4615ff6b2562462f80",
+  "source_revision": "a3af2fde4b4cb5b2775830b11244a1a20b5f004f",
+  "selection_seed": 20261103,
+  "dev_rows": 256,
+  "known_dev_exact_prompt_exclusions": 0,
+  "source_counts_match_SW6400": true,
+  "same_semantic_items_as_SW": false,
+  "pairing_warning": "Collection numeric IDs coincide with per-file row positions; do not use as certified cross-language semantic keys",
+  "stats": {
+    "train6400": {
+      "rows": 6400,
+      "input_tokens": 2596327,
+      "shifted_assistant_tokens": 920471,
+      "truncated": 90,
+      "sources": {
+        "CNN-Daily-Mail (T)": 658,
+        "SODA-inst (T)": 658,
+        "PIQA (T)": 659,
+        "PAWS-Wiki (T)": 658,
+        "Adversarial QA (T)": 658,
+        "Flan-GEM-wiki-lingua (T)": 658,
+        "AfriQA-inst": 191,
+        "HotpotQA (T)": 658,
+        "MasakhaNEWS-inst": 659,
+        "Aya-Dataset": 285,
+        "Dolly-v2 (T)": 658
+      }
+    },
+    "dev_ha": {
+      "rows": 256,
+      "input_tokens": 91209,
+      "shifted_assistant_tokens": 30742,
+      "truncated": 2,
+      "sources": {
+        "Adversarial QA (T)": 23,
+        "PIQA (T)": 24,
+        "SODA-inst (T)": 23,
+        "Dolly-v2 (T)": 23,
+        "HotpotQA (T)": 23,
+        "MasakhaNEWS-inst": 24,
+        "AfriQA-inst": 24,
+        "Aya-Dataset": 23,
+        "PAWS-Wiki (T)": 23,
+        "CNN-Daily-Mail (T)": 23,
+        "Flan-GEM-wiki-lingua (T)": 23
+      }
+    }
+  },
+  "stage1_SW_token_counts": {
+    "input_tokens": 2884423,
+    "shifted_assistant_tokens": 1078347
+  },
+  "template": "official LF qwen3, nonthinking, assistant-only, cutoff2048,no packing",
+  "quality_limitations": [
+    "Same bounded GlotLID/length/dedup policy as original SW; LID is fallible and short answers are exempt.",
+    "Source family matching is not semantic task matching.",
+    "No full-corpus contamination audit; known benchmark source families omitted by frozen SW whitelist.",
+    "Independent bilingual human quality review not performed.",
+    "No test scores or model outputs used for language choice."
+  ],
+  "formal_test_used": false,
+  "model_outputs_used": false,
+  "training_started": false,
+  "seconds": 13.377732038497925,
+  "files": {
+    "dataset_info.json": "11289a0bdff15c5103bed07d1d98114257a085f7d4e58c981eaa6e8311f044ef",
+    "dev_ha.jsonl": "16aa9958fc8924e33f50a73eea8299ca74c6000294d970f6734d84c8a7ae8b21",
+    "dev_ha.provenance.jsonl": "f1e2740593078331987c926dc7af75130db35903de7339e2152a54792cc66ec6",
+    "dev_ha_tokenized/dataset_dict.json": "c172eebfc28c1400d6be4338ce7d00191507ffb4ae64c315f039585c894df5b7",
+    "dev_ha_tokenized/train/data-00000-of-00001.arrow": "00797a82b9b54e4160a6067c2cbc046c298afb47bcca3fa0c3bc0ec065a49e22",
+    "dev_ha_tokenized/train/dataset_info.json": "2d4d048eea9f68a62b9488465df49de56fff8c40382878d73a820bae08a5da5e",
+    "dev_ha_tokenized/train/state.json": "5dcf7f9c61e82b3ee035f194a67d1ffc012cdfbeca1894b82445094c1bed5e6e",
+    "train6400.jsonl": "bc1641cc1d9bb3a67c41258bd8ab49de55fb8893a6984d4d9c986872c83ed788",
+    "train6400.provenance.jsonl": "484ea8bc52d8f2269cb013f86c13b94f08a94c2438042e5544b77a54f04ab98a",
+    "train6400_tokenized/dataset_dict.json": "c172eebfc28c1400d6be4338ce7d00191507ffb4ae64c315f039585c894df5b7",
+    "train6400_tokenized/train/data-00000-of-00001.arrow": "0d6667c81cf6ee5ab30cc148616c38d756868548759e6e5a2c477a9cc84d742e",
+    "train6400_tokenized/train/dataset_info.json": "2d4d048eea9f68a62b9488465df49de56fff8c40382878d73a820bae08a5da5e",
+    "train6400_tokenized/train/state.json": "82223f9da0acf4da2a258046390b89a8d2720bbd3bfd5556d1240c4677f8258a"
+  },
+  "scope": "Immutable pretraining data freeze record; current run completion is recorded separately."
+}

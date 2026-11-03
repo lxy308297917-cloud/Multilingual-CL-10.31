@@ -1,0 +1,2978 @@
+{
+  "status": "FIT_ONLY_POSTHOC_DIAGNOSTIC_COMPLETE",
+  "plan": {
+    "registered_at": "2026-11-03T04:19:48.656353+08:00",
+    "scope": "Post hoc descriptive fit-only bootstrap, after full pilot scores were read; not an ex ante confirmation",
+    "bootstrap_repeats": 100,
+    "seed": 20261103,
+    "selection_or_predictions_changed": false,
+    "resampling": "Three paired semantic rows with replacement independently within each of six fixed categories, same draw for every matrix",
+    "evidence_level": "Statistical/numerical diagnostic only"
+  },
+  "summary": {
+    "matrices": 196,
+    "fit_semantic_ids": 18,
+    "independent_semantic_samples_not_rotations": 18,
+    "diagonal_coefficients": 3556,
+    "full_old_row_column_space_coefficients": 68516,
+    "median_matrix_mean_bootstrap_overlap": 0.7297963598077997,
+    "median_matrix_random_orientation_reference": 0.09523809523809523,
+    "matrices_with_any_bootstrap_rank_below2": 0,
+    "minimum_adjacent_relative_singular_gap": 0.0037484346175541074,
+    "matrices_with_gap_below1e-3": 0
+  },
+  "rows": [
+    {
+      "name": "model.layers.0.mlp.down_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.8075304444603507,
+      "bootstrap_overlap_median": 0.8887964839974786,
+      "bootstrap_overlap_q025_q975": [
+        0.4238662132961796,
+        0.9801510099696673
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.01946401083831021,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.0.mlp.gate_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.6723358855234207,
+      "bootstrap_overlap_median": 0.665342374747244,
+      "bootstrap_overlap_q025_q975": [
+        0.280396303942307,
+        0.9745473947887575
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.011066151553736825,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.0.mlp.up_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.6639992574515509,
+      "bootstrap_overlap_median": 0.6244715923219761,
+      "bootstrap_overlap_q025_q975": [
+        0.29636602470840034,
+        0.984994307580909
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.009431912489398614,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.0.self_attn.k_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.6837983443650971,
+      "bootstrap_overlap_median": 0.6874653633896328,
+      "bootstrap_overlap_q025_q975": [
+        0.4668723397477623,
+        0.9247679084273913
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.023432191545228204,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.0.self_attn.o_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.6089413030595923,
+      "bootstrap_overlap_median": 0.5800916839048862,
+      "bootstrap_overlap_q025_q975": [
+        0.1994328851367658,
+        0.9676307372861118
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.029633990532089535,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.0.self_attn.q_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.6474690434481865,
+      "bootstrap_overlap_median": 0.593985655416561,
+      "bootstrap_overlap_q025_q975": [
+        0.3385294201413304,
+        0.9817228319748833
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.023605644780088746,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.0.self_attn.v_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7002699017228009,
+      "bootstrap_overlap_median": 0.7199473561598582,
+      "bootstrap_overlap_q025_q975": [
+        0.26140251305749485,
+        0.9855022707178821
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.08255641834340566,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.1.mlp.down_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7189787387349368,
+      "bootstrap_overlap_median": 0.7620035484047256,
+      "bootstrap_overlap_q025_q975": [
+        0.39945248192710864,
+        0.9622514978572352
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.009395561997735424,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.1.mlp.gate_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.6652387224623358,
+      "bootstrap_overlap_median": 0.6771186458998807,
+      "bootstrap_overlap_q025_q975": [
+        0.4082996167305768,
+        0.9221080689425484
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.011396678017370892,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.1.mlp.up_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.6304480850576194,
+      "bootstrap_overlap_median": 0.6449400678850087,
+      "bootstrap_overlap_q025_q975": [
+        0.29910564059684525,
+        0.9695870441467346
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.007896359170857509,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.1.self_attn.k_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7872219649275507,
+      "bootstrap_overlap_median": 0.8603482404904617,
+      "bootstrap_overlap_q025_q975": [
+        0.4522520015230822,
+        0.9911191083280854
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.048569395424180074,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.1.self_attn.o_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.6943739082107097,
+      "bootstrap_overlap_median": 0.7409850742957176,
+      "bootstrap_overlap_q025_q975": [
+        0.35270049981500773,
+        0.9628302733885931
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.06986126295808702,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.1.self_attn.q_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.6785430659152822,
+      "bootstrap_overlap_median": 0.6722146799742514,
+      "bootstrap_overlap_q025_q975": [
+        0.3870689301540883,
+        0.9705208631359074
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.009540742652120154,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.1.self_attn.v_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.6345923973563642,
+      "bootstrap_overlap_median": 0.6743284431134515,
+      "bootstrap_overlap_q025_q975": [
+        0.340791309620058,
+        0.9462279454304628
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.051378808989666416,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.10.mlp.down_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7470665217058198,
+      "bootstrap_overlap_median": 0.8010533798717958,
+      "bootstrap_overlap_q025_q975": [
+        0.46418083666844345,
+        0.9448692919284588
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.013948384014883908,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.10.mlp.gate_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.8454020537311457,
+      "bootstrap_overlap_median": 0.9021374439952179,
+      "bootstrap_overlap_q025_q975": [
+        0.48275838520025083,
+        0.980943503907598
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.020266897489022054,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.10.mlp.up_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.6546654074747064,
+      "bootstrap_overlap_median": 0.6305776085842312,
+      "bootstrap_overlap_q025_q975": [
+        0.36014249057057807,
+        0.9334408490697852
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.027103191806459318,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.10.self_attn.k_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7432726013045928,
+      "bootstrap_overlap_median": 0.7997820601254464,
+      "bootstrap_overlap_q025_q975": [
+        0.39067105378606565,
+        0.9763710528561433
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.0846461668289015,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.10.self_attn.o_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7157670450891793,
+      "bootstrap_overlap_median": 0.7377530510329745,
+      "bootstrap_overlap_q025_q975": [
+        0.31974260554655454,
+        0.9495779447225344
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.05674025324548965,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.10.self_attn.q_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.6612780770786992,
+      "bootstrap_overlap_median": 0.6427632031249936,
+      "bootstrap_overlap_q025_q975": [
+        0.26066549096907415,
+        0.9689833874604883
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.045324334928285165,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.10.self_attn.v_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7422656212175742,
+      "bootstrap_overlap_median": 0.8499063059854242,
+      "bootstrap_overlap_q025_q975": [
+        0.2727982829169763,
+        0.9916475195642206
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.054431450374088045,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.11.mlp.down_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.6641576227082401,
+      "bootstrap_overlap_median": 0.6417965245502466,
+      "bootstrap_overlap_q025_q975": [
+        0.4653483476573582,
+        0.9362566529154498
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.029388631607985542,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.11.mlp.gate_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7564301331259045,
+      "bootstrap_overlap_median": 0.7863481924829001,
+      "bootstrap_overlap_q025_q975": [
+        0.40328454398506014,
+        0.9823868795821841
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.012523795523439126,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.11.mlp.up_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.6791623721526426,
+      "bootstrap_overlap_median": 0.694440681913566,
+      "bootstrap_overlap_q025_q975": [
+        0.39456924576897123,
+        0.9641241379835591
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.005531737386253169,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.11.self_attn.k_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7223952389951138,
+      "bootstrap_overlap_median": 0.7867621981251314,
+      "bootstrap_overlap_q025_q975": [
+        0.4174239934136789,
+        0.9878865637950169
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.02781937907890941,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.11.self_attn.o_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7230593796950603,
+      "bootstrap_overlap_median": 0.7627531096691424,
+      "bootstrap_overlap_q025_q975": [
+        0.3894481562559181,
+        0.9461657794887834
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.055544136078248894,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.11.self_attn.q_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.6731361546909922,
+      "bootstrap_overlap_median": 0.6555169883941885,
+      "bootstrap_overlap_q025_q975": [
+        0.44477194373934625,
+        0.9209705010982994
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.041665655483667186,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.11.self_attn.v_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.6616642511105967,
+      "bootstrap_overlap_median": 0.6698320451889902,
+      "bootstrap_overlap_q025_q975": [
+        0.43390813520843335,
+        0.9442256284852449
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.02223988854719877,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.12.mlp.down_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7138970217023342,
+      "bootstrap_overlap_median": 0.6969606380812119,
+      "bootstrap_overlap_q025_q975": [
+        0.4723504810289449,
+        0.9859947019005938
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.027265690523351784,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.12.mlp.gate_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7535661444816384,
+      "bootstrap_overlap_median": 0.7889456275389674,
+      "bootstrap_overlap_q025_q975": [
+        0.39993643475702956,
+        0.965844956668648
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.03876869900992754,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.12.mlp.up_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7178905746836022,
+      "bootstrap_overlap_median": 0.7773243990063831,
+      "bootstrap_overlap_q025_q975": [
+        0.30576621983892605,
+        0.9809443938544834
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.009516413664115557,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.12.self_attn.k_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.6448592775703027,
+      "bootstrap_overlap_median": 0.6762166120852287,
+      "bootstrap_overlap_q025_q975": [
+        0.24631896264029085,
+        0.9695325788027265
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.07461833814228097,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.12.self_attn.o_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7037446976594017,
+      "bootstrap_overlap_median": 0.8122777078677044,
+      "bootstrap_overlap_q025_q975": [
+        0.31643967010955,
+        0.973060172387881
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.06718757272939271,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.12.self_attn.q_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.8203001219693037,
+      "bootstrap_overlap_median": 0.838776927499081,
+      "bootstrap_overlap_q025_q975": [
+        0.5420304316594495,
+        0.9939443248915422
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.017322001443033745,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.12.self_attn.v_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.6595620412551501,
+      "bootstrap_overlap_median": 0.6043291671579165,
+      "bootstrap_overlap_q025_q975": [
+        0.25433019211345237,
+        0.9877799467578017
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.05444121135491237,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.13.mlp.down_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.8271405362748919,
+      "bootstrap_overlap_median": 0.8752448360768359,
+      "bootstrap_overlap_q025_q975": [
+        0.4235831829028817,
+        0.9845843707506656
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.031191354773618764,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.13.mlp.gate_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.715260061537654,
+      "bootstrap_overlap_median": 0.8437470632883455,
+      "bootstrap_overlap_q025_q975": [
+        0.29167824365271733,
+        0.9789450654978188
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.0038336675865049148,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.13.mlp.up_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7666458502058588,
+      "bootstrap_overlap_median": 0.8018792478320598,
+      "bootstrap_overlap_q025_q975": [
+        0.4981104222450459,
+        0.9905928828745598
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.01977275503970678,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.13.self_attn.k_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7213817186856737,
+      "bootstrap_overlap_median": 0.7573998591702218,
+      "bootstrap_overlap_q025_q975": [
+        0.40274373559110566,
+        0.9720998001776602
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.055783779245104685,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.13.self_attn.o_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.6923805191994095,
+      "bootstrap_overlap_median": 0.6674658145328265,
+      "bootstrap_overlap_q025_q975": [
+        0.3070224934037263,
+        0.9608947655911585
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.02522102898087562,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.13.self_attn.q_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.5950644681054039,
+      "bootstrap_overlap_median": 0.5797241693454415,
+      "bootstrap_overlap_q025_q975": [
+        0.276548636043521,
+        0.9431391113587639
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.005067442639553708,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.13.self_attn.v_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7271345743289411,
+      "bootstrap_overlap_median": 0.7459882558030018,
+      "bootstrap_overlap_q025_q975": [
+        0.3370123603920357,
+        0.9591803855228671
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.04240656604602178,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.14.mlp.down_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.684235099547625,
+      "bootstrap_overlap_median": 0.6552972140872737,
+      "bootstrap_overlap_q025_q975": [
+        0.3633008649278261,
+        0.9509736525080291
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.015564838025831175,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.14.mlp.gate_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.6546824754317428,
+      "bootstrap_overlap_median": 0.6318677685945797,
+      "bootstrap_overlap_q025_q975": [
+        0.41039717576200757,
+        0.9690667631445973
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.00435573034867219,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.14.mlp.up_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.783275976295589,
+      "bootstrap_overlap_median": 0.8491621550571788,
+      "bootstrap_overlap_q025_q975": [
+        0.4697981282287453,
+        0.9918906246991067
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.014775866978574932,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.14.self_attn.k_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.6942665446784139,
+      "bootstrap_overlap_median": 0.7002051010903629,
+      "bootstrap_overlap_q025_q975": [
+        0.4207800297940315,
+        0.9449605658342372
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.03436883413003841,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.14.self_attn.o_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7236577698664196,
+      "bootstrap_overlap_median": 0.7246727792679292,
+      "bootstrap_overlap_q025_q975": [
+        0.4272429878921185,
+        0.9775383982375084
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.0323868392395484,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.14.self_attn.q_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7420738894643977,
+      "bootstrap_overlap_median": 0.7698062779948143,
+      "bootstrap_overlap_q025_q975": [
+        0.4425489965911139,
+        0.9713159719765992
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.047367607974825414,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.14.self_attn.v_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7959414124558124,
+      "bootstrap_overlap_median": 0.8690232070055903,
+      "bootstrap_overlap_q025_q975": [
+        0.4274262767501466,
+        0.9763656066639855
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.014120129502495117,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.15.mlp.down_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7092789217533295,
+      "bootstrap_overlap_median": 0.8069141909227027,
+      "bootstrap_overlap_q025_q975": [
+        0.2925882324224597,
+        0.9650501170819068
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.009270068964433035,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.15.mlp.gate_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7220412043711343,
+      "bootstrap_overlap_median": 0.7508283153260408,
+      "bootstrap_overlap_q025_q975": [
+        0.32372221236073473,
+        0.9706901983093846
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.018989187607912923,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.15.mlp.up_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7087064794294387,
+      "bootstrap_overlap_median": 0.6624207205885837,
+      "bootstrap_overlap_q025_q975": [
+        0.4919575920870554,
+        0.975583357749008
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.01558560273946687,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.15.self_attn.k_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.6153461611743505,
+      "bootstrap_overlap_median": 0.7126135416181771,
+      "bootstrap_overlap_q025_q975": [
+        0.06289006093416447,
+        0.971974367930617
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.0703261904800935,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.15.self_attn.o_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7511835422288499,
+      "bootstrap_overlap_median": 0.732525782388824,
+      "bootstrap_overlap_q025_q975": [
+        0.3741641158666124,
+        0.9900412880675012
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.04293105349726344,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.15.self_attn.q_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7008024520138533,
+      "bootstrap_overlap_median": 0.6836007786725489,
+      "bootstrap_overlap_q025_q975": [
+        0.3648062736180792,
+        0.9760614034657095
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.04923524688380973,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.15.self_attn.v_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7262924472624406,
+      "bootstrap_overlap_median": 0.7669802359813434,
+      "bootstrap_overlap_q025_q975": [
+        0.446342851898573,
+        0.9534919899109596
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.06943059595874973,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.16.mlp.down_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7345014223679008,
+      "bootstrap_overlap_median": 0.8006727238478425,
+      "bootstrap_overlap_q025_q975": [
+        0.35052109439152523,
+        0.972434147758315
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.030004015480244856,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.16.mlp.gate_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.851583359529554,
+      "bootstrap_overlap_median": 0.9262159490814794,
+      "bootstrap_overlap_q025_q975": [
+        0.5099859083941278,
+        0.9937534396030027
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.023899732971500123,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.16.mlp.up_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7816790329750054,
+      "bootstrap_overlap_median": 0.8271752314230825,
+      "bootstrap_overlap_q025_q975": [
+        0.38375292903230734,
+        0.9643214813416143
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.010343014017594018,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.16.self_attn.k_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.6825654463764963,
+      "bootstrap_overlap_median": 0.6934974194775311,
+      "bootstrap_overlap_q025_q975": [
+        0.4097272815508689,
+        0.9250074684228923
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.049193632747521865,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.16.self_attn.o_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7180472572709595,
+      "bootstrap_overlap_median": 0.7388383894751956,
+      "bootstrap_overlap_q025_q975": [
+        0.45120299790284624,
+        0.966243210248485
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.01437021044344121,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.16.self_attn.q_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7240187493062917,
+      "bootstrap_overlap_median": 0.7442495690607227,
+      "bootstrap_overlap_q025_q975": [
+        0.42163968676451224,
+        0.9799427808511414
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.05256055680986156,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.16.self_attn.v_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7813434189916617,
+      "bootstrap_overlap_median": 0.8272716980141228,
+      "bootstrap_overlap_q025_q975": [
+        0.4946177580483262,
+        0.9740351400415267
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.02935560302618335,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.17.mlp.down_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.6996101875005712,
+      "bootstrap_overlap_median": 0.7356446972539097,
+      "bootstrap_overlap_q025_q975": [
+        0.310710632327987,
+        0.9618275800375955
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.016247915093019847,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.17.mlp.gate_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7602352465799794,
+      "bootstrap_overlap_median": 0.7838887407967061,
+      "bootstrap_overlap_q025_q975": [
+        0.4811351389887787,
+        0.962716943620172
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.0038962460283291796,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.17.mlp.up_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.8545189336124424,
+      "bootstrap_overlap_median": 0.9355485031300655,
+      "bootstrap_overlap_q025_q975": [
+        0.5603100451577154,
+        0.9958398931933964
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.019882408529811307,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.17.self_attn.k_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7863205797224374,
+      "bootstrap_overlap_median": 0.8290486652101525,
+      "bootstrap_overlap_q025_q975": [
+        0.503309471304166,
+        0.9773812939836453
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.040103488059172576,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.17.self_attn.o_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.8012341999729182,
+      "bootstrap_overlap_median": 0.8387343418255742,
+      "bootstrap_overlap_q025_q975": [
+        0.48862608216734166,
+        0.9816334852982467
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.04883996847845355,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.17.self_attn.q_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7683421637415107,
+      "bootstrap_overlap_median": 0.7893589630224063,
+      "bootstrap_overlap_q025_q975": [
+        0.4831654535012293,
+        0.9816538315503918
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.0067924378856758045,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.17.self_attn.v_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7803442929723292,
+      "bootstrap_overlap_median": 0.8360268529227194,
+      "bootstrap_overlap_q025_q975": [
+        0.48425169124881556,
+        0.9769715125518449
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.020780097959072943,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.18.mlp.down_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7295473716914113,
+      "bootstrap_overlap_median": 0.7276671534976527,
+      "bootstrap_overlap_q025_q975": [
+        0.4855303966397331,
+        0.9785633467655707
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.006367519591148598,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.18.mlp.gate_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.6717391645429507,
+      "bootstrap_overlap_median": 0.6421543207855389,
+      "bootstrap_overlap_q025_q975": [
+        0.3018848550913598,
+        0.9583604436969821
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.02856939524291498,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.18.mlp.up_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7460343694547233,
+      "bootstrap_overlap_median": 0.8875891816357586,
+      "bootstrap_overlap_q025_q975": [
+        0.40283069260622206,
+        0.9842906802774308
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.007979283287271275,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.18.self_attn.k_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.728571269001873,
+      "bootstrap_overlap_median": 0.7618405589092561,
+      "bootstrap_overlap_q025_q975": [
+        0.4456385800944301,
+        0.9686229517474941
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.0579260757172468,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.18.self_attn.o_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.6655148590987863,
+      "bootstrap_overlap_median": 0.6598214703363419,
+      "bootstrap_overlap_q025_q975": [
+        0.36661144983439076,
+        0.9330214869602409
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.03626567463943034,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.18.self_attn.q_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7162935555164538,
+      "bootstrap_overlap_median": 0.7306329778959095,
+      "bootstrap_overlap_q025_q975": [
+        0.4337060602042927,
+        0.9458824341204568
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.06376671799863207,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.18.self_attn.v_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.8235940140017383,
+      "bootstrap_overlap_median": 0.8885258454479688,
+      "bootstrap_overlap_q025_q975": [
+        0.4940951730969499,
+        0.9943943059144938
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.023930639981205263,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.19.mlp.down_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.8888153302857239,
+      "bootstrap_overlap_median": 0.9210881134275405,
+      "bootstrap_overlap_q025_q975": [
+        0.6475405825972753,
+        0.9917589114912013
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.006985220557037603,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.19.mlp.gate_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7593997733246356,
+      "bootstrap_overlap_median": 0.8913923496834186,
+      "bootstrap_overlap_q025_q975": [
+        0.30811688774962465,
+        0.981958723517712
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.03182027146361187,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.19.mlp.up_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.793751356745725,
+      "bootstrap_overlap_median": 0.8258104141956847,
+      "bootstrap_overlap_q025_q975": [
+        0.46849701633986784,
+        0.9751575040896028
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.018703287904824416,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.19.self_attn.k_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7841151821744529,
+      "bootstrap_overlap_median": 0.8365734106154584,
+      "bootstrap_overlap_q025_q975": [
+        0.2822624887197708,
+        0.9886393595093773
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.06353850471089982,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.19.self_attn.o_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.8122017032151735,
+      "bootstrap_overlap_median": 0.8571028785175608,
+      "bootstrap_overlap_q025_q975": [
+        0.4734541276132405,
+        0.980159864944386
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.052894504424522024,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.19.self_attn.q_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.594529209197184,
+      "bootstrap_overlap_median": 0.574398700188866,
+      "bootstrap_overlap_q025_q975": [
+        0.2736664891909489,
+        0.9175487657040213
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.039112910919471194,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.19.self_attn.v_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7738834498423501,
+      "bootstrap_overlap_median": 0.8377012592356976,
+      "bootstrap_overlap_q025_q975": [
+        0.40309084265506456,
+        0.9778123113386326
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.041336580347716166,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.2.mlp.down_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7418779544499433,
+      "bootstrap_overlap_median": 0.728073618627223,
+      "bootstrap_overlap_q025_q975": [
+        0.4274943354794255,
+        0.9682763643780301
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.007072515128540439,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.2.mlp.gate_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.68166267730075,
+      "bootstrap_overlap_median": 0.6630634975113485,
+      "bootstrap_overlap_q025_q975": [
+        0.38702424009391784,
+        0.9481548146774916
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.004549454360241447,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.2.mlp.up_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7289097049903659,
+      "bootstrap_overlap_median": 0.8395958813003249,
+      "bootstrap_overlap_q025_q975": [
+        0.41447585983103846,
+        0.9730156761753324
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.0211843811934078,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.2.self_attn.k_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.8073558077975568,
+      "bootstrap_overlap_median": 0.9052810236956788,
+      "bootstrap_overlap_q025_q975": [
+        0.4003031732261808,
+        0.9926878957255438
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.07368845139459669,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.2.self_attn.o_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7513727336948886,
+      "bootstrap_overlap_median": 0.77362321225277,
+      "bootstrap_overlap_q025_q975": [
+        0.43075050395168357,
+        0.9648172217607165
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.02117343716000703,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.2.self_attn.q_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.6936936402029928,
+      "bootstrap_overlap_median": 0.6701475737682737,
+      "bootstrap_overlap_q025_q975": [
+        0.35232081671666365,
+        0.9418621827961634
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.03321906795164869,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.2.self_attn.v_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.6978573689487392,
+      "bootstrap_overlap_median": 0.7194411258590878,
+      "bootstrap_overlap_q025_q975": [
+        0.413656025207132,
+        0.8994372610613625
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.0735123602402224,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.20.mlp.down_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7031219591658139,
+      "bootstrap_overlap_median": 0.7472956922911436,
+      "bootstrap_overlap_q025_q975": [
+        0.1844572297331655,
+        0.9745975221526854
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.016950213143030097,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.20.mlp.gate_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7102458072999935,
+      "bootstrap_overlap_median": 0.7952740123813515,
+      "bootstrap_overlap_q025_q975": [
+        0.2172896516103937,
+        0.9682519231620191
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.0037484346175541074,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.20.mlp.up_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.8382265969696528,
+      "bootstrap_overlap_median": 0.889098366323793,
+      "bootstrap_overlap_q025_q975": [
+        0.3869553082733933,
+        0.9892571075230218
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.0221266389448082,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.20.self_attn.k_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.8608496970852716,
+      "bootstrap_overlap_median": 0.9382108544355134,
+      "bootstrap_overlap_q025_q975": [
+        0.40121462734805713,
+        0.9950090596597219
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.07738644358185123,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.20.self_attn.o_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.6888045500668422,
+      "bootstrap_overlap_median": 0.6939888630093304,
+      "bootstrap_overlap_q025_q975": [
+        0.4055036876637833,
+        0.9408868121586079
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.017979580209722495,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.20.self_attn.q_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7188539824282872,
+      "bootstrap_overlap_median": 0.7433393376401611,
+      "bootstrap_overlap_q025_q975": [
+        0.40787456983092535,
+        0.9836509789379306
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.0551803665993801,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.20.self_attn.v_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7879830532146905,
+      "bootstrap_overlap_median": 0.904465655526105,
+      "bootstrap_overlap_q025_q975": [
+        0.13431269930773632,
+        0.9917406361687392
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.04560476249944336,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.21.mlp.down_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7542588314077728,
+      "bootstrap_overlap_median": 0.7605851087796285,
+      "bootstrap_overlap_q025_q975": [
+        0.480540123418614,
+        0.9668688018089328
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.016429720407411648,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.21.mlp.gate_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7064092528740596,
+      "bootstrap_overlap_median": 0.6925471296485373,
+      "bootstrap_overlap_q025_q975": [
+        0.4642347340955237,
+        0.9730466120677075
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.013118110343751094,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.21.mlp.up_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7946836179213002,
+      "bootstrap_overlap_median": 0.8399752797046984,
+      "bootstrap_overlap_q025_q975": [
+        0.4952669876145814,
+        0.9789338799328903
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.02249980097266608,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.21.self_attn.k_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.773721424053991,
+      "bootstrap_overlap_median": 0.8244498520698735,
+      "bootstrap_overlap_q025_q975": [
+        0.44291373098276776,
+        0.9742027316021786
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.004520796551788756,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.21.self_attn.o_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7491448639390444,
+      "bootstrap_overlap_median": 0.7522330649451656,
+      "bootstrap_overlap_q025_q975": [
+        0.44294058698350747,
+        0.9813753522267193
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.056546920931389744,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.21.self_attn.q_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.6507563040709599,
+      "bootstrap_overlap_median": 0.6667745295136744,
+      "bootstrap_overlap_q025_q975": [
+        0.3760269565555263,
+        0.898088665181482
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.0054092112152248194,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.21.self_attn.v_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7317585255173751,
+      "bootstrap_overlap_median": 0.7608220488189426,
+      "bootstrap_overlap_q025_q975": [
+        0.47215799941174186,
+        0.9685486272485684
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.027948416736304264,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.22.mlp.down_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.8366781884078511,
+      "bootstrap_overlap_median": 0.8816732889354617,
+      "bootstrap_overlap_q025_q975": [
+        0.4889117344304393,
+        0.9909295781934088
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.009576106727884547,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.22.mlp.gate_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7847929874023682,
+      "bootstrap_overlap_median": 0.8058214208506813,
+      "bootstrap_overlap_q025_q975": [
+        0.5022843317898078,
+        0.9890917500753169
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.028877844733656254,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.22.mlp.up_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7299060256749587,
+      "bootstrap_overlap_median": 0.7065265346498918,
+      "bootstrap_overlap_q025_q975": [
+        0.436420485592682,
+        0.9710144387889708
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.02436626932147238,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.22.self_attn.k_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7645319157746178,
+      "bootstrap_overlap_median": 0.8352199061833051,
+      "bootstrap_overlap_q025_q975": [
+        0.3694185247567877,
+        0.9832655729273769
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.05254393109015965,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.22.self_attn.o_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.8436030682098086,
+      "bootstrap_overlap_median": 0.8940504229220809,
+      "bootstrap_overlap_q025_q975": [
+        0.4705888584270097,
+        0.986850979743096
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.06923535641481274,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.22.self_attn.q_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.637275495070954,
+      "bootstrap_overlap_median": 0.6238533036162575,
+      "bootstrap_overlap_q025_q975": [
+        0.3193306212580746,
+        0.9284089577177651
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.048293823051124625,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.22.self_attn.v_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.732109197665114,
+      "bootstrap_overlap_median": 0.7629746062645594,
+      "bootstrap_overlap_q025_q975": [
+        0.35524764235510886,
+        0.9675661510999612
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.04158984488965545,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.23.mlp.down_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.8706116725198284,
+      "bootstrap_overlap_median": 0.9253749762830394,
+      "bootstrap_overlap_q025_q975": [
+        0.4923121459101842,
+        0.9953348606105055
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.016650889172614796,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.23.mlp.gate_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7901015453202805,
+      "bootstrap_overlap_median": 0.8882134479226874,
+      "bootstrap_overlap_q025_q975": [
+        0.38118480279326283,
+        0.9883823980383342
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.014554584174373377,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.23.mlp.up_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.8424934482198292,
+      "bootstrap_overlap_median": 0.8865393333807803,
+      "bootstrap_overlap_q025_q975": [
+        0.48581574977351444,
+        0.9959311153998096
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.016623436895320174,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.23.self_attn.k_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.8187583501783375,
+      "bootstrap_overlap_median": 0.8687734037358807,
+      "bootstrap_overlap_q025_q975": [
+        0.4642776619565971,
+        0.9826192883478652
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.03792574160738206,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.23.self_attn.o_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.6839776148606788,
+      "bootstrap_overlap_median": 0.6967713803702024,
+      "bootstrap_overlap_q025_q975": [
+        0.19394981844184175,
+        0.963670360247004
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.029821581573682622,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.23.self_attn.q_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.726530095642186,
+      "bootstrap_overlap_median": 0.7886526429722931,
+      "bootstrap_overlap_q025_q975": [
+        0.2320602171283685,
+        0.9881396349802023
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.03978801794359847,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.23.self_attn.v_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.8343044861982049,
+      "bootstrap_overlap_median": 0.8907141669077024,
+      "bootstrap_overlap_q025_q975": [
+        0.4261618201075438,
+        0.9795013814311873
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.09469292382449274,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.24.mlp.down_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.840083905206232,
+      "bootstrap_overlap_median": 0.8871104054290467,
+      "bootstrap_overlap_q025_q975": [
+        0.480185173568245,
+        0.9880741926111855
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.023339487269270782,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.24.mlp.gate_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7024481284474176,
+      "bootstrap_overlap_median": 0.7629926286198312,
+      "bootstrap_overlap_q025_q975": [
+        0.3194972736169252,
+        0.9671562612573222
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.015535094377963573,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.24.mlp.up_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7900911497211195,
+      "bootstrap_overlap_median": 0.8239830866911357,
+      "bootstrap_overlap_q025_q975": [
+        0.40705025928446337,
+        0.9911558603944438
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.01934093345960651,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.24.self_attn.k_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.744526751164247,
+      "bootstrap_overlap_median": 0.7674323481315434,
+      "bootstrap_overlap_q025_q975": [
+        0.36894132848284905,
+        0.9798820103567338
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.020578470367312918,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.24.self_attn.o_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7050711610957007,
+      "bootstrap_overlap_median": 0.723980658498886,
+      "bootstrap_overlap_q025_q975": [
+        0.41164015664558345,
+        0.9352449243770355
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.0221763714734439,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.24.self_attn.q_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7030985072737778,
+      "bootstrap_overlap_median": 0.712591600833326,
+      "bootstrap_overlap_q025_q975": [
+        0.4164511834895255,
+        0.9622757515627608
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.05052999574544273,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.24.self_attn.v_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7090535526527276,
+      "bootstrap_overlap_median": 0.7068607872989202,
+      "bootstrap_overlap_q025_q975": [
+        0.45810610891887427,
+        0.9429478691429197
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.06216221882419257,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.25.mlp.down_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7758321419560139,
+      "bootstrap_overlap_median": 0.8333884255200308,
+      "bootstrap_overlap_q025_q975": [
+        0.39278523603384813,
+        0.9832451461087007
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.01929447250246806,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.25.mlp.gate_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.807106506199979,
+      "bootstrap_overlap_median": 0.8940711356643753,
+      "bootstrap_overlap_q025_q975": [
+        0.35988239461954014,
+        0.9888000305658349
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.018861396217395514,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.25.mlp.up_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.8681244877563944,
+      "bootstrap_overlap_median": 0.9210574483011513,
+      "bootstrap_overlap_q025_q975": [
+        0.5088483665240288,
+        0.9923692937143533
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.011090991787966829,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.25.self_attn.k_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7452645355937102,
+      "bootstrap_overlap_median": 0.7821776900109404,
+      "bootstrap_overlap_q025_q975": [
+        0.45132109842909374,
+        0.9642534998054688
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.016815964521975386,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.25.self_attn.o_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7081428430319413,
+      "bootstrap_overlap_median": 0.7399638025641656,
+      "bootstrap_overlap_q025_q975": [
+        0.3879986511892459,
+        0.9586072203666408
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.048813862187890945,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.25.self_attn.q_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7065283112030784,
+      "bootstrap_overlap_median": 0.7189950676506988,
+      "bootstrap_overlap_q025_q975": [
+        0.3811066038282507,
+        0.9799213272636066
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.03554484471895608,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.25.self_attn.v_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.6601109473226684,
+      "bootstrap_overlap_median": 0.6203990602705678,
+      "bootstrap_overlap_q025_q975": [
+        0.45800696021260306,
+        0.95546937672021
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.03757812532451259,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.26.mlp.down_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.8027171748598206,
+      "bootstrap_overlap_median": 0.8363464564144969,
+      "bootstrap_overlap_q025_q975": [
+        0.3912635958179939,
+        0.9818302448179088
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.017330289442081842,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.26.mlp.gate_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.8527316617055114,
+      "bootstrap_overlap_median": 0.9178606181185964,
+      "bootstrap_overlap_q025_q975": [
+        0.4898742853137689,
+        0.9898681848521675
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.00452293161997953,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.26.mlp.up_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.8734302523409082,
+      "bootstrap_overlap_median": 0.9005281334420109,
+      "bootstrap_overlap_q025_q975": [
+        0.5881636825263141,
+        0.9944885378791208
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.004489750908820231,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.26.self_attn.k_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7287059407081506,
+      "bootstrap_overlap_median": 0.7359577015183092,
+      "bootstrap_overlap_q025_q975": [
+        0.4086483382343987,
+        0.976978396569669
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.013757399767015776,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.26.self_attn.o_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7421765799230816,
+      "bootstrap_overlap_median": 0.7735852003693822,
+      "bootstrap_overlap_q025_q975": [
+        0.4367629633911868,
+        0.9726151957276781
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.02533492949374561,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.26.self_attn.q_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.6738571737261364,
+      "bootstrap_overlap_median": 0.7266061068809229,
+      "bootstrap_overlap_q025_q975": [
+        0.3295535117780635,
+        0.9338702594980787
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.06304097493943694,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.26.self_attn.v_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7492896789792866,
+      "bootstrap_overlap_median": 0.7665235167617296,
+      "bootstrap_overlap_q025_q975": [
+        0.48563752373063074,
+        0.9637925094228669
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.026072456911302062,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.27.mlp.down_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.58739503037236,
+      "bootstrap_overlap_median": 0.5688873403102115,
+      "bootstrap_overlap_q025_q975": [
+        0.3406927245127621,
+        0.8438807998893406
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.005243770465790434,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.27.mlp.gate_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.8469984000063278,
+      "bootstrap_overlap_median": 0.8902760141481272,
+      "bootstrap_overlap_q025_q975": [
+        0.535464271112004,
+        0.9855117720694473
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.01610882658225082,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.27.mlp.up_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.8454656755189518,
+      "bootstrap_overlap_median": 0.9128042075571616,
+      "bootstrap_overlap_q025_q975": [
+        0.5163224866330336,
+        0.99135817661916
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.01571422402976199,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.27.self_attn.k_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.78269870215901,
+      "bootstrap_overlap_median": 0.7792482862152486,
+      "bootstrap_overlap_q025_q975": [
+        0.5323209019655621,
+        0.9936113173552914
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.11454390580055868,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.27.self_attn.o_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.6767008187120931,
+      "bootstrap_overlap_median": 0.7168041791283192,
+      "bootstrap_overlap_q025_q975": [
+        0.33687164130579517,
+        0.964711169061232
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.007710498553567163,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.27.self_attn.q_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.8542288874079195,
+      "bootstrap_overlap_median": 0.900414953261802,
+      "bootstrap_overlap_q025_q975": [
+        0.5862660415258097,
+        0.9809940238339975
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.01812998994689425,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.27.self_attn.v_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.8726605473871102,
+      "bootstrap_overlap_median": 0.9627553665221464,
+      "bootstrap_overlap_q025_q975": [
+        0.4931100361941274,
+        0.998226738291422
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.033086332713400675,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.3.mlp.down_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7178269592760965,
+      "bootstrap_overlap_median": 0.7762921237379774,
+      "bootstrap_overlap_q025_q975": [
+        0.324874283143037,
+        0.9792097014826837
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.0070784410047968335,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.3.mlp.gate_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7794688996979179,
+      "bootstrap_overlap_median": 0.8281991372999515,
+      "bootstrap_overlap_q025_q975": [
+        0.4730647657175841,
+        0.9829518252560215
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.011404658761567033,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.3.mlp.up_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.684919453712114,
+      "bootstrap_overlap_median": 0.7323695265358767,
+      "bootstrap_overlap_q025_q975": [
+        0.23705117376465917,
+        0.9755876828536703
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.008893115442458802,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.3.self_attn.k_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7703796534888586,
+      "bootstrap_overlap_median": 0.7566173853697802,
+      "bootstrap_overlap_q025_q975": [
+        0.49751911520924924,
+        0.9944945484290505
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.031547371131352246,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.3.self_attn.o_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.6849551716402832,
+      "bootstrap_overlap_median": 0.71128961582442,
+      "bootstrap_overlap_q025_q975": [
+        0.3750650389287197,
+        0.9804732461460421
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.010206945868961622,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.3.self_attn.q_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.6742910923259293,
+      "bootstrap_overlap_median": 0.6759508656215794,
+      "bootstrap_overlap_q025_q975": [
+        0.3963456368739014,
+        0.9529607747069697
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.03615718956331829,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.3.self_attn.v_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.6870263141293274,
+      "bootstrap_overlap_median": 0.7147204782116717,
+      "bootstrap_overlap_q025_q975": [
+        0.2708360752038403,
+        0.9747197817152842
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.06667899510839505,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.4.mlp.down_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.852148519918824,
+      "bootstrap_overlap_median": 0.8607657474271373,
+      "bootstrap_overlap_q025_q975": [
+        0.6712686704544603,
+        0.9772679387085575
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.0211588662344321,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.4.mlp.gate_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.6661684137644883,
+      "bootstrap_overlap_median": 0.6987965638392637,
+      "bootstrap_overlap_q025_q975": [
+        0.2867877103010794,
+        0.9092223830630726
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.004991906101669254,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.4.mlp.up_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7316172676759507,
+      "bootstrap_overlap_median": 0.7949017668795317,
+      "bootstrap_overlap_q025_q975": [
+        0.2610248271949527,
+        0.9846226780207248
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.04000201251815964,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.4.self_attn.k_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.8448245815470296,
+      "bootstrap_overlap_median": 0.9035796308510708,
+      "bootstrap_overlap_q025_q975": [
+        0.5017164871444895,
+        0.9904125234250797
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.11519818645182088,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.4.self_attn.o_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7138239014753839,
+      "bootstrap_overlap_median": 0.7619615455766953,
+      "bootstrap_overlap_q025_q975": [
+        0.34637847654830267,
+        0.9719326479358777
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.031758137021179245,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.4.self_attn.q_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.6622975726405549,
+      "bootstrap_overlap_median": 0.6799327533654931,
+      "bootstrap_overlap_q025_q975": [
+        0.32117003683142586,
+        0.9691078303023384
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.07300857633187252,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.4.self_attn.v_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7303564362873145,
+      "bootstrap_overlap_median": 0.7744702806505501,
+      "bootstrap_overlap_q025_q975": [
+        0.3903831028603791,
+        0.9859301131336055
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.048320706952442664,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.5.mlp.down_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7217216693744558,
+      "bootstrap_overlap_median": 0.7510906219316564,
+      "bootstrap_overlap_q025_q975": [
+        0.4561944783688042,
+        0.9459477956494964
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.017058705868084216,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.5.mlp.gate_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.802224725927189,
+      "bootstrap_overlap_median": 0.865029098725283,
+      "bootstrap_overlap_q025_q975": [
+        0.47943978361926065,
+        0.9821799834214843
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.03043544200092628,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.5.mlp.up_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7021712192370968,
+      "bootstrap_overlap_median": 0.6722604010143758,
+      "bootstrap_overlap_q025_q975": [
+        0.32700157506578353,
+        0.9823991560863923
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.02101135438524629,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.5.self_attn.k_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.6729767150679369,
+      "bootstrap_overlap_median": 0.724198892718996,
+      "bootstrap_overlap_q025_q975": [
+        0.25520075545761217,
+        0.9464947874004407
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.06439641602919316,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.5.self_attn.o_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.68839193934344,
+      "bootstrap_overlap_median": 0.7576457480104959,
+      "bootstrap_overlap_q025_q975": [
+        0.3185612535063792,
+        0.9758855536939177
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.03207952863069855,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.5.self_attn.q_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.797451035981758,
+      "bootstrap_overlap_median": 0.8561522183141126,
+      "bootstrap_overlap_q025_q975": [
+        0.45089364278332644,
+        0.9828731206883523
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.051062399490307775,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.5.self_attn.v_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.8026975874493435,
+      "bootstrap_overlap_median": 0.853253058939125,
+      "bootstrap_overlap_q025_q975": [
+        0.493331341250628,
+        0.9935154408328859
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.010405547814028854,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.6.mlp.down_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7099229553143175,
+      "bootstrap_overlap_median": 0.7338471206931425,
+      "bootstrap_overlap_q025_q975": [
+        0.405608632295178,
+        0.9610973571609357
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.014533012611688165,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.6.mlp.gate_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.6545343121189551,
+      "bootstrap_overlap_median": 0.6286269940877105,
+      "bootstrap_overlap_q025_q975": [
+        0.363206946341117,
+        0.9790331736107455
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.010773649859478174,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.6.mlp.up_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7296866939406407,
+      "bootstrap_overlap_median": 0.7486638245199599,
+      "bootstrap_overlap_q025_q975": [
+        0.4509141289792723,
+        0.984232253265892
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.02478987130729091,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.6.self_attn.k_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7827620189944783,
+      "bootstrap_overlap_median": 0.8026822379184357,
+      "bootstrap_overlap_q025_q975": [
+        0.5160638370384437,
+        0.9799808906417696
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.03063819490173988,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.6.self_attn.o_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.6601417779653619,
+      "bootstrap_overlap_median": 0.6608599113497505,
+      "bootstrap_overlap_q025_q975": [
+        0.35084956345518625,
+        0.9689984822659392
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.032170311613774004,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.6.self_attn.q_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7730775158616061,
+      "bootstrap_overlap_median": 0.8402008441173854,
+      "bootstrap_overlap_q025_q975": [
+        0.41796868202714227,
+        0.9897054156203883
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.030734194822021,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.6.self_attn.v_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.8118447691125462,
+      "bootstrap_overlap_median": 0.8753697908177911,
+      "bootstrap_overlap_q025_q975": [
+        0.46955247722573645,
+        0.9901137614903535
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.04812549833153135,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.7.mlp.down_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7626946576010398,
+      "bootstrap_overlap_median": 0.7947945776052674,
+      "bootstrap_overlap_q025_q975": [
+        0.45211136152170184,
+        0.9863436328156631
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.010896204098106467,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.7.mlp.gate_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7489585574464931,
+      "bootstrap_overlap_median": 0.7733732001363341,
+      "bootstrap_overlap_q025_q975": [
+        0.3800746583259092,
+        0.9713588331097534
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.009165618366813878,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.7.mlp.up_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.8798840136841981,
+      "bootstrap_overlap_median": 0.9246641833988278,
+      "bootstrap_overlap_q025_q975": [
+        0.49840401777775767,
+        0.9915966966653148
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.02856422248084081,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.7.self_attn.k_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.8021898507210942,
+      "bootstrap_overlap_median": 0.8841483858234542,
+      "bootstrap_overlap_q025_q975": [
+        0.4629557088718789,
+        0.9865299852997621
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.11391962553169555,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.7.self_attn.o_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.6767496338099768,
+      "bootstrap_overlap_median": 0.7435834930124143,
+      "bootstrap_overlap_q025_q975": [
+        0.22951036756474966,
+        0.9875148580404275
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.06246268167554307,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.7.self_attn.q_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.6300211984953967,
+      "bootstrap_overlap_median": 0.5839847465093783,
+      "bootstrap_overlap_q025_q975": [
+        0.3551430266107148,
+        0.9547946625556508
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.057447566897371474,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.7.self_attn.v_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7331219070111161,
+      "bootstrap_overlap_median": 0.7568021968534772,
+      "bootstrap_overlap_q025_q975": [
+        0.48016128131040564,
+        0.9611054265858628
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.06678474608883098,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.8.mlp.down_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.8502720546881833,
+      "bootstrap_overlap_median": 0.9176847147265079,
+      "bootstrap_overlap_q025_q975": [
+        0.48729057211810395,
+        0.9933253455080983
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.0049430266819141845,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.8.mlp.gate_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.761964975805297,
+      "bootstrap_overlap_median": 0.7965899287111199,
+      "bootstrap_overlap_q025_q975": [
+        0.3916591668725939,
+        0.977867810105898
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.02880257400251735,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.8.mlp.up_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.8114795883295307,
+      "bootstrap_overlap_median": 0.8677163543860911,
+      "bootstrap_overlap_q025_q975": [
+        0.4301859171741711,
+        0.9848892599437623
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.01837819659400611,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.8.self_attn.k_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.8226442887648545,
+      "bootstrap_overlap_median": 0.8723114945191857,
+      "bootstrap_overlap_q025_q975": [
+        0.5099175064639178,
+        0.9913944950927773
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.06280656652526574,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.8.self_attn.o_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7126322107256603,
+      "bootstrap_overlap_median": 0.7486473644691392,
+      "bootstrap_overlap_q025_q975": [
+        0.40333570338954905,
+        0.9356005559419194
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.04595982308050465,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.8.self_attn.q_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.6823852005466297,
+      "bootstrap_overlap_median": 0.6824071805696439,
+      "bootstrap_overlap_q025_q975": [
+        0.39308410587733517,
+        0.952518424063029
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.0081659405616221,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.8.self_attn.v_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.5206249309827361,
+      "bootstrap_overlap_median": 0.48693262180672925,
+      "bootstrap_overlap_q025_q975": [
+        0.2523945452097312,
+        0.8750178707657051
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.02794704206747025,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.9.mlp.down_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.8716108449280839,
+      "bootstrap_overlap_median": 0.9076145824894102,
+      "bootstrap_overlap_q025_q975": [
+        0.6333343111784858,
+        0.9902307399739587
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.005416487767912831,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.9.mlp.gate_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.8068249575407797,
+      "bootstrap_overlap_median": 0.9241477006387682,
+      "bootstrap_overlap_q025_q975": [
+        0.4486338037840959,
+        0.9924602026716803
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.025245128017133835,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.9.mlp.up_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7183781162983365,
+      "bootstrap_overlap_median": 0.7124432365651785,
+      "bootstrap_overlap_q025_q975": [
+        0.3148468746688766,
+        0.9664860104070176
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.011175528998794102,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.9.self_attn.k_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.8133004837055533,
+      "bootstrap_overlap_median": 0.89793074264056,
+      "bootstrap_overlap_q025_q975": [
+        0.43972771580381553,
+        0.9922679613122396
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.08517463217997479,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.9.self_attn.o_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7393444681335682,
+      "bootstrap_overlap_median": 0.8693526049223853,
+      "bootstrap_overlap_q025_q975": [
+        0.387493936988589,
+        0.9775817735776172
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.015748098253548046,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.9.self_attn.q_proj.weight",
+      "coefficient_dimension": 21,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7215705446196355,
+      "bootstrap_overlap_median": 0.725016085672725,
+      "bootstrap_overlap_q025_q975": [
+        0.3787997916478103,
+        0.9611915803247059
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.09523809523809523,
+      "minimum_adjacent_relative_singular_gap": 0.019665512539388613,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    },
+    {
+      "name": "model.layers.9.self_attn.v_proj.weight",
+      "coefficient_dimension": 11,
+      "reference_rank": 2,
+      "bootstrap_overlap_mean": 0.7547819461322411,
+      "bootstrap_overlap_median": 0.7973387857835247,
+      "bootstrap_overlap_q025_q975": [
+        0.3475876807723719,
+        0.9727268648518175
+      ],
+      "rank_below2_count": 0,
+      "random_orientation_expected_overlap": 0.18181818181818182,
+      "minimum_adjacent_relative_singular_gap": 0.041907728344389376,
+      "adjacent_relative_singular_gap_below1e-3_count": 0
+    }
+  ],
+  "seconds": 17.1596896648407,
+  "source_sha256": {
+    "/local/datasets/multilingual-cl-sequential-20261103/semantic-coefficient-norefresh-final400-v1/fit-coefficient-gradients.pt": "afe27de3e05e1209ff611239e7adae9e71b4d153a1be75ca5635fe6a06f2c701",
+    "/local/datasets/multilingual-cl-sequential-20261103/semantic-coefficient-norefresh-final400-v1/protocol.json": "23addbfe64cde92ea9f63de44f050a5806d4271d5cb7a3c538d4a25f155bb601",
+    "/local/datasets/multilingual-cl-sequential-20261103/norefresh-final400-mode-bank-v1/bank.pt": "bd270626e9b84d0d3ee81e06c50281dd38c4c27d72c00e1d738cb3e3d0e5f9fc"
+  },
+  "limitations": [
+    "Bootstrap uses only18 existing semantic examples; no additional validation information.",
+    "Stable estimated space does not establish semantic identification or downstream gain.",
+    "Diagonal singular-mode bank is not rotation-invariant under exact repeated singular values.",
+    "All original pilot predictions, primary contrast and settings unchanged."
+  ]
+}

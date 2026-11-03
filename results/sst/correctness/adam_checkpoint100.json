@@ -1,0 +1,21 @@
+{
+  "observed_at": "2026-11-03T04:04:19.901796+08:00",
+  "scope": "Two completed models, checkpoint100, rank0 optimizer metadata only; CPU mmap, no moment/weight tensor copying",
+  "models": [
+    "FFT",
+    "SST-NoRefresh"
+  ],
+  "param_groups_per_model": 2,
+  "all_recorded_group_hyperparameters_equal": true,
+  "learning_rate": 8.94570254698197e-06,
+  "expected_cosine_learning_rate": 8.94570254698197e-06,
+  "initial_lr": 1e-05,
+  "betas": [
+    0.9,
+    0.999
+  ],
+  "eps": 1e-08,
+  "weight_decay": 0.0,
+  "learning_rate_every_step_independently_verified": false,
+  "no_model_or_training_change": true
+}

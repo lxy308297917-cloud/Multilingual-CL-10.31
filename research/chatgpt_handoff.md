@@ -1,3 +1,50 @@
+# 多语言持续学习：本轮交接
+
+更新时间：2026-11-03T10:19+08:00。固定seed42；所有主成绩来自预先固定Final，未用正式test选checkpoint。
+
+## 先看结论
+
+- 既有FFT/LoRA/SSU：SW阅读、知识、摘要有收益，IFEval/GSM8K及HumanEval+等部分通用任务下降；英语阅读/知识没有普遍下降。
+- SST NoRefresh400与全套正式benchmark已完成：比FFT保留更多IFEval/GSM8K，但SW阅读29.89、知识27.04、摘要8.68，目标学习明显较弱，未证明相同收益下更优。SST通过独立LLaMA-Factory/DeepSpeed3适配复现，非官方trainer原样运行。
+- FFT SW→Hausa：HA阅读28.44→26.89、知识29.72→27.65，SW阅读36.67→28.56。第二阶段有旧SW退化，未显示新HA学习；HA收益必须相对SW阶段测量。
+- NoRefresh SW→Hausa400及全部固定正式任务已完成：HA阅读28.67→26.89、知识27.00→26.77；SW阅读29.89→31.11、知识27.04→28.69。IFEval60.26→56.01，GSM strict47.23→21.08、flexible69.14→67.25。仍缺新HA学习正对照，不能称已解决CL。
+- 配对功能pilot15条件/5130预测：主要SW/HA配对差异区间跨0，全部条件没有超过W1的HA ACC；不支持立即长训完整候选，也不统计否定所有配对方法。
+- tied-embedding有限恢复1710预测未显示明确EN/SW知识改善；参数变化能量和谱几何不能单独解释遗忘。
+- A/B/C有数学草案与近邻排重，尚无已验证创新。完整A控制器、B求解器、C固定容量多阶段训练均未实现。
+
+## 建议阅读顺序
+
+1. [七个研究问题与下一笔GPU预算](my_method_20261103/final_recommendation.md)
+2. [16篇指定论文及直接近邻的创新性矩阵](my_method_20261103/novelty_matrix.md)
+3. [SST来源、实现、完整NoRefresh分数与成本](sst_reproduction/reproduction_report.md)
+4. [两阶段FFT正式表、正确的学习/遗忘参照](my_method_20261103/sequential_results.md)
+5. [有限功能干预、精度、几何及识别边界](my_method_20261103/interference_analysis.md)
+6. [机器可读公开结果索引](../results/research_my_method/README.md)
+7. [既有完整代码benchmark](bench_v2/code_execution.md)与[旧机制报告](mechanism/mechanism_report.md)
+
+## 当前执行状态
+
+formal-norefresh-bench-v1: COMPLETE; formal-r10-bench-v1: QUEUED; sequential-fft-formal-v1-main: COMPLETE; sequential-fft-formal-v1-source-ha-Base: COMPLETE; sequential-fft-formal-v1-source-ha-SW-FFT: COMPLETE; sequential-sst-norefresh-stage1-ha-v1: COMPLETE; sequential-sst-norefresh-formal-v1-old: COMPLETE; sequential-sst-norefresh-formal-v1-ha: COMPLETE
+
+NoRefresh第二阶段从其SW Final新锚重算SVD，fresh Adam/scheduler；Hausa6400/400步及正式评价已经完成，曝光与FFT逐条核验一致。R10第二阶段NOT_RUN。R10 SW阶段未完成时，本交接不称整个研究已全部完成。最新逐任务表及状态见[快照](../results/research_my_method/sequential/summary.json)。
+
+## 下一步应讨论什么
+
+1. 先复用现有HA阶段checkpoint画冻结开发ACC曲线，检查是否曾学习后回落；本轮NOT_RUN。
+2. 若仍缺新语言学习，再做匹配数据/400步配方的Base→HA-only正对照；本轮NOT_RUN，不追加种子或LR搜索。
+3. 只有可见HA学习且可信语义配对优于单语言、边际协方差/Fisher、随机/打乱、等范数更新和同数据回放/GEM，才考虑完整A。
+4. 既有正式题已暴露，后续设计如实标注探索；几何/CE不代替下游ACC、IFEval或GSM8K。
+
+## 复现与公开边界
+
+公开代码、参数/来源锁、汇总分数/区间、范数控制及生成图；逐样本预测明细只保留本地哈希和数量，不公开。也不包含模型、原生optimizer状态、原始数据文本、token输入、论文PDF、梯度/模态银行或私人运行控制信息。`/local`为明确占位路径，host-specific驱动须配置本地资产，不能直接当作跨服务器即运行镜像。
+
+SST CPU数学8项与系数分支4项在公开暂存副本通过；真实双rank ZeRO3、NoRefresh/R10连续与原生恢复已经独立验真。R10失败的SVD调度优化没有采用。来源及环境见[源码锁](../configs/sst/source.lock.json)、[训练版本](../configs/sst/training_runtime.json)、[测评版本](../configs/sst/evaluation_runtime.json)；更完整说明见[SST入口](../scripts/sst/README.md)。旧基线/机制/代码结果原样保留。
+
+---
+
+# 既有交接归档（本轮前）
+
 > 2026-11-03：[代码 benchmark 已完整执行](bench_v2/code_execution.md)，HumanEval下降，MBPP变化较小；不是所有代码任务均退化。My Method文献/数据探索与SST验收仍进行中，尚无新方法正式成效。
 
 # 最新交付：Benchmark v2

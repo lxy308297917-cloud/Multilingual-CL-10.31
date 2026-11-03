@@ -1,0 +1,355 @@
+{
+  "status": "CPU_TASK_PREFLIGHT_PASS",
+  "tasks": [
+    {
+      "task": "belebele_hau_Latn_sequential_locked",
+      "test_count": 900,
+      "fewshot_pool": 0,
+      "first_render_sha256": "ca30e14b8f7226d9fd3e8874c55ee1526279cbe6dae074cad95789b515df971b"
+    },
+    {
+      "task": "global_mmlu_full_ha_abstract_algebra_locked",
+      "test_count": 100,
+      "fewshot_pool": 5,
+      "first_render_sha256": "b84e5a67ecf79adcb2b4841f2aa086c2443bf2d048e4ff78ecaeb7896b4d1a5f"
+    },
+    {
+      "task": "global_mmlu_full_ha_anatomy_locked",
+      "test_count": 135,
+      "fewshot_pool": 5,
+      "first_render_sha256": "1fd569b6902289e8ce8150aa5001e2aa75aac0da433608e6a44bbfabdb7b87d6"
+    },
+    {
+      "task": "global_mmlu_full_ha_astronomy_locked",
+      "test_count": 152,
+      "fewshot_pool": 5,
+      "first_render_sha256": "fa3b052d5cf853c1f50a0b4fe178f4169f9e8c1126a3824d01312f903bc82c2f"
+    },
+    {
+      "task": "global_mmlu_full_ha_business_ethics_locked",
+      "test_count": 100,
+      "fewshot_pool": 5,
+      "first_render_sha256": "be379743366a200f6309f6a96e48a4382fd6407e30909b567f43645959d31c53"
+    },
+    {
+      "task": "global_mmlu_full_ha_clinical_knowledge_locked",
+      "test_count": 265,
+      "fewshot_pool": 5,
+      "first_render_sha256": "e9a91521f23cc58c9a5e0d0cdc0bbd1afd1e10c6c7555fe223f02bc4e4874600"
+    },
+    {
+      "task": "global_mmlu_full_ha_college_biology_locked",
+      "test_count": 144,
+      "fewshot_pool": 5,
+      "first_render_sha256": "08d9b862035e12ffef17c4d7eb5a3b27c5eb0e26a1695fca519a7c5cafe3fb60"
+    },
+    {
+      "task": "global_mmlu_full_ha_college_chemistry_locked",
+      "test_count": 100,
+      "fewshot_pool": 5,
+      "first_render_sha256": "4e6e7f392dbf9507c0bc2e7ffc7d00cbe405566887df1f531665610a2aa02097"
+    },
+    {
+      "task": "global_mmlu_full_ha_college_computer_science_locked",
+      "test_count": 100,
+      "fewshot_pool": 5,
+      "first_render_sha256": "b02a47b1e6117f3d01997c0603234b602dc1a2b3df2c9b6effc0564d88136e31"
+    },
+    {
+      "task": "global_mmlu_full_ha_college_mathematics_locked",
+      "test_count": 100,
+      "fewshot_pool": 5,
+      "first_render_sha256": "0dcec32589e5b23dddec355459ef1988de0bcf935b8ecc5c22a3447765dca15f"
+    },
+    {
+      "task": "global_mmlu_full_ha_college_medicine_locked",
+      "test_count": 173,
+      "fewshot_pool": 5,
+      "first_render_sha256": "dae46fd704ded1c9de940862c2cdc898136eafa5237f09778a6ec3aed9813690"
+    },
+    {
+      "task": "global_mmlu_full_ha_college_physics_locked",
+      "test_count": 102,
+      "fewshot_pool": 5,
+      "first_render_sha256": "ebe511aee2509418307596f96ded76a9e752029f7329eba3ed638c77ce913f62"
+    },
+    {
+      "task": "global_mmlu_full_ha_computer_security_locked",
+      "test_count": 100,
+      "fewshot_pool": 5,
+      "first_render_sha256": "031cdf006eca4296ba0153e2abf0d8f9ce0b340e16174437555101d9593e3454"
+    },
+    {
+      "task": "global_mmlu_full_ha_conceptual_physics_locked",
+      "test_count": 235,
+      "fewshot_pool": 5,
+      "first_render_sha256": "2b52e0730bf6821f23b64aed5ab06c36e7f6198a1764651c375324e203786cc6"
+    },
+    {
+      "task": "global_mmlu_full_ha_econometrics_locked",
+      "test_count": 114,
+      "fewshot_pool": 5,
+      "first_render_sha256": "d41a76982695895334d6aa9840d99645203636aed867db1498410fdaa7e272bf"
+    },
+    {
+      "task": "global_mmlu_full_ha_electrical_engineering_locked",
+      "test_count": 145,
+      "fewshot_pool": 5,
+      "first_render_sha256": "5744799686963102e6fc487c0e2aca70d369406d492a68024d135e968c2d584f"
+    },
+    {
+      "task": "global_mmlu_full_ha_elementary_mathematics_locked",
+      "test_count": 378,
+      "fewshot_pool": 5,
+      "first_render_sha256": "9598ae0ab67f5edae2f771186e9864efb6e53c830779918d4891bc411d19db22"
+    },
+    {
+      "task": "global_mmlu_full_ha_formal_logic_locked",
+      "test_count": 126,
+      "fewshot_pool": 5,
+      "first_render_sha256": "b750d2316c3a3dd3ecfe2c7f4546b87654cef96db60c89e4d2c490d3c5eed5da"
+    },
+    {
+      "task": "global_mmlu_full_ha_global_facts_locked",
+      "test_count": 100,
+      "fewshot_pool": 5,
+      "first_render_sha256": "639c14f0af3cfccc3fa22b820ab59ebd12fa4d59d1d2ec40dd5760a2b57c38d8"
+    },
+    {
+      "task": "global_mmlu_full_ha_high_school_biology_locked",
+      "test_count": 310,
+      "fewshot_pool": 5,
+      "first_render_sha256": "e93d91da7862610e65e2225cabe5061aa5828448768f55f5cfb8488fa45b8683"
+    },
+    {
+      "task": "global_mmlu_full_ha_high_school_chemistry_locked",
+      "test_count": 203,
+      "fewshot_pool": 5,
+      "first_render_sha256": "79b40f3072280d342df3187c382aa25b41ce64fabfe444efa2dab4ec2b3b2c78"
+    },
+    {
+      "task": "global_mmlu_full_ha_high_school_computer_science_locked",
+      "test_count": 100,
+      "fewshot_pool": 5,
+      "first_render_sha256": "cd7bfcf162d5d1d9389125d121311f301f73e1eaa7b50ad71d17bcf7746cab85"
+    },
+    {
+      "task": "global_mmlu_full_ha_high_school_european_history_locked",
+      "test_count": 165,
+      "fewshot_pool": 5,
+      "first_render_sha256": "a4fc1a18ee9aead4ab1ef56e75fa95aa19303bce28bec7f8890482079cccccf9"
+    },
+    {
+      "task": "global_mmlu_full_ha_high_school_geography_locked",
+      "test_count": 198,
+      "fewshot_pool": 5,
+      "first_render_sha256": "633b565451c86980a44150f091a73aaa20c25a44106ed1808e25b91692bc68b0"
+    },
+    {
+      "task": "global_mmlu_full_ha_high_school_government_and_politics_locked",
+      "test_count": 193,
+      "fewshot_pool": 5,
+      "first_render_sha256": "0d4cb36b57259e80ae06dcf3b1fd22f3090960d7f284c0aaa116bb3eb7eb72a7"
+    },
+    {
+      "task": "global_mmlu_full_ha_high_school_macroeconomics_locked",
+      "test_count": 390,
+      "fewshot_pool": 5,
+      "first_render_sha256": "0e625677ef30b031c128b586ebc2f2350edd6f6aa8ecd45f7f3c5b2da2555f35"
+    },
+    {
+      "task": "global_mmlu_full_ha_high_school_mathematics_locked",
+      "test_count": 270,
+      "fewshot_pool": 5,
+      "first_render_sha256": "902f89e126865cbd76796ec035dd97ced65aee99a130b55b5497e8dbebed6278"
+    },
+    {
+      "task": "global_mmlu_full_ha_high_school_microeconomics_locked",
+      "test_count": 238,
+      "fewshot_pool": 5,
+      "first_render_sha256": "5123b503e6c589dbee809567f4f77ec73dbb9c116ff6a3985d49555c09fbea93"
+    },
+    {
+      "task": "global_mmlu_full_ha_high_school_physics_locked",
+      "test_count": 151,
+      "fewshot_pool": 5,
+      "first_render_sha256": "253f15686d3da56ba245bfae8ae207cf4e2f1006c8ee3456ad5225d815250f23"
+    },
+    {
+      "task": "global_mmlu_full_ha_high_school_psychology_locked",
+      "test_count": 545,
+      "fewshot_pool": 5,
+      "first_render_sha256": "de52fa85579e13e48a66a1aa90b9c2fdfbf71e0c400014ba06b947a0c0cfdb06"
+    },
+    {
+      "task": "global_mmlu_full_ha_high_school_statistics_locked",
+      "test_count": 216,
+      "fewshot_pool": 5,
+      "first_render_sha256": "1595dcfad097c21f8062f2157ed4ed174570d2157eac9568be54b99aa65399c2"
+    },
+    {
+      "task": "global_mmlu_full_ha_high_school_us_history_locked",
+      "test_count": 204,
+      "fewshot_pool": 5,
+      "first_render_sha256": "704080c7ebff04d77860758bb0bf0136490f4f5ed9ac105d922dc0ba35afcad5"
+    },
+    {
+      "task": "global_mmlu_full_ha_high_school_world_history_locked",
+      "test_count": 237,
+      "fewshot_pool": 5,
+      "first_render_sha256": "1cdfccbd5630df0f6226432012480d5e99c2285e68bcc23e0d89cb10a3a37cfa"
+    },
+    {
+      "task": "global_mmlu_full_ha_human_aging_locked",
+      "test_count": 223,
+      "fewshot_pool": 5,
+      "first_render_sha256": "afa058331c0d261568e92203dc0d999879bde70e24aa65602ce02f54111644f9"
+    },
+    {
+      "task": "global_mmlu_full_ha_human_sexuality_locked",
+      "test_count": 131,
+      "fewshot_pool": 5,
+      "first_render_sha256": "3c5cf0ef4cd9f41aa5e2593cb0e3d49b346f948153440b51a6d9e060e283c13d"
+    },
+    {
+      "task": "global_mmlu_full_ha_international_law_locked",
+      "test_count": 121,
+      "fewshot_pool": 5,
+      "first_render_sha256": "c23dc4556cbb65ceb213d68c34bdc9ea9bd2734d7380bf13c25e651a4059cbbd"
+    },
+    {
+      "task": "global_mmlu_full_ha_jurisprudence_locked",
+      "test_count": 108,
+      "fewshot_pool": 5,
+      "first_render_sha256": "4ad4e91f1b3fa3912590ed9c4bb227c59e1629cc68e326adc0d6c7cdaf153b68"
+    },
+    {
+      "task": "global_mmlu_full_ha_logical_fallacies_locked",
+      "test_count": 163,
+      "fewshot_pool": 5,
+      "first_render_sha256": "fe8df0950a2e6fa62e5eec7bbf1b8b9b96bf88962921d177db945bf0d6441298"
+    },
+    {
+      "task": "global_mmlu_full_ha_machine_learning_locked",
+      "test_count": 112,
+      "fewshot_pool": 5,
+      "first_render_sha256": "528de423e4898feb3f0060b34c7cb75201577b8825442ab68467cc290126459f"
+    },
+    {
+      "task": "global_mmlu_full_ha_management_locked",
+      "test_count": 103,
+      "fewshot_pool": 5,
+      "first_render_sha256": "92774609a38a6bc36ebeea4afe3854add9520950a09e3d08efd6b82297ee5143"
+    },
+    {
+      "task": "global_mmlu_full_ha_marketing_locked",
+      "test_count": 234,
+      "fewshot_pool": 5,
+      "first_render_sha256": "6f1b72431ec1d278e800b7d09848a3a6cd07d6abc279868d583659519b928698"
+    },
+    {
+      "task": "global_mmlu_full_ha_medical_genetics_locked",
+      "test_count": 100,
+      "fewshot_pool": 5,
+      "first_render_sha256": "51dd6c5e2f800cea014b3414de8825d0ebca0ffbe3291a0198d9829c232cee3f"
+    },
+    {
+      "task": "global_mmlu_full_ha_miscellaneous_locked",
+      "test_count": 783,
+      "fewshot_pool": 5,
+      "first_render_sha256": "e646127cd22c0eb63c838d43912a966de245b9ddd2b4fc56e45a7acf07d7364a"
+    },
+    {
+      "task": "global_mmlu_full_ha_moral_disputes_locked",
+      "test_count": 346,
+      "fewshot_pool": 5,
+      "first_render_sha256": "ab17b11e4511ec69f0fcde1c6fc38bbf206c1fef65e787fea5f64d31fceac47b"
+    },
+    {
+      "task": "global_mmlu_full_ha_moral_scenarios_locked",
+      "test_count": 895,
+      "fewshot_pool": 5,
+      "first_render_sha256": "a64664aa966f1c7565aba33a1deea544f894aadcb8e23829ccc2ae89cbe4eccb"
+    },
+    {
+      "task": "global_mmlu_full_ha_nutrition_locked",
+      "test_count": 306,
+      "fewshot_pool": 5,
+      "first_render_sha256": "4b19dcb43e92583f0b7c28ee9eddb0b569cbedcbd24a0add02ed8dc3bb4c9406"
+    },
+    {
+      "task": "global_mmlu_full_ha_philosophy_locked",
+      "test_count": 311,
+      "fewshot_pool": 5,
+      "first_render_sha256": "893d414e9ed33d27a217ff36e389ea66897b501c69a823d31b5dc0a5ab53938e"
+    },
+    {
+      "task": "global_mmlu_full_ha_prehistory_locked",
+      "test_count": 324,
+      "fewshot_pool": 5,
+      "first_render_sha256": "2d404feefedae294e5a48b6c92396ba288778d2fa13859456301c1c86e5ecdf9"
+    },
+    {
+      "task": "global_mmlu_full_ha_professional_accounting_locked",
+      "test_count": 282,
+      "fewshot_pool": 5,
+      "first_render_sha256": "dbb2ef70d999512b4a798ad3337cde1cf5d676e03201b7b2773e350a53a220ea"
+    },
+    {
+      "task": "global_mmlu_full_ha_professional_law_locked",
+      "test_count": 1534,
+      "fewshot_pool": 5,
+      "first_render_sha256": "ba2408dcc8dd39707e91f704dede1d875a454f6e822d48da35523dd81992e646"
+    },
+    {
+      "task": "global_mmlu_full_ha_professional_medicine_locked",
+      "test_count": 272,
+      "fewshot_pool": 5,
+      "first_render_sha256": "5a61c49b5890890a0ccacb8cd4a1820f72538e09b8c781fd9a08857d07dc1933"
+    },
+    {
+      "task": "global_mmlu_full_ha_professional_psychology_locked",
+      "test_count": 612,
+      "fewshot_pool": 5,
+      "first_render_sha256": "467414bec5519339b6ea59427801909927f3b2155435cd3c90cbed98cd48a286"
+    },
+    {
+      "task": "global_mmlu_full_ha_public_relations_locked",
+      "test_count": 110,
+      "fewshot_pool": 5,
+      "first_render_sha256": "f9e327a5e6d4b61b0c18a44ae1e5ad59815ce5db8acf25b4369865c68af657dd"
+    },
+    {
+      "task": "global_mmlu_full_ha_security_studies_locked",
+      "test_count": 245,
+      "fewshot_pool": 5,
+      "first_render_sha256": "f246e7d16487ca0bca6674b34236358888e430b5fdc724c8c8ab55298b3d3969"
+    },
+    {
+      "task": "global_mmlu_full_ha_sociology_locked",
+      "test_count": 201,
+      "fewshot_pool": 5,
+      "first_render_sha256": "135016756bfa4e784f783176a4d7fea1e999b9be303bdf5c22fe392788a078d2"
+    },
+    {
+      "task": "global_mmlu_full_ha_us_foreign_policy_locked",
+      "test_count": 100,
+      "fewshot_pool": 5,
+      "first_render_sha256": "7a3259165037965481a93ce760b9255d49dede18bda531d61e15f6de9663b744"
+    },
+    {
+      "task": "global_mmlu_full_ha_virology_locked",
+      "test_count": 166,
+      "fewshot_pool": 5,
+      "first_render_sha256": "536042d723aedc25a5558e15bba481f0f3b0b016839d7cd70c2f45d32da90b2b"
+    },
+    {
+      "task": "global_mmlu_full_ha_world_religions_locked",
+      "test_count": 171,
+      "fewshot_pool": 5,
+      "first_render_sha256": "9edcaded9a412e0064a31dfeef7ba92ed5be618657c46df9d60eadaacedf6a91"
+    }
+  ],
+  "test_samples": 14942,
+  "model_outputs_examined": false
+}

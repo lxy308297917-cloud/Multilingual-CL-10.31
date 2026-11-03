@@ -1,0 +1,33 @@
+{
+  "registered_at": "2026-11-03T02:08:24.213826+08:00",
+  "status": "PRE_MODEL_OUTPUT_REGISTRATION",
+  "protocol_sha256": "5bf0568ccc921f8f955af1aca281e6efd28c3e764e6c6f10541f59fd75aabc88",
+  "primary_contrast": {
+    "strength_fraction": 0.1,
+    "treatment": "block_shared",
+    "control": "block_shuffled",
+    "outcomes": [
+      "sw_acc",
+      "ha_acc"
+    ],
+    "joint_reporting": "Report both coordinates with paired semantic-ID bootstrap intervals, not an average or a retrospectively chosen tradeoff weight"
+  },
+  "secondary": [
+    "EN ACC",
+    "random matched-rank control",
+    "raw update",
+    "reuse conditions",
+    "strength_fraction0.3"
+  ],
+  "statistics": {
+    "bootstrap_resamples": 10000,
+    "seed": 20261103,
+    "unit": "semantic_id, all language translations retained together",
+    "confidence_level": 0.95,
+    "exploratory_not_pristine_confirmation": true,
+    "formal_test_used_for_selection": false,
+    "all_contrasts_reported": true,
+    "no_posthoc_best_strength": true
+  },
+  "decision": "Evidence can motivate or falsify the paired-function hypothesis; no claim of an adopted method from these historically exposed dev data. Formal full-training comparisons remain required."
+}

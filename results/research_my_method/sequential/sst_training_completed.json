@@ -1,0 +1,13 @@
+{
+  "exit_code": 0,
+  "global_step": 400,
+  "actual_counts": {
+    "samples": 6400,
+    "input_tokens": 2596327,
+    "shifted_assistant_tokens": 920471,
+    "padded_positions": 2618496
+  },
+  "source_weights_unchanged": true,
+  "output": "/local/checkpoints/multilingual_cl_sequential_20261103/sw_ha_6400x2_sst_norefresh_seed42_final_v1",
+  "seconds": 10532.556121110916
+}

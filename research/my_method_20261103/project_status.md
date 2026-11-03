@@ -1,0 +1,30 @@
+# 当前研究状态
+
+更新：2026-11-03 10:20；以各独立DONE/FAILED及最新日志为准。
+
+| 工作 | 已有证据 | 当前状态 |
+|---|---|---|
+| 对话与目标 | 最新完整任务、09首版/10交接/12持续要求 | ACTIVE |
+| 文献排重 | 16篇指定+10篇矩阵，额外直接近邻原文审计 | 首版完成，未确立创新性 |
+| SST正确性 | CPU8项、真实ZeRO3、1.72B值原生恢复 | PASS |
+| NoRefresh400 | 6400条，2884423输入/1078347监督token，9956.92s | COMPLETE，完整暴露逐项对齐FFT |
+| R10400 | 原刷新实现已验真；正式训练实际更新与刷新进行 | RUNNING；失败的调度优化未采用 |
+| NoRefresh正式benchmark | 全部8驱动阶段/12任务；18个ACC配对与12个SUM/MT指标对比已验证 | COMPLETE，6334.56s |
+| Hausa数据 | 6400 train+256 dev；与SW同11来源配额 | COMPLETE，非平行/非token匹配 |
+| SST-NoRefresh顺序基线 | 源模型W1新锚/fresh SVD及Adam；HA6400/400步；07:00启动截止 | COMPLETE，400步/6400条；old4/HA2正式测评和21项配对核验全部完成 |
+| SW→HA FFT400 | 2596327输入/920471监督token，4760.79s；第二阶段6组正式任务完成 | COMPLETE；Base/SW Hausa参考均完成，HA阶段收益未出现 |
+| 固定阶段开发ACC | Base/SW FFT/SW→HA FFT/NoRefresh同114题 | COMPLETE；0-shot FP32，非正式成绩 |
+| 几何与精度 | 旧三模型及NoRefresh Final400 master/实际export | COMPLETE；无单独功能归因 |
+| 配对功能pilot | 15条件、5130预测、逐题及范数复核 | COMPLETE；主要SW/HA对比未有明确收益 |
+| tied-embedding有限恢复 | 五条件、同范数随机、基线精确复核 | COMPLETE，1710预测；主要恢复−随机区间跨0 |
+| 新方法A/B/C | 数学、成本、消融、失败条件 | 草案；A有限干预完成，完整控制器未实现 |
+| 代码benchmark | 542参考、2168模型执行、316公开文件一致 | COMPLETE，GitHub256bb69 |
+| 整合与发布 | 09首版、10交接 | IN_PROGRESS |
+
+## 已读的开发结果
+
+固定114题、共享四选一答案、FP32/eager、0-shot：Base EN/SW/HA=50.88/30.70/28.07%；SW FFT=62.28/34.21/24.56%；SW→HA FFT=50.00/20.18/21.93%。本开发切片显示SW遗忘，但没有HA学习收益；不能称已经构建成功的顺序CL权衡，也不能据此调参正式test。
+
+配对pilot的10%主要对比（block_shared−block_shuffled）：SW0.00pp，95%配对区间[-2.63,+2.63]；HA+1.75pp，[-1.75,+5.26]。未显示明确配对信息收益。完整15条件见结果报告，不挑最好强度。
+
+GPU按本账号合计最多4张；未恢复已取消任务，未新增训练种子。没有完成的正式分数留为RUNNING/NOT_RUN，不填0。

@@ -1,0 +1,41 @@
+{
+  "source_sha256": "789c13050b6308c4165ce7f9d25b8b626d220d30180911c8d05a942a1c884cfa",
+  "source_status": "READ_ONLY_FINAL_GEOMETRY_COMPLETE",
+  "summary": {
+    "all": {
+      "elements": 1720574976,
+      "stage1_delta_squared_norm": 104.00312680816208,
+      "stage2_increment_squared_norm": 107.92535823283671,
+      "delta_inner_product": 30.933830784246542,
+      "cosine": 0.2919770779255485,
+      "old_direction_retained_coefficient": 1.2974317381948066,
+      "final_vs_stage1_distance_to_base_ratio": 1.6225215272041005
+    },
+    "target196": {
+      "elements": 1409286144,
+      "stage1_delta_squared_norm": 39.45799840222989,
+      "stage2_increment_squared_norm": 47.42299276608747,
+      "delta_inner_product": 0.22543975668913757,
+      "cosine": 0.005211569126424598,
+      "old_direction_retained_coefficient": 1.005713410862635,
+      "final_vs_stage1_distance_to_base_ratio": 1.4877119656871016
+    },
+    "outside196": {
+      "elements": 311288832,
+      "stage1_delta_squared_norm": 64.54512840593216,
+      "stage2_increment_squared_norm": 60.502365466749346,
+      "delta_inner_product": 30.708391027557397,
+      "cosine": 0.491404523794178,
+      "old_direction_retained_coefficient": 1.475766208635121,
+      "final_vs_stage1_distance_to_base_ratio": 1.6996757765497097
+    },
+    "fixed_Base_free": {
+      "stage1_delta_squared_norm": 0.215352312570472,
+      "stage2_increment_squared_norm": 0.26774215045904837,
+      "delta_inner_product": 0.0022778659354635157,
+      "cosine": 0.009486259842169343,
+      "old_direction_retained_coefficient": 1.010577392498249
+    }
+  },
+  "functional_causation_claim": false
+}

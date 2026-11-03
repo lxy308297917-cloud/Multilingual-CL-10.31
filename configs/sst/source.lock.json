@@ -1,0 +1,334 @@
+{
+  "scope": "Independent SST/LF adapter, bounded mechanism pilot and analysis code. Pending full controller is not implemented. No raw data, model/bank/gradient tensors, user prompts, credentials or job-control state included.",
+  "upstream_SST": {
+    "repository": "https://github.com/Arnav0400/SST",
+    "commit": "ff0c5bfb32f621ca952d12042b046251181b8aa5",
+    "paper": "https://arxiv.org/abs/2610.22293",
+    "official_trainer_used_unmodified": false
+  },
+  "llamafactory_commit": "47d407d2aabbd52e11d4f34c7a06b9de3e2f0a77",
+  "initial_cache_sha256": "e76cf19c892984c8d9e5a648776a79e096a1db32a088b459162cc79d288a1918",
+  "portability": "Core math and bounded coefficient code accept paths and are testable on CPU; frozen host-specific benchmark drivers/configs use /local placeholders and require local asset/runtime path configuration. Snapshot is not an unmodified, immediately runnable cross-host image.",
+  "files": {
+    "scripts/sst/projector.py": {
+      "source_sha256": "733089ee02b79f4c89da40fda2948210a5da8192e41cb2959ee7e6b28e26ff47",
+      "public_sha256": "733089ee02b79f4c89da40fda2948210a5da8192e41cb2959ee7e6b28e26ff47",
+      "change": "None"
+    },
+    "scripts/sst/optimizer_adapter.py": {
+      "source_sha256": "4ac4fbef6cae364cf870b277ec07ac7ed00c880f16a5b992e84b264e1e81cb69",
+      "public_sha256": "4ac4fbef6cae364cf870b277ec07ac7ed00c880f16a5b992e84b264e1e81cb69",
+      "change": "None"
+    },
+    "scripts/sst/training_adapter.py": {
+      "source_sha256": "e89ce0c3c58dc02a010e012b25b239917db7e5cc2ab4a7ccd3702744ca20be45",
+      "public_sha256": "e89ce0c3c58dc02a010e012b25b239917db7e5cc2ab4a7ccd3702744ca20be45",
+      "change": "None"
+    },
+    "scripts/sst/train_sst.py": {
+      "source_sha256": "d7df4f3adbc0da1d8712f11d0d8d00b61ed86a349d3148837aaef90db45617c2",
+      "public_sha256": "d7df4f3adbc0da1d8712f11d0d8d00b61ed86a349d3148837aaef90db45617c2",
+      "change": "None"
+    },
+    "scripts/sst/audit_master_export.py": {
+      "source_sha256": "629d7e8b45bcb820636cbdd504e93a5fdd18b84a13ea821f00b249ed54921f1c",
+      "public_sha256": "629d7e8b45bcb820636cbdd504e93a5fdd18b84a13ea821f00b249ed54921f1c",
+      "change": "None"
+    },
+    "scripts/sst/evaluate_sst_final.py": {
+      "source_sha256": "dbcc935a88e6ba677a2b6cad0bb1d1fc89970881427d795e6e95165e65b29975",
+      "public_sha256": "988f47864572c381fb5b7fa9a1d8718b0e12990fb27c36c7c89bc6b4a97c7870",
+      "change": "Private server paths replaced by explicitly local placeholders; no scientific equation/parameter change"
+    },
+    "scripts/research_my_method/analyze_coefficient_pilot.py": {
+      "source_sha256": "1fd778fb967f528f1f89c650f22b31503df3ce9e0a6b2650ffd93916c366afb2",
+      "public_sha256": "1fd778fb967f528f1f89c650f22b31503df3ce9e0a6b2650ffd93916c366afb2",
+      "change": "None"
+    },
+    "scripts/research_my_method/analyze_embedding_control.py": {
+      "source_sha256": "8e234ef8e623e0e7682cb8af4b78ac414332da5b657542d6bf893b5cca59e454",
+      "public_sha256": "8e234ef8e623e0e7682cb8af4b78ac414332da5b657542d6bf893b5cca59e454",
+      "change": "None"
+    },
+    "scripts/research_my_method/audit_aya_candidate.py": {
+      "source_sha256": "3b18c4b6fb83bfe4fe002e7f081f2405bc3ffd60b5b14131afd2156f853dccc0",
+      "public_sha256": "bce16ee892537ab345641cdb3aa592578905b9cfc1a17a57bea75f11e17b9e04",
+      "change": "Private server paths replaced by explicitly local placeholders; no scientific equation/parameter change"
+    },
+    "scripts/research_my_method/audit_delta_spectrum.py": {
+      "source_sha256": "2b24c7a371f2d98b55b8d169a2557ea15380ea0071bd2c4295ef5ff1cd1c6f43",
+      "public_sha256": "2b24c7a371f2d98b55b8d169a2557ea15380ea0071bd2c4295ef5ff1cd1c6f43",
+      "change": "None"
+    },
+    "scripts/research_my_method/audit_fit_stability.py": {
+      "source_sha256": "81ffe6102eb2aaeea0d5335d843cceb76c66d07a96201a0a19599b6b2f916edb",
+      "public_sha256": "81ffe6102eb2aaeea0d5335d843cceb76c66d07a96201a0a19599b6b2f916edb",
+      "change": "None"
+    },
+    "scripts/research_my_method/audit_paired_formal.py": {
+      "source_sha256": "b51d9114ab4be0af955e7be52414d39e430f1a01d02c77f5ae696db23093e5bf",
+      "public_sha256": "b51d9114ab4be0af955e7be52414d39e430f1a01d02c77f5ae696db23093e5bf",
+      "change": "None"
+    },
+    "scripts/research_my_method/audit_sequence_pairs.py": {
+      "source_sha256": "936133a7e092582c76f652f53514a6f3ebe8ce5079848ea27eb65f23231dd84b",
+      "public_sha256": "936133a7e092582c76f652f53514a6f3ebe8ce5079848ea27eb65f23231dd84b",
+      "change": "None"
+    },
+    "scripts/research_my_method/audit_sequential_geometry.py": {
+      "source_sha256": "1b355cd020fc6eef44af29239259bec604843fb79effc165d2a49c017ceb4df5",
+      "public_sha256": "1b355cd020fc6eef44af29239259bec604843fb79effc165d2a49c017ceb4df5",
+      "change": "None"
+    },
+    "scripts/research_my_method/audit_training_costs.py": {
+      "source_sha256": "a2731b2b3c1013b0e5b29c8e2d462b2ae4b0b6e22254d32f65984b9b1b8b3f61",
+      "public_sha256": "a2731b2b3c1013b0e5b29c8e2d462b2ae4b0b6e22254d32f65984b9b1b8b3f61",
+      "change": "None"
+    },
+    "scripts/research_my_method/build_sum_mt_comparison_state.py": {
+      "source_sha256": "fd856f9dbfc1c337346c321bf3334703117aa6e49718c29df4fdc06bbab184ac",
+      "public_sha256": "fd856f9dbfc1c337346c321bf3334703117aa6e49718c29df4fdc06bbab184ac",
+      "change": "None"
+    },
+    "scripts/research_my_method/build_update_mode_bank.py": {
+      "source_sha256": "680c6503c3ba2e146b318409b14e88861d3c0567c43732f3ff9ad19f8341da05",
+      "public_sha256": "680c6503c3ba2e146b318409b14e88861d3c0567c43732f3ff9ad19f8341da05",
+      "change": "None"
+    },
+    "scripts/research_my_method/coefficient_geometry.py": {
+      "source_sha256": "030313bbf75c3ddd3dfb41481d222c4f922260585e7788eb5f6605d80f6aa75f",
+      "public_sha256": "030313bbf75c3ddd3dfb41481d222c4f922260585e7788eb5f6605d80f6aa75f",
+      "change": "None"
+    },
+    "scripts/research_my_method/collect_formal_scores.py": {
+      "source_sha256": "fd5af6048d2455455915128d75db6cc793b6f59a7725aaf6489f2a3ad2afbcf5",
+      "public_sha256": "fd5af6048d2455455915128d75db6cc793b6f59a7725aaf6489f2a3ad2afbcf5",
+      "change": "None"
+    },
+    "scripts/research_my_method/compare_stage_subspaces.py": {
+      "source_sha256": "65d4dcf9a656e8ef2d023e12ddfd46b84256160aaae4015f513ec1cd1b267a89",
+      "public_sha256": "65d4dcf9a656e8ef2d023e12ddfd46b84256160aaae4015f513ec1cd1b267a89",
+      "change": "None"
+    },
+    "scripts/research_my_method/evaluate_ha_reference.py": {
+      "source_sha256": "53b320a2669bfd2dc72373d8bfcfecd377ba2d432abf87d5884d68ea120f39d8",
+      "public_sha256": "3ff2234849ea530b108b9c82b02b8842d8eb8d4968d278cd41158dab2a39699d",
+      "change": "Private server paths replaced by explicitly local placeholders; no scientific equation/parameter change"
+    },
+    "scripts/research_my_method/evaluate_sequential_dev.py": {
+      "source_sha256": "bc4f01804db711ebf2aaf541ff066847abfc0e50bed49a06383d50173d850fbb",
+      "public_sha256": "bc4f01804db711ebf2aaf541ff066847abfc0e50bed49a06383d50173d850fbb",
+      "change": "None"
+    },
+    "scripts/research_my_method/evaluate_sequential_fft.py": {
+      "source_sha256": "52419b96b76b2a84b71261afc917056c6947a6fddab3413f6d509ff63439c64e",
+      "public_sha256": "7e4aa7db61e1254fbb6d68c9fa34f57fa4b6de16d8b8cca7c16171632a0bacf1",
+      "change": "Private server paths replaced by explicitly local placeholders; no scientific equation/parameter change"
+    },
+    "scripts/research_my_method/evaluate_sequential_sst.py": {
+      "source_sha256": "be54c5a165340c5bc9385d73c49605baf0e6161ed033177f7f93564bb6d440ab",
+      "public_sha256": "c1e58774a2ca6dd56d328d9e8bb3d8d9a81029cde2bc3a8de08d15eaa32da805",
+      "change": "Private server paths replaced by explicitly local placeholders; no scientific equation/parameter change"
+    },
+    "scripts/research_my_method/pilot_semantic_coefficients.py": {
+      "source_sha256": "e5a4fe2bef07abefd330e2515483a8ea299b527f8887ed2eb26bf0e2d4768f12",
+      "public_sha256": "e5a4fe2bef07abefd330e2515483a8ea299b527f8887ed2eb26bf0e2d4768f12",
+      "change": "None"
+    },
+    "scripts/research_my_method/plot_baseline_tradeoffs.py": {
+      "source_sha256": "f8c3ea9d89152f3502a4f56eca63a7066db87813a4d807a4c1f92415adb74ca4",
+      "public_sha256": "f8c3ea9d89152f3502a4f56eca63a7066db87813a4d807a4c1f92415adb74ca4",
+      "change": "None"
+    },
+    "scripts/research_my_method/plot_geometry_final_diagnostics.py": {
+      "source_sha256": "949772558aac31fbbd6dd39c40d343cba23fa793f7bd9768d6e35bb81c3ed85d",
+      "public_sha256": "949772558aac31fbbd6dd39c40d343cba23fa793f7bd9768d6e35bb81c3ed85d",
+      "change": "None"
+    },
+    "scripts/research_my_method/plot_pilot_results.py": {
+      "source_sha256": "ca325a92d230d480627850dc86adbb7dde48833efa1d5e2f113423603d02693f",
+      "public_sha256": "ca325a92d230d480627850dc86adbb7dde48833efa1d5e2f113423603d02693f",
+      "change": "None"
+    },
+    "scripts/research_my_method/prepare_coefficient_protocol.py": {
+      "source_sha256": "0c1a46f16977d7ed61a94b469bd5231444a896c8843a57108d7b4ecf25984f94",
+      "public_sha256": "0c1a46f16977d7ed61a94b469bd5231444a896c8843a57108d7b4ecf25984f94",
+      "change": "None"
+    },
+    "scripts/research_my_method/prepare_hausa_benchmarks.py": {
+      "source_sha256": "7281319d2488c66810c1149b1eb1dead6d84c59868e9843da6d336b8d31df4d2",
+      "public_sha256": "7578207304f6d1e9ea7e2916b8c9fabe80541b5653c31dee0877af139b509934",
+      "change": "Private server paths replaced by explicitly local placeholders; no scientific equation/parameter change"
+    },
+    "scripts/research_my_method/prepare_hausa_sft.py": {
+      "source_sha256": "fd02432ec9b9365d354a30c876e10ca73fdc4a2fbdad70e12b1c7da57d273f52",
+      "public_sha256": "fd02432ec9b9365d354a30c876e10ca73fdc4a2fbdad70e12b1c7da57d273f52",
+      "change": "None"
+    },
+    "scripts/research_my_method/prepare_sequential_dev.py": {
+      "source_sha256": "0ab1ab6760e1a630e11cfc919ba886b7fbe534def337c36ebdd819c9af6e93df",
+      "public_sha256": "0ab1ab6760e1a630e11cfc919ba886b7fbe534def337c36ebdd819c9af6e93df",
+      "change": "None"
+    },
+    "scripts/research_my_method/probe_tied_embedding.py": {
+      "source_sha256": "a8ab8b23af6b78d36f66b9208f739d87fbe22630699c5be1804d47c98bfbf6d3",
+      "public_sha256": "a8ab8b23af6b78d36f66b9208f739d87fbe22630699c5be1804d47c98bfbf6d3",
+      "change": "None"
+    },
+    "tests/sst/test_core.py": {
+      "source_sha256": "9e098095e4ae28ccd5356dd8ba352c49df621ae21ecb029d0e1b19fd90d1b9d9",
+      "public_sha256": "9e098095e4ae28ccd5356dd8ba352c49df621ae21ecb029d0e1b19fd90d1b9d9",
+      "change": "None"
+    },
+    "tests/sst/test_deepspeed_master.py": {
+      "source_sha256": "e9f1e1a6f4466a2b483038e465ad315db40487b64b5249ee5dcc4a57df848ab4",
+      "public_sha256": "e9f1e1a6f4466a2b483038e465ad315db40487b64b5249ee5dcc4a57df848ab4",
+      "change": "None"
+    },
+    "tests/research_my_method/test_coefficient_forward.py": {
+      "source_sha256": "01999e909d80e5f3ece311313e028053c332122e76600282839becc453c99ef2",
+      "public_sha256": "01999e909d80e5f3ece311313e028053c332122e76600282839becc453c99ef2",
+      "change": "None"
+    },
+    "tests/research_my_method/test_coefficient_geometry.py": {
+      "source_sha256": "a6ee3e2d09eb5ef39dd266bf966807a377721f3246d7cc045db6b1e5ac564706",
+      "public_sha256": "a6ee3e2d09eb5ef39dd266bf966807a377721f3246d7cc045db6b1e5ac564706",
+      "change": "None"
+    },
+    "research/sst_reproduction/source_audit.md": {
+      "source_sha256": "79562c8dd767168753f833c6f16fc7c6bb46456315fcc00860952120cf08c3b8",
+      "public_sha256": "79562c8dd767168753f833c6f16fc7c6bb46456315fcc00860952120cf08c3b8",
+      "change": "None"
+    },
+    "research/sst_reproduction/implementation_notes.md": {
+      "source_sha256": "209bee68e506602ea32713e277ea9cacb30986671e4fdad409beab4789e1249e",
+      "public_sha256": "209bee68e506602ea32713e277ea9cacb30986671e4fdad409beab4789e1249e",
+      "change": "None"
+    },
+    "research/sst_reproduction/training_protocol.md": {
+      "source_sha256": "0e513826127b82e16ba4f5518cf7e1d8459a0ea0f885e9699860a995fd655df0",
+      "public_sha256": "0e513826127b82e16ba4f5518cf7e1d8459a0ea0f885e9699860a995fd655df0",
+      "change": "None"
+    },
+    "research/sst_reproduction/reproduction_report.md": {
+      "source_sha256": "9d27023c4a3cdac1fbf695fc4e17074f32c01f88483da27a58702717cb9b8cb5",
+      "public_sha256": "9d27023c4a3cdac1fbf695fc4e17074f32c01f88483da27a58702717cb9b8cb5",
+      "change": "None"
+    },
+    "research/sst_reproduction/limitations.md": {
+      "source_sha256": "94f237c2a2013b17a55f16c9103073cf4e98579bc919d6e5d8f1d1aa05fb8ee8",
+      "public_sha256": "94f237c2a2013b17a55f16c9103073cf4e98579bc919d6e5d8f1d1aa05fb8ee8",
+      "change": "None"
+    },
+    "research/my_method_20261103/README.md": {
+      "source_sha256": "ea655c728517f561ded4d754e007d7db3b29851ae8f082e53b36c6859682592f",
+      "public_sha256": "ea655c728517f561ded4d754e007d7db3b29851ae8f082e53b36c6859682592f",
+      "change": "None"
+    },
+    "research/my_method_20261103/project_status.md": {
+      "source_sha256": "936332edbc615a0b5073ec120e337f0f868ec788e1c92505c6be61052501dfe9",
+      "public_sha256": "936332edbc615a0b5073ec120e337f0f868ec788e1c92505c6be61052501dfe9",
+      "change": "None"
+    },
+    "research/my_method_20261103/literature_review.md": {
+      "source_sha256": "cea5de87ed7cecbf802cd4fd1974e3f38d0bad67ccd08b400d0ff53b70db1c43",
+      "public_sha256": "cea5de87ed7cecbf802cd4fd1974e3f38d0bad67ccd08b400d0ff53b70db1c43",
+      "change": "None"
+    },
+    "research/my_method_20261103/novelty_matrix.md": {
+      "source_sha256": "958babc7b05c920676f4991ebadd544a5e19d3db6592d6cc169cff2b90daa2d3",
+      "public_sha256": "958babc7b05c920676f4991ebadd544a5e19d3db6592d6cc169cff2b90daa2d3",
+      "change": "None"
+    },
+    "research/my_method_20261103/spectral_hypotheses.md": {
+      "source_sha256": "889a46250f34a0c8f4095db4f075a5cbc051f40a83e49ac454fd74e15c3610e4",
+      "public_sha256": "889a46250f34a0c8f4095db4f075a5cbc051f40a83e49ac454fd74e15c3610e4",
+      "change": "None"
+    },
+    "research/my_method_20261103/language_selection.md": {
+      "source_sha256": "19b8a4b5f71f4f838e56266ad0cb5963251e430155bdff84d62eec646f646687",
+      "public_sha256": "19b8a4b5f71f4f838e56266ad0cb5963251e430155bdff84d62eec646f646687",
+      "change": "None"
+    },
+    "research/my_method_20261103/sequential_protocol.md": {
+      "source_sha256": "f21752bf418e39c556524553f20dfa1874cdb2693261bf6da3dfe1a081d0682f",
+      "public_sha256": "7c3598f24e9de34361a4a4369881eea6d27f38b59d7680e65256c9fd750a57b3",
+      "change": "None; operational context removed from public prose"
+    },
+    "research/my_method_20261103/sequential_results.md": {
+      "source_sha256": "401ecdea17234ec8bdd07afbd99b719648693b52c9d6d6872e53be8d54b325c8",
+      "public_sha256": "401ecdea17234ec8bdd07afbd99b719648693b52c9d6d6872e53be8d54b325c8",
+      "change": "None"
+    },
+    "research/my_method_20261103/interference_analysis.md": {
+      "source_sha256": "f739fdf38e0dfed85aefa2dc345c5452cc777209fb60f94b671edd965f97105e",
+      "public_sha256": "f739fdf38e0dfed85aefa2dc345c5452cc777209fb60f94b671edd965f97105e",
+      "change": "None"
+    },
+    "research/my_method_20261103/candidate_A.md": {
+      "source_sha256": "3a3b130e8b2374604461529690b0182a464d7bb2db0f672358e77b25da3a8327",
+      "public_sha256": "0675612d83e250a96303c7159f07239ee7cf0a559b4e40aa0ead0e0e6a1069ee",
+      "change": "None; operational context removed from public prose"
+    },
+    "research/my_method_20261103/candidate_B.md": {
+      "source_sha256": "18937ec10882d701ae1019cef3bb3780bd1335cd362f37b6e1093d8add7d883b",
+      "public_sha256": "18937ec10882d701ae1019cef3bb3780bd1335cd362f37b6e1093d8add7d883b",
+      "change": "None"
+    },
+    "research/my_method_20261103/candidate_C.md": {
+      "source_sha256": "add002cfa2098fad3e4010f28df24fd64648afc7b1ab0cb562f979582e6a5514",
+      "public_sha256": "add002cfa2098fad3e4010f28df24fd64648afc7b1ab0cb562f979582e6a5514",
+      "change": "None"
+    },
+    "research/my_method_20261103/final_recommendation.md": {
+      "source_sha256": "f34bf51a64f468fb5759e7d93b75498ff126d11ee861f2bb5a5471e86c300dba",
+      "public_sha256": "f34bf51a64f468fb5759e7d93b75498ff126d11ee861f2bb5a5471e86c300dba",
+      "change": "None"
+    },
+    "research/my_method_20261103/open_questions.md": {
+      "source_sha256": "17d08729cc53722fada7b3e6ecd4c42ddfa00f91a21842659d55c71234027c28",
+      "public_sha256": "17d08729cc53722fada7b3e6ecd4c42ddfa00f91a21842659d55c71234027c28",
+      "change": "None"
+    },
+    "research/my_method_20261103/paired_signal_identifiability.md": {
+      "source_sha256": "c798a1c8842fb298d77348f43cb763836a4386305602204c93182fa4e7cb5662",
+      "public_sha256": "c798a1c8842fb298d77348f43cb763836a4386305602204c93182fa4e7cb5662",
+      "change": "None"
+    },
+    "research/my_method_20261103/sst_sequential_blindspot.md": {
+      "source_sha256": "063e4051fb15e65394c753d8a92c9760137f53717f601635813b6621a8523d99",
+      "public_sha256": "063e4051fb15e65394c753d8a92c9760137f53717f601635813b6621a8523d99",
+      "change": "None"
+    },
+    "research/my_method_20261103/literature_sources.json": {
+      "source_sha256": "9e6dafe574fe28038c859a59434555e2c2859bc65c9ea605cc6778ede7459fd4",
+      "public_sha256": "9e6dafe574fe28038c859a59434555e2c2859bc65c9ea605cc6778ede7459fd4",
+      "change": "None"
+    },
+    "configs/sst/sw_r99_no_refresh.yaml": {
+      "source_sha256": "48b91f33f89c98e60a106c30430a927f973c35e25120f9231322fa4c7618d0b5",
+      "public_sha256": "726f06c7d449b0bffc8e6a592749683c953657c65d9e052f6ac2d3ede94c95db",
+      "change": "Private server paths replaced by explicitly local placeholders; no scientific equation/parameter change"
+    },
+    "configs/sst/sw_r99_r10.yaml": {
+      "source_sha256": "96ab97df8dc0cb98c4cfe1aac72666e3f3cb18560a7ed6f9f3d2f9aabb98dc36",
+      "public_sha256": "afeba9ad3c61b370897e2bba2497b2311c8d8fdf446af6ef5d9e604574ba17a6",
+      "change": "Private server paths replaced by explicitly local placeholders; no scientific equation/parameter change"
+    },
+    "configs/research_my_method/sw_ha_6400x2_fft_seed42_final_v1.yaml": {
+      "source_sha256": "a511d8df3b603372e247b21a3822d75993c0e3bccd20ee193f20e4d1bb4ae9af",
+      "public_sha256": "c568930736d25d03214840e7ae4b5b18febfc38c76980bf1c723b022f33172c2",
+      "change": "Private server paths replaced by explicitly local placeholders; no scientific equation/parameter change"
+    },
+    "configs/research_my_method/sw_ha_6400x2_sst_norefresh_seed42_final_v1.yaml": {
+      "source_sha256": "0249e2ccb86592d6b0982628768651a423204d9b8c75045b61389df7045b6a99",
+      "public_sha256": "1b3742bb90df926f2353e3ba63fce3159a435816e254a7b2dbacbf21ca2dcda5",
+      "change": "Private server paths replaced by explicitly local placeholders; no scientific equation/parameter change"
+    },
+    "configs/research_my_method/coefficient-pilot-v2.json": {
+      "source_sha256": "2bb0b5b92ca9fade7e513a59f5c341b76d42abd175b6f03cb3dd9affb4f91a64",
+      "public_sha256": "2bb0b5b92ca9fade7e513a59f5c341b76d42abd175b6f03cb3dd9affb4f91a64",
+      "change": "None"
+    }
+  }
+}

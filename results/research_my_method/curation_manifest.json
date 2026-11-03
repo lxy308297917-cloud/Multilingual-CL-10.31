@@ -1,0 +1,382 @@
+{
+  "snapshot_at": "2026-11-03T10:18:59.956989+08:00",
+  "scope": "Derived scores and matched-control predictions only; no raw prompts/data, weights, native states, mode banks, gradient banks or private task text",
+  "formal_snapshot_source_sha256": "a07eac90f5dfd2fe52401aef37863be2e688f28c7bbf4bea0739d3b87610c76d",
+  "files": {
+    "results/sst/correctness/no_refresh_resume.json": {
+      "source_sha256": "1cf98411b223c8561bed0972beda3ceae542baf4b6c3df9adb142b8b9b07423e",
+      "public_sha256": "1cf98411b223c8561bed0972beda3ceae542baf4b6c3df9adb142b8b9b07423e",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/sst/correctness/r10_resume.json": {
+      "source_sha256": "8ace3fecb0b858ab99ced22635a1bba0c4ccc03970c2df12d9837aa9e4bdd663",
+      "public_sha256": "8ace3fecb0b858ab99ced22635a1bba0c4ccc03970c2df12d9837aa9e4bdd663",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/sst/correctness/r10_constraint_state.json": {
+      "source_sha256": "64211c9ded41b42c8e39df5db262483667f54209f7391db3f5539d753dcfbe2d",
+      "public_sha256": "64211c9ded41b42c8e39df5db262483667f54209f7391db3f5539d753dcfbe2d",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/sst/correctness/deepspeed_master.json": {
+      "source_sha256": "599c43f4e2d8659c53f2daa465b5ec44623e273f2088f8c89a2d18e070246248",
+      "public_sha256": "c1b92324445ed7bea79f4e46f06c96ef0b6c759481cddcf237288b9489c3cf6f",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/sst/no_refresh/exposure_alignment.json": {
+      "source_sha256": "7e0645d0b06bc7f745788bbf5a2477f5cffdbce90dc67b85390769ef9e9e31af",
+      "public_sha256": "7e0645d0b06bc7f745788bbf5a2477f5cffdbce90dc67b85390769ef9e9e31af",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/sst/no_refresh/master_export_geometry.json": {
+      "source_sha256": "6373197f534ff287b26b4d3469f08c59b1ca2d9fde5aa06ff3a752c49f56d948",
+      "public_sha256": "63843526c1c56228c53efcb9ea3b5d9414114d209a3ed25d46ebf5b99b235c99",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/sst/no_refresh/training_cost.json": {
+      "source_sha256": "7cf9846cee9bb79af23f3110817aa8fd2742f43ca58d0de322b6624adaa50621",
+      "public_sha256": "e0ed3a08ce8d6e927000257d24fafc69fc45e181fe8cd901e49a6898c54a5c30",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes; corrected prose about initial zero LR versus final tiny nonzero proposal; numeric audit unchanged"
+    },
+    "results/sst/no_refresh/per_step_cost_and_norms.json": {
+      "source_sha256": "e5841670df393a8be710d190604bf3f19c459634ac06b56b60f59f3ff6a43c0a",
+      "public_sha256": "e5841670df393a8be710d190604bf3f19c459634ac06b56b60f59f3ff6a43c0a",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/sst/no_refresh/memory.json": {
+      "source_sha256": "6f670ef2683f79b782902d0e0771db0ce8b1caa24e1596bcb47e4345e72befeb",
+      "public_sha256": "6f670ef2683f79b782902d0e0771db0ce8b1caa24e1596bcb47e4345e72befeb",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/sst/correctness/adam_checkpoint100.json": {
+      "source_sha256": "85c233b240a77c00b8c7a8c838b2f44e15b0bfa3c6b92f58ecad647261febd57",
+      "public_sha256": "85c233b240a77c00b8c7a8c838b2f44e15b0bfa3c6b92f58ecad647261febd57",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/sst/no_refresh/paired_vs_base.json": {
+      "source_sha256": "f75e66364ad33e948749901c8532e4e1141225390f39520344f0e5776346fcc3",
+      "public_sha256": "61dd4fb306c372738de292989515dab268ddda2756586a449863dfd4441c3034",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/sst/no_refresh/paired_vs_base.md": {
+      "source_sha256": "53644297fac9253e079b86e2dd642435752ee93647d416d7d5260e823358c72c",
+      "public_sha256": "53644297fac9253e079b86e2dd642435752ee93647d416d7d5260e823358c72c",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/sst/no_refresh/paired_vs_fft.json": {
+      "source_sha256": "9c50700072f985890f37a941e2889ec8e4e22ae7fee4a93bfbff53a2d8874cfd",
+      "public_sha256": "6a6bcd4f8bbcaea42ab4400d9c524973ea59bb67a18387d23269a0d15ccbc659",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/sst/no_refresh/paired_vs_fft.md": {
+      "source_sha256": "25938956d2184444959f9c990ffebc7a8ed395696e72541be242c7d469f8117f",
+      "public_sha256": "25938956d2184444959f9c990ffebc7a8ed395696e72541be242c7d469f8117f",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/sst/no_refresh/sum_mt_paired.json": {
+      "source_sha256": "bb8364d4ad96622ac8473c0dff9e33c8816c88f2e870a5efd4789125ca26fbe5",
+      "public_sha256": "b1cd2b1c4355b1053727f827fe67b056edda90fd20f4f14bbb200754a55ea6a3",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/sst/no_refresh/sum_mt_scope.json": {
+      "source_sha256": "4a5c6c3898446b017de35f0d9a5f70f82987934abf5ba68b7d702d1689df6759",
+      "public_sha256": "4a5c6c3898446b017de35f0d9a5f70f82987934abf5ba68b7d702d1689df6759",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/sst/no_refresh/training_completed.json": {
+      "source_sha256": "274dd2a5287d4b3628dff371ee412563d0667cafd0730326aaa36fff6e13d55a",
+      "public_sha256": "198af819ec8f681166adf8de021a43e32f876489aa97b6de1d431788e9dae7ff",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/sst/no_refresh/benchmark_completed.json": {
+      "source_sha256": "87a56a1c4135c218df0a1577fbe1b4822710a0e9693996da3f631ad312421b0e",
+      "public_sha256": "87a56a1c4135c218df0a1577fbe1b4822710a0e9693996da3f631ad312421b0e",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/sst/r10/interim_step100_projector_geometry.json": {
+      "source_sha256": "8c8d3bace6678e7bd364a2117e98ab60ce10417401a8be89472d9ae74ce38329",
+      "public_sha256": "6cfe7f10fdaa3124a3a8e138d64cf991600382ff689f14258bf14e6afb30961e",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/sst/r10/interim_step100_projector_geometry.md": {
+      "source_sha256": "e619027a2ee81ca0ccd3a034cc4d053bd78c4b8fb39c0a0e9877e0c95b48c5c6",
+      "public_sha256": "e619027a2ee81ca0ccd3a034cc4d053bd78c4b8fb39c0a0e9877e0c95b48c5c6",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/sst/no_refresh/subspace_inventory.json": {
+      "source_sha256": "78a9fd98cbc2335115f8ee0f7cc5784eda675b9217f7126592936219d4299a34",
+      "public_sha256": "78a9fd98cbc2335115f8ee0f7cc5784eda675b9217f7126592936219d4299a34",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/sst/r10/subspace_inventory.json": {
+      "source_sha256": "78a9fd98cbc2335115f8ee0f7cc5784eda675b9217f7126592936219d4299a34",
+      "public_sha256": "78a9fd98cbc2335115f8ee0f7cc5784eda675b9217f7126592936219d4299a34",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/sst/r10/training_completed.json": {
+      "source_sha256": "1dbf57f8f42de2fd9a46146670b6fb34702ed691560fc782dcdaf37fe56e9dab",
+      "public_sha256": "53eb02db48e3c941c165bea3c80e5ecc6050690b3c16b907417045a13286a86a",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/research_my_method/geometry/existing_final_summary.json": {
+      "source_sha256": "00c46ed510f5c38a8a2961dcc5a1e12a4ed64162f73f8e9fa6b22b6b9db830bf",
+      "public_sha256": "04048fe2fd8cca521403642dd93de5bbd1cfb785120aadfd95c835c5e98d7e0f",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/research_my_method/geometry/fft_sequential_summary.json": {
+      "source_sha256": "c305b99b89f57c3be17d11d0372210718f56594655699dde1e0fa969060d7767",
+      "public_sha256": "c305b99b89f57c3be17d11d0372210718f56594655699dde1e0fa969060d7767",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/research_my_method/geometry/fft_sequential.md": {
+      "source_sha256": "9226105ab9f8c1a1de7171084217ae1a59333cd84978f3be0d78cf9cdef904e7",
+      "public_sha256": "9226105ab9f8c1a1de7171084217ae1a59333cd84978f3be0d78cf9cdef904e7",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/research_my_method/geometry/fft_sequential_details.json": {
+      "source_sha256": "789c13050b6308c4165ce7f9d25b8b626d220d30180911c8d05a942a1c884cfa",
+      "public_sha256": "1136f6d3e38110d899d5d4ae6ac7a337ddf783d8ac89e04ecf102b636dd421f9",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/research_my_method/pilot/fit_stability_posthoc.json": {
+      "source_sha256": "dbef588c57747173e1a65d0e584da979db7064d51ebda8a20ca0d871daa02487",
+      "public_sha256": "cdfeab7cb23bbbde799def4de55b3f5ff1e83b86ac8704e69d2b7d659264faa7",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/research_my_method/pilot/fit_stability_posthoc.md": {
+      "source_sha256": "c3ba352ebea4e4bb6610b9e11b622d2cb03174f2ae9b66160f9a346f483f4df8",
+      "public_sha256": "c3ba352ebea4e4bb6610b9e11b622d2cb03174f2ae9b66160f9a346f483f4df8",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/research_my_method/pilot/analysis.json": {
+      "source_sha256": "25c68a9dca90fc7880a5abe76d02b722e9dc8cf8cec9718409ddcf91e7e34db2",
+      "public_sha256": "25c68a9dca90fc7880a5abe76d02b722e9dc8cf8cec9718409ddcf91e7e34db2",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/research_my_method/pilot/report.md": {
+      "source_sha256": "3266d7312818833d605ae604da97434c436dcd1acd39d655bde4b6daf94651e7",
+      "public_sha256": "3266d7312818833d605ae604da97434c436dcd1acd39d655bde4b6daf94651e7",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/research_my_method/pilot/preregistration.json": {
+      "source_sha256": "e2f596202c960d8f5bff05858cfe18e2a6feab0a6b370928111741fa73f3f204",
+      "public_sha256": "e2f596202c960d8f5bff05858cfe18e2a6feab0a6b370928111741fa73f3f204",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/research_my_method/pilot/registration_attestation.json": {
+      "source_sha256": "151a7b3dbbd6f307fefbed1ed75581800cacb2604a39300c4472b568d03caf0e",
+      "public_sha256": "151a7b3dbbd6f307fefbed1ed75581800cacb2604a39300c4472b568d03caf0e",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/research_my_method/tied_embedding/preregistration.json": {
+      "source_sha256": "2d1924fe27bcc7780aa96c953e489dfc35992eb4468e594cc009ec21d39e92de",
+      "public_sha256": "2d1924fe27bcc7780aa96c953e489dfc35992eb4468e594cc009ec21d39e92de",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/research_my_method/tied_embedding/analysis.json": {
+      "source_sha256": "c630a46b6411c8c5b9952f0763beaa204a285f461cb30a3f2865ef6f69827d8e",
+      "public_sha256": "c630a46b6411c8c5b9952f0763beaa204a285f461cb30a3f2865ef6f69827d8e",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/research_my_method/tied_embedding/report.md": {
+      "source_sha256": "459566156392e3edaa44b10643e1503f2bbe54a6ef174e25f7f47eed8b636c80",
+      "public_sha256": "459566156392e3edaa44b10643e1503f2bbe54a6ef174e25f7f47eed8b636c80",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/research_my_method/sequential/fft_paired.json": {
+      "source_sha256": "4eb3fe49a0d01b872bc43624f7696e443dbe2b788a692a2cfc5da3101ce0357c",
+      "public_sha256": "710c7b1a17ec597eea7450e1d92ec1a4964989845b5afea83bec195e4d0a1144",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/research_my_method/sequential/fft_paired.md": {
+      "source_sha256": "c173a6b4e2656bff7b2ec0b890954e00a10ddcf59a6580d71dd2d41cfbfd9eb8",
+      "public_sha256": "c173a6b4e2656bff7b2ec0b890954e00a10ddcf59a6580d71dd2d41cfbfd9eb8",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/research_my_method/sequential/sst_paired.json": {
+      "source_sha256": "80542be736c442e0045a19c764cf417168fef3b1ed60d61e0d849243c90363b4",
+      "public_sha256": "add9b2100b0a609e2666de80c5477bb9f3e3970ffd09e911191192fca1083007",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/research_my_method/sequential/sst_paired.md": {
+      "source_sha256": "a296f413c55ce7391d2dc8c696acc5edf658716df55e6c0340632e3cfe955bbf",
+      "public_sha256": "a296f413c55ce7391d2dc8c696acc5edf658716df55e6c0340632e3cfe955bbf",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/research_my_method/sequential/sst_exposure_alignment.json": {
+      "source_sha256": "86c483f969324adc2f95ffe0ca9aab24ac84d12144ce1ae40721aa3b41375832",
+      "public_sha256": "86c483f969324adc2f95ffe0ca9aab24ac84d12144ce1ae40721aa3b41375832",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/research_my_method/geometry/sst_stage2_master_export.json": {
+      "source_sha256": "940c4e695beff0e4384c61e4a3f90273009f663bd2b4f0d0977f0b4684f0a608",
+      "public_sha256": "8a85d38b01e49c98ae39fe6bc5f2b163357e50f9b4bd1cbbeea6bf418dd6ffca",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/research_my_method/sequential/fft_training_completed.json": {
+      "source_sha256": "04f5d994850dd369207f5e81bf758015f2c6fa89b6846e06564a6a14fec91567",
+      "public_sha256": "b4200ee92abb75af1c74363f3f4cc0c1e718f4046c9a37fe4a5ee790a3452d8c",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/research_my_method/sequential/ha_task_preflight.json": {
+      "source_sha256": "2e086cf6a94d14a969f2ccad121b4e3e27c94201c7277bf6810e3723b4c45839",
+      "public_sha256": "f346fb20d24a743e38c04f74ad5493b2825e1e2a71c659290a859a6a41bbd798",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/research_my_method/geometry/sst_stage2_anchor.json": {
+      "source_sha256": "3a8947ea31c0a26019a671787ec1f9c93067ed5f6264ad567e1a71841be0b807",
+      "public_sha256": "e3980487bab00912f292794c4cdde124e57576ec60c63b8ed566581bd07d8cb9",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/research_my_method/geometry/fft_single_stage.json": {
+      "source_sha256": "e6337523236801c822b9bcd4eb8aa05ddfd53a1390b61b33606aeeb5800742c7",
+      "public_sha256": "e6337523236801c822b9bcd4eb8aa05ddfd53a1390b61b33606aeeb5800742c7",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/research_my_method/geometry/lora_single_stage.json": {
+      "source_sha256": "1bb5c76e7aeb583cf7600f75de65908b7b1812788ec81f7efa7d19c1460476eb",
+      "public_sha256": "1bb5c76e7aeb583cf7600f75de65908b7b1812788ec81f7efa7d19c1460476eb",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/research_my_method/geometry/ssu_single_stage.json": {
+      "source_sha256": "53d52808ae8189d7922f1a5bd0ecb6a423c261c888ae99030afd9d287a5e6fe1",
+      "public_sha256": "53d52808ae8189d7922f1a5bd0ecb6a423c261c888ae99030afd9d287a5e6fe1",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/research_my_method/pilot/protocol.json": {
+      "source_sha256": "23addbfe64cde92ea9f63de44f050a5806d4271d5cb7a3c538d4a25f155bb601",
+      "public_sha256": "4472e29c0ebd7b710013d1bad5c993a5acd87fc8b8074d3e021d4ccbb3d9e400",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/research_my_method/pilot/DONE.json": {
+      "source_sha256": "2c7568cfb38f5ce87394bdc62917415707c41504f82f61bc1225dbcc678c07cd",
+      "public_sha256": "2c7568cfb38f5ce87394bdc62917415707c41504f82f61bc1225dbcc678c07cd",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/research_my_method/pilot/coverage.json": {
+      "source_sha256": "2c6969cb6e7f8318a6f36d90891a4d071c273a91938ec118cd816a1605210e89",
+      "public_sha256": "2c6969cb6e7f8318a6f36d90891a4d071c273a91938ec118cd816a1605210e89",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/research_my_method/pilot/interventions.jsonl": {
+      "source_sha256": "b31d70d35df2bb550c88814f307a68d6d308bc03e9ef0ec66901a4b9d4746b59",
+      "public_sha256": "ef7e8f91f6787ff693252be2a1d8ddfff5b292cfe0c6d777761fabea2871e4d4",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/research_my_method/tied_embedding/protocol.json": {
+      "source_sha256": "62a45b7a4795d48efd4d665c097ba1198edac880d11d5230764f8774c60afd62",
+      "public_sha256": "3c460955368cfa0bff88e46c58d4b36dafb4dc278852458bfef64600523404c8",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/research_my_method/tied_embedding/DONE.json": {
+      "source_sha256": "c73fad082a814d59731e2946086700cfe457b6c98df8a8cd52a94ab5518bb5a6",
+      "public_sha256": "c73fad082a814d59731e2946086700cfe457b6c98df8a8cd52a94ab5518bb5a6",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/research_my_method/tied_embedding/interventions.jsonl": {
+      "source_sha256": "45609666e3cb262fb32b6bb14084635517058534519933f29d3ff155f72eec20",
+      "public_sha256": "2b5272162889909a7c29a385f4b02aede1c65705170b4b13de8bfb9ab8da6f18",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/research_my_method/sequential/fft_main_completed.json": {
+      "source_sha256": "98ddf50d7af47020f2e012ed28ea6d6cb8982499dc283340769cea09f1d19bcf",
+      "public_sha256": "98ddf50d7af47020f2e012ed28ea6d6cb8982499dc283340769cea09f1d19bcf",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/research_my_method/sequential/fft_source-ha-Base_completed.json": {
+      "source_sha256": "c6ce4aea60070742abc96c5a5676ac3d13089a8da1998375030ee119b7a5d41f",
+      "public_sha256": "c6ce4aea60070742abc96c5a5676ac3d13089a8da1998375030ee119b7a5d41f",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/research_my_method/sequential/fft_source-ha-SW-FFT_completed.json": {
+      "source_sha256": "2fc78d051fee3ab94d0d23edd5d99c81f4e12b479a4a10ac7b6503cea1d98d51",
+      "public_sha256": "2fc78d051fee3ab94d0d23edd5d99c81f4e12b479a4a10ac7b6503cea1d98d51",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/research_my_method/sequential/sst_old_completed.json": {
+      "source_sha256": "10f0f89e662cd02eb0cff49fac45da4fc788e3466f0636e8719b96bce0fa5786",
+      "public_sha256": "10f0f89e662cd02eb0cff49fac45da4fc788e3466f0636e8719b96bce0fa5786",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/research_my_method/sequential/sst_ha_completed.json": {
+      "source_sha256": "bc1f9ccce14d8311752ec3159f7b1f37f163eb391628a68bcb9599877586335b",
+      "public_sha256": "bc1f9ccce14d8311752ec3159f7b1f37f163eb391628a68bcb9599877586335b",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/research_my_method/sequential/sst_training_completed.json": {
+      "source_sha256": "8d680c2c47d8722fed8d0b56f740103eb5d6bce8dbf9d7a6e61f9c5db764bb54",
+      "public_sha256": "4ad617200516f2b43efb4d744762ee307eece39e5cc04a3e3b11705f31179f88",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/research_my_method/sequential/sst_stage1_ha_completed.json": {
+      "source_sha256": "5446863a466dc5b531feccef8ba080f9a7a742a4ddccef92801b9b5c7662f8e7",
+      "public_sha256": "5446863a466dc5b531feccef8ba080f9a7a742a4ddccef92801b9b5c7662f8e7",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/research_my_method/sequential/summary.json": {
+      "source_sha256": "a07eac90f5dfd2fe52401aef37863be2e688f28c7bbf4bea0739d3b87610c76d",
+      "public_sha256": "47614e2088ab4cd4e262917fe1da11a705f49e66ed8526db7830ac1ee4cf49b5",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/research_my_method/sequential/tables.md": {
+      "source_sha256": "9edbb64d62215482ace1436989af98e7d41c30c00badbf31899adb9389ae649f",
+      "public_sha256": "9edbb64d62215482ace1436989af98e7d41c30c00badbf31899adb9389ae649f",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/research_my_method/geometry/figures/geometry_final_diagnostics.png": {
+      "source_sha256": "334e5e7590439a22f8727d399d7e17e49d324496fa88f5065c38b623a13cb94f",
+      "public_sha256": "334e5e7590439a22f8727d399d7e17e49d324496fa88f5065c38b623a13cb94f",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/research_my_method/geometry/figures/manifest.json": {
+      "source_sha256": "dbd1c166c77ee71431cfa31b7050cd013c1fdb4014376708f8b9fa38e1238c01",
+      "public_sha256": "dbd1c166c77ee71431cfa31b7050cd013c1fdb4014376708f8b9fa38e1238c01",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/research_my_method/geometry/figures/geometry_final_diagnostics.pdf": {
+      "source_sha256": "525db53f4694475496b4f81165e4c4e43105002b74a6f0b75420209f5f575349",
+      "public_sha256": "525db53f4694475496b4f81165e4c4e43105002b74a6f0b75420209f5f575349",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/research_my_method/pilot/figures/pilot_results.png": {
+      "source_sha256": "68870470ef512a0a934ef5e5d4c69378a4617c3d6acea1a81919de6004a58244",
+      "public_sha256": "68870470ef512a0a934ef5e5d4c69378a4617c3d6acea1a81919de6004a58244",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/research_my_method/pilot/figures/manifest.json": {
+      "source_sha256": "529c37c60607862742311a5c2b3a0c7b7e9721135f6e1bb5bb86e8f9ffc21202",
+      "public_sha256": "529c37c60607862742311a5c2b3a0c7b7e9721135f6e1bb5bb86e8f9ffc21202",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/research_my_method/pilot/figures/pilot_results.pdf": {
+      "source_sha256": "ce8a6de2c4d1ecf079d99e9571025ad305d98509ac7ee1d6dc620d3a56e86c1a",
+      "public_sha256": "ce8a6de2c4d1ecf079d99e9571025ad305d98509ac7ee1d6dc620d3a56e86c1a",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/sst/no_refresh/figures/manifest.json": {
+      "source_sha256": "0ceebeeed494941579f8e595cd229daf55138a604e2b4ed27ea288ef24a2b2e3",
+      "public_sha256": "0ceebeeed494941579f8e595cd229daf55138a604e2b4ed27ea288ef24a2b2e3",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/sst/no_refresh/figures/baseline_tradeoffs.png": {
+      "source_sha256": "944624c7adf3cc990e2cee80e96ec6c411ac5c25cf877d3b110fed5ed46ef909",
+      "public_sha256": "944624c7adf3cc990e2cee80e96ec6c411ac5c25cf877d3b110fed5ed46ef909",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/sst/no_refresh/figures/baseline_tradeoffs.pdf": {
+      "source_sha256": "271ccec71f7b985c59a03d73dd8477fec3c9c001fc3d4ca2324239438c40b000",
+      "public_sha256": "271ccec71f7b985c59a03d73dd8477fec3c9c001fc3d4ca2324239438c40b000",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "configs/sst/training_runtime.json": {
+      "source_sha256": "0ecce06bb552f5636b5d77c5568c442f0542bca3df33a5b429e6b3b70594c470",
+      "public_sha256": "0ecce06bb552f5636b5d77c5568c442f0542bca3df33a5b429e6b3b70594c470",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "configs/sst/evaluation_runtime.json": {
+      "source_sha256": "b927e253334cec974abd8dba6e0cfacee8576f950b8b71607207a7da729f9d3e",
+      "public_sha256": "b927e253334cec974abd8dba6e0cfacee8576f950b8b71607207a7da729f9d3e",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    }
+  }
+}

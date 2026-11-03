@@ -1,0 +1,79 @@
+{
+  "status": "VERIFIED_COMPLETE",
+  "global_step": 400,
+  "matrix_updates_verified": 78400,
+  "trainable_unique_parameters": 1720574976,
+  "target_coordinates": 1409286144,
+  "outside_target_parameters": 311288832,
+  "free_space_dimension": 7924644,
+  "free_space_coordinate_fraction": 0.005623161792755127,
+  "actual_wall_seconds": 9956.924825191498,
+  "wall_seconds_per_optimizer_step": 24.892312062978746,
+  "native_train_results": {
+    "epoch": 1.0,
+    "total_flos": 2159801352192.0,
+    "train_loss": 3.181324863433838,
+    "train_runtime": 9910.1057,
+    "train_samples_per_second": 0.646,
+    "train_steps_per_second": 0.04
+  },
+  "resource_summaries": [
+    {
+      "step": 400,
+      "elapsed_seconds": 9840.868559297174,
+      "refresh_steps": [],
+      "peak_allocated_bytes": 20750827008,
+      "peak_reserved_bytes": 24419237888
+    }
+  ],
+  "svd_events": [
+    {
+      "step": 0,
+      "cache_hit": true,
+      "exact_master_hashes_verified": 196,
+      "cache_sha256": "e76cf19c892984c8d9e5a648776a79e096a1db32a088b459162cc79d288a1918"
+    }
+  ],
+  "optimizer_and_projection_seconds": {
+    "min": 12.160668723285198,
+    "median": 12.946767362765968,
+    "mean": 12.967848787237891,
+    "max": 15.77227865345776
+  },
+  "total_seconds_including_refresh": {
+    "min": 12.160931272432208,
+    "median": 12.946906398050487,
+    "mean": 12.967939401031472,
+    "max": 15.772344462573528
+  },
+  "target_applied_over_raw_norm": {
+    "min": 0.07556338179171351,
+    "median": 0.07782769437728791,
+    "mean": 0.12148809684067195,
+    "max": 14.054907188574353
+  },
+  "zero_raw_proposal_steps": [
+    1
+  ],
+  "target_changed_elements_per_step": {
+    "min": 0,
+    "median": 1372521580.0,
+    "mean": 1257829890.5275,
+    "max": 1398501941
+  },
+  "interpretation": [
+    "Norms cover only196 constrained matrices, not whole-model Adam proposal.",
+    "Clipping/scheduler/Adam executed upstream before cumulative SST projection.",
+    "The initial optimizer step has zero raw proposal; the final tiny nonzero proposal can have a large relative projection/roundoff correction. Absolute norms are retained.",
+    "Logged callback timing excludes forward/backward and some save/startup time.",
+    "Reused initial SVD cache is disclosed separately; no fabricated initial cost in this run."
+  ],
+  "sources_sha256": {
+    "step-cost.jsonl": "41bb01125709e442a33aed0d1d4901250f806df64d0606bfd821b434e17728f9",
+    "matrix-updates.jsonl": "018f03c51517dcd1a13e7f66f253a290428cc3b00ad7ade38e8e99e6256ac65b",
+    "svd-cost.jsonl": "9a2f6b53aa3d63a0ac9006a8ad99053439ce375dbf8a867921af7f38cca7ede0",
+    "subspace-inventory.json": "78a9fd98cbc2335115f8ee0f7cc5784eda675b9217f7126592936219d4299a34",
+    "train_results.json": "0bf42f9ea4ca72a1358e1a2d51254169639eff047ea3e6adfe26d8f7a2bd4f6e",
+    "training-resource-summary.jsonl": "3d194fb1f767c1ce01ef54206342449a82198eff6d61830f5859346c44068c9f"
+  }
+}

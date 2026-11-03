@@ -1,0 +1,113 @@
+[
+  {
+    "label": "FFT",
+    "target_free_energy_fraction": 0.005457760689612218,
+    "isotropic_expected_energy_fraction": 0.005755535057057119,
+    "observed_over_null": 0.9482629565291611,
+    "outside_target_delta_energy_fraction": 0.6206075758182564,
+    "by_module": {
+      "q_proj": {
+        "delta_squared_norm": 2.9751843173964274,
+        "free_energy_fraction": 0.00010632791246749585
+      },
+      "k_proj": {
+        "delta_squared_norm": 1.433486759222968,
+        "free_energy_fraction": 0.008339501234819592
+      },
+      "v_proj": {
+        "delta_squared_norm": 1.387017884806893,
+        "free_energy_fraction": 0.0068551183644297966
+      },
+      "o_proj": {
+        "delta_squared_norm": 2.9288415049561447,
+        "free_energy_fraction": 0.0001181144533212867
+      },
+      "gate_proj": {
+        "delta_squared_norm": 10.570585767681525,
+        "free_energy_fraction": 0.005364145394508315
+      },
+      "up_proj": {
+        "delta_squared_norm": 10.118773027597053,
+        "free_energy_fraction": 0.004336934367017203
+      },
+      "down_proj": {
+        "delta_squared_norm": 10.044109140568882,
+        "free_energy_fraction": 0.00922338435316538
+      }
+    }
+  },
+  {
+    "label": "LoRA",
+    "target_free_energy_fraction": 0.006567198553833149,
+    "isotropic_expected_energy_fraction": 0.006180440818851182,
+    "observed_over_null": 1.0625776941027092,
+    "outside_target_delta_energy_fraction": 0.0,
+    "by_module": {
+      "q_proj": {
+        "delta_squared_norm": 4.156481942045487,
+        "free_energy_fraction": 0.00010633160007196688
+      },
+      "k_proj": {
+        "delta_squared_norm": 1.9807403001518726,
+        "free_energy_fraction": 0.007612841095370712
+      },
+      "v_proj": {
+        "delta_squared_norm": 1.9821626315400265,
+        "free_energy_fraction": 0.0073066587040983766
+      },
+      "o_proj": {
+        "delta_squared_norm": 4.780594001090927,
+        "free_energy_fraction": 0.00012182085940880814
+      },
+      "gate_proj": {
+        "delta_squared_norm": 50.42265237271011,
+        "free_energy_fraction": 0.006402007795068433
+      },
+      "up_proj": {
+        "delta_squared_norm": 27.374442160577615,
+        "free_energy_fraction": 0.007927183978665616
+      },
+      "down_proj": {
+        "delta_squared_norm": 5.143455380587056,
+        "free_energy_fraction": 0.011472626160603709
+      }
+    }
+  },
+  {
+    "label": "SSU",
+    "target_free_energy_fraction": 0.0055719056883108626,
+    "isotropic_expected_energy_fraction": 0.005662761954906694,
+    "observed_over_null": 0.9839554854469724,
+    "outside_target_delta_energy_fraction": 0.8309419884793354,
+    "by_module": {
+      "q_proj": {
+        "delta_squared_norm": 1.238221087549583,
+        "free_energy_fraction": 8.262567752232331e-05
+      },
+      "k_proj": {
+        "delta_squared_norm": 0.6152274466314915,
+        "free_energy_fraction": 0.008738457730704806
+      },
+      "v_proj": {
+        "delta_squared_norm": 0.6806834775554443,
+        "free_energy_fraction": 0.008213346762745648
+      },
+      "o_proj": {
+        "delta_squared_norm": 1.3438801106618203,
+        "free_energy_fraction": 9.323334752595092e-05
+      },
+      "gate_proj": {
+        "delta_squared_norm": 3.9943238411559587,
+        "free_energy_fraction": 0.004580256126598743
+      },
+      "up_proj": {
+        "delta_squared_norm": 4.056430263712668,
+        "free_energy_fraction": 0.003533220471602012
+      },
+      "down_proj": {
+        "delta_squared_norm": 4.077421029006529,
+        "free_energy_fraction": 0.011125474909893575
+      }
+    }
+  }
+]

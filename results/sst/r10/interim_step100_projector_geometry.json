@@ -1,0 +1,1985 @@
+{
+  "status": "PROJECTOR_GEOMETRY_COMPLETE",
+  "label": "R10-step100-versus-Base-initial",
+  "old_file": "/local/checkpoints/sst_sw_aya6400_20261102/smoke_norefresh_split2_r2/sst-initial.pt",
+  "new_file": "/local/checkpoints/sst_sw_aya6400_20261102/sw_aya6400_sst_r99_r10_seed42_final_v1/checkpoint-100/sst-state.pt",
+  "old_expected_file_sha256_from_trainer": "e76cf19c892984c8d9e5a648776a79e096a1db32a088b459162cc79d288a1918",
+  "new_expected_file_sha256_from_trainer": null,
+  "file_digests_independently_recomputed_here": false,
+  "new_saved_step": 100,
+  "matrices": 196,
+  "total_free_dimension": 7924644,
+  "dimension_weighted_overlap_fraction_raw": 0.9989271276152165,
+  "minimum_matrix_overlap_fraction_raw": 0.8209123373396917,
+  "maximum_matrix_overlap_fraction_raw": 1.000000729702114,
+  "rows": [
+    {
+      "name": "model.layers.0.mlp.down_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 21,
+      "right_free_rank": 4117,
+      "left_trace_product": 21.000004483011704,
+      "right_trace_product": 4117.000424485767,
+      "free_operator_overlap_fraction_raw": 1.0000003165823728,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.0.mlp.gate_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.00038067489,
+      "right_trace_product": 20.999996499854237,
+      "free_operator_overlap_fraction_raw": 0.9999999257905231,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.0.mlp.up_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.000407052499,
+      "right_trace_product": 21.00000386537689,
+      "free_operator_overlap_fraction_raw": 1.0000002829367283,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.0.self_attn.k_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 10.99999688873995,
+      "right_trace_product": 1035.000159812214,
+      "free_operator_overlap_fraction_raw": 0.9999998715660698,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.0.self_attn.o_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 21.000001690188366,
+      "right_trace_product": 21.000002414070615,
+      "free_operator_overlap_fraction_raw": 1.0000001954409132,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.0.self_attn.q_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 21.000002255465105,
+      "right_trace_product": 21.000002842128783,
+      "free_operator_overlap_fraction_raw": 1.0000002427425807,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.0.self_attn.v_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 11.000003120303132,
+      "right_trace_product": 1035.00017801195,
+      "free_operator_overlap_fraction_raw": 1.0000004556561923,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.1.mlp.down_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 21,
+      "right_free_rank": 4117,
+      "left_trace_product": 21.000003486233005,
+      "right_trace_product": 4117.000391861063,
+      "free_operator_overlap_fraction_raw": 1.0000002611923264,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.1.mlp.gate_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.0003785382905,
+      "right_trace_product": 21.00000444193592,
+      "free_operator_overlap_fraction_raw": 1.000000303465954,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.1.mlp.up_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.000389270501,
+      "right_trace_product": 21.0000068095416,
+      "free_operator_overlap_fraction_raw": 1.0000004188158962,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.1.self_attn.k_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 11.000000401814026,
+      "right_trace_product": 1035.0001327301322,
+      "free_operator_overlap_fraction_raw": 1.0000001647702261,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.1.self_attn.o_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 20.99966837317037,
+      "right_trace_product": 20.999773499667857,
+      "free_operator_overlap_fraction_raw": 0.9999734226864315,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.1.self_attn.q_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 21.00000216638537,
+      "right_trace_product": 21.00000179535254,
+      "free_operator_overlap_fraction_raw": 1.000000188654195,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.1.self_attn.v_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 11.00000159466553,
+      "right_trace_product": 1035.0001478010126,
+      "free_operator_overlap_fraction_raw": 1.0000002877725251,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.10.mlp.down_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 21,
+      "right_free_rank": 4117,
+      "left_trace_product": 20.999999608053074,
+      "right_trace_product": 4117.000416919862,
+      "free_operator_overlap_fraction_raw": 1.0000000826037387,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.10.mlp.gate_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.00038831961,
+      "right_trace_product": 20.999995569129172,
+      "free_operator_overlap_fraction_raw": 0.999999883327144,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.10.mlp.up_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.000386145656,
+      "right_trace_product": 20.99998750458146,
+      "free_operator_overlap_fraction_raw": 0.9999994987729834,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.10.self_attn.k_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 11.000000682416509,
+      "right_trace_product": 1035.000157406189,
+      "free_operator_overlap_fraction_raw": 1.0000002141211481,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.10.self_attn.o_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 21.000001270773808,
+      "right_trace_product": 21.000002443773635,
+      "free_operator_overlap_fraction_raw": 1.0000001768832185,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.10.self_attn.q_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 20.000002343992957,
+      "right_trace_product": 20.000000681230784,
+      "free_operator_overlap_fraction_raw": 0.9070296156564092,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.10.self_attn.v_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 11.000000600929608,
+      "right_trace_product": 1035.000171785021,
+      "free_operator_overlap_fraction_raw": 1.0000002206058392,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.11.mlp.down_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 21,
+      "right_free_rank": 4117,
+      "left_trace_product": 21.00000532945145,
+      "right_trace_product": 4117.000402003887,
+      "free_operator_overlap_fraction_raw": 1.0000003514282867,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.11.mlp.gate_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.0003794947825,
+      "right_trace_product": 20.99999448431521,
+      "free_operator_overlap_fraction_raw": 0.9999998295258227,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.11.mlp.up_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.000424705797,
+      "right_trace_product": 20.9999987834131,
+      "free_operator_overlap_fraction_raw": 1.0000000452263318,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.11.self_attn.k_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 10.999997610259896,
+      "right_trace_product": 1035.0001527201684,
+      "free_operator_overlap_fraction_raw": 0.9999999303065858,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.11.self_attn.o_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 21.000003225357922,
+      "right_trace_product": 21.000001302370475,
+      "free_operator_overlap_fraction_raw": 1.0000002156061236,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.11.self_attn.q_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 20.971838268322657,
+      "right_trace_product": 20.970264369383273,
+      "free_operator_overlap_fraction_raw": 0.997244881629649,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.11.self_attn.v_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 10.999297815813923,
+      "right_trace_product": 1034.99941558269,
+      "free_operator_overlap_fraction_raw": 0.999935600455632,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.12.mlp.down_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 21,
+      "right_free_rank": 4117,
+      "left_trace_product": 20.99999428055427,
+      "right_trace_product": 4117.000386257156,
+      "free_operator_overlap_fraction_raw": 0.9999998214654683,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.12.mlp.gate_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.000429214222,
+      "right_trace_product": 20.999994203276895,
+      "free_operator_overlap_fraction_raw": 0.99999982821966,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.12.mlp.up_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.000413140896,
+      "right_trace_product": 20.99999796909624,
+      "free_operator_overlap_fraction_raw": 1.0000000036402743,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.12.self_attn.k_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 11.000000984460325,
+      "right_trace_product": 1035.0001292794327,
+      "free_operator_overlap_fraction_raw": 1.0000002144040687,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.12.self_attn.o_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 20.01160905038468,
+      "right_trace_product": 20.013440164306758,
+      "free_operator_overlap_fraction_raw": 0.9081658510688739,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.12.self_attn.q_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 20.000002828820662,
+      "right_trace_product": 20.000002937857865,
+      "free_operator_overlap_fraction_raw": 0.9070297399854396,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.12.self_attn.v_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 11.000000181711261,
+      "right_trace_product": 1035.0001574858159,
+      "free_operator_overlap_fraction_raw": 1.0000001686794167,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.13.mlp.down_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 21,
+      "right_free_rank": 4117,
+      "left_trace_product": 21.000001449543802,
+      "right_trace_product": 4117.00038438097,
+      "free_operator_overlap_fraction_raw": 1.0000001623902375,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.13.mlp.gate_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.000415590112,
+      "right_trace_product": 21.000009627868454,
+      "free_operator_overlap_fraction_raw": 1.0000005594148627,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.13.mlp.up_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.000413360593,
+      "right_trace_product": 20.999998932249692,
+      "free_operator_overlap_fraction_raw": 1.0000000495580923,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.13.self_attn.k_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 11.000001334816854,
+      "right_trace_product": 1035.0001452539905,
+      "free_operator_overlap_fraction_raw": 1.0000002616890236,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.13.self_attn.o_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 20.81191679546795,
+      "right_trace_product": 20.795448494831398,
+      "free_operator_overlap_fraction_raw": 0.9813903487502728,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.13.self_attn.q_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 20.000113371025854,
+      "right_trace_product": 20.000113792769806,
+      "free_operator_overlap_fraction_raw": 0.9070397807002586,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.13.self_attn.v_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 10.99999989401222,
+      "right_trace_product": 1035.0001385531036,
+      "free_operator_overlap_fraction_raw": 1.000000124232479,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.14.mlp.down_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 21,
+      "right_free_rank": 4117,
+      "left_trace_product": 20.99999764826795,
+      "right_trace_product": 4117.000374475652,
+      "free_operator_overlap_fraction_raw": 0.9999999789711298,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.14.mlp.gate_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.000411396637,
+      "right_trace_product": 21.000001413419053,
+      "free_operator_overlap_fraction_raw": 1.0000001672319905,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.14.mlp.up_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.000371626389,
+      "right_trace_product": 20.999996843394555,
+      "free_operator_overlap_fraction_raw": 0.9999999399517493,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.14.self_attn.k_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 9.999998831702976,
+      "right_trace_product": 1034.0001449458819,
+      "free_operator_overlap_fraction_raw": 0.9082125815932831,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.14.self_attn.o_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 19.02984814230097,
+      "right_trace_product": 19.023921686588434,
+      "free_operator_overlap_fraction_raw": 0.8209123373396917,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.14.self_attn.q_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 20.00013919945244,
+      "right_trace_product": 20.000089637620768,
+      "free_operator_overlap_fraction_raw": 0.9070398565849018,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.14.self_attn.v_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 11.000000196283956,
+      "right_trace_product": 1035.0001497460557,
+      "free_operator_overlap_fraction_raw": 1.000000162526178,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.15.mlp.down_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 21,
+      "right_free_rank": 4117,
+      "left_trace_product": 21.00000838513057,
+      "right_trace_product": 4117.000413586078,
+      "free_operator_overlap_fraction_raw": 1.0000004997500915,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.15.mlp.gate_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.000426897435,
+      "right_trace_product": 21.000000862130616,
+      "free_operator_overlap_fraction_raw": 1.000000144745229,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.15.mlp.up_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.000350995208,
+      "right_trace_product": 20.99999075179819,
+      "free_operator_overlap_fraction_raw": 0.9999996448644907,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.15.self_attn.k_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 11.000000137358091,
+      "right_trace_product": 1035.0001451440673,
+      "free_operator_overlap_fraction_raw": 1.0000001527229148,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.15.self_attn.o_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 19.038627890373828,
+      "right_trace_product": 19.037087646836838,
+      "free_operator_overlap_fraction_raw": 0.8218594735250769,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.15.self_attn.q_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 20.001126652026628,
+      "right_trace_product": 20.00112291400313,
+      "free_operator_overlap_fraction_raw": 0.9071315024619694,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.15.self_attn.v_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 11.000001402660779,
+      "right_trace_product": 1035.0001703999446,
+      "free_operator_overlap_fraction_raw": 1.0000002921522648,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.16.mlp.down_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 21,
+      "right_free_rank": 4117,
+      "left_trace_product": 20.99999752806167,
+      "right_trace_product": 4117.000357086771,
+      "free_operator_overlap_fraction_raw": 0.9999999690233434,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.16.mlp.gate_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.000377426482,
+      "right_trace_product": 20.999995551684002,
+      "free_operator_overlap_fraction_raw": 0.9999998798505325,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.16.mlp.up_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.000373019959,
+      "right_trace_product": 20.999996634220125,
+      "free_operator_overlap_fraction_raw": 0.9999999303295526,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.16.self_attn.k_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 10.999999355334797,
+      "right_trace_product": 1035.0001363429612,
+      "free_operator_overlap_fraction_raw": 1.0000000731263945,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.16.self_attn.o_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 20.000003632540906,
+      "right_trace_product": 20.000004619156215,
+      "free_operator_overlap_fraction_raw": 0.9070298526847147,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.16.self_attn.q_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 20.42438514346947,
+      "right_trace_product": 20.429734465063532,
+      "free_operator_overlap_fraction_raw": 0.946178605653673,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.16.self_attn.v_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 10.000395419344143,
+      "right_trace_product": 1034.0005233986521,
+      "free_operator_overlap_fraction_raw": 0.9082489326126769,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.17.mlp.down_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 21,
+      "right_free_rank": 4117,
+      "left_trace_product": 21.000000034653752,
+      "right_trace_product": 4117.0004318067695,
+      "free_operator_overlap_fraction_raw": 1.0000001065340187,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.17.mlp.gate_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.000399626813,
+      "right_trace_product": 20.999998741137617,
+      "free_operator_overlap_fraction_raw": 1.000000037121646,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.17.mlp.up_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.00036968839,
+      "right_trace_product": 20.999995715439344,
+      "free_operator_overlap_fraction_raw": 0.9999998857688605,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.17.self_attn.k_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 10.000042387116533,
+      "right_trace_product": 1034.0001650917966,
+      "free_operator_overlap_fraction_raw": 0.9082165550464172,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.17.self_attn.o_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 20.076492430761956,
+      "right_trace_product": 20.08495128233244,
+      "free_operator_overlap_fraction_raw": 0.9143659237913149,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.17.self_attn.q_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 21.000002766384526,
+      "right_trace_product": 21.000001031225345,
+      "free_operator_overlap_fraction_raw": 1.0000001808385717,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.17.self_attn.v_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 10.999998960366307,
+      "right_trace_product": 1035.00011637826,
+      "free_operator_overlap_fraction_raw": 1.0000000179305986,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.18.mlp.down_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 21,
+      "right_free_rank": 4117,
+      "left_trace_product": 21.000001684946746,
+      "right_trace_product": 4117.000406288603,
+      "free_operator_overlap_fraction_raw": 1.0000001789211643,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.18.mlp.gate_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.000393735956,
+      "right_trace_product": 21.000003036674702,
+      "free_operator_overlap_fraction_raw": 1.000000240240189,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.18.mlp.up_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.000401284309,
+      "right_trace_product": 21.00000515326179,
+      "free_operator_overlap_fraction_raw": 1.0000003428635198,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.18.self_attn.k_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 11.000003618843287,
+      "right_trace_product": 1035.0001444692311,
+      "free_operator_overlap_fraction_raw": 1.0000004685695976,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.18.self_attn.o_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 20.980914000687267,
+      "right_trace_product": 20.984510025973954,
+      "free_operator_overlap_fraction_raw": 0.9983541954682976,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.18.self_attn.q_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 21.00000267865165,
+      "right_trace_product": 21.000001378184848,
+      "free_operator_overlap_fraction_raw": 1.0000001931826987,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.18.self_attn.v_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 10.000003615428191,
+      "right_trace_product": 1034.0001415058216,
+      "free_operator_overlap_fraction_raw": 0.9082130130357029,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.19.mlp.down_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 21,
+      "right_free_rank": 4117,
+      "left_trace_product": 21.000001172983403,
+      "right_trace_product": 4117.000413890912,
+      "free_operator_overlap_fraction_raw": 1.0000001563885204,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.19.mlp.gate_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.000390835383,
+      "right_trace_product": 21.000011601394327,
+      "free_operator_overlap_fraction_raw": 1.0000006473794836,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.19.mlp.up_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.000342439931,
+      "right_trace_product": 20.99999451931483,
+      "free_operator_overlap_fraction_raw": 0.999999822192024,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.19.self_attn.k_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 11.000002858994371,
+      "right_trace_product": 1035.0001512422018,
+      "free_operator_overlap_fraction_raw": 1.0000004060363485,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.19.self_attn.o_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 20.944332292768426,
+      "right_trace_product": 20.949858727240606,
+      "free_operator_overlap_fraction_raw": 0.9949678065076686,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.19.self_attn.q_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 20.088046257394417,
+      "right_trace_product": 20.09903550351466,
+      "free_operator_overlap_fraction_raw": 0.915533684634048,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.19.self_attn.v_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 11.000001673741302,
+      "right_trace_product": 1035.0001299353128,
+      "free_operator_overlap_fraction_raw": 1.0000002776996844,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.2.mlp.down_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 21,
+      "right_free_rank": 4117,
+      "left_trace_product": 21.00000666035121,
+      "right_trace_product": 4117.000417005311,
+      "free_operator_overlap_fraction_raw": 1.0000004184482487,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.2.mlp.gate_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.000397175962,
+      "right_trace_product": 20.999999899769342,
+      "free_operator_overlap_fraction_raw": 1.0000000916992904,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.2.mlp.up_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.000391987712,
+      "right_trace_product": 21.000004660641427,
+      "free_operator_overlap_fraction_raw": 1.0000003171473046,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.2.self_attn.k_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 11.000005220576746,
+      "right_trace_product": 1035.0001831545121,
+      "free_operator_overlap_fraction_raw": 1.0000006515588513,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.2.self_attn.o_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 21.00000208448056,
+      "right_trace_product": 21.000002776490582,
+      "free_operator_overlap_fraction_raw": 1.0000002314748293,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.2.self_attn.q_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 20.95936465131055,
+      "right_trace_product": 20.95838630574186,
+      "free_operator_overlap_fraction_raw": 0.9960872133448461,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.2.self_attn.v_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 10.999999712502985,
+      "right_trace_product": 1035.000152763733,
+      "free_operator_overlap_fraction_raw": 1.0000001214617136,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.20.mlp.down_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 21,
+      "right_free_rank": 4117,
+      "left_trace_product": 21.000002137933187,
+      "right_trace_product": 4117.0003782486165,
+      "free_operator_overlap_fraction_raw": 1.0000001936811673,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.20.mlp.gate_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.000395024391,
+      "right_trace_product": 20.999999722290827,
+      "free_operator_overlap_fraction_raw": 1.000000082725325,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.20.mlp.up_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.000366382688,
+      "right_trace_product": 20.99999057947932,
+      "free_operator_overlap_fraction_raw": 0.9999996403963747,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.20.self_attn.k_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 10.99999867702275,
+      "right_trace_product": 1035.0001747801928,
+      "free_operator_overlap_fraction_raw": 1.000000048599072,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.20.self_attn.o_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 21.000001725036068,
+      "right_trace_product": 21.00000323501888,
+      "free_operator_overlap_fraction_raw": 1.0000002361931053,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.20.self_attn.q_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 20.000002341439078,
+      "right_trace_product": 20.00000481281808,
+      "free_operator_overlap_fraction_raw": 0.9070298029141823,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.20.self_attn.v_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 11.000001548164157,
+      "right_trace_product": 1035.0001337271242,
+      "free_operator_overlap_fraction_raw": 1.0000002699471653,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.21.mlp.down_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 21,
+      "right_free_rank": 4117,
+      "left_trace_product": 21.000001308189916,
+      "right_trace_product": 4117.000408329441,
+      "free_operator_overlap_fraction_raw": 1.000000161476071,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.21.mlp.gate_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.00039348602,
+      "right_trace_product": 20.99999506463138,
+      "free_operator_overlap_fraction_raw": 0.9999998605583338,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.21.mlp.up_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.00038246617,
+      "right_trace_product": 21.00000148833507,
+      "free_operator_overlap_fraction_raw": 1.0000001637723448,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.21.self_attn.k_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 10.999998113697613,
+      "right_trace_product": 1035.000118617029,
+      "free_operator_overlap_fraction_raw": 0.9999999431237703,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.21.self_attn.o_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 20.916109285288673,
+      "right_trace_product": 20.9111256813842,
+      "free_operator_overlap_fraction_raw": 0.991790000068568,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.21.self_attn.q_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 20.00000463909495,
+      "right_trace_product": 20.00000263080884,
+      "free_operator_overlap_fraction_raw": 0.9070298081589298,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.21.self_attn.v_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 11.00000084061488,
+      "right_trace_product": 1035.0001269818113,
+      "free_operator_overlap_fraction_raw": 1.0000001991072844,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.22.mlp.down_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 21,
+      "right_free_rank": 4117,
+      "left_trace_product": 20.99999833229717,
+      "right_trace_product": 4117.000416114251,
+      "free_operator_overlap_fraction_raw": 1.0000000216577722,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.22.mlp.gate_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.000369066101,
+      "right_trace_product": 21.00000094144171,
+      "free_operator_overlap_fraction_raw": 1.0000001344749871,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.22.mlp.up_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.000412653554,
+      "right_trace_product": 21.00000365641523,
+      "free_operator_overlap_fraction_raw": 1.0000002743466423,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.22.self_attn.k_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 10.000003335539995,
+      "right_trace_product": 1034.0001442724476,
+      "free_operator_overlap_fraction_raw": 0.908212990045965,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.22.self_attn.o_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 19.98301108019635,
+      "right_trace_product": 19.98528567520624,
+      "free_operator_overlap_fraction_raw": 0.9055922564365888,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.22.self_attn.q_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 20.000217252676162,
+      "right_trace_product": 20.0001920194163,
+      "free_operator_overlap_fraction_raw": 0.9070480396452743,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.22.self_attn.v_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 11.000000341461423,
+      "right_trace_product": 1035.0001331706628,
+      "free_operator_overlap_fraction_raw": 1.0000001597092587,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.23.mlp.down_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 21,
+      "right_free_rank": 4117,
+      "left_trace_product": 21.000001330229466,
+      "right_trace_product": 4117.000444824307,
+      "free_operator_overlap_fraction_raw": 1.000000171390006,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.23.mlp.gate_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.000367556005,
+      "right_trace_product": 21.00000323505589,
+      "free_operator_overlap_fraction_raw": 1.0000002433279247,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.23.mlp.up_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.000405921534,
+      "right_trace_product": 20.999995841914117,
+      "free_operator_overlap_fraction_raw": 0.9999999005923286,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.23.self_attn.k_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 10.000002149578314,
+      "right_trace_product": 1034.0001559390928,
+      "free_operator_overlap_fraction_raw": 0.9082128925828055,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.23.self_attn.o_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 20.000003967475738,
+      "right_trace_product": 20.00000502274712,
+      "free_operator_overlap_fraction_raw": 0.9070298861779527,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.23.self_attn.q_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 20.000003738469758,
+      "right_trace_product": 20.00000216035039,
+      "free_operator_overlap_fraction_raw": 0.9070297459782564,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.23.self_attn.v_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 11.000001219523305,
+      "right_trace_product": 1035.0001236672201,
+      "free_operator_overlap_fraction_raw": 1.0000002303510052,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.24.mlp.down_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 21,
+      "right_free_rank": 4117,
+      "left_trace_product": 21.000001195911924,
+      "right_trace_product": 4117.000370433816,
+      "free_operator_overlap_fraction_raw": 1.0000001469248294,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.24.mlp.gate_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.000408889473,
+      "right_trace_product": 21.000005182449637,
+      "free_operator_overlap_fraction_raw": 1.0000003461006768,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.24.mlp.up_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.0003898726145,
+      "right_trace_product": 20.999997386712263,
+      "free_operator_overlap_fraction_raw": 0.9999999702559453,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.24.self_attn.k_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 11.000001570714927,
+      "right_trace_product": 1035.0001055160965,
+      "free_operator_overlap_fraction_raw": 1.0000002447401999,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.24.self_attn.o_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 20.000002318636632,
+      "right_trace_product": 20.000004132768744,
+      "free_operator_overlap_fraction_raw": 0.9070297710388143,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.24.self_attn.q_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 20.00000308757111,
+      "right_trace_product": 20.00000371368138,
+      "free_operator_overlap_fraction_raw": 0.9070297869049008,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.24.self_attn.v_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 11.000000451153758,
+      "right_trace_product": 1035.0001273399425,
+      "free_operator_overlap_fraction_raw": 1.0000001640477438,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.25.mlp.down_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 21,
+      "right_free_rank": 4117,
+      "left_trace_product": 21.000009776656356,
+      "right_trace_product": 4117.000397570204,
+      "free_operator_overlap_fraction_raw": 1.0000005621230483,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.25.mlp.gate_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.000373914416,
+      "right_trace_product": 20.999988681527586,
+      "free_operator_overlap_fraction_raw": 0.999999551847133,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.25.mlp.up_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.000393811633,
+      "right_trace_product": 20.999999606241488,
+      "free_operator_overlap_fraction_raw": 1.0000000769045925,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.25.self_attn.k_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 10.999997036512058,
+      "right_trace_product": 1035.000143693178,
+      "free_operator_overlap_fraction_raw": 0.9999998694259562,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.25.self_attn.o_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 20.000001299563763,
+      "right_trace_product": 20.00000273979534,
+      "free_operator_overlap_fraction_raw": 0.907029661648947,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.25.self_attn.q_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 20.377911936011618,
+      "right_trace_product": 20.423453763189357,
+      "free_operator_overlap_fraction_raw": 0.9437354698763668,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.25.self_attn.v_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 11.000000228324051,
+      "right_trace_product": 1035.0001560814662,
+      "free_operator_overlap_fraction_raw": 1.000000171560084,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.26.mlp.down_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 21,
+      "right_free_rank": 4117,
+      "left_trace_product": 21.00000736391937,
+      "right_trace_product": 4117.000400300715,
+      "free_operator_overlap_fraction_raw": 1.0000004478940283,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.26.mlp.gate_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.000421813775,
+      "right_trace_product": 21.000009175254565,
+      "free_operator_overlap_fraction_raw": 1.0000005393735172,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.26.mlp.up_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.000389665849,
+      "right_trace_product": 20.999983028926877,
+      "free_operator_overlap_fraction_raw": 0.9999992865015923,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.26.self_attn.k_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 11.000000075449865,
+      "right_trace_product": 1035.0001333143807,
+      "free_operator_overlap_fraction_raw": 1.0000001356652444,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.26.self_attn.o_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 21.000002429713557,
+      "right_trace_product": 21.000001494685815,
+      "free_operator_overlap_fraction_raw": 1.0000001868761688,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.26.self_attn.q_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 21.000001903616727,
+      "right_trace_product": 21.00000278645631,
+      "free_operator_overlap_fraction_raw": 1.0000002233368235,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.26.self_attn.v_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 11.000000191093923,
+      "right_trace_product": 1035.0001563019898,
+      "free_operator_overlap_fraction_raw": 1.0000001683885926,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.27.mlp.down_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 21,
+      "right_free_rank": 4117,
+      "left_trace_product": 21.00000167444408,
+      "right_trace_product": 4117.000374402663,
+      "free_operator_overlap_fraction_raw": 1.0000001706760913,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.27.mlp.gate_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.000407641079,
+      "right_trace_product": 21.000013244446833,
+      "free_operator_overlap_fraction_raw": 1.000000729702114,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.27.mlp.up_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.000380530105,
+      "right_trace_product": 20.999989343354194,
+      "free_operator_overlap_fraction_raw": 0.9999995849696076,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.27.self_attn.k_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 11.000004374921074,
+      "right_trace_product": 1035.0001212296954,
+      "free_operator_overlap_fraction_raw": 1.0000005148502846,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.27.self_attn.o_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 21.00000164731392,
+      "right_trace_product": 21.00000242059985,
+      "free_operator_overlap_fraction_raw": 1.0000001937101883,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.27.self_attn.q_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 20.00000112215147,
+      "right_trace_product": 20.00000236693038,
+      "free_operator_overlap_fraction_raw": 0.9070296366930606,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.27.self_attn.v_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 11.000002287869275,
+      "right_trace_product": 1035.0001076962194,
+      "free_operator_overlap_fraction_raw": 1.0000003120424559,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.3.mlp.down_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 21,
+      "right_free_rank": 4117,
+      "left_trace_product": 21.000004942626727,
+      "right_trace_product": 4117.000392096584,
+      "free_operator_overlap_fraction_raw": 1.000000330601622,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.3.mlp.gate_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.000410081466,
+      "right_trace_product": 20.999996157375953,
+      "free_operator_overlap_fraction_raw": 0.99999991662475,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.3.mlp.up_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.000400561811,
+      "right_trace_product": 20.999982160931797,
+      "free_operator_overlap_fraction_raw": 0.9999992478150652,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.3.self_attn.k_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 10.000004184293893,
+      "right_trace_product": 1034.0001614208118,
+      "free_operator_overlap_fraction_raw": 0.9082130821931207,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.3.self_attn.o_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 21.000002357717086,
+      "right_trace_product": 21.000002546497782,
+      "free_operator_overlap_fraction_raw": 1.000000233534055,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.3.self_attn.q_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 21.0000040570353,
+      "right_trace_product": 21.000001006924652,
+      "free_operator_overlap_fraction_raw": 1.0000002411409594,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.3.self_attn.v_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 11.000001085820003,
+      "right_trace_product": 1035.0001366056244,
+      "free_operator_overlap_fraction_raw": 1.000000230697033,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.4.mlp.down_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 21,
+      "right_free_rank": 4117,
+      "left_trace_product": 20.9999983276746,
+      "right_trace_product": 4117.000444915931,
+      "free_operator_overlap_fraction_raw": 1.0000000284334425,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.4.mlp.gate_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.000361644539,
+      "right_trace_product": 20.999994639627293,
+      "free_operator_overlap_fraction_raw": 0.9999998325858975,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.4.mlp.up_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.000376472574,
+      "right_trace_product": 20.999983465913136,
+      "free_operator_overlap_fraction_raw": 0.9999993041058817,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.4.self_attn.k_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 11.000001814519955,
+      "right_trace_product": 1035.000121125041,
+      "free_operator_overlap_fraction_raw": 1.000000281985404,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.4.self_attn.o_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 20.99527631068137,
+      "right_trace_product": 20.995387302887668,
+      "free_operator_overlap_fraction_raw": 0.9995554595779996,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.4.self_attn.q_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 21.000002174805903,
+      "right_trace_product": 21.000001117564015,
+      "free_operator_overlap_fraction_raw": 1.0000001567795254,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.4.self_attn.v_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 11.000001019392206,
+      "right_trace_product": 1035.0001082970316,
+      "free_operator_overlap_fraction_raw": 1.0000001973068415,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.5.mlp.down_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 21,
+      "right_free_rank": 4117,
+      "left_trace_product": 21.00000045739746,
+      "right_trace_product": 4117.000438446563,
+      "free_operator_overlap_fraction_raw": 1.0000001282774484,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.5.mlp.gate_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.000440301464,
+      "right_trace_product": 21.000000194787017,
+      "free_operator_overlap_fraction_raw": 1.0000001162227348,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.5.mlp.up_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.000397555252,
+      "right_trace_product": 20.999993339995587,
+      "free_operator_overlap_fraction_raw": 0.9999997794212091,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.5.self_attn.k_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 11.000001964604419,
+      "right_trace_product": 1035.0001501265426,
+      "free_operator_overlap_fraction_raw": 1.0000003236502273,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.5.self_attn.o_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 21.000002070834558,
+      "right_trace_product": 21.00000194930287,
+      "free_operator_overlap_fraction_raw": 1.0000001914351249,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.5.self_attn.q_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 20.000006307269512,
+      "right_trace_product": 20.00000590632531,
+      "free_operator_overlap_fraction_raw": 0.9070300323626614,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.5.self_attn.v_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 11.00000111945705,
+      "right_trace_product": 1035.000134041891,
+      "free_operator_overlap_fraction_raw": 1.0000002312779093,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.6.mlp.down_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 21,
+      "right_free_rank": 4117,
+      "left_trace_product": 21.000000816182855,
+      "right_trace_product": 4117.000373502289,
+      "free_operator_overlap_fraction_raw": 1.000000129587809,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.6.mlp.gate_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.000378735071,
+      "right_trace_product": 21.00000002471199,
+      "free_operator_overlap_fraction_raw": 1.0000000931697348,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.6.mlp.up_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.000431903209,
+      "right_trace_product": 20.999990890833878,
+      "free_operator_overlap_fraction_raw": 0.9999996711374037,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.6.self_attn.k_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 11.000000060406267,
+      "right_trace_product": 1035.000163261337,
+      "free_operator_overlap_fraction_raw": 1.000000163231902,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.6.self_attn.o_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 21.00000216182697,
+      "right_trace_product": 21.00000180213235,
+      "free_operator_overlap_fraction_raw": 1.0000001887599765,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.6.self_attn.q_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 21.000001597187424,
+      "right_trace_product": 21.000003125231125,
+      "free_operator_overlap_fraction_raw": 1.000000224877085,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.6.self_attn.v_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 11.000001964941193,
+      "right_trace_product": 1035.0001491007101,
+      "free_operator_overlap_fraction_raw": 1.0000003226897003,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.7.mlp.down_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 21,
+      "right_free_rank": 4117,
+      "left_trace_product": 21.00000363223063,
+      "right_trace_product": 4117.000394860017,
+      "free_operator_overlap_fraction_raw": 1.000000268873027,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.7.mlp.gate_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.000391970963,
+      "right_trace_product": 21.000001398583375,
+      "free_operator_overlap_fraction_raw": 1.0000001618071241,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.7.mlp.up_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.000388475743,
+      "right_trace_product": 20.999989013056442,
+      "free_operator_overlap_fraction_raw": 0.9999995711710992,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.7.self_attn.k_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 11.000000327734275,
+      "right_trace_product": 1035.0001442852351,
+      "free_operator_overlap_fraction_raw": 1.0000001692000535,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.7.self_attn.o_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 20.33847047217106,
+      "right_trace_product": 20.352408518876864,
+      "free_operator_overlap_fraction_raw": 0.9386323349177774,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.7.self_attn.q_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 20.000002400037026,
+      "right_trace_product": 20.00000071700525,
+      "free_operator_overlap_fraction_raw": 0.9070296198205153,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.7.self_attn.v_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 11.000000556672054,
+      "right_trace_product": 1035.0001632423325,
+      "free_operator_overlap_fraction_raw": 1.0000002083286188,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.8.mlp.down_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 21,
+      "right_free_rank": 4117,
+      "left_trace_product": 20.99999641907406,
+      "right_trace_product": 4117.000440027034,
+      "free_operator_overlap_fraction_raw": 0.9999999363602026,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.8.mlp.gate_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.000393848364,
+      "right_trace_product": 21.000004431983594,
+      "free_operator_overlap_fraction_raw": 1.0000003067107794,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.8.mlp.up_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.000373491235,
+      "right_trace_product": 20.999994943540365,
+      "free_operator_overlap_fraction_raw": 0.9999998499354562,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.8.self_attn.k_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 10.999998761753593,
+      "right_trace_product": 1035.0001454785106,
+      "free_operator_overlap_fraction_raw": 1.0000000279910763,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.8.self_attn.o_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 20.971095536139305,
+      "right_trace_product": 20.969604140123504,
+      "free_operator_overlap_fraction_raw": 0.9971781672960369,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.8.self_attn.q_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 21.000002704889013,
+      "right_trace_product": 21.00000286193886,
+      "free_operator_overlap_fraction_raw": 1.0000002650870592,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.8.self_attn.v_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 10.99999888972775,
+      "right_trace_product": 1035.0001435046452,
+      "free_operator_overlap_fraction_raw": 1.0000000377179763,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.9.mlp.down_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 21,
+      "right_free_rank": 4117,
+      "left_trace_product": 21.000006273884548,
+      "right_trace_product": 4117.000387869624,
+      "free_operator_overlap_fraction_raw": 1.0000003929681487,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.9.mlp.gate_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.000400561951,
+      "right_trace_product": 21.000002083468644,
+      "free_operator_overlap_fraction_raw": 1.0000001965074223,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.9.mlp.up_proj.weight",
+      "free_dimension": 86457,
+      "left_free_rank": 4117,
+      "right_free_rank": 21,
+      "left_trace_product": 4117.0003804350845,
+      "right_trace_product": 20.999996580174475,
+      "free_operator_overlap_fraction_raw": 0.999999929557049,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.9.self_attn.k_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 11.000003129095578,
+      "right_trace_product": 1035.0001587737008,
+      "free_operator_overlap_fraction_raw": 1.00000043786782,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.9.self_attn.o_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 20.003399334962808,
+      "right_trace_product": 20.043188870021382,
+      "free_operator_overlap_fraction_raw": 0.9091426551317907,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.9.self_attn.q_proj.weight",
+      "free_dimension": 441,
+      "left_free_rank": 21,
+      "right_free_rank": 21,
+      "left_trace_product": 20.00000303196856,
+      "right_trace_product": 20.00000133181044,
+      "free_operator_overlap_fraction_raw": 0.9070296763618686,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    },
+    {
+      "name": "model.layers.9.self_attn.v_proj.weight",
+      "free_dimension": 11385,
+      "left_free_rank": 11,
+      "right_free_rank": 1035,
+      "left_trace_product": 11.00000068425993,
+      "right_trace_product": 1035.0001312032693,
+      "free_operator_overlap_fraction_raw": 1.0000001889719,
+      "interpretation": "Trace(Fold Fnew)/rank(Fold), numerical factors; not per-vector cosine"
+    }
+  ],
+  "seconds": 21.250821352005005,
+  "dense_representation_gate_passed": true,
+  "limitations": [
+    "Numerical projector overlap, not semantic information or causal protection.",
+    "Float32 factors are not perfectly orthonormal; raw trace can marginally exceed rank.",
+    "Does not independently verify singular-value noncrossing inequality.",
+    "Expected file hashes are recorded source identities, not independently rehashed by this mmap analysis."
+  ]
+}

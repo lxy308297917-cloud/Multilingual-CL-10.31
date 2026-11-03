@@ -1,0 +1,19 @@
+{
+  "ranks": [
+    {
+      "rank": 0,
+      "peak_allocated_bytes": 20750827008,
+      "peak_reserved_bytes": 24419237888,
+      "source_sha256": "f4ebf4331c4c348454fea8df993cacba9a237c5b877389fe4b687ba49f1e60d9"
+    },
+    {
+      "rank": 1,
+      "peak_allocated_bytes": 20751933952,
+      "peak_reserved_bytes": 24398266368,
+      "source_sha256": "57b35eec9e8d5c948c253b3e4050c6979e8b346845894ed2af62a84202e86cc3"
+    }
+  ],
+  "scope": "PyTorch counters after SST on_train_begin reset; excludes earlier cold/cache initialization peak; not nvidia-smi total or whole-node capacity",
+  "max_rank_allocated_bytes": 20751933952,
+  "max_rank_reserved_bytes": 24419237888
+}

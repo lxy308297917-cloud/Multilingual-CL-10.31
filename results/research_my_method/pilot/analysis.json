@@ -1,0 +1,1391 @@
+{
+  "status": "VERIFIED_EXPLORATORY_COMPLETE",
+  "source_predictions_sha256": "2f252077bce91aa18c9117c3a7a244e73a8d858a2641184a0932edb6ef502598",
+  "protocol_sha256": "5bf0568ccc921f8f955af1aca281e6efd28c3e764e6c6f10541f59fd75aabc88",
+  "preregistration_sha256": "e2f596202c960d8f5bff05858cfe18e2a6feab0a6b370928111741fa73f3f204",
+  "statistics_code_sha256": "f203923ba11df900ec901a114ceade1e1391688d3ef1abdc1670c77da386b1cc",
+  "semantic_ids": 114,
+  "languages": [
+    "en",
+    "sw",
+    "ha"
+  ],
+  "conditions": 15,
+  "predictions_verified": 5130,
+  "summaries": {
+    "W1": {
+      "en": {
+        "n": 114,
+        "correct": 71,
+        "acc": 0.6228070175438597
+      },
+      "sw": {
+        "n": 114,
+        "correct": 33,
+        "acc": 0.2894736842105263
+      },
+      "ha": {
+        "n": 114,
+        "correct": 36,
+        "acc": 0.3157894736842105
+      }
+    },
+    "raw-fraction0.1": {
+      "en": {
+        "n": 114,
+        "correct": 63,
+        "acc": 0.5526315789473685
+      },
+      "sw": {
+        "n": 114,
+        "correct": 32,
+        "acc": 0.2807017543859649
+      },
+      "ha": {
+        "n": 114,
+        "correct": 34,
+        "acc": 0.2982456140350877
+      }
+    },
+    "block_shared-fraction0.1": {
+      "en": {
+        "n": 114,
+        "correct": 71,
+        "acc": 0.6228070175438597
+      },
+      "sw": {
+        "n": 114,
+        "correct": 32,
+        "acc": 0.2807017543859649
+      },
+      "ha": {
+        "n": 114,
+        "correct": 36,
+        "acc": 0.3157894736842105
+      }
+    },
+    "block_shuffled-fraction0.1": {
+      "en": {
+        "n": 114,
+        "correct": 65,
+        "acc": 0.5701754385964912
+      },
+      "sw": {
+        "n": 114,
+        "correct": 32,
+        "acc": 0.2807017543859649
+      },
+      "ha": {
+        "n": 114,
+        "correct": 34,
+        "acc": 0.2982456140350877
+      }
+    },
+    "block_random-fraction0.1": {
+      "en": {
+        "n": 114,
+        "correct": 64,
+        "acc": 0.5614035087719298
+      },
+      "sw": {
+        "n": 114,
+        "correct": 32,
+        "acc": 0.2807017543859649
+      },
+      "ha": {
+        "n": 114,
+        "correct": 34,
+        "acc": 0.2982456140350877
+      }
+    },
+    "reuse_shared-fraction0.1": {
+      "en": {
+        "n": 114,
+        "correct": 66,
+        "acc": 0.5789473684210527
+      },
+      "sw": {
+        "n": 114,
+        "correct": 32,
+        "acc": 0.2807017543859649
+      },
+      "ha": {
+        "n": 114,
+        "correct": 34,
+        "acc": 0.2982456140350877
+      }
+    },
+    "reuse_shuffled-fraction0.1": {
+      "en": {
+        "n": 114,
+        "correct": 70,
+        "acc": 0.6140350877192983
+      },
+      "sw": {
+        "n": 114,
+        "correct": 32,
+        "acc": 0.2807017543859649
+      },
+      "ha": {
+        "n": 114,
+        "correct": 35,
+        "acc": 0.30701754385964913
+      }
+    },
+    "reuse_random-fraction0.1": {
+      "en": {
+        "n": 114,
+        "correct": 71,
+        "acc": 0.6228070175438597
+      },
+      "sw": {
+        "n": 114,
+        "correct": 31,
+        "acc": 0.2719298245614035
+      },
+      "ha": {
+        "n": 114,
+        "correct": 35,
+        "acc": 0.30701754385964913
+      }
+    },
+    "raw-fraction0.3": {
+      "en": {
+        "n": 114,
+        "correct": 52,
+        "acc": 0.45614035087719296
+      },
+      "sw": {
+        "n": 114,
+        "correct": 33,
+        "acc": 0.2894736842105263
+      },
+      "ha": {
+        "n": 114,
+        "correct": 31,
+        "acc": 0.2719298245614035
+      }
+    },
+    "block_shared-fraction0.3": {
+      "en": {
+        "n": 114,
+        "correct": 62,
+        "acc": 0.543859649122807
+      },
+      "sw": {
+        "n": 114,
+        "correct": 30,
+        "acc": 0.2631578947368421
+      },
+      "ha": {
+        "n": 114,
+        "correct": 33,
+        "acc": 0.2894736842105263
+      }
+    },
+    "block_shuffled-fraction0.3": {
+      "en": {
+        "n": 114,
+        "correct": 53,
+        "acc": 0.4649122807017544
+      },
+      "sw": {
+        "n": 114,
+        "correct": 32,
+        "acc": 0.2807017543859649
+      },
+      "ha": {
+        "n": 114,
+        "correct": 30,
+        "acc": 0.2631578947368421
+      }
+    },
+    "block_random-fraction0.3": {
+      "en": {
+        "n": 114,
+        "correct": 54,
+        "acc": 0.47368421052631576
+      },
+      "sw": {
+        "n": 114,
+        "correct": 32,
+        "acc": 0.2807017543859649
+      },
+      "ha": {
+        "n": 114,
+        "correct": 32,
+        "acc": 0.2807017543859649
+      }
+    },
+    "reuse_shared-fraction0.3": {
+      "en": {
+        "n": 114,
+        "correct": 54,
+        "acc": 0.47368421052631576
+      },
+      "sw": {
+        "n": 114,
+        "correct": 32,
+        "acc": 0.2807017543859649
+      },
+      "ha": {
+        "n": 114,
+        "correct": 34,
+        "acc": 0.2982456140350877
+      }
+    },
+    "reuse_shuffled-fraction0.3": {
+      "en": {
+        "n": 114,
+        "correct": 65,
+        "acc": 0.5701754385964912
+      },
+      "sw": {
+        "n": 114,
+        "correct": 32,
+        "acc": 0.2807017543859649
+      },
+      "ha": {
+        "n": 114,
+        "correct": 32,
+        "acc": 0.2807017543859649
+      }
+    },
+    "reuse_random-fraction0.3": {
+      "en": {
+        "n": 114,
+        "correct": 64,
+        "acc": 0.5614035087719298
+      },
+      "sw": {
+        "n": 114,
+        "correct": 33,
+        "acc": 0.2894736842105263
+      },
+      "ha": {
+        "n": 114,
+        "correct": 35,
+        "acc": 0.30701754385964913
+      }
+    }
+  },
+  "contrasts": [
+    {
+      "treatment": "block_shared-fraction0.1",
+      "control": "block_shuffled-fraction0.1",
+      "language": "en",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": 5.2631578947368425,
+      "ci95_low": 0.8771929824561403,
+      "ci95_high": 10.526315789473685,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "block_shared-fraction0.1",
+      "control": "block_shuffled-fraction0.1",
+      "language": "sw",
+      "primary_exploratory": true,
+      "scale": "percentage points",
+      "delta": 0.0,
+      "ci95_low": -2.6315789473684212,
+      "ci95_high": 2.6315789473684212,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "block_shared-fraction0.1",
+      "control": "block_shuffled-fraction0.1",
+      "language": "ha",
+      "primary_exploratory": true,
+      "scale": "percentage points",
+      "delta": 1.7543859649122806,
+      "ci95_low": -1.7543859649122806,
+      "ci95_high": 5.2631578947368425,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "block_shared-fraction0.1",
+      "control": "block_random-fraction0.1",
+      "language": "en",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": 6.140350877192983,
+      "ci95_low": 1.7543859649122806,
+      "ci95_high": 11.403508771929825,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "block_shared-fraction0.1",
+      "control": "block_random-fraction0.1",
+      "language": "sw",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": 0.0,
+      "ci95_low": -2.6315789473684212,
+      "ci95_high": 2.6315789473684212,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "block_shared-fraction0.1",
+      "control": "block_random-fraction0.1",
+      "language": "ha",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": 1.7543859649122806,
+      "ci95_low": -1.7543859649122806,
+      "ci95_high": 5.2631578947368425,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "reuse_shared-fraction0.1",
+      "control": "reuse_shuffled-fraction0.1",
+      "language": "en",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": -3.508771929824561,
+      "ci95_low": -8.771929824561404,
+      "ci95_high": 1.7543859649122806,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "reuse_shared-fraction0.1",
+      "control": "reuse_shuffled-fraction0.1",
+      "language": "sw",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": 0.0,
+      "ci95_low": -3.508771929824561,
+      "ci95_high": 3.508771929824561,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "reuse_shared-fraction0.1",
+      "control": "reuse_shuffled-fraction0.1",
+      "language": "ha",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": -0.8771929824561403,
+      "ci95_low": -4.385964912280702,
+      "ci95_high": 2.6315789473684212,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "reuse_shared-fraction0.1",
+      "control": "reuse_random-fraction0.1",
+      "language": "en",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": -4.385964912280702,
+      "ci95_low": -9.649122807017545,
+      "ci95_high": 0.8771929824561403,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "reuse_shared-fraction0.1",
+      "control": "reuse_random-fraction0.1",
+      "language": "sw",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": 0.8771929824561403,
+      "ci95_low": 0.0,
+      "ci95_high": 2.6315789473684212,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "reuse_shared-fraction0.1",
+      "control": "reuse_random-fraction0.1",
+      "language": "ha",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": -0.8771929824561403,
+      "ci95_low": -2.6315789473684212,
+      "ci95_high": 0.0,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "block_shared-fraction0.3",
+      "control": "block_shuffled-fraction0.3",
+      "language": "en",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": 7.894736842105263,
+      "ci95_low": 0.0,
+      "ci95_high": 15.789473684210526,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "block_shared-fraction0.3",
+      "control": "block_shuffled-fraction0.3",
+      "language": "sw",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": -1.7543859649122806,
+      "ci95_low": -6.140350877192983,
+      "ci95_high": 2.6315789473684212,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "block_shared-fraction0.3",
+      "control": "block_shuffled-fraction0.3",
+      "language": "ha",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": 2.6315789473684212,
+      "ci95_low": -5.2631578947368425,
+      "ci95_high": 10.526315789473685,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "block_shared-fraction0.3",
+      "control": "block_random-fraction0.3",
+      "language": "en",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": 7.017543859649122,
+      "ci95_low": -0.8771929824561403,
+      "ci95_high": 14.912280701754385,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "block_shared-fraction0.3",
+      "control": "block_random-fraction0.3",
+      "language": "sw",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": -1.7543859649122806,
+      "ci95_low": -6.140350877192983,
+      "ci95_high": 2.6315789473684212,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "block_shared-fraction0.3",
+      "control": "block_random-fraction0.3",
+      "language": "ha",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": 0.8771929824561403,
+      "ci95_low": -7.017543859649122,
+      "ci95_high": 9.649122807017545,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "reuse_shared-fraction0.3",
+      "control": "reuse_shuffled-fraction0.3",
+      "language": "en",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": -9.649122807017545,
+      "ci95_low": -17.54385964912281,
+      "ci95_high": -1.7543859649122806,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "reuse_shared-fraction0.3",
+      "control": "reuse_shuffled-fraction0.3",
+      "language": "sw",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": 0.0,
+      "ci95_low": -4.385964912280702,
+      "ci95_high": 4.385964912280702,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "reuse_shared-fraction0.3",
+      "control": "reuse_shuffled-fraction0.3",
+      "language": "ha",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": 1.7543859649122806,
+      "ci95_low": -5.2631578947368425,
+      "ci95_high": 8.771929824561404,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "reuse_shared-fraction0.3",
+      "control": "reuse_random-fraction0.3",
+      "language": "en",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": -8.771929824561404,
+      "ci95_low": -16.666666666666668,
+      "ci95_high": -0.8771929824561403,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "reuse_shared-fraction0.3",
+      "control": "reuse_random-fraction0.3",
+      "language": "sw",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": -0.8771929824561403,
+      "ci95_low": -3.508771929824561,
+      "ci95_high": 1.7543859649122806,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "reuse_shared-fraction0.3",
+      "control": "reuse_random-fraction0.3",
+      "language": "ha",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": -0.8771929824561403,
+      "ci95_low": -6.140350877192983,
+      "ci95_high": 4.385964912280702,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "block_random-fraction0.1",
+      "control": "W1",
+      "language": "en",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": -6.140350877192983,
+      "ci95_low": -12.280701754385966,
+      "ci95_high": 0.0,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "block_random-fraction0.1",
+      "control": "W1",
+      "language": "sw",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": -0.8771929824561403,
+      "ci95_low": -4.385964912280702,
+      "ci95_high": 1.7543859649122806,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "block_random-fraction0.1",
+      "control": "W1",
+      "language": "ha",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": -1.7543859649122806,
+      "ci95_low": -5.2631578947368425,
+      "ci95_high": 1.7543859649122806,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "block_random-fraction0.3",
+      "control": "W1",
+      "language": "en",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": -14.912280701754385,
+      "ci95_low": -24.56140350877193,
+      "ci95_high": -5.2631578947368425,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "block_random-fraction0.3",
+      "control": "W1",
+      "language": "sw",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": -0.8771929824561403,
+      "ci95_low": -5.2631578947368425,
+      "ci95_high": 3.508771929824561,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "block_random-fraction0.3",
+      "control": "W1",
+      "language": "ha",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": -3.508771929824561,
+      "ci95_low": -12.280701754385966,
+      "ci95_high": 5.2631578947368425,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "block_shared-fraction0.1",
+      "control": "W1",
+      "language": "en",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": 0.0,
+      "ci95_low": -3.508771929824561,
+      "ci95_high": 3.508771929824561,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "block_shared-fraction0.1",
+      "control": "W1",
+      "language": "sw",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": -0.8771929824561403,
+      "ci95_low": -2.6315789473684212,
+      "ci95_high": 0.0,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "block_shared-fraction0.1",
+      "control": "W1",
+      "language": "ha",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": 0.0,
+      "ci95_low": 0.0,
+      "ci95_high": 0.0,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "block_shared-fraction0.3",
+      "control": "W1",
+      "language": "en",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": -7.894736842105263,
+      "ci95_low": -14.035087719298245,
+      "ci95_high": -1.7543859649122806,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "block_shared-fraction0.3",
+      "control": "W1",
+      "language": "sw",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": -2.6315789473684212,
+      "ci95_low": -6.140350877192983,
+      "ci95_high": 0.0,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "block_shared-fraction0.3",
+      "control": "W1",
+      "language": "ha",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": -2.6315789473684212,
+      "ci95_low": -7.017543859649122,
+      "ci95_high": 0.8771929824561403,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "block_shuffled-fraction0.1",
+      "control": "W1",
+      "language": "en",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": -5.2631578947368425,
+      "ci95_low": -11.403508771929825,
+      "ci95_high": 0.8771929824561403,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "block_shuffled-fraction0.1",
+      "control": "W1",
+      "language": "sw",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": -0.8771929824561403,
+      "ci95_low": -4.385964912280702,
+      "ci95_high": 1.7543859649122806,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "block_shuffled-fraction0.1",
+      "control": "W1",
+      "language": "ha",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": -1.7543859649122806,
+      "ci95_low": -5.2631578947368425,
+      "ci95_high": 1.7543859649122806,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "block_shuffled-fraction0.3",
+      "control": "W1",
+      "language": "en",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": -15.789473684210526,
+      "ci95_low": -25.43859649122807,
+      "ci95_high": -6.140350877192983,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "block_shuffled-fraction0.3",
+      "control": "W1",
+      "language": "sw",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": -0.8771929824561403,
+      "ci95_low": -5.2631578947368425,
+      "ci95_high": 3.508771929824561,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "block_shuffled-fraction0.3",
+      "control": "W1",
+      "language": "ha",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": -5.2631578947368425,
+      "ci95_low": -13.157894736842104,
+      "ci95_high": 2.6315789473684212,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "raw-fraction0.1",
+      "control": "W1",
+      "language": "en",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": -7.017543859649122,
+      "ci95_low": -13.157894736842104,
+      "ci95_high": -0.8771929824561403,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "raw-fraction0.1",
+      "control": "W1",
+      "language": "sw",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": -0.8771929824561403,
+      "ci95_low": -4.385964912280702,
+      "ci95_high": 1.7543859649122806,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "raw-fraction0.1",
+      "control": "W1",
+      "language": "ha",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": -1.7543859649122806,
+      "ci95_low": -5.2631578947368425,
+      "ci95_high": 1.7543859649122806,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "raw-fraction0.3",
+      "control": "W1",
+      "language": "en",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": -16.666666666666668,
+      "ci95_low": -26.31578947368421,
+      "ci95_high": -6.140350877192983,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "raw-fraction0.3",
+      "control": "W1",
+      "language": "sw",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": 0.0,
+      "ci95_low": -4.385964912280702,
+      "ci95_high": 5.2631578947368425,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "raw-fraction0.3",
+      "control": "W1",
+      "language": "ha",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": -4.385964912280702,
+      "ci95_low": -13.157894736842104,
+      "ci95_high": 4.385964912280702,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "reuse_random-fraction0.1",
+      "control": "W1",
+      "language": "en",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": 0.0,
+      "ci95_low": -2.6315789473684212,
+      "ci95_high": 2.6315789473684212,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "reuse_random-fraction0.1",
+      "control": "W1",
+      "language": "sw",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": -1.7543859649122806,
+      "ci95_low": -4.385964912280702,
+      "ci95_high": 0.0,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "reuse_random-fraction0.1",
+      "control": "W1",
+      "language": "ha",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": -0.8771929824561403,
+      "ci95_low": -3.508771929824561,
+      "ci95_high": 1.7543859649122806,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "reuse_random-fraction0.3",
+      "control": "W1",
+      "language": "en",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": -6.140350877192983,
+      "ci95_low": -12.280701754385966,
+      "ci95_high": 0.0,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "reuse_random-fraction0.3",
+      "control": "W1",
+      "language": "sw",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": 0.0,
+      "ci95_low": -3.508771929824561,
+      "ci95_high": 3.508771929824561,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "reuse_random-fraction0.3",
+      "control": "W1",
+      "language": "ha",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": -0.8771929824561403,
+      "ci95_low": -4.385964912280702,
+      "ci95_high": 2.6315789473684212,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "reuse_shared-fraction0.1",
+      "control": "W1",
+      "language": "en",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": -4.385964912280702,
+      "ci95_low": -10.526315789473685,
+      "ci95_high": 0.8771929824561403,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "reuse_shared-fraction0.1",
+      "control": "W1",
+      "language": "sw",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": -0.8771929824561403,
+      "ci95_low": -4.385964912280702,
+      "ci95_high": 1.7543859649122806,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "reuse_shared-fraction0.1",
+      "control": "W1",
+      "language": "ha",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": -1.7543859649122806,
+      "ci95_low": -5.2631578947368425,
+      "ci95_high": 1.7543859649122806,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "reuse_shared-fraction0.3",
+      "control": "W1",
+      "language": "en",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": -14.912280701754385,
+      "ci95_low": -24.56140350877193,
+      "ci95_high": -5.2631578947368425,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "reuse_shared-fraction0.3",
+      "control": "W1",
+      "language": "sw",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": -0.8771929824561403,
+      "ci95_low": -5.2631578947368425,
+      "ci95_high": 3.508771929824561,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "reuse_shared-fraction0.3",
+      "control": "W1",
+      "language": "ha",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": -1.7543859649122806,
+      "ci95_low": -7.894736842105263,
+      "ci95_high": 4.385964912280702,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "reuse_shuffled-fraction0.1",
+      "control": "W1",
+      "language": "en",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": -0.8771929824561403,
+      "ci95_low": -4.385964912280702,
+      "ci95_high": 1.7543859649122806,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "reuse_shuffled-fraction0.1",
+      "control": "W1",
+      "language": "sw",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": -0.8771929824561403,
+      "ci95_low": -3.508771929824561,
+      "ci95_high": 1.7543859649122806,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "reuse_shuffled-fraction0.1",
+      "control": "W1",
+      "language": "ha",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": -0.8771929824561403,
+      "ci95_low": -2.6315789473684212,
+      "ci95_high": 0.0,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "reuse_shuffled-fraction0.3",
+      "control": "W1",
+      "language": "en",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": -5.2631578947368425,
+      "ci95_low": -11.403508771929825,
+      "ci95_high": 0.8771929824561403,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "reuse_shuffled-fraction0.3",
+      "control": "W1",
+      "language": "sw",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": -0.8771929824561403,
+      "ci95_low": -3.508771929824561,
+      "ci95_high": 1.7543859649122806,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "treatment": "reuse_shuffled-fraction0.3",
+      "control": "W1",
+      "language": "ha",
+      "primary_exploratory": false,
+      "scale": "percentage points",
+      "delta": -3.508771929824561,
+      "ci95_low": -7.017543859649122,
+      "ci95_high": -0.8771929824561403,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs; identical resampling across languages",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    }
+  ],
+  "sequential_dev": {
+    "Base": {
+      "en": {
+        "n": 114,
+        "correct": 58,
+        "acc": 0.5087719298245614
+      },
+      "sw": {
+        "n": 114,
+        "correct": 35,
+        "acc": 0.30701754385964913
+      },
+      "ha": {
+        "n": 114,
+        "correct": 32,
+        "acc": 0.2807017543859649
+      }
+    },
+    "SW-FFT-Final": {
+      "en": {
+        "n": 114,
+        "correct": 71,
+        "acc": 0.6228070175438597
+      },
+      "sw": {
+        "n": 114,
+        "correct": 39,
+        "acc": 0.34210526315789475
+      },
+      "ha": {
+        "n": 114,
+        "correct": 28,
+        "acc": 0.24561403508771928
+      }
+    },
+    "SW-HA-FFT-Final": {
+      "en": {
+        "n": 114,
+        "correct": 57,
+        "acc": 0.5
+      },
+      "sw": {
+        "n": 114,
+        "correct": 23,
+        "acc": 0.20175438596491227
+      },
+      "ha": {
+        "n": 114,
+        "correct": 25,
+        "acc": 0.21929824561403508
+      }
+    },
+    "SW-SST-NoRefresh-BF16Export": {
+      "en": {
+        "n": 114,
+        "correct": 71,
+        "acc": 0.6228070175438597
+      },
+      "sw": {
+        "n": 114,
+        "correct": 36,
+        "acc": 0.3157894736842105
+      },
+      "ha": {
+        "n": 114,
+        "correct": 33,
+        "acc": 0.2894736842105263
+      }
+    }
+  },
+  "precision_control": [
+    {
+      "language": "en",
+      "comparison": "rounded BF16 weights minus native FP32 masters; both FP32/eager",
+      "scale": "percentage points",
+      "delta": 0.0,
+      "ci95_low": 0.0,
+      "ci95_high": 0.0,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "language": "sw",
+      "comparison": "rounded BF16 weights minus native FP32 masters; both FP32/eager",
+      "scale": "percentage points",
+      "delta": 2.6315789473684212,
+      "ci95_low": -0.8771929824561403,
+      "ci95_high": 7.017543859649122,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "language": "ha",
+      "comparison": "rounded BF16 weights minus native FP32 masters; both FP32/eager",
+      "scale": "percentage points",
+      "delta": -2.6315789473684212,
+      "ci95_low": -6.140350877192983,
+      "ci95_high": 0.0,
+      "repeats": 10000,
+      "seed": 20261103,
+      "samples": 114,
+      "unit": "paired semantic IDs",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    }
+  ],
+  "coverage": {
+    "active_matrices": 196,
+    "all_matrices": 196,
+    "active_old_update_squared_norm": 3.135080008655228,
+    "all_old_update_squared_norm": 3.135080008655228,
+    "active_old_energy_fraction": 1.0,
+    "coefficients": 3556
+  },
+  "formal_test_used": false,
+  "adoption_claim_allowed": false,
+  "limitations": [
+    "EN/SW dev historically exposed; not pristine confirmation.",
+    "Same-item difficulty and translation covariance not fully isolated.",
+    "One fixed shuffled control; intervals are unadjusted exploratory item bootstrap.",
+    "One finite FP32-master perturbation is not full sequential training or BF16 deployment."
+  ]
+}

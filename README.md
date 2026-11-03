@@ -1,3 +1,12 @@
+# Multilingual-CL: SW adaptation and sequential learning
+
+2026-11-03研究更新：SST NoRefresh全套正式结果、SW→Hausa FFT、有限功能干预及文献排重已完成；尚无经验证的新方法。R10与NoRefresh第二阶段的实际状态以结果快照为准。
+
+- [本轮完整交接](research/chatgpt_handoff.md)
+- [研究决策](research/my_method_20261103/final_recommendation.md) · [创新性矩阵](research/my_method_20261103/novelty_matrix.md)
+- [SST复现与分数](research/sst_reproduction/reproduction_report.md) · [顺序FFT结果](research/my_method_20261103/sequential_results.md)
+- [结果与图表索引](results/research_my_method/README.md)
+
 > 2026-11-03：[代码 benchmark 已完整执行](research/bench_v2/code_execution.md)，HumanEval下降，MBPP变化较小；不是所有代码任务均退化。My Method文献/数据探索与SST验收仍进行中，尚无新方法正式成效。
 
 > 当前机制诊断、报告与代码结果交付已完成：三组模块恢复／注入、激活补丁与对照，尚无清晰功能分离证据。见[研究报告](research/mechanism/mechanism_report.md)与[早间汇报](research/mechanism/morning_brief.md)。正式baseline结果保持原样。
