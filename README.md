@@ -1,3 +1,5 @@
+> 2026-11-03：新一轮[答案偏好与跨语言任务诊断](research/answer_bias_study/README.md)已完成；复用七个既有模型，无新增训练。原始正式benchmark不改。
+
 ## 2026-11-03 Hausa学习瓶颈诊断
 
 [本轮结论与四项报告](research/next_stage/README.md) · [正式对照表](results/next_stage/paper_table.md) · [下一步研究决策](research/next_stage/next_method_decision.md)

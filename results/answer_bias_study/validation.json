@@ -1,0 +1,177 @@
+{
+  "cpu_tests": 6,
+  "cpu_status": "PASS",
+  "model_scoring_oracles": {
+    "base": {
+      "max_absolute_raw_lp_error": 5.817413330078125e-05,
+      "n": 8,
+      "tolerance": 0.001,
+      "oracle": "canonical Qwen3ForCausalLM full causal output, same calibration inputs; answer argmax identity tested separately",
+      "errors": [
+        5.817413330078125e-05,
+        4.00543212890625e-05,
+        4.00543212890625e-05,
+        4.1961669921875e-05,
+        1.8596649169921875e-05,
+        2.956390380859375e-05,
+        5.378946661949158e-05,
+        5.2442774176597595e-05
+      ]
+    },
+    "sw_fft": {
+      "max_absolute_raw_lp_error": 2.469029277563095e-05,
+      "n": 8,
+      "tolerance": 0.001,
+      "oracle": "canonical Qwen3ForCausalLM full causal output, same calibration inputs; answer argmax identity tested separately",
+      "errors": [
+        3.814697265625e-06,
+        1.9073486328125e-06,
+        0.0,
+        1.33514404296875e-05,
+        8.375616744160652e-06,
+        1.5153549611568451e-05,
+        1.8202001228928566e-05,
+        2.469029277563095e-05
+      ]
+    },
+    "sw_ha_fft": {
+      "max_absolute_raw_lp_error": 1.7404556274414062e-05,
+      "n": 8,
+      "tolerance": 0.001,
+      "oracle": "canonical Qwen3ForCausalLM full causal output, same calibration inputs; answer argmax identity tested separately",
+      "errors": [
+        1.537799835205078e-05,
+        1.1682510375976562e-05,
+        1.537799835205078e-05,
+        1.7404556274414062e-05,
+        3.376975655555725e-06,
+        1.3392709661275148e-05,
+        1.1304393410682678e-05,
+        1.530005829408765e-05
+      ]
+    },
+    "ha_only": {
+      "max_absolute_raw_lp_error": 1.6927719116210938e-05,
+      "n": 8,
+      "tolerance": 0.001,
+      "oracle": "canonical Qwen3ForCausalLM full causal output, same calibration inputs; answer argmax identity tested separately",
+      "errors": [
+        1.5020370483398438e-05,
+        1.5020370483398438e-05,
+        1.6927719116210938e-05,
+        7.3909759521484375e-06,
+        4.0046870708465576e-08,
+        8.913688361644745e-06,
+        9.33092087507248e-06,
+        1.085083931684494e-05
+      ]
+    },
+    "sw_sst_norefresh": {
+      "max_absolute_raw_lp_error": 4.664063385462214e-05,
+      "n": 8,
+      "tolerance": 0.001,
+      "oracle": "canonical Qwen3ForCausalLM full causal output, same calibration inputs; answer argmax identity tested separately",
+      "errors": [
+        1.9073486328125e-05,
+        2.47955322265625e-05,
+        2.288818359375e-05,
+        1.9073486328125e-05,
+        5.963142029941082e-06,
+        2.9444693836921942e-05,
+        4.175037611275911e-05,
+        4.664063385462214e-05
+      ]
+    },
+    "sw_sst_r10": {
+      "max_absolute_raw_lp_error": 5.698203995052609e-05,
+      "n": 8,
+      "tolerance": 0.001,
+      "oracle": "canonical Qwen3ForCausalLM full causal output, same calibration inputs; answer argmax identity tested separately",
+      "errors": [
+        2.765655517578125e-05,
+        2.956390380859375e-05,
+        3.910064697265625e-05,
+        5.435943603515625e-05,
+        1.3830678653903306e-05,
+        5.698203995052609e-05,
+        2.625344495754689e-05,
+        5.322694732967648e-05
+      ]
+    },
+    "sw_ha_sst_norefresh": {
+      "max_absolute_raw_lp_error": 0.00011755572631955147,
+      "n": 8,
+      "tolerance": 0.001,
+      "oracle": "canonical Qwen3ForCausalLM full causal output, same calibration inputs; answer argmax identity tested separately",
+      "errors": [
+        8.225440979003906e-06,
+        3.0994415283203125e-05,
+        3.2901763916015625e-05,
+        2.5272369384765625e-05,
+        0.00011755572631955147,
+        5.483911809278652e-05,
+        7.753120735287666e-05,
+        4.9146874516736716e-05
+      ]
+    }
+  },
+  "artifacts": {
+    "base": {
+      "export_weights_fingerprint_sha256": "42fb692854712fa1c4d375c5cde965af653e5e948a8f8c5a12269646114eb207",
+      "evaluator_sha256": "31e01698cd3414f8f029828f337c76a53da455ab2e8cde8f94af4483518ba2d7",
+      "core_sha256": "1f66faf4e0b65fa2e329706907d5bfd5ef51f1d74fe1b46d68764a0f6a2db7b3",
+      "protocol_sha256": "c39c144e9f84b7f873e8a85cbef796d783bd994baea5b1d75f850126e061112e"
+    },
+    "sw_fft": {
+      "export_weights_fingerprint_sha256": "dcfae70eacd94d3a2ccd66015390ccdb737a9f5511e80a0cef4da795bc548d6a",
+      "evaluator_sha256": "31e01698cd3414f8f029828f337c76a53da455ab2e8cde8f94af4483518ba2d7",
+      "core_sha256": "1f66faf4e0b65fa2e329706907d5bfd5ef51f1d74fe1b46d68764a0f6a2db7b3",
+      "protocol_sha256": "c39c144e9f84b7f873e8a85cbef796d783bd994baea5b1d75f850126e061112e"
+    },
+    "sw_ha_fft": {
+      "export_weights_fingerprint_sha256": "83e9d34361f6fa8f278ce84a6b13eba17ff415b06dd00322825bae39d67f5143",
+      "evaluator_sha256": "31e01698cd3414f8f029828f337c76a53da455ab2e8cde8f94af4483518ba2d7",
+      "core_sha256": "1f66faf4e0b65fa2e329706907d5bfd5ef51f1d74fe1b46d68764a0f6a2db7b3",
+      "protocol_sha256": "c39c144e9f84b7f873e8a85cbef796d783bd994baea5b1d75f850126e061112e"
+    },
+    "ha_only": {
+      "export_weights_fingerprint_sha256": "e01977e201c0b71c07ed995064e2486c7080a36db7b8fe718874bb1faed726c1",
+      "evaluator_sha256": "31e01698cd3414f8f029828f337c76a53da455ab2e8cde8f94af4483518ba2d7",
+      "core_sha256": "1f66faf4e0b65fa2e329706907d5bfd5ef51f1d74fe1b46d68764a0f6a2db7b3",
+      "protocol_sha256": "c39c144e9f84b7f873e8a85cbef796d783bd994baea5b1d75f850126e061112e"
+    },
+    "sw_sst_norefresh": {
+      "export_weights_fingerprint_sha256": "a512bb7878b22445d827abef55f5431357fefeb19c93a06ede0dbbf6bb443e9f",
+      "evaluator_sha256": "31e01698cd3414f8f029828f337c76a53da455ab2e8cde8f94af4483518ba2d7",
+      "core_sha256": "1f66faf4e0b65fa2e329706907d5bfd5ef51f1d74fe1b46d68764a0f6a2db7b3",
+      "protocol_sha256": "c39c144e9f84b7f873e8a85cbef796d783bd994baea5b1d75f850126e061112e"
+    },
+    "sw_sst_r10": {
+      "export_weights_fingerprint_sha256": "5309cff68e4340aa0f0e38dd69330db4783efbdb815517efbf124ebaff81ed5b",
+      "evaluator_sha256": "31e01698cd3414f8f029828f337c76a53da455ab2e8cde8f94af4483518ba2d7",
+      "core_sha256": "1f66faf4e0b65fa2e329706907d5bfd5ef51f1d74fe1b46d68764a0f6a2db7b3",
+      "protocol_sha256": "c39c144e9f84b7f873e8a85cbef796d783bd994baea5b1d75f850126e061112e"
+    },
+    "sw_ha_sst_norefresh": {
+      "export_weights_fingerprint_sha256": "a9ec135da609c26fba3459574e6484b89ae38027ae9584ea923ed241d70b996a",
+      "evaluator_sha256": "31e01698cd3414f8f029828f337c76a53da455ab2e8cde8f94af4483518ba2d7",
+      "core_sha256": "1f66faf4e0b65fa2e329706907d5bfd5ef51f1d74fe1b46d68764a0f6a2db7b3",
+      "protocol_sha256": "c39c144e9f84b7f873e8a85cbef796d783bd994baea5b1d75f850126e061112e"
+    }
+  },
+  "raw_data_and_predictions_published": false,
+  "host_job_plans_or_environment_inventory_published": false,
+  "scientific_training": false,
+  "former_scientific_results_unchanged": true,
+  "source_projection": "Core/evaluator/test code exact. prepare uses explicit asset arguments and recomputes prior frozen180 selection; analyze uses protocol/run-root arguments. Full server launch/log/inventory originals remain local.",
+  "public_projection_verification": {
+    "public_core_and_evaluator_exact": true,
+    "public_tests_passed": 6,
+    "public_analysis_all_numeric_and_categorical_fields_exact": true,
+    "public_preparation_encoded_files_bitwise_exact": {
+      "items.jsonl": true,
+      "content_free.json": true
+    },
+    "public_protocol_metadata_hash_differs_due_to_paths_and_timestamp": true
+  }
+}

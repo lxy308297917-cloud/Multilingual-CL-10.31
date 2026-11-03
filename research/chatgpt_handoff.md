@@ -1,3 +1,5 @@
+> 2026-11-03：新一轮[答案偏好与跨语言任务诊断](answer_bias_study/README.md)已完成；复用七个既有模型，无新增训练。原始正式benchmark不改。
+
 # 最新研究交接：Hausa学习瓶颈诊断
 
 请先读[本轮总览](next_stage/README.md)、[Hausa-only正对照](next_stage/ha_only_control.md)、[诊断](next_stage/diagnosis.md)与[研究决策](next_stage/next_method_decision.md)。本轮没有开发MyMethod或搜索超参数。以下保留前一阶段原交接，历史NOT_RUN以新报告为准。

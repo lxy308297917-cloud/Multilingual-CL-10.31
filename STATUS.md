@@ -1,3 +1,5 @@
+> 2026-11-03：新一轮[答案偏好与跨语言任务诊断](research/answer_bias_study/README.md)已完成；复用七个既有模型，无新增训练。原始正式benchmark不改。
+
 # 最新状态
 
 Hausa诊断阶段的实际完成与NOT_RUN项目见[本轮研究入口](research/next_stage/README.md)和[证据表](results/next_stage/paper_table.md)。下文为前一阶段历史快照。

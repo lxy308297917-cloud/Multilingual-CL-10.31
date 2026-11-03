@@ -1,0 +1,79 @@
+{
+  "frozen_at": "2026-11-03T19:41:10.070685+08:00",
+  "seed": "answer-bias-calibration-20261103-v1",
+  "counts": {
+    "knowledge_dev|calibration|en": 53,
+    "knowledge_dev|calibration|sw": 53,
+    "knowledge_dev|calibration|ha": 53,
+    "knowledge_dev|diagnostic|en": 219,
+    "knowledge_dev|diagnostic|sw": 219,
+    "knowledge_dev|diagnostic|ha": 219,
+    "reading_exposed|diagnostic|en": 179,
+    "reading_exposed|diagnostic|sw": 179,
+    "reading_exposed|diagnostic|ha": 179
+  },
+  "files_sha256": {
+    "items.jsonl": "f2fa606e92833b86d938ba0b75f4dd74fa1aa5f1301a6acd74cd96cd358cb8ef",
+    "content_free.json": "5711083b92f9e6b1b9bb5a70a72711ea3bab6622ba92e9f32a9e1859289890ac"
+  },
+  "model_selection": false,
+  "training": false,
+  "new_independent_confirmation": false,
+  "exposure": "Global-MMLU official dev285 historically exposed as prompts/pilots; hash-split one per subject for calibration, remaining four for diagnostic. Calibration never uses formal test. Belebele fixed prior180 exposed diagnostic only; no fitting or prompt selection on these test-origin items.",
+  "translation": "Belebele official professional parallel translations; Global-MMLU full translations share IDs/gold but are not independently semantically certified, so cross-language knowledge analysis exploratory.",
+  "rotations": "four cyclic rotations 0123,1230,2301,3012; no best permutation selection",
+  "arithmetic": "FP32 exports, SDPA, no TF32, eval, right pad, float32 lm_head/logsoftmax, batch4; exact causal continuation scores",
+  "content_scoring": "unlabelled option list; exact official answer strings, no generated aliases; sum and mean token LP both retained. Primary content comparison mean token LP. Changed task prompt is a limitation, not pure semantic ground truth.",
+  "priors": "PriDe eq7 per calibration ID then arithmetic mean, per language; transferred from knowledge dev to reading (explicit cross-task). Content-free prior mean of3 fixed no-content prompts per task, shared across languages. No labels, strength=1, floor1e-12.",
+  "gate": "Run calibration comparisons only for a model/task/language where diagnostic rotation-averaged predicted-position maxshare>=0.40 and content-unanimity<=0.80. Gate frozen before outputs; no threshold tuning.",
+  "random_control": "all23 nonidentity label-prior permutations, same calibration inputs and magnitude; report their complete distribution, never select best",
+  "analyses": "paired 2000 bootstrap seed42 by passage for reading, semantic ID knowledge; exploratory unadjusted95%; same-ID crosslanguage and stage contrasts. No causal localization.",
+  "optional_full24": "NOT_RUN: bounded4rotation primary design; no adaptive expansion",
+  "official_model": "Qwen/Qwen3-1.7B",
+  "official_revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "source_revision_global_mmlu": "0e619dbeb34206cd48705a1a0ea7fb21cae09993",
+  "protocol_sha256": "c39c144e9f84b7f873e8a85cbef796d783bd994baea5b1d75f850126e061112e",
+  "original_source_inputs_digest": "99ef3fec0a586cc2427d178fcc90cea715135e34d393d5bb1642c2868c6e13f9",
+  "excluded_semantic_ids": 14,
+  "exact_training_question_overlaps": 0,
+  "analysis_checks": {
+    "frozen_at": "2026-11-03T19:47:44.160640+08:00",
+    "new_score_outputs_read_for_design": false,
+    "tie_tolerance": 1e-12,
+    "near_probability_gap": 1e-06,
+    "near_letter_lp_gap": 0.001,
+    "difficulty_reference": "Base EN position-average correctness",
+    "analysis_sha256": "9cf5010b6871dc72ee6632631eecfcc175c90e05b75d50843e6cc405b0c20a7f",
+    "note": "Does not modify running evaluator, data or primary protocol"
+  },
+  "gpu_limit": 4,
+  "model_names": [
+    "base",
+    "sw_fft",
+    "sw_ha_fft",
+    "ha_only",
+    "sw_sst_norefresh",
+    "sw_sst_r10",
+    "sw_ha_sst_norefresh"
+  ],
+  "public_assets": "Encoded items, raw text, data paths, job plans and device inventory stay local; acquire official sources and recreate the fixed splits. Not a newly pristine confirmation set.",
+  "scientific_input_sha256_by_role": {
+    "global_mmlu_dev_en": "86e985fb70b49130d751c7c5b255767348a8590793dc794ff0f34f1b8bd2d16f",
+    "global_mmlu_dev_sw": "2c384c8dc9e513e43f8c7c19418305c81f1e19cfc82c5e01a7b63722693d6ef7",
+    "global_mmlu_dev_ha": "f76830fc89623ab26b9f3150aa90688ee8aee75e5795d13e2302724744fd25ae",
+    "belebele_en": "15af884c2b5994fdc71199e79d553a1864b08ce1b31894aa87f6be925a064a31",
+    "belebele_sw": "c7b1c735c1b555f7d12219b7c16ceff3bc9f76d61f1736097acbefe055349813",
+    "belebele_ha": "888b72ccad1244198c3d6e47abc31bf7a365420ed2334eaa24f490230b64e9f5",
+    "ha_sft_6400": "bc1641cc1d9bb3a67c41258bd8ab49de55fb8893a6984d4d9c986872c83ed788",
+    "sw_sft_6400": "174a2b1406a15c213bbb89eb45b8014fb7e27f0d552a4869df2d765b736bd9e2"
+  },
+  "arithmetic_clarification": "Stored checkpoints are BF16 exports (Base311 tensors, other six310); cast to float32 on load and use SDPA. The shorthand FP32 exports in original execution metadata denotes evaluation dtype, not saved tensor dtype. Not native FP32 optimizer masters; export rounding remains.",
+  "resources": {
+    "accelerator": "NVIDIA GeForce RTX 3090",
+    "vram_gib": 24,
+    "parallel_workers": 3,
+    "account_gpu_limit": 4,
+    "cpu_threads_per_worker": 4,
+    "gpu_cost_scope": "Sum of each model process wall time including load/save; not CUDA kernel time"
+  }
+}

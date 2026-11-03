@@ -1,0 +1,98 @@
+{
+  "base_commit": "75a7130d7fa8ec8cacc37c0d14d198c06891e3ce",
+  "scope": "Aggregate diagnostic science only, no raw text/predictions, host paths, environment/asset inventories or GPU/job plans.",
+  "files": {
+    "scripts/answer_bias_study/core.py": {
+      "published_sha256": "1f66faf4e0b65fa2e329706907d5bfd5ef51f1d74fe1b46d68764a0f6a2db7b3",
+      "executed_original_sha256": "1f66faf4e0b65fa2e329706907d5bfd5ef51f1d74fe1b46d68764a0f6a2db7b3"
+    },
+    "scripts/answer_bias_study/evaluate.py": {
+      "published_sha256": "31e01698cd3414f8f029828f337c76a53da455ab2e8cde8f94af4483518ba2d7",
+      "executed_original_sha256": "31e01698cd3414f8f029828f337c76a53da455ab2e8cde8f94af4483518ba2d7"
+    },
+    "scripts/answer_bias_study/write_reports.py": {
+      "published_sha256": "245c9613f6cab4cbb3fa26b312542b19f7770c22c1325a7a451dee57e76cd127",
+      "executed_original_sha256": "245c9613f6cab4cbb3fa26b312542b19f7770c22c1325a7a451dee57e76cd127"
+    },
+    "scripts/answer_bias_study/plot_results.py": {
+      "published_sha256": "44eb826199aec8e0d8f133c8d81e1dc6e5eb95a8542cd1003a6522c90b6c5377",
+      "executed_original_sha256": "44eb826199aec8e0d8f133c8d81e1dc6e5eb95a8542cd1003a6522c90b6c5377"
+    },
+    "scripts/answer_bias_study/analyze.py": {
+      "published_sha256": "820171ce2045e3f8ec9b4e30b17eccc8ba2341b82cf49853c0f5b66ec1a0e651",
+      "executed_original_sha256": "9cf5010b6871dc72ee6632631eecfcc175c90e05b75d50843e6cc405b0c20a7f"
+    },
+    "scripts/answer_bias_study/prepare.py": {
+      "published_sha256": "7c3129abec968addc3e61494d74c45b7fc47c6c7e3be31afbc8c440068a5b3dd",
+      "executed_original_sha256": "db2f75e3790226b75b9ed96502cc640f953933404e3e35b06d36e60b83f67727"
+    },
+    "tests/answer_bias_study/test_core.py": {
+      "published_sha256": "d8bcd3a95bddc1e6c1965c383912c89a4effbc6beeea3a4f1d1007e4f134836e",
+      "executed_original_sha256": "d8bcd3a95bddc1e6c1965c383912c89a4effbc6beeea3a4f1d1007e4f134836e"
+    },
+    "research/answer_bias_study/results.md": {
+      "published_sha256": "8df720273c120ff2f5694c58b783a6ceddc166a29dc0cc285f911f485c837bdd",
+      "executed_original_sha256": "8df720273c120ff2f5694c58b783a6ceddc166a29dc0cc285f911f485c837bdd"
+    },
+    "research/answer_bias_study/implications_for_my_method.md": {
+      "published_sha256": "8b84fd85459b30af721bf404aeb01825b576968371e54ee1a0c1224ff2797814",
+      "executed_original_sha256": "8b84fd85459b30af721bf404aeb01825b576968371e54ee1a0c1224ff2797814"
+    },
+    "research/answer_bias_study/README.md": {
+      "published_sha256": "a3f917ded73cb8730de6cc71438c38ecbe7d242e6edc9b0b7eedc1bf7689bb38",
+      "executed_original_sha256": "a3f917ded73cb8730de6cc71438c38ecbe7d242e6edc9b0b7eedc1bf7689bb38"
+    },
+    "research/answer_bias_study/reproduce.md": {
+      "published_sha256": "b2091d3b845b4e11ddb80ed1e9d8b563a7bb2fbd695510cb2e9eadb5f1c0aa9c",
+      "executed_original_sha256": "b2091d3b845b4e11ddb80ed1e9d8b563a7bb2fbd695510cb2e9eadb5f1c0aa9c"
+    },
+    "research/answer_bias_study/cross_language_analysis.md": {
+      "published_sha256": "6127acbd8da7d1f79e5ec33e3b28f86339b65767142817cbe670c14d86803758",
+      "executed_original_sha256": "6127acbd8da7d1f79e5ec33e3b28f86339b65767142817cbe670c14d86803758"
+    },
+    "research/answer_bias_study/protocol.md": {
+      "published_sha256": "aafa4589cb5ed23738bdc7e67876971b2869abb9b8a8dba07ef642d5fbb4ac9f",
+      "executed_original_sha256": "aafa4589cb5ed23738bdc7e67876971b2869abb9b8a8dba07ef642d5fbb4ac9f"
+    },
+    "configs/answer_bias_study/scientific_protocol.json": {
+      "published_sha256": "f92f642610632beeac873e1dd9ecd8539566aeab5361b7a86eebb88297bfbd93",
+      "executed_original_sha256": null
+    },
+    "results/answer_bias_study/analysis.json": {
+      "published_sha256": "3277d7b82382a47b94ef863d8562853e3b8054e8e0acde5774058c3895f05b58",
+      "executed_original_sha256": "3277d7b82382a47b94ef863d8562853e3b8054e8e0acde5774058c3895f05b58"
+    },
+    "results/answer_bias_study/paper_table.csv": {
+      "published_sha256": "cb8cdb9f39a82db351da05ee9e7ff38e6791f0441be3f6954bbe1f9419af1967",
+      "executed_original_sha256": "cb8cdb9f39a82db351da05ee9e7ff38e6791f0441be3f6954bbe1f9419af1967"
+    },
+    "results/answer_bias_study/answer_bias_comparison.png": {
+      "published_sha256": "9728aafb47d75344b2d6bf24ea08fdd36044faa9d027595d03948101bcca782f",
+      "executed_original_sha256": "9728aafb47d75344b2d6bf24ea08fdd36044faa9d027595d03948101bcca782f"
+    },
+    "results/answer_bias_study/inference_receipts.json": {
+      "published_sha256": "d242d806b993f8d70f17c0a421e709531fc35efb10f763777e49b1247d19580f",
+      "executed_original_sha256": null
+    },
+    "results/answer_bias_study/cpu-tests.log": {
+      "published_sha256": "3fec925423fe05efc5d9b8585b1cdbbbdf4d9ac472766fba21f999feaa65216f",
+      "executed_original_sha256": null
+    },
+    "results/answer_bias_study/validation.json": {
+      "published_sha256": "e707e4cda5d61ff199fdc14cb221e97823f0f94bdb5aba2130ee7eddea6717bf",
+      "executed_original_sha256": null
+    },
+    "README.md": {
+      "published_sha256": "6f61b4bbfbb2458113cf9f711ccf0e9088575a9d4d5ee80053d141cfd27168f9",
+      "executed_original_sha256": null
+    },
+    "STATUS.md": {
+      "published_sha256": "fc2eb2ff1330254dce0fa1a9e6a5e5e368add481f04b9cb1e6c4e6a6f83e2813",
+      "executed_original_sha256": null
+    },
+    "research/chatgpt_handoff.md": {
+      "published_sha256": "575e1ac0aaf8bac6b4cb46fac8790e5711f1f720f7991403c8a9dea5ac9d1a89",
+      "executed_original_sha256": null
+    }
+  }
+}
