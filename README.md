@@ -1,6 +1,6 @@
 # Multilingual-CL: SW adaptation and sequential learning
 
-2026-11-03研究更新：SST NoRefresh全套正式结果、SW→Hausa FFT、有限功能干预及文献排重已完成；尚无经验证的新方法。R10与NoRefresh第二阶段的实际状态以结果快照为准。
+2026-11-03研究更新：SST NoRefresh/R10全套正式结果、SW→Hausa FFT、有限功能干预及文献排重已完成；尚无经验证的新方法。R10与NoRefresh第二阶段的实际状态以结果快照为准。
 
 - [本轮完整交接](research/chatgpt_handoff.md)
 - [研究决策](research/my_method_20261103/final_recommendation.md) · [创新性矩阵](research/my_method_20261103/novelty_matrix.md)

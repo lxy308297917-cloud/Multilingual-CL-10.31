@@ -5676,5 +5676,5 @@
     }
   ],
   "seconds": 90.60853958129883,
-  "interpretation": "Fixed initial Base r99 geometry only. BF16 rounding can leave the master feasible space; this is not by itself a functional or benchmark effect."
+  "interpretation": "Fixed initial Stage1 SW NoRefresh BF16 W1 r99 geometry for Stage2. The generic source helper calls its --base argument Base; here it is W1, not W0. Numerical geometry is not functional evidence."
 }

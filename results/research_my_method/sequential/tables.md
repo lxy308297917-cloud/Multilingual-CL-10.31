@@ -4,20 +4,20 @@
 
 | Benchmark | Base | FFT | LoRA | SSU-Wanda | SST NoRefresh | SST R10 |
 |---|---:|---:|---:|---:|---:|---:|
-| SW Belebele ACC | 28.33 | 36.67 | 36.89 | 35.44 | 29.89 | RUNNING |
-| SW Global-MMLU ACC | 27.87 | 31.65 | 31.38 | 31.24 | 27.04 | RUNNING |
-| SW MGSM strict | 1.60 | 4.80 | 4.00 | 6.40 | 5.20 | RUNNING |
-| SW MGSM flexible | 10.00 | 8.40 | 7.60 | 10.40 | 8.40 | RUNNING |
-| SW XIFEval prompt strict | 14.92 | 14.69 | 14.92 | 14.45 | 18.18 | RUNNING |
-| SW XL-Sum ROUGE-Lsum | 9.22 | 13.99 | 14.05 | 13.46 | 8.68 | RUNNING |
-| EN Belebele ACC | 60.78 | 77.11 | 78.22 | 79.67 | 77.33 | RUNNING |
-| EN MMLU ACC | 57.01 | 58.45 | 58.33 | 58.82 | 57.39 | RUNNING |
-| EN IFEval prompt strict | 66.91 | 27.17 | 31.05 | 47.50 | 60.26 | RUNNING |
-| EN GSM8K strict | 45.03 | 3.79 | 7.35 | 13.80 | 47.23 | RUNNING |
-| EN GSM8K flexible | 73.01 | 61.26 | 56.79 | 65.43 | 69.14 | RUNNING |
-| EN XL-Sum ROUGE-Lsum | 12.50 | 13.87 | 15.27 | 13.18 | 12.40 | RUNNING |
-| EN→SW chrF++ full1012 | 5.40 | 8.00 | 7.13 | 6.13 | 5.88 | RUNNING |
-| SW→EN chrF++ full1012 | 23.68 | 14.88 | 16.23 | 19.37 | 20.59 | RUNNING |
+| SW Belebele ACC | 28.33 | 36.67 | 36.89 | 35.44 | 29.89 | 30.44 |
+| SW Global-MMLU ACC | 27.87 | 31.65 | 31.38 | 31.24 | 27.04 | 27.09 |
+| SW MGSM strict | 1.60 | 4.80 | 4.00 | 6.40 | 5.20 | 5.20 |
+| SW MGSM flexible | 10.00 | 8.40 | 7.60 | 10.40 | 8.40 | 10.00 |
+| SW XIFEval prompt strict | 14.92 | 14.69 | 14.92 | 14.45 | 18.18 | 18.41 |
+| SW XL-Sum ROUGE-Lsum | 9.22 | 13.99 | 14.05 | 13.46 | 8.68 | 8.69 |
+| EN Belebele ACC | 60.78 | 77.11 | 78.22 | 79.67 | 77.33 | 77.22 |
+| EN MMLU ACC | 57.01 | 58.45 | 58.33 | 58.82 | 57.39 | 57.41 |
+| EN IFEval prompt strict | 66.91 | 27.17 | 31.05 | 47.50 | 60.26 | 59.15 |
+| EN GSM8K strict | 45.03 | 3.79 | 7.35 | 13.80 | 47.23 | 47.08 |
+| EN GSM8K flexible | 73.01 | 61.26 | 56.79 | 65.43 | 69.14 | 68.84 |
+| EN XL-Sum ROUGE-Lsum | 12.50 | 13.87 | 15.27 | 13.18 | 12.40 | 12.40 |
+| EN→SW chrF++ full1012 | 5.40 | 8.00 | 7.13 | 6.13 | 5.88 | 5.94 |
+| SW→EN chrF++ full1012 | 23.68 | 14.88 | 16.23 | 19.37 | 20.59 | 20.46 |
 
 ## Base→SW FFT→Hausa FFT
 

@@ -1,11 +1,11 @@
 # 多语言持续学习：本轮交接
 
-更新时间：2026-11-03T10:19+08:00。固定seed42；所有主成绩来自预先固定Final，未用正式test选checkpoint。
+更新时间：2026-11-03T12:04+08:00。固定seed42；所有主成绩来自预先固定Final，未用正式test选checkpoint。
 
 ## 先看结论
 
 - 既有FFT/LoRA/SSU：SW阅读、知识、摘要有收益，IFEval/GSM8K及HumanEval+等部分通用任务下降；英语阅读/知识没有普遍下降。
-- SST NoRefresh400与全套正式benchmark已完成：比FFT保留更多IFEval/GSM8K，但SW阅读29.89、知识27.04、摘要8.68，目标学习明显较弱，未证明相同收益下更优。SST通过独立LLaMA-Factory/DeepSpeed3适配复现，非官方trainer原样运行。
+- SST NoRefresh与R10均完成400步及全套冻结正式benchmark；六模型逐项分数见SST报告。NoRefresh：比FFT保留更多IFEval/GSM8K，但SW阅读29.89、知识27.04、摘要8.68，目标学习明显较弱，未证明相同收益下更优。SST通过独立LLaMA-Factory/DeepSpeed3适配复现，非官方trainer原样运行。
 - FFT SW→Hausa：HA阅读28.44→26.89、知识29.72→27.65，SW阅读36.67→28.56。第二阶段有旧SW退化，未显示新HA学习；HA收益必须相对SW阶段测量。
 - NoRefresh SW→Hausa400及全部固定正式任务已完成：HA阅读28.67→26.89、知识27.00→26.77；SW阅读29.89→31.11、知识27.04→28.69。IFEval60.26→56.01，GSM strict47.23→21.08、flexible69.14→67.25。仍缺新HA学习正对照，不能称已解决CL。
 - 配对功能pilot15条件/5130预测：主要SW/HA配对差异区间跨0，全部条件没有超过W1的HA ACC；不支持立即长训完整候选，也不统计否定所有配对方法。
@@ -24,9 +24,9 @@
 
 ## 当前执行状态
 
-formal-norefresh-bench-v1: COMPLETE; formal-r10-bench-v1: QUEUED; sequential-fft-formal-v1-main: COMPLETE; sequential-fft-formal-v1-source-ha-Base: COMPLETE; sequential-fft-formal-v1-source-ha-SW-FFT: COMPLETE; sequential-sst-norefresh-stage1-ha-v1: COMPLETE; sequential-sst-norefresh-formal-v1-old: COMPLETE; sequential-sst-norefresh-formal-v1-ha: COMPLETE
+formal-norefresh-bench-v1: COMPLETE; formal-r10-bench-v1: COMPLETE; sequential-fft-formal-v1-main: COMPLETE; sequential-fft-formal-v1-source-ha-Base: COMPLETE; sequential-fft-formal-v1-source-ha-SW-FFT: COMPLETE; sequential-sst-norefresh-stage1-ha-v1: COMPLETE; sequential-sst-norefresh-formal-v1-old: COMPLETE; sequential-sst-norefresh-formal-v1-ha: COMPLETE
 
-NoRefresh第二阶段从其SW Final新锚重算SVD，fresh Adam/scheduler；Hausa6400/400步及正式评价已经完成，曝光与FFT逐条核验一致。R10第二阶段NOT_RUN。R10 SW阶段未完成时，本交接不称整个研究已全部完成。最新逐任务表及状态见[快照](../results/research_my_method/sequential/summary.json)。
+NoRefresh第二阶段从其SW Final新锚重算SVD，fresh Adam/scheduler；Hausa6400/400步及正式评价已经完成，曝光与FFT逐条核验一致。R10第二阶段NOT_RUN。本轮预先排定的两组SST单阶段正式测评与FFT/NoRefresh两阶段固定任务均已完成；完整新方法未实现。最新逐任务表及状态见[快照](../results/research_my_method/sequential/summary.json)。
 
 ## 下一步应讨论什么
 

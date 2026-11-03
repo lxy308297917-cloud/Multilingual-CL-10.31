@@ -1,6 +1,6 @@
 {
-  "snapshot_at": "2026-11-03T10:14:39.139593+08:00",
-  "status": "PARTIAL_FIXED_TASKS",
+  "snapshot_at": "2026-11-03T12:00:00.206042+08:00",
+  "status": "COMPLETE",
   "rows": [
     {
       "method": "base",
@@ -1407,6 +1407,258 @@
       "status": "TASK_VERIFIED_COMPLETE"
     },
     {
+      "method": "sst_r10",
+      "task": "sft_v1_xifeval_sw",
+      "metric": "prompt_level_strict_acc,none",
+      "score_0_to_100": 18.414918414918414,
+      "denominator": 429,
+      "source": "/local/logs/qwen3-multilingual/sst-evaluation/formal-r10-bench-v1/core/accuracy-audit.json",
+      "status": "TASK_VERIFIED_COMPLETE"
+    },
+    {
+      "method": "sst_r10",
+      "task": "sft_v1_xifeval_sw",
+      "metric": "inst_level_strict_acc,none",
+      "score_0_to_100": 25.908372827804104,
+      "denominator": 633,
+      "source": "/local/logs/qwen3-multilingual/sst-evaluation/formal-r10-bench-v1/core/accuracy-audit.json",
+      "status": "TASK_VERIFIED_COMPLETE"
+    },
+    {
+      "method": "sst_r10",
+      "task": "sft_v1_xifeval_sw",
+      "metric": "prompt_level_loose_acc,none",
+      "score_0_to_100": 18.414918414918414,
+      "denominator": 429,
+      "source": "/local/logs/qwen3-multilingual/sst-evaluation/formal-r10-bench-v1/core/accuracy-audit.json",
+      "status": "TASK_VERIFIED_COMPLETE"
+    },
+    {
+      "method": "sst_r10",
+      "task": "sft_v1_xifeval_sw",
+      "metric": "inst_level_loose_acc,none",
+      "score_0_to_100": 26.38230647709321,
+      "denominator": 633,
+      "source": "/local/logs/qwen3-multilingual/sst-evaluation/formal-r10-bench-v1/core/accuracy-audit.json",
+      "status": "TASK_VERIFIED_COMPLETE"
+    },
+    {
+      "method": "sst_r10",
+      "task": "sft_v1_mgsm_native_cot_sw",
+      "metric": "exact_match,strict-match",
+      "score_0_to_100": 5.2,
+      "denominator": 250,
+      "source": "/local/logs/qwen3-multilingual/sst-evaluation/formal-r10-bench-v1/core/accuracy-audit.json",
+      "status": "TASK_VERIFIED_COMPLETE"
+    },
+    {
+      "method": "sst_r10",
+      "task": "sft_v1_mgsm_native_cot_sw",
+      "metric": "exact_match,flexible-extract",
+      "score_0_to_100": 10.0,
+      "denominator": 250,
+      "source": "/local/logs/qwen3-multilingual/sst-evaluation/formal-r10-bench-v1/core/accuracy-audit.json",
+      "status": "TASK_VERIFIED_COMPLETE"
+    },
+    {
+      "method": "sst_r10",
+      "task": "sft_v1_ifeval",
+      "metric": "prompt_level_strict_acc,none",
+      "score_0_to_100": 59.14972273567468,
+      "denominator": 541,
+      "source": "/local/logs/qwen3-multilingual/sst-evaluation/formal-r10-bench-v1/core/accuracy-audit.json",
+      "status": "TASK_VERIFIED_COMPLETE"
+    },
+    {
+      "method": "sst_r10",
+      "task": "sft_v1_ifeval",
+      "metric": "inst_level_strict_acc,none",
+      "score_0_to_100": 68.34532374100719,
+      "denominator": 834,
+      "source": "/local/logs/qwen3-multilingual/sst-evaluation/formal-r10-bench-v1/core/accuracy-audit.json",
+      "status": "TASK_VERIFIED_COMPLETE"
+    },
+    {
+      "method": "sst_r10",
+      "task": "sft_v1_ifeval",
+      "metric": "prompt_level_loose_acc,none",
+      "score_0_to_100": 61.182994454713494,
+      "denominator": 541,
+      "source": "/local/logs/qwen3-multilingual/sst-evaluation/formal-r10-bench-v1/core/accuracy-audit.json",
+      "status": "TASK_VERIFIED_COMPLETE"
+    },
+    {
+      "method": "sst_r10",
+      "task": "sft_v1_ifeval",
+      "metric": "inst_level_loose_acc,none",
+      "score_0_to_100": 70.38369304556355,
+      "denominator": 834,
+      "source": "/local/logs/qwen3-multilingual/sst-evaluation/formal-r10-bench-v1/core/accuracy-audit.json",
+      "status": "TASK_VERIFIED_COMPLETE"
+    },
+    {
+      "method": "sst_r10",
+      "task": "sft_v1_gsm8k",
+      "metric": "exact_match,strict-match",
+      "score_0_to_100": 47.081122062168305,
+      "denominator": 1319,
+      "source": "/local/logs/qwen3-multilingual/sst-evaluation/formal-r10-bench-v1/core/accuracy-audit.json",
+      "status": "TASK_VERIFIED_COMPLETE"
+    },
+    {
+      "method": "sst_r10",
+      "task": "sft_v1_gsm8k",
+      "metric": "exact_match,flexible-extract",
+      "score_0_to_100": 68.84003032600455,
+      "denominator": 1319,
+      "source": "/local/logs/qwen3-multilingual/sst-evaluation/formal-r10-bench-v1/core/accuracy-audit.json",
+      "status": "TASK_VERIFIED_COMPLETE"
+    },
+    {
+      "method": "sst_r10",
+      "task": "belebele_eng_Latn_locked",
+      "metric": "acc,none",
+      "score_0_to_100": 77.22222222222223,
+      "denominator": 900,
+      "source": "/local/logs/qwen3-multilingual/sst-evaluation/formal-r10-bench-v1/belebele/accuracy-audit.json",
+      "status": "TASK_VERIFIED_COMPLETE"
+    },
+    {
+      "method": "sst_r10",
+      "task": "belebele_swh_Latn_locked",
+      "metric": "acc,none",
+      "score_0_to_100": 30.444444444444446,
+      "denominator": 900,
+      "source": "/local/logs/qwen3-multilingual/sst-evaluation/formal-r10-bench-v1/belebele/accuracy-audit.json",
+      "status": "TASK_VERIFIED_COMPLETE"
+    },
+    {
+      "method": "sst_r10",
+      "task": "mmlu_locked",
+      "metric": "acc,none",
+      "score_0_to_100": 57.41347386412192,
+      "denominator": 14042,
+      "source": "/local/logs/qwen3-multilingual/sst-evaluation/formal-r10-bench-v1/mmlu/accuracy-audit.json",
+      "status": "TASK_VERIFIED_COMPLETE"
+    },
+    {
+      "method": "sst_r10",
+      "task": "global_mmlu_full_sw_locked",
+      "metric": "acc,none",
+      "score_0_to_100": 27.09015809713716,
+      "denominator": 14042,
+      "source": "/local/logs/qwen3-multilingual/sst-evaluation/formal-r10-bench-v1/gmmlu/accuracy-audit.json",
+      "status": "TASK_VERIFIED_COMPLETE"
+    },
+    {
+      "method": "sst_r10",
+      "task": "xlsum_sw_v2",
+      "metric": "ROUGE-1",
+      "score_0_to_100": 10.34670171372069,
+      "denominator": 987,
+      "source": "/local/logs/qwen3-multilingual/sst-evaluation/formal-r10-bench-v1/xlsum_sw_v2/scores/summary.json",
+      "status": "TASK_VERIFIED_COMPLETE"
+    },
+    {
+      "method": "sst_r10",
+      "task": "xlsum_sw_v2",
+      "metric": "ROUGE-2",
+      "score_0_to_100": 2.537979420422114,
+      "denominator": 987,
+      "source": "/local/logs/qwen3-multilingual/sst-evaluation/formal-r10-bench-v1/xlsum_sw_v2/scores/summary.json",
+      "status": "TASK_VERIFIED_COMPLETE"
+    },
+    {
+      "method": "sst_r10",
+      "task": "xlsum_sw_v2",
+      "metric": "ROUGE-Lsum",
+      "score_0_to_100": 8.690491992198684,
+      "denominator": 987,
+      "source": "/local/logs/qwen3-multilingual/sst-evaluation/formal-r10-bench-v1/xlsum_sw_v2/scores/summary.json",
+      "status": "TASK_VERIFIED_COMPLETE"
+    },
+    {
+      "method": "sst_r10",
+      "task": "xlsum_sw_v2",
+      "metric": "chrF++",
+      "score_0_to_100": 18.208302568503594,
+      "denominator": 987,
+      "source": "/local/logs/qwen3-multilingual/sst-evaluation/formal-r10-bench-v1/xlsum_sw_v2/scores/summary.json",
+      "status": "TASK_VERIFIED_COMPLETE"
+    },
+    {
+      "method": "sst_r10",
+      "task": "xlsum_en_v2",
+      "metric": "ROUGE-1",
+      "score_0_to_100": 14.637613554370592,
+      "denominator": 11535,
+      "source": "/local/logs/qwen3-multilingual/sst-evaluation/formal-r10-bench-v1/xlsum_en_v2/scores/summary.json",
+      "status": "TASK_VERIFIED_COMPLETE"
+    },
+    {
+      "method": "sst_r10",
+      "task": "xlsum_en_v2",
+      "metric": "ROUGE-2",
+      "score_0_to_100": 3.2481595650817177,
+      "denominator": 11535,
+      "source": "/local/logs/qwen3-multilingual/sst-evaluation/formal-r10-bench-v1/xlsum_en_v2/scores/summary.json",
+      "status": "TASK_VERIFIED_COMPLETE"
+    },
+    {
+      "method": "sst_r10",
+      "task": "xlsum_en_v2",
+      "metric": "ROUGE-Lsum",
+      "score_0_to_100": 12.404371655783226,
+      "denominator": 11535,
+      "source": "/local/logs/qwen3-multilingual/sst-evaluation/formal-r10-bench-v1/xlsum_en_v2/scores/summary.json",
+      "status": "TASK_VERIFIED_COMPLETE"
+    },
+    {
+      "method": "sst_r10",
+      "task": "xlsum_en_v2",
+      "metric": "chrF++",
+      "score_0_to_100": 20.878704577991712,
+      "denominator": 11535,
+      "source": "/local/logs/qwen3-multilingual/sst-evaluation/formal-r10-bench-v1/xlsum_en_v2/scores/summary.json",
+      "status": "TASK_VERIFIED_COMPLETE"
+    },
+    {
+      "method": "sst_r10",
+      "task": "flores200_en_sw_full_devtest_v2",
+      "metric": "chrF++",
+      "score_0_to_100": 5.94174991015695,
+      "denominator": 1012,
+      "source": "/local/logs/qwen3-multilingual/sst-evaluation/formal-r10-bench-v1/flores200_en_sw_full_devtest_v2/scores/summary.json",
+      "status": "TASK_VERIFIED_COMPLETE"
+    },
+    {
+      "method": "sst_r10",
+      "task": "flores200_en_sw_full_devtest_v2",
+      "metric": "BLEU",
+      "score_0_to_100": 0.20662043781624484,
+      "denominator": 1012,
+      "source": "/local/logs/qwen3-multilingual/sst-evaluation/formal-r10-bench-v1/flores200_en_sw_full_devtest_v2/scores/summary.json",
+      "status": "TASK_VERIFIED_COMPLETE"
+    },
+    {
+      "method": "sst_r10",
+      "task": "flores200_sw_en_full_devtest_v2",
+      "metric": "chrF++",
+      "score_0_to_100": 20.463730929405077,
+      "denominator": 1012,
+      "source": "/local/logs/qwen3-multilingual/sst-evaluation/formal-r10-bench-v1/flores200_sw_en_full_devtest_v2/scores/summary.json",
+      "status": "TASK_VERIFIED_COMPLETE"
+    },
+    {
+      "method": "sst_r10",
+      "task": "flores200_sw_en_full_devtest_v2",
+      "metric": "BLEU",
+      "score_0_to_100": 2.915002555402407,
+      "denominator": 1012,
+      "source": "/local/logs/qwen3-multilingual/sst-evaluation/formal-r10-bench-v1/flores200_sw_en_full_devtest_v2/scores/summary.json",
+      "status": "TASK_VERIFIED_COMPLETE"
+    },
+    {
       "method": "seq_fft_ha",
       "task": "belebele_eng_Latn_locked",
       "metric": "acc,none",
@@ -1787,7 +2039,7 @@
   ],
   "run_states": {
     "/local/project/results/sst/formal-norefresh-bench-v1": "COMPLETE",
-    "/local/project/results/sst/formal-r10-bench-v1": "QUEUED",
+    "/local/project/results/sst/formal-r10-bench-v1": "COMPLETE",
     "/local/project/results/research_my_method/sequential-fft-formal-v1-main": "COMPLETE",
     "/local/project/results/research_my_method/sequential-fft-formal-v1-source-ha-Base": "COMPLETE",
     "/local/project/results/research_my_method/sequential-fft-formal-v1-source-ha-SW-FFT": "COMPLETE",
@@ -1807,6 +2059,15 @@
     "/local/logs/qwen3-multilingual/sst-evaluation/formal-norefresh-bench-v1/xlsum_en_v2/scores/summary.json": "fd0d29083a3d43db04b262048c7c55a4ceba4d20e0abe907853a3d13dbb2e4d0",
     "/local/logs/qwen3-multilingual/sst-evaluation/formal-norefresh-bench-v1/flores200_en_sw_full_devtest_v2/scores/summary.json": "e7fa7980d7d0e366a995f9debcfab968d86887b6ef382fc267a59701cd5fc8fe",
     "/local/logs/qwen3-multilingual/sst-evaluation/formal-norefresh-bench-v1/flores200_sw_en_full_devtest_v2/scores/summary.json": "915fb84cce70cfbe0466008a3e4bed66774dd2c13414809be91b034db3c75af3",
+    "/local/project/results/sst/formal-r10-bench-v1/launch.json": "38518334ab159447e3adb216f9d8f9f3867cf9e28f30d6900a9eca7fca7b2267",
+    "/local/logs/qwen3-multilingual/sst-evaluation/formal-r10-bench-v1/core/accuracy-audit.json": "2ded4bb4be245e5c317c88c9c1f7bef8fbb4f2db3a4b944f94c1cb671c042a9d",
+    "/local/logs/qwen3-multilingual/sst-evaluation/formal-r10-bench-v1/belebele/accuracy-audit.json": "289d13c7190fd37cc96da6d13582e2fb2625ff37cb402e3afc0ec7199cc15e7b",
+    "/local/logs/qwen3-multilingual/sst-evaluation/formal-r10-bench-v1/mmlu/accuracy-audit.json": "f64282f0aa308b284ff4cc26d5c9394ce4f6fb90f26ee54ce24d16976991c28d",
+    "/local/logs/qwen3-multilingual/sst-evaluation/formal-r10-bench-v1/gmmlu/accuracy-audit.json": "8f900ca72401a1a3da177f2940ecda785d2449e11473849b1826eb54b6b4b413",
+    "/local/logs/qwen3-multilingual/sst-evaluation/formal-r10-bench-v1/xlsum_sw_v2/scores/summary.json": "0f75d84b53631c775bab3375735efd9b128bafebfe767d622fd27a5caf985689",
+    "/local/logs/qwen3-multilingual/sst-evaluation/formal-r10-bench-v1/xlsum_en_v2/scores/summary.json": "1971740547be6a618e964c70709109963ec7d11ea724b5909e4034b0f7ad1454",
+    "/local/logs/qwen3-multilingual/sst-evaluation/formal-r10-bench-v1/flores200_en_sw_full_devtest_v2/scores/summary.json": "43f920da9b62d3fe8c1fa03f389f86b75bbe3f269c12fb305475174f58cd50d6",
+    "/local/logs/qwen3-multilingual/sst-evaluation/formal-r10-bench-v1/flores200_sw_en_full_devtest_v2/scores/summary.json": "107d6d5ddc224e3ec5289acbd701cad47ca565f872978ad1e3ac2776e612ea7b",
     "/local/project/results/research_my_method/sequential-fft-formal-v1-main/launch.json": "192719e2828fc0b8b8162da694830f6e0a0141b3050a13ec4bb36cfd6c59f67f",
     "/local/logs/qwen3-multilingual/sequential-evaluation/fft-v1-main/stage2-belebele/accuracy-audit.json": "988aa37595b9569aa1385a98d6efca9fe570410d4ad932c57bf502230d2c81f8",
     "/local/logs/qwen3-multilingual/sequential-evaluation/fft-v1-main/SW-HA-FFT-ha-belebele/accuracy-audit.json": "11d266bed444c4a71ae0da5d86b8b4e1e7601dc1f6d9fdb7aa40f780d2cbe608",

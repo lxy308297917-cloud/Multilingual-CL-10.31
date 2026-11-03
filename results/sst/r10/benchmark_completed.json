@@ -1,0 +1,16 @@
+{
+  "actual_method": "sst_r10",
+  "tasks": [
+    "core",
+    "belebele",
+    "mmlu",
+    "gmmlu",
+    "xlsum_sw_v2",
+    "xlsum_en_v2",
+    "flores200_en_sw_full_devtest_v2",
+    "flores200_sw_en_full_devtest_v2"
+  ],
+  "exit_code": 0,
+  "wall_seconds": 6049.249576807022,
+  "formal_test_used_for_selection": false
+}

@@ -1,7 +1,7 @@
 {
-  "snapshot_at": "2026-11-03T10:18:59.956989+08:00",
+  "snapshot_at": "2026-11-03T12:04:36.407636+08:00",
   "scope": "Derived scores and matched-control predictions only; no raw prompts/data, weights, native states, mode banks, gradient banks or private task text",
-  "formal_snapshot_source_sha256": "a07eac90f5dfd2fe52401aef37863be2e688f28c7bbf4bea0739d3b87610c76d",
+  "formal_snapshot_source_sha256": "e17c520d5133230f50d6f80793244d6ad90d44b0f7c4c5077edf96c53829fbca",
   "files": {
     "results/sst/correctness/no_refresh_resume.json": {
       "source_sha256": "1cf98411b223c8561bed0972beda3ceae542baf4b6c3df9adb142b8b9b07423e",
@@ -93,6 +93,56 @@
       "public_sha256": "87a56a1c4135c218df0a1577fbe1b4822710a0e9693996da3f631ad312421b0e",
       "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
     },
+    "results/sst/r10/exposure_alignment.json": {
+      "source_sha256": "4d4718820877a6887e2220483ff02d23dd1dfb6611060c8569c17eb73fc3a728",
+      "public_sha256": "4d4718820877a6887e2220483ff02d23dd1dfb6611060c8569c17eb73fc3a728",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/sst/r10/master_export_geometry.json": {
+      "source_sha256": "9d8f719bee1891e0d65ecd6f707b842bec7d1bb5be351e5101e19772252b6e34",
+      "public_sha256": "61416823124cd2a2ba822e450f0701a96c9cac0b995e1c2175acd801d8c51955",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/sst/r10/training_cost.json": {
+      "source_sha256": "c24d9f7b11b659b4bdf06cf638269b18eca0c171814ba785d5f9ac40d1e4b1b0",
+      "public_sha256": "c24d9f7b11b659b4bdf06cf638269b18eca0c171814ba785d5f9ac40d1e4b1b0",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/sst/r10/per_step_cost_and_norms.json": {
+      "source_sha256": "1cdeeb71e4d06a77e4be647762f1f7dfe561b36f0fbd6215cdd83efa6c277367",
+      "public_sha256": "1cdeeb71e4d06a77e4be647762f1f7dfe561b36f0fbd6215cdd83efa6c277367",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/sst/r10/paired_vs_base.json": {
+      "source_sha256": "f6718dd9d67fef40bf18c3c85d3e2b684ceae257cff36b70fd0e3723c0599b45",
+      "public_sha256": "f889325d3e7acc327315f863e51cf2de5595990be0b5b032656f9f59c247f52a",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/sst/r10/paired_vs_base.md": {
+      "source_sha256": "7686bf150ad9f57e5dcca49ff65d9397468adf2a8315e39dcd1be988d16076b5",
+      "public_sha256": "7686bf150ad9f57e5dcca49ff65d9397468adf2a8315e39dcd1be988d16076b5",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/sst/r10/paired_vs_no_refresh.json": {
+      "source_sha256": "de04099c3ccdb7442dbc664c871046da278257cf54dd129381a9af119e920d9d",
+      "public_sha256": "eab22429810eaa07d3e71a951ea83aef44057685b606f6e33bd518350aa8443c",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/sst/r10/paired_vs_no_refresh.md": {
+      "source_sha256": "28fc896ecb657d4a772b1771ef62996eea24bc0409e58ed3bbed0fa7aade01fa",
+      "public_sha256": "28fc896ecb657d4a772b1771ef62996eea24bc0409e58ed3bbed0fa7aade01fa",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/sst/r10/sum_mt_paired.json": {
+      "source_sha256": "f158e56beb4f00b2031e8ca35286eb1463d82fdaa1b2a354c2099e487ede1b5b",
+      "public_sha256": "39857d2fbe85a3a8effd9061dcd06e1c8e2301c53ef8c9203fdc16ec881a1235",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/sst/r10/sum_mt_scope.json": {
+      "source_sha256": "d2a4031fa78c0c943099558f296954276eab407290895b0fc1cd2f6ef7f62abc",
+      "public_sha256": "d2a4031fa78c0c943099558f296954276eab407290895b0fc1cd2f6ef7f62abc",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
     "results/sst/r10/interim_step100_projector_geometry.json": {
       "source_sha256": "8c8d3bace6678e7bd364a2117e98ab60ce10417401a8be89472d9ae74ce38329",
       "public_sha256": "6cfe7f10fdaa3124a3a8e138d64cf991600382ff689f14258bf14e6afb30961e",
@@ -116,6 +166,11 @@
     "results/sst/r10/training_completed.json": {
       "source_sha256": "1dbf57f8f42de2fd9a46146670b6fb34702ed691560fc782dcdaf37fe56e9dab",
       "public_sha256": "53eb02db48e3c941c165bea3c80e5ecc6050690b3c16b907417045a13286a86a",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/sst/r10/benchmark_completed.json": {
+      "source_sha256": "5884d59ffd3c51ee1c2b86d6b87293bee6b2274e5a587c6f5a9d9f154d13dc3c",
+      "public_sha256": "5884d59ffd3c51ee1c2b86d6b87293bee6b2274e5a587c6f5a9d9f154d13dc3c",
       "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
     },
     "results/research_my_method/geometry/existing_final_summary.json": {
@@ -210,8 +265,8 @@
     },
     "results/research_my_method/geometry/sst_stage2_master_export.json": {
       "source_sha256": "940c4e695beff0e4384c61e4a3f90273009f663bd2b4f0d0977f0b4684f0a608",
-      "public_sha256": "8a85d38b01e49c98ae39fe6bc5f2b163357e50f9b4bd1cbbeea6bf418dd6ffca",
-      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+      "public_sha256": "7273f506a48234c80fa29b92c891a1775192e57ff0841cfdb8758821172d2073",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes; clarified supplied Stage1 W1 reference, no numeric change"
     },
     "results/research_my_method/sequential/fft_training_completed.json": {
       "source_sha256": "04f5d994850dd369207f5e81bf758015f2c6fa89b6846e06564a6a14fec91567",
@@ -314,13 +369,13 @@
       "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
     },
     "results/research_my_method/sequential/summary.json": {
-      "source_sha256": "a07eac90f5dfd2fe52401aef37863be2e688f28c7bbf4bea0739d3b87610c76d",
-      "public_sha256": "47614e2088ab4cd4e262917fe1da11a705f49e66ed8526db7830ac1ee4cf49b5",
+      "source_sha256": "e17c520d5133230f50d6f80793244d6ad90d44b0f7c4c5077edf96c53829fbca",
+      "public_sha256": "87b74ffcd300eb6b32236bdad1b353a215caeb7c89e1903b6c7738aa6d15cb81",
       "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
     },
     "results/research_my_method/sequential/tables.md": {
-      "source_sha256": "9edbb64d62215482ace1436989af98e7d41c30c00badbf31899adb9389ae649f",
-      "public_sha256": "9edbb64d62215482ace1436989af98e7d41c30c00badbf31899adb9389ae649f",
+      "source_sha256": "11d09740f7ece75c6078dd80e9206c1b35f202554cca0270880460b0dd4dde1a",
+      "public_sha256": "11d09740f7ece75c6078dd80e9206c1b35f202554cca0270880460b0dd4dde1a",
       "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
     },
     "results/research_my_method/geometry/figures/geometry_final_diagnostics.png": {
@@ -366,6 +421,21 @@
     "results/sst/no_refresh/figures/baseline_tradeoffs.pdf": {
       "source_sha256": "271ccec71f7b985c59a03d73dd8477fec3c9c001fc3d4ca2324239438c40b000",
       "public_sha256": "271ccec71f7b985c59a03d73dd8477fec3c9c001fc3d4ca2324239438c40b000",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/sst/figures/manifest.json": {
+      "source_sha256": "b0c45821e3e25d625a219ec7eb546ad7b8414daa6ce5f38d6f952dbef0790fe0",
+      "public_sha256": "b0c45821e3e25d625a219ec7eb546ad7b8414daa6ce5f38d6f952dbef0790fe0",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/sst/figures/baseline_tradeoffs.png": {
+      "source_sha256": "ea0e64f7c7d4cca850834378959916cef83081be83f88a3bb46ef35e827376de",
+      "public_sha256": "ea0e64f7c7d4cca850834378959916cef83081be83f88a3bb46ef35e827376de",
+      "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
+    },
+    "results/sst/figures/baseline_tradeoffs.pdf": {
+      "source_sha256": "04f8a416d8f19114a5115eae358c992cf800ae2c42be99941ec02c29bd2afe13",
+      "public_sha256": "04f8a416d8f19114a5115eae358c992cf800ae2c42be99941ec02c29bd2afe13",
       "projection": "Private paths/runtime identities excluded; no scientific numeric score changes"
     },
     "configs/sst/training_runtime.json": {

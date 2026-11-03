@@ -1,0 +1,360 @@
+{
+  "status": "VERIFIED_COMPLETE",
+  "global_step": 400,
+  "matrix_updates_verified": 78400,
+  "trainable_unique_parameters": 1720574976,
+  "target_coordinates": 1409286144,
+  "outside_target_parameters": 311288832,
+  "free_space_dimension": 7924644,
+  "free_space_coordinate_fraction": 0.005623161792755127,
+  "actual_wall_seconds": 26402.4314994812,
+  "wall_seconds_per_optimizer_step": 66.006078748703,
+  "native_train_results": {
+    "epoch": 1.0,
+    "total_flos": 2159801352192.0,
+    "train_loss": 3.181471202373505,
+    "train_runtime": 26341.6798,
+    "train_samples_per_second": 0.243,
+    "train_steps_per_second": 0.015
+  },
+  "resource_summaries": [
+    {
+      "step": 400,
+      "elapsed_seconds": 26284.144269777462,
+      "refresh_steps": [
+        10,
+        20,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        100,
+        110,
+        120,
+        130,
+        140,
+        150,
+        160,
+        170,
+        180,
+        190,
+        200,
+        210,
+        220,
+        230,
+        240,
+        250,
+        260,
+        270,
+        280,
+        290,
+        300,
+        310,
+        320,
+        330,
+        340,
+        350,
+        360,
+        370,
+        380,
+        390,
+        400
+      ],
+      "peak_allocated_bytes": 20750827008,
+      "peak_reserved_bytes": 24419237888
+    }
+  ],
+  "svd_events": [
+    {
+      "step": 0,
+      "cache_hit": true,
+      "exact_master_hashes_verified": 196,
+      "cache_sha256": "e76cf19c892984c8d9e5a648776a79e096a1db32a088b459162cc79d288a1918"
+    },
+    {
+      "step": 10,
+      "seconds": 391.2683464027941,
+      "matrices": 196,
+      "svd_driver": "gesvd"
+    },
+    {
+      "step": 20,
+      "seconds": 392.05423312447965,
+      "matrices": 196,
+      "svd_driver": "gesvd"
+    },
+    {
+      "step": 30,
+      "seconds": 391.78780135698617,
+      "matrices": 196,
+      "svd_driver": "gesvd"
+    },
+    {
+      "step": 40,
+      "seconds": 393.24003526195884,
+      "matrices": 196,
+      "svd_driver": "gesvd"
+    },
+    {
+      "step": 50,
+      "seconds": 390.3551175482571,
+      "matrices": 196,
+      "svd_driver": "gesvd"
+    },
+    {
+      "step": 60,
+      "seconds": 391.0066728293896,
+      "matrices": 196,
+      "svd_driver": "gesvd"
+    },
+    {
+      "step": 70,
+      "seconds": 390.80326398462057,
+      "matrices": 196,
+      "svd_driver": "gesvd"
+    },
+    {
+      "step": 80,
+      "seconds": 391.080250043422,
+      "matrices": 196,
+      "svd_driver": "gesvd"
+    },
+    {
+      "step": 90,
+      "seconds": 391.1325696166605,
+      "matrices": 196,
+      "svd_driver": "gesvd"
+    },
+    {
+      "step": 100,
+      "seconds": 391.09550674818456,
+      "matrices": 196,
+      "svd_driver": "gesvd"
+    },
+    {
+      "step": 110,
+      "seconds": 391.2111577540636,
+      "matrices": 196,
+      "svd_driver": "gesvd"
+    },
+    {
+      "step": 120,
+      "seconds": 392.96344879455864,
+      "matrices": 196,
+      "svd_driver": "gesvd"
+    },
+    {
+      "step": 130,
+      "seconds": 391.7808495424688,
+      "matrices": 196,
+      "svd_driver": "gesvd"
+    },
+    {
+      "step": 140,
+      "seconds": 391.4044780321419,
+      "matrices": 196,
+      "svd_driver": "gesvd"
+    },
+    {
+      "step": 150,
+      "seconds": 392.1602234765887,
+      "matrices": 196,
+      "svd_driver": "gesvd"
+    },
+    {
+      "step": 160,
+      "seconds": 391.85046386905015,
+      "matrices": 196,
+      "svd_driver": "gesvd"
+    },
+    {
+      "step": 170,
+      "seconds": 392.3067807368934,
+      "matrices": 196,
+      "svd_driver": "gesvd"
+    },
+    {
+      "step": 180,
+      "seconds": 392.37999591976404,
+      "matrices": 196,
+      "svd_driver": "gesvd"
+    },
+    {
+      "step": 190,
+      "seconds": 391.8368082474917,
+      "matrices": 196,
+      "svd_driver": "gesvd"
+    },
+    {
+      "step": 200,
+      "seconds": 391.7325077317655,
+      "matrices": 196,
+      "svd_driver": "gesvd"
+    },
+    {
+      "step": 210,
+      "seconds": 391.97296952456236,
+      "matrices": 196,
+      "svd_driver": "gesvd"
+    },
+    {
+      "step": 220,
+      "seconds": 391.80060288123786,
+      "matrices": 196,
+      "svd_driver": "gesvd"
+    },
+    {
+      "step": 230,
+      "seconds": 391.9605579227209,
+      "matrices": 196,
+      "svd_driver": "gesvd"
+    },
+    {
+      "step": 240,
+      "seconds": 392.1032384596765,
+      "matrices": 196,
+      "svd_driver": "gesvd"
+    },
+    {
+      "step": 250,
+      "seconds": 390.572630463168,
+      "matrices": 196,
+      "svd_driver": "gesvd"
+    },
+    {
+      "step": 260,
+      "seconds": 390.50037271156907,
+      "matrices": 196,
+      "svd_driver": "gesvd"
+    },
+    {
+      "step": 270,
+      "seconds": 390.55384484119713,
+      "matrices": 196,
+      "svd_driver": "gesvd"
+    },
+    {
+      "step": 280,
+      "seconds": 390.8250465542078,
+      "matrices": 196,
+      "svd_driver": "gesvd"
+    },
+    {
+      "step": 290,
+      "seconds": 390.5296593140811,
+      "matrices": 196,
+      "svd_driver": "gesvd"
+    },
+    {
+      "step": 300,
+      "seconds": 391.1785423513502,
+      "matrices": 196,
+      "svd_driver": "gesvd"
+    },
+    {
+      "step": 310,
+      "seconds": 390.6887639258057,
+      "matrices": 196,
+      "svd_driver": "gesvd"
+    },
+    {
+      "step": 320,
+      "seconds": 390.67877379618585,
+      "matrices": 196,
+      "svd_driver": "gesvd"
+    },
+    {
+      "step": 330,
+      "seconds": 390.5517328623682,
+      "matrices": 196,
+      "svd_driver": "gesvd"
+    },
+    {
+      "step": 340,
+      "seconds": 390.09748608991504,
+      "matrices": 196,
+      "svd_driver": "gesvd"
+    },
+    {
+      "step": 350,
+      "seconds": 390.18966701999307,
+      "matrices": 196,
+      "svd_driver": "gesvd"
+    },
+    {
+      "step": 360,
+      "seconds": 390.2702772282064,
+      "matrices": 196,
+      "svd_driver": "gesvd"
+    },
+    {
+      "step": 370,
+      "seconds": 390.2009357083589,
+      "matrices": 196,
+      "svd_driver": "gesvd"
+    },
+    {
+      "step": 380,
+      "seconds": 390.2680804915726,
+      "matrices": 196,
+      "svd_driver": "gesvd"
+    },
+    {
+      "step": 390,
+      "seconds": 390.15876157209277,
+      "matrices": 196,
+      "svd_driver": "gesvd"
+    },
+    {
+      "step": 400,
+      "seconds": 390.26683664135635,
+      "matrices": 196,
+      "svd_driver": "gesvd"
+    }
+  ],
+  "optimizer_and_projection_seconds": {
+    "min": 12.832895355299115,
+    "median": 14.152643452398479,
+    "mean": 14.485975016970187,
+    "max": 20.33822263777256
+  },
+  "total_seconds_including_refresh": {
+    "min": 12.832960480824113,
+    "median": 14.308094317093492,
+    "mean": 53.60966409399174,
+    "max": 408.3108538016677
+  },
+  "target_applied_over_raw_norm": {
+    "min": 0.07076605660715245,
+    "median": 0.07768427632851965,
+    "mean": 0.1070714881957782,
+    "max": 9.746221420038458
+  },
+  "zero_raw_proposal_steps": [
+    1
+  ],
+  "target_changed_elements_per_step": {
+    "min": 0,
+    "median": 1371946496.0,
+    "mean": 1254744520.085,
+    "max": 1398465572
+  },
+  "interpretation": [
+    "Norms cover only196 constrained matrices, not whole-model Adam proposal.",
+    "Clipping/scheduler/Adam executed upstream before cumulative SST projection.",
+    "First zero-LR step has raw norm0; at tiny final LR cumulative projection/roundoff can exceed the very small raw proposal.",
+    "Logged callback timing excludes forward/backward and some save/startup time.",
+    "Reused initial SVD cache is disclosed separately; no fabricated initial cost in this run."
+  ],
+  "sources_sha256": {
+    "step-cost.jsonl": "378e6f2fb0e0535417aae249e2c1b3a8c98c94c2b03afaabd73e6c6fd81d18f8",
+    "matrix-updates.jsonl": "37cfca3b33a2b7b1e339588eef1cbf4f86be0ca6ee2e3cf51659ad91fbd2a766",
+    "svd-cost.jsonl": "671fc95cd7114a3d175f494ca27157318ee845c6ee0e9b44eb26e1c87957f8c0",
+    "subspace-inventory.json": "78a9fd98cbc2335115f8ee0f7cc5784eda675b9217f7126592936219d4299a34",
+    "train_results.json": "0e310c8411a39a92d832f27e74259157f41de65283c0f00c8cd28589f368c6fd",
+    "training-resource-summary.jsonl": "203bc5a74c1961738790c86daff1f1cb169f62f273e3c832da8586fc2ed10cc3"
+  }
+}
