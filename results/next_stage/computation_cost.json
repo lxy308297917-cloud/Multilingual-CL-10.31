@@ -1,0 +1,96 @@
+{
+  "main_two_gpu_launcher_wall_seconds": 4731.870554685593,
+  "main_allocated_gpu_hours_upper_proxy": 2.6288169748253294,
+  "formal_receipts": {
+    "old-core": {
+      "seconds": 1024.5879929065704
+    },
+    "old-sw": {
+      "seconds": 1989.6033227443695
+    },
+    "old-en": {
+      "seconds": 1227.2145476341248
+    },
+    "ha": {
+      "seconds": 2023.37357878685
+    }
+  },
+  "development_worker_wall_seconds_including_preflight": {
+    "fft": 866.4373505115509,
+    "sst": 846.775151014328,
+    "ha_only": 444.5876693725586
+  },
+  "development_nodes": [
+    {
+      "node": "base/step000",
+      "single_gpu_wall_seconds_including_loading": 99.83884787559509
+    },
+    {
+      "node": "fft/step100",
+      "single_gpu_wall_seconds_including_loading": 172.72423839569092
+    },
+    {
+      "node": "fft/step400",
+      "single_gpu_wall_seconds_including_loading": 98.03903794288635
+    },
+    {
+      "node": "fft/step200",
+      "single_gpu_wall_seconds_including_loading": 180.82139348983765
+    },
+    {
+      "node": "fft/step300",
+      "single_gpu_wall_seconds_including_loading": 166.6898090839386
+    },
+    {
+      "node": "fft/step000",
+      "single_gpu_wall_seconds_including_loading": 106.34864592552185
+    },
+    {
+      "node": "ha_only/step100",
+      "single_gpu_wall_seconds_including_loading": 123.16044616699219
+    },
+    {
+      "node": "ha_only/step400",
+      "single_gpu_wall_seconds_including_loading": 97.25319027900696
+    },
+    {
+      "node": "ha_only/step200",
+      "single_gpu_wall_seconds_including_loading": 98.5326578617096
+    },
+    {
+      "node": "ha_only/step300",
+      "single_gpu_wall_seconds_including_loading": 97.92923331260681
+    },
+    {
+      "node": "sst/step100",
+      "single_gpu_wall_seconds_including_loading": 173.28904104232788
+    },
+    {
+      "node": "sst/step400",
+      "single_gpu_wall_seconds_including_loading": 99.13018417358398
+    },
+    {
+      "node": "sst/step200",
+      "single_gpu_wall_seconds_including_loading": 181.25420665740967
+    },
+    {
+      "node": "sst/step300",
+      "single_gpu_wall_seconds_including_loading": 151.57742166519165
+    },
+    {
+      "node": "sst/step000",
+      "single_gpu_wall_seconds_including_loading": 98.28089809417725
+    }
+  ],
+  "resume_engineering": {
+    "v2_two_gpu_wall_seconds_including_preflight": 260.22598791122437,
+    "optimizer_updates_across_all_probe_jobs": 8,
+    "global_processed_samples": 128,
+    "v1_failed_before_updates": true,
+    "v1_failed_two_gpu_wall_seconds_including_preflight": 95.43516278266907,
+    "all_probe_gpu_hours_wall_proxy": 0.19758952816327413
+  },
+  "limits": "Allocated-wall proxies include loading/preflight/saving and are not CUDA kernel time. No additional scientific seed or hyperparameter search.",
+  "formal_sum_single_gpu_worker_wall_hours_including_preflight": 1.740216511686643,
+  "development_sum_node_wall_hours_including_loading": 0.5402414588795768
+}

@@ -1,0 +1,79 @@
+{
+  "status": "PASS_FOR_REPORTED_GATES",
+  "local_and_curated_core_CPU_tests": 5,
+  "local_test_sources_manifest_sha256": "2c230a1434cdf97a17c2a17b6ead9cdb8be7af679dc60f56e21b6620a873d61e",
+  "core_tests": "Full-causal tinyQwen oracle including common-prefix/fallback,shifted assistant mask/token-weighting,probability/margin,gain-vs-finalgap algebra,cluster denominator",
+  "base_calibration": {
+    "status": "PASS",
+    "knowledge_predictions": 342,
+    "all_gold_and_predictions_exact": true,
+    "max_pairwise_logit_difference_error": 1.9073486328125e-06,
+    "tolerance_predeclared": 0.0001,
+    "reading_not_claimed_bitwise_equivalent_to_formal_BF16": true
+  },
+  "actual_reading_arguments": {
+    "status": "PASS",
+    "reading_cases": 540,
+    "context_and_continuation_pairs_exact": 2160,
+    "gold_answers_exact": true,
+    "reference": "Actual historically saved official HF Harness arguments,Base EN/SW/HA",
+    "inference_not_repeated": true,
+    "local_inputs_manifest_sha256": "6c948553237386f30fc9bfa13fd859df0a7054cfac218836ec0bc2882f64ef73",
+    "code_sha256": "66d4a0e1d8e1de1f3984ef3a7677643d75a34c41e69bdc8345a298ff68af1726",
+    "precision_equivalence_claimed": false
+  },
+  "HA_exposure": {
+    "0": {
+      "rows": 3200,
+      "all_fields_exact": true,
+      "source_sha256": "5e24875a861901fbf66e2b3962ebad601ca6383afabf7c408bb4d95af37f99d2",
+      "candidate_sha256": "5e24875a861901fbf66e2b3962ebad601ca6383afabf7c408bb4d95af37f99d2"
+    },
+    "1": {
+      "rows": 3200,
+      "all_fields_exact": true,
+      "source_sha256": "b6004f24d6f291167338388276e4678f499c5961d17a5dfec192fc2de850a66d",
+      "candidate_sha256": "b6004f24d6f291167338388276e4678f499c5961d17a5dfec192fc2de850a66d"
+    }
+  },
+  "resume_exact": {
+    "status": "PASS",
+    "engineering_only": true,
+    "continuous_updates": 4,
+    "split_updates": [
+      2,
+      2
+    ],
+    "native_schedule_steps": 400,
+    "same_gpu_pair_seed42_full_determinism": true,
+    "all_compared_values_bitwise_equal": true,
+    "tensor_counts": {
+      "rng": 6,
+      "FP32masters": 4,
+      "AdamWstate": 12,
+      "BF16exports": 310
+    },
+    "tensor_elements": {
+      "rng": 10176,
+      "FP32masters": 1720574976,
+      "AdamWstate": 3441149956,
+      "BF16exports": 1720574976
+    },
+    "failures": [],
+    "source_sha256": "a8219e4190b759cc06f31139673acbf0ae94c0701db632ae7356e5f3b535b939",
+    "seconds": 10.79563856124878,
+    "scope_limit": "This checks a 4-step engineering continuation, not exact equivalence for arbitrary restart steps. Main400 ran fresh without resume. v1 failed before updates due incorrect CPUAdam assertion; v2 checked actual torch AdamW and restores scheduler binding."
+  },
+  "all6_scientific_commands_unchanged_except_output": true,
+  "all4_formal_shards_complete": true,
+  "all15_development_model_nodes_complete": true,
+  "formal_choice_argmax_recomputed": true,
+  "all4_control_docs_and_prompts_exact": true,
+  "syntax_files": 21,
+  "scientific_main_training_retried": false,
+  "failures_preserved": [
+    "Engineeringv1 incorrect CPUAdam assertion,before first update",
+    "CPU verifier wrongcounts field,then looked for scheduler inDSstate instead of existing scheduler.pt;fixed readers,noGPUrerun,no tolerance change"
+  ],
+  "publication": "Aggregate-only; local-original and public-path-projection hashes recorded separately"
+}

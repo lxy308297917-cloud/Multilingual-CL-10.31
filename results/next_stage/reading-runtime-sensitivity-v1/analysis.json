@@ -1,0 +1,63 @@
+{
+  "status": "EXISTING_PREDICTIONS_ONLY",
+  "rows": [
+    {
+      "model": "Base",
+      "n": 180,
+      "fp32_eager_batch1_ACC": 29.444444444444446,
+      "formal_bf16_HF_batch4_ACC_same180": 29.444444444444446,
+      "predicted_label_agreement": 0.9833333333333333,
+      "formal_top_score_tie_count": 2,
+      "only_FP32_correct": 1,
+      "only_formal_correct": 1,
+      "both_correct": 52,
+      "both_wrong": 126
+    },
+    {
+      "model": "SW-FFT",
+      "n": 180,
+      "fp32_eager_batch1_ACC": 32.77777777777778,
+      "formal_bf16_HF_batch4_ACC_same180": 31.666666666666664,
+      "predicted_label_agreement": 0.9833333333333333,
+      "formal_top_score_tie_count": 11,
+      "only_FP32_correct": 2,
+      "only_formal_correct": 0,
+      "both_correct": 57,
+      "both_wrong": 121
+    },
+    {
+      "model": "SW-HA-FFT",
+      "n": 180,
+      "fp32_eager_batch1_ACC": 29.444444444444446,
+      "formal_bf16_HF_batch4_ACC_same180": 29.444444444444446,
+      "predicted_label_agreement": 0.9666666666666667,
+      "formal_top_score_tie_count": 12,
+      "only_FP32_correct": 1,
+      "only_formal_correct": 1,
+      "both_correct": 52,
+      "both_wrong": 126
+    },
+    {
+      "model": "HA-only-FFT",
+      "n": 180,
+      "fp32_eager_batch1_ACC": 28.888888888888886,
+      "formal_bf16_HF_batch4_ACC_same180": 28.888888888888886,
+      "predicted_label_agreement": 0.9944444444444445,
+      "formal_top_score_tie_count": 4,
+      "only_FP32_correct": 0,
+      "only_formal_correct": 0,
+      "both_correct": 52,
+      "both_wrong": 128
+    }
+  ],
+  "inputs_identity_gate": "READING_ACTUAL_ARGUMENTS_IDENTITY.json plus four-model actualdoc/prompt alignment",
+  "local_inputs_manifest_sha256": "42075a6781377cf56aa9a6ef6287d301bbbd8f6948be939891e4b806f5433f72",
+  "code_sha256": "75f4d5b0d8a0b7155e3ff0e8194534b79939e37039f7c4892a78c43793d96658",
+  "formal_scores_replaced": false,
+  "limits": [
+    "Same180 exposed HA cases and same model BF16 export.",
+    "Runtime,attention implementation,batch and score arithmetic differ jointly; this does not isolate a causal BF16 effect.",
+    "Knowledge dev114/0shot is not compared with test14042/5shot.",
+    "No new GPU inference,no test-based recipe or checkpoint change."
+  ]
+}

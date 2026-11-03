@@ -1,0 +1,268 @@
+{
+  "status": "ALL_FROZEN_FORMAL_CHOICES_RECOMPUTED",
+  "rows": [
+    {
+      "model": "Base",
+      "task": "ha-belebele",
+      "n": 900,
+      "fewshot": 0,
+      "predicted_counts": {
+        "B": 222,
+        "A": 675,
+        "D": 3
+      },
+      "gold_counts": {
+        "A": 206,
+        "B": 251,
+        "C": 246,
+        "D": 197
+      },
+      "accuracy_by_gold": {
+        "A": 0.7184466019417476,
+        "B": 0.26294820717131473,
+        "C": 0.0,
+        "D": 0.005076142131979695
+      },
+      "ACC": 0.2388888888888889,
+      "exact_top_score_ties": 15,
+      "correct_on_top_score_ties": 4,
+      "mean_correct_sequence_log_probability": -6.41236083984375,
+      "mean_correct_four_option_log_probability": -4.282249484376117,
+      "mean_gold_minus_best_wrong_margin": -3.429780977037218,
+      "mean_four_option_entropy": 0.36591677603480666,
+      "answer_extraction": "likelihood argmax of fixed four continuations; no generated-answer regex"
+    },
+    {
+      "model": "Base",
+      "task": "ha-gmmlu",
+      "n": 14042,
+      "fewshot": 5,
+      "predicted_counts": {
+        "A": 9737,
+        "D": 2770,
+        "B": 623,
+        "C": 912
+      },
+      "gold_counts": {
+        "B": 3462,
+        "D": 3776,
+        "A": 3222,
+        "C": 3582
+      },
+      "accuracy_by_gold": {
+        "A": 0.7144630664183736,
+        "B": 0.06874638937030618,
+        "C": 0.09212730318257957,
+        "D": 0.21610169491525424
+      },
+      "ACC": 0.2624982196268338,
+      "exact_top_score_ties": 196,
+      "correct_on_top_score_ties": 40,
+      "mean_correct_sequence_log_probability": -5.314144500817113,
+      "mean_correct_four_option_log_probability": -4.295882369575402,
+      "mean_gold_minus_best_wrong_margin": -2.878317407666236,
+      "mean_four_option_entropy": 0.35291996781228246,
+      "answer_extraction": "likelihood argmax of fixed four continuations; no generated-answer regex"
+    },
+    {
+      "model": "SW-FFT",
+      "task": "ha-belebele",
+      "n": 900,
+      "fewshot": 0,
+      "predicted_counts": {
+        "A": 333,
+        "B": 345,
+        "D": 117,
+        "C": 105
+      },
+      "gold_counts": {
+        "A": 206,
+        "B": 251,
+        "C": 246,
+        "D": 197
+      },
+      "accuracy_by_gold": {
+        "A": 0.33980582524271846,
+        "B": 0.44621513944223107,
+        "C": 0.16260162601626016,
+        "D": 0.17258883248730963
+      },
+      "ACC": 0.28444444444444444,
+      "exact_top_score_ties": 60,
+      "correct_on_top_score_ties": 10,
+      "mean_correct_sequence_log_probability": -7.672291666666666,
+      "mean_correct_four_option_log_probability": -1.4980188189675876,
+      "mean_gold_minus_best_wrong_margin": -0.5171180555555556,
+      "mean_four_option_entropy": 1.1988977461049934,
+      "answer_extraction": "likelihood argmax of fixed four continuations; no generated-answer regex"
+    },
+    {
+      "model": "SW-FFT",
+      "task": "ha-gmmlu",
+      "n": 14042,
+      "fewshot": 5,
+      "predicted_counts": {
+        "B": 4068,
+        "C": 3212,
+        "A": 4973,
+        "D": 1789
+      },
+      "gold_counts": {
+        "C": 3582,
+        "A": 3222,
+        "B": 3462,
+        "D": 3776
+      },
+      "accuracy_by_gold": {
+        "A": 0.43171942892613285,
+        "B": 0.3466204506065858,
+        "C": 0.26605248464544945,
+        "D": 0.16657838983050846
+      },
+      "ACC": 0.2971798889047144,
+      "exact_top_score_ties": 1644,
+      "correct_on_top_score_ties": 399,
+      "mean_correct_sequence_log_probability": -9.349883385557613,
+      "mean_correct_four_option_log_probability": -1.4445843074358953,
+      "mean_gold_minus_best_wrong_margin": -0.3648563238854864,
+      "mean_four_option_entropy": 1.2403006459727952,
+      "answer_extraction": "likelihood argmax of fixed four continuations; no generated-answer regex"
+    },
+    {
+      "model": "SW-HA-FFT",
+      "task": "ha-belebele",
+      "n": 900,
+      "fewshot": 0,
+      "predicted_counts": {
+        "D": 98,
+        "A": 667,
+        "B": 92,
+        "C": 43
+      },
+      "gold_counts": {
+        "A": 206,
+        "B": 251,
+        "C": 246,
+        "D": 197
+      },
+      "accuracy_by_gold": {
+        "A": 0.7815533980582524,
+        "B": 0.12749003984063745,
+        "C": 0.06097560975609756,
+        "D": 0.17258883248730963
+      },
+      "ACC": 0.2688888888888889,
+      "exact_top_score_ties": 44,
+      "correct_on_top_score_ties": 15,
+      "mean_correct_sequence_log_probability": -5.692291666666667,
+      "mean_correct_four_option_log_probability": -1.7420518934761964,
+      "mean_gold_minus_best_wrong_margin": -0.8876041666666666,
+      "mean_four_option_entropy": 1.0137326315320367,
+      "answer_extraction": "likelihood argmax of fixed four continuations; no generated-answer regex"
+    },
+    {
+      "model": "SW-HA-FFT",
+      "task": "ha-gmmlu",
+      "n": 14042,
+      "fewshot": 5,
+      "predicted_counts": {
+        "A": 10229,
+        "D": 1363,
+        "C": 1084,
+        "B": 1366
+      },
+      "gold_counts": {
+        "C": 3582,
+        "A": 3222,
+        "B": 3462,
+        "D": 3776
+      },
+      "accuracy_by_gold": {
+        "A": 0.7836747361887026,
+        "B": 0.1340265742345465,
+        "C": 0.1108319374651033,
+        "D": 0.1316207627118644
+      },
+      "ACC": 0.276527560176613,
+      "exact_top_score_ties": 773,
+      "correct_on_top_score_ties": 165,
+      "mean_correct_sequence_log_probability": -6.82581941674975,
+      "mean_correct_four_option_log_probability": -1.5452722398572156,
+      "mean_gold_minus_best_wrong_margin": -0.5906432488249537,
+      "mean_four_option_entropy": 1.150030064199839,
+      "answer_extraction": "likelihood argmax of fixed four continuations; no generated-answer regex"
+    },
+    {
+      "model": "HA-only-FFT",
+      "task": "ha-belebele",
+      "n": 900,
+      "fewshot": 0,
+      "predicted_counts": {
+        "A": 845,
+        "C": 9,
+        "D": 27,
+        "B": 19
+      },
+      "gold_counts": {
+        "A": 206,
+        "B": 251,
+        "C": 246,
+        "D": 197
+      },
+      "accuracy_by_gold": {
+        "A": 0.9611650485436893,
+        "B": 0.035856573705179286,
+        "C": 0.012195121951219513,
+        "D": 0.050761421319796954
+      },
+      "ACC": 0.24444444444444444,
+      "exact_top_score_ties": 15,
+      "correct_on_top_score_ties": 3,
+      "mean_correct_sequence_log_probability": -4.735850694444444,
+      "mean_correct_four_option_log_probability": -1.878413461145348,
+      "mean_gold_minus_best_wrong_margin": -1.0911805555555556,
+      "mean_four_option_entropy": 0.908775186675039,
+      "answer_extraction": "likelihood argmax of fixed four continuations; no generated-answer regex"
+    },
+    {
+      "model": "HA-only-FFT",
+      "task": "ha-gmmlu",
+      "n": 14042,
+      "fewshot": 5,
+      "predicted_counts": {
+        "B": 881,
+        "A": 10649,
+        "C": 1050,
+        "D": 1462
+      },
+      "gold_counts": {
+        "B": 3462,
+        "A": 3222,
+        "D": 3776,
+        "C": 3582
+      },
+      "accuracy_by_gold": {
+        "A": 0.8094351334574799,
+        "B": 0.09185441941074524,
+        "C": 0.10720268006700168,
+        "D": 0.14698093220338984
+      },
+      "ACC": 0.2752456914969378,
+      "exact_top_score_ties": 633,
+      "correct_on_top_score_ties": 132,
+      "mean_correct_sequence_log_probability": -3.3721975813630536,
+      "mean_correct_four_option_log_probability": -1.59097929554597,
+      "mean_gold_minus_best_wrong_margin": -0.6549837095855291,
+      "mean_four_option_entropy": 1.1086802640560587,
+      "answer_extraction": "likelihood argmax of fixed four continuations; no generated-answer regex"
+    }
+  ],
+  "local_inputs_manifest_sha256": "f93f611d3b57458f8cd4294e2ff96e1ca1e1fc39de2416f2e36f9566fa053aaa",
+  "source_sha256": "91ba4fd03a9da784bfcd619801d9401ef7a8a104e3e8e15a63d9a859897e8be5",
+  "formal_primary_scores_unchanged": true,
+  "limits": [
+    "Posthoc diagnostics, not checkpoint selection or an alternative headline metric.",
+    "Letter concentration is observable but does not alone identify semantic knowledge loss or its causal source.",
+    "Formal BF16/fewshot contrasts are separate from FP32/0shot development."
+  ]
+}

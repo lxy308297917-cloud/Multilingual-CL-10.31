@@ -1,3 +1,9 @@
+## 2026-11-03 Hausa学习瓶颈诊断
+
+[本轮结论与四项报告](research/next_stage/README.md) · [正式对照表](results/next_stage/paper_table.md) · [下一步研究决策](research/next_stage/next_method_decision.md)
+
+下文是先前阶段的原始快照；本轮状态以上述入口为准。
+
 # Multilingual-CL: SW adaptation and sequential learning
 
 2026-11-03研究更新：SST NoRefresh/R10全套正式结果、SW→Hausa FFT、有限功能干预及文献排重已完成；尚无经验证的新方法。R10与NoRefresh第二阶段的实际状态以结果快照为准。

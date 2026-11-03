@@ -1,0 +1,37 @@
+{
+  "completed": {
+    "exit_code": 0,
+    "global_step": 400,
+    "actual_counts": {
+      "samples": 6400,
+      "input_tokens": 2596327,
+      "shifted_assistant_tokens": 920471,
+      "padded_positions": 2618496
+    },
+    "source_weights_unchanged": true,
+    "seconds": 4731.870554685593
+  },
+  "exact_ha_exposure_alignment": {
+    "0": {
+      "rows": 3200,
+      "all_fields_exact": true,
+      "source_sha256": "5e24875a861901fbf66e2b3962ebad601ca6383afabf7c408bb4d95af37f99d2",
+      "candidate_sha256": "5e24875a861901fbf66e2b3962ebad601ca6383afabf7c408bb4d95af37f99d2"
+    },
+    "1": {
+      "rows": 3200,
+      "all_fields_exact": true,
+      "source_sha256": "b6004f24d6f291167338388276e4678f499c5961d17a5dfec192fc2de850a66d",
+      "candidate_sha256": "b6004f24d6f291167338388276e4678f499c5961d17a5dfec192fc2de850a66d"
+    }
+  },
+  "launch_config_sha256": "00ffd8f1773c46f5b589f0ed188ae050838cf09fd0958f10a0a9ef40191daebf",
+  "launch_entry_sha256": "48a466bdf75f0a88c10d19502a9b9c364e7ceae65f265f1b3400b1fcdc6a9534",
+  "official_base_revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "scientific_config_differences_from_sequential_HA_FFT": [
+    "model_name_or_path",
+    "output_dir",
+    "logging_dir"
+  ],
+  "resume_used_by_main400": false
+}

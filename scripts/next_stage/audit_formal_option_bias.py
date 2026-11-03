@@ -1,0 +1,16 @@
+"""Read-only answer-selection diagnostics, all four fixed HA control models."""
+from pathlib import Path
+import argparse,json,hashlib,collections
+import numpy as np
+p=argparse.ArgumentParser();p.add_argument('--project',type=Path,required=True);p.add_argument('--output',type=Path,required=True);a=p.parse_args();assert not a.output.exists();a.output.mkdir(parents=True);r=a.project;records={'Base':r/'results/research_my_method/sequential-fft-formal-v1-source-ha-Base','SW-FFT':r/'results/research_my_method/sequential-fft-formal-v1-source-ha-SW-FFT','SW-HA-FFT':r/'results/research_my_method/sequential-fft-formal-v1-main','HA-only-FFT':r/'results/next_stage/ha-only-formal-v1-ha'};rows=[];sources={}
+for model,folder in records.items():
+ assert (folder/'DONE.json').exists() and not (folder/'FAILED.json').exists();d=json.loads((folder/'launch.json').read_text())
+ for e in d['entries']:
+  if e['task'] not in ['ha-belebele','ha-gmmlu']:continue
+  parent=Path(e['command'][e['command'].index('--output_path')+1]).parent;fs=list(parent.glob('results/**/samples_*.jsonl'));vals=[];preds=collections.Counter();gold=collections.Counter();correctbygold=collections.Counter();ties=0;correct_ties=0;precision=[]
+  for f in fs:
+   sources[str(f)]=hashlib.sha256(f.read_bytes()).hexdigest()
+   for x in map(json.loads,f.open()):
+    assert x['filter']=='none';s=np.array([float(z[0]) for z in x['filtered_resps']]);assert len(s)==4 and np.isfinite(s).all();target=str(x['target']).strip();g='ABCD'.index(target) if target in 'ABCD' and len(target)==1 else int(target);assert g in range(4);j=int(s.argmax());assert bool(x['acc'])==(j==g);logp=s-s.max();logp-=np.log(np.exp(logp).sum());p=np.exp(logp);norm=logp[g];margin=s[g]-max(s[k] for k in range(4) if k!=g);entropy=-float(np.sum(p*logp));vals.append([s[g],norm,margin,entropy]);tied=int(np.sum(s==s.max()))>1;ties+=tied;correct_ties+=tied and j==g;preds['ABCD'[j]]+=1;gold['ABCD'[g]]+=1;correctbygold['ABCD'[g]]+=j==g
+  expected=900 if e['task']=='ha-belebele' else 14042;assert len(vals)==expected;means=np.mean(vals,axis=0);rows.append({'model':model,'task':e['task'],'n':len(vals),'fewshot':0 if e['task']=='ha-belebele' else 5,'predicted_counts':dict(preds),'gold_counts':dict(gold),'accuracy_by_gold':{k:correctbygold[k]/gold[k] for k in 'ABCD'},'ACC':sum(correctbygold.values())/len(vals),'exact_top_score_ties':ties,'correct_on_top_score_ties':correct_ties,'mean_correct_sequence_log_probability':float(means[0]),'mean_correct_four_option_log_probability':float(means[1]),'mean_gold_minus_best_wrong_margin':float(means[2]),'mean_four_option_entropy':float(means[3]),'answer_extraction':'likelihood argmax of fixed four continuations; no generated-answer regex'})
+res={'status':'ALL_FROZEN_FORMAL_CHOICES_RECOMPUTED','rows':rows,'sources_sha256':sources,'source_sha256':hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),'formal_primary_scores_unchanged':True,'limits':['Posthoc diagnostics, not checkpoint selection or an alternative headline metric.','Letter concentration is observable but does not alone identify semantic knowledge loss or its causal source.','Formal BF16/fewshot contrasts are separate from FP32/0shot development.']};(a.output/'analysis.json').write_text(json.dumps(res,indent=2)+'\n');print(json.dumps({'groups':len(rows),'all_choice_accuracy_verified':True}))

@@ -1,3 +1,7 @@
+# 最新研究交接：Hausa学习瓶颈诊断
+
+请先读[本轮总览](next_stage/README.md)、[Hausa-only正对照](next_stage/ha_only_control.md)、[诊断](next_stage/diagnosis.md)与[研究决策](next_stage/next_method_decision.md)。本轮没有开发MyMethod或搜索超参数。以下保留前一阶段原交接，历史NOT_RUN以新报告为准。
+
 # 多语言持续学习：本轮交接
 
 更新时间：2026-11-03T12:04+08:00。固定seed42；所有主成绩来自预先固定Final，未用正式test选checkpoint。

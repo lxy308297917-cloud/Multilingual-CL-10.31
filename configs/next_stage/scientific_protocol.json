@@ -1,0 +1,122 @@
+{
+  "official_model": "Qwen/Qwen3-1.7B",
+  "official_revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "training": {
+    "examples": 6400,
+    "optimizer_steps": 400,
+    "effective_batch": 16,
+    "world_size": 2,
+    "seed": 42,
+    "fixed_final": 400,
+    "fresh_optimizer_scheduler": true,
+    "actual_input_tokens": 2596327,
+    "actual_shifted_assistant_tokens": 920471,
+    "scientific_parameters": "ha_only_6400_fft_seed42_20261103_v1.yaml"
+  },
+  "data_identity": {
+    "source_revision": "a3af2fde4b4cb5b2775830b11244a1a20b5f004f",
+    "train6400_jsonl_sha256": "bc1641cc1d9bb3a67c41258bd8ab49de55fb8893a6984d4d9c986872c83ed788",
+    "heldout256_jsonl_sha256": "16aa9958fc8924e33f50a73eea8299ca74c6000294d970f6734d84c8a7ae8b21",
+    "frozen_development_protocol_sha256": "a411f7dd027e15eb391d61cdde0b41f88d9297d2258abdfd3229aac5655062e2"
+  },
+  "formal_tasks": [
+    {
+      "task": "belebele",
+      "backend": "hf",
+      "tasks": "belebele_eng_Latn_locked,belebele_swh_Latn_locked",
+      "fewshot": 0,
+      "batch_size": "4",
+      "model_parameters": {
+        "dtype": "bfloat16",
+        "enable_thinking": "False"
+      },
+      "apply_chat_template": true,
+      "seed": 42
+    },
+    {
+      "task": "ha-belebele",
+      "backend": "hf",
+      "tasks": "belebele_hau_Latn_sequential_locked",
+      "fewshot": 0,
+      "batch_size": "4",
+      "model_parameters": {
+        "dtype": "bfloat16",
+        "enable_thinking": "False"
+      },
+      "apply_chat_template": true,
+      "seed": 42
+    },
+    {
+      "task": "ha-gmmlu",
+      "backend": "hf",
+      "tasks": "global_mmlu_full_ha_locked",
+      "fewshot": 5,
+      "batch_size": "1",
+      "model_parameters": {
+        "dtype": "bfloat16",
+        "enable_thinking": "False"
+      },
+      "apply_chat_template": true,
+      "seed": 42
+    },
+    {
+      "task": "gmmlu",
+      "backend": "hf",
+      "tasks": "global_mmlu_full_sw_locked",
+      "fewshot": 5,
+      "batch_size": "1",
+      "model_parameters": {
+        "dtype": "bfloat16",
+        "enable_thinking": "False"
+      },
+      "apply_chat_template": true,
+      "seed": 42
+    },
+    {
+      "task": "mmlu",
+      "backend": "hf",
+      "tasks": "mmlu_locked",
+      "fewshot": 5,
+      "batch_size": "4",
+      "model_parameters": {
+        "dtype": "bfloat16",
+        "enable_thinking": "False"
+      },
+      "apply_chat_template": true,
+      "seed": 42
+    },
+    {
+      "task": "core",
+      "backend": "vllm",
+      "tasks": "sft_v1_gsm8k,sft_v1_ifeval,sft_v1_mgsm_native_cot_sw,sft_v1_xifeval_sw",
+      "fewshot": "Locked native task definition",
+      "batch_size": "auto",
+      "model_parameters": {
+        "dtype": "bfloat16",
+        "max_model_len": "8192",
+        "gpu_memory_utilization": "0.85",
+        "max_num_seqs": "32",
+        "max_num_batched_tokens": "8192",
+        "enable_prefix_caching": "True",
+        "seed": "42",
+        "enforce_eager": "True",
+        "enable_thinking": "False"
+      },
+      "apply_chat_template": true,
+      "seed": 42
+    }
+  ],
+  "development": {
+    "knowledge_per_language": 114,
+    "knowledge_fewshot": 0,
+    "reading_per_language": 180,
+    "reading_fewshot": 0,
+    "whole_passage_selection_seed": "ha-learning-reading-development-v1-20261103",
+    "heldout_NLL_examples": 256,
+    "heldout_assistant_tokens": 30742,
+    "exposure": "Historically exposed diagnostic reading and knowledge; no checkpoint or recipe selection. Remaining720 reading also historically exposed.",
+    "arithmetic": "BF16 exports promotedFP32,eager,noTF32;formal uses original BF16 task protocol"
+  },
+  "environment_reference": "Existing published configs/sft_v1/stack.lock.json;full host environment inventory retained locally",
+  "publication_scope": "No host job plans, device IDs, environment inventory, dataset file trees or internal asset inventories"
+}

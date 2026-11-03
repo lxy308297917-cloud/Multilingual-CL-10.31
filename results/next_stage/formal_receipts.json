@@ -1,0 +1,36 @@
+{
+  "old-core": {
+    "status": "FORMAL_REPORT_COMPLETE",
+    "completed": [
+      "stage2-belebele",
+      "stage2-core"
+    ],
+    "seconds": 1024.5879929065704,
+    "formal_test_used_for_selection": false
+  },
+  "old-sw": {
+    "status": "FORMAL_REPORT_COMPLETE",
+    "completed": [
+      "stage2-gmmlu"
+    ],
+    "seconds": 1989.6033227443695,
+    "formal_test_used_for_selection": false
+  },
+  "old-en": {
+    "status": "FORMAL_REPORT_COMPLETE",
+    "completed": [
+      "stage2-mmlu"
+    ],
+    "seconds": 1227.2145476341248,
+    "formal_test_used_for_selection": false
+  },
+  "ha": {
+    "status": "FORMAL_REPORT_COMPLETE",
+    "completed": [
+      "HA-only-FFT-ha-belebele",
+      "HA-only-FFT-ha-gmmlu"
+    ],
+    "seconds": 2023.37357878685,
+    "formal_test_used_for_selection": false
+  }
+}

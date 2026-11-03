@@ -1,0 +1,256 @@
+{
+  "completed_at": "2026-11-03T15:05:20.032604+08:00",
+  "formal_control": {
+    "ha-belebele": {
+      "task": "ha-belebele",
+      "subset": "all",
+      "n": 900,
+      "scores": {
+        "A0": 23.88888888888889,
+        "A1": 24.444444444444443,
+        "B0": 28.444444444444443,
+        "B1": 26.88888888888889
+      },
+      "paired_contrasts_pp": {
+        "A_gain": {
+          "delta": 0.5555555555555556,
+          "ci95_low": -2.3256458515959366,
+          "ci95_high": 3.367806353003717,
+          "clusters": 488,
+          "repeats": 2000,
+          "seed": 42
+        },
+        "B_gain": {
+          "delta": -1.5555555555555556,
+          "ci95_low": -4.867391389566735,
+          "ci95_high": 1.8826135105204873,
+          "clusters": 488,
+          "repeats": 2000,
+          "seed": 42
+        },
+        "initial_B_minus_A": {
+          "delta": 4.555555555555555,
+          "ci95_low": 0.8796188022575382,
+          "ci95_high": 8.398022295017844,
+          "clusters": 488,
+          "repeats": 2000,
+          "seed": 42
+        },
+        "final_A_minus_B": {
+          "delta": -2.4444444444444446,
+          "ci95_low": -4.651680161419665,
+          "ci95_high": -0.3322167259577221,
+          "clusters": 488,
+          "repeats": 2000,
+          "seed": 42
+        },
+        "A_gain_minus_B_gain": {
+          "delta": 2.111111111111111,
+          "ci95_low": -1.8095180318076605,
+          "ci95_high": 6.053981519228155,
+          "clusters": 488,
+          "repeats": 2000,
+          "seed": 42
+        }
+      },
+      "predefined_initial_correctness_strata": [
+        {
+          "initial_A0_correct": 0,
+          "initial_B0_correct": 0,
+          "n": 510,
+          "A1_final_acc": 8.823529411764707,
+          "B1_final_acc": 10.392156862745098,
+          "final_A_minus_B": {
+            "delta": -1.5686274509803921,
+            "ci95_low": -3.9138943248532287,
+            "ci95_high": 0.5964214711729622,
+            "clusters": 375,
+            "repeats": 2000,
+            "seed": 42
+          }
+        },
+        {
+          "initial_A0_correct": 0,
+          "initial_B0_correct": 1,
+          "n": 175,
+          "A1_final_acc": 18.857142857142858,
+          "B1_final_acc": 36.57142857142857,
+          "final_A_minus_B": {
+            "delta": -17.71428571428571,
+            "ci95_low": -24.85549132947977,
+            "ci95_high": -11.537356321839088,
+            "clusters": 162,
+            "repeats": 2000,
+            "seed": 42
+          }
+        },
+        {
+          "initial_A0_correct": 1,
+          "initial_B0_correct": 0,
+          "n": 134,
+          "A1_final_acc": 68.65671641791045,
+          "B1_final_acc": 52.98507462686567,
+          "final_A_minus_B": {
+            "delta": 15.671641791044777,
+            "ci95_low": 9.090909090909092,
+            "ci95_high": 22.137540894220283,
+            "clusters": 123,
+            "repeats": 2000,
+            "seed": 42
+          }
+        },
+        {
+          "initial_A0_correct": 1,
+          "initial_B0_correct": 1,
+          "n": 81,
+          "A1_final_acc": 61.72839506172839,
+          "B1_final_acc": 66.66666666666666,
+          "final_A_minus_B": {
+            "delta": -4.938271604938271,
+            "ci95_low": -13.580246913580247,
+            "ci95_high": 3.6155598001763085,
+            "clusters": 79,
+            "repeats": 2000,
+            "seed": 42
+          }
+        }
+      ],
+      "cluster_unit": "original_passage",
+      "historical_exposure": "All reading900 historically exposed;180 used for current diagnostics.720 not used in current curves but not historically unseen."
+    },
+    "ha-gmmlu": {
+      "task": "ha-gmmlu",
+      "subset": "all",
+      "n": 14042,
+      "scores": {
+        "A0": 26.249821962683377,
+        "A1": 27.52456914969378,
+        "B0": 29.717988890471442,
+        "B1": 27.6527560176613
+      },
+      "paired_contrasts_pp": {
+        "A_gain": {
+          "delta": 1.2747471870103972,
+          "ci95_low": 0.5483549351944167,
+          "ci95_high": 1.9940179461615155,
+          "clusters": 14042,
+          "repeats": 2000,
+          "seed": 42
+        },
+        "B_gain": {
+          "delta": -2.065232872810141,
+          "ci95_low": -2.8701395812562316,
+          "ci95_high": -1.224718701039739,
+          "clusters": 14042,
+          "repeats": 2000,
+          "seed": 42
+        },
+        "initial_B_minus_A": {
+          "delta": 3.4681669277880642,
+          "ci95_low": 2.577624270047002,
+          "ci95_high": 4.3444666001994,
+          "clusters": 14042,
+          "repeats": 2000,
+          "seed": 42
+        },
+        "final_A_minus_B": {
+          "delta": -0.12818686796752599,
+          "ci95_low": -0.6266913545079048,
+          "ci95_high": 0.38456060390257796,
+          "clusters": 14042,
+          "repeats": 2000,
+          "seed": 42
+        },
+        "A_gain_minus_B_gain": {
+          "delta": 3.339980059820538,
+          "ci95_low": 2.3283720267768127,
+          "ci95_high": 4.31580259222333,
+          "clusters": 14042,
+          "repeats": 2000,
+          "seed": 42
+        }
+      },
+      "predefined_initial_correctness_strata": [
+        {
+          "initial_A0_correct": 0,
+          "initial_B0_correct": 0,
+          "n": 8135,
+          "A1_final_acc": 9.502151198524892,
+          "B1_final_acc": 8.998156115550092,
+          "final_A_minus_B": {
+            "delta": 0.5039950829748002,
+            "ci95_low": -0.03687768899815612,
+            "ci95_high": 1.0079901659496004,
+            "clusters": 8135,
+            "repeats": 2000,
+            "seed": 42
+          }
+        },
+        {
+          "initial_A0_correct": 0,
+          "initial_B0_correct": 1,
+          "n": 2221,
+          "A1_final_acc": 28.410625844214316,
+          "B1_final_acc": 33.0031517334534,
+          "final_A_minus_B": {
+            "delta": -4.592525889239082,
+            "ci95_low": -6.2584421431787485,
+            "ci95_high": -2.9266096352994144,
+            "clusters": 2221,
+            "repeats": 2000,
+            "seed": 42
+          }
+        },
+        {
+          "initial_A0_correct": 1,
+          "initial_B0_correct": 0,
+          "n": 1734,
+          "A1_final_acc": 51.9607843137255,
+          "B1_final_acc": 50.403690888119954,
+          "final_A_minus_B": {
+            "delta": 1.5570934256055362,
+            "ci95_low": -0.34602076124567477,
+            "ci95_high": 3.4602076124567476,
+            "clusters": 1734,
+            "repeats": 2000,
+            "seed": 42
+          }
+        },
+        {
+          "initial_A0_correct": 1,
+          "initial_B0_correct": 1,
+          "n": 1952,
+          "A1_final_acc": 79.91803278688525,
+          "B1_final_acc": 79.09836065573771,
+          "final_A_minus_B": {
+            "delta": 0.819672131147541,
+            "ci95_low": -0.4610655737704918,
+            "ci95_high": 2.2540983606557377,
+            "clusters": 1952,
+            "repeats": 2000,
+            "seed": 42
+          }
+        }
+      ],
+      "cluster_unit": "original_question",
+      "historical_exposure": "Official test distinct from dev;prior-model scores historically exposed;new run fixedFinal only"
+    }
+  },
+  "decision": "No observed HA-only final advantage; small HA knowledge gain, uncertain reading gain. Prioritize task/readout/data diagnosis and preservation of prior positive transfer; no MyMethod developed.",
+  "P1_new_gradient_spectral_intervention": "NOT_RUN:conditional history penalty not established",
+  "counterevidence_to_blanket_unlearnability": "HA knowledge gain+1.27pp CI[+0.55,+1.99];heldout NLL decreases",
+  "counterevidence_to_SW_blocking_learning": "SequentialFFT final HA reading exceedsHA-only by2.44pp;knowledge final gap CI crosses0",
+  "scoring_gates": [
+    "Base342FP32calibration",
+    "Actual540readingcontext/2160continuation identity",
+    "All formal four-model docs/prompts/argmax accuracy verified",
+    "Existing runtime comparison on180cases"
+  ],
+  "limits": [
+    "One trainingseed, exposeddevelopment, unadjusted paired intervals",
+    "0shot114dev vs5shot14042test different; no midtraining formal5shot trajectory",
+    "No localized causal readout/spectral mechanism identified",
+    "No independent bilingual semantic data-quality certification"
+  ],
+  "hypothesis": "Shared task-readout drift toward a response prior erases earlier beneficial crosslingual task transfer while SFT prediction improves; unproven causal hypothesis."
+}

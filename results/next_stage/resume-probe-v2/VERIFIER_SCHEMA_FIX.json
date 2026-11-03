@@ -1,0 +1,6 @@
+{
+  "initial_verifier": "verify_resume_v2.py",
+  "error": "KeyError counts: actual accounting uses local_counts/global_counts",
+  "fix": "Read both actual count dictionaries and parameter counts; no rerun of GPU probe; no numerical tolerance change",
+  "recovery_verifier": "verify_resume_v3.py"
+}

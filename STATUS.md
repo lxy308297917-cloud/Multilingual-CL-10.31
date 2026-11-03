@@ -1,3 +1,7 @@
+# 最新状态
+
+Hausa诊断阶段的实际完成与NOT_RUN项目见[本轮研究入口](research/next_stage/README.md)和[证据表](results/next_stage/paper_table.md)。下文为前一阶段历史快照。
+
 # Current study snapshot
 
 Updated 2026-11-03T12:04+08:00

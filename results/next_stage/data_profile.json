@@ -1,0 +1,1410 @@
+{
+  "status": "READ_ONLY_PROFILE_COMPLETE",
+  "split_summary": {
+    "train6400": {
+      "rows": 6400,
+      "unique_exact_instruction_output_pairs": 6400,
+      "input_tokens": 2596327,
+      "shifted_assistant_tokens": 920471,
+      "source_families": {
+        "CNN-Daily-Mail (T)": 658,
+        "SODA-inst (T)": 658,
+        "PIQA (T)": 659,
+        "PAWS-Wiki (T)": 658,
+        "Adversarial QA (T)": 658,
+        "Flan-GEM-wiki-lingua (T)": 658,
+        "AfriQA-inst": 191,
+        "HotpotQA (T)": 658,
+        "MasakhaNEWS-inst": 659,
+        "Aya-Dataset": 285,
+        "Dolly-v2 (T)": 658
+      },
+      "task_types": {
+        "summarization": 1316,
+        "dialogue": 658,
+        "question-answering": 2166,
+        "paraphrase-identification": 658,
+        "text-classification": 659,
+        "-": 285,
+        "generation": 658
+      },
+      "reference_shapes": {
+        "longer_text": 4752,
+        "short_non_letter_1_to_4_words": 1648
+      },
+      "rows_at_cutoff2048": 90,
+      "translated_T_source_rows": 5265,
+      "saved_LID_top_labels": {
+        "inputs:__label__hau_Latn": 6387,
+        "targets:__label__hau_Latn": 5803,
+        "targets:__label__kin_Latn": 78,
+        "targets:__label__xho_Latn": 6,
+        "targets:__label__por_Latn": 7,
+        "targets:__label__ayr_Latn": 18,
+        "targets:__label__deu_Latn": 13,
+        "targets:__label__pol_Latn": 8,
+        "targets:__label__cat_Latn": 1,
+        "inputs:__label__leh_Latn": 1,
+        "targets:__label__kab_Latn": 4,
+        "targets:__label__ita_Latn": 57,
+        "targets:__label__hun_Latn": 2,
+        "targets:__label__zxx_Latn": 19,
+        "targets:__label__srd_Latn": 26,
+        "targets:__label__fur_Latn": 5,
+        "targets:__label__lvs_Latn": 8,
+        "targets:__label__fij_Latn": 5,
+        "targets:__label__und_Runr": 6,
+        "targets:__label__slv_Latn": 3,
+        "targets:__label__slk_Latn": 17,
+        "targets:__label__gla_Latn": 1,
+        "targets:__label__fin_Latn": 7,
+        "targets:__label__ceb_Latn": 4,
+        "targets:__label__eng_Latn": 55,
+        "targets:__label__uzn_Latn": 23,
+        "targets:__label__tur_Latn": 5,
+        "targets:__label__got_Latn": 3,
+        "targets:__label__nld_Latn": 10,
+        "targets:__label__cmn_Hani": 3,
+        "targets:__label__kor_Hang": 8,
+        "targets:__label__swe_Latn": 11,
+        "targets:__label__nso_Latn": 4,
+        "targets:__label__abz_Latn": 25,
+        "targets:__label__som_Latn": 3,
+        "targets:__label__bhw_Latn": 1,
+        "targets:__label__quy_Latn": 3,
+        "targets:__label__ibo_Latn": 3,
+        "targets:__label__gaz_Latn": 3,
+        "targets:__label__yue_Hani": 1,
+        "targets:__label__swh_Latn": 2,
+        "targets:__label__ind_Latn": 11,
+        "targets:__label__pag_Latn": 2,
+        "targets:__label__ace_Latn": 1,
+        "targets:__label__bor_Latn": 1,
+        "targets:__label__zul_Latn": 2,
+        "targets:__label__eus_Latn": 2,
+        "targets:__label__epo_Latn": 9,
+        "targets:__label__spa_Latn": 8,
+        "targets:__label__lus_Latn": 5,
+        "targets:__label__nno_Latn": 2,
+        "targets:__label__ekk_Latn": 6,
+        "inputs:__label__ita_Latn": 1,
+        "targets:__label__ncx_Latn": 1,
+        "targets:__label__rus_Cyrl": 2,
+        "targets:__label__kik_Latn": 1,
+        "targets:__label__pap_Latn": 1,
+        "targets:__label__swc_Latn": 2,
+        "targets:__label__ron_Latn": 1,
+        "targets:__label__iba_Latn": 1,
+        "targets:__label__kan_Latn": 1,
+        "targets:__label__nah_Latn": 2,
+        "targets:__label__lin_Latn": 1,
+        "inputs:__label__lua_Latn": 1,
+        "targets:__label__mlt_Latn": 2,
+        "targets:__label__jav_Latn": 1,
+        "targets:__label__bem_Latn": 3,
+        "targets:__label__tso_Latn": 2,
+        "targets:__label__und_Armn": 2,
+        "targets:__label__bam_Latn": 2,
+        "targets:__label__und_Avst": 1,
+        "targets:__label__dan_Latn": 4,
+        "inputs:__label__eng_Latn": 4,
+        "targets:__label__bjn_Latn": 2,
+        "targets:__label__und_Cpmn": 2,
+        "targets:__label__wol_Latn": 2,
+        "targets:__label__lzh_Hani": 2,
+        "targets:__label__hat_Latn": 1,
+        "targets:__label__ces_Latn": 3,
+        "targets:__label__mav_Latn": 1,
+        "targets:__label__fra_Latn": 1,
+        "targets:__label__ilo_Latn": 2,
+        "targets:__label__tam_Latn": 1,
+        "targets:__label__tha_Thai": 1,
+        "targets:__label__fil_Latn": 1,
+        "targets:__label__wbm_Latn": 2,
+        "targets:__label__tsn_Latn": 1,
+        "targets:__label__teo_Latn": 1,
+        "targets:__label__niu_Latn": 1,
+        "targets:__label__afr_Latn": 2,
+        "targets:__label__yor_Latn": 3,
+        "targets:__label__azj_Latn": 1,
+        "targets:__label__smo_Latn": 2,
+        "targets:__label__pib_Latn": 1,
+        "targets:__label__lua_Latn": 1,
+        "targets:__label__tpi_Latn": 2,
+        "targets:__label__nob_Latn": 2,
+        "targets:__label__gof_Latn": 1,
+        "targets:__label__hrv_Latn": 2,
+        "inputs:__label__xho_Latn": 1,
+        "inputs:__label__tsn_Latn": 1,
+        "targets:__label__kck_Latn": 1,
+        "targets:__label__sot_Latn": 1,
+        "targets:__label__eme_Latn": 1,
+        "targets:__label__lug_Latn": 1,
+        "targets:__label__jpn_Jpan": 2,
+        "inputs:__label__deu_Latn": 1,
+        "targets:__label__gbr_Latn": 1,
+        "targets:__label__und_Mero": 1,
+        "inputs:__label__moh_Latn": 1,
+        "inputs:__label__twi_Latn": 1,
+        "targets:__label__shp_Latn": 1,
+        "targets:__label__tar_Latn": 1,
+        "targets:__label__tvl_Latn": 1,
+        "targets:__label__und_Cans": 1,
+        "targets:__label__lit_Latn": 1,
+        "targets:__label__scn_Latn": 1,
+        "targets:__label__urd_Latn": 2,
+        "targets:__label__ven_Latn": 1,
+        "inputs:__label__slv_Latn": 1,
+        "targets:__label__cnh_Latn": 1,
+        "targets:__label__gle_Latn": 1
+      },
+      "saved_LID_by_original_length_policy": {
+        "inputs:long_checked:HA_top": 5571,
+        "targets:long_checked:HA_top": 4752,
+        "targets:short_exempt:HA_top": 1051,
+        "inputs:short_exempt:HA_top": 816,
+        "targets:short_exempt:other_top": 597,
+        "inputs:short_exempt:other_top": 13
+      },
+      "by_source": {
+        "CNN-Daily-Mail (T)": {
+          "rows": 658,
+          "assistant_tokens": 80028,
+          "single_ABCD": 0,
+          "truncated_length2048": 0
+        },
+        "SODA-inst (T)": {
+          "rows": 658,
+          "assistant_tokens": 58651,
+          "single_ABCD": 0,
+          "truncated_length2048": 0
+        },
+        "PIQA (T)": {
+          "rows": 659,
+          "assistant_tokens": 25965,
+          "single_ABCD": 0,
+          "truncated_length2048": 0
+        },
+        "PAWS-Wiki (T)": {
+          "rows": 658,
+          "assistant_tokens": 4268,
+          "single_ABCD": 0,
+          "truncated_length2048": 0
+        },
+        "Adversarial QA (T)": {
+          "rows": 658,
+          "assistant_tokens": 186203,
+          "single_ABCD": 0,
+          "truncated_length2048": 0
+        },
+        "Flan-GEM-wiki-lingua (T)": {
+          "rows": 658,
+          "assistant_tokens": 146160,
+          "single_ABCD": 0,
+          "truncated_length2048": 16
+        },
+        "AfriQA-inst": {
+          "rows": 191,
+          "assistant_tokens": 1138,
+          "single_ABCD": 0,
+          "truncated_length2048": 0
+        },
+        "HotpotQA (T)": {
+          "rows": 658,
+          "assistant_tokens": 5608,
+          "single_ABCD": 0,
+          "truncated_length2048": 0
+        },
+        "MasakhaNEWS-inst": {
+          "rows": 659,
+          "assistant_tokens": 295877,
+          "single_ABCD": 0,
+          "truncated_length2048": 61
+        },
+        "Aya-Dataset": {
+          "rows": 285,
+          "assistant_tokens": 24872,
+          "single_ABCD": 0,
+          "truncated_length2048": 4
+        },
+        "Dolly-v2 (T)": {
+          "rows": 658,
+          "assistant_tokens": 91701,
+          "single_ABCD": 0,
+          "truncated_length2048": 9
+        }
+      }
+    },
+    "dev_ha": {
+      "rows": 256,
+      "unique_exact_instruction_output_pairs": 256,
+      "input_tokens": 91209,
+      "shifted_assistant_tokens": 30742,
+      "source_families": {
+        "Adversarial QA (T)": 23,
+        "PIQA (T)": 24,
+        "SODA-inst (T)": 23,
+        "Dolly-v2 (T)": 23,
+        "HotpotQA (T)": 23,
+        "MasakhaNEWS-inst": 24,
+        "AfriQA-inst": 24,
+        "Aya-Dataset": 23,
+        "PAWS-Wiki (T)": 23,
+        "CNN-Daily-Mail (T)": 23,
+        "Flan-GEM-wiki-lingua (T)": 23
+      },
+      "task_types": {
+        "question-answering": 94,
+        "dialogue": 23,
+        "generation": 23,
+        "text-classification": 24,
+        "-": 23,
+        "paraphrase-identification": 23,
+        "summarization": 46
+      },
+      "reference_shapes": {
+        "longer_text": 184,
+        "short_non_letter_1_to_4_words": 72
+      },
+      "rows_at_cutoff2048": 2,
+      "translated_T_source_rows": 185,
+      "saved_LID_top_labels": {
+        "inputs:__label__hau_Latn": 255,
+        "targets:__label__hau_Latn": 221,
+        "targets:__label__por_Latn": 1,
+        "targets:__label__kin_Latn": 4,
+        "targets:__label__ind_Latn": 1,
+        "targets:__label__ekk_Latn": 2,
+        "targets:__label__tur_Latn": 2,
+        "targets:__label__uzn_Latn": 2,
+        "targets:__label__tar_Latn": 1,
+        "targets:__label__eng_Latn": 3,
+        "targets:__label__afr_Latn": 1,
+        "targets:__label__und_Runr": 1,
+        "targets:__label__ita_Latn": 1,
+        "targets:__label__zxx_Latn": 1,
+        "targets:__label__pol_Latn": 1,
+        "targets:__label__yor_Latn": 1,
+        "targets:__label__srd_Latn": 1,
+        "targets:__label__ewe_Latn": 1,
+        "targets:__label__slk_Latn": 1,
+        "targets:__label__nob_Latn": 1,
+        "targets:__label__abz_Latn": 2,
+        "targets:__label__fin_Latn": 1,
+        "inputs:__label__ita_Latn": 1,
+        "targets:__label__ayr_Latn": 3,
+        "targets:__label__kor_Hang": 1,
+        "targets:__label__ktu_Latn": 1,
+        "targets:__label__tel_Latn": 1
+      },
+      "saved_LID_by_original_length_policy": {
+        "inputs:long_checked:HA_top": 205,
+        "targets:long_checked:HA_top": 184,
+        "inputs:short_exempt:HA_top": 50,
+        "targets:short_exempt:other_top": 35,
+        "targets:short_exempt:HA_top": 37,
+        "inputs:short_exempt:other_top": 1
+      },
+      "by_source": {
+        "Adversarial QA (T)": {
+          "rows": 23,
+          "assistant_tokens": 6418,
+          "single_ABCD": 0,
+          "truncated_length2048": 0
+        },
+        "PIQA (T)": {
+          "rows": 24,
+          "assistant_tokens": 1195,
+          "single_ABCD": 0,
+          "truncated_length2048": 0
+        },
+        "SODA-inst (T)": {
+          "rows": 23,
+          "assistant_tokens": 2055,
+          "single_ABCD": 0,
+          "truncated_length2048": 0
+        },
+        "Dolly-v2 (T)": {
+          "rows": 23,
+          "assistant_tokens": 2463,
+          "single_ABCD": 0,
+          "truncated_length2048": 0
+        },
+        "HotpotQA (T)": {
+          "rows": 23,
+          "assistant_tokens": 274,
+          "single_ABCD": 0,
+          "truncated_length2048": 0
+        },
+        "MasakhaNEWS-inst": {
+          "rows": 24,
+          "assistant_tokens": 9998,
+          "single_ABCD": 0,
+          "truncated_length2048": 2
+        },
+        "AfriQA-inst": {
+          "rows": 24,
+          "assistant_tokens": 167,
+          "single_ABCD": 0,
+          "truncated_length2048": 0
+        },
+        "Aya-Dataset": {
+          "rows": 23,
+          "assistant_tokens": 1448,
+          "single_ABCD": 0,
+          "truncated_length2048": 0
+        },
+        "PAWS-Wiki (T)": {
+          "rows": 23,
+          "assistant_tokens": 157,
+          "single_ABCD": 0,
+          "truncated_length2048": 0
+        },
+        "CNN-Daily-Mail (T)": {
+          "rows": 23,
+          "assistant_tokens": 2639,
+          "single_ABCD": 0,
+          "truncated_length2048": 0
+        },
+        "Flan-GEM-wiki-lingua (T)": {
+          "rows": 23,
+          "assistant_tokens": 3928,
+          "single_ABCD": 0,
+          "truncated_length2048": 0
+        }
+      }
+    }
+  },
+  "exact_train_heldout_pair_overlap": 0,
+  "heldout_nll_by_source": {
+    "fft/0": {
+      "Adversarial QA (T)": {
+        "nll_sum": 33371.49353027344,
+        "assistant_tokens": 6418,
+        "rows": 23,
+        "token_weighted_nll": 5.199671787203714
+      },
+      "PIQA (T)": {
+        "nll_sum": 1389.3758527040482,
+        "assistant_tokens": 1195,
+        "rows": 24,
+        "token_weighted_nll": 1.1626576173255634
+      },
+      "SODA-inst (T)": {
+        "nll_sum": 10503.136413574219,
+        "assistant_tokens": 2055,
+        "rows": 23,
+        "token_weighted_nll": 5.1110152864108125
+      },
+      "Dolly-v2 (T)": {
+        "nll_sum": 10959.82803106308,
+        "assistant_tokens": 2463,
+        "rows": 23,
+        "token_weighted_nll": 4.449788075949281
+      },
+      "HotpotQA (T)": {
+        "nll_sum": 1210.1595468521118,
+        "assistant_tokens": 274,
+        "rows": 23,
+        "token_weighted_nll": 4.416640681942014
+      },
+      "MasakhaNEWS-inst": {
+        "nll_sum": 46355.008390426636,
+        "assistant_tokens": 9998,
+        "rows": 24,
+        "token_weighted_nll": 4.636428124667597
+      },
+      "AfriQA-inst": {
+        "nll_sum": 723.9883685112,
+        "assistant_tokens": 167,
+        "rows": 24,
+        "token_weighted_nll": 4.335259691683832
+      },
+      "Aya-Dataset": {
+        "nll_sum": 7174.263160705566,
+        "assistant_tokens": 1448,
+        "rows": 23,
+        "token_weighted_nll": 4.954601630321524
+      },
+      "PAWS-Wiki (T)": {
+        "nll_sum": 779.1592655181885,
+        "assistant_tokens": 157,
+        "rows": 23,
+        "token_weighted_nll": 4.962797869542602
+      },
+      "CNN-Daily-Mail (T)": {
+        "nll_sum": 8520.94125366211,
+        "assistant_tokens": 2639,
+        "rows": 23,
+        "token_weighted_nll": 3.2288523128693103
+      },
+      "Flan-GEM-wiki-lingua (T)": {
+        "nll_sum": 15848.029640197754,
+        "assistant_tokens": 3928,
+        "rows": 23,
+        "token_weighted_nll": 4.034630763797799
+      }
+    },
+    "fft/100": {
+      "Adversarial QA (T)": {
+        "nll_sum": 20042.454391479492,
+        "assistant_tokens": 6418,
+        "rows": 23,
+        "token_weighted_nll": 3.1228504816889204
+      },
+      "PIQA (T)": {
+        "nll_sum": 957.1056416034698,
+        "assistant_tokens": 1195,
+        "rows": 24,
+        "token_weighted_nll": 0.8009252230991379
+      },
+      "SODA-inst (T)": {
+        "nll_sum": 5197.856979370117,
+        "assistant_tokens": 2055,
+        "rows": 23,
+        "token_weighted_nll": 2.5293707928808358
+      },
+      "Dolly-v2 (T)": {
+        "nll_sum": 6619.60596036911,
+        "assistant_tokens": 2463,
+        "rows": 23,
+        "token_weighted_nll": 2.6876191475311044
+      },
+      "HotpotQA (T)": {
+        "nll_sum": 805.4436874389648,
+        "assistant_tokens": 274,
+        "rows": 23,
+        "token_weighted_nll": 2.9395755016020613
+      },
+      "MasakhaNEWS-inst": {
+        "nll_sum": 31310.76286315918,
+        "assistant_tokens": 9998,
+        "rows": 24,
+        "token_weighted_nll": 3.131702626841286
+      },
+      "AfriQA-inst": {
+        "nll_sum": 480.8462390899658,
+        "assistant_tokens": 167,
+        "rows": 24,
+        "token_weighted_nll": 2.879318796945903
+      },
+      "Aya-Dataset": {
+        "nll_sum": 4683.542223930359,
+        "assistant_tokens": 1448,
+        "rows": 23,
+        "token_weighted_nll": 3.2344904861397508
+      },
+      "PAWS-Wiki (T)": {
+        "nll_sum": 28.142170641571283,
+        "assistant_tokens": 157,
+        "rows": 23,
+        "token_weighted_nll": 0.17924949453230116
+      },
+      "CNN-Daily-Mail (T)": {
+        "nll_sum": 5956.357639312744,
+        "assistant_tokens": 2639,
+        "rows": 23,
+        "token_weighted_nll": 2.2570510190650794
+      },
+      "Flan-GEM-wiki-lingua (T)": {
+        "nll_sum": 10963.02310180664,
+        "assistant_tokens": 3928,
+        "rows": 23,
+        "token_weighted_nll": 2.7909936613560693
+      }
+    },
+    "fft/200": {
+      "Adversarial QA (T)": {
+        "nll_sum": 18018.980239868164,
+        "assistant_tokens": 6418,
+        "rows": 23,
+        "token_weighted_nll": 2.807569373616105
+      },
+      "PIQA (T)": {
+        "nll_sum": 873.3511625528336,
+        "assistant_tokens": 1195,
+        "rows": 24,
+        "token_weighted_nll": 0.7308377929312415
+      },
+      "SODA-inst (T)": {
+        "nll_sum": 4582.198593139648,
+        "assistant_tokens": 2055,
+        "rows": 23,
+        "token_weighted_nll": 2.229780337294233
+      },
+      "Dolly-v2 (T)": {
+        "nll_sum": 5856.9617919921875,
+        "assistant_tokens": 2463,
+        "rows": 23,
+        "token_weighted_nll": 2.3779788030824958
+      },
+      "HotpotQA (T)": {
+        "nll_sum": 711.45867395401,
+        "assistant_tokens": 274,
+        "rows": 23,
+        "token_weighted_nll": 2.5965645034817886
+      },
+      "MasakhaNEWS-inst": {
+        "nll_sum": 28854.388361930847,
+        "assistant_tokens": 9998,
+        "rows": 24,
+        "token_weighted_nll": 2.886016039400965
+      },
+      "AfriQA-inst": {
+        "nll_sum": 446.2826991081238,
+        "assistant_tokens": 167,
+        "rows": 24,
+        "token_weighted_nll": 2.672351491665412
+      },
+      "Aya-Dataset": {
+        "nll_sum": 4263.399396419525,
+        "assistant_tokens": 1448,
+        "rows": 23,
+        "token_weighted_nll": 2.944336599737241
+      },
+      "PAWS-Wiki (T)": {
+        "nll_sum": 14.785277217626572,
+        "assistant_tokens": 157,
+        "rows": 23,
+        "token_weighted_nll": 0.09417374023965969
+      },
+      "CNN-Daily-Mail (T)": {
+        "nll_sum": 5421.011390686035,
+        "assistant_tokens": 2639,
+        "rows": 23,
+        "token_weighted_nll": 2.0541915084069857
+      },
+      "Flan-GEM-wiki-lingua (T)": {
+        "nll_sum": 10056.609603881836,
+        "assistant_tokens": 3928,
+        "rows": 23,
+        "token_weighted_nll": 2.560236660866048
+      }
+    },
+    "fft/300": {
+      "Adversarial QA (T)": {
+        "nll_sum": 17218.802215576172,
+        "assistant_tokens": 6418,
+        "rows": 23,
+        "token_weighted_nll": 2.6828922118379825
+      },
+      "PIQA (T)": {
+        "nll_sum": 839.4426584839821,
+        "assistant_tokens": 1195,
+        "rows": 24,
+        "token_weighted_nll": 0.7024624757188135
+      },
+      "SODA-inst (T)": {
+        "nll_sum": 4373.244201660156,
+        "assistant_tokens": 2055,
+        "rows": 23,
+        "token_weighted_nll": 2.1280993682044556
+      },
+      "Dolly-v2 (T)": {
+        "nll_sum": 5611.837025642395,
+        "assistant_tokens": 2463,
+        "rows": 23,
+        "token_weighted_nll": 2.278455958441898
+      },
+      "HotpotQA (T)": {
+        "nll_sum": 679.5930442810059,
+        "assistant_tokens": 274,
+        "rows": 23,
+        "token_weighted_nll": 2.4802665849671746
+      },
+      "MasakhaNEWS-inst": {
+        "nll_sum": 27784.847829818726,
+        "assistant_tokens": 9998,
+        "rows": 24,
+        "token_weighted_nll": 2.7790405911000926
+      },
+      "AfriQA-inst": {
+        "nll_sum": 430.5755805969238,
+        "assistant_tokens": 167,
+        "rows": 24,
+        "token_weighted_nll": 2.578296889801939
+      },
+      "Aya-Dataset": {
+        "nll_sum": 4067.2593512535095,
+        "assistant_tokens": 1448,
+        "rows": 23,
+        "token_weighted_nll": 2.808880767440269
+      },
+      "PAWS-Wiki (T)": {
+        "nll_sum": 14.745760060846806,
+        "assistant_tokens": 157,
+        "rows": 23,
+        "token_weighted_nll": 0.09392203860411978
+      },
+      "CNN-Daily-Mail (T)": {
+        "nll_sum": 5192.84566116333,
+        "assistant_tokens": 2639,
+        "rows": 23,
+        "token_weighted_nll": 1.9677323460262715
+      },
+      "Flan-GEM-wiki-lingua (T)": {
+        "nll_sum": 9685.163803100586,
+        "assistant_tokens": 3928,
+        "rows": 23,
+        "token_weighted_nll": 2.465673065962471
+      }
+    },
+    "fft/400": {
+      "Adversarial QA (T)": {
+        "nll_sum": 17059.772247314453,
+        "assistant_tokens": 6418,
+        "rows": 23,
+        "token_weighted_nll": 2.6581134695098867
+      },
+      "PIQA (T)": {
+        "nll_sum": 834.1800308823586,
+        "assistant_tokens": 1195,
+        "rows": 24,
+        "token_weighted_nll": 0.6980586032488356
+      },
+      "SODA-inst (T)": {
+        "nll_sum": 4334.445098876953,
+        "assistant_tokens": 2055,
+        "rows": 23,
+        "token_weighted_nll": 2.1092190262174952
+      },
+      "Dolly-v2 (T)": {
+        "nll_sum": 5563.37958240509,
+        "assistant_tokens": 2463,
+        "rows": 23,
+        "token_weighted_nll": 2.258781803656147
+      },
+      "HotpotQA (T)": {
+        "nll_sum": 672.251621723175,
+        "assistant_tokens": 274,
+        "rows": 23,
+        "token_weighted_nll": 2.4534730719823905
+      },
+      "MasakhaNEWS-inst": {
+        "nll_sum": 27618.581060409546,
+        "assistant_tokens": 9998,
+        "rows": 24,
+        "token_weighted_nll": 2.7624105881585863
+      },
+      "AfriQA-inst": {
+        "nll_sum": 431.0760967731476,
+        "assistant_tokens": 167,
+        "rows": 24,
+        "token_weighted_nll": 2.5812939926535785
+      },
+      "Aya-Dataset": {
+        "nll_sum": 4031.1293516159058,
+        "assistant_tokens": 1448,
+        "rows": 23,
+        "token_weighted_nll": 2.783929110231979
+      },
+      "PAWS-Wiki (T)": {
+        "nll_sum": 13.350562065839767,
+        "assistant_tokens": 157,
+        "rows": 23,
+        "token_weighted_nll": 0.08503542717095393
+      },
+      "CNN-Daily-Mail (T)": {
+        "nll_sum": 5160.018852233887,
+        "assistant_tokens": 2639,
+        "rows": 23,
+        "token_weighted_nll": 1.9552932369207605
+      },
+      "Flan-GEM-wiki-lingua (T)": {
+        "nll_sum": 9558.207908630371,
+        "assistant_tokens": 3928,
+        "rows": 23,
+        "token_weighted_nll": 2.4333523188977524
+      }
+    },
+    "sst/0": {
+      "Adversarial QA (T)": {
+        "nll_sum": 31145.918975830078,
+        "assistant_tokens": 6418,
+        "rows": 23,
+        "token_weighted_nll": 4.852901055754141
+      },
+      "PIQA (T)": {
+        "nll_sum": 1464.178104877472,
+        "assistant_tokens": 1195,
+        "rows": 24,
+        "token_weighted_nll": 1.2252536442489306
+      },
+      "SODA-inst (T)": {
+        "nll_sum": 9822.495391845703,
+        "assistant_tokens": 2055,
+        "rows": 23,
+        "token_weighted_nll": 4.779803110387204
+      },
+      "Dolly-v2 (T)": {
+        "nll_sum": 10367.315325737,
+        "assistant_tokens": 2463,
+        "rows": 23,
+        "token_weighted_nll": 4.209222625146975
+      },
+      "HotpotQA (T)": {
+        "nll_sum": 1303.4110431671143,
+        "assistant_tokens": 274,
+        "rows": 23,
+        "token_weighted_nll": 4.756974610098957
+      },
+      "MasakhaNEWS-inst": {
+        "nll_sum": 44321.040744781494,
+        "assistant_tokens": 9998,
+        "rows": 24,
+        "token_weighted_nll": 4.4329906726126715
+      },
+      "AfriQA-inst": {
+        "nll_sum": 822.7242841720581,
+        "assistant_tokens": 167,
+        "rows": 24,
+        "token_weighted_nll": 4.9264927195931625
+      },
+      "Aya-Dataset": {
+        "nll_sum": 6645.085987091064,
+        "assistant_tokens": 1448,
+        "rows": 23,
+        "token_weighted_nll": 4.5891477811402375
+      },
+      "PAWS-Wiki (T)": {
+        "nll_sum": 918.1682739257812,
+        "assistant_tokens": 157,
+        "rows": 23,
+        "token_weighted_nll": 5.84820556640625
+      },
+      "CNN-Daily-Mail (T)": {
+        "nll_sum": 8392.111316680908,
+        "assistant_tokens": 2639,
+        "rows": 23,
+        "token_weighted_nll": 3.180034602758965
+      },
+      "Flan-GEM-wiki-lingua (T)": {
+        "nll_sum": 15501.954689025879,
+        "assistant_tokens": 3928,
+        "rows": 23,
+        "token_weighted_nll": 3.9465261428273624
+      }
+    },
+    "sst/100": {
+      "Adversarial QA (T)": {
+        "nll_sum": 27811.546264648438,
+        "assistant_tokens": 6418,
+        "rows": 23,
+        "token_weighted_nll": 4.333366510540423
+      },
+      "PIQA (T)": {
+        "nll_sum": 1280.8619034290314,
+        "assistant_tokens": 1195,
+        "rows": 24,
+        "token_weighted_nll": 1.0718509652125785
+      },
+      "SODA-inst (T)": {
+        "nll_sum": 8466.481399536133,
+        "assistant_tokens": 2055,
+        "rows": 23,
+        "token_weighted_nll": 4.119942286878897
+      },
+      "Dolly-v2 (T)": {
+        "nll_sum": 9156.549354553223,
+        "assistant_tokens": 2463,
+        "rows": 23,
+        "token_weighted_nll": 3.7176408260467815
+      },
+      "HotpotQA (T)": {
+        "nll_sum": 1133.5764141082764,
+        "assistant_tokens": 274,
+        "rows": 23,
+        "token_weighted_nll": 4.137140197475461
+      },
+      "MasakhaNEWS-inst": {
+        "nll_sum": 39981.8597946167,
+        "assistant_tokens": 9998,
+        "rows": 24,
+        "token_weighted_nll": 3.998985776616993
+      },
+      "AfriQA-inst": {
+        "nll_sum": 678.1535148620605,
+        "assistant_tokens": 167,
+        "rows": 24,
+        "token_weighted_nll": 4.06079949019198
+      },
+      "Aya-Dataset": {
+        "nll_sum": 5985.896772384644,
+        "assistant_tokens": 1448,
+        "rows": 23,
+        "token_weighted_nll": 4.1339066107628755
+      },
+      "PAWS-Wiki (T)": {
+        "nll_sum": 557.448522567749,
+        "assistant_tokens": 157,
+        "rows": 23,
+        "token_weighted_nll": 3.5506275322786562
+      },
+      "CNN-Daily-Mail (T)": {
+        "nll_sum": 7630.990776062012,
+        "assistant_tokens": 2639,
+        "rows": 23,
+        "token_weighted_nll": 2.891622120523688
+      },
+      "Flan-GEM-wiki-lingua (T)": {
+        "nll_sum": 14019.274772644043,
+        "assistant_tokens": 3928,
+        "rows": 23,
+        "token_weighted_nll": 3.5690618056629435
+      }
+    },
+    "sst/200": {
+      "Adversarial QA (T)": {
+        "nll_sum": 26585.279327392578,
+        "assistant_tokens": 6418,
+        "rows": 23,
+        "token_weighted_nll": 4.14229967706335
+      },
+      "PIQA (T)": {
+        "nll_sum": 1222.81161403656,
+        "assistant_tokens": 1195,
+        "rows": 24,
+        "token_weighted_nll": 1.0232733171854058
+      },
+      "SODA-inst (T)": {
+        "nll_sum": 7883.87971496582,
+        "assistant_tokens": 2055,
+        "rows": 23,
+        "token_weighted_nll": 3.836437817501616
+      },
+      "Dolly-v2 (T)": {
+        "nll_sum": 8730.875815868378,
+        "assistant_tokens": 2463,
+        "rows": 23,
+        "token_weighted_nll": 3.5448135671410386
+      },
+      "HotpotQA (T)": {
+        "nll_sum": 1072.6313819885254,
+        "assistant_tokens": 274,
+        "rows": 23,
+        "token_weighted_nll": 3.9147130729508226
+      },
+      "MasakhaNEWS-inst": {
+        "nll_sum": 38551.64218521118,
+        "assistant_tokens": 9998,
+        "rows": 24,
+        "token_weighted_nll": 3.8559354056022386
+      },
+      "AfriQA-inst": {
+        "nll_sum": 646.3206796646118,
+        "assistant_tokens": 167,
+        "rows": 24,
+        "token_weighted_nll": 3.870183710566538
+      },
+      "Aya-Dataset": {
+        "nll_sum": 5743.3130893707275,
+        "assistant_tokens": 1448,
+        "rows": 23,
+        "token_weighted_nll": 3.9663764429355854
+      },
+      "PAWS-Wiki (T)": {
+        "nll_sum": 405.67570781707764,
+        "assistant_tokens": 157,
+        "rows": 23,
+        "token_weighted_nll": 2.583921705841259
+      },
+      "CNN-Daily-Mail (T)": {
+        "nll_sum": 7355.438709259033,
+        "assistant_tokens": 2639,
+        "rows": 23,
+        "token_weighted_nll": 2.7872067863808385
+      },
+      "Flan-GEM-wiki-lingua (T)": {
+        "nll_sum": 13541.68000793457,
+        "assistant_tokens": 3928,
+        "rows": 23,
+        "token_weighted_nll": 3.44747454377153
+      }
+    },
+    "sst/300": {
+      "Adversarial QA (T)": {
+        "nll_sum": 26159.000030517578,
+        "assistant_tokens": 6418,
+        "rows": 23,
+        "token_weighted_nll": 4.075880341308442
+      },
+      "PIQA (T)": {
+        "nll_sum": 1201.5528762340546,
+        "assistant_tokens": 1195,
+        "rows": 24,
+        "token_weighted_nll": 1.0054835784385394
+      },
+      "SODA-inst (T)": {
+        "nll_sum": 7689.598205566406,
+        "assistant_tokens": 2055,
+        "rows": 23,
+        "token_weighted_nll": 3.741896937015283
+      },
+      "Dolly-v2 (T)": {
+        "nll_sum": 8595.34604024887,
+        "assistant_tokens": 2463,
+        "rows": 23,
+        "token_weighted_nll": 3.48978726766093
+      },
+      "HotpotQA (T)": {
+        "nll_sum": 1051.2888736724854,
+        "assistant_tokens": 274,
+        "rows": 23,
+        "token_weighted_nll": 3.836820706833888
+      },
+      "MasakhaNEWS-inst": {
+        "nll_sum": 38047.53726196289,
+        "assistant_tokens": 9998,
+        "rows": 24,
+        "token_weighted_nll": 3.8055148291621217
+      },
+      "AfriQA-inst": {
+        "nll_sum": 634.1863708496094,
+        "assistant_tokens": 167,
+        "rows": 24,
+        "token_weighted_nll": 3.797523178740176
+      },
+      "Aya-Dataset": {
+        "nll_sum": 5663.8905601501465,
+        "assistant_tokens": 1448,
+        "rows": 23,
+        "token_weighted_nll": 3.9115266299379465
+      },
+      "PAWS-Wiki (T)": {
+        "nll_sum": 365.65479373931885,
+        "assistant_tokens": 157,
+        "rows": 23,
+        "token_weighted_nll": 2.329011425091203
+      },
+      "CNN-Daily-Mail (T)": {
+        "nll_sum": 7269.004669189453,
+        "assistant_tokens": 2639,
+        "rows": 23,
+        "token_weighted_nll": 2.7544542134101757
+      },
+      "Flan-GEM-wiki-lingua (T)": {
+        "nll_sum": 13391.862121582031,
+        "assistant_tokens": 3928,
+        "rows": 23,
+        "token_weighted_nll": 3.4093335340076454
+      }
+    },
+    "sst/400": {
+      "Adversarial QA (T)": {
+        "nll_sum": 26092.385467529297,
+        "assistant_tokens": 6418,
+        "rows": 23,
+        "token_weighted_nll": 4.0655010077172475
+      },
+      "PIQA (T)": {
+        "nll_sum": 1199.2698704004288,
+        "assistant_tokens": 1195,
+        "rows": 24,
+        "token_weighted_nll": 1.0035731133057981
+      },
+      "SODA-inst (T)": {
+        "nll_sum": 7656.434066772461,
+        "assistant_tokens": 2055,
+        "rows": 23,
+        "token_weighted_nll": 3.7257586699622682
+      },
+      "Dolly-v2 (T)": {
+        "nll_sum": 8575.343502044678,
+        "assistant_tokens": 2463,
+        "rows": 23,
+        "token_weighted_nll": 3.481666058483426
+      },
+      "HotpotQA (T)": {
+        "nll_sum": 1048.0283870697021,
+        "assistant_tokens": 274,
+        "rows": 23,
+        "token_weighted_nll": 3.8249211206923435
+      },
+      "MasakhaNEWS-inst": {
+        "nll_sum": 37981.86500167847,
+        "assistant_tokens": 9998,
+        "rows": 24,
+        "token_weighted_nll": 3.7989462894257318
+      },
+      "AfriQA-inst": {
+        "nll_sum": 631.7425880432129,
+        "assistant_tokens": 167,
+        "rows": 24,
+        "token_weighted_nll": 3.782889748761754
+      },
+      "Aya-Dataset": {
+        "nll_sum": 5650.998502731323,
+        "assistant_tokens": 1448,
+        "rows": 23,
+        "token_weighted_nll": 3.902623275366936
+      },
+      "PAWS-Wiki (T)": {
+        "nll_sum": 359.58267879486084,
+        "assistant_tokens": 157,
+        "rows": 23,
+        "token_weighted_nll": 2.2903355337252282
+      },
+      "CNN-Daily-Mail (T)": {
+        "nll_sum": 7257.491386413574,
+        "assistant_tokens": 2639,
+        "rows": 23,
+        "token_weighted_nll": 2.7500914688948748
+      },
+      "Flan-GEM-wiki-lingua (T)": {
+        "nll_sum": 13365.250053405762,
+        "assistant_tokens": 3928,
+        "rows": 23,
+        "token_weighted_nll": 3.402558567567658
+      }
+    },
+    "ha_only/0": {
+      "Adversarial QA (T)": {
+        "nll_sum": 34817.2712097168,
+        "assistant_tokens": 6418,
+        "rows": 23,
+        "token_weighted_nll": 5.424940980011966
+      },
+      "PIQA (T)": {
+        "nll_sum": 2743.263849258423,
+        "assistant_tokens": 1195,
+        "rows": 24,
+        "token_weighted_nll": 2.295618283898262
+      },
+      "SODA-inst (T)": {
+        "nll_sum": 12097.850158691406,
+        "assistant_tokens": 2055,
+        "rows": 23,
+        "token_weighted_nll": 5.887031707392412
+      },
+      "Dolly-v2 (T)": {
+        "nll_sum": 12608.660545349121,
+        "assistant_tokens": 2463,
+        "rows": 23,
+        "token_weighted_nll": 5.119228804445441
+      },
+      "HotpotQA (T)": {
+        "nll_sum": 2640.3746490478516,
+        "assistant_tokens": 274,
+        "rows": 23,
+        "token_weighted_nll": 9.636403828641795
+      },
+      "MasakhaNEWS-inst": {
+        "nll_sum": 49055.17247009277,
+        "assistant_tokens": 9998,
+        "rows": 24,
+        "token_weighted_nll": 4.9064985467186215
+      },
+      "AfriQA-inst": {
+        "nll_sum": 2202.291004180908,
+        "assistant_tokens": 167,
+        "rows": 24,
+        "token_weighted_nll": 13.187371282520408
+      },
+      "Aya-Dataset": {
+        "nll_sum": 8587.304443359375,
+        "assistant_tokens": 1448,
+        "rows": 23,
+        "token_weighted_nll": 5.930458869723325
+      },
+      "PAWS-Wiki (T)": {
+        "nll_sum": 1696.1695404052734,
+        "assistant_tokens": 157,
+        "rows": 23,
+        "token_weighted_nll": 10.803627645893462
+      },
+      "CNN-Daily-Mail (T)": {
+        "nll_sum": 11114.517593383789,
+        "assistant_tokens": 2639,
+        "rows": 23,
+        "token_weighted_nll": 4.211639861077601
+      },
+      "Flan-GEM-wiki-lingua (T)": {
+        "nll_sum": 18114.956939697266,
+        "assistant_tokens": 3928,
+        "rows": 23,
+        "token_weighted_nll": 4.611750748395434
+      }
+    },
+    "ha_only/100": {
+      "Adversarial QA (T)": {
+        "nll_sum": 20315.495178222656,
+        "assistant_tokens": 6418,
+        "rows": 23,
+        "token_weighted_nll": 3.1653934525120997
+      },
+      "PIQA (T)": {
+        "nll_sum": 977.9738383293152,
+        "assistant_tokens": 1195,
+        "rows": 24,
+        "token_weighted_nll": 0.8183881492295525
+      },
+      "SODA-inst (T)": {
+        "nll_sum": 5256.776519775391,
+        "assistant_tokens": 2055,
+        "rows": 23,
+        "token_weighted_nll": 2.558042102080482
+      },
+      "Dolly-v2 (T)": {
+        "nll_sum": 6732.212819576263,
+        "assistant_tokens": 2463,
+        "rows": 23,
+        "token_weighted_nll": 2.7333385381958033
+      },
+      "HotpotQA (T)": {
+        "nll_sum": 828.844560623169,
+        "assistant_tokens": 274,
+        "rows": 23,
+        "token_weighted_nll": 3.0249801482597407
+      },
+      "MasakhaNEWS-inst": {
+        "nll_sum": 31604.429683685303,
+        "assistant_tokens": 9998,
+        "rows": 24,
+        "token_weighted_nll": 3.1610751834052113
+      },
+      "AfriQA-inst": {
+        "nll_sum": 492.4620327949524,
+        "assistant_tokens": 167,
+        "rows": 24,
+        "token_weighted_nll": 2.9488744478739664
+      },
+      "Aya-Dataset": {
+        "nll_sum": 4704.341813087463,
+        "assistant_tokens": 1448,
+        "rows": 23,
+        "token_weighted_nll": 3.248854843292447
+      },
+      "PAWS-Wiki (T)": {
+        "nll_sum": 23.43354558944702,
+        "assistant_tokens": 157,
+        "rows": 23,
+        "token_weighted_nll": 0.14925825216208294
+      },
+      "CNN-Daily-Mail (T)": {
+        "nll_sum": 6049.440582275391,
+        "assistant_tokens": 2639,
+        "rows": 23,
+        "token_weighted_nll": 2.2923230702066655
+      },
+      "Flan-GEM-wiki-lingua (T)": {
+        "nll_sum": 11119.736137390137,
+        "assistant_tokens": 3928,
+        "rows": 23,
+        "token_weighted_nll": 2.8308900553437213
+      }
+    },
+    "ha_only/200": {
+      "Adversarial QA (T)": {
+        "nll_sum": 18226.53970336914,
+        "assistant_tokens": 6418,
+        "rows": 23,
+        "token_weighted_nll": 2.839909582949383
+      },
+      "PIQA (T)": {
+        "nll_sum": 881.1513180732727,
+        "assistant_tokens": 1195,
+        "rows": 24,
+        "token_weighted_nll": 0.737365119726588
+      },
+      "SODA-inst (T)": {
+        "nll_sum": 4614.159408569336,
+        "assistant_tokens": 2055,
+        "rows": 23,
+        "token_weighted_nll": 2.2453330455325236
+      },
+      "Dolly-v2 (T)": {
+        "nll_sum": 5917.627963066101,
+        "assistant_tokens": 2463,
+        "rows": 23,
+        "token_weighted_nll": 2.402609810420666
+      },
+      "HotpotQA (T)": {
+        "nll_sum": 737.4528532028198,
+        "assistant_tokens": 274,
+        "rows": 23,
+        "token_weighted_nll": 2.691433770813211
+      },
+      "MasakhaNEWS-inst": {
+        "nll_sum": 29066.77193260193,
+        "assistant_tokens": 9998,
+        "rows": 24,
+        "token_weighted_nll": 2.9072586449891906
+      },
+      "AfriQA-inst": {
+        "nll_sum": 455.3853409290314,
+        "assistant_tokens": 167,
+        "rows": 24,
+        "token_weighted_nll": 2.7268583289163555
+      },
+      "Aya-Dataset": {
+        "nll_sum": 4325.1505398750305,
+        "assistant_tokens": 1448,
+        "rows": 23,
+        "token_weighted_nll": 2.986982417040767
+      },
+      "PAWS-Wiki (T)": {
+        "nll_sum": 16.897683888673782,
+        "assistant_tokens": 157,
+        "rows": 23,
+        "token_weighted_nll": 0.10762855980046995
+      },
+      "CNN-Daily-Mail (T)": {
+        "nll_sum": 5464.916431427002,
+        "assistant_tokens": 2639,
+        "rows": 23,
+        "token_weighted_nll": 2.070828507550967
+      },
+      "Flan-GEM-wiki-lingua (T)": {
+        "nll_sum": 10210.871315002441,
+        "assistant_tokens": 3928,
+        "rows": 23,
+        "token_weighted_nll": 2.5995089905810698
+      }
+    },
+    "ha_only/300": {
+      "Adversarial QA (T)": {
+        "nll_sum": 17396.121139526367,
+        "assistant_tokens": 6418,
+        "rows": 23,
+        "token_weighted_nll": 2.7105205888947284
+      },
+      "PIQA (T)": {
+        "nll_sum": 835.3555756807327,
+        "assistant_tokens": 1195,
+        "rows": 24,
+        "token_weighted_nll": 0.699042322745383
+      },
+      "SODA-inst (T)": {
+        "nll_sum": 4402.250282287598,
+        "assistant_tokens": 2055,
+        "rows": 23,
+        "token_weighted_nll": 2.1422142492883687
+      },
+      "Dolly-v2 (T)": {
+        "nll_sum": 5667.535884857178,
+        "assistant_tokens": 2463,
+        "rows": 23,
+        "token_weighted_nll": 2.3010701927962556
+      },
+      "HotpotQA (T)": {
+        "nll_sum": 700.63605260849,
+        "assistant_tokens": 274,
+        "rows": 23,
+        "token_weighted_nll": 2.5570658854324453
+      },
+      "MasakhaNEWS-inst": {
+        "nll_sum": 27979.57873249054,
+        "assistant_tokens": 9998,
+        "rows": 24,
+        "token_weighted_nll": 2.798517576764407
+      },
+      "AfriQA-inst": {
+        "nll_sum": 449.77889370918274,
+        "assistant_tokens": 167,
+        "rows": 24,
+        "token_weighted_nll": 2.693286788677741
+      },
+      "Aya-Dataset": {
+        "nll_sum": 4116.0202350616455,
+        "assistant_tokens": 1448,
+        "rows": 23,
+        "token_weighted_nll": 2.842555410954175
+      },
+      "PAWS-Wiki (T)": {
+        "nll_sum": 17.033098250627518,
+        "assistant_tokens": 157,
+        "rows": 23,
+        "token_weighted_nll": 0.10849107166004789
+      },
+      "CNN-Daily-Mail (T)": {
+        "nll_sum": 5217.79288482666,
+        "assistant_tokens": 2639,
+        "rows": 23,
+        "token_weighted_nll": 1.9771856327497765
+      },
+      "Flan-GEM-wiki-lingua (T)": {
+        "nll_sum": 9809.730087280273,
+        "assistant_tokens": 3928,
+        "rows": 23,
+        "token_weighted_nll": 2.4973854601019028
+      }
+    },
+    "ha_only/400": {
+      "Adversarial QA (T)": {
+        "nll_sum": 17232.357696533203,
+        "assistant_tokens": 6418,
+        "rows": 23,
+        "token_weighted_nll": 2.685004315446121
+      },
+      "PIQA (T)": {
+        "nll_sum": 827.8281553983688,
+        "assistant_tokens": 1195,
+        "rows": 24,
+        "token_weighted_nll": 0.6927432262747857
+      },
+      "SODA-inst (T)": {
+        "nll_sum": 4357.579986572266,
+        "assistant_tokens": 2055,
+        "rows": 23,
+        "token_weighted_nll": 2.1204768791105915
+      },
+      "Dolly-v2 (T)": {
+        "nll_sum": 5604.271456718445,
+        "assistant_tokens": 2463,
+        "rows": 23,
+        "token_weighted_nll": 2.275384269881626
+      },
+      "HotpotQA (T)": {
+        "nll_sum": 694.1057839393616,
+        "assistant_tokens": 274,
+        "rows": 23,
+        "token_weighted_nll": 2.53323278809986
+      },
+      "MasakhaNEWS-inst": {
+        "nll_sum": 27824.59236240387,
+        "assistant_tokens": 9998,
+        "rows": 24,
+        "token_weighted_nll": 2.7830158394082685
+      },
+      "AfriQA-inst": {
+        "nll_sum": 444.2512574195862,
+        "assistant_tokens": 167,
+        "rows": 24,
+        "token_weighted_nll": 2.6601871701771627
+      },
+      "Aya-Dataset": {
+        "nll_sum": 4079.030632019043,
+        "assistant_tokens": 1448,
+        "rows": 23,
+        "token_weighted_nll": 2.8170101049855267
+      },
+      "PAWS-Wiki (T)": {
+        "nll_sum": 17.397867888212204,
+        "assistant_tokens": 157,
+        "rows": 23,
+        "token_weighted_nll": 0.11081444514784844
+      },
+      "CNN-Daily-Mail (T)": {
+        "nll_sum": 5182.602977752686,
+        "assistant_tokens": 2639,
+        "rows": 23,
+        "token_weighted_nll": 1.9638510715243218
+      },
+      "Flan-GEM-wiki-lingua (T)": {
+        "nll_sum": 9685.752624511719,
+        "assistant_tokens": 3928,
+        "rows": 23,
+        "token_weighted_nll": 2.4658229695803766
+      }
+    }
+  },
+  "local_inputs_manifest_sha256": "92e8d9ee33d4a4103936d357483d78f321449dff42c0db08cf84629a0dddcea5",
+  "code_sha256": "ecd750a2f8ed5d3952db3fc49fdf662039afc96057a7a7ed1d6a7c89c3f93b54",
+  "limits": [
+    "Saved GlotLID scores are classifier outputs, not certified probabilities or bilingual semantic accuracy.",
+    "A (T) source tag identifies translated origin, not a demonstrated mistranslation.",
+    "Reference-shape mismatch is descriptive, not proof of the cause of benchmark changes.",
+    "Exact-pair disjointness does not certify absence of semantic overlap.",
+    "No examples or per-item records are published."
+  ]
+}

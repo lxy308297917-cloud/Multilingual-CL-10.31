@@ -1,0 +1,207 @@
+{
+  "scope": "Reduced aggregate-only publication after automatic review. No host absolute paths, dataset file trees, full environment inventory or server job-control plans. Scientific recipe and necessary data fingerprints retained. Old public science unchanged.",
+  "previous_public_commit": "ce6640abe257fa88a3ed7e803e0b7ab2c0e9b72a",
+  "source_projection": "Paths/inputs represented by explicit CLI arguments or relative asset roles; private input manifests replaced with integrity digests. Public and executed-original source hashes distinguished.",
+  "files": {
+    "scripts/next_stage/metrics.py": {
+      "published_sha256": "720ad9bdbad2d1274ee223acf62f750f151bf33dca38a8e54b7489f3d5dde573",
+      "executed_original_sha256": "720ad9bdbad2d1274ee223acf62f750f151bf33dca38a8e54b7489f3d5dde573"
+    },
+    "scripts/next_stage/evaluate_dev.py": {
+      "published_sha256": "c1e4fdf5e31e72ef80df31cc27ae821a799833b5a47f99bb1bdf00dfaaaa7487",
+      "executed_original_sha256": "c1e4fdf5e31e72ef80df31cc27ae821a799833b5a47f99bb1bdf00dfaaaa7487"
+    },
+    "scripts/next_stage/analyze_curves.py": {
+      "published_sha256": "f8b45acc3d5c44df27a3f503db97afc160aa241a4ec17fee7c8dc1c75c40b9d9",
+      "executed_original_sha256": "f8b45acc3d5c44df27a3f503db97afc160aa241a4ec17fee7c8dc1c75c40b9d9"
+    },
+    "scripts/next_stage/analyze_ha_control.py": {
+      "published_sha256": "7da06d5ebbb7f6831b7b7570189f681d232237ef6ff853ed7d1c3e31ecd6b018",
+      "executed_original_sha256": "7da06d5ebbb7f6831b7b7570189f681d232237ef6ff853ed7d1c3e31ecd6b018"
+    },
+    "scripts/next_stage/plot_curves.py": {
+      "published_sha256": "dd67798a94e3d452c0d559ee3807614a38c0b4431a7ba0922fbc7aab45effe2b",
+      "executed_original_sha256": "dd67798a94e3d452c0d559ee3807614a38c0b4431a7ba0922fbc7aab45effe2b"
+    },
+    "scripts/next_stage/audit_ha_data.py": {
+      "published_sha256": "a853b22da322b5e2eabe9567fb20dee005025b5ce9e8a0a3cb65420ffdc29ed0",
+      "executed_original_sha256": "ecd750a2f8ed5d3952db3fc49fdf662039afc96057a7a7ed1d6a7c89c3f93b54"
+    },
+    "scripts/next_stage/audit_formal_option_bias.py": {
+      "published_sha256": "91ba4fd03a9da784bfcd619801d9401ef7a8a104e3e8e15a63d9a859897e8be5",
+      "executed_original_sha256": "91ba4fd03a9da784bfcd619801d9401ef7a8a104e3e8e15a63d9a859897e8be5"
+    },
+    "scripts/next_stage/audit_reading_runtime_sensitivity.py": {
+      "published_sha256": "75f4d5b0d8a0b7155e3ff0e8194534b79939e37039f7c4892a78c43793d96658",
+      "executed_original_sha256": "75f4d5b0d8a0b7155e3ff0e8194534b79939e37039f7c4892a78c43793d96658"
+    },
+    "scripts/next_stage/resume_probe_v2.py": {
+      "published_sha256": "36043107fc61e6e0e1d6a6737570ba4e286ea9e13f36b55a5c18b04a3e6aeff5",
+      "executed_original_sha256": "36043107fc61e6e0e1d6a6737570ba4e286ea9e13f36b55a5c18b04a3e6aeff5"
+    },
+    "tests/next_stage/test_metrics.py": {
+      "published_sha256": "16c52668b7cc3601061b9f94e6ea4189ca9f90fbfda7ed9899fc3b7ba072fe00",
+      "executed_original_sha256": "16c52668b7cc3601061b9f94e6ea4189ca9f90fbfda7ed9899fc3b7ba072fe00"
+    },
+    "tests/next_stage/test_control.py": {
+      "published_sha256": "a660379f43c83dc4be788c2e15586b7ba326722e86bbbba747b2d4b0ff368aba",
+      "executed_original_sha256": "a660379f43c83dc4be788c2e15586b7ba326722e86bbbba747b2d4b0ff368aba"
+    },
+    "configs/next_stage/ha_only_6400_fft_seed42_20261103_v1.yaml": {
+      "published_sha256": "d37cc60a59ecf1ddd18ca90aa8b03eb345cca1bf4e68a562cc56141778b362b4",
+      "executed_original_sha256": "00ffd8f1773c46f5b589f0ed188ae050838cf09fd0958f10a0a9ef40191daebf"
+    },
+    "configs/next_stage/scientific_protocol.json": {
+      "published_sha256": "5bdc8689620cd6c17dcc0c65c8031ce994f0d0f163b6097982a38f0be382c40f",
+      "executed_original_sha256": null
+    },
+    "results/next_stage/diagnosis_evidence.json": {
+      "published_sha256": "1957b4a5b34594b868aa85021ae2c0ed81ba271bbe50d8b4f50304b7bc32adf0",
+      "executed_original_sha256": "1957b4a5b34594b868aa85021ae2c0ed81ba271bbe50d8b4f50304b7bc32adf0"
+    },
+    "results/next_stage/reading_actual_arguments_identity.json": {
+      "published_sha256": "0d873c2eaa0a47aaaf6f25a1ba7dbcdf8c36fe459da1fcd7ee027ba460e87bdd",
+      "executed_original_sha256": "38447acd37560a1abc575179a0a92af955c304c05c20c2808d5e12157e4d5696"
+    },
+    "results/next_stage/base_scorer_calibration.json": {
+      "published_sha256": "d01b437ae4fca9c894ed755a0d9b5cabd45a6a0d519f49f91b65c5b365fd0277",
+      "executed_original_sha256": "d01b437ae4fca9c894ed755a0d9b5cabd45a6a0d519f49f91b65c5b365fd0277"
+    },
+    "results/next_stage/paper_table.csv": {
+      "published_sha256": "81eb9f6adede357a075f1efeaf050f8784e7de2103f377e8c73cdc133897a498",
+      "executed_original_sha256": "81eb9f6adede357a075f1efeaf050f8784e7de2103f377e8c73cdc133897a498"
+    },
+    "results/next_stage/computation_cost.json": {
+      "published_sha256": "9d3b472f77ec1dd360c48c41bf8801d38598cb8fdd656e3e895367000b697f38",
+      "executed_original_sha256": "9d3b472f77ec1dd360c48c41bf8801d38598cb8fdd656e3e895367000b697f38"
+    },
+    "results/next_stage/validation.json": {
+      "published_sha256": "cb38e93c12d9f52bd3f7d7e4af0244f61b124aa22dbdf3d02438df9a462a87cb",
+      "executed_original_sha256": "297d49201e393fe225c936a1aded3df6cbf0bdd6541c873f6cc68ac1191cda60"
+    },
+    "results/next_stage/formal_receipts.json": {
+      "published_sha256": "9260e9312fdd8c57d87717d2d73b05f5855c438b4e4004f7d5efa7b540b05284",
+      "executed_original_sha256": "9260e9312fdd8c57d87717d2d73b05f5855c438b4e4004f7d5efa7b540b05284"
+    },
+    "results/next_stage/training_step_log.jsonl": {
+      "published_sha256": "a994067ef50fe62a873f0e99f5af8379e9a1b1e8d3eacea3ab622dc3694a2eb0",
+      "executed_original_sha256": "a994067ef50fe62a873f0e99f5af8379e9a1b1e8d3eacea3ab622dc3694a2eb0"
+    },
+    "results/next_stage/data_profile.json": {
+      "published_sha256": "0694fde053ec5480b2417d9babd734be194f65f5bc208a3beb1bd3352d5bc7a3",
+      "executed_original_sha256": "7a6a34c34056dabde5c356f5d60e9a50f5af5d80f9390ab34ec07426d6cf137a"
+    },
+    "results/next_stage/paper_table.md": {
+      "published_sha256": "01d260c2a9b30269bc40e010a98f141108122b12b264100b477c16e04e04eb92",
+      "executed_original_sha256": "01d260c2a9b30269bc40e010a98f141108122b12b264100b477c16e04e04eb92"
+    },
+    "results/next_stage/training_receipt.json": {
+      "published_sha256": "373c455e4515f0c347c466e299a21b642702559a899f9cdaf3995b2c33b0ae64",
+      "executed_original_sha256": "327e7d30e9da5133e69c6996f82708b943635a766d7855f3e07b01672c5d86f5"
+    },
+    "results/next_stage/reading-runtime-sensitivity-v1/analysis.json": {
+      "published_sha256": "4314f6cb0b070f6a57446b7e65bcf851ef741b294179be15f2f32142ced9027c",
+      "executed_original_sha256": "f809826a50c7322e8d048b4463dff4f4f046dfeeeb55f022056c802d050c283a"
+    },
+    "results/next_stage/formal-option-bias-v1/analysis.json": {
+      "published_sha256": "ca26cda9fec70c774939cf4f2ffa4a843af6bee916a59294e73a0614c8a86fa7",
+      "executed_original_sha256": "9c8a588666d7567566b22c89d519e94f8b06c479286d027e860637763d978bd1"
+    },
+    "results/next_stage/resume-probe-v2/VERIFIER_SCHEMA_FIX.json": {
+      "published_sha256": "0b737a6b9d3f573aadad391b4df6a655e7b801386c8afaaf368bf5d28c7dac23",
+      "executed_original_sha256": "0b737a6b9d3f573aadad391b4df6a655e7b801386c8afaaf368bf5d28c7dac23"
+    },
+    "results/next_stage/resume-probe-v2/VERIFIED.json": {
+      "published_sha256": "dac123fd9189c6788c0bfd74262898185da241d512ed4d4b21659d73c07a9810",
+      "executed_original_sha256": "dac123fd9189c6788c0bfd74262898185da241d512ed4d4b21659d73c07a9810"
+    },
+    "results/next_stage/curves/curve_rows.csv": {
+      "published_sha256": "78dead985767a9e472083076cc05a949c56bf63e8b65a93d0f3d82524cc04531",
+      "executed_original_sha256": "78dead985767a9e472083076cc05a949c56bf63e8b65a93d0f3d82524cc04531"
+    },
+    "results/next_stage/curves/analysis.json": {
+      "published_sha256": "21c4ddeb027c48eb402df86a3ba6337f5339f0197116f8529f65ff234fe24830",
+      "executed_original_sha256": "3906468a6622a0183a0f3948101e592679bb2b06f7e0ffbedd61bf86bea0ed44"
+    },
+    "results/next_stage/curves/manifest.json": {
+      "published_sha256": "88e8707b2455ad162f8949d7fef21b5cfb1b3b26ff3da2a67e378222b4bd8bdc",
+      "executed_original_sha256": "88e8707b2455ad162f8949d7fef21b5cfb1b3b26ff3da2a67e378222b4bd8bdc"
+    },
+    "results/next_stage/curves/ha_learning_curves.pdf": {
+      "published_sha256": "9b95af09dd10e0d3fff00c06dfc45dee9da8c1eb47b9dcdd065a822f9c6a7534",
+      "executed_original_sha256": "9b95af09dd10e0d3fff00c06dfc45dee9da8c1eb47b9dcdd065a822f9c6a7534"
+    },
+    "results/next_stage/curves/ha_learning_curves.png": {
+      "published_sha256": "4c0d4fd1a08588fa2dfd24c5cda32ba8d6904fab7057a8319ad1f603248b12d1",
+      "executed_original_sha256": "4c0d4fd1a08588fa2dfd24c5cda32ba8d6904fab7057a8319ad1f603248b12d1"
+    },
+    "results/next_stage/curves/report.md": {
+      "published_sha256": "a4c674de39abb9a0a87c78366d386b36c237c4b565ca47429285d0829d7f01a2",
+      "executed_original_sha256": "a4c674de39abb9a0a87c78366d386b36c237c4b565ca47429285d0829d7f01a2"
+    },
+    "results/next_stage/ha-only-vs-base-paired-v1/analysis.json": {
+      "published_sha256": "4adf108e49c70b0101a5f25d4469b506ae4a79a53a6e63173ce572dcffe288e8",
+      "executed_original_sha256": "80acc0321f4d3c9cb5ceffeda8ec96b37e0e85a5cda3c29384d54fdf93e11c50"
+    },
+    "results/next_stage/ha-only-vs-base-paired-v1/report.md": {
+      "published_sha256": "e6c854c37e170c7d58959866f61612dd1768a66080e974b7e78994f6f536965e",
+      "executed_original_sha256": "e6c854c37e170c7d58959866f61612dd1768a66080e974b7e78994f6f536965e"
+    },
+    "results/next_stage/ha-only-vs-sequential-paired-v1/analysis.json": {
+      "published_sha256": "982030704b55dcd3b2ef1d9be8cdee6c53ed3311e0e8aaeb4e620eea905a40dc",
+      "executed_original_sha256": "fcce40d7a156e9483b4c1ff1416f7cfe4ecc7485b20123a379994c19c09cf916"
+    },
+    "results/next_stage/ha-only-vs-sequential-paired-v1/report.md": {
+      "published_sha256": "1793267ade078f9331517c2538287370864724b8d705aaaa876ca3c67b91567d",
+      "executed_original_sha256": "1793267ade078f9331517c2538287370864724b8d705aaaa876ca3c67b91567d"
+    },
+    "results/next_stage/ha-only-four-model-analysis-v1/analysis.json": {
+      "published_sha256": "3590b19a446acc86c48015bccd60708218f10b8d0c30b0c6e0917b4aea8b0fde",
+      "executed_original_sha256": "fe7eab60b835ce7cde19f0fda67eccce79d5a2a72542e608b49c11e02924285a"
+    },
+    "results/next_stage/ha-only-four-model-analysis-v1/report.md": {
+      "published_sha256": "02418334a07747829046905ea827909e7cfef221c5e28978c282c0f11ac3e833",
+      "executed_original_sha256": "02418334a07747829046905ea827909e7cfef221c5e28978c282c0f11ac3e833"
+    },
+    "results/next_stage/artifact_fingerprints.json": {
+      "published_sha256": "496a804b80917022d1a253315fcafd7bc0fcf2cd3f52680898670f195ef54b38",
+      "executed_original_sha256": null
+    },
+    "research/next_stage/README.md": {
+      "published_sha256": "21d8753ff2a33bb8a0b63a583f83ca02beb2fd01f5ff950e7ec52d11963abdb4",
+      "executed_original_sha256": "36168499dd37a8abc11b0f37403a9903089a729e117da3b76047b04ca34777b9"
+    },
+    "research/next_stage/ha_learning_curves.md": {
+      "published_sha256": "3c8fa24f87c32f3c1c3a33a9900788174016cdb2d5b7d506fe7840f0c534464b",
+      "executed_original_sha256": "d1aa8d2e8169d8afdcc1472f0e73943166afa58648b39b89d08aaa8a6fbd42f3"
+    },
+    "research/next_stage/ha_only_control.md": {
+      "published_sha256": "95d3aed02daf7d5853cbb5db7a78e0e86d2709957857000a7d1f4cbb8bcd459f",
+      "executed_original_sha256": "e6816fe27bd3a804c032ebbd95b7249b8e3477c46bae4232e6448a9bacd7773c"
+    },
+    "research/next_stage/next_method_decision.md": {
+      "published_sha256": "a591a23d7e32425b3c60e61177cd2e4d8fa1e81f9ca334bffc77b6c7d3b8e157",
+      "executed_original_sha256": "a591a23d7e32425b3c60e61177cd2e4d8fa1e81f9ca334bffc77b6c7d3b8e157"
+    },
+    "research/next_stage/diagnosis.md": {
+      "published_sha256": "172b472d7d925d61a04507265cc3f5374c7d3f5c7eaaa41bc1d4008a1c282e18",
+      "executed_original_sha256": "5b3fb0e7f0366db23e1843d0725c989d3fb40b580a285c95bcd4110375f33d7c"
+    },
+    "research/next_stage/reproduce.md": {
+      "published_sha256": "b46564947a680861a87edefb81adcf4693d146160c6fb37635914705cb9587cf",
+      "executed_original_sha256": "bbef7dc3eef6065a90391bee1dafe08fc3b1eb26a125af625bf4a7a87c4389ad"
+    },
+    "README.md": {
+      "published_sha256": "bd45a511ac6ba34310692bd3eeda39d691c154addec4ea457cffb40cab239366",
+      "executed_original_sha256": null
+    },
+    "STATUS.md": {
+      "published_sha256": "dd5327ed7f61a43fa2b83005b8bc7841b42d12369e251a7b4605565ccd3f8990",
+      "executed_original_sha256": null
+    },
+    "research/chatgpt_handoff.md": {
+      "published_sha256": "9e0eec8519d3e37c61bb7ed93c7d066056f73630be88b77d24cf9892ee2e50c1",
+      "executed_original_sha256": null
+    }
+  }
+}

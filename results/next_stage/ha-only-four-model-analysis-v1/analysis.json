@@ -1,0 +1,490 @@
+{
+  "status": "VERIFIED_FOUR_MODEL_CONTROL",
+  "model_roles": {
+    "A0": "BaseW0",
+    "A1": "Base\u2192HA400",
+    "B0": "SWFFTFinalW1",
+    "B1": "SWFFT\u2192HA400"
+  },
+  "results": [
+    {
+      "task": "ha-belebele",
+      "subset": "all",
+      "n": 900,
+      "scores": {
+        "A0": 23.88888888888889,
+        "A1": 24.444444444444443,
+        "B0": 28.444444444444443,
+        "B1": 26.88888888888889
+      },
+      "paired_contrasts_pp": {
+        "A_gain": {
+          "delta": 0.5555555555555556,
+          "ci95_low": -2.3256458515959366,
+          "ci95_high": 3.367806353003717,
+          "clusters": 488,
+          "repeats": 2000,
+          "seed": 42
+        },
+        "B_gain": {
+          "delta": -1.5555555555555556,
+          "ci95_low": -4.867391389566735,
+          "ci95_high": 1.8826135105204873,
+          "clusters": 488,
+          "repeats": 2000,
+          "seed": 42
+        },
+        "initial_B_minus_A": {
+          "delta": 4.555555555555555,
+          "ci95_low": 0.8796188022575382,
+          "ci95_high": 8.398022295017844,
+          "clusters": 488,
+          "repeats": 2000,
+          "seed": 42
+        },
+        "final_A_minus_B": {
+          "delta": -2.4444444444444446,
+          "ci95_low": -4.651680161419665,
+          "ci95_high": -0.3322167259577221,
+          "clusters": 488,
+          "repeats": 2000,
+          "seed": 42
+        },
+        "A_gain_minus_B_gain": {
+          "delta": 2.111111111111111,
+          "ci95_low": -1.8095180318076605,
+          "ci95_high": 6.053981519228155,
+          "clusters": 488,
+          "repeats": 2000,
+          "seed": 42
+        }
+      },
+      "predefined_initial_correctness_strata": [
+        {
+          "initial_A0_correct": 0,
+          "initial_B0_correct": 0,
+          "n": 510,
+          "A1_final_acc": 8.823529411764707,
+          "B1_final_acc": 10.392156862745098,
+          "final_A_minus_B": {
+            "delta": -1.5686274509803921,
+            "ci95_low": -3.9138943248532287,
+            "ci95_high": 0.5964214711729622,
+            "clusters": 375,
+            "repeats": 2000,
+            "seed": 42
+          }
+        },
+        {
+          "initial_A0_correct": 0,
+          "initial_B0_correct": 1,
+          "n": 175,
+          "A1_final_acc": 18.857142857142858,
+          "B1_final_acc": 36.57142857142857,
+          "final_A_minus_B": {
+            "delta": -17.71428571428571,
+            "ci95_low": -24.85549132947977,
+            "ci95_high": -11.537356321839088,
+            "clusters": 162,
+            "repeats": 2000,
+            "seed": 42
+          }
+        },
+        {
+          "initial_A0_correct": 1,
+          "initial_B0_correct": 0,
+          "n": 134,
+          "A1_final_acc": 68.65671641791045,
+          "B1_final_acc": 52.98507462686567,
+          "final_A_minus_B": {
+            "delta": 15.671641791044777,
+            "ci95_low": 9.090909090909092,
+            "ci95_high": 22.137540894220283,
+            "clusters": 123,
+            "repeats": 2000,
+            "seed": 42
+          }
+        },
+        {
+          "initial_A0_correct": 1,
+          "initial_B0_correct": 1,
+          "n": 81,
+          "A1_final_acc": 61.72839506172839,
+          "B1_final_acc": 66.66666666666666,
+          "final_A_minus_B": {
+            "delta": -4.938271604938271,
+            "ci95_low": -13.580246913580247,
+            "ci95_high": 3.6155598001763085,
+            "clusters": 79,
+            "repeats": 2000,
+            "seed": 42
+          }
+        }
+      ],
+      "cluster_unit": "original_passage",
+      "historical_exposure": "All reading900 historically exposed;180 used for current diagnostics.720 not used in current curves but not historically unseen."
+    },
+    {
+      "task": "ha-belebele",
+      "subset": "development_overlap180",
+      "n": 180,
+      "scores": {
+        "A0": 29.444444444444446,
+        "A1": 28.888888888888886,
+        "B0": 31.666666666666664,
+        "B1": 29.444444444444446
+      },
+      "paired_contrasts_pp": {
+        "A_gain": {
+          "delta": -0.5555555555555556,
+          "ci95_low": -6.741573033707865,
+          "ci95_high": 5.650520030816637,
+          "clusters": 98,
+          "repeats": 2000,
+          "seed": 42
+        },
+        "B_gain": {
+          "delta": -2.2222222222222223,
+          "ci95_low": -10.057128848211102,
+          "ci95_high": 5.649717514124294,
+          "clusters": 98,
+          "repeats": 2000,
+          "seed": 42
+        },
+        "initial_B_minus_A": {
+          "delta": 2.2222222222222223,
+          "ci95_low": -7.142857142857142,
+          "ci95_high": 11.579528932829307,
+          "clusters": 98,
+          "repeats": 2000,
+          "seed": 42
+        },
+        "final_A_minus_B": {
+          "delta": -0.5555555555555556,
+          "ci95_low": -5.056179775280898,
+          "ci95_high": 4.072189922480607,
+          "clusters": 98,
+          "repeats": 2000,
+          "seed": 42
+        },
+        "A_gain_minus_B_gain": {
+          "delta": 1.6666666666666667,
+          "ci95_low": -7.608695652173914,
+          "ci95_high": 10.385381758898635,
+          "clusters": 98,
+          "repeats": 2000,
+          "seed": 42
+        }
+      },
+      "predefined_initial_correctness_strata": [
+        {
+          "initial_A0_correct": 0,
+          "initial_B0_correct": 0,
+          "n": 90,
+          "A1_final_acc": 7.777777777777778,
+          "B1_final_acc": 8.88888888888889,
+          "final_A_minus_B": {
+            "delta": -1.1111111111111112,
+            "ci95_low": -6.317469204927212,
+            "ci95_high": 3.7121212121211657,
+            "clusters": 71,
+            "repeats": 2000,
+            "seed": 42
+          }
+        },
+        {
+          "initial_A0_correct": 0,
+          "initial_B0_correct": 1,
+          "n": 37,
+          "A1_final_acc": 24.324324324324326,
+          "B1_final_acc": 37.83783783783784,
+          "final_A_minus_B": {
+            "delta": -13.513513513513514,
+            "ci95_low": -26.31578947368421,
+            "ci95_high": 0.0,
+            "clusters": 33,
+            "repeats": 2000,
+            "seed": 42
+          }
+        },
+        {
+          "initial_A0_correct": 1,
+          "initial_B0_correct": 0,
+          "n": 33,
+          "A1_final_acc": 66.66666666666666,
+          "B1_final_acc": 48.484848484848484,
+          "final_A_minus_B": {
+            "delta": 18.181818181818183,
+            "ci95_low": 6.0606060606060606,
+            "ci95_high": 32.35294117647059,
+            "clusters": 31,
+            "repeats": 2000,
+            "seed": 42
+          }
+        },
+        {
+          "initial_A0_correct": 1,
+          "initial_B0_correct": 1,
+          "n": 20,
+          "A1_final_acc": 70.0,
+          "B1_final_acc": 75.0,
+          "final_A_minus_B": {
+            "delta": -5.0,
+            "ci95_low": -20.0,
+            "ci95_high": 10.0,
+            "clusters": 20,
+            "repeats": 2000,
+            "seed": 42
+          }
+        }
+      ],
+      "cluster_unit": "original_passage",
+      "historical_exposure": "All reading900 historically exposed;180 used for current diagnostics.720 not used in current curves but not historically unseen."
+    },
+    {
+      "task": "ha-belebele",
+      "subset": "not_in_current_curves720",
+      "n": 720,
+      "scores": {
+        "A0": 22.5,
+        "A1": 23.333333333333332,
+        "B0": 27.63888888888889,
+        "B1": 26.25
+      },
+      "paired_contrasts_pp": {
+        "A_gain": {
+          "delta": 0.8333333333333334,
+          "ci95_low": -2.374384693518772,
+          "ci95_high": 4.080099034069107,
+          "clusters": 390,
+          "repeats": 2000,
+          "seed": 42
+        },
+        "B_gain": {
+          "delta": -1.3888888888888888,
+          "ci95_low": -5.021447909707816,
+          "ci95_high": 2.4525676819108595,
+          "clusters": 390,
+          "repeats": 2000,
+          "seed": 42
+        },
+        "initial_B_minus_A": {
+          "delta": 5.138888888888888,
+          "ci95_low": 0.9774841351629876,
+          "ci95_high": 9.154270688858066,
+          "clusters": 390,
+          "repeats": 2000,
+          "seed": 42
+        },
+        "final_A_minus_B": {
+          "delta": -2.9166666666666665,
+          "ci95_low": -5.368092398704164,
+          "ci95_high": -0.41895070745371077,
+          "clusters": 390,
+          "repeats": 2000,
+          "seed": 42
+        },
+        "A_gain_minus_B_gain": {
+          "delta": 2.2222222222222223,
+          "ci95_low": -2.2222994900324524,
+          "ci95_high": 6.610874054501198,
+          "clusters": 390,
+          "repeats": 2000,
+          "seed": 42
+        }
+      },
+      "predefined_initial_correctness_strata": [
+        {
+          "initial_A0_correct": 0,
+          "initial_B0_correct": 0,
+          "n": 420,
+          "A1_final_acc": 9.047619047619047,
+          "B1_final_acc": 10.714285714285714,
+          "final_A_minus_B": {
+            "delta": -1.6666666666666667,
+            "ci95_low": -4.286226930963774,
+            "ci95_high": 0.7540290432801603,
+            "clusters": 304,
+            "repeats": 2000,
+            "seed": 42
+          }
+        },
+        {
+          "initial_A0_correct": 0,
+          "initial_B0_correct": 1,
+          "n": 138,
+          "A1_final_acc": 17.391304347826086,
+          "B1_final_acc": 36.231884057971016,
+          "final_A_minus_B": {
+            "delta": -18.84057971014493,
+            "ci95_low": -26.666666666666668,
+            "ci95_high": -11.940298507462686,
+            "clusters": 129,
+            "repeats": 2000,
+            "seed": 42
+          }
+        },
+        {
+          "initial_A0_correct": 1,
+          "initial_B0_correct": 0,
+          "n": 101,
+          "A1_final_acc": 69.3069306930693,
+          "B1_final_acc": 54.45544554455446,
+          "final_A_minus_B": {
+            "delta": 14.85148514851485,
+            "ci95_low": 7.068939393939394,
+            "ci95_high": 22.0,
+            "clusters": 92,
+            "repeats": 2000,
+            "seed": 42
+          }
+        },
+        {
+          "initial_A0_correct": 1,
+          "initial_B0_correct": 1,
+          "n": 61,
+          "A1_final_acc": 59.01639344262295,
+          "B1_final_acc": 63.934426229508205,
+          "final_A_minus_B": {
+            "delta": -4.918032786885246,
+            "ci95_low": -14.754098360655737,
+            "ci95_high": 4.838709677419355,
+            "clusters": 59,
+            "repeats": 2000,
+            "seed": 42
+          }
+        }
+      ],
+      "cluster_unit": "original_passage",
+      "historical_exposure": "All reading900 historically exposed;180 used for current diagnostics.720 not used in current curves but not historically unseen."
+    },
+    {
+      "task": "ha-gmmlu",
+      "subset": "all",
+      "n": 14042,
+      "scores": {
+        "A0": 26.249821962683377,
+        "A1": 27.52456914969378,
+        "B0": 29.717988890471442,
+        "B1": 27.6527560176613
+      },
+      "paired_contrasts_pp": {
+        "A_gain": {
+          "delta": 1.2747471870103972,
+          "ci95_low": 0.5483549351944167,
+          "ci95_high": 1.9940179461615155,
+          "clusters": 14042,
+          "repeats": 2000,
+          "seed": 42
+        },
+        "B_gain": {
+          "delta": -2.065232872810141,
+          "ci95_low": -2.8701395812562316,
+          "ci95_high": -1.224718701039739,
+          "clusters": 14042,
+          "repeats": 2000,
+          "seed": 42
+        },
+        "initial_B_minus_A": {
+          "delta": 3.4681669277880642,
+          "ci95_low": 2.577624270047002,
+          "ci95_high": 4.3444666001994,
+          "clusters": 14042,
+          "repeats": 2000,
+          "seed": 42
+        },
+        "final_A_minus_B": {
+          "delta": -0.12818686796752599,
+          "ci95_low": -0.6266913545079048,
+          "ci95_high": 0.38456060390257796,
+          "clusters": 14042,
+          "repeats": 2000,
+          "seed": 42
+        },
+        "A_gain_minus_B_gain": {
+          "delta": 3.339980059820538,
+          "ci95_low": 2.3283720267768127,
+          "ci95_high": 4.31580259222333,
+          "clusters": 14042,
+          "repeats": 2000,
+          "seed": 42
+        }
+      },
+      "predefined_initial_correctness_strata": [
+        {
+          "initial_A0_correct": 0,
+          "initial_B0_correct": 0,
+          "n": 8135,
+          "A1_final_acc": 9.502151198524892,
+          "B1_final_acc": 8.998156115550092,
+          "final_A_minus_B": {
+            "delta": 0.5039950829748002,
+            "ci95_low": -0.03687768899815612,
+            "ci95_high": 1.0079901659496004,
+            "clusters": 8135,
+            "repeats": 2000,
+            "seed": 42
+          }
+        },
+        {
+          "initial_A0_correct": 0,
+          "initial_B0_correct": 1,
+          "n": 2221,
+          "A1_final_acc": 28.410625844214316,
+          "B1_final_acc": 33.0031517334534,
+          "final_A_minus_B": {
+            "delta": -4.592525889239082,
+            "ci95_low": -6.2584421431787485,
+            "ci95_high": -2.9266096352994144,
+            "clusters": 2221,
+            "repeats": 2000,
+            "seed": 42
+          }
+        },
+        {
+          "initial_A0_correct": 1,
+          "initial_B0_correct": 0,
+          "n": 1734,
+          "A1_final_acc": 51.9607843137255,
+          "B1_final_acc": 50.403690888119954,
+          "final_A_minus_B": {
+            "delta": 1.5570934256055362,
+            "ci95_low": -0.34602076124567477,
+            "ci95_high": 3.4602076124567476,
+            "clusters": 1734,
+            "repeats": 2000,
+            "seed": 42
+          }
+        },
+        {
+          "initial_A0_correct": 1,
+          "initial_B0_correct": 1,
+          "n": 1952,
+          "A1_final_acc": 79.91803278688525,
+          "B1_final_acc": 79.09836065573771,
+          "final_A_minus_B": {
+            "delta": 0.819672131147541,
+            "ci95_low": -0.4610655737704918,
+            "ci95_high": 2.2540983606557377,
+            "clusters": 1952,
+            "repeats": 2000,
+            "seed": 42
+          }
+        }
+      ],
+      "cluster_unit": "original_question",
+      "historical_exposure": "Official test distinct from dev;prior-model scores historically exposed;new run fixedFinal only"
+    }
+  ],
+  "all_doc_and_prompt_exact": true,
+  "local_inputs_manifest_sha256": "9284f315166fca6517cd471693752d465a7e199d6e426c5c00b535bef78cc7d7",
+  "analysis_source_sha256": "7da06d5ebbb7f6831b7b7570189f681d232237ef6ff853ed7d1c3e31ecd6b018",
+  "bootstrap": "2000 paired original clusters,seed42;unadjusted descriptive intervals",
+  "no_test_based_model_selection": true,
+  "interpretation_limits": [
+    "Gain contrast includes initial headroom;report final gap and initial gap separately",
+    "Correctness strata descriptive,not randomized causal proof",
+    "No test-based LR/rank/budget/checkpoint change",
+    "HA-only total400 versus sequentialtotal800;onlyHA-phase exposures matched"
+  ]
+}

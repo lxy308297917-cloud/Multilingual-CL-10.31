@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "engineering_only": true,
+  "continuous_updates": 4,
+  "split_updates": [
+    2,
+    2
+  ],
+  "native_schedule_steps": 400,
+  "same_gpu_pair_seed42_full_determinism": true,
+  "all_compared_values_bitwise_equal": true,
+  "tensor_counts": {
+    "rng": 6,
+    "FP32masters": 4,
+    "AdamWstate": 12,
+    "BF16exports": 310
+  },
+  "tensor_elements": {
+    "rng": 10176,
+    "FP32masters": 1720574976,
+    "AdamWstate": 3441149956,
+    "BF16exports": 1720574976
+  },
+  "failures": [],
+  "source_sha256": "a8219e4190b759cc06f31139673acbf0ae94c0701db632ae7356e5f3b535b939",
+  "seconds": 10.79563856124878,
+  "scope_limit": "This checks a 4-step engineering continuation, not exact equivalence for arbitrary restart steps. Main400 ran fresh without resume. v1 failed before updates due incorrect CPUAdam assertion; v2 checked actual torch AdamW and restores scheduler binding."
+}
