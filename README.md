@@ -1,5 +1,19 @@
 ## 进行中的统一语言顺序基线 · 2026-11-04
 
+## 统一语言顺序实验：当前阶段
+
+21段主训练均已完成；MASSIVE、MathOctopus、MTOP、XNLI四轨道的原生与通用能力矩阵已完成。
+其余三轨道正式测评仍在运行，Same-ID/Disjoint-ID对照尚未启动，整个目标继续进行。
+
+- [四轨道阶段总表](research/unified_language_cl/second_batch_summary.md)
+- [项目当前进度与完整结果入口](research/unified_language_cl/README.md)
+- [MTOP：目标结构学习与通用任务变化](research/unified_language_cl/mtop_results.md)
+- [XNLI：目标分类学习与通用任务变化](research/unified_language_cl/xnli_results.md)
+- [可复现代码与步骤](research/unified_language_cl/reproduction.md)
+
+下面保留之前的研究记录；当前新增任务以统一语言实验入口为准，不自动开展My Method或第三语言训练。
+
+
 MASSIVE和MathOctopus首批固定Final结果已完成：前者目标任务提升且GSM8K/IFEval退化，ES旧语言遗忘尚不明确；后者正式数学测试下降。其余五轨训练/测评和完整代码整理继续进行。
 
 - [本轮进度、结果与限制](research/unified_language_cl/README.md)
