@@ -7,3 +7,8 @@ __pycache__/
 data/
 models/
 logs/
+
+# Local reproduction outputs and downloaded dependencies
+/runs/
+/vendor/
+/.venv-metrics/

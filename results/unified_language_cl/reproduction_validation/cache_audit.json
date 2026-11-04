@@ -1,0 +1,196 @@
+{
+  "status": "ALL_SEVEN_AUDITED",
+  "scope": "Reproduction gate: prepared source hashes, official model/tokenizer identity, fixed sample/step budgets and all 28 training caches. This is not independent linguistic quality certification.",
+  "tracks": {
+    "massive": {
+      "protocol_sha256": "29688354b5216715e9f55bced4ff715b9e7e2cb29b794d02c5f74a7a3a4a5807",
+      "training_examples_per_language": 3200,
+      "steps": 200,
+      "verified_cache": {
+        "es": {
+          "rows": 3200,
+          "input_tokens": 912496,
+          "shifted_assistant_tokens": 14718
+        },
+        "th": {
+          "rows": 3200,
+          "input_tokens": 974007,
+          "shifted_assistant_tokens": 14718
+        },
+        "fr": {
+          "rows": 3200,
+          "input_tokens": 925669,
+          "shifted_assistant_tokens": 14718
+        },
+        "en": {
+          "rows": 3200,
+          "input_tokens": 884148,
+          "shifted_assistant_tokens": 14718
+        }
+      }
+    },
+    "mathoctopus": {
+      "protocol_sha256": "cc6e4043b411eb95fe9ece039dfbd15588ebed0f1477ed9e885742cd0dc4d59a",
+      "training_examples_per_language": 3200,
+      "steps": 200,
+      "verified_cache": {
+        "es": {
+          "rows": 3200,
+          "input_tokens": 798668,
+          "shifted_assistant_tokens": 430876
+        },
+        "th": {
+          "rows": 3200,
+          "input_tokens": 1133169,
+          "shifted_assistant_tokens": 579533
+        },
+        "fr": {
+          "rows": 3200,
+          "input_tokens": 807770,
+          "shifted_assistant_tokens": 422943
+        },
+        "en": {
+          "rows": 3200,
+          "input_tokens": 679437,
+          "shifted_assistant_tokens": 388034
+        }
+      }
+    },
+    "mtop": {
+      "protocol_sha256": "522afc6fa9497802862bd7fa2ebf2289154892d94d79ac185b0e3c90d562a5b7",
+      "training_examples_per_language": 3200,
+      "steps": 200,
+      "verified_cache": {
+        "es": {
+          "rows": 3200,
+          "input_tokens": 4506812,
+          "shifted_assistant_tokens": 80790
+        },
+        "th": {
+          "rows": 3200,
+          "input_tokens": 4580851,
+          "shifted_assistant_tokens": 106470
+        },
+        "fr": {
+          "rows": 3200,
+          "input_tokens": 4519824,
+          "shifted_assistant_tokens": 80465
+        },
+        "en": {
+          "rows": 3200,
+          "input_tokens": 4457424,
+          "shifted_assistant_tokens": 76320
+        }
+      }
+    },
+    "xnli": {
+      "protocol_sha256": "c11a77d2f4cbc136907a3ab96921c1e99a925c9fa310798c2c72028eae3ab85d",
+      "training_examples_per_language": 3200,
+      "steps": 200,
+      "verified_cache": {
+        "es": {
+          "rows": 3200,
+          "input_tokens": 308344,
+          "shifted_assistant_tokens": 13892
+        },
+        "th": {
+          "rows": 3200,
+          "input_tokens": 545011,
+          "shifted_assistant_tokens": 13892
+        },
+        "fr": {
+          "rows": 3200,
+          "input_tokens": 345730,
+          "shifted_assistant_tokens": 13892
+        },
+        "en": {
+          "rows": 3200,
+          "input_tokens": 246247,
+          "shifted_assistant_tokens": 13892
+        }
+      }
+    },
+    "xlsum": {
+      "protocol_sha256": "4090e049b3882b04ccd359a3359e0cdd4d4142bf3a9740b6d02bfe988922567f",
+      "training_examples_per_language": 3200,
+      "steps": 200,
+      "verified_cache": {
+        "es": {
+          "rows": 3200,
+          "input_tokens": 3523541,
+          "shifted_assistant_tokens": 148780
+        },
+        "th": {
+          "rows": 3200,
+          "input_tokens": 4465148,
+          "shifted_assistant_tokens": 409928
+        },
+        "fr": {
+          "rows": 3200,
+          "input_tokens": 2268672,
+          "shifted_assistant_tokens": 149848
+        },
+        "en": {
+          "rows": 3200,
+          "input_tokens": 1961601,
+          "shifted_assistant_tokens": 92699
+        }
+      }
+    },
+    "wikilingua": {
+      "protocol_sha256": "008c3ead979d00d1d29fb3833faa77f579c600f77a737cd069baa0c6c0c053d1",
+      "training_examples_per_language": 3200,
+      "steps": 200,
+      "verified_cache": {
+        "es": {
+          "rows": 3200,
+          "input_tokens": 2384083,
+          "shifted_assistant_tokens": 195841
+        },
+        "th": {
+          "rows": 3200,
+          "input_tokens": 3451905,
+          "shifted_assistant_tokens": 286345
+        },
+        "fr": {
+          "rows": 3200,
+          "input_tokens": 2590297,
+          "shifted_assistant_tokens": 200051
+        },
+        "en": {
+          "rows": 3200,
+          "input_tokens": 1786522,
+          "shifted_assistant_tokens": 129542
+        }
+      }
+    },
+    "sib200": {
+      "protocol_sha256": "445557867e7e2c884ee752dcf170e789d70c50c345bde91bed613c0073ce8a1b",
+      "training_examples_per_language": 640,
+      "steps": 40,
+      "verified_cache": {
+        "es": {
+          "rows": 640,
+          "input_tokens": 58072,
+          "shifted_assistant_tokens": 2447
+        },
+        "th": {
+          "rows": 640,
+          "input_tokens": 84534,
+          "shifted_assistant_tokens": 2447
+        },
+        "fr": {
+          "rows": 640,
+          "input_tokens": 60181,
+          "shifted_assistant_tokens": 2447
+        },
+        "en": {
+          "rows": 640,
+          "input_tokens": 45862,
+          "shifted_assistant_tokens": 2447
+        }
+      }
+    }
+  },
+  "gpu_execution": false
+}

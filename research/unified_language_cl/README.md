@@ -1,33 +1,161 @@
-# 统一语言顺序CL：首批固定预算结果（进行中）
+# 统一语言顺序基线：进度与已完成结果
 
-本轮目标：七个独立任务轨道的ES→TH Single FFT / FFT-SEQ基线，FR只测评。相同官方后训练Qwen3-1.7B锁定revision，seed42，3200条/200步/段，effective batch16，AdamW LR1e-5，cosine warmup0.05，BF16，长度2048，assistant-only non-thinking，不packing。SIB-200为640条/40步。Final固定，不按EN保持或正式test选checkpoint。
+更新：2026-11-04T22:44:10.732883+08:00。目标进行中。
 
-**这次提交是首批结果快照，不是整个目标完成交付。** MASSIVE、MathOctopus各三段训练和四模型正式矩阵已完成；另五轨数据均已准备，MTOP正式训练与通用能力评测正在继续。新训练/评分代码和完整配置将在最终交付统一整理，本次只发布聚合结果、协议和图。
+固定 ES→TH；FR只测评。各轨独立从同一锁定Qwen3-1.7B后训练版本出发，Single ES、Single TH、ES Final→TH；3200条/200步（SIB640条/40步），effective batch16，LR1e-5，assistant-only，固定Final。
 
-## 已观察到什么
+| 轨道 | 数据 | Base开发 | 完成训练段数 | 正式矩阵 |
+|---|---|---|---:|---|
+| massive | 已冻结 | 完成 | 3/3 | 完成 |
+| mathoctopus | 已冻结 | 完成 | 3/3 | 完成 |
+| xnli | 已冻结 | 完成 | 3/3 | NOT_RUN/进行中 |
+| mtop | 已冻结 | 完成 | 3/3 | NOT_RUN/进行中 |
+| wikilingua | 已冻结 | 完成 | 0/3 | NOT_RUN/进行中 |
+| xlsum | 已冻结 | 完成 | 2/3 | NOT_RUN/进行中 |
+| sib200 | 已冻结 | 完成 | 2/3 | NOT_RUN/进行中 |
 
-- MASSIVE：ES→TH使TH从76.60%升至81.34%；ES从84.03%变为83.83%，下降0.20个百分点的配对区间跨零。不能称已有稳定遗忘。标签与格式学习对收益有贡献；固定同题64题候选诊断单列。
-- MathOctopus：正式MGSM-Rev2和MSVAMP相对Base四语均下降；不能称目标任务学习成功。训练来源开发曲线中的恢复不能替代正式测试收益。####格式与数值正确率分别报告。
-- **MASSIVE完整通用能力监测已完成：** ES→TH最终GSM8K flexible为67.17%（Base73.16%，下降5.99个百分点），IFEval prompt strict为44.18%（Base66.36%，下降22.18个百分点）；英语阅读由60.89%升至79.44%。因此已观察到目标任务收益与部分通用能力退化，并非英语所有能力都下降。ES旧语言遗忘仍不明确。
-- MathOctopus：GSM8K strict由44.81%升至57.24%，但flexible由73.16%降至57.39%；严格格式分数改善不能等同于数学能力提高。IFEval和阅读也下降。
-- 首批6模型与Base的统一EN监测均已完成。其余五轨继续；所有负结果保留，不据此宣布整个目标已完成。
+## 已完成的正式结果
 
-## 结果入口
+以下是全量固定协议，非开发筛选结果；没有按分数挑checkpoint。
 
-- [MASSIVE正式阶段矩阵与区间](../../results/unified_language_cl/massive/comparison-test-v1/table.md)
-- [MathOctopus正式阶段矩阵与区间](../../results/unified_language_cl/mathoctopus/comparison-test-v1/table.md)
-- [同题开发64题生成/候选读出诊断](../../results/unified_language_cl/first_batch_readout_v1/matched_dev64.md)
-- [MASSIVE统一通用能力与区间](../../results/unified_language_cl/massive/retention-comparison-v1/table.md)
-- [MathOctopus统一通用能力与区间](../../results/unified_language_cl/mathoctopus/retention-comparison-v1/table.md)
-- [实际训练曝光和权重验证](../../results/unified_language_cl/first_batch_training_receipt.json)
-- [开发学习曲线](../../results/unified_language_cl/first_batch_dev_curves_v1/learning_curves.png)
-- [冻结协议及原始Wiki来源阻塞说明](evaluation_protocol.md)
-- [WikiLingua官方来源恢复补充](wikilingua_protocol_addendum.md)
+# massive：固定Final阶段矩阵
 
-## 解释边界
+| Benchmark | 语言 | 样本数 | Base | Single ES | Single TH | ES→TH |
+|---|---|---:|---:|---:|---:|---:|
+| massive | en | 2974 | 37.26 | 85.88 | 84.67 | 86.42 |
+| massive | es | 2974 | 24.48 | 84.03 | 79.66 | 83.83 |
+| massive | fr | 2974 | 14.66 | 83.46 | 81.81 | 84.90 |
+| massive | th | 2974 | 4.94 | 76.60 | 80.33 | 81.34 |
 
-只有seed42，配对区间条件于当前已训练模型，不覆盖训练随机性，未做多重检验校正。分类、结构、数学、摘要不混合成一个总分。先ES再TH与直接TH的总训练量不同，阶段收益差不解释为纯语言因果。MathOctopus同题ID经过英文源题和数值参考一致性重建，不等于人工语义认证；有效训练候选6059不足6400，不伪造Disjoint比较。XL-Sum为非平行原生新闻。
+单位：ACC为百分数，摘要为ROUGE-Lsum F1分；不合并不同任务。ES遗忘为Single ES减SEQ，正值表示下降。
 
-WikiLingua采用作者支持的GEM官方发布，通过原文和摘要精确匹配原始英语URL/section；共同候选3985，训练共用3200。正式范围为唯一映射子集，不是全官方test。官方dev/test不同section共享部分文章；训练联合排除已映射评测文章，区间按原始文章聚类。图像语义对齐继承发布者映射，未独立重建图片对齐；不作更强的严格翻译或文章独立性声明。评分复用锁定XL-Sum多语言ROUGE，不冒充GEM排行榜评分。原始文本遵循相应来源许可，本仓库本次不再分发原文或全文预测。
+| Benchmark | 指标 | 变化及95%区间 |
+|---|---|---:|
+| en:massive | ES阶段迁移 | +48.62 [+46.74, +50.44] |
+| en:massive | TH阶段变化 | +0.54 [-0.20, +1.31] |
+| es:massive | G_ES | +59.55 [+57.70, +61.43] |
+| es:massive | F_ES | +0.20 [-0.67, +1.08] |
+| fr:massive | ES阶段迁移 | +68.80 [+67.11, +70.48] |
+| fr:massive | TH阶段变化 | +1.45 [+0.57, +2.35] |
+| th:massive | Single TH收益 | +75.39 [+73.87, +76.87] |
+| th:massive | G_TH | +4.74 [+3.63, +5.88] |
+| th:massive | T_TH | +71.65 [+70.11, +73.27] |
+| th:massive | SEQ Final−Single TH Final | +1.01 [+0.07, +1.98] |
+| th:massive | 阶段收益差（非因果） | -70.65 [-72.49, -68.83] |
 
-公开快照不含GPU/PID、宿主目录、完整环境清单、原始逐题文本、训练缓存、权重或优化器。评分源码和数据/结果资产SHA随最终代码交付提供。
+
+# mathoctopus：固定Final阶段矩阵
+
+| Benchmark | 语言 | 样本数 | Base | Single ES | Single TH | ES→TH |
+|---|---|---:|---:|---:|---:|---:|
+| mgsm_rev2 | en | 250 | 80.80 | 63.60 | 63.60 | 61.60 |
+| msvamp | en | 1000 | 90.60 | 65.10 | 60.30 | 59.90 |
+| mgsm_rev2 | es | 250 | 74.80 | 56.00 | 52.80 | 52.80 |
+| msvamp | es | 1000 | 82.60 | 64.60 | 59.30 | 63.80 |
+| mgsm_rev2 | fr | 250 | 71.60 | 54.00 | 55.60 | 51.20 |
+| msvamp | fr | 1000 | 83.40 | 60.90 | 58.10 | 59.20 |
+| mgsm_rev2 | th | 250 | 58.00 | 43.20 | 44.40 | 45.60 |
+| msvamp | th | 1000 | 75.50 | 56.80 | 56.50 | 59.10 |
+
+单位：ACC为百分数，摘要为ROUGE-Lsum F1分；不合并不同任务。ES遗忘为Single ES减SEQ，正值表示下降。
+
+| Benchmark | 指标 | 变化及95%区间 |
+|---|---|---:|
+| en:mgsm_rev2 | ES阶段迁移 | -17.20 [-24.00, -10.80] |
+| en:mgsm_rev2 | TH阶段变化 | -2.00 [-8.00, +4.00] |
+| en:msvamp | ES阶段迁移 | -25.50 [-28.50, -22.60] |
+| en:msvamp | TH阶段变化 | -5.20 [-7.80, -2.60] |
+| es:mgsm_rev2 | G_ES | -18.80 [-24.80, -12.40] |
+| es:mgsm_rev2 | F_ES | +3.20 [-2.80, +9.20] |
+| es:msvamp | G_ES | -18.00 [-21.10, -15.00] |
+| es:msvamp | F_ES | +0.80 [-1.80, +3.30] |
+| fr:mgsm_rev2 | ES阶段迁移 | -17.60 [-24.80, -10.40] |
+| fr:mgsm_rev2 | TH阶段变化 | -2.80 [-8.41, +3.60] |
+| fr:msvamp | ES阶段迁移 | -22.50 [-25.60, -19.50] |
+| fr:msvamp | TH阶段变化 | -1.70 [-4.40, +1.00] |
+| th:mgsm_rev2 | Single TH收益 | -13.60 [-20.00, -7.60] |
+| th:mgsm_rev2 | G_TH | +2.40 [-4.00, +8.40] |
+| th:mgsm_rev2 | T_TH | -14.80 [-21.20, -8.00] |
+| th:mgsm_rev2 | SEQ Final−Single TH Final | +1.20 [-4.00, +6.40] |
+| th:mgsm_rev2 | 阶段收益差（非因果） | +16.00 [+8.00, +24.40] |
+| th:msvamp | Single TH收益 | -19.00 [-22.20, -15.70] |
+| th:msvamp | G_TH | +2.30 [-0.50, +5.20] |
+| th:msvamp | T_TH | -18.70 [-21.60, -15.50] |
+| th:msvamp | SEQ Final−Single TH Final | +2.60 [+0.20, +5.20] |
+| th:msvamp | 阶段收益差（非因果） | +21.30 [+17.20, +25.40] |
+
+
+## 已完成的通用能力矩阵
+
+
+# massive：统一旧能力监测
+
+单位：百分数。固定Final，不依据这些正式分数早停或选模型。GSM8K严格格式与灵活数值提取分列；IFEval按官方prompt/instruction strict为主，loose另留JSON。
+
+| Benchmark / 指标 | n | Base | Single ES | Single TH | ES→TH |
+|---|---:|---:|---:|---:|---:|
+| gsm8k:exact_match:flexible-extract | 1319 | 73.16 | 69.29 | 53.90 | 67.17 |
+| gsm8k:exact_match:strict-match | 1319 | 44.81 | 9.40 | 1.06 | 5.00 |
+| ifeval:inst_level_strict_acc:none | 834 | 74.94 | 63.79 | 57.55 | 56.24 |
+| ifeval:prompt_level_strict_acc:none | 541 | 66.36 | 51.76 | 45.84 | 44.18 |
+| reading:acc:none | 900 | 60.89 | 76.89 | 80.56 | 79.44 |
+
+| Benchmark / 指标 | ES→TH阶段变化及95%区间 | 相对Base变化及95%区间 |
+|---|---:|---:|
+| gsm8k:exact_match:flexible-extract | -2.12 [-4.32, -0.08] | -5.99 [-8.49, -3.34] |
+| gsm8k:exact_match:strict-match | -4.40 [-6.07, -2.73] | -39.80 [-42.76, -36.92] |
+| ifeval:inst_level_strict_acc:none | -7.55 [-10.66, -4.47] | -18.71 [-22.65, -14.62] |
+| ifeval:prompt_level_strict_acc:none | -7.58 [-11.46, -3.70] | -22.18 [-26.99, -17.19] |
+| reading:acc:none | +2.56 [+0.78, +4.44] | +18.56 [+15.00, +22.11] |
+
+
+# mathoctopus：统一旧能力监测
+
+单位：百分数。固定Final，不依据这些正式分数早停或选模型。GSM8K严格格式与灵活数值提取分列；IFEval按官方prompt/instruction strict为主，loose另留JSON。
+
+| Benchmark / 指标 | n | Base | Single ES | Single TH | ES→TH |
+|---|---:|---:|---:|---:|---:|
+| gsm8k:exact_match:flexible-extract | 1319 | 73.16 | 62.62 | 59.97 | 57.39 |
+| gsm8k:exact_match:strict-match | 1319 | 44.81 | 62.47 | 60.05 | 57.24 |
+| ifeval:inst_level_strict_acc:none | 834 | 74.94 | 53.48 | 48.80 | 49.64 |
+| ifeval:prompt_level_strict_acc:none | 541 | 66.36 | 39.74 | 34.94 | 35.49 |
+| reading:acc:none | 900 | 60.89 | 42.67 | 27.44 | 45.33 |
+
+| Benchmark / 指标 | ES→TH阶段变化及95%区间 | 相对Base变化及95%区间 |
+|---|---:|---:|
+| gsm8k:exact_match:flexible-extract | -5.23 [-7.81, -2.58] | -15.77 [-18.65, -12.81] |
+| gsm8k:exact_match:strict-match | -5.23 [-7.81, -2.58] | +12.43 [+9.17, +15.70] |
+| ifeval:inst_level_strict_acc:none | -3.84 [-6.73, -1.07] | -25.30 [-29.19, -21.33] |
+| ifeval:prompt_level_strict_acc:none | -4.25 [-7.58, -0.74] | -30.87 [-35.67, -25.88] |
+| reading:acc:none | +2.67 [+1.22, +4.11] | -15.56 [-19.22, -11.67] |
+
+
+## 当前可支持的结论
+
+- MASSIVE有明显标签分类学习及跨语言迁移。ES→TH相对ES阶段的TH收益+4.74个百分点；ES下降0.20个百分点，配对95%区间跨零，尚不足以支持稳定旧语言遗忘。标签/输出格式掌握也是收益的可能来源，不能全归为语言能力。
+- MathOctopus固定Final在MGSM-Rev2和MSVAMP上相对Base四语均下降；TH阶段虽相对W1有小幅恢复，仍低于Base。不能把这个轨道描述为“已成功学习目标语言并遗忘旧能力”。严格格式与数值正确率分列；不通过更换正式测试上的最优checkpoint美化结果。
+- MASSIVE通用能力监测已完成：Base→SEQ的GSM8K宽松答案准确率73.16%→67.17%，IFEval提示级strict66.36%→44.18%；EN阅读60.89%→79.44%。已有目标分类任务收益与部分通用能力退化，不能概括为所有英语能力下降。
+- MathOctopus通用能力监测已完成：GSM8K宽松答案准确率73.16%→57.39%，strict44.81%→57.24%。strict改善包含输出格式改善，不能据此声称数学能力提高。其他轨道在完成相同协议前不作通用收益/遗忘结论。
+- 只用seed42。配对区间条件于本次训练，不覆盖训练随机性；未进行多重检验校正。
+
+## 数据补充与限制
+
+- WikiLingua原Drive链接404保留记录。现已取得作者参与整理的GEM官方发布并校验LFS SHA；通过原文+摘要精确匹配原始英语URL/section建立跨语言ID。3985个共同训练候选，在各语言共用3200个ID。
+- GEM官方按section划分，dev/test的不同section仍共享一些原始文章。训练排除所有已映射dev/test文章URL。正式结果将明确标为唯一映射子集，并报告覆盖数；不声称完整官方test或文章级独立dev/test。
+- WikiLingua评分复用锁定的XL-Sum多语言ROUGE，明确不冒充原GEM排行榜评分。MathOctopus重建ID的语义限制及XL-Sum非平行数据限制见各protocol。
+- 已在任何摘要正式生成前修正上游ROUGE-Lsum的句子tokenizer传递缺失；四语所有Base/Final统一使用v2分数，原始预测保留，ROUGE1/2回归必须一致。Thai Base开发集18.54/20.58是评分修正后的XL-Sum/WikiLingua分数，不是训练收益。详见[评分修正说明](summary_scoring_correction.md)。
+- 后续Same/Disjoint对照仅使用训练前协议预留的B队列。MASSIVE的A/B ID虽不重叠，仍有38个B样本的标准化泰语文本见于A；XNLI该精确文本重叠为0。MTOP也满足原预算的共同ID条件，将在优先批后补充，B中有25个输入文本见于A。保留原预留队列，不按测试分数重采样，也不把ID分离等同于语义全新。
+
+## 运行与恢复
+
+已完成16/21段正式训练，计数以TRAINING_DONE为准；完成的段均通过真实样本曝光、权重和固定Final核验。首批MASSIVE与MathOctopus原生及通用能力矩阵已完成。其余轨道仅将正式矩阵存在的项目标记完成。
+
+首次测评存在CPU启动超时导致失去调度跟踪的问题，已用独立启动器修复，旧失败日志保留；另两项vLLM编译缓存失败通过独立新缓存恢复，未删除共享缓存、修改权重或改变评分。旧CPU调度器已退休。
+
+后续只执行已授权的基线、原生任务/通用能力评测和必要预检；账号合计最多四卡，不影响他人。
+
+- [完整任务书](task_specification.md)
+- [冻结测评协议](evaluation_protocol.md)
+- [复现代码与步骤](reproduction.md)
+- [Same-ID/Disjoint-ID资格与范围](p3_eligibility.md)
+

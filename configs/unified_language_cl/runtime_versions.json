@@ -1,0 +1,52 @@
+{
+  "scope": "Selected package versions actually installed for this experiment; not a resolver lock or a guarantee of cross-platform bitwise identity.",
+  "packages": {
+    "training": {
+      "torch": "2.6.0+cu118",
+      "transformers": "4.57.6",
+      "llamafactory": "0.9.6.dev0",
+      "accelerate": "1.11.0",
+      "deepspeed": "0.17.6",
+      "datasets": "4.0.0",
+      "tokenizers": "0.22.2",
+      "safetensors": "0.8.0",
+      "numpy": "2.4.6",
+      "nltk": "3.10.4",
+      "lm_eval": "0.4.14.dev0",
+      "langdetect": "1.0.9",
+      "sentencepiece": "0.2.2",
+      "PyYAML": "6.0.3",
+      "pyarrow": "26.0.0",
+      "rouge-score": "0.1.2",
+      "sacrebleu": "2.6.0"
+    },
+    "evaluation": {
+      "torch": "2.7.0+cu118",
+      "transformers": "4.53.2",
+      "llamafactory": "0.9.6.dev0",
+      "accelerate": "1.11.0",
+      "deepspeed": "0.17.6",
+      "datasets": "4.0.0",
+      "tokenizers": "0.21.4",
+      "safetensors": "0.8.0",
+      "numpy": "2.2.6",
+      "nltk": "3.10.4",
+      "lm_eval": "0.4.14.dev0",
+      "vllm": "0.9.2+cu118",
+      "langdetect": "1.0.9",
+      "sentencepiece": "0.2.2",
+      "PyYAML": "6.0.3",
+      "pyarrow": "26.0.0",
+      "rouge-score": "0.1.2",
+      "sacrebleu": "2.6.0"
+    }
+  },
+  "metric_addons": {
+    "pythainlp": "5.1.2",
+    "pyonmttok": "1.37.1"
+  },
+  "sources": {
+    "LLaMA-Factory": "47d407d2aabbd52e11d4f34c7a06b9de3e2f0a77",
+    "lm-evaluation-harness": "d6de81643928d653435c431bae19945d41d32520"
+  }
+}

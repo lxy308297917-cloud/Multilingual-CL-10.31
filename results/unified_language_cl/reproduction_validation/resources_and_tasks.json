@@ -1,0 +1,29 @@
+{
+  "status": "CPU_VALIDATED_NOT_GPU_REEXECUTED",
+  "native_source_assets_sha_verified": 42,
+  "rouge_upstream_files_fresh_download_sha_verified": 9,
+  "retention_task_definition_comparisons": {
+    "train": {
+      "status": "PASS",
+      "task_definitions": [
+        "gsm8k.yaml",
+        "ifeval.yaml",
+        "belebele_eng_Latn_locked.yaml"
+      ],
+      "same_effective_prompts_filters_functions_decoding_and_data": true,
+      "gpu_execution": false
+    },
+    "eval": {
+      "status": "PASS",
+      "task_definitions": [
+        "gsm8k.yaml",
+        "ifeval.yaml",
+        "belebele_eng_Latn_locked.yaml"
+      ],
+      "same_effective_prompts_filters_functions_decoding_and_data": true,
+      "gpu_execution": false
+    }
+  },
+  "raw_text_or_predictions_published": false,
+  "scope": "No additional GPU training or benchmark generation; no second independent GPU replication claimed."
+}

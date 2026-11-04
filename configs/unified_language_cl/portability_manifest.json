@@ -1,0 +1,186 @@
+{
+  "status": "CPU_VALIDATED_NOT_GPU_REEXECUTED",
+  "files": [
+    {
+      "file": "common.py",
+      "reference_source": "common.py",
+      "reference_sha256": "7cc79f60831357ceb20b20ce7ac0aa824397ae678e235944dd7ec51cd6bbac20",
+      "portable_sha256": "6df672ec907d202d30e14284e54d96e4590c4342ecd1edd9bfdae4eeaf00cd3c",
+      "scope": "AST-preserved reference logic; runtime path relocation and versioned module-name consolidation only"
+    },
+    {
+      "file": "prepare.py",
+      "reference_source": "prepare.py",
+      "reference_sha256": "450079cc74877a112564bea22a0c2acf0f4975e341def13a6b480ec53bcb3672",
+      "portable_sha256": "9e68df2f3ab15ef71a6ddb37e3c6dbf53a77b12642c61653fa76111fc688cb8e",
+      "scope": "AST-preserved reference logic; runtime path relocation and versioned module-name consolidation only"
+    },
+    {
+      "file": "audit_raw.py",
+      "reference_source": "audit_raw.py",
+      "reference_sha256": "46d7edd2362610264e98754cf3cb201749f3427cf5cbc5207fd462387f7bf116",
+      "portable_sha256": "2c962492de41327b6ee634e2d018961134c668cb42e8012e490c84079e5ab81c",
+      "scope": "AST-preserved reference logic; runtime path relocation and versioned module-name consolidation only"
+    },
+    {
+      "file": "prepare_summary.py",
+      "reference_source": "prepare_summary.py",
+      "reference_sha256": "4fc93fa00c69264e3d4c4447a8ad36e1b2090e42e85b672b642e5e7d75a9e290",
+      "portable_sha256": "7b8401a8ba0cd4a52c69d0785b0f274c7e4f461503982f25a5671dd069572f48",
+      "scope": "AST-preserved reference logic; runtime path relocation and versioned module-name consolidation only"
+    },
+    {
+      "file": "prepare_wikilingua.py",
+      "reference_source": "prepare_wikilingua.py",
+      "reference_sha256": "3f032eca145b0953b31f74947ea1bdd82145ef03e3854a9ad565962656cd8b48",
+      "portable_sha256": "bc3c845e611a2b933a3a0fe0e873a29c995c168985ba9e2faedfa44fb4a08641",
+      "scope": "AST-preserved reference logic; runtime path relocation and versioned module-name consolidation only"
+    },
+    {
+      "file": "make_wiki_clusters.py",
+      "reference_source": "make_wiki_clusters.py",
+      "reference_sha256": "ed22daff891cdbcd1510f3f44c6112329cea3173c79e571aa121b9702c96d5c8",
+      "portable_sha256": "b816a202d4b2ef153de3e32a16586817ab2fd66ff34a92ea5b043743248182ea",
+      "scope": "AST-preserved reference logic; runtime path relocation and versioned module-name consolidation only"
+    },
+    {
+      "file": "make_configs.py",
+      "reference_source": "make_configs.py",
+      "reference_sha256": "e90cbe45ceb62f9e945679cd99135b1395868afdc310a4d7f8be95c108631b0e",
+      "portable_sha256": "77cb6ee1d3df55d1bd69d6e080f727f68a3f18d731dddd223611730ab2bb44a6",
+      "scope": "AST-preserved reference logic; runtime path relocation and versioned module-name consolidation only"
+    },
+    {
+      "file": "run_train.py",
+      "reference_source": "run_train.py",
+      "reference_sha256": "daf77b8a6b4ad11580ca5f6f470258a15d240e8b7b72563a869f8d286d2c0851",
+      "portable_sha256": "dc2f7bb0254a16ca621f18db73c3d3b22279d04ba143a460152e06b10c6e170b",
+      "scope": "AST-preserved reference logic; runtime path relocation and versioned module-name consolidation only"
+    },
+    {
+      "file": "validate.py",
+      "reference_source": "validate.py",
+      "reference_sha256": "96a86fe9548035a907e645e836ffe87e95605096fbe2f00567ef27335f333b55",
+      "portable_sha256": "413181078219cc5746e53ab60b1f40160b5d762e3577a2a0dea7094abb7d04fc",
+      "scope": "AST-preserved reference logic; runtime path relocation and versioned module-name consolidation only"
+    },
+    {
+      "file": "evaluate.py",
+      "reference_source": "evaluate.py",
+      "reference_sha256": "27857374af343899354c2d16eb8956e71f6e771e22b8f54a9e96aa7d0fc9f03f",
+      "portable_sha256": "1da10591128de373bae0c40f4ef432fd498d02a0b66ebaf520c25e26bc210acc",
+      "scope": "AST-preserved reference logic; runtime path relocation and versioned module-name consolidation only"
+    },
+    {
+      "file": "aggregate_retention.py",
+      "reference_source": "aggregate_retention.py",
+      "reference_sha256": "5e523d42d998bf650fbbec38d63f9b41ef2eedd689d9d9db2b605be38ed6a1fe",
+      "portable_sha256": "2360d9ba615a06fe9a824f562894795037688d4f7ae37fabf2677a7f86d2d705",
+      "scope": "AST-preserved reference logic; runtime path relocation and versioned module-name consolidation only"
+    },
+    {
+      "file": "analyze_readout.py",
+      "reference_source": "analyze_readout.py",
+      "reference_sha256": "7c7c2355220c70cd172d33c1eedfe2065c26d543c7b6147947f0e1bfffb6a07c",
+      "portable_sha256": "ea0f26b4621a0bb45dbca04c3a5a6c4d779e1dcd44780b98789dc0b6328e1287",
+      "scope": "AST-preserved reference logic; runtime path relocation and versioned module-name consolidation only"
+    },
+    {
+      "file": "report_curves.py",
+      "reference_source": "report_curves.py",
+      "reference_sha256": "2c9095058e0d4f3191a7231447b52803a3346d88bd79d906fea73903a551ca49",
+      "portable_sha256": "17dcff42c4c67caa280451e3e35c49f89a4c4ebc273f1e4bdf7d41fcc0b8a38f",
+      "scope": "AST-preserved reference logic; runtime path relocation and versioned module-name consolidation only"
+    },
+    {
+      "file": "benchmark_batch.py",
+      "reference_source": "benchmark_batch.py",
+      "reference_sha256": "f84abdc6199ababf4d72b7307bc5023e582c5044e8b8a0fd1cbb69d58d44927a",
+      "portable_sha256": "f4f62437ed91c0462e5eee16a5efa0ce639109c119909ccfde458e8f76631bdc",
+      "scope": "AST-preserved reference logic; runtime path relocation and versioned module-name consolidation only"
+    },
+    {
+      "file": "prepare_batch_probe.py",
+      "reference_source": "prepare_batch_probe.py",
+      "reference_sha256": "a620bd2049e8e0b2f10a06296b316d420e55e90ca6e20f3db26b2a78c08b529b",
+      "portable_sha256": "5dba76ed3eeef4531d2a8020f1cef0c551044a075deae3966b12d524262f28cd",
+      "scope": "AST-preserved reference logic; runtime path relocation and versioned module-name consolidation only"
+    },
+    {
+      "file": "sample_language_quality.py",
+      "reference_source": "sample_language_quality.py",
+      "reference_sha256": "8ea7133deca15dee460393e566920e37da3d41f78f954377ba1c5e131938d8d5",
+      "portable_sha256": "67c0088211d82da356bd28fd070ded2664bc92925a876ea5de6b47588207db56",
+      "scope": "AST-preserved reference logic; runtime path relocation and versioned module-name consolidation only"
+    },
+    {
+      "file": "test_scoring.py",
+      "reference_source": "test_scoring.py",
+      "reference_sha256": "49fdb509289a66ae2024acddba4df1bcea28b9e89d6b281f123fa474f600234e",
+      "portable_sha256": "9cb0f64c359039a76d6912f206541b451c6eb742fc5c0728f5d725dece87be0d",
+      "scope": "AST-preserved reference logic; runtime path relocation and versioned module-name consolidation only"
+    },
+    {
+      "file": "audit_wikilingua.py",
+      "reference_source": "audit_gem_wikilingua_v2.py",
+      "reference_sha256": "34b7158eb432b4e0098015aa53033be8b605f8ae68ed9558e7bd89da18662050",
+      "portable_sha256": "83155527cae13be237ff0021cf506600d8dffcda366217214a804a2d122e4b2e",
+      "scope": "AST-preserved reference logic; runtime path relocation and versioned module-name consolidation only"
+    },
+    {
+      "file": "prepare_disjoint.py",
+      "reference_source": "prepare_disjoint.py",
+      "reference_sha256": "0522a7697c8cc906d7f2a7270b44eb7e659c7fec394846442d90e5cb5d3aaa45",
+      "portable_sha256": "9b8e24deb63c1c38bff2fab9e761c731605794f84f11dc6bc2dc9378df4e9243",
+      "scope": "AST-preserved reference logic; runtime path relocation and versioned module-name consolidation only"
+    },
+    {
+      "file": "evaluate_summary.py",
+      "reference_source": "evaluate_summary_v3.py",
+      "reference_sha256": "1f0a2c880533278161ea6a135e3239a44b3c4f69f704afce66a827e8eb572dc7",
+      "portable_sha256": "f584bb2cdb6b2c2761d2de7fe68b742d81354e7e964454e37db757b6666139f6",
+      "scope": "Runtime path relocation and versioned module-name consolidation. Corrected summary inference v3 is prepared for future dev curves; historical main generations use v2 followed by validated CPU rescoring, so v3 is not claimed as a previously executed GPU workflow."
+    },
+    {
+      "file": "summary_scoring.py",
+      "reference_source": "summary_scoring_v2.py",
+      "reference_sha256": "3e2ab817f698fc3c1fae6e005b1fed996de81b0dba4052c9107982164fbfe5e9",
+      "portable_sha256": "fe0f29845eea6469dbf05d9eaf6f1eba4a2f63f6c40c83a3600561027600f001",
+      "scope": "AST-preserved reference logic; runtime path relocation and versioned module-name consolidation only"
+    },
+    {
+      "file": "rescore_summary.py",
+      "reference_source": "rescore_summary.py",
+      "reference_sha256": "4cb2d176c41296d6dd61c54ce49d15f36f40df3aaf96cc2bd8d4c408e301486a",
+      "portable_sha256": "44516646ea568331529fc60e1fc6b8c3733b531d0362e8cfa985590467491ac3",
+      "scope": "AST-preserved reference logic; runtime path relocation and versioned module-name consolidation only"
+    },
+    {
+      "file": "evaluate_retention.py",
+      "reference_source": "evaluate_retention_v2.py",
+      "reference_sha256": "744a0c47ac40a2f541706317e4f75c0f3eedfd8fddd54bb97944216e6fde0507",
+      "portable_sha256": "de214fc8af826bd11ff73bd351f3bc444ebdf4498b86f4b4e50fe22dcbfcbec3",
+      "scope": "AST-preserved reference logic; runtime path relocation and versioned module-name consolidation only"
+    },
+    {
+      "file": "aggregate.py",
+      "reference_source": "aggregate_v5.py",
+      "reference_sha256": "9d048c68e36ae4e7bd5a66427e202c4b4a29373dff9e63f8074491b023d77bae",
+      "portable_sha256": "1e9dfae8219ec9cef27381031d1561d6bc8cda8d46308b3e10caeaf7f80df055",
+      "scope": "AST-preserved reference logic; runtime path relocation and versioned module-name consolidation only"
+    }
+  ],
+  "notes": [
+    "Original running server sources and scientific outputs remain unchanged.",
+    "Only deployment paths and versioned module names are consolidated in reference modules; new helpers rebuild source/task/gate resources in isolated reproduction directories.",
+    "Historical summary main predictions use original v2 generation followed by CPU scoring correction; combined summary v3 is not claimed as a completed independent GPU rerun.",
+    "No private scheduling, host process/GPU metadata, full environment dump, raw dataset or prediction text is included."
+  ],
+  "workflow_helpers": {
+    "scripts/unified_language_cl/fetch_metrics.py": "8478ccb2fc22b049f3cb9586986e978257b2bf8881a49ba5da08205db030bd54",
+    "scripts/unified_language_cl/fetch_sources.py": "3b40ed52e1091644845ebc1c6c1ae9ac5299b020aa938d2acedffab3d7af182b",
+    "scripts/unified_language_cl/freeze_gate.py": "d902dbd07e7c383c9cfb9e3e40020086da9bd403a65c5f6216dff45627317916",
+    "scripts/unified_language_cl/runtime.py": "84853aa1f1050c697541ad423a87de303462504c287c794982c5cacdfc41e1a4",
+    "scripts/unified_language_cl/setup_retention.py": "0414bf62a4cd6d116c0295938572346f59d59980e8f9e33354aeb2d051dff98e"
+  }
+}

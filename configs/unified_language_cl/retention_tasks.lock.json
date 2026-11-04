@@ -1,0 +1,44 @@
+{
+  "harness_commit": "d6de81643928d653435c431bae19945d41d32520",
+  "tasks": {
+    "gsm8k": {
+      "definition": {
+        "task": "sft_v1_gsm8k",
+        "dataset_path": "parquet",
+        "dataset_name": null,
+        "generation_kwargs": {
+          "until": [
+            "Question:",
+            "</s>",
+            "<|im_end|>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0,
+          "max_gen_toks": 1280
+        },
+        "num_fewshot": 5
+      },
+      "upstream_include": "gsm8k/gsm8k.yaml",
+      "upstream_include_sha256": "82eb1780b263bc040729032b3e076990c7933f42163c91e359f38820dd1d8833"
+    },
+    "ifeval": {
+      "definition": {
+        "task": "sft_v1_ifeval",
+        "dataset_path": "json",
+        "dataset_name": null,
+        "num_fewshot": 0,
+        "generation_kwargs": {
+          "until": [],
+          "do_sample": false,
+          "temperature": 0.0,
+          "max_gen_toks": 1280
+        }
+      },
+      "upstream_include": "ifeval/ifeval.yaml",
+      "upstream_include_sha256": "3d8a3eb32de03f6a23ac87b46951d972a4ec7cb137e753365c0271594e38f84b"
+    }
+  },
+  "reading_template": "# Prompt and scoring follow lm-eval-harness d6de816's Belebele template.\n# Data files are extracted from the SHA-locked Meta official ZIP.\ndataset_path: json\ndataset_name: null\ntest_split: test\noutput_type: multiple_choice\nnum_fewshot: 0\ndoc_to_text: \"P: {{flores_passage}}\\nQ: {{question.strip()}}\\nA: {{mc_answer1}}\\nB: {{mc_answer2}}\\nC: {{mc_answer3}}\\nD: {{mc_answer4}}\\nAnswer:\"\ndoc_to_choice: [\"A\", \"B\", \"C\", \"D\"]\ndoc_to_target: \"{{['1', '2', '3', '4'].index(correct_answer_num)}}\"\nmetric_list:\n  - metric: acc\n    aggregation: mean\n    higher_is_better: true\n  - metric: acc_norm\n    aggregation: mean\n    higher_is_better: true\nmetadata:\n  version: 0.0\n",
+  "langdetect_seed": 42,
+  "scope": "Same definitions, prompts, decoders and scoring as executed; generated local paths and checksum manifest cover only the three used EN tasks."
+}

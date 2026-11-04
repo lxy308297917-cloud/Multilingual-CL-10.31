@@ -1,0 +1,251 @@
+{
+  "status": "PASS",
+  "gpu_execution": false,
+  "prompt_and_token_mask_examples": 40,
+  "tracks": 5,
+  "languages": 4,
+  "rouge_oracles": 16,
+  "checks": [
+    {
+      "track": "massive",
+      "language": "es",
+      "row": 0,
+      "input_label_sha256": "abefde8635248689d71d3bf695c1a319ae0b3fc172c7931efcefd3b674d10b71"
+    },
+    {
+      "track": "massive",
+      "language": "es",
+      "row": 1,
+      "input_label_sha256": "68248cdf188c5e8339aaa83a252be9acd7780f0d72a892cd74706937be6a9cb3"
+    },
+    {
+      "track": "massive",
+      "language": "th",
+      "row": 0,
+      "input_label_sha256": "b8768b247e3a1bf389474f4677ff3c931801457d8218e5c93d8e4cbfea7b5eae"
+    },
+    {
+      "track": "massive",
+      "language": "th",
+      "row": 1,
+      "input_label_sha256": "4f86c0633e94741804480aa8deab891aef4ca97e79ed39a01669085356634a81"
+    },
+    {
+      "track": "massive",
+      "language": "fr",
+      "row": 0,
+      "input_label_sha256": "ecb729e8e58d71139869f23fcb9ccb22ffdc71020126a8a279e052a1570f77a8"
+    },
+    {
+      "track": "massive",
+      "language": "fr",
+      "row": 1,
+      "input_label_sha256": "fa455e93a1a06ff4ad9c5fb9e47fc85fa6c166d57417fa3a10098452a968cbdb"
+    },
+    {
+      "track": "massive",
+      "language": "en",
+      "row": 0,
+      "input_label_sha256": "f8793545821778dc7e0c4492fd75de77ee45c69c97ef1c7daf4c425d85fb5622"
+    },
+    {
+      "track": "massive",
+      "language": "en",
+      "row": 1,
+      "input_label_sha256": "120550021a30aa09889b1646f24deb0cd414d219dea6cc99cddbf776bcc8535e"
+    },
+    {
+      "track": "mathoctopus",
+      "language": "es",
+      "row": 0,
+      "input_label_sha256": "2371b69b0bf1a715bb43b3f9200fc9e3f047fa12cb5715061d07f99d2d3a264a"
+    },
+    {
+      "track": "mathoctopus",
+      "language": "es",
+      "row": 1,
+      "input_label_sha256": "3f0b6b2ad9590a086b18213dcc8c7bef21a8fef2c2cccbcef12ff5d11f9a5a46"
+    },
+    {
+      "track": "mathoctopus",
+      "language": "th",
+      "row": 0,
+      "input_label_sha256": "aa837716568ebec92471374e04ff8ed5c5659a0a11dc84f983685675d0968ba6"
+    },
+    {
+      "track": "mathoctopus",
+      "language": "th",
+      "row": 1,
+      "input_label_sha256": "79e1ae680f4129d28ec786b9c74d1f2990cdad8fe1296a9205711b0b5950f99e"
+    },
+    {
+      "track": "mathoctopus",
+      "language": "fr",
+      "row": 0,
+      "input_label_sha256": "11a21403f75fe605eeed567e0625252a0eaeb643e1cfe152c6e48207490a4aec"
+    },
+    {
+      "track": "mathoctopus",
+      "language": "fr",
+      "row": 1,
+      "input_label_sha256": "d383657c23dee60067c25b8513170d66fd0697672feaf71ce7cfb1a63dc1dcee"
+    },
+    {
+      "track": "mathoctopus",
+      "language": "en",
+      "row": 0,
+      "input_label_sha256": "2b0e8167a3c182bf6bede676de6c00b30ab90ba3a4ccb5221bff22aeb7fa6039"
+    },
+    {
+      "track": "mathoctopus",
+      "language": "en",
+      "row": 1,
+      "input_label_sha256": "bbbde286c0a6caff3f5b0c6044be8f2ec8759f3539794c32e67ca5efd9027ec1"
+    },
+    {
+      "track": "xnli",
+      "language": "es",
+      "row": 0,
+      "input_label_sha256": "ff66d41e32a2d6aa650dad6b8d52a1544258fa17620ce00d56397c117e01aa03"
+    },
+    {
+      "track": "xnli",
+      "language": "es",
+      "row": 1,
+      "input_label_sha256": "92eaa6487d568b8d83cf42f96c2b2b9b961994d65126bda5df5c4ec856d2cb0b"
+    },
+    {
+      "track": "xnli",
+      "language": "th",
+      "row": 0,
+      "input_label_sha256": "80d26e52bc87cfe89995727927ba80b0d3081c555410ab6ce4b305af13707798"
+    },
+    {
+      "track": "xnli",
+      "language": "th",
+      "row": 1,
+      "input_label_sha256": "50027626984a35557fa66707f274b2c57ce0fbfa2ab3e2cfbb0205ed0b7592e2"
+    },
+    {
+      "track": "xnli",
+      "language": "fr",
+      "row": 0,
+      "input_label_sha256": "f019a94fa67a1f3a91a6d65c236e004c0c2be6bbfec9aae8790853765b591f31"
+    },
+    {
+      "track": "xnli",
+      "language": "fr",
+      "row": 1,
+      "input_label_sha256": "56998a778676299355a82c658e2efbdac4edbef9b10e181c15851ecd1c0b8537"
+    },
+    {
+      "track": "xnli",
+      "language": "en",
+      "row": 0,
+      "input_label_sha256": "8382d3cf4a32f4f0402bef94d2699d2df0724f04973f0f30b5af692f03b4c698"
+    },
+    {
+      "track": "xnli",
+      "language": "en",
+      "row": 1,
+      "input_label_sha256": "16cfde47b055e8adbf7daeb2404fc986562d0e0f552f142e92e58f0f3614dd25"
+    },
+    {
+      "track": "mtop",
+      "language": "es",
+      "row": 0,
+      "input_label_sha256": "dc6ed10c7964bd331ab99ba0cbf707e0149edb3dbf8255f9b5a06e2c1017bd8f"
+    },
+    {
+      "track": "mtop",
+      "language": "es",
+      "row": 1,
+      "input_label_sha256": "a7cd2b7de40f6fc42fd883588ec3ee2f08311e5562eed19ef539e0977d49be20"
+    },
+    {
+      "track": "mtop",
+      "language": "th",
+      "row": 0,
+      "input_label_sha256": "f46cc85099e1a7a3796ed1c35249f63133e36b0a4633a7aa005c44a5a946b970"
+    },
+    {
+      "track": "mtop",
+      "language": "th",
+      "row": 1,
+      "input_label_sha256": "54a4d4a5a1df0e4e2c402bded585af0f05010fd5b93514baeea7934599369bdd"
+    },
+    {
+      "track": "mtop",
+      "language": "fr",
+      "row": 0,
+      "input_label_sha256": "6b5da73fa50fab016e70743b9349189d9d57f68d7db944fcf18f78325e984f29"
+    },
+    {
+      "track": "mtop",
+      "language": "fr",
+      "row": 1,
+      "input_label_sha256": "6486cffd3414cdd03d234b8e389d101d95458049fa8c91022ce65888c12b3afb"
+    },
+    {
+      "track": "mtop",
+      "language": "en",
+      "row": 0,
+      "input_label_sha256": "85dad096ce892e52c251d81a007655a2ece9acb6078239d2cba1ab82b7a9eb9b"
+    },
+    {
+      "track": "mtop",
+      "language": "en",
+      "row": 1,
+      "input_label_sha256": "840247faedbfc1cf35b3d8007c1efa484296ac254fea18c310ef56a461ac81e5"
+    },
+    {
+      "track": "sib200",
+      "language": "es",
+      "row": 0,
+      "input_label_sha256": "affd0c4fb9f6a11d43be9a3a1d907d9a4bf521ec49e5a9f6d803aa375da587e1"
+    },
+    {
+      "track": "sib200",
+      "language": "es",
+      "row": 1,
+      "input_label_sha256": "a792ee96a1d646a56fcabee1a7836c46bcb17b375e5d62a5c97a658c8c3f972b"
+    },
+    {
+      "track": "sib200",
+      "language": "th",
+      "row": 0,
+      "input_label_sha256": "8c1688f861618b45888255bb6140c42ad62926faa647ce39174c5d2ebcd3b059"
+    },
+    {
+      "track": "sib200",
+      "language": "th",
+      "row": 1,
+      "input_label_sha256": "66f3631d50ef06a8defad008653ed0232e839d1dff77df7a978a51bf511a391d"
+    },
+    {
+      "track": "sib200",
+      "language": "fr",
+      "row": 0,
+      "input_label_sha256": "8ae04782cf8bcafa31fe4e26f1ce23623976a35b4cb8b9a0740d26e446d3fed3"
+    },
+    {
+      "track": "sib200",
+      "language": "fr",
+      "row": 1,
+      "input_label_sha256": "6b3272347532d5e8755f948a75a1329c6fefb4585fda04fc17e766ace872d741"
+    },
+    {
+      "track": "sib200",
+      "language": "en",
+      "row": 0,
+      "input_label_sha256": "f6b0bba9dd9c209a74d0156c182edbdb522652b3ead529d6bc04ff2fcfc0ead4"
+    },
+    {
+      "track": "sib200",
+      "language": "en",
+      "row": 1,
+      "input_label_sha256": "d254e4dbd6509860312e4504f2f0ada92f4e7e08d5a02cafa0b81953194c35a8"
+    }
+  ],
+  "scope": "Relocated source code matches executed frozen prompts and upstream LF cached supervised tokens; no new GPU-result replication claimed."
+}

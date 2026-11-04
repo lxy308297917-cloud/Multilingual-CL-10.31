@@ -1,0 +1,74 @@
+{
+  "upstream": "afcd803c8d7c98f3be60e9a7ce57fcbc3e729e8c",
+  "assets": [
+    {
+      "root": "rouge_source",
+      "path": "rouge_score/README.md",
+      "url": "https://raw.githubusercontent.com/csebuetnlp/xl-sum/afcd803c8d7c98f3be60e9a7ce57fcbc3e729e8c/multilingual_rouge_scoring/README.md",
+      "sha256": "fd649326fe27a2351ff03f9fcac0aa958b5c772a2cd7c7db62f4a0285dd0de9b",
+      "bytes": 3759
+    },
+    {
+      "root": "rouge_source",
+      "path": "rouge_score/__init__.py",
+      "url": "https://raw.githubusercontent.com/csebuetnlp/xl-sum/afcd803c8d7c98f3be60e9a7ce57fcbc3e729e8c/multilingual_rouge_scoring/__init__.py",
+      "sha256": "adea842ad0cf9082267ad2cce28367851c89ad0a4a88d7ac363f44d99a74fa00",
+      "bytes": 28
+    },
+    {
+      "root": "rouge_source",
+      "path": "rouge_score/io.py",
+      "url": "https://raw.githubusercontent.com/csebuetnlp/xl-sum/afcd803c8d7c98f3be60e9a7ce57fcbc3e729e8c/multilingual_rouge_scoring/io.py",
+      "sha256": "7eb6078f7d186b67c2550e736d8f4a117bececb384a74f017b096713d5392ea4",
+      "bytes": 6874
+    },
+    {
+      "root": "rouge_source",
+      "path": "rouge_score/rouge.py",
+      "url": "https://raw.githubusercontent.com/csebuetnlp/xl-sum/afcd803c8d7c98f3be60e9a7ce57fcbc3e729e8c/multilingual_rouge_scoring/rouge.py",
+      "sha256": "2a79a1eb7fcc6059162f75f17bf95832b84922426aa6fc4c970ac911aa0e7c70",
+      "bytes": 3044
+    },
+    {
+      "root": "rouge_source",
+      "path": "rouge_score/rouge_scorer.py",
+      "url": "https://raw.githubusercontent.com/csebuetnlp/xl-sum/afcd803c8d7c98f3be60e9a7ce57fcbc3e729e8c/multilingual_rouge_scoring/rouge_scorer.py",
+      "sha256": "d7dc3504c682c042ea735115f1dc8cb7f64058bf56db0140bdd1349204d12a9e",
+      "bytes": 11940
+    },
+    {
+      "root": "rouge_source",
+      "path": "rouge_score/scoring.py",
+      "url": "https://raw.githubusercontent.com/csebuetnlp/xl-sum/afcd803c8d7c98f3be60e9a7ce57fcbc3e729e8c/multilingual_rouge_scoring/scoring.py",
+      "sha256": "7db8f55149e4615077ea54f45e1929dea43dbbc1220e59db89b85b3ec9a85c4c",
+      "bytes": 5682
+    },
+    {
+      "root": "rouge_source",
+      "path": "rouge_score/stemmers.py",
+      "url": "https://raw.githubusercontent.com/csebuetnlp/xl-sum/afcd803c8d7c98f3be60e9a7ce57fcbc3e729e8c/multilingual_rouge_scoring/stemmers.py",
+      "sha256": "f0d6d8f530d6bfa526f40aed5e0aaf8fc34119903551dd0c7da5f0116b661f90",
+      "bytes": 2440
+    },
+    {
+      "root": "rouge_source",
+      "path": "rouge_score/tokenization_wrapper.py",
+      "url": "https://raw.githubusercontent.com/csebuetnlp/xl-sum/afcd803c8d7c98f3be60e9a7ce57fcbc3e729e8c/multilingual_rouge_scoring/tokenization_wrapper.py",
+      "sha256": "ad6e8e2cce3a0839ed39a8ef29194c4cdc93104524a65b62957a24edffd26282",
+      "bytes": 1417
+    },
+    {
+      "root": "rouge_source",
+      "path": "rouge_score/tokenizers.py",
+      "url": "https://raw.githubusercontent.com/csebuetnlp/xl-sum/afcd803c8d7c98f3be60e9a7ce57fcbc3e729e8c/multilingual_rouge_scoring/tokenizers.py",
+      "sha256": "1324ae2e1eb8a4b93c9584aa2949cb8aec78f40dfa55df7ef97abb816b040ad5",
+      "bytes": 9030
+    }
+  ],
+  "package_layout": "The pinned author directory multilingual_rouge_scoring is isolated locally under rouge_score; file bytes are unchanged.",
+  "python_addons": {
+    "pythainlp": "5.1.2",
+    "pyonmttok": "1.37.1"
+  },
+  "nltk_stopwords_zip_sha256": "48c0e52d8b52546e827f53761fb30300c0ab94f70660d28bd65ba0a86270946b"
+}

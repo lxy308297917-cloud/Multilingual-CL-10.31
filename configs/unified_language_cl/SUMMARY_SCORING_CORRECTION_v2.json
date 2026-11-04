@@ -1,0 +1,28 @@
+{
+  "status": "FROZEN_BEFORE_ANY_FORMAL_SUMMARY_GENERATION",
+  "time": "2026-11-04T21:23:03.355995+08:00",
+  "cause": "Pinned upstream rougeLsum branch calls tokenization_wrapper.tokenize(sentence, stemmer) without the configured language tokenizer; ngram branches do pass it. Original identity/empty tests did not detect this partial-overlap failure.",
+  "correction": "Pass the same pinned language tokenizer and stemmer to every summary sentence; retain original newline splitting, summary-level union LCS, clipping and F1 definitions. Reuse full-string tokens for single-sentence speed; unchanged upstream ngram functions.",
+  "upstream_commit": "afcd803c8d7c98f3be60e9a7ce57fcbc3e729e8c",
+  "new_scorer_sha256": "3e2ab817f698fc3c1fae6e005b1fed996de81b0dba4052c9107982164fbfe5e9",
+  "original_scorer_sha256": "6431fe23542763fa1c38b61c525e81c0371b41a6a055a693509745285e361c5a",
+  "oracles": {
+    "count": 16,
+    "thai_reference": "ฉันรักแมว",
+    "thai_prediction": "ฉันรักหมา",
+    "expected_rougeLsum": 66.66666666666666,
+    "old_upstream_rougeLsum": 0,
+    "scope": "Identity, empty, nonidentical partial-overlap and summary sentence-reordering cases for four languages; pinned Thai tokens [ฉัน,รัก,แมว]/[ฉัน,รัก,หมา]."
+  },
+  "primary_rules": [
+    "All four languages and all models uniformly rescored.",
+    "Original raw predictions and buggy scores retained; original scores are not primary.",
+    "No repeated GPU generation, prompt/reference changes, LR/data/budget changes or checkpoint selection.",
+    "Original data protocol hashes remain fixed; this correction is a separate scoring-version provenance layer.",
+    "ROUGE1/2 must match original per-language means exactly within1e-8."
+  ],
+  "data_protocol_sha256": {
+    "xlsum": "4090e049b3882b04ccd359a3359e0cdd4d4142bf3a9740b6d02bfe988922567f",
+    "wikilingua": "008c3ead979d00d1d29fb3833faa77f579c600f77a737cd069baa0c6c0c053d1"
+  }
+}
