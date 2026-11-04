@@ -1,0 +1,409 @@
+{
+  "status": "SCIENCE_PROJECTION_VERIFIED",
+  "encoded_data_reproduction": {
+    "status": "PASS",
+    "four_encoded_files_bitwise_identical": true,
+    "files_sha256": {
+      "train_aux.jsonl": "55012bac0867e24762cd062606887121e711508e0ce78b95785fb9806ccde2d8",
+      "dev.jsonl": "b3db5a298ad49b3ce7d0f3023546a9637f01b8a5eb6ad4535418e00fcbe781f8",
+      "holdout.jsonl": "a74ad3a2e65bb9443567b48f9ab26b807588e8e3fa016771b091969805c90779",
+      "split_ids.json": "b3178c21112e263143bfdf2cc231bfa1499da412d10dc1b3c84b9bcbeaf68a44"
+    },
+    "cohort_ids": 400,
+    "source_inputs_exact": true,
+    "note": "Only creation timestamp differs in regenerated protocol metadata; public code and prior public dependencies reconstruct same data."
+  },
+  "formal_identity_checks": {
+    "A_minus_W1": {
+      "EN Belebele": {
+        "rows": 900,
+        "all_doc_and_prompt_exact": true
+      },
+      "SW Belebele": {
+        "rows": 900,
+        "all_doc_and_prompt_exact": true
+      },
+      "SW Global-MMLU": {
+        "rows": 14042,
+        "all_doc_and_prompt_exact": true
+      },
+      "EN MMLU": {
+        "rows": 14042,
+        "all_doc_and_prompt_exact": true
+      },
+      "sft_v1_gsm8k": {
+        "rows": 2638,
+        "all_doc_and_prompt_exact": true
+      },
+      "sft_v1_ifeval": {
+        "rows": 541,
+        "all_doc_and_prompt_exact": true
+      },
+      "sft_v1_mgsm_native_cot_sw": {
+        "rows": 500,
+        "all_doc_and_prompt_exact": true
+      },
+      "sft_v1_xifeval_sw": {
+        "rows": 429,
+        "all_doc_and_prompt_exact": true
+      },
+      "HA Belebele": {
+        "rows": 900,
+        "all_doc_and_prompt_exact": true
+      },
+      "HA Global-MMLU": {
+        "rows": 14042,
+        "all_doc_and_prompt_exact": true
+      }
+    },
+    "B_minus_W1": {
+      "EN Belebele": {
+        "rows": 900,
+        "all_doc_and_prompt_exact": true
+      },
+      "SW Belebele": {
+        "rows": 900,
+        "all_doc_and_prompt_exact": true
+      },
+      "SW Global-MMLU": {
+        "rows": 14042,
+        "all_doc_and_prompt_exact": true
+      },
+      "EN MMLU": {
+        "rows": 14042,
+        "all_doc_and_prompt_exact": true
+      },
+      "sft_v1_gsm8k": {
+        "rows": 2638,
+        "all_doc_and_prompt_exact": true
+      },
+      "sft_v1_ifeval": {
+        "rows": 541,
+        "all_doc_and_prompt_exact": true
+      },
+      "sft_v1_mgsm_native_cot_sw": {
+        "rows": 500,
+        "all_doc_and_prompt_exact": true
+      },
+      "sft_v1_xifeval_sw": {
+        "rows": 429,
+        "all_doc_and_prompt_exact": true
+      },
+      "HA Belebele": {
+        "rows": 900,
+        "all_doc_and_prompt_exact": true
+      },
+      "HA Global-MMLU": {
+        "rows": 14042,
+        "all_doc_and_prompt_exact": true
+      }
+    },
+    "C_minus_W1": {
+      "EN Belebele": {
+        "rows": 900,
+        "all_doc_and_prompt_exact": true
+      },
+      "SW Belebele": {
+        "rows": 900,
+        "all_doc_and_prompt_exact": true
+      },
+      "SW Global-MMLU": {
+        "rows": 14042,
+        "all_doc_and_prompt_exact": true
+      },
+      "EN MMLU": {
+        "rows": 14042,
+        "all_doc_and_prompt_exact": true
+      },
+      "sft_v1_gsm8k": {
+        "rows": 2638,
+        "all_doc_and_prompt_exact": true
+      },
+      "sft_v1_ifeval": {
+        "rows": 541,
+        "all_doc_and_prompt_exact": true
+      },
+      "sft_v1_mgsm_native_cot_sw": {
+        "rows": 500,
+        "all_doc_and_prompt_exact": true
+      },
+      "sft_v1_xifeval_sw": {
+        "rows": 429,
+        "all_doc_and_prompt_exact": true
+      },
+      "HA Belebele": {
+        "rows": 900,
+        "all_doc_and_prompt_exact": true
+      },
+      "HA Global-MMLU": {
+        "rows": 14042,
+        "all_doc_and_prompt_exact": true
+      }
+    },
+    "D_minus_W1": {
+      "EN Belebele": {
+        "rows": 900,
+        "all_doc_and_prompt_exact": true
+      },
+      "SW Belebele": {
+        "rows": 900,
+        "all_doc_and_prompt_exact": true
+      },
+      "SW Global-MMLU": {
+        "rows": 14042,
+        "all_doc_and_prompt_exact": true
+      },
+      "EN MMLU": {
+        "rows": 14042,
+        "all_doc_and_prompt_exact": true
+      },
+      "sft_v1_gsm8k": {
+        "rows": 2638,
+        "all_doc_and_prompt_exact": true
+      },
+      "sft_v1_ifeval": {
+        "rows": 541,
+        "all_doc_and_prompt_exact": true
+      },
+      "sft_v1_mgsm_native_cot_sw": {
+        "rows": 500,
+        "all_doc_and_prompt_exact": true
+      },
+      "sft_v1_xifeval_sw": {
+        "rows": 429,
+        "all_doc_and_prompt_exact": true
+      },
+      "HA Belebele": {
+        "rows": 900,
+        "all_doc_and_prompt_exact": true
+      },
+      "HA Global-MMLU": {
+        "rows": 14042,
+        "all_doc_and_prompt_exact": true
+      }
+    },
+    "B_minus_A": {
+      "EN Belebele": {
+        "rows": 900,
+        "all_doc_and_prompt_exact": true
+      },
+      "SW Belebele": {
+        "rows": 900,
+        "all_doc_and_prompt_exact": true
+      },
+      "HA Belebele": {
+        "rows": 900,
+        "all_doc_and_prompt_exact": true
+      },
+      "EN MMLU": {
+        "rows": 14042,
+        "all_doc_and_prompt_exact": true
+      },
+      "SW Global-MMLU": {
+        "rows": 14042,
+        "all_doc_and_prompt_exact": true
+      },
+      "HA Global-MMLU": {
+        "rows": 14042,
+        "all_doc_and_prompt_exact": true
+      },
+      "sft_v1_gsm8k": {
+        "rows": 2638,
+        "all_doc_and_prompt_exact": true
+      },
+      "sft_v1_ifeval": {
+        "rows": 541,
+        "all_doc_and_prompt_exact": true
+      },
+      "sft_v1_mgsm_native_cot_sw": {
+        "rows": 500,
+        "all_doc_and_prompt_exact": true
+      },
+      "sft_v1_xifeval_sw": {
+        "rows": 429,
+        "all_doc_and_prompt_exact": true
+      }
+    },
+    "C_minus_A": {
+      "EN Belebele": {
+        "rows": 900,
+        "all_doc_and_prompt_exact": true
+      },
+      "SW Belebele": {
+        "rows": 900,
+        "all_doc_and_prompt_exact": true
+      },
+      "HA Belebele": {
+        "rows": 900,
+        "all_doc_and_prompt_exact": true
+      },
+      "EN MMLU": {
+        "rows": 14042,
+        "all_doc_and_prompt_exact": true
+      },
+      "SW Global-MMLU": {
+        "rows": 14042,
+        "all_doc_and_prompt_exact": true
+      },
+      "HA Global-MMLU": {
+        "rows": 14042,
+        "all_doc_and_prompt_exact": true
+      },
+      "sft_v1_gsm8k": {
+        "rows": 2638,
+        "all_doc_and_prompt_exact": true
+      },
+      "sft_v1_ifeval": {
+        "rows": 541,
+        "all_doc_and_prompt_exact": true
+      },
+      "sft_v1_mgsm_native_cot_sw": {
+        "rows": 500,
+        "all_doc_and_prompt_exact": true
+      },
+      "sft_v1_xifeval_sw": {
+        "rows": 429,
+        "all_doc_and_prompt_exact": true
+      }
+    },
+    "D_minus_A": {
+      "EN Belebele": {
+        "rows": 900,
+        "all_doc_and_prompt_exact": true
+      },
+      "SW Belebele": {
+        "rows": 900,
+        "all_doc_and_prompt_exact": true
+      },
+      "HA Belebele": {
+        "rows": 900,
+        "all_doc_and_prompt_exact": true
+      },
+      "EN MMLU": {
+        "rows": 14042,
+        "all_doc_and_prompt_exact": true
+      },
+      "SW Global-MMLU": {
+        "rows": 14042,
+        "all_doc_and_prompt_exact": true
+      },
+      "HA Global-MMLU": {
+        "rows": 14042,
+        "all_doc_and_prompt_exact": true
+      },
+      "sft_v1_gsm8k": {
+        "rows": 2638,
+        "all_doc_and_prompt_exact": true
+      },
+      "sft_v1_ifeval": {
+        "rows": 541,
+        "all_doc_and_prompt_exact": true
+      },
+      "sft_v1_mgsm_native_cot_sw": {
+        "rows": 500,
+        "all_doc_and_prompt_exact": true
+      },
+      "sft_v1_xifeval_sw": {
+        "rows": 429,
+        "all_doc_and_prompt_exact": true
+      }
+    },
+    "C_minus_B": {
+      "EN Belebele": {
+        "rows": 900,
+        "all_doc_and_prompt_exact": true
+      },
+      "SW Belebele": {
+        "rows": 900,
+        "all_doc_and_prompt_exact": true
+      },
+      "HA Belebele": {
+        "rows": 900,
+        "all_doc_and_prompt_exact": true
+      },
+      "EN MMLU": {
+        "rows": 14042,
+        "all_doc_and_prompt_exact": true
+      },
+      "SW Global-MMLU": {
+        "rows": 14042,
+        "all_doc_and_prompt_exact": true
+      },
+      "HA Global-MMLU": {
+        "rows": 14042,
+        "all_doc_and_prompt_exact": true
+      },
+      "sft_v1_gsm8k": {
+        "rows": 2638,
+        "all_doc_and_prompt_exact": true
+      },
+      "sft_v1_ifeval": {
+        "rows": 541,
+        "all_doc_and_prompt_exact": true
+      },
+      "sft_v1_mgsm_native_cot_sw": {
+        "rows": 500,
+        "all_doc_and_prompt_exact": true
+      },
+      "sft_v1_xifeval_sw": {
+        "rows": 429,
+        "all_doc_and_prompt_exact": true
+      }
+    },
+    "C_minus_D": {
+      "EN Belebele": {
+        "rows": 900,
+        "all_doc_and_prompt_exact": true
+      },
+      "SW Belebele": {
+        "rows": 900,
+        "all_doc_and_prompt_exact": true
+      },
+      "HA Belebele": {
+        "rows": 900,
+        "all_doc_and_prompt_exact": true
+      },
+      "EN MMLU": {
+        "rows": 14042,
+        "all_doc_and_prompt_exact": true
+      },
+      "SW Global-MMLU": {
+        "rows": 14042,
+        "all_doc_and_prompt_exact": true
+      },
+      "HA Global-MMLU": {
+        "rows": 14042,
+        "all_doc_and_prompt_exact": true
+      },
+      "sft_v1_gsm8k": {
+        "rows": 2638,
+        "all_doc_and_prompt_exact": true
+      },
+      "sft_v1_ifeval": {
+        "rows": 541,
+        "all_doc_and_prompt_exact": true
+      },
+      "sft_v1_mgsm_native_cot_sw": {
+        "rows": 500,
+        "all_doc_and_prompt_exact": true
+      },
+      "sft_v1_xifeval_sw": {
+        "rows": 429,
+        "all_doc_and_prompt_exact": true
+      }
+    }
+  },
+  "training_exposure_checks": {
+    "all_HA_main_exposure_exact": true,
+    "all_BCD_auxiliary_schedule_exact": true,
+    "full_vocabulary_replay": true,
+    "actual_HF_loss_kwargs_normalization_verified": true,
+    "formal100_and_original400_scheduler": true,
+    "raw_questions_or_predictions_exported": false
+  },
+  "all_published_scores_unchanged": true,
+  "scientific_training_steps_per_arm": 100,
+  "HA_examples_per_arm": 1600,
+  "unshared_original_analysis_sha256": "cc395488d8431b7cf466c395e32c50ad35a4c18a1d185a08890421b1aedc4c3c",
+  "scalar_log_note": "Native5-step scalar logs only. B/C/D loss includes auxiliary objective and is not directly comparable across methods. No per-question records exported."
+}

@@ -1,0 +1,74 @@
+{
+  "frozen_at": "2026-11-04T11:04:43.415124+08:00",
+  "source": "masakhane/uhura-arc-easy",
+  "source_revision": "561efa15460cba0965212b77f09bf6a7f57939a9",
+  "source_split": "train",
+  "languages": [
+    "en",
+    "sw",
+    "ha"
+  ],
+  "source_counts": {
+    "en": 700,
+    "sw": 650,
+    "ha": 655
+  },
+  "common_original_ids": 645,
+  "eligible_ids": 623,
+  "cohort_semantic_ids": 400,
+  "split_counts": {
+    "train_aux": {
+      "semantic_ids": 160,
+      "rows": 480
+    },
+    "dev": {
+      "semantic_ids": 120,
+      "rows": 360
+    },
+    "holdout": {
+      "semantic_ids": 120,
+      "rows": 360
+    }
+  },
+  "seed": "decision-stability-fresh-arc-20261104-v1",
+  "files_sha256": {
+    "train_aux.jsonl": "55012bac0867e24762cd062606887121e711508e0ce78b95785fb9806ccde2d8",
+    "dev.jsonl": "b3db5a298ad49b3ce7d0f3023546a9637f01b8a5eb6ad4535418e00fcbe781f8",
+    "holdout.jsonl": "a74ad3a2e65bb9443567b48f9ab26b807588e8e3fa016771b091969805c90779",
+    "split_ids.json": "b3178c21112e263143bfdf2cc231bfa1499da412d10dc1b3c84b9bcbeaf68a44"
+  },
+  "input_sha256": {
+    "en_arc_train": "9c664172ae070ec7b050a3de7618f85935e81cba57100cc1a5a1594bfb5f8b4f",
+    "sw_arc_train": "347fc0d27f84b5ff5c13bd6ac30312339b257ae6a683a45f16eccbe111283787",
+    "ha_arc_train": "64627e575d1671ad0774f6f51b34a7cd29752603da3cf605b0392f1dd1105ee0",
+    "previous_all_test-00000-of-00001.parquet": "74a41822ce7d3def56e1682f958469c04642a5336a5ce912fa375fdb90fb25d7",
+    "previous_all_dev-00000-of-00001.parquet": "2b19bde1ed8ca6b482fb283abc90e8e0d9d228947029c0b91795d64b28b3bc3f",
+    "previous_reading": "15af884c2b5994fdc71199e79d553a1864b08ce1b31894aa87f6be925a064a31",
+    "training_aya-ha-sft-v1": "bc1641cc1d9bb3a67c41258bd8ab49de55fb8893a6984d4d9c986872c83ed788",
+    "training_aya-sw-v2": "174a2b1406a15c213bbb89eb45b8014fb7e27f0d552a4869df2d765b736bd9e2"
+  },
+  "max_letter_sequence_tokens": 272,
+  "scope": "Project-fresh human-translated four-option science QA; original ARC training source. Not Belebele or Global-MMLU, not a substitute for frozen target benchmarks. No pretraining contamination guarantee.",
+  "alignment": "Intersect original question IDs, same gold index and four ordered option labels; remove duplicate options, positional references, missing-visual references and direct SFT/previous-benchmark question overlap before score. Human source provenance; no new native-speaker full semantic certification.",
+  "primary_readouts": "Original letter ACC, four cyclic content permutations, content-ID probability average, unlabeled content token-mean ACC (raw LP auxiliary). No best-prompt/permutation selection.",
+  "label_position_control": "4 content rotations x4 cyclic display-label rotations =16 fully crossed prompts on dev/holdout. Candidates always ABCD; separately record predicted token and physical position. Noncanonical labels are auxiliary and may alter prompt naturalness.",
+  "p0_models": [
+    "SW_FFT_Final400",
+    "existing_SW_HA_FFT_checkpoint100"
+  ],
+  "p0_only_split": "dev",
+  "holdout_rule": "No holdout model scoring or teacher fitting until all pilot arms fixed and finished; all arms evaluated once, no winner-only selection.",
+  "teacher_rule": "Only train_aux EN/SW. Same joint semantic IDs where W1 four-rotation content-average prediction is correct and strict top margin>1e-6 in BOTH languages; no dev/holdout filtering. Fixed targets T=1. All B/C/D receive same selected IDs and four rotations; teacher cost charged equally.",
+  "training_rule": "Same W1, HA6400 cached order, seed42, AdamW1e-5, effective16, BF16/2048/nonthinking/assistant-only/no packing, original400-step cosine/warmup20 schedule stopped at100. A may reuse exact verified old100 artifact. B/C/D fixedlambda1, once per optimizer step, same auxiliary four-forward budget and labels/data. D supervised replay; B global per-language label marginal KL; C per-example content-average KL. No parameter search.",
+  "reporting": "Freeze pilot100 Final, report HA learning and SW/EN retention, token exposures/teacher cost/time. No English-drop early stop; no automatic400 expansion. If downstream HA learning absent, prioritize task/data fit rather than longer training or new spectral methods.",
+  "excluded_count": 22,
+  "teacher_selected_ids_count": 53,
+  "teacher_minimum_required_ids": 16,
+  "public_scope": "Scientific parameters and aggregate results only; no raw questions, encoded items, per-item scores, weights, host job configuration or environment inventory.",
+  "initialization": "SW FFT Final400, official posttrained Qwen3-1.7B revision70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "initialization_weight_sha256": "79bdf3bbb79ebf32734544bdc2fe28774510ed7e824fe74e0609e41f9cdbd124",
+  "teacher_arithmetic": "Native BF16 inference, four-candidate FP32 softmax; student is training-mode ZeRO3, so small numerical deviations are retained.",
+  "replay_objective": "Full-vocabulary CE on correct final letter token, common chat-whitespace prefix supplied as context; no EOS added. Same four prompts as B/C.",
+  "B_exact_objective": "Per-language teacher global label marginal vs student mean label distribution across the current question four rotations; minibatch marginal-only control, not exact full-cohort constrained optimization.",
+  "formal_scope": "Historically exposed: EN/SW/HA Belebele900 each; EN MMLU and SW/HA Global-MMLU14042 each; fixed native GSM8K/IFEval/SW MGSM/SW X-IFEval; bench-v2 full1012 each translation direction. No exposed-test hyperparameter or checkpoint choice."
+}

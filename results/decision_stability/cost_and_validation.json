@@ -1,0 +1,530 @@
+{
+  "status": "COMPLETE",
+  "A": {
+    "final_model_weight_sha256": {
+      "model.safetensors": "70359f6862114fa41654c992a97ebc513d5ef76591054a78d649cbff09dee6a4"
+    },
+    "reused_existing_checkpoint100": true,
+    "new_training_seconds": 0,
+    "main_exposure": {
+      "samples": 1600,
+      "input_tokens": 653205,
+      "shifted_assistant_tokens": 231035,
+      "padded_positions": 658728
+    },
+    "reference_reuse_verified": true
+  },
+  "training": {
+    "B": {
+      "final_model_weight_sha256": {
+        "model.safetensors": "cbb705199ea058ce0330e29c632f589c3f3a77bf8ef3d2f76cce855ac02a0173"
+      },
+      "final_export_tensor_dtype_counts": {
+        "BF16": 310
+      },
+      "optimizer_steps": 100,
+      "original_schedule_steps": 400,
+      "world_size": 2,
+      "main_exposure": {
+        "samples": 1600,
+        "input_tokens": 653205,
+        "shifted_assistant_tokens": 231035,
+        "padded_positions": 658728
+      },
+      "main_trace_identity": {
+        "0": {
+          "rows": 800,
+          "sha256": "e6d16bb3b890e3349462348178c58a1f4348376a9dc09f8aa30b4a7d03c1935d",
+          "all_fields_identical_to_A100": true,
+          "serialization_bytewise_identical": true
+        },
+        "1": {
+          "rows": 800,
+          "sha256": "cb42d3fc2449f811af5b05bd90f9b3d0bb69b2bb751c14e77bd416639d719be6",
+          "all_fields_identical_to_A100": true,
+          "serialization_bytewise_identical": true
+        }
+      },
+      "aux_unique_semantic_ids": 50,
+      "aux_language_questions": 100,
+      "aux_logical_forward_sequences": 400,
+      "aux_physical_forward_sequences": 800,
+      "aux_logical_input_tokens": 32520,
+      "aux_physical_input_tokens": 65040,
+      "aux_questions_by_language": {
+        "en": 50,
+        "sw": 50
+      },
+      "training_process_wall_seconds": 2415.5498046875,
+      "actual_main_samples_per_wall_second": 0.662375082018643,
+      "actual_main_input_tokens_per_wall_second": 270.4166971562423,
+      "gpu_wall_hours_proxy": 1.3419721137152778,
+      "prerequisite_probe_seconds_excluded": 0,
+      "peak_memory_by_rank": [
+        {
+          "peak_allocated": 20749418496,
+          "peak_reserved": 24247271424
+        },
+        {
+          "peak_allocated": 20749682688,
+          "peak_reserved": 24240979968
+        }
+      ],
+      "source_weight_sha256": {
+        "model.safetensors": "79bdf3bbb79ebf32734544bdc2fe28774510ed7e824fe74e0609e41f9cdbd124"
+      },
+      "config_sha256": "674ce99d78d5116a7e6e0c28773051bc034da48cf18994f02263239f94c98d07",
+      "source_code_sha256": {
+        "train_pilot.py": "b0acdffa348bceb909ad613ea6a729636b9ec86f41e43a86347efb6ad4ec678f",
+        "losses.py": "57e32fe10aaddcea56399571c6fcc854472b24f9f4857fede4bb482b2aaf7ce2"
+      },
+      "teacher_sha256": "9d30db7600a8f9749f4180ffe675622a7ee65c3841372471c31aadb6213fd265",
+      "data_protocol_sha256": "5dd77f5b13ae7a98b5b2081806b53dd28bd255872094add13bc9a135de3249f5",
+      "auxiliary_objective_first10_mean": 0.022924779821187256,
+      "auxiliary_objective_last10_mean": 0.07021357635967433,
+      "warning": "Auxiliary objectives have different meanings/scales; do not rank methods by training objective. Loss is added once per update. Same question duplicated across ranks is averaged by distributed gradients."
+    },
+    "C": {
+      "final_model_weight_sha256": {
+        "model.safetensors": "026196dfcb60c3fc232521d2da81e63f47b99eb034ea9d91638f3c57ccf32989"
+      },
+      "final_export_tensor_dtype_counts": {
+        "BF16": 310
+      },
+      "optimizer_steps": 100,
+      "original_schedule_steps": 400,
+      "world_size": 2,
+      "main_exposure": {
+        "samples": 1600,
+        "input_tokens": 653205,
+        "shifted_assistant_tokens": 231035,
+        "padded_positions": 658728
+      },
+      "main_trace_identity": {
+        "0": {
+          "rows": 800,
+          "sha256": "e6d16bb3b890e3349462348178c58a1f4348376a9dc09f8aa30b4a7d03c1935d",
+          "all_fields_identical_to_A100": true,
+          "serialization_bytewise_identical": true
+        },
+        "1": {
+          "rows": 800,
+          "sha256": "cb42d3fc2449f811af5b05bd90f9b3d0bb69b2bb751c14e77bd416639d719be6",
+          "all_fields_identical_to_A100": true,
+          "serialization_bytewise_identical": true
+        }
+      },
+      "aux_unique_semantic_ids": 50,
+      "aux_language_questions": 100,
+      "aux_logical_forward_sequences": 400,
+      "aux_physical_forward_sequences": 800,
+      "aux_logical_input_tokens": 32520,
+      "aux_physical_input_tokens": 65040,
+      "aux_questions_by_language": {
+        "en": 50,
+        "sw": 50
+      },
+      "training_process_wall_seconds": 2333.8133356571198,
+      "actual_main_samples_per_wall_second": 0.6855732528195089,
+      "actual_main_input_tokens_per_wall_second": 279.88742287997957,
+      "gpu_wall_hours_proxy": 1.2965629642539553,
+      "prerequisite_probe_seconds_excluded": 0,
+      "peak_memory_by_rank": [
+        {
+          "peak_allocated": 20749418496,
+          "peak_reserved": 24247271424
+        },
+        {
+          "peak_allocated": 20749682688,
+          "peak_reserved": 24240979968
+        }
+      ],
+      "source_weight_sha256": {
+        "model.safetensors": "79bdf3bbb79ebf32734544bdc2fe28774510ed7e824fe74e0609e41f9cdbd124"
+      },
+      "config_sha256": "470a7f520e9cb22f10f01d6d446af03c327afec384b2dcb2311918ac9bce3894",
+      "source_code_sha256": {
+        "train_pilot.py": "b0acdffa348bceb909ad613ea6a729636b9ec86f41e43a86347efb6ad4ec678f",
+        "losses.py": "57e32fe10aaddcea56399571c6fcc854472b24f9f4857fede4bb482b2aaf7ce2"
+      },
+      "teacher_sha256": "9d30db7600a8f9749f4180ffe675622a7ee65c3841372471c31aadb6213fd265",
+      "data_protocol_sha256": "5dd77f5b13ae7a98b5b2081806b53dd28bd255872094add13bc9a135de3249f5",
+      "auxiliary_objective_first10_mean": 0.0003862651501549408,
+      "auxiliary_objective_last10_mean": 0.1627383830025792,
+      "warning": "Auxiliary objectives have different meanings/scales; do not rank methods by training objective. Loss is added once per update. Same question duplicated across ranks is averaged by distributed gradients."
+    },
+    "D": {
+      "final_model_weight_sha256": {
+        "model.safetensors": "050cb0d0506072cb0a2cc69c6a0e60e5deb8b7e44333fdf0ee961c7847aaadfa"
+      },
+      "final_export_tensor_dtype_counts": {
+        "BF16": 310
+      },
+      "optimizer_steps": 100,
+      "original_schedule_steps": 400,
+      "world_size": 2,
+      "main_exposure": {
+        "samples": 1600,
+        "input_tokens": 653205,
+        "shifted_assistant_tokens": 231035,
+        "padded_positions": 658728
+      },
+      "main_trace_identity": {
+        "0": {
+          "rows": 800,
+          "sha256": "e6d16bb3b890e3349462348178c58a1f4348376a9dc09f8aa30b4a7d03c1935d",
+          "all_fields_identical_to_A100": true,
+          "serialization_bytewise_identical": true
+        },
+        "1": {
+          "rows": 800,
+          "sha256": "cb42d3fc2449f811af5b05bd90f9b3d0bb69b2bb751c14e77bd416639d719be6",
+          "all_fields_identical_to_A100": true,
+          "serialization_bytewise_identical": true
+        }
+      },
+      "aux_unique_semantic_ids": 50,
+      "aux_language_questions": 100,
+      "aux_logical_forward_sequences": 400,
+      "aux_physical_forward_sequences": 800,
+      "aux_logical_input_tokens": 32520,
+      "aux_physical_input_tokens": 65040,
+      "aux_questions_by_language": {
+        "en": 50,
+        "sw": 50
+      },
+      "training_process_wall_seconds": 2459.1695172786713,
+      "actual_main_samples_per_wall_second": 0.6506261519419644,
+      "actual_main_input_tokens_per_wall_second": 265.62015973703177,
+      "gpu_wall_hours_proxy": 1.3662052873770396,
+      "prerequisite_probe_seconds_excluded": 110.73915839195251,
+      "peak_memory_by_rank": [
+        {
+          "peak_allocated": 20749418496,
+          "peak_reserved": 24249368576
+        },
+        {
+          "peak_allocated": 20749682688,
+          "peak_reserved": 24243077120
+        }
+      ],
+      "source_weight_sha256": {
+        "model.safetensors": "79bdf3bbb79ebf32734544bdc2fe28774510ed7e824fe74e0609e41f9cdbd124"
+      },
+      "config_sha256": "571aaeb6d2fdee09b218fa6251a186c631d1a971e71fad44eba7065819a5da8d",
+      "source_code_sha256": {
+        "train_replay.py": "3c956c07016f5ab39f1ac42d0d6de75a11e57320e30866a5af7019e129d214d0",
+        "losses.py": "57e32fe10aaddcea56399571c6fcc854472b24f9f4857fede4bb482b2aaf7ce2",
+        "losses_replay.py": "f5c0327aecd1093e915b5295b71d0abef991395cc9e559f4d0b5f6a65395ae74"
+      },
+      "teacher_sha256": "9d30db7600a8f9749f4180ffe675622a7ee65c3841372471c31aadb6213fd265",
+      "data_protocol_sha256": "5dd77f5b13ae7a98b5b2081806b53dd28bd255872094add13bc9a135de3249f5",
+      "auxiliary_objective_first10_mean": 1.0558196783065796,
+      "auxiliary_objective_last10_mean": 1.3049632854759694,
+      "warning": "Auxiliary objectives have different meanings/scales; do not rank methods by training objective. Loss is added once per update. Same question duplicated across ranks is averaged by distributed gradients."
+    }
+  },
+  "engineering": {
+    "engineering-content-2-v1": {
+      "optimizer_steps": 2,
+      "main_samples": 32,
+      "seconds": 104.31052279472351,
+      "gpu_wall_hours_proxy": 0.057950290441513064
+    },
+    "engineering-replay-full-vocab-2-v1": {
+      "optimizer_steps": 2,
+      "main_samples": 32,
+      "seconds": 110.66226482391357,
+      "gpu_wall_hours_proxy": 0.06147903601328532
+    }
+  },
+  "teacher": {
+    "physical_cost": {
+      "rows": 320,
+      "seconds": 72.29407453536987,
+      "input_tokens": 103660,
+      "forward_sequences": 1280,
+      "gpu_wall_hours": 0.020081687569618225,
+      "peak_cuda": 4722377216,
+      "prediction_sha256": "b4c5b0a76def21e10698b5aad3556219c01f62531c1ffee87d62d470f34ca82a"
+    },
+    "selected_semantic_ids": 53,
+    "actual_used_semantic_ids": 50,
+    "same_teacher_budget_per_aux_arm_gpu_hours": 0.020081687569618225,
+    "allocated_shared_physical_gpu_hours_per_arm": 0.006693895856539408,
+    "note": "Single offline cache physically computed once; full nominal teacher budget shown equally for B/C/D. A has no auxiliary or teacher compute; four arms are not total-compute matched."
+  },
+  "formal": {
+    "A": {
+      "status": "COMPLETE",
+      "completed": [
+        {
+          "task": "belebele",
+          "seconds": 98.57049465179443
+        },
+        {
+          "task": "ha-belebele",
+          "seconds": 46.06097149848938
+        },
+        {
+          "task": "mmlu",
+          "seconds": 1237.8085551261902
+        },
+        {
+          "task": "gmmlu",
+          "seconds": 2066.2149472236633
+        },
+        {
+          "task": "ha-gmmlu",
+          "seconds": 1998.3030469417572
+        },
+        {
+          "task": "core",
+          "seconds": 1241.4731876850128
+        },
+        {
+          "task": "flores-en-sw",
+          "seconds": 305.76129055023193
+        },
+        {
+          "task": "flores-sw-en",
+          "seconds": 210.93885922431946
+        }
+      ],
+      "seconds": 7239.173622369766,
+      "formal_test_used_for_selection": false
+    },
+    "B": {
+      "status": "COMPLETE",
+      "completed": [
+        {
+          "task": "belebele",
+          "seconds": 98.6135482788086
+        },
+        {
+          "task": "ha-belebele",
+          "seconds": 45.8620502948761
+        },
+        {
+          "task": "mmlu",
+          "seconds": 1246.7886996269226
+        },
+        {
+          "task": "gmmlu",
+          "seconds": 2081.4114837646484
+        },
+        {
+          "task": "ha-gmmlu",
+          "seconds": 2003.9795978069305
+        },
+        {
+          "task": "core",
+          "seconds": 956.6666347980499
+        },
+        {
+          "task": "flores-en-sw",
+          "seconds": 316.41289138793945
+        },
+        {
+          "task": "flores-sw-en",
+          "seconds": 201.64510440826416
+        }
+      ],
+      "seconds": 6985.686940908432,
+      "formal_test_used_for_selection": false
+    },
+    "C": {
+      "status": "COMPLETE",
+      "completed": [
+        {
+          "task": "belebele",
+          "seconds": 65.89671492576599
+        },
+        {
+          "task": "ha-belebele",
+          "seconds": 44.9011914730072
+        },
+        {
+          "task": "mmlu",
+          "seconds": 1154.4894759654999
+        },
+        {
+          "task": "gmmlu",
+          "seconds": 1986.7934215068817
+        },
+        {
+          "task": "ha-gmmlu",
+          "seconds": 1962.7217390537262
+        },
+        {
+          "task": "core",
+          "seconds": 906.0062901973724
+        },
+        {
+          "task": "flores-en-sw",
+          "seconds": 306.55832386016846
+        },
+        {
+          "task": "flores-sw-en",
+          "seconds": 203.27383685112
+        }
+      ],
+      "seconds": 6663.277383565903,
+      "formal_test_used_for_selection": false
+    },
+    "D": {
+      "status": "COMPLETE",
+      "completed": [
+        {
+          "task": "belebele",
+          "seconds": 66.17146968841553
+        },
+        {
+          "task": "ha-belebele",
+          "seconds": 44.75882291793823
+        },
+        {
+          "task": "mmlu",
+          "seconds": 1188.302259683609
+        },
+        {
+          "task": "gmmlu",
+          "seconds": 2008.7766664028168
+        },
+        {
+          "task": "ha-gmmlu",
+          "seconds": 1996.0494165420532
+        },
+        {
+          "task": "core",
+          "seconds": 1016.834682226181
+        },
+        {
+          "task": "flores-en-sw",
+          "seconds": 302.1175649166107
+        },
+        {
+          "task": "flores-sw-en",
+          "seconds": 208.97886419296265
+        }
+      ],
+      "seconds": 6865.196617603302,
+      "formal_test_used_for_selection": false
+    }
+  },
+  "fresh_scoring": {
+    "p0-w1-dev": {
+      "rows": 360,
+      "seconds": 260.04002356529236,
+      "input_tokens": 1112432,
+      "forward_sequences": 11520,
+      "gpu_wall_hours": 0.07223334001170265,
+      "peak_cuda": 7266946560,
+      "prediction_sha256": "ef4a91f0f3f2cbafb3548aec39f5e030b54a2dbc339b7fe9dd062f8922e0a600"
+    },
+    "p0-a100-dev": {
+      "rows": 360,
+      "seconds": 292.7278060913086,
+      "input_tokens": 1112432,
+      "forward_sequences": 11520,
+      "gpu_wall_hours": 0.08131327953603533,
+      "peak_cuda": 7266946560,
+      "prediction_sha256": "79c4a2a283eb8d75f49c66e47c19b498e1e2c0a085f5f75de9787e2899872dd2"
+    },
+    "final-W1-holdout": {
+      "rows": 360,
+      "seconds": 257.56545639038086,
+      "input_tokens": 1064080,
+      "forward_sequences": 11520,
+      "gpu_wall_hours": 0.0715459602408939,
+      "peak_cuda": 7219076096,
+      "prediction_sha256": "15eabe3566e5da4707d5b6c521f2e9b73fa26ba4501e0806b5c4af299c2e5b7a"
+    },
+    "final-A-holdout": {
+      "rows": 360,
+      "seconds": 258.47979187965393,
+      "input_tokens": 1064080,
+      "forward_sequences": 11520,
+      "gpu_wall_hours": 0.07179994232124752,
+      "peak_cuda": 7219076096,
+      "prediction_sha256": "5d68ca4551710e2294bcfda44b98bf64f2b1f63d47c32eb8309ca5eb9392d9b2"
+    },
+    "final-B-holdout": {
+      "rows": 360,
+      "seconds": 265.00087666511536,
+      "input_tokens": 1064080,
+      "forward_sequences": 11520,
+      "gpu_wall_hours": 0.07361135476165348,
+      "peak_cuda": 7219076096,
+      "prediction_sha256": "6b57a11ea36db354115158abcd2af7e06f10aa4ac0b6dbd03caf0cf3a48017d3"
+    },
+    "final-C-holdout": {
+      "rows": 360,
+      "seconds": 251.3722529411316,
+      "input_tokens": 1064080,
+      "forward_sequences": 11520,
+      "gpu_wall_hours": 0.06982562588320838,
+      "peak_cuda": 7219076096,
+      "prediction_sha256": "180ce8f0e406b966f99ae6f05da3f1449ea0f3799a2be1e802465b3abce66409"
+    },
+    "final-D-holdout": {
+      "rows": 360,
+      "seconds": 253.04942655563354,
+      "input_tokens": 1064080,
+      "forward_sequences": 11520,
+      "gpu_wall_hours": 0.07029150750901964,
+      "peak_cuda": 7219076096,
+      "prediction_sha256": "a27c4e4a647277897d33ed64cf107a4cbe7f20befdaa9c638b3e5b595647d48f"
+    },
+    "final-B-dev": {
+      "rows": 360,
+      "seconds": 269.4809103012085,
+      "input_tokens": 1112432,
+      "forward_sequences": 11520,
+      "gpu_wall_hours": 0.07485580848322974,
+      "peak_cuda": 7266946560,
+      "prediction_sha256": "b3382905ada94a6f2e5c128de0a2d13723beb5c5673b5310006d0ef27e4a7a95"
+    },
+    "final-C-dev": {
+      "rows": 360,
+      "seconds": 262.3595333099365,
+      "input_tokens": 1112432,
+      "forward_sequences": 11520,
+      "gpu_wall_hours": 0.0728776482741038,
+      "peak_cuda": 7266946560,
+      "prediction_sha256": "3c4e3c73f5c1d3eaaf3b47517fbde669a1b1607ecee8c6fa5af35e7b11b77948"
+    },
+    "final-D-dev": {
+      "rows": 360,
+      "seconds": 264.7867269515991,
+      "input_tokens": 1112432,
+      "forward_sequences": 11520,
+      "gpu_wall_hours": 0.07355186873012119,
+      "peak_cuda": 7266946560,
+      "prediction_sha256": "0c17f6d5d8972dd22c8dead5687c78cb13c8c24c563fe8a092048c67533530d1"
+    }
+  },
+  "total": {
+    "new_scientific_training_gpu_wall_hours_proxy": 4.004740365346272,
+    "engineering_gpu_wall_hours_proxy": 0.11942932645479838,
+    "teacher_physical_gpu_wall_hours": 0.020081687569618225,
+    "fresh_scoring_gpu_wall_hours": 0.7319063357512157,
+    "formal_reporting_gpu_wall_hours_proxy": 7.70925960123539,
+    "all_new_gpu_wall_hours_proxy": 12.585417316357294
+  },
+  "validation": {
+    "all_HA_main_exposure_exact": true,
+    "all_BCD_auxiliary_schedule_exact": true,
+    "full_vocabulary_replay": true,
+    "actual_HF_loss_kwargs_normalization_verified": true,
+    "formal100_and_original400_scheduler": true,
+    "raw_questions_or_predictions_exported": false
+  },
+  "limits": [
+    "Process wall time times allocated GPU count includes loading/checking/saving; not kernel-time or FLOPs.",
+    "Input token counters count data exposure, not activation-checkpoint recomputation, padded kernel work or all engineering oracle calls.",
+    "GPU pair/topology and cache effects differ; do not claim algorithm speed ranking from wall times.",
+    "Training-side auxiliary losses are not downstream effectiveness evidence.",
+    "Native Trainer scheduled6400/400 but stopped100; its configured-epoch throughput can overstate actual throughput. Reported exposure rates here use actual1600 samples."
+  ]
+}

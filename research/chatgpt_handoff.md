@@ -1,3 +1,11 @@
+## 最新交接 · 2026-11-04：固定100步pilot已完成
+
+共同SW FFT400起点，比较HA-SFT、标签边际、内容决策KD和同题答案token回放，HA均1600样本。新增400个三语共同原题ID，训练/开发/留出分离；32组正式驱动与新读出完成。内容KD没有优于匹配输入/教师预算的回放，HA净收益仍不明确；当前优先任务/数据对齐正对照，不扩400、不宣称My Method。
+
+先读[新研究入口](decision_stability/README.md)、[完整结果](decision_stability/results.md)、[全部对照表](../results/decision_stability/comparison_tables.md)和[下一阶段决策](decision_stability/next_method_decision.md)。下面保留此前研究交接历史。
+
+---
+
 > 2026-11-03：新一轮[答案偏好与跨语言任务诊断](answer_bias_study/README.md)已完成；复用七个既有模型，无新增训练。原始正式benchmark不改。
 
 # 最新研究交接：Hausa学习瓶颈诊断

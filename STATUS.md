@@ -1,3 +1,13 @@
+## 最新研究交付 · 2026-11-04
+
+固定100步决策稳定性pilot及全部评测已完成。内容KD较普通SFT保住部分分数，但没有优于同题回放；四组尚无明确Hausa净学习收益。
+
+- [本轮研究入口](research/decision_stability/README.md)
+- [完整结果与置信区间](research/decision_stability/results.md)
+- [下一阶段决策](research/decision_stability/next_method_decision.md)
+
+---
+
 > 2026-11-03：新一轮[答案偏好与跨语言任务诊断](research/answer_bias_study/README.md)已完成；复用七个既有模型，无新增训练。原始正式benchmark不改。
 
 # 最新状态

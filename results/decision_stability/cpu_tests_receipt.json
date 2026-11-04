@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "tests": 6,
+  "CPU_only": true,
+  "command": "PYTHONPATH=scripts/decision_stability PYTHONDONTWRITEBYTECODE=1 python -m unittest discover -s tests/decision_stability -p test_*.py",
+  "observed_at": "2026-11-04T13:59:33.227001+08:00",
+  "source_sha256": {
+    "tests/decision_stability/test_replay.py": "b88612689c84f69f81797e01b9d11a9167c5b45560dd254ca402866978b0fb93",
+    "tests/decision_stability/test_losses.py": "b38486af8a6c46ef959c9bb1c2229884b39b0a54585ec1e86c1af59c6ca58abb",
+    "scripts/decision_stability/losses.py": "57e32fe10aaddcea56399571c6fcc854472b24f9f4857fede4bb482b2aaf7ce2",
+    "scripts/decision_stability/losses_replay.py": "f5c0327aecd1093e915b5295b71d0abef991395cc9e559f4d0b5f6a65395ae74"
+  },
+  "log_sha256": "6f8a987ff9d3dcb6541362dcfb63b18ec406e6a8b06eb1797ce44daef9fbd18f"
+}
