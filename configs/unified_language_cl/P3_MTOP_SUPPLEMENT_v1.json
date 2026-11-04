@@ -1,0 +1,94 @@
+{
+  "status": "FROZEN_BEFORE_MTOP_DISJOINT_TRAINING_AND_SCORING",
+  "created": "2026-11-04T22:32:01.812026+08:00",
+  "track": "mtop",
+  "eligibility": "7896 common training semantic IDs; original prepared-v2 protocol already reserved B3200",
+  "reason_for_supplement": "The full goal calls for eligible task controls; MTOP meets the fixed-budget eligibility condition in addition to priority MASSIVE/XNLI. No task is selected or dropped from this eligible set using observed effect size.",
+  "priority": "After the two priority P3 tracks; no impact on running main training or unfinished formal benchmarks",
+  "parent_protocol_sha256": "522afc6fa9497802862bd7fa2ebf2289154892d94d79ac185b0e3c90d562a5b7",
+  "derived_protocol_sha256": "4c91af985b56b6edefcd00d17b537169a6f628fc7ff5d9acd4c2a63002ed0ab3",
+  "steps": 200,
+  "examples": 3200,
+  "arms": [
+    "Base->TH_B",
+    "original ES_A Final->TH_B"
+  ],
+  "contrasts": {
+    "same_id_seq_minus_direct_th": [
+      0,
+      0,
+      -1,
+      1,
+      0,
+      0
+    ],
+    "disjoint_id_seq_minus_direct_th": [
+      0,
+      0,
+      0,
+      0,
+      -1,
+      1
+    ],
+    "same_minus_disjoint_seq_advantage": [
+      0,
+      0,
+      -1,
+      1,
+      1,
+      -1
+    ],
+    "same_id_es_forgetting": [
+      0,
+      1,
+      0,
+      -1,
+      0,
+      0
+    ],
+    "disjoint_id_es_forgetting": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      -1
+    ],
+    "same_id_th_stage_change": [
+      0,
+      -1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "disjoint_id_th_stage_change": [
+      0,
+      -1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "direct_th_A_minus_B": [
+      0,
+      0,
+      1,
+      0,
+      -1,
+      0
+    ]
+  },
+  "native_metric": "Native compositional decoupled tree exact match; validity/root-intent remain auxiliary",
+  "native_evaluation": "Unchanged original prepared-v2 dev/test four languages, same prompts/decoding/scoring",
+  "B_rows_with_normalized_TH_text_seen_in_A": 25,
+  "same_id_main_models_reused": true,
+  "already_exposed": "Single ES MTOP formal result and main development results exposed; full main TH/SEQ formal comparisons and all MTOP disjoint results have not been read. Cohort IDs were fixed in original pre-training protocol.",
+  "budget_notes": "Same optimizer steps/examples; actual input/assistant tokens reported separately, not claimed equal-token matched.",
+  "compute_status": "NOT_RUN",
+  "preconditions": [
+    "All main formal and midpoint dev evaluations DONE",
+    "Priority MASSIVE/XNLI P3 comparisons completed",
+    "Fresh total account4GPU and actual resolved-storage headroom checks"
+  ]
+}
