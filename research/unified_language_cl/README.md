@@ -8,13 +8,18 @@
 
 - MASSIVE：ES→TH使TH从76.60%升至81.34%；ES从84.03%变为83.83%，下降0.20个百分点的配对区间跨零。不能称已有稳定遗忘。标签与格式学习对收益有贡献；固定同题64题候选诊断单列。
 - MathOctopus：正式MGSM-Rev2和MSVAMP相对Base四语均下降；不能称目标任务学习成功。训练来源开发曲线中的恢复不能替代正式测试收益。####格式与数值正确率分别报告。
-- 所有负结果保留。通用EN阅读/GSM8K/IFEval完整监测尚未全部完成，不据此宣布研究方向已确定。
+- **MASSIVE完整通用能力监测已完成：** ES→TH最终GSM8K flexible为67.17%（Base73.16%，下降5.99个百分点），IFEval prompt strict为44.18%（Base66.36%，下降22.18个百分点）；英语阅读由60.89%升至79.44%。因此已观察到目标任务收益与部分通用能力退化，并非英语所有能力都下降。ES旧语言遗忘仍不明确。
+- MathOctopus：GSM8K strict由44.81%升至57.24%，但flexible由73.16%降至57.39%；严格格式分数改善不能等同于数学能力提高。IFEval和阅读也下降。
+- 首批6模型与Base的统一EN监测均已完成。其余五轨继续；所有负结果保留，不据此宣布整个目标已完成。
 
 ## 结果入口
 
 - [MASSIVE正式阶段矩阵与区间](../../results/unified_language_cl/massive/comparison-test-v1/table.md)
 - [MathOctopus正式阶段矩阵与区间](../../results/unified_language_cl/mathoctopus/comparison-test-v1/table.md)
 - [同题开发64题生成/候选读出诊断](../../results/unified_language_cl/first_batch_readout_v1/matched_dev64.md)
+- [MASSIVE统一通用能力与区间](../../results/unified_language_cl/massive/retention-comparison-v1/table.md)
+- [MathOctopus统一通用能力与区间](../../results/unified_language_cl/mathoctopus/retention-comparison-v1/table.md)
+- [实际训练曝光和权重验证](../../results/unified_language_cl/first_batch_training_receipt.json)
 - [开发学习曲线](../../results/unified_language_cl/first_batch_dev_curves_v1/learning_curves.png)
 - [冻结协议及原始Wiki来源阻塞说明](evaluation_protocol.md)
 - [WikiLingua官方来源恢复补充](wikilingua_protocol_addendum.md)

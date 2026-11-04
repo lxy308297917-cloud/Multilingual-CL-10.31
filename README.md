@@ -1,6 +1,6 @@
 ## 进行中的统一语言顺序基线 · 2026-11-04
 
-MASSIVE和MathOctopus首批固定Final结果已完成：前者有明显任务收益但未证实稳定遗忘，后者正式数学测试下降。其余五轨训练/测评和完整代码整理继续进行。
+MASSIVE和MathOctopus首批固定Final结果已完成：前者目标任务提升且GSM8K/IFEval退化，ES旧语言遗忘尚不明确；后者正式数学测试下降。其余五轨训练/测评和完整代码整理继续进行。
 
 - [本轮进度、结果与限制](research/unified_language_cl/README.md)
 

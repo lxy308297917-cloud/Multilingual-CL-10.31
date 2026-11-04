@@ -1,0 +1,150 @@
+{
+  "scope": "Executed fixed-budget training validation, not additional seeds or smoke results. Wall includes save/validation; requested two-GPU wall is a reserved resource estimate, not measured GPU kernel time. Natural duplicate encoded utterances retain distinct official source IDs and multiplicities.",
+  "model_revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "runs": {
+    "massive_single_es_seed42_v1": {
+      "status": "VALIDATED",
+      "steps": 200,
+      "schedule_steps": 200,
+      "samples": 3200,
+      "unique_input_label_pairs": 3186,
+      "input_tokens": 912496,
+      "shifted_assistant_tokens": 14718,
+      "export_tensor_count": 310,
+      "tied_alias_omitted": [
+        "lm_head.weight"
+      ],
+      "weights": {
+        "model.safetensors": "6916a11e5de5b4b0dba79318fd7ec987ffb4eb3dba7abca9efb984521e5d9229"
+      },
+      "export_dtypes": [
+        "BF16"
+      ],
+      "config_sha256": "2746912275326fd12cf90a8e9c740ce08543c46df7471eb62d6c725a56d67c6b",
+      "checkpoint_optimizer_preserved": true,
+      "full_epoch_exact_multiset": true,
+      "wall_seconds_including_save_and_validation": 1215.1511033903807,
+      "reserved_gpu_hours_estimate": 0.6750839463279893
+    },
+    "massive_single_th_seed42_v1": {
+      "status": "VALIDATED",
+      "steps": 200,
+      "schedule_steps": 200,
+      "samples": 3200,
+      "unique_input_label_pairs": 3173,
+      "input_tokens": 974007,
+      "shifted_assistant_tokens": 14718,
+      "export_tensor_count": 310,
+      "tied_alias_omitted": [
+        "lm_head.weight"
+      ],
+      "weights": {
+        "model.safetensors": "cda968b587f38d3f276220747514ea8f07f92c51b37de8afe9001281e1045f6d"
+      },
+      "export_dtypes": [
+        "BF16"
+      ],
+      "config_sha256": "536584ba7538978f64b8a2cf4a5f96a1881ddffaa5aae0cc1a85be78e154f34e",
+      "checkpoint_optimizer_preserved": true,
+      "full_epoch_exact_multiset": true,
+      "wall_seconds_including_save_and_validation": 1282.1569669507444,
+      "reserved_gpu_hours_estimate": 0.7123094260837469
+    },
+    "massive_seq_es_th_seed42_v1": {
+      "status": "VALIDATED",
+      "steps": 200,
+      "schedule_steps": 200,
+      "samples": 3200,
+      "unique_input_label_pairs": 3173,
+      "input_tokens": 974007,
+      "shifted_assistant_tokens": 14718,
+      "export_tensor_count": 310,
+      "tied_alias_omitted": [
+        "lm_head.weight"
+      ],
+      "weights": {
+        "model.safetensors": "f0aa9bcb60c90f44245d25e1111e2cfb2ab7bf6bcc137ff374f78bc0fd4a9cb0"
+      },
+      "export_dtypes": [
+        "BF16"
+      ],
+      "config_sha256": "26e5356ade7ba7f21133644ba69e4071a91206ecdf30902e08c5ab5e28ad53ba",
+      "checkpoint_optimizer_preserved": true,
+      "full_epoch_exact_multiset": true,
+      "wall_seconds_including_save_and_validation": 1279.317474603653,
+      "reserved_gpu_hours_estimate": 0.7107319303353627
+    },
+    "mathoctopus_single_es_seed42_v1": {
+      "status": "VALIDATED",
+      "steps": 200,
+      "schedule_steps": 200,
+      "samples": 3200,
+      "unique_input_label_pairs": 3200,
+      "input_tokens": 798668,
+      "shifted_assistant_tokens": 430876,
+      "export_tensor_count": 310,
+      "tied_alias_omitted": [
+        "lm_head.weight"
+      ],
+      "weights": {
+        "model.safetensors": "9143f3371236de784208263307c3b28084bc35beda7389e4c142cb3718f28286"
+      },
+      "export_dtypes": [
+        "BF16"
+      ],
+      "config_sha256": "5b823e86d2d855a3f029bbdfb4e46097222d2869d111f3bdfcf2fa3c9f15db76",
+      "checkpoint_optimizer_preserved": true,
+      "full_epoch_exact_multiset": true,
+      "wall_seconds_including_save_and_validation": 1247.51458016783,
+      "reserved_gpu_hours_estimate": 0.6930636556487945
+    },
+    "mathoctopus_single_th_seed42_v1": {
+      "status": "VALIDATED",
+      "steps": 200,
+      "schedule_steps": 200,
+      "samples": 3200,
+      "unique_input_label_pairs": 3200,
+      "input_tokens": 1133169,
+      "shifted_assistant_tokens": 579533,
+      "export_tensor_count": 310,
+      "tied_alias_omitted": [
+        "lm_head.weight"
+      ],
+      "weights": {
+        "model.safetensors": "f613981ec5cb9f840664c81671391d73cc08506de7d44da4314d91e685dc26c2"
+      },
+      "export_dtypes": [
+        "BF16"
+      ],
+      "config_sha256": "6216c00b019a9b3e22bbb0a4c65cfef73805aec4c4286339f29741218d10b782",
+      "checkpoint_optimizer_preserved": true,
+      "full_epoch_exact_multiset": true,
+      "wall_seconds_including_save_and_validation": 1291.4581190869212,
+      "reserved_gpu_hours_estimate": 0.7174767328260674
+    },
+    "mathoctopus_seq_es_th_seed42_v1": {
+      "status": "VALIDATED",
+      "steps": 200,
+      "schedule_steps": 200,
+      "samples": 3200,
+      "unique_input_label_pairs": 3200,
+      "input_tokens": 1133169,
+      "shifted_assistant_tokens": 579533,
+      "export_tensor_count": 310,
+      "tied_alias_omitted": [
+        "lm_head.weight"
+      ],
+      "weights": {
+        "model.safetensors": "e1655b09213eeb52e1a4bbc845e4b295a8114eceda6a2d43ed3ab874c01dc625"
+      },
+      "export_dtypes": [
+        "BF16"
+      ],
+      "config_sha256": "b7251795697faf03270177fae8e7709505c773418dac966e48e9661dd4ddd18e",
+      "checkpoint_optimizer_preserved": true,
+      "full_epoch_exact_multiset": true,
+      "wall_seconds_including_save_and_validation": 1284.9771682918072,
+      "reserved_gpu_hours_estimate": 0.7138762046065595
+    }
+  }
+}
