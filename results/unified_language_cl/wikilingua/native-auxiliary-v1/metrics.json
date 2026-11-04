@@ -1,0 +1,273 @@
+{
+  "track": "wikilingua",
+  "split": "test",
+  "status": "COMPLETE_FIXED_NATIVE_AUXILIARY_SCALARS",
+  "comparison_sha256": "d93b538f376204a50c9e5f2572e6a9e8d2bea1dcbe79d3b8c381413c37b6ec2e",
+  "limits": [
+    "Fraction metrics retain 0..1 units, except ROUGE metrics in 0..100. Counts and token lengths are explicit.",
+    "Only pre-existing scorer outputs copied; no new inference, parser changes, or test-based selection.",
+    "Parsed prediction frequency maps deliberately excluded because their keys may contain raw outputs."
+  ],
+  "models": {
+    "base": {
+      "scores_sha256": "afe2fc245d8cc0375b270f3fdd0080f5af73e10f485156feb94c8c3221472767",
+      "groups": {
+        "en:wikilingua": {
+          "samples": 27004,
+          "primary_metric": "rougeLsum",
+          "score": 18.251088139341977,
+          "rouge1": 26.387971988276547,
+          "rouge2": 7.478804844432239,
+          "rougeLsum": 18.251088139341977,
+          "mean_generated_tokens": 126.5484372685528,
+          "mean_reference_tokens": 43.01573840912457,
+          "hit_cap_rate": 0.00040734705969486,
+          "source_truncated_rate": 0.005480669530439935,
+          "language_aux_confident_n": 26999,
+          "language_aux_correct_n": 26998,
+          "language_aux_limit": "langdetect1.0.9 automatic diagnostic only, not human language correctness ground truth; short/low-confidence outputs are unmeasured."
+        },
+        "es:wikilingua": {
+          "samples": 21164,
+          "primary_metric": "rougeLsum",
+          "score": 17.336264680525705,
+          "rouge1": 25.875558500907186,
+          "rouge2": 8.286863175756892,
+          "rougeLsum": 17.336264680525705,
+          "mean_generated_tokens": 205.8409090909091,
+          "mean_reference_tokens": 65.05159705159706,
+          "hit_cap_rate": 0.023105273105273105,
+          "source_truncated_rate": 0.029342279342279343,
+          "language_aux_confident_n": 21152,
+          "language_aux_correct_n": 21130,
+          "language_aux_limit": "langdetect1.0.9 automatic diagnostic only, not human language correctness ground truth; short/low-confidence outputs are unmeasured."
+        },
+        "fr:wikilingua": {
+          "samples": 12128,
+          "primary_metric": "rougeLsum",
+          "score": 17.733133249104835,
+          "rouge1": 26.032835033724666,
+          "rouge2": 7.760920236385731,
+          "rougeLsum": 17.733133249104835,
+          "mean_generated_tokens": 142.93848944591028,
+          "mean_reference_tokens": 61.77152044854881,
+          "hit_cap_rate": 0.0025560686015831135,
+          "source_truncated_rate": 0.05112137203166227,
+          "language_aux_confident_n": 12126,
+          "language_aux_correct_n": 12124,
+          "language_aux_limit": "langdetect1.0.9 automatic diagnostic only, not human language correctness ground truth; short/low-confidence outputs are unmeasured."
+        },
+        "th:wikilingua": {
+          "samples": 2723,
+          "primary_metric": "rougeLsum",
+          "score": 21.011156038809546,
+          "rouge1": 27.947476883252598,
+          "rouge2": 9.324750309848069,
+          "rougeLsum": 21.011156038809546,
+          "mean_generated_tokens": 239.40506793977232,
+          "mean_reference_tokens": 89.51597502754315,
+          "hit_cap_rate": 0.009915534337128168,
+          "source_truncated_rate": 0.229893499816379,
+          "language_aux_confident_n": 2723,
+          "language_aux_correct_n": 2722,
+          "language_aux_limit": "langdetect1.0.9 automatic diagnostic only, not human language correctness ground truth; short/low-confidence outputs are unmeasured."
+        }
+      }
+    },
+    "single_es": {
+      "scores_sha256": "10f7460514254807a6bc4d4c14c7492b419002910709d83d3dfe60a87e05d401",
+      "groups": {
+        "en:wikilingua": {
+          "samples": 27004,
+          "primary_metric": "rougeLsum",
+          "score": 33.05437553862991,
+          "rouge1": 39.11741889857147,
+          "rouge2": 16.496982311380016,
+          "rougeLsum": 33.05437553862991,
+          "mean_generated_tokens": 48.90668049177899,
+          "mean_reference_tokens": 43.01573840912457,
+          "hit_cap_rate": 0.029736335357724783,
+          "source_truncated_rate": 0.005480669530439935,
+          "language_aux_confident_n": 26399,
+          "language_aux_correct_n": 26288,
+          "language_aux_limit": "langdetect1.0.9 automatic diagnostic only, not human language correctness ground truth; short/low-confidence outputs are unmeasured."
+        },
+        "es:wikilingua": {
+          "samples": 21164,
+          "primary_metric": "rougeLsum",
+          "score": 30.142988539941868,
+          "rouge1": 36.00252005883582,
+          "rouge2": 16.298055712674323,
+          "rougeLsum": 30.142988539941868,
+          "mean_generated_tokens": 58.90767340767341,
+          "mean_reference_tokens": 65.05159705159706,
+          "hit_cap_rate": 0.0292005292005292,
+          "source_truncated_rate": 0.029342279342279343,
+          "language_aux_confident_n": 20388,
+          "language_aux_correct_n": 20036,
+          "language_aux_limit": "langdetect1.0.9 automatic diagnostic only, not human language correctness ground truth; short/low-confidence outputs are unmeasured."
+        },
+        "fr:wikilingua": {
+          "samples": 12128,
+          "primary_metric": "rougeLsum",
+          "score": 27.294882059324763,
+          "rouge1": 32.39320908963598,
+          "rouge2": 13.80806284246509,
+          "rougeLsum": 27.294882059324763,
+          "mean_generated_tokens": 85.55870712401055,
+          "mean_reference_tokens": 61.77152044854881,
+          "hit_cap_rate": 0.07932058047493404,
+          "source_truncated_rate": 0.05112137203166227,
+          "language_aux_confident_n": 11778,
+          "language_aux_correct_n": 11714,
+          "language_aux_limit": "langdetect1.0.9 automatic diagnostic only, not human language correctness ground truth; short/low-confidence outputs are unmeasured."
+        },
+        "th:wikilingua": {
+          "samples": 2723,
+          "primary_metric": "rougeLsum",
+          "score": 16.123828636274474,
+          "rouge1": 19.106723385168586,
+          "rouge2": 7.674081076934274,
+          "rougeLsum": 16.123828636274474,
+          "mean_generated_tokens": 420.9243481454278,
+          "mean_reference_tokens": 89.51597502754315,
+          "hit_cap_rate": 0.770106500183621,
+          "source_truncated_rate": 0.229893499816379,
+          "language_aux_confident_n": 2703,
+          "language_aux_correct_n": 2698,
+          "language_aux_limit": "langdetect1.0.9 automatic diagnostic only, not human language correctness ground truth; short/low-confidence outputs are unmeasured."
+        }
+      }
+    },
+    "single_th": {
+      "scores_sha256": "28141a676e63a3f651e9a45e22389ff2ba45e4648decab46593ad89aa0a02a51",
+      "groups": {
+        "en:wikilingua": {
+          "samples": 27004,
+          "primary_metric": "rougeLsum",
+          "score": 31.906455187467913,
+          "rouge1": 37.77895643622353,
+          "rouge2": 15.58322153427304,
+          "rougeLsum": 31.906455187467913,
+          "mean_generated_tokens": 40.59976299807436,
+          "mean_reference_tokens": 43.01573840912457,
+          "hit_cap_rate": 0.01788623907569249,
+          "source_truncated_rate": 0.005480669530439935,
+          "language_aux_confident_n": 26200,
+          "language_aux_correct_n": 26071,
+          "language_aux_limit": "langdetect1.0.9 automatic diagnostic only, not human language correctness ground truth; short/low-confidence outputs are unmeasured."
+        },
+        "es:wikilingua": {
+          "samples": 21164,
+          "primary_metric": "rougeLsum",
+          "score": 27.29472535131329,
+          "rouge1": 32.70861003089237,
+          "rouge2": 13.918272176729616,
+          "rougeLsum": 27.29472535131329,
+          "mean_generated_tokens": 64.63645813645813,
+          "mean_reference_tokens": 65.05159705159706,
+          "hit_cap_rate": 0.04654129654129654,
+          "source_truncated_rate": 0.029342279342279343,
+          "language_aux_confident_n": 20219,
+          "language_aux_correct_n": 19890,
+          "language_aux_limit": "langdetect1.0.9 automatic diagnostic only, not human language correctness ground truth; short/low-confidence outputs are unmeasured."
+        },
+        "fr:wikilingua": {
+          "samples": 12128,
+          "primary_metric": "rougeLsum",
+          "score": 27.17818428556509,
+          "rouge1": 32.351885775504904,
+          "rouge2": 13.677213138067295,
+          "rougeLsum": 27.17818428556509,
+          "mean_generated_tokens": 67.27341688654353,
+          "mean_reference_tokens": 61.77152044854881,
+          "hit_cap_rate": 0.04658641160949868,
+          "source_truncated_rate": 0.05112137203166227,
+          "language_aux_confident_n": 11727,
+          "language_aux_correct_n": 11639,
+          "language_aux_limit": "langdetect1.0.9 automatic diagnostic only, not human language correctness ground truth; short/low-confidence outputs are unmeasured."
+        },
+        "th:wikilingua": {
+          "samples": 2723,
+          "primary_metric": "rougeLsum",
+          "score": 31.52312272651097,
+          "rouge1": 35.82292120738737,
+          "rouge2": 16.952357731308293,
+          "rougeLsum": 31.52312272651097,
+          "mean_generated_tokens": 151.83363936834374,
+          "mean_reference_tokens": 89.51597502754315,
+          "hit_cap_rate": 0.1939037825927286,
+          "source_truncated_rate": 0.229893499816379,
+          "language_aux_confident_n": 2578,
+          "language_aux_correct_n": 2527,
+          "language_aux_limit": "langdetect1.0.9 automatic diagnostic only, not human language correctness ground truth; short/low-confidence outputs are unmeasured."
+        }
+      }
+    },
+    "seq_es_th": {
+      "scores_sha256": "809cb7a7532e49aebbcb9538a7d986287f96a0db431942f0d5ff4bb84de27422",
+      "groups": {
+        "en:wikilingua": {
+          "samples": 27004,
+          "primary_metric": "rougeLsum",
+          "score": 32.885568244763604,
+          "rouge1": 38.50930855606182,
+          "rouge2": 16.267373043927982,
+          "rougeLsum": 32.885568244763604,
+          "mean_generated_tokens": 39.889905199229744,
+          "mean_reference_tokens": 43.01573840912457,
+          "hit_cap_rate": 0.019626721967115984,
+          "source_truncated_rate": 0.005480669530439935,
+          "language_aux_confident_n": 26021,
+          "language_aux_correct_n": 25831,
+          "language_aux_limit": "langdetect1.0.9 automatic diagnostic only, not human language correctness ground truth; short/low-confidence outputs are unmeasured."
+        },
+        "es:wikilingua": {
+          "samples": 21164,
+          "primary_metric": "rougeLsum",
+          "score": 28.84518023849612,
+          "rouge1": 34.08613984128028,
+          "rouge2": 15.531269161615487,
+          "rougeLsum": 28.84518023849612,
+          "mean_generated_tokens": 43.72651672651673,
+          "mean_reference_tokens": 65.05159705159706,
+          "hit_cap_rate": 0.010725760725760725,
+          "source_truncated_rate": 0.029342279342279343,
+          "language_aux_confident_n": 19655,
+          "language_aux_correct_n": 19163,
+          "language_aux_limit": "langdetect1.0.9 automatic diagnostic only, not human language correctness ground truth; short/low-confidence outputs are unmeasured."
+        },
+        "fr:wikilingua": {
+          "samples": 12128,
+          "primary_metric": "rougeLsum",
+          "score": 27.3006047748945,
+          "rouge1": 31.98289228316559,
+          "rouge2": 13.750840590286234,
+          "rougeLsum": 27.3006047748945,
+          "mean_generated_tokens": 62.61642480211082,
+          "mean_reference_tokens": 61.77152044854881,
+          "hit_cap_rate": 0.04304089709762533,
+          "source_truncated_rate": 0.05112137203166227,
+          "language_aux_confident_n": 11582,
+          "language_aux_correct_n": 11493,
+          "language_aux_limit": "langdetect1.0.9 automatic diagnostic only, not human language correctness ground truth; short/low-confidence outputs are unmeasured."
+        },
+        "th:wikilingua": {
+          "samples": 2723,
+          "primary_metric": "rougeLsum",
+          "score": 32.98686426361773,
+          "rouge1": 37.46758981198207,
+          "rouge2": 18.074791271629472,
+          "rougeLsum": 32.98686426361773,
+          "mean_generated_tokens": 138.00440690414985,
+          "mean_reference_tokens": 89.51597502754315,
+          "hit_cap_rate": 0.1626882115313992,
+          "source_truncated_rate": 0.229893499816379,
+          "language_aux_confident_n": 2592,
+          "language_aux_correct_n": 2540,
+          "language_aux_limit": "langdetect1.0.9 automatic diagnostic only, not human language correctness ground truth; short/low-confidence outputs are unmeasured."
+        }
+      }
+    }
+  }
+}

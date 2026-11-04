@@ -1,0 +1,306 @@
+{
+  "track": "wikilingua",
+  "split": "dev",
+  "status": "COMPLETE_FIXED_FINAL_MATRIX",
+  "model_order": [
+    "base",
+    "single_es",
+    "single_th",
+    "seq_es_th"
+  ],
+  "groups": {
+    "en:wikilingua": {
+      "samples": 256,
+      "metric": "ROUGE-Lsum F1 points",
+      "scores": {
+        "base": 17.49035532958469,
+        "single_es": 33.16820055965994,
+        "single_th": 31.048613516701057,
+        "seq_es_th": 32.38353585146846
+      },
+      "effects": {
+        "single_es_minus_base": {
+          "delta": 15.67784523007526,
+          "ci95_low": 13.947810179383987,
+          "ci95_high": 17.35438459814935,
+          "repeats": 2000,
+          "n": 256,
+          "clusters": 247,
+          "unit": "conditional paired English-article cluster bootstrap; sections within article grouped; seed42 only"
+        },
+        "single_th_minus_base": {
+          "delta": 13.558258187116365,
+          "ci95_low": 11.964346207495655,
+          "ci95_high": 15.08803266724197,
+          "repeats": 2000,
+          "n": 256,
+          "clusters": 247,
+          "unit": "conditional paired English-article cluster bootstrap; sections within article grouped; seed42 only"
+        },
+        "seq_th_minus_es": {
+          "delta": -0.7846647081914768,
+          "ci95_low": -1.9270082614620985,
+          "ci95_high": 0.4070554576666933,
+          "repeats": 2000,
+          "n": 256,
+          "clusters": 247,
+          "unit": "conditional paired English-article cluster bootstrap; sections within article grouped; seed42 only"
+        },
+        "es_forgetting": {
+          "delta": 0.7846647081914768,
+          "ci95_low": -0.40705545766669493,
+          "ci95_high": 1.9270082614620974,
+          "repeats": 2000,
+          "n": 256,
+          "clusters": 247,
+          "unit": "conditional paired English-article cluster bootstrap; sections within article grouped; seed42 only"
+        },
+        "seq_final_minus_single_th": {
+          "delta": 1.3349223347674155,
+          "ci95_low": 0.08976850452794909,
+          "ci95_high": 2.6118387278460946,
+          "repeats": 2000,
+          "n": 256,
+          "clusters": 247,
+          "unit": "conditional paired English-article cluster bootstrap; sections within article grouped; seed42 only"
+        },
+        "difference_of_th_gains": {
+          "delta": -14.342922895307844,
+          "ci95_low": -16.307106054615367,
+          "ci95_high": -12.273367890127453,
+          "repeats": 2000,
+          "n": 256,
+          "clusters": 247,
+          "unit": "conditional paired English-article cluster bootstrap; sections within article grouped; seed42 only"
+        }
+      }
+    },
+    "es:wikilingua": {
+      "samples": 256,
+      "metric": "ROUGE-Lsum F1 points",
+      "scores": {
+        "base": 16.61892450143045,
+        "single_es": 29.78294467720167,
+        "single_th": 26.959420267482155,
+        "seq_es_th": 28.582637351575325
+      },
+      "effects": {
+        "single_es_minus_base": {
+          "delta": 13.164020175771217,
+          "ci95_low": 11.522824560992124,
+          "ci95_high": 14.782626189588814,
+          "repeats": 2000,
+          "n": 256,
+          "clusters": 247,
+          "unit": "conditional paired English-article cluster bootstrap; sections within article grouped; seed42 only"
+        },
+        "single_th_minus_base": {
+          "delta": 10.340495766051708,
+          "ci95_low": 8.710588423287126,
+          "ci95_high": 11.864233176452775,
+          "repeats": 2000,
+          "n": 256,
+          "clusters": 247,
+          "unit": "conditional paired English-article cluster bootstrap; sections within article grouped; seed42 only"
+        },
+        "seq_th_minus_es": {
+          "delta": -1.2003073256263428,
+          "ci95_low": -2.5021417572489106,
+          "ci95_high": 0.030867290727923945,
+          "repeats": 2000,
+          "n": 256,
+          "clusters": 247,
+          "unit": "conditional paired English-article cluster bootstrap; sections within article grouped; seed42 only"
+        },
+        "es_forgetting": {
+          "delta": 1.2003073256263428,
+          "ci95_low": -0.030867290727925035,
+          "ci95_high": 2.5021417572489106,
+          "repeats": 2000,
+          "n": 256,
+          "clusters": 247,
+          "unit": "conditional paired English-article cluster bootstrap; sections within article grouped; seed42 only"
+        },
+        "seq_final_minus_single_th": {
+          "delta": 1.6232170840931657,
+          "ci95_low": 0.2073466441577786,
+          "ci95_high": 3.0483662141135186,
+          "repeats": 2000,
+          "n": 256,
+          "clusters": 247,
+          "unit": "conditional paired English-article cluster bootstrap; sections within article grouped; seed42 only"
+        },
+        "difference_of_th_gains": {
+          "delta": -11.54080309167805,
+          "ci95_low": -13.422511352108085,
+          "ci95_high": -9.619639171408457,
+          "repeats": 2000,
+          "n": 256,
+          "clusters": 247,
+          "unit": "conditional paired English-article cluster bootstrap; sections within article grouped; seed42 only"
+        }
+      }
+    },
+    "fr:wikilingua": {
+      "samples": 256,
+      "metric": "ROUGE-Lsum F1 points",
+      "scores": {
+        "base": 17.526607207561987,
+        "single_es": 26.699422687353202,
+        "single_th": 27.074338013361423,
+        "seq_es_th": 26.862068101414753
+      },
+      "effects": {
+        "single_es_minus_base": {
+          "delta": 9.172815479791222,
+          "ci95_low": 7.549123557505569,
+          "ci95_high": 10.891407633237844,
+          "repeats": 2000,
+          "n": 256,
+          "clusters": 247,
+          "unit": "conditional paired English-article cluster bootstrap; sections within article grouped; seed42 only"
+        },
+        "single_th_minus_base": {
+          "delta": 9.547730805799446,
+          "ci95_low": 7.92465896229622,
+          "ci95_high": 11.248970733875717,
+          "repeats": 2000,
+          "n": 256,
+          "clusters": 247,
+          "unit": "conditional paired English-article cluster bootstrap; sections within article grouped; seed42 only"
+        },
+        "seq_th_minus_es": {
+          "delta": 0.1626454140615451,
+          "ci95_low": -1.0735250853719982,
+          "ci95_high": 1.342300526520113,
+          "repeats": 2000,
+          "n": 256,
+          "clusters": 247,
+          "unit": "conditional paired English-article cluster bootstrap; sections within article grouped; seed42 only"
+        },
+        "es_forgetting": {
+          "delta": -0.1626454140615451,
+          "ci95_low": -1.3423005265201133,
+          "ci95_high": 1.073525085371998,
+          "repeats": 2000,
+          "n": 256,
+          "clusters": 247,
+          "unit": "conditional paired English-article cluster bootstrap; sections within article grouped; seed42 only"
+        },
+        "seq_final_minus_single_th": {
+          "delta": -0.21226991194667988,
+          "ci95_low": -1.612756173904884,
+          "ci95_high": 1.1203212617127607,
+          "repeats": 2000,
+          "n": 256,
+          "clusters": 247,
+          "unit": "conditional paired English-article cluster bootstrap; sections within article grouped; seed42 only"
+        },
+        "difference_of_th_gains": {
+          "delta": -9.385085391737901,
+          "ci95_low": -11.218096962981202,
+          "ci95_high": -7.607047954835128,
+          "repeats": 2000,
+          "n": 256,
+          "clusters": 247,
+          "unit": "conditional paired English-article cluster bootstrap; sections within article grouped; seed42 only"
+        }
+      }
+    },
+    "th:wikilingua": {
+      "samples": 256,
+      "metric": "ROUGE-Lsum F1 points",
+      "scores": {
+        "base": 20.58409358690154,
+        "single_es": 14.845028646090011,
+        "single_th": 30.380355566216387,
+        "seq_es_th": 31.624000107219416
+      },
+      "effects": {
+        "single_es_minus_base": {
+          "delta": -5.739064940811535,
+          "ci95_low": -6.820370362491135,
+          "ci95_high": -4.660333037915619,
+          "repeats": 2000,
+          "n": 256,
+          "clusters": 247,
+          "unit": "conditional paired English-article cluster bootstrap; sections within article grouped; seed42 only"
+        },
+        "single_th_minus_base": {
+          "delta": 9.796261979314863,
+          "ci95_low": 7.939939443381247,
+          "ci95_high": 11.807268078332598,
+          "repeats": 2000,
+          "n": 256,
+          "clusters": 247,
+          "unit": "conditional paired English-article cluster bootstrap; sections within article grouped; seed42 only"
+        },
+        "seq_th_minus_es": {
+          "delta": 16.77897146112943,
+          "ci95_low": 14.721661864219952,
+          "ci95_high": 18.806349291684427,
+          "repeats": 2000,
+          "n": 256,
+          "clusters": 247,
+          "unit": "conditional paired English-article cluster bootstrap; sections within article grouped; seed42 only"
+        },
+        "es_forgetting": {
+          "delta": -16.77897146112943,
+          "ci95_low": -18.80634929168443,
+          "ci95_high": -14.721661864219952,
+          "repeats": 2000,
+          "n": 256,
+          "clusters": 247,
+          "unit": "conditional paired English-article cluster bootstrap; sections within article grouped; seed42 only"
+        },
+        "seq_final_minus_single_th": {
+          "delta": 1.2436445410030288,
+          "ci95_low": -0.29540864850696125,
+          "ci95_high": 2.6199657364767615,
+          "repeats": 2000,
+          "n": 256,
+          "clusters": 247,
+          "unit": "conditional paired English-article cluster bootstrap; sections within article grouped; seed42 only"
+        },
+        "difference_of_th_gains": {
+          "delta": 6.982709481814565,
+          "ci95_low": 5.190851552094846,
+          "ci95_high": 8.648883706468704,
+          "repeats": 2000,
+          "n": 256,
+          "clusters": 247,
+          "unit": "conditional paired English-article cluster bootstrap; sections within article grouped; seed42 only"
+        }
+      }
+    }
+  },
+  "sources": {
+    "base": {
+      "predictions_sha256": "45064041320f7cc6f90118a635299b4188b6185230735074faff2526d5797e8b",
+      "run_sha256": "56d302bc59fe88b6c14e71e5646d85975894c67b928fd8e42358f1ae34afb1f6",
+      "scores_sha256": "2e45d73e78c4bcdad4e19671bce2e3afd46b85a4b3b504f45336116f9c99067b"
+    },
+    "single_es": {
+      "predictions_sha256": "b9309c87f1884afe985ce56616d552696a55a3196d4b0bd1e0a94a8ee0a74f9b",
+      "run_sha256": "9af8e9c06c2edd8f193fdf4c588ce86483b2071681e5f07f02d544380d8389c8",
+      "scores_sha256": "7dc3004c6055bbdfbaef6c85fd7c875973f763ee0b4bb5c6127039eb7f23a449"
+    },
+    "single_th": {
+      "predictions_sha256": "5c2dc467af70e5180a7cfef295fd5a1b1e6e85653e09ab1be68976ac3de8a4b2",
+      "run_sha256": "9e17aba7419906d4866c7bbbee2f00d609f7e623efe41c5be02f5d10ce7ef191",
+      "scores_sha256": "e2789778e08a025f4b4bdc27b7608000036b763685f256a4720f912dd014613e"
+    },
+    "seq_es_th": {
+      "predictions_sha256": "ee2d47e483543aee38610004aa453ed844d1b0b706b106a2a9e4de4557b1b706",
+      "run_sha256": "9f0ca3376017d4cd9bbb44442b3840e685bfc43ac663c1608c8da78966237651",
+      "scores_sha256": "ec7d0c6bd4de3d341a59acdea74d8a5f382d63fe448450a750ba079d26797b6a"
+    }
+  },
+  "same_prompts_references_ids_verified": true,
+  "limits": [
+    "Only seed42; bootstrap conditions on these trained models.",
+    "No multiplicity adjustment; interval crossing zero is not equivalence.",
+    "No pooling unlike task metrics or selecting checkpoints from tests.",
+    "Native classification generation can improve via label/format acquisition; inspect matched dev64 candidate diagnosis before claiming new language semantics."
+  ]
+}

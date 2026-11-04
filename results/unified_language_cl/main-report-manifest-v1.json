@@ -1,0 +1,25 @@
+{
+  "status": "ALL_SEVEN_MAIN_REPORTS_BUILT_P3_NOT_IMPLIED_COMPLETE",
+  "main_gate_sha256": "523e7f54b9c14f2ecf6ef8d0cbc7ddcc8bf5aaf925e396da0c38d7e94cdba681",
+  "matrix_sources_sha256": {
+    "massive/comparison-test-v1": "c01856d05944e7a329a0e052ec23f364276efc9e56858e3e707631c9e82b47be",
+    "massive/retention-comparison-v1": "812f2bc660abd4108c0c30b57eca469014c3410315edf8d697bb84663b300f7b",
+    "mathoctopus/comparison-test-v1": "3368cecf9b37696b7016e91c50a9ea8454a2251d0ec89c911a1adb9a802f6a2e",
+    "mathoctopus/retention-comparison-v1": "d97fca33ffa5e03b51d3e25181dc2e4573a4676b2d5561d6ab84c5335774677f",
+    "xnli/comparison-test-v1": "bcd25c65a37fd8e3dd12897fff5d9d3e22856d100ef0a40824a558199cac3398",
+    "xnli/retention-comparison-v1": "bae32bc627d7664c48731a2509a85f9708c54a4c0fc6ec5fede5c3a5cdc8c81d",
+    "mtop/comparison-test-v1": "5e5b3bffeeef02f3f19ea229363176a5035dbe63d77947e6b89ffa93617ba868",
+    "mtop/retention-comparison-v1": "85b42f4a64b82f2d4c1a6b603f53e37e526ea32878d00ef9bc78a8ec34894d74",
+    "xlsum/comparison-test-v1": "3c1091253bb9a76b455c36715c448cf3dac6b61e1c3f1f72c4be3af0f34e2e93",
+    "xlsum/retention-comparison-v1": "422d28771ea3b44a3bd11c2cf66c616aee1a6a2e9788cd5fb179c2988bebe8b2",
+    "wikilingua/comparison-test-v1": "d93b538f376204a50c9e5f2572e6a9e8d2bea1dcbe79d3b8c381413c37b6ec2e",
+    "wikilingua/retention-comparison-v1": "d6e3d2436b18df850884a4272ca972b7ec76f52e29aecaf1332da79595cf64f2",
+    "sib200/comparison-test-v1": "53a2b53c169e84b9b42726cd61187a2fe231531f1e6c251eefa3b22823d45daa",
+    "sib200/retention-comparison-v1": "7f4df3a6798b46b1464852ad302e0f3488599ad821cff65ec9e3455929224a60"
+  },
+  "reports_sha256": {
+    "single_fft_results.md": "b301beabd397b008ccf23bc71038d5287bb775bd5368790f05da10d8f2179e75",
+    "fft_seq_results.md": "1b2d256d409bde65a0774e965883d9fdcc88fa9857307a39de9bdb69653ce0b0",
+    "stage_language_matrix.md": "a58716ad1cda10c37a7bc4d88f40a3b3b49a2b0bb1077f4ac122618d5d2c5bda"
+  }
+}

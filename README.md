@@ -2,12 +2,13 @@
 
 ## 统一语言顺序实验：当前阶段
 
-21段主训练完成，六轨道原生与通用能力结果已齐；WikiLingua继续测评，预定开发曲线与三个合格轨道P3对照尚待完成。整个目标继续进行。
+七轨道的21段主训练及四语言原生、通用能力正式矩阵已完成。15个预定中点开发评测正在进行；三个合格轨道的六段Disjoint-ID对照尚未启动，整个研究目标继续进行。
 
-- [六轨道结果总表与完整证据](research/unified_language_cl/six_track_summary.md)
-- [数据来源与token审计](research/unified_language_cl/dataset_audit.md)
-- [语言身份与对齐限制](research/unified_language_cl/language_alignment.md)
-- [可复现代码与步骤](research/unified_language_cl/reproduction.md)
+- [七轨道研究入口](research/unified_language_cl/README.md)
+- [Single FFT完整结果](research/unified_language_cl/single_fft_results.md)；[FFT-SEQ完整结果](research/unified_language_cl/fft_seq_results.md)
+- [完整阶段矩阵和通用能力表](research/unified_language_cl/stage_language_matrix.md)
+- [WikiLingua：目标摘要改善与旧ES下降](research/unified_language_cl/wikilingua_results.md)
+- [数据与token审计](research/unified_language_cl/dataset_audit.md)；[复现步骤](research/unified_language_cl/reproduction.md)
 
 下面保留之前的研究记录；当前新增任务以统一语言实验入口为准，不自动开展My Method或第三语言训练。
 

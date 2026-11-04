@@ -1,0 +1,215 @@
+{
+  "scope": "Seven-track fixed main results, not completed P3. Raw questions, references, full predictions, model/optimizer weights and host/GPU metadata excluded.",
+  "goal_status": "ACTIVE_FIXED_MIDPOINTS_AND_ALL_THREE_P3_REQUIRED",
+  "curation_notes": [
+    "Retention source directory names anonymized; original scalar scores, intervals and source file hashes unchanged.",
+    "CSV line endings normalized to LF in text copies.",
+    "Figure source hashes identify original execution effects. Earlier public metadata-only metric naming/path curation is tracked in the corresponding artifact provenance manifests.",
+    "PNG/PDF figures were generated from verified matrices and visually inspected before publication."
+  ],
+  "artifacts": {
+    "results/unified_language_cl/wikilingua/comparison-dev-v1/effects.json": {
+      "raw_source_sha256": "cbe418cc165f2e5fccad6c59c056a0b4a1dba7ed6662fc85432607334e7d6965",
+      "public_sha256": "cbe418cc165f2e5fccad6c59c056a0b4a1dba7ed6662fc85432607334e7d6965",
+      "git_blob_sha": "8b6b3b3053f482276290147fd3bff3f5cb19eaba",
+      "bytes": 11738,
+      "binary": false
+    },
+    "results/unified_language_cl/wikilingua/comparison-dev-v1/table.md": {
+      "raw_source_sha256": "6393debd575daa0c94f0fa2d764e3d5679ca4cdd275185da88e99ef083b4fac6",
+      "public_sha256": "6393debd575daa0c94f0fa2d764e3d5679ca4cdd275185da88e99ef083b4fac6",
+      "git_blob_sha": "3c2c7757008574c84fbdcf9668a9207a86ee57a5",
+      "bytes": 1213,
+      "binary": false
+    },
+    "results/unified_language_cl/wikilingua/comparison-test-v1/effects.json": {
+      "raw_source_sha256": "d93b538f376204a50c9e5f2572e6a9e8d2bea1dcbe79d3b8c381413c37b6ec2e",
+      "public_sha256": "d93b538f376204a50c9e5f2572e6a9e8d2bea1dcbe79d3b8c381413c37b6ec2e",
+      "git_blob_sha": "45e99a55e5db20506adb184b2c82013af852ded3",
+      "bytes": 11823,
+      "binary": false
+    },
+    "results/unified_language_cl/wikilingua/comparison-test-v1/table.md": {
+      "raw_source_sha256": "c7ce48156b429e9cc1650d0bcd9d4fc8cbffcbff0d591647c6ece145b40b0510",
+      "public_sha256": "c7ce48156b429e9cc1650d0bcd9d4fc8cbffcbff0d591647c6ece145b40b0510",
+      "git_blob_sha": "a4d21ec36b62aaae87bc96d1dd45eb5bc772a003",
+      "bytes": 1220,
+      "binary": false
+    },
+    "results/unified_language_cl/wikilingua/retention-comparison-v1/effects.json": {
+      "raw_source_sha256": "d6e3d2436b18df850884a4272ca972b7ec76f52e29aecaf1332da79595cf64f2",
+      "public_sha256": "4146afde570dcc5ef657459f71dcfe073939b1a8b03bbd56e27f24e1ec3275a4",
+      "git_blob_sha": "e5983c3adfa65fb193b1ce8e392862aadb42c0ea",
+      "bytes": 15316,
+      "binary": false
+    },
+    "results/unified_language_cl/wikilingua/retention-comparison-v1/table.md": {
+      "raw_source_sha256": "4fb542283b2b9ce6b0b793dac3037a12f5c88a46123d4d25ea94544e28bdc83b",
+      "public_sha256": "4fb542283b2b9ce6b0b793dac3037a12f5c88a46123d4d25ea94544e28bdc83b",
+      "git_blob_sha": "59ac526ce3a0d827abe840a8b3a4fef5ee50ad56",
+      "bytes": 1229,
+      "binary": false
+    },
+    "results/unified_language_cl/wikilingua/native-auxiliary-v1/metrics.json": {
+      "raw_source_sha256": "42c2538d9e028fc59683affaec4a07835ef65346037c6b4014bfa45f269a5423",
+      "public_sha256": "42c2538d9e028fc59683affaec4a07835ef65346037c6b4014bfa45f269a5423",
+      "git_blob_sha": "2cbb7d35bce5b09b062c312ccba4c234a5d1344c",
+      "bytes": 12841,
+      "binary": false
+    },
+    "results/unified_language_cl/wikilingua/native-auxiliary-v1/table.md": {
+      "raw_source_sha256": "080adaaae365430c9347731cdc883326abe71affcd41378df92239dbce65119a",
+      "public_sha256": "080adaaae365430c9347731cdc883326abe71affcd41378df92239dbce65119a",
+      "git_blob_sha": "84839d4579913add583038ef474da40b1507b13c",
+      "bytes": 8874,
+      "binary": false
+    },
+    "results/unified_language_cl/wikilingua/output-audit-v1/effects.json": {
+      "raw_source_sha256": "b8863b5717609c5c96d1d78ce1c980e3b70116e72c11d00113d16364bd29e73a",
+      "public_sha256": "b8863b5717609c5c96d1d78ce1c980e3b70116e72c11d00113d16364bd29e73a",
+      "git_blob_sha": "2a55b4078944292613dbf25a278c2b329e3ca887",
+      "bytes": 12758,
+      "binary": false
+    },
+    "results/unified_language_cl/wikilingua/output-audit-v1/table.md": {
+      "raw_source_sha256": "1a1230206865db25ea540ee588d112eedad9e3413eeafcad7f840ab9c5ad128a",
+      "public_sha256": "1a1230206865db25ea540ee588d112eedad9e3413eeafcad7f840ab9c5ad128a",
+      "git_blob_sha": "7816d8b84885c0c31fcfc17cd27400c3314ad9f0",
+      "bytes": 2251,
+      "binary": false
+    },
+    "results/unified_language_cl/en-reading-choice-audit-v1/audit.json": {
+      "raw_source_sha256": "b9d2c2c759156b9a4f46520489d5ce6ca786fc8d7d9d75eb5f73177d2d9efedc",
+      "public_sha256": "b9d2c2c759156b9a4f46520489d5ce6ca786fc8d7d9d75eb5f73177d2d9efedc",
+      "git_blob_sha": "a348caa868bc9e3dae49062c56f42cd0d7db224f",
+      "bytes": 25308,
+      "binary": false
+    },
+    "results/unified_language_cl/en-reading-choice-audit-v1/report.md": {
+      "raw_source_sha256": "7e3c0122d1d76b33cd267c3e45f08cc757a6cd0114bb91d6c5975c56dd931006",
+      "public_sha256": "7e3c0122d1d76b33cd267c3e45f08cc757a6cd0114bb91d6c5975c56dd931006",
+      "git_blob_sha": "760d6161ef22a627ce12eaace04f582783e4259c",
+      "bytes": 4111,
+      "binary": false
+    },
+    "research/unified_language_cl/wikilingua_results.md": {
+      "raw_source_sha256": "0e8884916f3c1ca899a47538af126d0c0b8eacbe4b476b6ab1c1e925128b7667",
+      "public_sha256": "0e8884916f3c1ca899a47538af126d0c0b8eacbe4b476b6ab1c1e925128b7667",
+      "git_blob_sha": "cd188c3eb4c018d9f3f2c2eb8c5b3daf9539d7af",
+      "bytes": 7094,
+      "binary": false
+    },
+    "research/unified_language_cl/single_fft_results.md": {
+      "raw_source_sha256": "b301beabd397b008ccf23bc71038d5287bb775bd5368790f05da10d8f2179e75",
+      "public_sha256": "b301beabd397b008ccf23bc71038d5287bb775bd5368790f05da10d8f2179e75",
+      "git_blob_sha": "1b52d1c316dbbb7a25f34d25f52a86a0a9e5bc3e",
+      "bytes": 3018,
+      "binary": false
+    },
+    "research/unified_language_cl/fft_seq_results.md": {
+      "raw_source_sha256": "1b2d256d409bde65a0774e965883d9fdcc88fa9857307a39de9bdb69653ce0b0",
+      "public_sha256": "1b2d256d409bde65a0774e965883d9fdcc88fa9857307a39de9bdb69653ce0b0",
+      "git_blob_sha": "31f4afdcaf183baa17256f27a73a338f73a5dd3f",
+      "bytes": 3397,
+      "binary": false
+    },
+    "research/unified_language_cl/stage_language_matrix.md": {
+      "raw_source_sha256": "a58716ad1cda10c37a7bc4d88f40a3b3b49a2b0bb1077f4ac122618d5d2c5bda",
+      "public_sha256": "a58716ad1cda10c37a7bc4d88f40a3b3b49a2b0bb1077f4ac122618d5d2c5bda",
+      "git_blob_sha": "449e353799ff174cef9ce49b4c0427ca98ba3e8d",
+      "bytes": 20937,
+      "binary": false
+    },
+    "research/unified_language_cl/README.md": {
+      "raw_source_sha256": "39f1fd3910f764496c71bbf3bf60dc68a4b24f868a0a9f15a284fcfcf4e1a139",
+      "public_sha256": "39f1fd3910f764496c71bbf3bf60dc68a4b24f868a0a9f15a284fcfcf4e1a139",
+      "git_blob_sha": "948a5ce0cec8cb41e61e8e1de9cd6fe74f35480c",
+      "bytes": 5370,
+      "binary": false
+    },
+    "results/unified_language_cl/figures-main-v1/general_ability_changes.pdf": {
+      "raw_source_sha256": "fe63ebe40ba91c9b97baea239ea0bcceb3219a606ee5899de67b4452668b62d8",
+      "public_sha256": "fe63ebe40ba91c9b97baea239ea0bcceb3219a606ee5899de67b4452668b62d8",
+      "git_blob_sha": "dd9bbf6a4978f83421dc08f18c3d4d5cac8ea828",
+      "bytes": 28986,
+      "binary": true
+    },
+    "results/unified_language_cl/figures-main-v1/general_ability_changes.png": {
+      "raw_source_sha256": "f60757f9ad20287daf68b3b880aff7e39006148316a1d0d56af422a8ad3ec7df",
+      "public_sha256": "f60757f9ad20287daf68b3b880aff7e39006148316a1d0d56af422a8ad3ec7df",
+      "git_blob_sha": "0a305f66524b3eeceef76d7222e5874a697ec6f1",
+      "bytes": 149578,
+      "binary": true
+    },
+    "results/unified_language_cl/figures-main-v1/manifest.json": {
+      "raw_source_sha256": "453e75d2bc5e9a96d0c205d8161a790d117a0511b76172b93dae659bc5934350",
+      "public_sha256": "453e75d2bc5e9a96d0c205d8161a790d117a0511b76172b93dae659bc5934350",
+      "git_blob_sha": "cb21d3fb2fe775db321c45bdb2043cac3b9b1c7c",
+      "bytes": 2166,
+      "binary": false
+    },
+    "results/unified_language_cl/figures-main-v1/native_effects.csv": {
+      "raw_source_sha256": "a00c64b3fa3a6062325634f0565fa6c14b29551cd2798765d89ff39467065940",
+      "public_sha256": "1f7f496312192d640b3faf88f438aa707010bce37a1dd245f658f0920368ff69",
+      "git_blob_sha": "70bba746295d6115d11ae4441741051eb0de450b",
+      "bytes": 41145,
+      "binary": false
+    },
+    "results/unified_language_cl/figures-main-v1/native_scores.csv": {
+      "raw_source_sha256": "2d145140306d985e8b69fc352a099425cf62df6230fd325603799e2d78c02595",
+      "public_sha256": "c5832a1a734185907ea95ae470856fea444459ad366e796075f498bf4ff407f7",
+      "git_blob_sha": "d0166a8722c1e4234ada45186e9e41a152fba13c",
+      "bytes": 3401,
+      "binary": false
+    },
+    "results/unified_language_cl/figures-main-v1/native_stage_effects.pdf": {
+      "raw_source_sha256": "4b96fe3ef37244e234c48170050d07262048a3fae9b6315bb76643f1282e410f",
+      "public_sha256": "4b96fe3ef37244e234c48170050d07262048a3fae9b6315bb76643f1282e410f",
+      "git_blob_sha": "c7d3bba9da1da4994d7170d45179cc7af29341e8",
+      "bytes": 37935,
+      "binary": true
+    },
+    "results/unified_language_cl/figures-main-v1/native_stage_effects.png": {
+      "raw_source_sha256": "c07ddba8fa73913c4872582e93c94691f1d5009c801ae24c13e70f8e3306984c",
+      "public_sha256": "c07ddba8fa73913c4872582e93c94691f1d5009c801ae24c13e70f8e3306984c",
+      "git_blob_sha": "c4a9eda486aa82e851047df2602e618e9b39d905",
+      "bytes": 395732,
+      "binary": true
+    },
+    "results/unified_language_cl/main-report-manifest-v1.json": {
+      "raw_source_sha256": "71a0a7c80db9ca4d853d3c73b0238f08e5c0ee84cc05b98864a989730c9fd1e7",
+      "public_sha256": "71a0a7c80db9ca4d853d3c73b0238f08e5c0ee84cc05b98864a989730c9fd1e7",
+      "git_blob_sha": "0735193438c1482173da5047aff7a798a866ab48",
+      "bytes": 1970,
+      "binary": false
+    },
+    "results/unified_language_cl/main_fixed_finals_validation.json": {
+      "raw_source_sha256": "523e7f54b9c14f2ecf6ef8d0cbc7ddcc8bf5aaf925e396da0c38d7e94cdba681",
+      "public_sha256": "523e7f54b9c14f2ecf6ef8d0cbc7ddcc8bf5aaf925e396da0c38d7e94cdba681",
+      "git_blob_sha": "19cc677df75dfcdb44abdc6c7df3f4faca35b18c",
+      "bytes": 224,
+      "binary": false
+    },
+    "results/unified_language_cl/summary_scoring_validation_v2.json": {
+      "raw_source_sha256": "ef6c3ea830d84cd25e6dec64a99f457275686ca014d18a7d4aa0f4b79f980f04",
+      "public_sha256": "ef6c3ea830d84cd25e6dec64a99f457275686ca014d18a7d4aa0f4b79f980f04",
+      "git_blob_sha": "932ac81f158cf90aceb16d1c2fef10fa7cedd555",
+      "bytes": 10958,
+      "binary": false
+    },
+    "README.md": {
+      "raw_source_sha256": "6613a0ec5bcd1634b518f73cd87c5e1f0b5cc34afcdfc62033f42127726db464",
+      "public_sha256": "9d0c121a3d4d2748593d0ba0dd1a8e1241cc31e7224c4e625ac5d9d0793b42d3",
+      "git_blob_sha": "9ba0cbe6d4fc8a237ec7c54283e4a862aed571b7",
+      "bytes": 6773,
+      "binary": false
+    },
+    "research/chatgpt_handoff.md": {
+      "raw_source_sha256": "c72480dbb396a819e398df409f0211625ba95e014b2824ae13bab1a9f6e86b71",
+      "public_sha256": "bc9674353fcdafb4adfc3dcb548a520e1cce0c161ec86df45f239bea4e8a51b4",
+      "git_blob_sha": "4d7e610508cc7e34fb0d855e1d9591d698377a39",
+      "bytes": 14788,
+      "binary": false
+    }
+  }
+}

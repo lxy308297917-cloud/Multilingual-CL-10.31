@@ -1,0 +1,1197 @@
+{
+  "status": "ALL_22_FIXED_READING_MODELS_RECONSTRUCTED_EXACTLY",
+  "models": {
+    "base": {
+      "samples": 900,
+      "accuracy_percent": 60.888888888888886,
+      "published_accuracy_percent": 60.888888888888886,
+      "choice_order": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gold_counts": {
+        "A": 206,
+        "B": 251,
+        "C": 246,
+        "D": 197
+      },
+      "predicted_counts": {
+        "A": 447,
+        "B": 189,
+        "C": 178,
+        "D": 86
+      },
+      "confusion_gold_rows_predicted_columns": [
+        [
+          182,
+          13,
+          8,
+          3
+        ],
+        [
+          83,
+          149,
+          15,
+          4
+        ],
+        [
+          87,
+          15,
+          141,
+          3
+        ],
+        [
+          95,
+          12,
+          14,
+          76
+        ]
+      ],
+      "most_predicted_label": "A",
+      "most_predicted_share": 0.49666666666666665,
+      "original_acc_matches_every_sample": true,
+      "source_samples_sha256": "e418e02d04d00041fe8dc0da2438dd51388b26d325f5473914a06c4dba081e47",
+      "completion_receipt_sha256": "79eb568b77561b25aa637b55758c52e3b9dfce4e0ad13a7eb962fff532792dcd"
+    },
+    "massive:single_es": {
+      "samples": 900,
+      "accuracy_percent": 76.88888888888889,
+      "published_accuracy_percent": 76.88888888888889,
+      "choice_order": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gold_counts": {
+        "A": 206,
+        "B": 251,
+        "C": 246,
+        "D": 197
+      },
+      "predicted_counts": {
+        "A": 212,
+        "B": 232,
+        "C": 239,
+        "D": 217
+      },
+      "confusion_gold_rows_predicted_columns": [
+        [
+          157,
+          13,
+          22,
+          14
+        ],
+        [
+          20,
+          189,
+          17,
+          25
+        ],
+        [
+          20,
+          20,
+          187,
+          19
+        ],
+        [
+          15,
+          10,
+          13,
+          159
+        ]
+      ],
+      "most_predicted_label": "C",
+      "most_predicted_share": 0.26555555555555554,
+      "original_acc_matches_every_sample": true,
+      "source_samples_sha256": "4890e83fa0d55b531de9297350fef0b8dac9399f090a9ebd8c7d66e4a6593c91",
+      "completion_receipt_sha256": "2190d5c9d82b9bf5241f6aecc41e54f9966baea09a0b12ef45b498e2ba182fba"
+    },
+    "massive:single_th": {
+      "samples": 900,
+      "accuracy_percent": 80.55555555555556,
+      "published_accuracy_percent": 80.55555555555556,
+      "choice_order": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gold_counts": {
+        "A": 206,
+        "B": 251,
+        "C": 246,
+        "D": 197
+      },
+      "predicted_counts": {
+        "A": 228,
+        "B": 244,
+        "C": 233,
+        "D": 195
+      },
+      "confusion_gold_rows_predicted_columns": [
+        [
+          169,
+          16,
+          14,
+          7
+        ],
+        [
+          17,
+          201,
+          14,
+          19
+        ],
+        [
+          26,
+          18,
+          194,
+          8
+        ],
+        [
+          16,
+          9,
+          11,
+          161
+        ]
+      ],
+      "most_predicted_label": "B",
+      "most_predicted_share": 0.27111111111111114,
+      "original_acc_matches_every_sample": true,
+      "source_samples_sha256": "96d10795fbb78cfe3df61a529d6dc5fb0a9120d8b8082cee2e14c55bc76a66f5",
+      "completion_receipt_sha256": "27839280ffad53f5dbf4a04bb55a7805c902f1d0d8386bcb819b9002949555d8"
+    },
+    "massive:seq_es_th": {
+      "samples": 900,
+      "accuracy_percent": 79.44444444444444,
+      "published_accuracy_percent": 79.44444444444444,
+      "choice_order": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gold_counts": {
+        "A": 206,
+        "B": 251,
+        "C": 246,
+        "D": 197
+      },
+      "predicted_counts": {
+        "A": 201,
+        "B": 240,
+        "C": 251,
+        "D": 208
+      },
+      "confusion_gold_rows_predicted_columns": [
+        [
+          157,
+          15,
+          24,
+          10
+        ],
+        [
+          15,
+          199,
+          19,
+          18
+        ],
+        [
+          16,
+          19,
+          195,
+          16
+        ],
+        [
+          13,
+          7,
+          13,
+          164
+        ]
+      ],
+      "most_predicted_label": "C",
+      "most_predicted_share": 0.2788888888888889,
+      "original_acc_matches_every_sample": true,
+      "source_samples_sha256": "11b8f344c048bbd936081bf00356d8a152efccf9a3a172ff8c4be0bf5383e44a",
+      "completion_receipt_sha256": "f69132d7ecf331533d5ce6d848cbaf469bb26959554a3063c3532c54ac29fcb1"
+    },
+    "mathoctopus:single_es": {
+      "samples": 900,
+      "accuracy_percent": 42.666666666666664,
+      "published_accuracy_percent": 42.666666666666664,
+      "choice_order": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gold_counts": {
+        "A": 206,
+        "B": 251,
+        "C": 246,
+        "D": 197
+      },
+      "predicted_counts": {
+        "A": 619,
+        "B": 93,
+        "C": 121,
+        "D": 67
+      },
+      "confusion_gold_rows_predicted_columns": [
+        [
+          186,
+          3,
+          13,
+          4
+        ],
+        [
+          146,
+          76,
+          15,
+          14
+        ],
+        [
+          151,
+          8,
+          80,
+          7
+        ],
+        [
+          136,
+          6,
+          13,
+          42
+        ]
+      ],
+      "most_predicted_label": "A",
+      "most_predicted_share": 0.6877777777777778,
+      "original_acc_matches_every_sample": true,
+      "source_samples_sha256": "9d5e3901fd1cd56c72fc5c1a6b3c4c21e19147004c0f60e2fc7f1dd4e3e46eeb",
+      "completion_receipt_sha256": "7057a6f0e9990afa56628d864f7294b0ac23734d35150fbccbd95b7e00f19145"
+    },
+    "mathoctopus:single_th": {
+      "samples": 900,
+      "accuracy_percent": 27.444444444444443,
+      "published_accuracy_percent": 27.444444444444443,
+      "choice_order": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gold_counts": {
+        "A": 206,
+        "B": 251,
+        "C": 246,
+        "D": 197
+      },
+      "predicted_counts": {
+        "A": 795,
+        "B": 26,
+        "C": 53,
+        "D": 26
+      },
+      "confusion_gold_rows_predicted_columns": [
+        [
+          191,
+          1,
+          12,
+          2
+        ],
+        [
+          211,
+          20,
+          13,
+          7
+        ],
+        [
+          218,
+          3,
+          22,
+          3
+        ],
+        [
+          175,
+          2,
+          6,
+          14
+        ]
+      ],
+      "most_predicted_label": "A",
+      "most_predicted_share": 0.8833333333333333,
+      "original_acc_matches_every_sample": true,
+      "source_samples_sha256": "fd81f44f42a6b1a4a63852af7c6130f678b449ee2794739d77b3f5b3fcfdce20",
+      "completion_receipt_sha256": "d8479a20f1fc42360ff9ab53c00588c32a8003aedc52a7f5ba718575b25442a6"
+    },
+    "mathoctopus:seq_es_th": {
+      "samples": 900,
+      "accuracy_percent": 45.333333333333336,
+      "published_accuracy_percent": 45.333333333333336,
+      "choice_order": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gold_counts": {
+        "A": 206,
+        "B": 251,
+        "C": 246,
+        "D": 197
+      },
+      "predicted_counts": {
+        "A": 585,
+        "B": 99,
+        "C": 123,
+        "D": 93
+      },
+      "confusion_gold_rows_predicted_columns": [
+        [
+          181,
+          4,
+          14,
+          7
+        ],
+        [
+          144,
+          80,
+          15,
+          12
+        ],
+        [
+          142,
+          9,
+          84,
+          11
+        ],
+        [
+          118,
+          6,
+          10,
+          63
+        ]
+      ],
+      "most_predicted_label": "A",
+      "most_predicted_share": 0.65,
+      "original_acc_matches_every_sample": true,
+      "source_samples_sha256": "2e9fc97707e8343da0c0caa4b94b6707bc26b4927800425411e5b09cfd32c1e0",
+      "completion_receipt_sha256": "0880480bb1c485335f8c71d84185c8f5ad41116a4ecba472cbf630b4cdb8fc62"
+    },
+    "mtop:single_es": {
+      "samples": 900,
+      "accuracy_percent": 65.0,
+      "published_accuracy_percent": 65.0,
+      "choice_order": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gold_counts": {
+        "A": 206,
+        "B": 251,
+        "C": 246,
+        "D": 197
+      },
+      "predicted_counts": {
+        "A": 454,
+        "B": 186,
+        "C": 167,
+        "D": 93
+      },
+      "confusion_gold_rows_predicted_columns": [
+        [
+          193,
+          7,
+          6,
+          0
+        ],
+        [
+          86,
+          157,
+          8,
+          0
+        ],
+        [
+          89,
+          11,
+          144,
+          2
+        ],
+        [
+          86,
+          11,
+          9,
+          91
+        ]
+      ],
+      "most_predicted_label": "A",
+      "most_predicted_share": 0.5044444444444445,
+      "original_acc_matches_every_sample": true,
+      "source_samples_sha256": "bf19e723d5ff6327628b26d772771cd218106011e1ed860b7641a9c64a230ef3",
+      "completion_receipt_sha256": "0a34113843b3d4db7beb0ce8dcee1a678bd544dc4e16f360527b95371ccfba0e"
+    },
+    "mtop:single_th": {
+      "samples": 900,
+      "accuracy_percent": 60.333333333333336,
+      "published_accuracy_percent": 60.333333333333336,
+      "choice_order": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gold_counts": {
+        "A": 206,
+        "B": 251,
+        "C": 246,
+        "D": 197
+      },
+      "predicted_counts": {
+        "A": 528,
+        "B": 142,
+        "C": 146,
+        "D": 84
+      },
+      "confusion_gold_rows_predicted_columns": [
+        [
+          199,
+          3,
+          4,
+          0
+        ],
+        [
+          117,
+          130,
+          3,
+          1
+        ],
+        [
+          103,
+          6,
+          134,
+          3
+        ],
+        [
+          109,
+          3,
+          5,
+          80
+        ]
+      ],
+      "most_predicted_label": "A",
+      "most_predicted_share": 0.5866666666666667,
+      "original_acc_matches_every_sample": true,
+      "source_samples_sha256": "3cd196aaa1a8e7f306738e77ec133b6c38828e8b7911a48a09493ef7053159af",
+      "completion_receipt_sha256": "5e9f0f64544448f9ffa64b5bf92d79da3942240f7f53926889ceaa71221b8eda"
+    },
+    "mtop:seq_es_th": {
+      "samples": 900,
+      "accuracy_percent": 71.0,
+      "published_accuracy_percent": 71.0,
+      "choice_order": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gold_counts": {
+        "A": 206,
+        "B": 251,
+        "C": 246,
+        "D": 197
+      },
+      "predicted_counts": {
+        "A": 398,
+        "B": 189,
+        "C": 191,
+        "D": 122
+      },
+      "confusion_gold_rows_predicted_columns": [
+        [
+          194,
+          6,
+          5,
+          1
+        ],
+        [
+          70,
+          166,
+          11,
+          4
+        ],
+        [
+          69,
+          9,
+          165,
+          3
+        ],
+        [
+          65,
+          8,
+          10,
+          114
+        ]
+      ],
+      "most_predicted_label": "A",
+      "most_predicted_share": 0.44222222222222224,
+      "original_acc_matches_every_sample": true,
+      "source_samples_sha256": "9b9fa8876eb3a49f8bd82ca7de81f4a7e8942605dbbcb4bb18c956792bafc58a",
+      "completion_receipt_sha256": "6205f411d6a6d0fbc756e801fa504235d4e23b4734885e96e81acf7570f2df44"
+    },
+    "xnli:single_es": {
+      "samples": 900,
+      "accuracy_percent": 82.0,
+      "published_accuracy_percent": 82.0,
+      "choice_order": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gold_counts": {
+        "A": 206,
+        "B": 251,
+        "C": 246,
+        "D": 197
+      },
+      "predicted_counts": {
+        "A": 198,
+        "B": 269,
+        "C": 224,
+        "D": 209
+      },
+      "confusion_gold_rows_predicted_columns": [
+        [
+          160,
+          20,
+          15,
+          11
+        ],
+        [
+          10,
+          215,
+          12,
+          14
+        ],
+        [
+          19,
+          22,
+          192,
+          13
+        ],
+        [
+          9,
+          12,
+          5,
+          171
+        ]
+      ],
+      "most_predicted_label": "B",
+      "most_predicted_share": 0.29888888888888887,
+      "original_acc_matches_every_sample": true,
+      "source_samples_sha256": "ac5fb9164a739669f51440b637f857afb57c1e297cf29068e5e8f17edd3dce90",
+      "completion_receipt_sha256": "fda93a4ac6035c573a6e0a75290aa12186b78c649a761bdd417d471a137ac615"
+    },
+    "xnli:single_th": {
+      "samples": 900,
+      "accuracy_percent": 80.44444444444444,
+      "published_accuracy_percent": 80.44444444444444,
+      "choice_order": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gold_counts": {
+        "A": 206,
+        "B": 251,
+        "C": 246,
+        "D": 197
+      },
+      "predicted_counts": {
+        "A": 217,
+        "B": 243,
+        "C": 234,
+        "D": 206
+      },
+      "confusion_gold_rows_predicted_columns": [
+        [
+          168,
+          15,
+          13,
+          10
+        ],
+        [
+          16,
+          200,
+          18,
+          17
+        ],
+        [
+          20,
+          19,
+          192,
+          15
+        ],
+        [
+          13,
+          9,
+          11,
+          164
+        ]
+      ],
+      "most_predicted_label": "B",
+      "most_predicted_share": 0.27,
+      "original_acc_matches_every_sample": true,
+      "source_samples_sha256": "b6d3fecd8b51a7787970ae215fb8027799f8b1489792e166b1a5306484eddaac",
+      "completion_receipt_sha256": "98176b00298dc12289704623b5e7de9b92376f2f81a055cdde6c99318d57224e"
+    },
+    "xnli:seq_es_th": {
+      "samples": 900,
+      "accuracy_percent": 81.66666666666667,
+      "published_accuracy_percent": 81.66666666666667,
+      "choice_order": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gold_counts": {
+        "A": 206,
+        "B": 251,
+        "C": 246,
+        "D": 197
+      },
+      "predicted_counts": {
+        "A": 233,
+        "B": 257,
+        "C": 218,
+        "D": 192
+      },
+      "confusion_gold_rows_predicted_columns": [
+        [
+          175,
+          13,
+          11,
+          7
+        ],
+        [
+          17,
+          211,
+          10,
+          13
+        ],
+        [
+          25,
+          22,
+          188,
+          11
+        ],
+        [
+          16,
+          11,
+          9,
+          161
+        ]
+      ],
+      "most_predicted_label": "B",
+      "most_predicted_share": 0.28555555555555556,
+      "original_acc_matches_every_sample": true,
+      "source_samples_sha256": "093a40e53be8e2db43444e37d8776ca1678e9c0308c802ce7cc61dc8b0648725",
+      "completion_receipt_sha256": "36e76ab5c642c1a86215fda13838555945c0bdbe9288750bb35e7869268bf407"
+    },
+    "xlsum:single_es": {
+      "samples": 900,
+      "accuracy_percent": 22.77777777777778,
+      "published_accuracy_percent": 22.77777777777778,
+      "choice_order": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gold_counts": {
+        "A": 206,
+        "B": 251,
+        "C": 246,
+        "D": 197
+      },
+      "predicted_counts": {
+        "A": 888,
+        "B": 2,
+        "C": 10,
+        "D": 0
+      },
+      "confusion_gold_rows_predicted_columns": [
+        [
+          202,
+          0,
+          4,
+          0
+        ],
+        [
+          249,
+          1,
+          1,
+          0
+        ],
+        [
+          243,
+          1,
+          2,
+          0
+        ],
+        [
+          194,
+          0,
+          3,
+          0
+        ]
+      ],
+      "most_predicted_label": "A",
+      "most_predicted_share": 0.9866666666666667,
+      "original_acc_matches_every_sample": true,
+      "source_samples_sha256": "65c5049d99d528164d47cc15f4760e670e3cc150dc31d09ffa64c8421e034c87",
+      "completion_receipt_sha256": "cada0725efc3d28cea8191e790702d657ff369bdba56468a6072833f0923a496"
+    },
+    "xlsum:single_th": {
+      "samples": 900,
+      "accuracy_percent": 24.333333333333332,
+      "published_accuracy_percent": 24.333333333333332,
+      "choice_order": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gold_counts": {
+        "A": 206,
+        "B": 251,
+        "C": 246,
+        "D": 197
+      },
+      "predicted_counts": {
+        "A": 849,
+        "B": 15,
+        "C": 31,
+        "D": 5
+      },
+      "confusion_gold_rows_predicted_columns": [
+        [
+          196,
+          1,
+          8,
+          1
+        ],
+        [
+          235,
+          8,
+          7,
+          1
+        ],
+        [
+          232,
+          2,
+          12,
+          0
+        ],
+        [
+          186,
+          4,
+          4,
+          3
+        ]
+      ],
+      "most_predicted_label": "A",
+      "most_predicted_share": 0.9433333333333334,
+      "original_acc_matches_every_sample": true,
+      "source_samples_sha256": "7a6caf8597f9f652aba10296f23a91c55769cf8aa7dd1a1a46c7a80b636403bd",
+      "completion_receipt_sha256": "d02e1a03671571029d7bd374508680dd5b908b40fd0417b86f0243575c4ea0f6"
+    },
+    "xlsum:seq_es_th": {
+      "samples": 900,
+      "accuracy_percent": 22.77777777777778,
+      "published_accuracy_percent": 22.77777777777778,
+      "choice_order": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gold_counts": {
+        "A": 206,
+        "B": 251,
+        "C": 246,
+        "D": 197
+      },
+      "predicted_counts": {
+        "A": 878,
+        "B": 9,
+        "C": 12,
+        "D": 1
+      },
+      "confusion_gold_rows_predicted_columns": [
+        [
+          200,
+          2,
+          4,
+          0
+        ],
+        [
+          246,
+          2,
+          2,
+          1
+        ],
+        [
+          242,
+          1,
+          3,
+          0
+        ],
+        [
+          190,
+          4,
+          3,
+          0
+        ]
+      ],
+      "most_predicted_label": "A",
+      "most_predicted_share": 0.9755555555555555,
+      "original_acc_matches_every_sample": true,
+      "source_samples_sha256": "20ce8e4eb9fea31ba8522a3d8388b3c3ef9e7ee32d494592b67e17bde84c0843",
+      "completion_receipt_sha256": "d4f3cdffedaee6d9618ab5120e0ae693508391206eed8c9196fd593f88549756"
+    },
+    "wikilingua:single_es": {
+      "samples": 900,
+      "accuracy_percent": 36.44444444444444,
+      "published_accuracy_percent": 36.44444444444444,
+      "choice_order": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gold_counts": {
+        "A": 206,
+        "B": 251,
+        "C": 246,
+        "D": 197
+      },
+      "predicted_counts": {
+        "A": 741,
+        "B": 25,
+        "C": 60,
+        "D": 74
+      },
+      "confusion_gold_rows_predicted_columns": [
+        [
+          202,
+          0,
+          2,
+          2
+        ],
+        [
+          212,
+          23,
+          6,
+          10
+        ],
+        [
+          185,
+          2,
+          50,
+          9
+        ],
+        [
+          142,
+          0,
+          2,
+          53
+        ]
+      ],
+      "most_predicted_label": "A",
+      "most_predicted_share": 0.8233333333333334,
+      "original_acc_matches_every_sample": true,
+      "source_samples_sha256": "789b51bdcde51289ccbc941c9fc872d45490b5b1f0227f1a7b1f085817494ac7",
+      "completion_receipt_sha256": "0b83ce919267075e68b24b9043c4fcaea6df67b075df8f2663bac63e46df4b14"
+    },
+    "wikilingua:single_th": {
+      "samples": 900,
+      "accuracy_percent": 75.11111111111111,
+      "published_accuracy_percent": 75.11111111111111,
+      "choice_order": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gold_counts": {
+        "A": 206,
+        "B": 251,
+        "C": 246,
+        "D": 197
+      },
+      "predicted_counts": {
+        "A": 282,
+        "B": 247,
+        "C": 213,
+        "D": 158
+      },
+      "confusion_gold_rows_predicted_columns": [
+        [
+          175,
+          12,
+          13,
+          6
+        ],
+        [
+          27,
+          196,
+          14,
+          14
+        ],
+        [
+          42,
+          25,
+          173,
+          6
+        ],
+        [
+          38,
+          14,
+          13,
+          132
+        ]
+      ],
+      "most_predicted_label": "A",
+      "most_predicted_share": 0.31333333333333335,
+      "original_acc_matches_every_sample": true,
+      "source_samples_sha256": "a61c6b44ec5598514a50418eb343c4967ac11744daf76906b39c311c6e2e08de",
+      "completion_receipt_sha256": "f7eb9e47bb8465193e77096f850655fe23552b46d9f3569e15967edbdceff409"
+    },
+    "wikilingua:seq_es_th": {
+      "samples": 900,
+      "accuracy_percent": 28.88888888888889,
+      "published_accuracy_percent": 28.88888888888889,
+      "choice_order": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gold_counts": {
+        "A": 206,
+        "B": 251,
+        "C": 246,
+        "D": 197
+      },
+      "predicted_counts": {
+        "A": 335,
+        "B": 9,
+        "C": 29,
+        "D": 527
+      },
+      "confusion_gold_rows_predicted_columns": [
+        [
+          98,
+          0,
+          5,
+          103
+        ],
+        [
+          92,
+          6,
+          6,
+          147
+        ],
+        [
+          90,
+          3,
+          16,
+          137
+        ],
+        [
+          55,
+          0,
+          2,
+          140
+        ]
+      ],
+      "most_predicted_label": "D",
+      "most_predicted_share": 0.5855555555555556,
+      "original_acc_matches_every_sample": true,
+      "source_samples_sha256": "d4e58d318ce9560999e09d11e886c74ecd858347d7fff8bef2a6d5c9cd2252a2",
+      "completion_receipt_sha256": "390a66fb029c3988e84a1f2a35c9e07ab3c22185bbef6af25ce6d34bd66cabdd"
+    },
+    "sib200:single_es": {
+      "samples": 900,
+      "accuracy_percent": 67.0,
+      "published_accuracy_percent": 67.0,
+      "choice_order": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gold_counts": {
+        "A": 206,
+        "B": 251,
+        "C": 246,
+        "D": 197
+      },
+      "predicted_counts": {
+        "A": 359,
+        "B": 170,
+        "C": 164,
+        "D": 207
+      },
+      "confusion_gold_rows_predicted_columns": [
+        [
+          176,
+          11,
+          4,
+          15
+        ],
+        [
+          64,
+          149,
+          12,
+          26
+        ],
+        [
+          70,
+          8,
+          140,
+          28
+        ],
+        [
+          49,
+          2,
+          8,
+          138
+        ]
+      ],
+      "most_predicted_label": "A",
+      "most_predicted_share": 0.3988888888888889,
+      "original_acc_matches_every_sample": true,
+      "source_samples_sha256": "0d32f1a29a85cea561d75ca48b18815521e320a64b2c2804c6d23ad1a7e9669d",
+      "completion_receipt_sha256": "b87229b0bf394debe79d121841483eb614cea1acc7e2a12eaef491889deeefe2"
+    },
+    "sib200:single_th": {
+      "samples": 900,
+      "accuracy_percent": 78.55555555555556,
+      "published_accuracy_percent": 78.55555555555556,
+      "choice_order": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gold_counts": {
+        "A": 206,
+        "B": 251,
+        "C": 246,
+        "D": 197
+      },
+      "predicted_counts": {
+        "A": 228,
+        "B": 246,
+        "C": 221,
+        "D": 205
+      },
+      "confusion_gold_rows_predicted_columns": [
+        [
+          167,
+          17,
+          12,
+          10
+        ],
+        [
+          19,
+          198,
+          16,
+          18
+        ],
+        [
+          27,
+          22,
+          181,
+          16
+        ],
+        [
+          15,
+          9,
+          12,
+          161
+        ]
+      ],
+      "most_predicted_label": "B",
+      "most_predicted_share": 0.2733333333333333,
+      "original_acc_matches_every_sample": true,
+      "source_samples_sha256": "18ee05b27e4dd92407ab55ae4754a9ecc3533fb392e1bbc19bdca48d94c520ef",
+      "completion_receipt_sha256": "39558db486f420f62035bed6703b09614f3cdcafa84260cf0364daad38c21581"
+    },
+    "sib200:seq_es_th": {
+      "samples": 900,
+      "accuracy_percent": 69.33333333333333,
+      "published_accuracy_percent": 69.33333333333333,
+      "choice_order": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gold_counts": {
+        "A": 206,
+        "B": 251,
+        "C": 246,
+        "D": 197
+      },
+      "predicted_counts": {
+        "A": 243,
+        "B": 212,
+        "C": 204,
+        "D": 241
+      },
+      "confusion_gold_rows_predicted_columns": [
+        [
+          149,
+          16,
+          20,
+          21
+        ],
+        [
+          33,
+          162,
+          21,
+          35
+        ],
+        [
+          43,
+          23,
+          154,
+          26
+        ],
+        [
+          18,
+          11,
+          9,
+          159
+        ]
+      ],
+      "most_predicted_label": "A",
+      "most_predicted_share": 0.27,
+      "original_acc_matches_every_sample": true,
+      "source_samples_sha256": "570e38b3b67097a3f824c9322b60253af3eb6334903f89c3015f076716db131a",
+      "completion_receipt_sha256": "e53a3b23b01031f26a73ce205cbf1049225514f654509fb82aa4b0e2874afa82"
+    }
+  },
+  "same_900_docs_prompts_targets": true,
+  "new_generation": false,
+  "test_used_for_changes": false,
+  "protocol": "0-shot four-label log-likelihood ACC, not generated-letter parsing"
+}
