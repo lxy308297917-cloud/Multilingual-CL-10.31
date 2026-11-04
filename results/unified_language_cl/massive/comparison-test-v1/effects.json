@@ -1,0 +1,306 @@
+{
+  "track": "massive",
+  "split": "test",
+  "status": "COMPLETE_FIXED_FINAL_MATRIX",
+  "model_order": [
+    "base",
+    "single_es",
+    "single_th",
+    "seq_es_th"
+  ],
+  "groups": {
+    "en:massive": {
+      "samples": 2974,
+      "metric": "ACC percentage points",
+      "scores": {
+        "base": 37.25622057834566,
+        "single_es": 85.87760591795562,
+        "single_th": 84.66711499663752,
+        "seq_es_th": 86.41560188298588
+      },
+      "effects": {
+        "single_es_minus_base": {
+          "delta": 48.62138533960995,
+          "ci95_low": 46.737558843308676,
+          "ci95_high": 50.43712172158709,
+          "repeats": 2000,
+          "n": 2974,
+          "clusters": 2974,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        },
+        "single_th_minus_base": {
+          "delta": 47.41089441829186,
+          "ci95_low": 45.52790854068594,
+          "ci95_high": 49.26025554808339,
+          "repeats": 2000,
+          "n": 2974,
+          "clusters": 2974,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        },
+        "seq_th_minus_es": {
+          "delta": 0.5379959650302623,
+          "ci95_low": -0.20174848688634836,
+          "ci95_high": 1.3113651647612643,
+          "repeats": 2000,
+          "n": 2974,
+          "clusters": 2974,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        },
+        "es_forgetting": {
+          "delta": -0.5379959650302623,
+          "ci95_low": -1.3113651647612643,
+          "ci95_high": 0.20174848688634836,
+          "repeats": 2000,
+          "n": 2974,
+          "clusters": 2974,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        },
+        "seq_final_minus_single_th": {
+          "delta": 1.7484868863483525,
+          "ci95_low": 0.8742434431741762,
+          "ci95_high": 2.6899798251513114,
+          "repeats": 2000,
+          "n": 2974,
+          "clusters": 2974,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        },
+        "difference_of_th_gains": {
+          "delta": -46.8728984532616,
+          "ci95_low": -48.790349697377266,
+          "ci95_high": -44.85457296570276,
+          "repeats": 2000,
+          "n": 2974,
+          "clusters": 2974,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        }
+      }
+    },
+    "es:massive": {
+      "samples": 2974,
+      "metric": "ACC percentage points",
+      "scores": {
+        "base": 24.478816408876934,
+        "single_es": 84.02824478816409,
+        "single_th": 79.6570275722932,
+        "seq_es_th": 83.82649630127774
+      },
+      "effects": {
+        "single_es_minus_base": {
+          "delta": 59.54942837928716,
+          "ci95_low": 57.70006724949563,
+          "ci95_high": 61.432414256893075,
+          "repeats": 2000,
+          "n": 2974,
+          "clusters": 2974,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        },
+        "single_th_minus_base": {
+          "delta": 55.17821116341627,
+          "ci95_low": 53.227975790181574,
+          "ci95_high": 57.128446536650976,
+          "repeats": 2000,
+          "n": 2974,
+          "clusters": 2974,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        },
+        "seq_th_minus_es": {
+          "delta": -0.20174848688634836,
+          "ci95_low": -1.0759919300605245,
+          "ci95_high": 0.6724949562878278,
+          "repeats": 2000,
+          "n": 2974,
+          "clusters": 2974,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        },
+        "es_forgetting": {
+          "delta": 0.20174848688634836,
+          "ci95_low": -0.6724949562878278,
+          "ci95_high": 1.0759919300605245,
+          "repeats": 2000,
+          "n": 2974,
+          "clusters": 2974,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        },
+        "seq_final_minus_single_th": {
+          "delta": 4.1694687289845325,
+          "ci95_low": 3.1271015467383996,
+          "ci95_high": 5.211835911230666,
+          "repeats": 2000,
+          "n": 2974,
+          "clusters": 2974,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        },
+        "difference_of_th_gains": {
+          "delta": -55.379959650302624,
+          "ci95_low": -57.4310692669805,
+          "ci95_high": -53.16072629455279,
+          "repeats": 2000,
+          "n": 2974,
+          "clusters": 2974,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        }
+      }
+    },
+    "fr:massive": {
+      "samples": 2974,
+      "metric": "ACC percentage points",
+      "scores": {
+        "base": 14.660390047074648,
+        "single_es": 83.45662407531944,
+        "single_th": 81.80901143241425,
+        "seq_es_th": 84.90248823133827
+      },
+      "effects": {
+        "single_es_minus_base": {
+          "delta": 68.79623402824478,
+          "ci95_low": 67.11499663752522,
+          "ci95_high": 70.47747141896436,
+          "repeats": 2000,
+          "n": 2974,
+          "clusters": 2974,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        },
+        "single_th_minus_base": {
+          "delta": 67.14862138533961,
+          "ci95_low": 65.36650975117686,
+          "ci95_high": 68.89710827168797,
+          "repeats": 2000,
+          "n": 2974,
+          "clusters": 2974,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        },
+        "seq_th_minus_es": {
+          "delta": 1.44586415601883,
+          "ci95_low": 0.5716207128446537,
+          "ci95_high": 2.3545729657027525,
+          "repeats": 2000,
+          "n": 2974,
+          "clusters": 2974,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        },
+        "es_forgetting": {
+          "delta": -1.44586415601883,
+          "ci95_low": -2.354572965702757,
+          "ci95_high": -0.5716207128446537,
+          "repeats": 2000,
+          "n": 2974,
+          "clusters": 2974,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        },
+        "seq_final_minus_single_th": {
+          "delta": 3.093476798924008,
+          "ci95_low": 2.0174848688634834,
+          "ci95_high": 4.203093476798924,
+          "repeats": 2000,
+          "n": 2974,
+          "clusters": 2974,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        },
+        "difference_of_th_gains": {
+          "delta": -65.70275722932078,
+          "ci95_low": -67.62020847343645,
+          "ci95_high": -63.651647612642904,
+          "repeats": 2000,
+          "n": 2974,
+          "clusters": 2974,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        }
+      }
+    },
+    "th:massive": {
+      "samples": 2974,
+      "metric": "ACC percentage points",
+      "scores": {
+        "base": 4.942837928715535,
+        "single_es": 76.59717552118359,
+        "single_th": 80.32952252858104,
+        "seq_es_th": 81.33826496301278
+      },
+      "effects": {
+        "single_es_minus_base": {
+          "delta": 71.65433759246805,
+          "ci95_low": 70.10759919300605,
+          "ci95_high": 73.26832548755884,
+          "repeats": 2000,
+          "n": 2974,
+          "clusters": 2974,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        },
+        "single_th_minus_base": {
+          "delta": 75.3866845998655,
+          "ci95_low": 73.87357094821789,
+          "ci95_high": 76.86701412239407,
+          "repeats": 2000,
+          "n": 2974,
+          "clusters": 2974,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        },
+        "seq_th_minus_es": {
+          "delta": 4.741089441829186,
+          "ci95_low": 3.6314727639542705,
+          "ci95_high": 5.884330867518494,
+          "repeats": 2000,
+          "n": 2974,
+          "clusters": 2974,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        },
+        "es_forgetting": {
+          "delta": -4.741089441829186,
+          "ci95_low": -5.884330867518494,
+          "ci95_high": -3.6314727639542705,
+          "repeats": 2000,
+          "n": 2974,
+          "clusters": 2974,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        },
+        "seq_final_minus_single_th": {
+          "delta": 1.0087424344317417,
+          "ci95_low": 0.06724949562878278,
+          "ci95_high": 1.983860121049092,
+          "repeats": 2000,
+          "n": 2974,
+          "clusters": 2974,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        },
+        "difference_of_th_gains": {
+          "delta": -70.64559515803631,
+          "ci95_low": -72.49495628782785,
+          "ci95_high": -68.82901815736383,
+          "repeats": 2000,
+          "n": 2974,
+          "clusters": 2974,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        }
+      }
+    }
+  },
+  "sources": {
+    "base": {
+      "predictions_sha256": "38a9226fa249bebd7d506dafbcec1427b68ae99bb45758d51b83bdc865041800",
+      "run_sha256": "3adcd631bbaf3a404593b030bdbf5576a0eaf4eba26c719327d3d4e56531106e",
+      "scores_sha256": "da99029bc3847746671f970d5b325cd747bb66aafde65c262a56f1b29d650123"
+    },
+    "single_es": {
+      "predictions_sha256": "4d9ed4c5cb71ae44237de140181b787e8ace151ec93de75a2572731a4915a682",
+      "run_sha256": "282a524b710753e32a4a803a43b64ec75fb5618054e9ed3f3402ac8dfcf4b0a0",
+      "scores_sha256": "19893cd8e2d8ac4b02641b8584628ae85e57c6bd4089613426f535218b3b8036"
+    },
+    "single_th": {
+      "predictions_sha256": "bd3958f6e318d01fbfb90089903c0008c2a13792f0f8880d42c4e7c51b49de0b",
+      "run_sha256": "06033a42fb34916afcf7a42fb2e05086e259a1560ad9950754867a00a2d5a8ff",
+      "scores_sha256": "b4e2cc7df377487de0b94c88bdf7ee3a546317997caeb3476dc68bd801f20278"
+    },
+    "seq_es_th": {
+      "predictions_sha256": "4eb90ee74fd3e74cadc8c9721391b772bd25d81ddd0ccb1b6d769a67045b6f6c",
+      "run_sha256": "5c63f8bb706b6684b02fd02b18e140fea52b4c9f5bc8c493dace443040364e1e",
+      "scores_sha256": "0b762d9c7a6429015712b844efbe92e5ccff83312571b6f810b48cd67c3ceeee"
+    }
+  },
+  "same_prompts_references_ids_verified": true,
+  "limits": [
+    "Only seed42; bootstrap conditions on these trained models.",
+    "No multiplicity adjustment; interval crossing zero is not equivalence.",
+    "No pooling unlike task metrics or selecting checkpoints from tests.",
+    "Native classification generation can improve via label/format acquisition; inspect matched dev64 candidate diagnosis before claiming new language semantics."
+  ]
+}

@@ -1,0 +1,330 @@
+{
+  "base": {
+    "es:msvamp": {
+      "samples": 1000,
+      "primary_metric": "accuracy",
+      "score": 0.826,
+      "hit_cap_rate": 0.003,
+      "strict_accuracy": 0.005,
+      "answer_parse_rate": 1.0,
+      "mean_generated_tokens": 176.824,
+      "format_caveat": "Numerical answer ACC is primary; strict #### is a separate diagnostic. No test-based parser or checkpoint changes."
+    },
+    "es:mgsm_rev2": {
+      "samples": 250,
+      "primary_metric": "accuracy",
+      "score": 0.748,
+      "hit_cap_rate": 0.0,
+      "strict_accuracy": 0.004,
+      "answer_parse_rate": 1.0,
+      "mean_generated_tokens": 263.736,
+      "format_caveat": "Numerical answer ACC is primary; strict #### is a separate diagnostic. No test-based parser or checkpoint changes."
+    },
+    "th:msvamp": {
+      "samples": 1000,
+      "primary_metric": "accuracy",
+      "score": 0.755,
+      "hit_cap_rate": 0.006,
+      "strict_accuracy": 0.017,
+      "answer_parse_rate": 0.999,
+      "mean_generated_tokens": 346.127,
+      "format_caveat": "Numerical answer ACC is primary; strict #### is a separate diagnostic. No test-based parser or checkpoint changes."
+    },
+    "th:mgsm_rev2": {
+      "samples": 250,
+      "primary_metric": "accuracy",
+      "score": 0.58,
+      "hit_cap_rate": 0.004,
+      "strict_accuracy": 0.032,
+      "answer_parse_rate": 1.0,
+      "mean_generated_tokens": 488.712,
+      "format_caveat": "Numerical answer ACC is primary; strict #### is a separate diagnostic. No test-based parser or checkpoint changes."
+    },
+    "fr:msvamp": {
+      "samples": 1000,
+      "primary_metric": "accuracy",
+      "score": 0.834,
+      "hit_cap_rate": 0.004,
+      "strict_accuracy": 0.0,
+      "answer_parse_rate": 0.999,
+      "mean_generated_tokens": 181.31,
+      "format_caveat": "Numerical answer ACC is primary; strict #### is a separate diagnostic. No test-based parser or checkpoint changes."
+    },
+    "fr:mgsm_rev2": {
+      "samples": 250,
+      "primary_metric": "accuracy",
+      "score": 0.716,
+      "hit_cap_rate": 0.004,
+      "strict_accuracy": 0.0,
+      "answer_parse_rate": 1.0,
+      "mean_generated_tokens": 290.892,
+      "format_caveat": "Numerical answer ACC is primary; strict #### is a separate diagnostic. No test-based parser or checkpoint changes."
+    },
+    "en:msvamp": {
+      "samples": 1000,
+      "primary_metric": "accuracy",
+      "score": 0.906,
+      "hit_cap_rate": 0.001,
+      "strict_accuracy": 0.002,
+      "answer_parse_rate": 1.0,
+      "mean_generated_tokens": 143.504,
+      "format_caveat": "Numerical answer ACC is primary; strict #### is a separate diagnostic. No test-based parser or checkpoint changes."
+    },
+    "en:mgsm_rev2": {
+      "samples": 250,
+      "primary_metric": "accuracy",
+      "score": 0.808,
+      "hit_cap_rate": 0.0,
+      "strict_accuracy": 0.0,
+      "answer_parse_rate": 1.0,
+      "mean_generated_tokens": 242.556,
+      "format_caveat": "Numerical answer ACC is primary; strict #### is a separate diagnostic. No test-based parser or checkpoint changes."
+    }
+  },
+  "single_es": {
+    "es:msvamp": {
+      "samples": 1000,
+      "primary_metric": "accuracy",
+      "score": 0.646,
+      "hit_cap_rate": 0.005,
+      "strict_accuracy": 0.644,
+      "answer_parse_rate": 1.0,
+      "mean_generated_tokens": 76.705,
+      "format_caveat": "Numerical answer ACC is primary; strict #### is a separate diagnostic. No test-based parser or checkpoint changes."
+    },
+    "es:mgsm_rev2": {
+      "samples": 250,
+      "primary_metric": "accuracy",
+      "score": 0.56,
+      "hit_cap_rate": 0.024,
+      "strict_accuracy": 0.56,
+      "answer_parse_rate": 1.0,
+      "mean_generated_tokens": 158.072,
+      "format_caveat": "Numerical answer ACC is primary; strict #### is a separate diagnostic. No test-based parser or checkpoint changes."
+    },
+    "th:msvamp": {
+      "samples": 1000,
+      "primary_metric": "accuracy",
+      "score": 0.568,
+      "hit_cap_rate": 0.028,
+      "strict_accuracy": 0.566,
+      "answer_parse_rate": 0.999,
+      "mean_generated_tokens": 134.04,
+      "format_caveat": "Numerical answer ACC is primary; strict #### is a separate diagnostic. No test-based parser or checkpoint changes."
+    },
+    "th:mgsm_rev2": {
+      "samples": 250,
+      "primary_metric": "accuracy",
+      "score": 0.432,
+      "hit_cap_rate": 0.052,
+      "strict_accuracy": 0.432,
+      "answer_parse_rate": 0.996,
+      "mean_generated_tokens": 242.064,
+      "format_caveat": "Numerical answer ACC is primary; strict #### is a separate diagnostic. No test-based parser or checkpoint changes."
+    },
+    "fr:msvamp": {
+      "samples": 1000,
+      "primary_metric": "accuracy",
+      "score": 0.609,
+      "hit_cap_rate": 0.008,
+      "strict_accuracy": 0.609,
+      "answer_parse_rate": 1.0,
+      "mean_generated_tokens": 79.901,
+      "format_caveat": "Numerical answer ACC is primary; strict #### is a separate diagnostic. No test-based parser or checkpoint changes."
+    },
+    "fr:mgsm_rev2": {
+      "samples": 250,
+      "primary_metric": "accuracy",
+      "score": 0.54,
+      "hit_cap_rate": 0.024,
+      "strict_accuracy": 0.54,
+      "answer_parse_rate": 1.0,
+      "mean_generated_tokens": 153.436,
+      "format_caveat": "Numerical answer ACC is primary; strict #### is a separate diagnostic. No test-based parser or checkpoint changes."
+    },
+    "en:msvamp": {
+      "samples": 1000,
+      "primary_metric": "accuracy",
+      "score": 0.651,
+      "hit_cap_rate": 0.016,
+      "strict_accuracy": 0.647,
+      "answer_parse_rate": 1.0,
+      "mean_generated_tokens": 82.833,
+      "format_caveat": "Numerical answer ACC is primary; strict #### is a separate diagnostic. No test-based parser or checkpoint changes."
+    },
+    "en:mgsm_rev2": {
+      "samples": 250,
+      "primary_metric": "accuracy",
+      "score": 0.636,
+      "hit_cap_rate": 0.02,
+      "strict_accuracy": 0.636,
+      "answer_parse_rate": 1.0,
+      "mean_generated_tokens": 141.356,
+      "format_caveat": "Numerical answer ACC is primary; strict #### is a separate diagnostic. No test-based parser or checkpoint changes."
+    }
+  },
+  "single_th": {
+    "es:msvamp": {
+      "samples": 1000,
+      "primary_metric": "accuracy",
+      "score": 0.593,
+      "hit_cap_rate": 0.012,
+      "strict_accuracy": 0.592,
+      "answer_parse_rate": 1.0,
+      "mean_generated_tokens": 84.388,
+      "format_caveat": "Numerical answer ACC is primary; strict #### is a separate diagnostic. No test-based parser or checkpoint changes."
+    },
+    "es:mgsm_rev2": {
+      "samples": 250,
+      "primary_metric": "accuracy",
+      "score": 0.528,
+      "hit_cap_rate": 0.016,
+      "strict_accuracy": 0.528,
+      "answer_parse_rate": 1.0,
+      "mean_generated_tokens": 146.244,
+      "format_caveat": "Numerical answer ACC is primary; strict #### is a separate diagnostic. No test-based parser or checkpoint changes."
+    },
+    "th:msvamp": {
+      "samples": 1000,
+      "primary_metric": "accuracy",
+      "score": 0.565,
+      "hit_cap_rate": 0.028,
+      "strict_accuracy": 0.564,
+      "answer_parse_rate": 0.999,
+      "mean_generated_tokens": 132.408,
+      "format_caveat": "Numerical answer ACC is primary; strict #### is a separate diagnostic. No test-based parser or checkpoint changes."
+    },
+    "th:mgsm_rev2": {
+      "samples": 250,
+      "primary_metric": "accuracy",
+      "score": 0.444,
+      "hit_cap_rate": 0.052,
+      "strict_accuracy": 0.444,
+      "answer_parse_rate": 1.0,
+      "mean_generated_tokens": 236.452,
+      "format_caveat": "Numerical answer ACC is primary; strict #### is a separate diagnostic. No test-based parser or checkpoint changes."
+    },
+    "fr:msvamp": {
+      "samples": 1000,
+      "primary_metric": "accuracy",
+      "score": 0.581,
+      "hit_cap_rate": 0.005,
+      "strict_accuracy": 0.581,
+      "answer_parse_rate": 1.0,
+      "mean_generated_tokens": 74.304,
+      "format_caveat": "Numerical answer ACC is primary; strict #### is a separate diagnostic. No test-based parser or checkpoint changes."
+    },
+    "fr:mgsm_rev2": {
+      "samples": 250,
+      "primary_metric": "accuracy",
+      "score": 0.556,
+      "hit_cap_rate": 0.032,
+      "strict_accuracy": 0.556,
+      "answer_parse_rate": 1.0,
+      "mean_generated_tokens": 152.716,
+      "format_caveat": "Numerical answer ACC is primary; strict #### is a separate diagnostic. No test-based parser or checkpoint changes."
+    },
+    "en:msvamp": {
+      "samples": 1000,
+      "primary_metric": "accuracy",
+      "score": 0.603,
+      "hit_cap_rate": 0.019,
+      "strict_accuracy": 0.6,
+      "answer_parse_rate": 1.0,
+      "mean_generated_tokens": 86.808,
+      "format_caveat": "Numerical answer ACC is primary; strict #### is a separate diagnostic. No test-based parser or checkpoint changes."
+    },
+    "en:mgsm_rev2": {
+      "samples": 250,
+      "primary_metric": "accuracy",
+      "score": 0.636,
+      "hit_cap_rate": 0.02,
+      "strict_accuracy": 0.628,
+      "answer_parse_rate": 0.996,
+      "mean_generated_tokens": 133.892,
+      "format_caveat": "Numerical answer ACC is primary; strict #### is a separate diagnostic. No test-based parser or checkpoint changes."
+    }
+  },
+  "seq_es_th": {
+    "es:msvamp": {
+      "samples": 1000,
+      "primary_metric": "accuracy",
+      "score": 0.638,
+      "hit_cap_rate": 0.005,
+      "strict_accuracy": 0.636,
+      "answer_parse_rate": 1.0,
+      "mean_generated_tokens": 75.437,
+      "format_caveat": "Numerical answer ACC is primary; strict #### is a separate diagnostic. No test-based parser or checkpoint changes."
+    },
+    "es:mgsm_rev2": {
+      "samples": 250,
+      "primary_metric": "accuracy",
+      "score": 0.528,
+      "hit_cap_rate": 0.028,
+      "strict_accuracy": 0.528,
+      "answer_parse_rate": 1.0,
+      "mean_generated_tokens": 163.196,
+      "format_caveat": "Numerical answer ACC is primary; strict #### is a separate diagnostic. No test-based parser or checkpoint changes."
+    },
+    "th:msvamp": {
+      "samples": 1000,
+      "primary_metric": "accuracy",
+      "score": 0.591,
+      "hit_cap_rate": 0.03,
+      "strict_accuracy": 0.588,
+      "answer_parse_rate": 0.998,
+      "mean_generated_tokens": 133.776,
+      "format_caveat": "Numerical answer ACC is primary; strict #### is a separate diagnostic. No test-based parser or checkpoint changes."
+    },
+    "th:mgsm_rev2": {
+      "samples": 250,
+      "primary_metric": "accuracy",
+      "score": 0.456,
+      "hit_cap_rate": 0.032,
+      "strict_accuracy": 0.456,
+      "answer_parse_rate": 1.0,
+      "mean_generated_tokens": 213.244,
+      "format_caveat": "Numerical answer ACC is primary; strict #### is a separate diagnostic. No test-based parser or checkpoint changes."
+    },
+    "fr:msvamp": {
+      "samples": 1000,
+      "primary_metric": "accuracy",
+      "score": 0.592,
+      "hit_cap_rate": 0.014,
+      "strict_accuracy": 0.591,
+      "answer_parse_rate": 1.0,
+      "mean_generated_tokens": 84.611,
+      "format_caveat": "Numerical answer ACC is primary; strict #### is a separate diagnostic. No test-based parser or checkpoint changes."
+    },
+    "fr:mgsm_rev2": {
+      "samples": 250,
+      "primary_metric": "accuracy",
+      "score": 0.512,
+      "hit_cap_rate": 0.028,
+      "strict_accuracy": 0.504,
+      "answer_parse_rate": 1.0,
+      "mean_generated_tokens": 147.14,
+      "format_caveat": "Numerical answer ACC is primary; strict #### is a separate diagnostic. No test-based parser or checkpoint changes."
+    },
+    "en:msvamp": {
+      "samples": 1000,
+      "primary_metric": "accuracy",
+      "score": 0.599,
+      "hit_cap_rate": 0.012,
+      "strict_accuracy": 0.598,
+      "answer_parse_rate": 1.0,
+      "mean_generated_tokens": 77.969,
+      "format_caveat": "Numerical answer ACC is primary; strict #### is a separate diagnostic. No test-based parser or checkpoint changes."
+    },
+    "en:mgsm_rev2": {
+      "samples": 250,
+      "primary_metric": "accuracy",
+      "score": 0.616,
+      "hit_cap_rate": 0.024,
+      "strict_accuracy": 0.616,
+      "answer_parse_rate": 1.0,
+      "mean_generated_tokens": 139.516,
+      "format_caveat": "Numerical answer ACC is primary; strict #### is a separate diagnostic. No test-based parser or checkpoint changes."
+    }
+  }
+}
