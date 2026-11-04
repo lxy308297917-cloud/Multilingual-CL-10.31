@@ -1,0 +1,469 @@
+{
+  "status": "COMPLETE_ALL_48_MATCHED_DEV_GROUPS",
+  "groups": {
+    "massive": {
+      "base": {
+        "langs": {
+          "en": {
+            "samples": 64,
+            "generation_accuracy_percent": 35.9375,
+            "candidate_accuracy_percent": 37.5,
+            "invalid_label_percent": 7.8125,
+            "ids_sha256": "26efd7ae2fae7aa35597d3288064367ebea7c6fa9d03e19f64689b6418c5fbbe",
+            "prompt_hash_mapping_sha256": "cb629e3348bd915d5249f42fada75227c6daf27bba55a32124ba3ae01516c5d7"
+          },
+          "es": {
+            "samples": 64,
+            "generation_accuracy_percent": 28.125,
+            "candidate_accuracy_percent": 29.6875,
+            "invalid_label_percent": 20.3125,
+            "ids_sha256": "26efd7ae2fae7aa35597d3288064367ebea7c6fa9d03e19f64689b6418c5fbbe",
+            "prompt_hash_mapping_sha256": "0f5b7411de487ac072781e201a7bfc7700eb1b3c94485c725cf17cfaabdfef1e"
+          },
+          "fr": {
+            "samples": 64,
+            "generation_accuracy_percent": 21.875,
+            "candidate_accuracy_percent": 26.5625,
+            "invalid_label_percent": 34.375,
+            "ids_sha256": "26efd7ae2fae7aa35597d3288064367ebea7c6fa9d03e19f64689b6418c5fbbe",
+            "prompt_hash_mapping_sha256": "eaefd6950da95326adbbfc352028bea8ebd36faa2ed0cf5638fe87984dfdec43"
+          },
+          "th": {
+            "samples": 64,
+            "generation_accuracy_percent": 1.5625,
+            "candidate_accuracy_percent": 12.5,
+            "invalid_label_percent": 78.125,
+            "ids_sha256": "26efd7ae2fae7aa35597d3288064367ebea7c6fa9d03e19f64689b6418c5fbbe",
+            "prompt_hash_mapping_sha256": "065a8734aedaadc056cb5e099422c6a22123d5f340470a068e7b2898fadda7b2"
+          }
+        },
+        "generation_sha256": "83a873788fe8241b2719b61b995306b6742c271e53328081f3b1010b98785ca9",
+        "candidate_sha256": "baa4b8e442f406ffa3ee1d8b0f3db3a8b0eafd40c06c699a0fa4bb802cea5a43"
+      },
+      "single_es": {
+        "langs": {
+          "en": {
+            "samples": 64,
+            "generation_accuracy_percent": 92.1875,
+            "candidate_accuracy_percent": 93.75,
+            "invalid_label_percent": 0.0,
+            "ids_sha256": "26efd7ae2fae7aa35597d3288064367ebea7c6fa9d03e19f64689b6418c5fbbe",
+            "prompt_hash_mapping_sha256": "cb629e3348bd915d5249f42fada75227c6daf27bba55a32124ba3ae01516c5d7"
+          },
+          "es": {
+            "samples": 64,
+            "generation_accuracy_percent": 90.625,
+            "candidate_accuracy_percent": 92.1875,
+            "invalid_label_percent": 0.0,
+            "ids_sha256": "26efd7ae2fae7aa35597d3288064367ebea7c6fa9d03e19f64689b6418c5fbbe",
+            "prompt_hash_mapping_sha256": "0f5b7411de487ac072781e201a7bfc7700eb1b3c94485c725cf17cfaabdfef1e"
+          },
+          "fr": {
+            "samples": 64,
+            "generation_accuracy_percent": 87.5,
+            "candidate_accuracy_percent": 87.5,
+            "invalid_label_percent": 0.0,
+            "ids_sha256": "26efd7ae2fae7aa35597d3288064367ebea7c6fa9d03e19f64689b6418c5fbbe",
+            "prompt_hash_mapping_sha256": "eaefd6950da95326adbbfc352028bea8ebd36faa2ed0cf5638fe87984dfdec43"
+          },
+          "th": {
+            "samples": 64,
+            "generation_accuracy_percent": 79.6875,
+            "candidate_accuracy_percent": 81.25,
+            "invalid_label_percent": 0.0,
+            "ids_sha256": "26efd7ae2fae7aa35597d3288064367ebea7c6fa9d03e19f64689b6418c5fbbe",
+            "prompt_hash_mapping_sha256": "065a8734aedaadc056cb5e099422c6a22123d5f340470a068e7b2898fadda7b2"
+          }
+        },
+        "generation_sha256": "f1c81351b03b29a5dc98f4914e25b906f01c31d92e6bc10efee7d1df51763d0b",
+        "candidate_sha256": "788b6b46a728d681b0c14e5d76a98726db2d9f798baf17af3414942227e211b1"
+      },
+      "single_th": {
+        "langs": {
+          "en": {
+            "samples": 64,
+            "generation_accuracy_percent": 89.0625,
+            "candidate_accuracy_percent": 89.0625,
+            "invalid_label_percent": 0.0,
+            "ids_sha256": "26efd7ae2fae7aa35597d3288064367ebea7c6fa9d03e19f64689b6418c5fbbe",
+            "prompt_hash_mapping_sha256": "cb629e3348bd915d5249f42fada75227c6daf27bba55a32124ba3ae01516c5d7"
+          },
+          "es": {
+            "samples": 64,
+            "generation_accuracy_percent": 87.5,
+            "candidate_accuracy_percent": 87.5,
+            "invalid_label_percent": 0.0,
+            "ids_sha256": "26efd7ae2fae7aa35597d3288064367ebea7c6fa9d03e19f64689b6418c5fbbe",
+            "prompt_hash_mapping_sha256": "0f5b7411de487ac072781e201a7bfc7700eb1b3c94485c725cf17cfaabdfef1e"
+          },
+          "fr": {
+            "samples": 64,
+            "generation_accuracy_percent": 87.5,
+            "candidate_accuracy_percent": 87.5,
+            "invalid_label_percent": 0.0,
+            "ids_sha256": "26efd7ae2fae7aa35597d3288064367ebea7c6fa9d03e19f64689b6418c5fbbe",
+            "prompt_hash_mapping_sha256": "eaefd6950da95326adbbfc352028bea8ebd36faa2ed0cf5638fe87984dfdec43"
+          },
+          "th": {
+            "samples": 64,
+            "generation_accuracy_percent": 84.375,
+            "candidate_accuracy_percent": 84.375,
+            "invalid_label_percent": 0.0,
+            "ids_sha256": "26efd7ae2fae7aa35597d3288064367ebea7c6fa9d03e19f64689b6418c5fbbe",
+            "prompt_hash_mapping_sha256": "065a8734aedaadc056cb5e099422c6a22123d5f340470a068e7b2898fadda7b2"
+          }
+        },
+        "generation_sha256": "bb0c4283e4e628a80f3d58dd2fee60fc67d32cf2cf74494b1b8ba18df93c95f5",
+        "candidate_sha256": "2319fe6c55b092aa87cf23a41d1bc131e9bbc41c3d40cdcea866cfe4c1052d43"
+      },
+      "seq_es_th": {
+        "langs": {
+          "en": {
+            "samples": 64,
+            "generation_accuracy_percent": 95.3125,
+            "candidate_accuracy_percent": 95.3125,
+            "invalid_label_percent": 0.0,
+            "ids_sha256": "26efd7ae2fae7aa35597d3288064367ebea7c6fa9d03e19f64689b6418c5fbbe",
+            "prompt_hash_mapping_sha256": "cb629e3348bd915d5249f42fada75227c6daf27bba55a32124ba3ae01516c5d7"
+          },
+          "es": {
+            "samples": 64,
+            "generation_accuracy_percent": 90.625,
+            "candidate_accuracy_percent": 89.0625,
+            "invalid_label_percent": 0.0,
+            "ids_sha256": "26efd7ae2fae7aa35597d3288064367ebea7c6fa9d03e19f64689b6418c5fbbe",
+            "prompt_hash_mapping_sha256": "0f5b7411de487ac072781e201a7bfc7700eb1b3c94485c725cf17cfaabdfef1e"
+          },
+          "fr": {
+            "samples": 64,
+            "generation_accuracy_percent": 90.625,
+            "candidate_accuracy_percent": 92.1875,
+            "invalid_label_percent": 0.0,
+            "ids_sha256": "26efd7ae2fae7aa35597d3288064367ebea7c6fa9d03e19f64689b6418c5fbbe",
+            "prompt_hash_mapping_sha256": "eaefd6950da95326adbbfc352028bea8ebd36faa2ed0cf5638fe87984dfdec43"
+          },
+          "th": {
+            "samples": 64,
+            "generation_accuracy_percent": 82.8125,
+            "candidate_accuracy_percent": 82.8125,
+            "invalid_label_percent": 0.0,
+            "ids_sha256": "26efd7ae2fae7aa35597d3288064367ebea7c6fa9d03e19f64689b6418c5fbbe",
+            "prompt_hash_mapping_sha256": "065a8734aedaadc056cb5e099422c6a22123d5f340470a068e7b2898fadda7b2"
+          }
+        },
+        "generation_sha256": "e09efc94066850e7a41b381b1bbafccc2e2b370364e98f7a5783bc21d1e30761",
+        "candidate_sha256": "10f1f83d317001c508b4f1d2f2cb83d82d4638dd70d21dfc6a02fcb84bb0b522"
+      }
+    },
+    "xnli": {
+      "base": {
+        "langs": {
+          "en": {
+            "samples": 64,
+            "generation_accuracy_percent": 43.75,
+            "candidate_accuracy_percent": 54.6875,
+            "invalid_label_percent": 20.3125,
+            "ids_sha256": "ef6d37c30f48718129cc1be4ab7b991557a33721b5c0e09251041f3103009047",
+            "prompt_hash_mapping_sha256": "e9988078fe48323b4998b916ca6f1b638b9f7095e0af0978607e9a374be809b1"
+          },
+          "es": {
+            "samples": 64,
+            "generation_accuracy_percent": 53.125,
+            "candidate_accuracy_percent": 51.5625,
+            "invalid_label_percent": 9.375,
+            "ids_sha256": "ef6d37c30f48718129cc1be4ab7b991557a33721b5c0e09251041f3103009047",
+            "prompt_hash_mapping_sha256": "85702191b363a2bb0176bd8a215fb6cb2ced5f0ec5f14a68b30f2d284f364944"
+          },
+          "fr": {
+            "samples": 64,
+            "generation_accuracy_percent": 60.9375,
+            "candidate_accuracy_percent": 68.75,
+            "invalid_label_percent": 6.25,
+            "ids_sha256": "ef6d37c30f48718129cc1be4ab7b991557a33721b5c0e09251041f3103009047",
+            "prompt_hash_mapping_sha256": "a3d199867efd161c3058729e13c7f2351d430e8b321f469ba1a0e2363b5e0daf"
+          },
+          "th": {
+            "samples": 64,
+            "generation_accuracy_percent": 51.5625,
+            "candidate_accuracy_percent": 48.4375,
+            "invalid_label_percent": 1.5625,
+            "ids_sha256": "ef6d37c30f48718129cc1be4ab7b991557a33721b5c0e09251041f3103009047",
+            "prompt_hash_mapping_sha256": "f8656ff646ea81377ad2fc665f273470d3bb0192fe7230cf36e9228c3f0fe1b7"
+          }
+        },
+        "generation_sha256": "f81cb0ee615db17f265dc76e40a788c3701ea025d85be1ccc865b3ccb3204aae",
+        "candidate_sha256": "887d0b7365fe9252c53232d036313feb028986739893700b97d5440e376050c4"
+      },
+      "single_es": {
+        "langs": {
+          "en": {
+            "samples": 64,
+            "generation_accuracy_percent": 84.375,
+            "candidate_accuracy_percent": 84.375,
+            "invalid_label_percent": 0.0,
+            "ids_sha256": "ef6d37c30f48718129cc1be4ab7b991557a33721b5c0e09251041f3103009047",
+            "prompt_hash_mapping_sha256": "e9988078fe48323b4998b916ca6f1b638b9f7095e0af0978607e9a374be809b1"
+          },
+          "es": {
+            "samples": 64,
+            "generation_accuracy_percent": 84.375,
+            "candidate_accuracy_percent": 84.375,
+            "invalid_label_percent": 0.0,
+            "ids_sha256": "ef6d37c30f48718129cc1be4ab7b991557a33721b5c0e09251041f3103009047",
+            "prompt_hash_mapping_sha256": "85702191b363a2bb0176bd8a215fb6cb2ced5f0ec5f14a68b30f2d284f364944"
+          },
+          "fr": {
+            "samples": 64,
+            "generation_accuracy_percent": 82.8125,
+            "candidate_accuracy_percent": 82.8125,
+            "invalid_label_percent": 0.0,
+            "ids_sha256": "ef6d37c30f48718129cc1be4ab7b991557a33721b5c0e09251041f3103009047",
+            "prompt_hash_mapping_sha256": "a3d199867efd161c3058729e13c7f2351d430e8b321f469ba1a0e2363b5e0daf"
+          },
+          "th": {
+            "samples": 64,
+            "generation_accuracy_percent": 70.3125,
+            "candidate_accuracy_percent": 70.3125,
+            "invalid_label_percent": 0.0,
+            "ids_sha256": "ef6d37c30f48718129cc1be4ab7b991557a33721b5c0e09251041f3103009047",
+            "prompt_hash_mapping_sha256": "f8656ff646ea81377ad2fc665f273470d3bb0192fe7230cf36e9228c3f0fe1b7"
+          }
+        },
+        "generation_sha256": "9141ea3248c16cc47c702d7a72aee515cb00b42699434e72143a61143d32a1b1",
+        "candidate_sha256": "315205f3e998feb30147fa20c59a3fd99dac490bc2ad4d1a732588e08ed282ee"
+      },
+      "single_th": {
+        "langs": {
+          "en": {
+            "samples": 64,
+            "generation_accuracy_percent": 82.8125,
+            "candidate_accuracy_percent": 82.8125,
+            "invalid_label_percent": 0.0,
+            "ids_sha256": "ef6d37c30f48718129cc1be4ab7b991557a33721b5c0e09251041f3103009047",
+            "prompt_hash_mapping_sha256": "e9988078fe48323b4998b916ca6f1b638b9f7095e0af0978607e9a374be809b1"
+          },
+          "es": {
+            "samples": 64,
+            "generation_accuracy_percent": 79.6875,
+            "candidate_accuracy_percent": 78.125,
+            "invalid_label_percent": 0.0,
+            "ids_sha256": "ef6d37c30f48718129cc1be4ab7b991557a33721b5c0e09251041f3103009047",
+            "prompt_hash_mapping_sha256": "85702191b363a2bb0176bd8a215fb6cb2ced5f0ec5f14a68b30f2d284f364944"
+          },
+          "fr": {
+            "samples": 64,
+            "generation_accuracy_percent": 81.25,
+            "candidate_accuracy_percent": 81.25,
+            "invalid_label_percent": 0.0,
+            "ids_sha256": "ef6d37c30f48718129cc1be4ab7b991557a33721b5c0e09251041f3103009047",
+            "prompt_hash_mapping_sha256": "a3d199867efd161c3058729e13c7f2351d430e8b321f469ba1a0e2363b5e0daf"
+          },
+          "th": {
+            "samples": 64,
+            "generation_accuracy_percent": 76.5625,
+            "candidate_accuracy_percent": 78.125,
+            "invalid_label_percent": 0.0,
+            "ids_sha256": "ef6d37c30f48718129cc1be4ab7b991557a33721b5c0e09251041f3103009047",
+            "prompt_hash_mapping_sha256": "f8656ff646ea81377ad2fc665f273470d3bb0192fe7230cf36e9228c3f0fe1b7"
+          }
+        },
+        "generation_sha256": "758f43ad879979a7b7f4ba9a074382bb9a1e563e260820ee71a802750336007b",
+        "candidate_sha256": "fa4136b54a6dc731d35cb3f9858fbead043828865942f5c11239cf0486a34539"
+      },
+      "seq_es_th": {
+        "langs": {
+          "en": {
+            "samples": 64,
+            "generation_accuracy_percent": 84.375,
+            "candidate_accuracy_percent": 85.9375,
+            "invalid_label_percent": 0.0,
+            "ids_sha256": "ef6d37c30f48718129cc1be4ab7b991557a33721b5c0e09251041f3103009047",
+            "prompt_hash_mapping_sha256": "e9988078fe48323b4998b916ca6f1b638b9f7095e0af0978607e9a374be809b1"
+          },
+          "es": {
+            "samples": 64,
+            "generation_accuracy_percent": 84.375,
+            "candidate_accuracy_percent": 84.375,
+            "invalid_label_percent": 0.0,
+            "ids_sha256": "ef6d37c30f48718129cc1be4ab7b991557a33721b5c0e09251041f3103009047",
+            "prompt_hash_mapping_sha256": "85702191b363a2bb0176bd8a215fb6cb2ced5f0ec5f14a68b30f2d284f364944"
+          },
+          "fr": {
+            "samples": 64,
+            "generation_accuracy_percent": 82.8125,
+            "candidate_accuracy_percent": 84.375,
+            "invalid_label_percent": 0.0,
+            "ids_sha256": "ef6d37c30f48718129cc1be4ab7b991557a33721b5c0e09251041f3103009047",
+            "prompt_hash_mapping_sha256": "a3d199867efd161c3058729e13c7f2351d430e8b321f469ba1a0e2363b5e0daf"
+          },
+          "th": {
+            "samples": 64,
+            "generation_accuracy_percent": 70.3125,
+            "candidate_accuracy_percent": 70.3125,
+            "invalid_label_percent": 0.0,
+            "ids_sha256": "ef6d37c30f48718129cc1be4ab7b991557a33721b5c0e09251041f3103009047",
+            "prompt_hash_mapping_sha256": "f8656ff646ea81377ad2fc665f273470d3bb0192fe7230cf36e9228c3f0fe1b7"
+          }
+        },
+        "generation_sha256": "14c0dfd98c59f15396f50edf12d7e728a38ff8db79be8ce245ad6260decbe80f",
+        "candidate_sha256": "90425042e84bdfa926e07d9b85ae130081907b56170fe326057f0cef9e53fe8e"
+      }
+    },
+    "sib200": {
+      "base": {
+        "langs": {
+          "en": {
+            "samples": 64,
+            "generation_accuracy_percent": 42.1875,
+            "candidate_accuracy_percent": 42.1875,
+            "invalid_label_percent": 0.0,
+            "ids_sha256": "af733b0ed1f1402f2cd6653d873b525acb5941c3e0409dbd57c95623e3da8cde",
+            "prompt_hash_mapping_sha256": "931a6de4f00c5a26049c381fe66e10edb1d154a0d33135a44436e99c09f0b6f2"
+          },
+          "es": {
+            "samples": 64,
+            "generation_accuracy_percent": 53.125,
+            "candidate_accuracy_percent": 56.25,
+            "invalid_label_percent": 0.0,
+            "ids_sha256": "af733b0ed1f1402f2cd6653d873b525acb5941c3e0409dbd57c95623e3da8cde",
+            "prompt_hash_mapping_sha256": "6665937f2b9edf45362389d5049015b44ff4fb2beadb5edb5385f02c5b0f76b0"
+          },
+          "fr": {
+            "samples": 64,
+            "generation_accuracy_percent": 42.1875,
+            "candidate_accuracy_percent": 40.625,
+            "invalid_label_percent": 0.0,
+            "ids_sha256": "af733b0ed1f1402f2cd6653d873b525acb5941c3e0409dbd57c95623e3da8cde",
+            "prompt_hash_mapping_sha256": "7e9330478f9371a7f09d47c857c7a2990e5e83a8862b071e41e2342bbc6639e0"
+          },
+          "th": {
+            "samples": 64,
+            "generation_accuracy_percent": 14.0625,
+            "candidate_accuracy_percent": 48.4375,
+            "invalid_label_percent": 78.125,
+            "ids_sha256": "af733b0ed1f1402f2cd6653d873b525acb5941c3e0409dbd57c95623e3da8cde",
+            "prompt_hash_mapping_sha256": "2d6289d7a2046e5345f0e0d279c3f1bf29b8fa1e9ff7ee59adfabfb2c16c22e0"
+          }
+        },
+        "generation_sha256": "e25a59276b1e1220559dce072ff4a54979ff8042520e21d76660272a32f6f0da",
+        "candidate_sha256": "f6eeff165a34f705e6b121e1ad929435bb91ce5486284a88cf249491a12bdca8"
+      },
+      "single_es": {
+        "langs": {
+          "en": {
+            "samples": 64,
+            "generation_accuracy_percent": 82.8125,
+            "candidate_accuracy_percent": 84.375,
+            "invalid_label_percent": 0.0,
+            "ids_sha256": "af733b0ed1f1402f2cd6653d873b525acb5941c3e0409dbd57c95623e3da8cde",
+            "prompt_hash_mapping_sha256": "931a6de4f00c5a26049c381fe66e10edb1d154a0d33135a44436e99c09f0b6f2"
+          },
+          "es": {
+            "samples": 64,
+            "generation_accuracy_percent": 82.8125,
+            "candidate_accuracy_percent": 85.9375,
+            "invalid_label_percent": 0.0,
+            "ids_sha256": "af733b0ed1f1402f2cd6653d873b525acb5941c3e0409dbd57c95623e3da8cde",
+            "prompt_hash_mapping_sha256": "6665937f2b9edf45362389d5049015b44ff4fb2beadb5edb5385f02c5b0f76b0"
+          },
+          "fr": {
+            "samples": 64,
+            "generation_accuracy_percent": 79.6875,
+            "candidate_accuracy_percent": 79.6875,
+            "invalid_label_percent": 0.0,
+            "ids_sha256": "af733b0ed1f1402f2cd6653d873b525acb5941c3e0409dbd57c95623e3da8cde",
+            "prompt_hash_mapping_sha256": "7e9330478f9371a7f09d47c857c7a2990e5e83a8862b071e41e2342bbc6639e0"
+          },
+          "th": {
+            "samples": 64,
+            "generation_accuracy_percent": 85.9375,
+            "candidate_accuracy_percent": 82.8125,
+            "invalid_label_percent": 0.0,
+            "ids_sha256": "af733b0ed1f1402f2cd6653d873b525acb5941c3e0409dbd57c95623e3da8cde",
+            "prompt_hash_mapping_sha256": "2d6289d7a2046e5345f0e0d279c3f1bf29b8fa1e9ff7ee59adfabfb2c16c22e0"
+          }
+        },
+        "generation_sha256": "1a44a8d81f367f64d3ea828c29eab402060be07f03dae1a9220aa006a98f1a2b",
+        "candidate_sha256": "f3b41dc367a5023adbfdd88d6a72a92418af64ddbc273ae0a354a70fd8a117a8"
+      },
+      "single_th": {
+        "langs": {
+          "en": {
+            "samples": 64,
+            "generation_accuracy_percent": 82.8125,
+            "candidate_accuracy_percent": 82.8125,
+            "invalid_label_percent": 0.0,
+            "ids_sha256": "af733b0ed1f1402f2cd6653d873b525acb5941c3e0409dbd57c95623e3da8cde",
+            "prompt_hash_mapping_sha256": "931a6de4f00c5a26049c381fe66e10edb1d154a0d33135a44436e99c09f0b6f2"
+          },
+          "es": {
+            "samples": 64,
+            "generation_accuracy_percent": 85.9375,
+            "candidate_accuracy_percent": 84.375,
+            "invalid_label_percent": 0.0,
+            "ids_sha256": "af733b0ed1f1402f2cd6653d873b525acb5941c3e0409dbd57c95623e3da8cde",
+            "prompt_hash_mapping_sha256": "6665937f2b9edf45362389d5049015b44ff4fb2beadb5edb5385f02c5b0f76b0"
+          },
+          "fr": {
+            "samples": 64,
+            "generation_accuracy_percent": 81.25,
+            "candidate_accuracy_percent": 81.25,
+            "invalid_label_percent": 0.0,
+            "ids_sha256": "af733b0ed1f1402f2cd6653d873b525acb5941c3e0409dbd57c95623e3da8cde",
+            "prompt_hash_mapping_sha256": "7e9330478f9371a7f09d47c857c7a2990e5e83a8862b071e41e2342bbc6639e0"
+          },
+          "th": {
+            "samples": 64,
+            "generation_accuracy_percent": 84.375,
+            "candidate_accuracy_percent": 84.375,
+            "invalid_label_percent": 0.0,
+            "ids_sha256": "af733b0ed1f1402f2cd6653d873b525acb5941c3e0409dbd57c95623e3da8cde",
+            "prompt_hash_mapping_sha256": "2d6289d7a2046e5345f0e0d279c3f1bf29b8fa1e9ff7ee59adfabfb2c16c22e0"
+          }
+        },
+        "generation_sha256": "16f4c3d4cf36e1541ea64c1d8cf0586cafeb30304638b3d2a3e7471e4f8ddc5e",
+        "candidate_sha256": "4d06811c9402936a65791f8c7b3649d7bb9cbe41039dcd497da4b2cd3919e152"
+      },
+      "seq_es_th": {
+        "langs": {
+          "en": {
+            "samples": 64,
+            "generation_accuracy_percent": 84.375,
+            "candidate_accuracy_percent": 84.375,
+            "invalid_label_percent": 0.0,
+            "ids_sha256": "af733b0ed1f1402f2cd6653d873b525acb5941c3e0409dbd57c95623e3da8cde",
+            "prompt_hash_mapping_sha256": "931a6de4f00c5a26049c381fe66e10edb1d154a0d33135a44436e99c09f0b6f2"
+          },
+          "es": {
+            "samples": 64,
+            "generation_accuracy_percent": 87.5,
+            "candidate_accuracy_percent": 87.5,
+            "invalid_label_percent": 0.0,
+            "ids_sha256": "af733b0ed1f1402f2cd6653d873b525acb5941c3e0409dbd57c95623e3da8cde",
+            "prompt_hash_mapping_sha256": "6665937f2b9edf45362389d5049015b44ff4fb2beadb5edb5385f02c5b0f76b0"
+          },
+          "fr": {
+            "samples": 64,
+            "generation_accuracy_percent": 85.9375,
+            "candidate_accuracy_percent": 85.9375,
+            "invalid_label_percent": 0.0,
+            "ids_sha256": "af733b0ed1f1402f2cd6653d873b525acb5941c3e0409dbd57c95623e3da8cde",
+            "prompt_hash_mapping_sha256": "7e9330478f9371a7f09d47c857c7a2990e5e83a8862b071e41e2342bbc6639e0"
+          },
+          "th": {
+            "samples": 64,
+            "generation_accuracy_percent": 85.9375,
+            "candidate_accuracy_percent": 87.5,
+            "invalid_label_percent": 0.0,
+            "ids_sha256": "af733b0ed1f1402f2cd6653d873b525acb5941c3e0409dbd57c95623e3da8cde",
+            "prompt_hash_mapping_sha256": "2d6289d7a2046e5345f0e0d279c3f1bf29b8fa1e9ff7ee59adfabfb2c16c22e0"
+          }
+        },
+        "generation_sha256": "2aa6e9bcc1819d34b12c7d5071b6ee65117de76e3ee43cd7542527f7238442ac",
+        "candidate_sha256": "44c5ec71370032285d0e9b469c9269d3ee90263685e2ffe8197744b2fab9a211"
+      }
+    }
+  },
+  "selection_or_training_changes": false,
+  "new_gpu_generation": false
+}

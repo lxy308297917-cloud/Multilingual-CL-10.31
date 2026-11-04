@@ -1,0 +1,177 @@
+{
+  "track": "massive",
+  "split": "test",
+  "status": "COMPLETE_FIXED_NATIVE_AUXILIARY_SCALARS",
+  "comparison_sha256": "c01856d05944e7a329a0e052ec23f364276efc9e56858e3e707631c9e82b47be",
+  "limits": [
+    "Fraction metrics retain 0..1 units, except ROUGE metrics in 0..100. Counts and token lengths are explicit.",
+    "Only pre-existing scorer outputs copied; no new inference, parser changes, or test-based selection.",
+    "Parsed prediction frequency maps deliberately excluded because their keys may contain raw outputs."
+  ],
+  "models": {
+    "base": {
+      "scores_sha256": "da99029bc3847746671f970d5b325cd747bb66aafde65c262a56f1b29d650123",
+      "groups": {
+        "es:massive": {
+          "samples": 2974,
+          "primary_metric": "accuracy",
+          "score": 0.24478816408876933,
+          "hit_cap_rate": 0.005379959650302623,
+          "invalid_label_rate": 0.27706792199058505,
+          "macro_accuracy": 0.31590787940173337,
+          "macro_f1": 0.2948790994821001
+        },
+        "th:massive": {
+          "samples": 2974,
+          "primary_metric": "accuracy",
+          "score": 0.04942837928715535,
+          "hit_cap_rate": 0.36112979152656355,
+          "invalid_label_rate": 0.7915265635507733,
+          "macro_accuracy": 0.04763509211597438,
+          "macro_f1": 0.062018412496609596
+        },
+        "fr:massive": {
+          "samples": 2974,
+          "primary_metric": "accuracy",
+          "score": 0.14660390047074648,
+          "hit_cap_rate": 0.05615332885003362,
+          "invalid_label_rate": 0.4078681909885676,
+          "macro_accuracy": 0.17224093918325256,
+          "macro_f1": 0.1551490099168057
+        },
+        "en:massive": {
+          "samples": 2974,
+          "primary_metric": "accuracy",
+          "score": 0.3725622057834566,
+          "hit_cap_rate": 0.004371217215870881,
+          "invalid_label_rate": 0.09448554135843981,
+          "macro_accuracy": 0.4162928684068643,
+          "macro_f1": 0.4012249545893807
+        }
+      }
+    },
+    "single_es": {
+      "scores_sha256": "19893cd8e2d8ac4b02641b8584628ae85e57c6bd4089613426f535218b3b8036",
+      "groups": {
+        "es:massive": {
+          "samples": 2974,
+          "primary_metric": "accuracy",
+          "score": 0.8402824478816409,
+          "hit_cap_rate": 0.0,
+          "invalid_label_rate": 0.0013449899125756557,
+          "macro_accuracy": 0.7870506258640904,
+          "macro_f1": 0.7921652667970464
+        },
+        "th:massive": {
+          "samples": 2974,
+          "primary_metric": "accuracy",
+          "score": 0.7659717552118359,
+          "hit_cap_rate": 0.0,
+          "invalid_label_rate": 0.0003362474781439139,
+          "macro_accuracy": 0.7113404832931258,
+          "macro_f1": 0.7236186148223193
+        },
+        "fr:massive": {
+          "samples": 2974,
+          "primary_metric": "accuracy",
+          "score": 0.8345662407531943,
+          "hit_cap_rate": 0.0,
+          "invalid_label_rate": 0.0013449899125756557,
+          "macro_accuracy": 0.7765029034284696,
+          "macro_f1": 0.7839005599924559
+        },
+        "en:massive": {
+          "samples": 2974,
+          "primary_metric": "accuracy",
+          "score": 0.8587760591795561,
+          "hit_cap_rate": 0.0,
+          "invalid_label_rate": 0.003026227303295225,
+          "macro_accuracy": 0.792922606798207,
+          "macro_f1": 0.8023933116358091
+        }
+      }
+    },
+    "single_th": {
+      "scores_sha256": "b4e2cc7df377487de0b94c88bdf7ee3a546317997caeb3476dc68bd801f20278",
+      "groups": {
+        "es:massive": {
+          "samples": 2974,
+          "primary_metric": "accuracy",
+          "score": 0.796570275722932,
+          "hit_cap_rate": 0.0,
+          "invalid_label_rate": 0.0006724949562878278,
+          "macro_accuracy": 0.7663568153482836,
+          "macro_f1": 0.7708017124774748
+        },
+        "th:massive": {
+          "samples": 2974,
+          "primary_metric": "accuracy",
+          "score": 0.8032952252858103,
+          "hit_cap_rate": 0.0,
+          "invalid_label_rate": 0.0010087424344317419,
+          "macro_accuracy": 0.7640683643507364,
+          "macro_f1": 0.764975164482026
+        },
+        "fr:massive": {
+          "samples": 2974,
+          "primary_metric": "accuracy",
+          "score": 0.8180901143241426,
+          "hit_cap_rate": 0.0,
+          "invalid_label_rate": 0.0016812373907195697,
+          "macro_accuracy": 0.7706047652264071,
+          "macro_f1": 0.773927987420947
+        },
+        "en:massive": {
+          "samples": 2974,
+          "primary_metric": "accuracy",
+          "score": 0.8466711499663753,
+          "hit_cap_rate": 0.0,
+          "invalid_label_rate": 0.0023537323470073975,
+          "macro_accuracy": 0.7903814340268243,
+          "macro_f1": 0.796091556334101
+        }
+      }
+    },
+    "seq_es_th": {
+      "scores_sha256": "0b762d9c7a6429015712b844efbe92e5ccff83312571b6f810b48cd67c3ceeee",
+      "groups": {
+        "es:massive": {
+          "samples": 2974,
+          "primary_metric": "accuracy",
+          "score": 0.8382649630127774,
+          "hit_cap_rate": 0.0,
+          "invalid_label_rate": 0.0006724949562878278,
+          "macro_accuracy": 0.8074022402070186,
+          "macro_f1": 0.80372085487052
+        },
+        "th:massive": {
+          "samples": 2974,
+          "primary_metric": "accuracy",
+          "score": 0.8133826496301277,
+          "hit_cap_rate": 0.0,
+          "invalid_label_rate": 0.0010087424344317419,
+          "macro_accuracy": 0.7903305184615399,
+          "macro_f1": 0.7985131962504871
+        },
+        "fr:massive": {
+          "samples": 2974,
+          "primary_metric": "accuracy",
+          "score": 0.8490248823133827,
+          "hit_cap_rate": 0.0,
+          "invalid_label_rate": 0.0003362474781439139,
+          "macro_accuracy": 0.8137012951617995,
+          "macro_f1": 0.8118007748310618
+        },
+        "en:massive": {
+          "samples": 2974,
+          "primary_metric": "accuracy",
+          "score": 0.8641560188298588,
+          "hit_cap_rate": 0.0,
+          "invalid_label_rate": 0.003026227303295225,
+          "macro_accuracy": 0.8198437126256378,
+          "macro_f1": 0.8278209592281068
+        }
+      }
+    }
+  }
+}

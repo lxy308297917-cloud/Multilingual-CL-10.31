@@ -1,0 +1,177 @@
+{
+  "track": "xnli",
+  "split": "test",
+  "status": "COMPLETE_FIXED_NATIVE_AUXILIARY_SCALARS",
+  "comparison_sha256": "bcd25c65a37fd8e3dd12897fff5d9d3e22856d100ef0a40824a558199cac3398",
+  "limits": [
+    "Fraction metrics retain 0..1 units, except ROUGE metrics in 0..100. Counts and token lengths are explicit.",
+    "Only pre-existing scorer outputs copied; no new inference, parser changes, or test-based selection.",
+    "Parsed prediction frequency maps deliberately excluded because their keys may contain raw outputs."
+  ],
+  "models": {
+    "base": {
+      "scores_sha256": "f27eae55e7e2fe04ff0b2934d0fc9434d87603eaf199c8a9376930d16b9fc582",
+      "groups": {
+        "es:xnli": {
+          "samples": 5010,
+          "primary_metric": "accuracy",
+          "score": 0.4874251497005988,
+          "hit_cap_rate": 0.08483033932135728,
+          "invalid_label_rate": 0.09740518962075849,
+          "macro_accuracy": 0.48742514970059875,
+          "macro_f1": 0.46629836199386415
+        },
+        "th:xnli": {
+          "samples": 5010,
+          "primary_metric": "accuracy",
+          "score": 0.55249500998004,
+          "hit_cap_rate": 0.020758483033932136,
+          "invalid_label_rate": 0.021756487025948103,
+          "macro_accuracy": 0.5524950099800399,
+          "macro_f1": 0.5434554844954071
+        },
+        "fr:xnli": {
+          "samples": 5010,
+          "primary_metric": "accuracy",
+          "score": 0.5688622754491018,
+          "hit_cap_rate": 0.0,
+          "invalid_label_rate": 0.08902195608782436,
+          "macro_accuracy": 0.5688622754491018,
+          "macro_f1": 0.5695025669874982
+        },
+        "en:xnli": {
+          "samples": 5010,
+          "primary_metric": "accuracy",
+          "score": 0.4485029940119761,
+          "hit_cap_rate": 0.14331337325349303,
+          "invalid_label_rate": 0.22415169660678644,
+          "macro_accuracy": 0.4485029940119761,
+          "macro_f1": 0.4238293493785528
+        }
+      }
+    },
+    "single_es": {
+      "scores_sha256": "9b3267c0f235e269089389257bd9b6d0d8bfdbf05c05a615414344287f09cd4b",
+      "groups": {
+        "es:xnli": {
+          "samples": 5010,
+          "primary_metric": "accuracy",
+          "score": 0.8207584830339322,
+          "hit_cap_rate": 0.0,
+          "invalid_label_rate": 0.0,
+          "macro_accuracy": 0.8207584830339322,
+          "macro_f1": 0.820964819491223
+        },
+        "th:xnli": {
+          "samples": 5010,
+          "primary_metric": "accuracy",
+          "score": 0.6840319361277445,
+          "hit_cap_rate": 0.0,
+          "invalid_label_rate": 0.0,
+          "macro_accuracy": 0.6840319361277446,
+          "macro_f1": 0.6746958593908129
+        },
+        "fr:xnli": {
+          "samples": 5010,
+          "primary_metric": "accuracy",
+          "score": 0.8023952095808383,
+          "hit_cap_rate": 0.0,
+          "invalid_label_rate": 0.0,
+          "macro_accuracy": 0.8023952095808383,
+          "macro_f1": 0.8040933694349247
+        },
+        "en:xnli": {
+          "samples": 5010,
+          "primary_metric": "accuracy",
+          "score": 0.8636726546906187,
+          "hit_cap_rate": 0.0,
+          "invalid_label_rate": 0.0,
+          "macro_accuracy": 0.8636726546906187,
+          "macro_f1": 0.8640289433593228
+        }
+      }
+    },
+    "single_th": {
+      "scores_sha256": "2b1e61f604fbb73b1f8c33d9892fc2561e5dee57d84c0aaa24fd96a2d6e1fbd9",
+      "groups": {
+        "es:xnli": {
+          "samples": 5010,
+          "primary_metric": "accuracy",
+          "score": 0.8121756487025948,
+          "hit_cap_rate": 0.0,
+          "invalid_label_rate": 0.0,
+          "macro_accuracy": 0.8121756487025947,
+          "macro_f1": 0.8120631395334302
+        },
+        "th:xnli": {
+          "samples": 5010,
+          "primary_metric": "accuracy",
+          "score": 0.7469061876247505,
+          "hit_cap_rate": 0.0,
+          "invalid_label_rate": 0.0,
+          "macro_accuracy": 0.7469061876247505,
+          "macro_f1": 0.7460354496256397
+        },
+        "fr:xnli": {
+          "samples": 5010,
+          "primary_metric": "accuracy",
+          "score": 0.8,
+          "hit_cap_rate": 0.0,
+          "invalid_label_rate": 0.0,
+          "macro_accuracy": 0.7999999999999999,
+          "macro_f1": 0.8013909259686413
+        },
+        "en:xnli": {
+          "samples": 5010,
+          "primary_metric": "accuracy",
+          "score": 0.8510978043912175,
+          "hit_cap_rate": 0.0,
+          "invalid_label_rate": 0.0,
+          "macro_accuracy": 0.8510978043912175,
+          "macro_f1": 0.8477460982115715
+        }
+      }
+    },
+    "seq_es_th": {
+      "scores_sha256": "4c0648ade838624055f602cfd4de7049ebf47d1cb25be66e9418cd9398f7e22d",
+      "groups": {
+        "es:xnli": {
+          "samples": 5010,
+          "primary_metric": "accuracy",
+          "score": 0.8253493013972056,
+          "hit_cap_rate": 0.0,
+          "invalid_label_rate": 0.0,
+          "macro_accuracy": 0.8253493013972055,
+          "macro_f1": 0.8244490733514946
+        },
+        "th:xnli": {
+          "samples": 5010,
+          "primary_metric": "accuracy",
+          "score": 0.7497005988023953,
+          "hit_cap_rate": 0.0,
+          "invalid_label_rate": 0.0,
+          "macro_accuracy": 0.7497005988023951,
+          "macro_f1": 0.7493532255192575
+        },
+        "fr:xnli": {
+          "samples": 5010,
+          "primary_metric": "accuracy",
+          "score": 0.8203592814371258,
+          "hit_cap_rate": 0.0,
+          "invalid_label_rate": 0.0,
+          "macro_accuracy": 0.8203592814371258,
+          "macro_f1": 0.8190753044183353
+        },
+        "en:xnli": {
+          "samples": 5010,
+          "primary_metric": "accuracy",
+          "score": 0.8668662674650699,
+          "hit_cap_rate": 0.0,
+          "invalid_label_rate": 0.0,
+          "macro_accuracy": 0.8668662674650699,
+          "macro_f1": 0.8649034318402266
+        }
+      }
+    }
+  }
+}

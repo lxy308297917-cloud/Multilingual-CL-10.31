@@ -1,0 +1,177 @@
+{
+  "track": "sib200",
+  "split": "test",
+  "status": "COMPLETE_FIXED_NATIVE_AUXILIARY_SCALARS",
+  "comparison_sha256": "53a2b53c169e84b9b42726cd61187a2fe231531f1e6c251eefa3b22823d45daa",
+  "limits": [
+    "Fraction metrics retain 0..1 units, except ROUGE metrics in 0..100. Counts and token lengths are explicit.",
+    "Only pre-existing scorer outputs copied; no new inference, parser changes, or test-based selection.",
+    "Parsed prediction frequency maps deliberately excluded because their keys may contain raw outputs."
+  ],
+  "models": {
+    "base": {
+      "scores_sha256": "ef322fc419b42ed9dcf536bd12a2d1bbda6aa5483ce13c8de4f0e782ed4eced3",
+      "groups": {
+        "es:sib200": {
+          "samples": 204,
+          "primary_metric": "accuracy",
+          "score": 0.5049019607843137,
+          "hit_cap_rate": 0.0,
+          "invalid_label_rate": 0.0,
+          "macro_accuracy": 0.4253260155736936,
+          "macro_f1": 0.4416999804592649
+        },
+        "th:sib200": {
+          "samples": 204,
+          "primary_metric": "accuracy",
+          "score": 0.15196078431372548,
+          "hit_cap_rate": 0.0,
+          "invalid_label_rate": 0.8088235294117647,
+          "macro_accuracy": 0.149767131733076,
+          "macro_f1": 0.22032174580912306
+        },
+        "fr:sib200": {
+          "samples": 204,
+          "primary_metric": "accuracy",
+          "score": 0.4166666666666667,
+          "hit_cap_rate": 0.0,
+          "invalid_label_rate": 0.0,
+          "macro_accuracy": 0.3153737954511948,
+          "macro_f1": 0.31153672740293364
+        },
+        "en:sib200": {
+          "samples": 204,
+          "primary_metric": "accuracy",
+          "score": 0.46078431372549017,
+          "hit_cap_rate": 0.0,
+          "invalid_label_rate": 0.0,
+          "macro_accuracy": 0.35864085347057484,
+          "macro_f1": 0.3516583666959607
+        }
+      }
+    },
+    "single_es": {
+      "scores_sha256": "2de9355be9ec773c89aa757651a1b5ad2e00d0a848e2cf72931daf4fa8e20342",
+      "groups": {
+        "es:sib200": {
+          "samples": 204,
+          "primary_metric": "accuracy",
+          "score": 0.8578431372549019,
+          "hit_cap_rate": 0.0,
+          "invalid_label_rate": 0.004901960784313725,
+          "macro_accuracy": 0.8512855668583221,
+          "macro_f1": 0.8556851389204331
+        },
+        "th:sib200": {
+          "samples": 204,
+          "primary_metric": "accuracy",
+          "score": 0.8382352941176471,
+          "hit_cap_rate": 0.0,
+          "invalid_label_rate": 0.00980392156862745,
+          "macro_accuracy": 0.8062991703858577,
+          "macro_f1": 0.82581762056879
+        },
+        "fr:sib200": {
+          "samples": 204,
+          "primary_metric": "accuracy",
+          "score": 0.8627450980392157,
+          "hit_cap_rate": 0.0,
+          "invalid_label_rate": 0.004901960784313725,
+          "macro_accuracy": 0.8690055352284455,
+          "macro_f1": 0.8587979873443453
+        },
+        "en:sib200": {
+          "samples": 204,
+          "primary_metric": "accuracy",
+          "score": 0.8774509803921569,
+          "hit_cap_rate": 0.0,
+          "invalid_label_rate": 0.004901960784313725,
+          "macro_accuracy": 0.8771036548590728,
+          "macro_f1": 0.8752147495708468
+        }
+      }
+    },
+    "single_th": {
+      "scores_sha256": "e4fce58490c17f38e2d48a307e4a24d3f89e3221f0c37127aba2307f2004d03e",
+      "groups": {
+        "es:sib200": {
+          "samples": 204,
+          "primary_metric": "accuracy",
+          "score": 0.8578431372549019,
+          "hit_cap_rate": 0.0,
+          "invalid_label_rate": 0.0,
+          "macro_accuracy": 0.8617446021470788,
+          "macro_f1": 0.8478693565834643
+        },
+        "th:sib200": {
+          "samples": 204,
+          "primary_metric": "accuracy",
+          "score": 0.8480392156862745,
+          "hit_cap_rate": 0.0,
+          "invalid_label_rate": 0.0,
+          "macro_accuracy": 0.8270224357685657,
+          "macro_f1": 0.8310951073133797
+        },
+        "fr:sib200": {
+          "samples": 204,
+          "primary_metric": "accuracy",
+          "score": 0.8627450980392157,
+          "hit_cap_rate": 0.0,
+          "invalid_label_rate": 0.0,
+          "macro_accuracy": 0.8699439105785857,
+          "macro_f1": 0.8564222496591388
+        },
+        "en:sib200": {
+          "samples": 204,
+          "primary_metric": "accuracy",
+          "score": 0.8774509803921569,
+          "hit_cap_rate": 0.0,
+          "invalid_label_rate": 0.0,
+          "macro_accuracy": 0.8786022542988488,
+          "macro_f1": 0.8673586102207358
+        }
+      }
+    },
+    "seq_es_th": {
+      "scores_sha256": "b1bd278b2a7cb721fab3693aa6db68ec92db4f26b552c811bfa0b089d57537ba",
+      "groups": {
+        "es:sib200": {
+          "samples": 204,
+          "primary_metric": "accuracy",
+          "score": 0.8872549019607843,
+          "hit_cap_rate": 0.0,
+          "invalid_label_rate": 0.004901960784313725,
+          "macro_accuracy": 0.8845546352512297,
+          "macro_f1": 0.8823073131147666
+        },
+        "th:sib200": {
+          "samples": 204,
+          "primary_metric": "accuracy",
+          "score": 0.8725490196078431,
+          "hit_cap_rate": 0.0,
+          "invalid_label_rate": 0.0,
+          "macro_accuracy": 0.8467827322316488,
+          "macro_f1": 0.8523985235658265
+        },
+        "fr:sib200": {
+          "samples": 204,
+          "primary_metric": "accuracy",
+          "score": 0.8970588235294118,
+          "hit_cap_rate": 0.0,
+          "invalid_label_rate": 0.0,
+          "macro_accuracy": 0.8881613793842896,
+          "macro_f1": 0.8888951525191346
+        },
+        "en:sib200": {
+          "samples": 204,
+          "primary_metric": "accuracy",
+          "score": 0.9019607843137255,
+          "hit_cap_rate": 0.0,
+          "invalid_label_rate": 0.004901960784313725,
+          "macro_accuracy": 0.8961003444439977,
+          "macro_f1": 0.8957461039051211
+        }
+      }
+    }
+  }
+}

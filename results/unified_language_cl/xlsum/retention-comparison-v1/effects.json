@@ -1,0 +1,383 @@
+{
+  "track": "xlsum",
+  "model_order": [
+    "base",
+    "single_es",
+    "single_th",
+    "seq_es_th"
+  ],
+  "groups": {
+    "gsm8k:exact_match:flexible-extract": {
+      "samples_or_instructions": 1319,
+      "prompts": 1319,
+      "scores": {
+        "base": 73.1614859742229,
+        "single_es": 39.42380591357089,
+        "single_th": 52.084912812736924,
+        "seq_es_th": 35.78468536770281
+      },
+      "effects": {
+        "single_es_minus_base": {
+          "delta": -33.73768006065201,
+          "ci95_low": -36.99772554965883,
+          "ci95_high": -30.70507960576194,
+          "repeats": 2000,
+          "n": 1319,
+          "clusters": 1319,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        },
+        "single_th_minus_base": {
+          "delta": -21.076573161485975,
+          "ci95_low": -24.03335860500379,
+          "ci95_high": -18.421152388172867,
+          "repeats": 2000,
+          "n": 1319,
+          "clusters": 1319,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        },
+        "seq_th_minus_es": {
+          "delta": -3.639120545868082,
+          "ci95_low": -6.292645943896892,
+          "ci95_high": -0.8339651250947687,
+          "repeats": 2000,
+          "n": 1319,
+          "clusters": 1319,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        },
+        "seq_final_minus_base": {
+          "delta": -37.37680060652009,
+          "ci95_low": -40.33358605003791,
+          "ci95_high": -34.420015163002276,
+          "repeats": 2000,
+          "n": 1319,
+          "clusters": 1319,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        }
+      },
+      "unit": "ACC / pass-rate percentage points; instruction outcomes clustered by prompt"
+    },
+    "gsm8k:exact_match:strict-match": {
+      "samples_or_instructions": 1319,
+      "prompts": 1319,
+      "scores": {
+        "base": 44.80667172100076,
+        "single_es": 11.144806671721001,
+        "single_th": 1.6679302501895374,
+        "seq_es_th": 0.37907505686125853
+      },
+      "effects": {
+        "single_es_minus_base": {
+          "delta": -33.661865049279754,
+          "ci95_low": -36.54283548142532,
+          "ci95_high": -30.78089461713419,
+          "repeats": 2000,
+          "n": 1319,
+          "clusters": 1319,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        },
+        "single_th_minus_base": {
+          "delta": -43.13874147081122,
+          "ci95_low": -45.86808188021228,
+          "ci95_high": -40.483320697498115,
+          "repeats": 2000,
+          "n": 1319,
+          "clusters": 1319,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        },
+        "seq_th_minus_es": {
+          "delta": -10.765731614859742,
+          "ci95_low": -12.509476876421532,
+          "ci95_high": -9.171721000758161,
+          "repeats": 2000,
+          "n": 1319,
+          "clusters": 1319,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        },
+        "seq_final_minus_base": {
+          "delta": -44.4275966641395,
+          "ci95_low": -47.08112206216831,
+          "ci95_high": -41.77407126611069,
+          "repeats": 2000,
+          "n": 1319,
+          "clusters": 1319,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        }
+      },
+      "unit": "ACC / pass-rate percentage points; instruction outcomes clustered by prompt"
+    },
+    "ifeval:inst_level_loose_acc:none": {
+      "samples_or_instructions": 834,
+      "prompts": 541,
+      "scores": {
+        "base": 78.05755395683454,
+        "single_es": 23.381294964028775,
+        "single_th": 40.28776978417266,
+        "seq_es_th": 25.77937649880096
+      },
+      "effects": {
+        "single_es_minus_base": {
+          "delta": -54.67625899280576,
+          "ci95_low": -58.620793644191174,
+          "ci95_high": -50.60672283194972,
+          "repeats": 2000,
+          "n": 834,
+          "clusters": 541,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        },
+        "single_th_minus_base": {
+          "delta": -37.76978417266187,
+          "ci95_low": -41.80037108522659,
+          "ci95_high": -33.53505458816024,
+          "repeats": 2000,
+          "n": 834,
+          "clusters": 541,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        },
+        "seq_th_minus_es": {
+          "delta": 2.3980815347721824,
+          "ci95_low": 0.3525057755650548,
+          "ci95_high": 4.426235805326913,
+          "repeats": 2000,
+          "n": 834,
+          "clusters": 541,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        },
+        "seq_final_minus_base": {
+          "delta": -52.278177458033575,
+          "ci95_low": -56.12237343494829,
+          "ci95_high": -48.39842569045545,
+          "repeats": 2000,
+          "n": 834,
+          "clusters": 541,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        }
+      },
+      "unit": "ACC / pass-rate percentage points; instruction outcomes clustered by prompt"
+    },
+    "ifeval:inst_level_strict_acc:none": {
+      "samples_or_instructions": 834,
+      "prompts": 541,
+      "scores": {
+        "base": 74.9400479616307,
+        "single_es": 23.501199040767386,
+        "single_th": 40.04796163069545,
+        "seq_es_th": 25.65947242206235
+      },
+      "effects": {
+        "single_es_minus_base": {
+          "delta": -51.43884892086331,
+          "ci95_low": -55.54344733176289,
+          "ci95_high": -47.29230169947551,
+          "repeats": 2000,
+          "n": 834,
+          "clusters": 541,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        },
+        "single_th_minus_base": {
+          "delta": -34.89208633093525,
+          "ci95_low": -39.08527562347309,
+          "ci95_high": -30.626504568617122,
+          "repeats": 2000,
+          "n": 834,
+          "clusters": 541,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        },
+        "seq_th_minus_es": {
+          "delta": 2.158273381294964,
+          "ci95_low": 0.0,
+          "ci95_high": 4.290950415456518,
+          "repeats": 2000,
+          "n": 834,
+          "clusters": 541,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        },
+        "seq_final_minus_base": {
+          "delta": -49.280575539568346,
+          "ci95_low": -53.27773598546278,
+          "ci95_high": -45.25797001908038,
+          "repeats": 2000,
+          "n": 834,
+          "clusters": 541,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        }
+      },
+      "unit": "ACC / pass-rate percentage points; instruction outcomes clustered by prompt"
+    },
+    "ifeval:prompt_level_loose_acc:none": {
+      "samples_or_instructions": 541,
+      "prompts": 541,
+      "scores": {
+        "base": 70.0554528650647,
+        "single_es": 11.460258780036968,
+        "single_th": 26.432532347504623,
+        "seq_es_th": 12.939001848428836
+      },
+      "effects": {
+        "single_es_minus_base": {
+          "delta": -58.59519408502773,
+          "ci95_low": -63.21626617375231,
+          "ci95_high": -53.78927911275416,
+          "repeats": 2000,
+          "n": 541,
+          "clusters": 541,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        },
+        "single_th_minus_base": {
+          "delta": -43.622920517560075,
+          "ci95_low": -48.613678373382626,
+          "ci95_high": -38.262476894639555,
+          "repeats": 2000,
+          "n": 541,
+          "clusters": 541,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        },
+        "seq_th_minus_es": {
+          "delta": 1.478743068391867,
+          "ci95_low": -0.5545286506469501,
+          "ci95_high": 3.512014787430684,
+          "repeats": 2000,
+          "n": 541,
+          "clusters": 541,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        },
+        "seq_final_minus_base": {
+          "delta": -57.11645101663586,
+          "ci95_low": -61.737523105360445,
+          "ci95_high": -52.125693160813306,
+          "repeats": 2000,
+          "n": 541,
+          "clusters": 541,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        }
+      },
+      "unit": "ACC / pass-rate percentage points; instruction outcomes clustered by prompt"
+    },
+    "ifeval:prompt_level_strict_acc:none": {
+      "samples_or_instructions": 541,
+      "prompts": 541,
+      "scores": {
+        "base": 66.35859519408503,
+        "single_es": 11.460258780036968,
+        "single_th": 26.247689463955638,
+        "seq_es_th": 12.939001848428836
+      },
+      "effects": {
+        "single_es_minus_base": {
+          "delta": -54.89833641404806,
+          "ci95_low": -59.524029574861366,
+          "ci95_high": -49.90757855822551,
+          "repeats": 2000,
+          "n": 541,
+          "clusters": 541,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        },
+        "single_th_minus_base": {
+          "delta": -40.11090573012939,
+          "ci95_low": -45.28650646950092,
+          "ci95_high": -34.750462107208875,
+          "repeats": 2000,
+          "n": 541,
+          "clusters": 541,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        },
+        "seq_th_minus_es": {
+          "delta": 1.478743068391867,
+          "ci95_low": -0.5545286506469501,
+          "ci95_high": 3.512014787430684,
+          "repeats": 2000,
+          "n": 541,
+          "clusters": 541,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        },
+        "seq_final_minus_base": {
+          "delta": -53.41959334565619,
+          "ci95_low": -58.22550831792976,
+          "ci95_high": -48.42421441774494,
+          "repeats": 2000,
+          "n": 541,
+          "clusters": 541,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        }
+      },
+      "unit": "ACC / pass-rate percentage points; instruction outcomes clustered by prompt"
+    },
+    "reading:acc:none": {
+      "samples_or_instructions": 900,
+      "prompts": 900,
+      "scores": {
+        "base": 60.888888888888886,
+        "single_es": 22.77777777777778,
+        "single_th": 24.333333333333332,
+        "seq_es_th": 22.77777777777778
+      },
+      "effects": {
+        "single_es_minus_base": {
+          "delta": -38.111111111111114,
+          "ci95_low": -41.666666666666664,
+          "ci95_high": -34.333333333333336,
+          "repeats": 2000,
+          "n": 900,
+          "clusters": 900,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        },
+        "single_th_minus_base": {
+          "delta": -36.55555555555556,
+          "ci95_low": -40.0,
+          "ci95_high": -32.77500000000001,
+          "repeats": 2000,
+          "n": 900,
+          "clusters": 900,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        },
+        "seq_th_minus_es": {
+          "delta": 0.0,
+          "ci95_low": -0.5555555555555556,
+          "ci95_high": 0.5555555555555556,
+          "repeats": 2000,
+          "n": 900,
+          "clusters": 900,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        },
+        "seq_final_minus_base": {
+          "delta": -38.111111111111114,
+          "ci95_low": -41.55555555555556,
+          "ci95_high": -34.333333333333336,
+          "repeats": 2000,
+          "n": 900,
+          "clusters": 900,
+          "unit": "conditional paired source-ID bootstrap; single training seed, no multiplicity correction"
+        }
+      },
+      "unit": "ACC / pass-rate percentage points; instruction outcomes clustered by prompt"
+    }
+  },
+  "sources": {
+    "base": {
+      "en_reading/results/MODEL_OUTPUT/samples_belebele_eng_Latn_locked_2026-11-04T19-31-35.652730.jsonl": "e418e02d04d00041fe8dc0da2438dd51388b26d325f5473914a06c4dba081e47",
+      "en_core/results/MODEL_OUTPUT/samples_sft_v1_ifeval_2026-11-04T20-02-51.055720.jsonl": "f08db0de5d300c4f971a33011465e7dbdf933072d30f732e0213fb0fc51543d9",
+      "en_core/results/MODEL_OUTPUT/samples_sft_v1_gsm8k_2026-11-04T20-02-51.055720.jsonl": "a950846e6aa2a656d29f03a857785f38df3be4e9b7f8082750dc11b8d3871420"
+    },
+    "single_es": {
+      "en_reading/results/MODEL_OUTPUT/samples_belebele_eng_Latn_locked_2026-11-05T00-40-41.905943.jsonl": "65c5049d99d528164d47cc15f4760e670e3cc150dc31d09ffa64c8421e034c87",
+      "en_core/results/MODEL_OUTPUT/samples_sft_v1_gsm8k_2026-11-05T00-46-09.138905.jsonl": "eee0ca6a7f2c913d9b00dd55761eb6c8e33c166a068e1929602c330a0c1022b2",
+      "en_core/results/MODEL_OUTPUT/samples_sft_v1_ifeval_2026-11-05T00-46-09.138905.jsonl": "c11653994a550e721cb6fd0e58ea26fdb6e0ceff87c35a649e69532005dca7e0"
+    },
+    "single_th": {
+      "en_reading/results/MODEL_OUTPUT/samples_belebele_eng_Latn_locked_2026-11-05T00-47-15.667234.jsonl": "7a6caf8597f9f652aba10296f23a91c55769cf8aa7dd1a1a46c7a80b636403bd",
+      "en_core/results/MODEL_OUTPUT/samples_sft_v1_ifeval_2026-11-05T00-54-31.198670.jsonl": "cf17786fdfa3f98cde7b4c4b79d24919288cb7b2a7e1c4c19cf4f229b17a26d5",
+      "en_core/results/MODEL_OUTPUT/samples_sft_v1_gsm8k_2026-11-05T00-54-31.198670.jsonl": "fbb10d990c6b6f6cbe2b9d8b51dbbc6058f9992aca10dcfcc363733062fb5382"
+    },
+    "seq_es_th": {
+      "en_reading/results/MODEL_OUTPUT/samples_belebele_eng_Latn_locked_2026-11-05T01-02-37.385353.jsonl": "20ce8e4eb9fea31ba8522a3d8388b3c3ef9e7ee32d494592b67e17bde84c0843",
+      "en_core/results/MODEL_OUTPUT/samples_sft_v1_gsm8k_2026-11-05T01-08-31.692919.jsonl": "feb01759daa30958eb58375799b535b1466bf13e6281363a115bc15a434b846d",
+      "en_core/results/MODEL_OUTPUT/samples_sft_v1_ifeval_2026-11-05T01-08-31.692919.jsonl": "3210883675f3a32283835b5a41b016b9311cfee6efc854f9a3fdc119df9593bd"
+    }
+  },
+  "same_docs_prompts_targets_verified": true,
+  "limits": [
+    "Single training seed42; CIs condition on trained models, no multiplicity correction.",
+    "Do not pool unrelated metrics into an average forgetting score.",
+    "GSM8K strict decline can include format loss; report flexible-extract alongside it.",
+    "IFEval instruction intervals resample prompts to retain within-prompt dependence."
+  ]
+}

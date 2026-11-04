@@ -1,0 +1,252 @@
+{
+  "status": "COMPLETE_FIXED_OUTPUT_AUDIT",
+  "track": "xlsum",
+  "split": "test",
+  "new_inference": false,
+  "models": {
+    "base": {
+      "scores_sha256": "6a67442ce40fb0becb64b9044ae118d14e8c9731e27cb3ba6c8a70394e5f1296",
+      "groups": {
+        "en:xlsum": {
+          "samples": 11535,
+          "score": 10.4003036153286,
+          "mean_generated_tokens": 166.97555266579974,
+          "mean_reference_tokens": 28.280884265279585,
+          "hit_cap_rate": 0.00043346337234503684,
+          "source_truncated_rate": 0.01352405721716515,
+          "language_aux_confident_n": 11535,
+          "language_aux_correct_n": 11535,
+          "language_aux_limit": "langdetect1.0.9 automatic diagnostic only, not human language correctness ground truth; short/low-confidence outputs are unmeasured.",
+          "language_detection_coverage": 1.0,
+          "detected_correct_over_all": 1.0,
+          "detected_correct_over_confident": 1.0
+        },
+        "es:xlsum": {
+          "samples": 4763,
+          "score": 11.880514445744476,
+          "mean_generated_tokens": 218.03485198404368,
+          "mean_reference_tokens": 45.38631114843586,
+          "hit_cap_rate": 0.0327524669326055,
+          "source_truncated_rate": 0.32500524879277765,
+          "language_aux_confident_n": 4762,
+          "language_aux_correct_n": 4761,
+          "language_aux_limit": "langdetect1.0.9 automatic diagnostic only, not human language correctness ground truth; short/low-confidence outputs are unmeasured.",
+          "language_detection_coverage": 0.9997900482888935,
+          "detected_correct_over_all": 0.9995800965777871,
+          "detected_correct_over_confident": 0.999790004199916
+        },
+        "fr:xlsum": {
+          "samples": 1086,
+          "score": 15.630916358259427,
+          "mean_generated_tokens": 136.00552486187846,
+          "mean_reference_tokens": 43.23388581952118,
+          "hit_cap_rate": 0.0,
+          "source_truncated_rate": 0.08931860036832412,
+          "language_aux_confident_n": 1086,
+          "language_aux_correct_n": 1086,
+          "language_aux_limit": "langdetect1.0.9 automatic diagnostic only, not human language correctness ground truth; short/low-confidence outputs are unmeasured.",
+          "language_detection_coverage": 1.0,
+          "detected_correct_over_all": 1.0,
+          "detected_correct_over_confident": 1.0
+        },
+        "th:xlsum": {
+          "samples": 826,
+          "score": 18.61528593977674,
+          "mean_generated_tokens": 346.3232445520581,
+          "mean_reference_tokens": 126.58958837772397,
+          "hit_cap_rate": 0.1089588377723971,
+          "source_truncated_rate": 0.5907990314769975,
+          "language_aux_confident_n": 826,
+          "language_aux_correct_n": 826,
+          "language_aux_limit": "langdetect1.0.9 automatic diagnostic only, not human language correctness ground truth; short/low-confidence outputs are unmeasured.",
+          "language_detection_coverage": 1.0,
+          "detected_correct_over_all": 1.0,
+          "detected_correct_over_confident": 1.0
+        }
+      }
+    },
+    "single_es": {
+      "scores_sha256": "2919c20d8c3e45d7e365f5048ca91dc552345494c3263b6939bccd40029e36a0",
+      "groups": {
+        "en:xlsum": {
+          "samples": 11535,
+          "score": 23.814058863935823,
+          "mean_generated_tokens": 30.353792804508018,
+          "mean_reference_tokens": 28.280884265279585,
+          "hit_cap_rate": 0.0018205461638491547,
+          "source_truncated_rate": 0.01352405721716515,
+          "language_aux_confident_n": 11527,
+          "language_aux_correct_n": 11527,
+          "language_aux_limit": "langdetect1.0.9 automatic diagnostic only, not human language correctness ground truth; short/low-confidence outputs are unmeasured.",
+          "language_detection_coverage": 0.9993064586042479,
+          "detected_correct_over_all": 0.9993064586042479,
+          "detected_correct_over_confident": 1.0
+        },
+        "es:xlsum": {
+          "samples": 4763,
+          "score": 20.993413870971033,
+          "mean_generated_tokens": 37.988662607600254,
+          "mean_reference_tokens": 45.38631114843586,
+          "hit_cap_rate": 0.004828889355448247,
+          "source_truncated_rate": 0.32500524879277765,
+          "language_aux_confident_n": 4647,
+          "language_aux_correct_n": 4623,
+          "language_aux_limit": "langdetect1.0.9 automatic diagnostic only, not human language correctness ground truth; short/low-confidence outputs are unmeasured.",
+          "language_detection_coverage": 0.9756456015116524,
+          "detected_correct_over_all": 0.9706067604450976,
+          "detected_correct_over_confident": 0.9948353776630084
+        },
+        "fr:xlsum": {
+          "samples": 1086,
+          "score": 24.13778482432231,
+          "mean_generated_tokens": 43.244014732965006,
+          "mean_reference_tokens": 43.23388581952118,
+          "hit_cap_rate": 0.004604051565377533,
+          "source_truncated_rate": 0.08931860036832412,
+          "language_aux_confident_n": 1082,
+          "language_aux_correct_n": 1081,
+          "language_aux_limit": "langdetect1.0.9 automatic diagnostic only, not human language correctness ground truth; short/low-confidence outputs are unmeasured.",
+          "language_detection_coverage": 0.996316758747698,
+          "detected_correct_over_all": 0.9953959484346224,
+          "detected_correct_over_confident": 0.9990757855822551
+        },
+        "th:xlsum": {
+          "samples": 826,
+          "score": 16.528609442110678,
+          "mean_generated_tokens": 410.07506053268764,
+          "mean_reference_tokens": 126.58958837772397,
+          "hit_cap_rate": 0.6089588377723971,
+          "source_truncated_rate": 0.5907990314769975,
+          "language_aux_confident_n": 826,
+          "language_aux_correct_n": 826,
+          "language_aux_limit": "langdetect1.0.9 automatic diagnostic only, not human language correctness ground truth; short/low-confidence outputs are unmeasured.",
+          "language_detection_coverage": 1.0,
+          "detected_correct_over_all": 1.0,
+          "detected_correct_over_confident": 1.0
+        }
+      }
+    },
+    "single_th": {
+      "scores_sha256": "5a509ee00816000139b75220183aaee0a5277ef434b9330924c395e85b8f9a49",
+      "groups": {
+        "en:xlsum": {
+          "samples": 11535,
+          "score": 20.66073485222485,
+          "mean_generated_tokens": 48.952665799739925,
+          "mean_reference_tokens": 28.280884265279585,
+          "hit_cap_rate": 0.0012136974425661032,
+          "source_truncated_rate": 0.01352405721716515,
+          "language_aux_confident_n": 11534,
+          "language_aux_correct_n": 11534,
+          "language_aux_limit": "langdetect1.0.9 automatic diagnostic only, not human language correctness ground truth; short/low-confidence outputs are unmeasured.",
+          "language_detection_coverage": 0.999913307325531,
+          "detected_correct_over_all": 0.999913307325531,
+          "detected_correct_over_confident": 1.0
+        },
+        "es:xlsum": {
+          "samples": 4763,
+          "score": 19.436373377225042,
+          "mean_generated_tokens": 70.91454965357968,
+          "mean_reference_tokens": 45.38631114843586,
+          "hit_cap_rate": 0.005878647910980474,
+          "source_truncated_rate": 0.32500524879277765,
+          "language_aux_confident_n": 4760,
+          "language_aux_correct_n": 4754,
+          "language_aux_limit": "langdetect1.0.9 automatic diagnostic only, not human language correctness ground truth; short/low-confidence outputs are unmeasured.",
+          "language_detection_coverage": 0.9993701448666806,
+          "detected_correct_over_all": 0.998110434600042,
+          "detected_correct_over_confident": 0.9987394957983193
+        },
+        "fr:xlsum": {
+          "samples": 1086,
+          "score": 22.848894989241302,
+          "mean_generated_tokens": 63.26058931860037,
+          "mean_reference_tokens": 43.23388581952118,
+          "hit_cap_rate": 0.0027624309392265192,
+          "source_truncated_rate": 0.08931860036832412,
+          "language_aux_confident_n": 1086,
+          "language_aux_correct_n": 1086,
+          "language_aux_limit": "langdetect1.0.9 automatic diagnostic only, not human language correctness ground truth; short/low-confidence outputs are unmeasured.",
+          "language_detection_coverage": 1.0,
+          "detected_correct_over_all": 1.0,
+          "detected_correct_over_confident": 1.0
+        },
+        "th:xlsum": {
+          "samples": 826,
+          "score": 25.602579012726917,
+          "mean_generated_tokens": 140.78934624697337,
+          "mean_reference_tokens": 126.58958837772397,
+          "hit_cap_rate": 0.009685230024213076,
+          "source_truncated_rate": 0.5907990314769975,
+          "language_aux_confident_n": 826,
+          "language_aux_correct_n": 826,
+          "language_aux_limit": "langdetect1.0.9 automatic diagnostic only, not human language correctness ground truth; short/low-confidence outputs are unmeasured.",
+          "language_detection_coverage": 1.0,
+          "detected_correct_over_all": 1.0,
+          "detected_correct_over_confident": 1.0
+        }
+      }
+    },
+    "seq_es_th": {
+      "scores_sha256": "0858540dc949d64ffdd363f0921ee0f3d80a97f4a32e753b7d6bf5624d1a6fd8",
+      "groups": {
+        "en:xlsum": {
+          "samples": 11535,
+          "score": 23.030315240598174,
+          "mean_generated_tokens": 35.40676202860858,
+          "mean_reference_tokens": 28.280884265279585,
+          "hit_cap_rate": 0.0010403120936280884,
+          "source_truncated_rate": 0.01352405721716515,
+          "language_aux_confident_n": 11533,
+          "language_aux_correct_n": 11533,
+          "language_aux_limit": "langdetect1.0.9 automatic diagnostic only, not human language correctness ground truth; short/low-confidence outputs are unmeasured.",
+          "language_detection_coverage": 0.999826614651062,
+          "detected_correct_over_all": 0.999826614651062,
+          "detected_correct_over_confident": 1.0
+        },
+        "es:xlsum": {
+          "samples": 4763,
+          "score": 21.151291907661758,
+          "mean_generated_tokens": 44.31807684232626,
+          "mean_reference_tokens": 45.38631114843586,
+          "hit_cap_rate": 0.007348309888725593,
+          "source_truncated_rate": 0.32500524879277765,
+          "language_aux_confident_n": 4692,
+          "language_aux_correct_n": 4673,
+          "language_aux_limit": "langdetect1.0.9 automatic diagnostic only, not human language correctness ground truth; short/low-confidence outputs are unmeasured.",
+          "language_detection_coverage": 0.9850934285114423,
+          "detected_correct_over_all": 0.98110434600042,
+          "detected_correct_over_confident": 0.9959505541346974
+        },
+        "fr:xlsum": {
+          "samples": 1086,
+          "score": 24.04089166134257,
+          "mean_generated_tokens": 50.06998158379374,
+          "mean_reference_tokens": 43.23388581952118,
+          "hit_cap_rate": 0.0055248618784530384,
+          "source_truncated_rate": 0.08931860036832412,
+          "language_aux_confident_n": 1083,
+          "language_aux_correct_n": 1082,
+          "language_aux_limit": "langdetect1.0.9 automatic diagnostic only, not human language correctness ground truth; short/low-confidence outputs are unmeasured.",
+          "language_detection_coverage": 0.9972375690607734,
+          "detected_correct_over_all": 0.996316758747698,
+          "detected_correct_over_confident": 0.9990766389658357
+        },
+        "th:xlsum": {
+          "samples": 826,
+          "score": 25.671044624379885,
+          "mean_generated_tokens": 137.8050847457627,
+          "mean_reference_tokens": 126.58958837772397,
+          "hit_cap_rate": 0.00847457627118644,
+          "source_truncated_rate": 0.5907990314769975,
+          "language_aux_confident_n": 826,
+          "language_aux_correct_n": 826,
+          "language_aux_limit": "langdetect1.0.9 automatic diagnostic only, not human language correctness ground truth; short/low-confidence outputs are unmeasured.",
+          "language_detection_coverage": 1.0,
+          "detected_correct_over_all": 1.0,
+          "detected_correct_over_confident": 1.0
+        }
+      }
+    }
+  }
+}

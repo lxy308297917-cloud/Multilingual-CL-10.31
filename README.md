@@ -2,13 +2,11 @@
 
 ## 统一语言顺序实验：当前阶段
 
-21段主训练均已完成；MASSIVE、MathOctopus、MTOP、XNLI四轨道的原生与通用能力矩阵已完成。
-其余三轨道正式测评仍在运行，Same-ID/Disjoint-ID对照尚未启动，整个目标继续进行。
+21段主训练完成，六轨道原生与通用能力结果已齐；WikiLingua继续测评，预定开发曲线与三个合格轨道P3对照尚待完成。整个目标继续进行。
 
-- [四轨道阶段总表](research/unified_language_cl/second_batch_summary.md)
-- [项目当前进度与完整结果入口](research/unified_language_cl/README.md)
-- [MTOP：目标结构学习与通用任务变化](research/unified_language_cl/mtop_results.md)
-- [XNLI：目标分类学习与通用任务变化](research/unified_language_cl/xnli_results.md)
+- [六轨道结果总表与完整证据](research/unified_language_cl/six_track_summary.md)
+- [数据来源与token审计](research/unified_language_cl/dataset_audit.md)
+- [语言身份与对齐限制](research/unified_language_cl/language_alignment.md)
 - [可复现代码与步骤](research/unified_language_cl/reproduction.md)
 
 下面保留之前的研究记录；当前新增任务以统一语言实验入口为准，不自动开展My Method或第三语言训练。

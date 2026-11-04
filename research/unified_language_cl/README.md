@@ -1,5 +1,13 @@
 # 统一语言顺序基线：进度与已完成结果
 
+## 最新已完成结果
+
+21段主训练完成，六轨道正式矩阵已齐；WikiLingua仍在测评，P3未运行，整个目标继续进行。
+
+- [六轨道结果总表及证据入口](six_track_summary.md)
+- [更新的数据审计](dataset_audit.md)与[语言对齐](language_alignment.md)
+
+
 更新：2026-11-05T01:09:10.964126+08:00。目标进行中。
 
 固定 ES→TH；FR只测评。各轨独立从同一锁定Qwen3-1.7B后训练版本出发，Single ES、Single TH、ES Final→TH；3200条/200步（SIB640条/40步），effective batch16，LR1e-5，assistant-only，固定Final。

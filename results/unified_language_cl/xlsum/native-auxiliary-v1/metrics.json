@@ -1,0 +1,273 @@
+{
+  "track": "xlsum",
+  "split": "test",
+  "status": "COMPLETE_FIXED_NATIVE_AUXILIARY_SCALARS",
+  "comparison_sha256": "3c1091253bb9a76b455c36715c448cf3dac6b61e1c3f1f72c4be3af0f34e2e93",
+  "limits": [
+    "Fraction metrics retain 0..1 units, except ROUGE metrics in 0..100. Counts and token lengths are explicit.",
+    "Only pre-existing scorer outputs copied; no new inference, parser changes, or test-based selection.",
+    "Parsed prediction frequency maps deliberately excluded because their keys may contain raw outputs."
+  ],
+  "models": {
+    "base": {
+      "scores_sha256": "6a67442ce40fb0becb64b9044ae118d14e8c9731e27cb3ba6c8a70394e5f1296",
+      "groups": {
+        "en:xlsum": {
+          "samples": 11535,
+          "primary_metric": "rougeLsum",
+          "score": 10.4003036153286,
+          "rouge1": 15.674517402392333,
+          "rouge2": 3.380325899223077,
+          "rougeLsum": 10.4003036153286,
+          "mean_generated_tokens": 166.97555266579974,
+          "mean_reference_tokens": 28.280884265279585,
+          "hit_cap_rate": 0.00043346337234503684,
+          "source_truncated_rate": 0.01352405721716515,
+          "language_aux_confident_n": 11535,
+          "language_aux_correct_n": 11535,
+          "language_aux_limit": "langdetect1.0.9 automatic diagnostic only, not human language correctness ground truth; short/low-confidence outputs are unmeasured."
+        },
+        "es:xlsum": {
+          "samples": 4763,
+          "primary_metric": "rougeLsum",
+          "score": 11.880514445744476,
+          "rouge1": 18.08090588842295,
+          "rouge2": 4.083961482970711,
+          "rougeLsum": 11.880514445744476,
+          "mean_generated_tokens": 218.03485198404368,
+          "mean_reference_tokens": 45.38631114843586,
+          "hit_cap_rate": 0.0327524669326055,
+          "source_truncated_rate": 0.32500524879277765,
+          "language_aux_confident_n": 4762,
+          "language_aux_correct_n": 4761,
+          "language_aux_limit": "langdetect1.0.9 automatic diagnostic only, not human language correctness ground truth; short/low-confidence outputs are unmeasured."
+        },
+        "fr:xlsum": {
+          "samples": 1086,
+          "primary_metric": "rougeLsum",
+          "score": 15.630916358259427,
+          "rouge1": 23.476312089034412,
+          "rouge2": 7.248705927118831,
+          "rougeLsum": 15.630916358259427,
+          "mean_generated_tokens": 136.00552486187846,
+          "mean_reference_tokens": 43.23388581952118,
+          "hit_cap_rate": 0.0,
+          "source_truncated_rate": 0.08931860036832412,
+          "language_aux_confident_n": 1086,
+          "language_aux_correct_n": 1086,
+          "language_aux_limit": "langdetect1.0.9 automatic diagnostic only, not human language correctness ground truth; short/low-confidence outputs are unmeasured."
+        },
+        "th:xlsum": {
+          "samples": 826,
+          "primary_metric": "rougeLsum",
+          "score": 18.61528593977674,
+          "rouge1": 27.58756288959805,
+          "rouge2": 9.124581958328958,
+          "rougeLsum": 18.61528593977674,
+          "mean_generated_tokens": 346.3232445520581,
+          "mean_reference_tokens": 126.58958837772397,
+          "hit_cap_rate": 0.1089588377723971,
+          "source_truncated_rate": 0.5907990314769975,
+          "language_aux_confident_n": 826,
+          "language_aux_correct_n": 826,
+          "language_aux_limit": "langdetect1.0.9 automatic diagnostic only, not human language correctness ground truth; short/low-confidence outputs are unmeasured."
+        }
+      }
+    },
+    "single_es": {
+      "scores_sha256": "2919c20d8c3e45d7e365f5048ca91dc552345494c3263b6939bccd40029e36a0",
+      "groups": {
+        "en:xlsum": {
+          "samples": 11535,
+          "primary_metric": "rougeLsum",
+          "score": 23.814058863935823,
+          "rouge1": 31.957750224286766,
+          "rouge2": 9.634466422316782,
+          "rougeLsum": 23.814058863935823,
+          "mean_generated_tokens": 30.353792804508018,
+          "mean_reference_tokens": 28.280884265279585,
+          "hit_cap_rate": 0.0018205461638491547,
+          "source_truncated_rate": 0.01352405721716515,
+          "language_aux_confident_n": 11527,
+          "language_aux_correct_n": 11527,
+          "language_aux_limit": "langdetect1.0.9 automatic diagnostic only, not human language correctness ground truth; short/low-confidence outputs are unmeasured."
+        },
+        "es:xlsum": {
+          "samples": 4763,
+          "primary_metric": "rougeLsum",
+          "score": 20.993413870971033,
+          "rouge1": 28.534827482475993,
+          "rouge2": 8.795044138903389,
+          "rougeLsum": 20.993413870971033,
+          "mean_generated_tokens": 37.988662607600254,
+          "mean_reference_tokens": 45.38631114843586,
+          "hit_cap_rate": 0.004828889355448247,
+          "source_truncated_rate": 0.32500524879277765,
+          "language_aux_confident_n": 4647,
+          "language_aux_correct_n": 4623,
+          "language_aux_limit": "langdetect1.0.9 automatic diagnostic only, not human language correctness ground truth; short/low-confidence outputs are unmeasured."
+        },
+        "fr:xlsum": {
+          "samples": 1086,
+          "primary_metric": "rougeLsum",
+          "score": 24.13778482432231,
+          "rouge1": 31.872975608862316,
+          "rouge2": 11.825997559081843,
+          "rougeLsum": 24.13778482432231,
+          "mean_generated_tokens": 43.244014732965006,
+          "mean_reference_tokens": 43.23388581952118,
+          "hit_cap_rate": 0.004604051565377533,
+          "source_truncated_rate": 0.08931860036832412,
+          "language_aux_confident_n": 1082,
+          "language_aux_correct_n": 1081,
+          "language_aux_limit": "langdetect1.0.9 automatic diagnostic only, not human language correctness ground truth; short/low-confidence outputs are unmeasured."
+        },
+        "th:xlsum": {
+          "samples": 826,
+          "primary_metric": "rougeLsum",
+          "score": 16.528609442110678,
+          "rouge1": 22.42863613324589,
+          "rouge2": 7.019522618532814,
+          "rougeLsum": 16.528609442110678,
+          "mean_generated_tokens": 410.07506053268764,
+          "mean_reference_tokens": 126.58958837772397,
+          "hit_cap_rate": 0.6089588377723971,
+          "source_truncated_rate": 0.5907990314769975,
+          "language_aux_confident_n": 826,
+          "language_aux_correct_n": 826,
+          "language_aux_limit": "langdetect1.0.9 automatic diagnostic only, not human language correctness ground truth; short/low-confidence outputs are unmeasured."
+        }
+      }
+    },
+    "single_th": {
+      "scores_sha256": "5a509ee00816000139b75220183aaee0a5277ef434b9330924c395e85b8f9a49",
+      "groups": {
+        "en:xlsum": {
+          "samples": 11535,
+          "primary_metric": "rougeLsum",
+          "score": 20.66073485222485,
+          "rouge1": 28.88947854423318,
+          "rouge2": 8.248887220952541,
+          "rougeLsum": 20.66073485222485,
+          "mean_generated_tokens": 48.952665799739925,
+          "mean_reference_tokens": 28.280884265279585,
+          "hit_cap_rate": 0.0012136974425661032,
+          "source_truncated_rate": 0.01352405721716515,
+          "language_aux_confident_n": 11534,
+          "language_aux_correct_n": 11534,
+          "language_aux_limit": "langdetect1.0.9 automatic diagnostic only, not human language correctness ground truth; short/low-confidence outputs are unmeasured."
+        },
+        "es:xlsum": {
+          "samples": 4763,
+          "primary_metric": "rougeLsum",
+          "score": 19.436373377225042,
+          "rouge1": 28.090396444726277,
+          "rouge2": 7.500247939076586,
+          "rougeLsum": 19.436373377225042,
+          "mean_generated_tokens": 70.91454965357968,
+          "mean_reference_tokens": 45.38631114843586,
+          "hit_cap_rate": 0.005878647910980474,
+          "source_truncated_rate": 0.32500524879277765,
+          "language_aux_confident_n": 4760,
+          "language_aux_correct_n": 4754,
+          "language_aux_limit": "langdetect1.0.9 automatic diagnostic only, not human language correctness ground truth; short/low-confidence outputs are unmeasured."
+        },
+        "fr:xlsum": {
+          "samples": 1086,
+          "primary_metric": "rougeLsum",
+          "score": 22.848894989241302,
+          "rouge1": 31.520620007799643,
+          "rouge2": 11.526441085715373,
+          "rougeLsum": 22.848894989241302,
+          "mean_generated_tokens": 63.26058931860037,
+          "mean_reference_tokens": 43.23388581952118,
+          "hit_cap_rate": 0.0027624309392265192,
+          "source_truncated_rate": 0.08931860036832412,
+          "language_aux_confident_n": 1086,
+          "language_aux_correct_n": 1086,
+          "language_aux_limit": "langdetect1.0.9 automatic diagnostic only, not human language correctness ground truth; short/low-confidence outputs are unmeasured."
+        },
+        "th:xlsum": {
+          "samples": 826,
+          "primary_metric": "rougeLsum",
+          "score": 25.602579012726917,
+          "rouge1": 35.237460446246516,
+          "rouge2": 13.017369831864192,
+          "rougeLsum": 25.602579012726917,
+          "mean_generated_tokens": 140.78934624697337,
+          "mean_reference_tokens": 126.58958837772397,
+          "hit_cap_rate": 0.009685230024213076,
+          "source_truncated_rate": 0.5907990314769975,
+          "language_aux_confident_n": 826,
+          "language_aux_correct_n": 826,
+          "language_aux_limit": "langdetect1.0.9 automatic diagnostic only, not human language correctness ground truth; short/low-confidence outputs are unmeasured."
+        }
+      }
+    },
+    "seq_es_th": {
+      "scores_sha256": "0858540dc949d64ffdd363f0921ee0f3d80a97f4a32e753b7d6bf5624d1a6fd8",
+      "groups": {
+        "en:xlsum": {
+          "samples": 11535,
+          "primary_metric": "rougeLsum",
+          "score": 23.030315240598174,
+          "rouge1": 31.384243259751035,
+          "rouge2": 9.420797706198265,
+          "rougeLsum": 23.030315240598174,
+          "mean_generated_tokens": 35.40676202860858,
+          "mean_reference_tokens": 28.280884265279585,
+          "hit_cap_rate": 0.0010403120936280884,
+          "source_truncated_rate": 0.01352405721716515,
+          "language_aux_confident_n": 11533,
+          "language_aux_correct_n": 11533,
+          "language_aux_limit": "langdetect1.0.9 automatic diagnostic only, not human language correctness ground truth; short/low-confidence outputs are unmeasured."
+        },
+        "es:xlsum": {
+          "samples": 4763,
+          "primary_metric": "rougeLsum",
+          "score": 21.151291907661758,
+          "rouge1": 29.111954993903858,
+          "rouge2": 8.889255067466854,
+          "rougeLsum": 21.151291907661758,
+          "mean_generated_tokens": 44.31807684232626,
+          "mean_reference_tokens": 45.38631114843586,
+          "hit_cap_rate": 0.007348309888725593,
+          "source_truncated_rate": 0.32500524879277765,
+          "language_aux_confident_n": 4692,
+          "language_aux_correct_n": 4673,
+          "language_aux_limit": "langdetect1.0.9 automatic diagnostic only, not human language correctness ground truth; short/low-confidence outputs are unmeasured."
+        },
+        "fr:xlsum": {
+          "samples": 1086,
+          "primary_metric": "rougeLsum",
+          "score": 24.04089166134257,
+          "rouge1": 32.086701956560695,
+          "rouge2": 12.116331577764312,
+          "rougeLsum": 24.04089166134257,
+          "mean_generated_tokens": 50.06998158379374,
+          "mean_reference_tokens": 43.23388581952118,
+          "hit_cap_rate": 0.0055248618784530384,
+          "source_truncated_rate": 0.08931860036832412,
+          "language_aux_confident_n": 1083,
+          "language_aux_correct_n": 1082,
+          "language_aux_limit": "langdetect1.0.9 automatic diagnostic only, not human language correctness ground truth; short/low-confidence outputs are unmeasured."
+        },
+        "th:xlsum": {
+          "samples": 826,
+          "primary_metric": "rougeLsum",
+          "score": 25.671044624379885,
+          "rouge1": 35.50119739031242,
+          "rouge2": 13.308304426591569,
+          "rougeLsum": 25.671044624379885,
+          "mean_generated_tokens": 137.8050847457627,
+          "mean_reference_tokens": 126.58958837772397,
+          "hit_cap_rate": 0.00847457627118644,
+          "source_truncated_rate": 0.5907990314769975,
+          "language_aux_confident_n": 826,
+          "language_aux_correct_n": 826,
+          "language_aux_limit": "langdetect1.0.9 automatic diagnostic only, not human language correctness ground truth; short/low-confidence outputs are unmeasured."
+        }
+      }
+    }
+  }
+}

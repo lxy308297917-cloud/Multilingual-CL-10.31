@@ -1,0 +1,279 @@
+{
+  "scope": "Selected scientific aggregate reports; no raw questions, output texts, target trees, checkpoints, full environment, host/GPU metadata, or scheduler logs.",
+  "goal_status": "ACTIVE_WIKILINGUA_CURVES_AND_ALL_THREE_P3_NOT_COMPLETE",
+  "artifacts": {
+    "research/unified_language_cl/six_track_summary.md": {
+      "raw_source_sha256": "5037fc7410a474d626b54061f47fcd802967a7c2c7db38b3f3d339d89226da23",
+      "public_sha256": "5037fc7410a474d626b54061f47fcd802967a7c2c7db38b3f3d339d89226da23",
+      "git_blob_sha": "525c6a59e3f913df18e3fee8d6afbdf04bb920fc",
+      "bytes": 5566,
+      "curation": "Scientific scalars and intervals unchanged"
+    },
+    "results/unified_language_cl/six_track_summary.csv": {
+      "raw_source_sha256": "06aa16e3faacdcad9c6f2da394886651e9866ddd4e385623b4b8d68c5483e6b3",
+      "public_sha256": "ab31f13bc7c77c00f1de58b4c32632431d3f6699663dee2545fa14cacdbeb5d7",
+      "git_blob_sha": "4ee195f758da27c224a470891a88f36d4ea87941",
+      "bytes": 1404,
+      "curation": "CSV line endings normalized to LF; values unchanged"
+    },
+    "results/unified_language_cl/xlsum/comparison-dev-v1/effects.json": {
+      "raw_source_sha256": "7cc43f5b7a35fc2e82249e7c34e305e5a3bb9650d5472d58c44358d473e7dbf2",
+      "public_sha256": "7cc43f5b7a35fc2e82249e7c34e305e5a3bb9650d5472d58c44358d473e7dbf2",
+      "git_blob_sha": "c846743734aaeec56e1192450dcdaa5141f8d02b",
+      "bytes": 11458,
+      "curation": "Encoded retention output paths anonymized where present; numerical results and hashes unchanged"
+    },
+    "results/unified_language_cl/xlsum/comparison-dev-v1/table.md": {
+      "raw_source_sha256": "582f72c41a7f07e928436fdfc8df9b6221842cf04ba5858d4d89c48ebfc2a904",
+      "public_sha256": "582f72c41a7f07e928436fdfc8df9b6221842cf04ba5858d4d89c48ebfc2a904",
+      "git_blob_sha": "7c03026f53bd0b2f5775ab6c3044946f34fb04d7",
+      "bytes": 1128,
+      "curation": "Encoded retention output paths anonymized where present; numerical results and hashes unchanged"
+    },
+    "results/unified_language_cl/xlsum/comparison-test-v1/effects.json": {
+      "raw_source_sha256": "3c1091253bb9a76b455c36715c448cf3dac6b61e1c3f1f72c4be3af0f34e2e93",
+      "public_sha256": "3c1091253bb9a76b455c36715c448cf3dac6b61e1c3f1f72c4be3af0f34e2e93",
+      "git_blob_sha": "141e6bdca14a476734ca47a639a50907dc54b06a",
+      "bytes": 11515,
+      "curation": "Encoded retention output paths anonymized where present; numerical results and hashes unchanged"
+    },
+    "results/unified_language_cl/xlsum/comparison-test-v1/table.md": {
+      "raw_source_sha256": "f70d5f167487476f431d4bdf8a93bc6f3b89309b4b80e5f4f7f72c25e2ca0260",
+      "public_sha256": "f70d5f167487476f431d4bdf8a93bc6f3b89309b4b80e5f4f7f72c25e2ca0260",
+      "git_blob_sha": "31ea2ebe541fa8c6caf72eea02463c90373a99a2",
+      "bytes": 1129,
+      "curation": "Encoded retention output paths anonymized where present; numerical results and hashes unchanged"
+    },
+    "results/unified_language_cl/xlsum/retention-comparison-v1/effects.json": {
+      "raw_source_sha256": "422d28771ea3b44a3bd11c2cf66c616aee1a6a2e9788cd5fb179c2988bebe8b2",
+      "public_sha256": "a630ae66be48c22e6a137307fbc391113bdaa7e02219e2419ae8396bccfeffe2",
+      "git_blob_sha": "2cf2eb09f9fb73939d40e296437d0d955ead2386",
+      "bytes": 15314,
+      "curation": "Encoded retention output paths anonymized where present; numerical results and hashes unchanged"
+    },
+    "results/unified_language_cl/xlsum/retention-comparison-v1/table.md": {
+      "raw_source_sha256": "97a8ef959a694eb1bacc11ae55cc9ba827e53612bd64d141c8dc83eda57719b1",
+      "public_sha256": "97a8ef959a694eb1bacc11ae55cc9ba827e53612bd64d141c8dc83eda57719b1",
+      "git_blob_sha": "c2a0c268a229b00a677f0a06aa57fc6f106f8add",
+      "bytes": 1219,
+      "curation": "Encoded retention output paths anonymized where present; numerical results and hashes unchanged"
+    },
+    "results/unified_language_cl/sib200/comparison-dev-v1/effects.json": {
+      "raw_source_sha256": "42d9124f3eb781b49daab36d20e0e291c97434c6d61e8907194a727567806db6",
+      "public_sha256": "42d9124f3eb781b49daab36d20e0e291c97434c6d61e8907194a727567806db6",
+      "git_blob_sha": "3a6d8718d9e018442925dcd322042450b678e525",
+      "bytes": 11359,
+      "curation": "Encoded retention output paths anonymized where present; numerical results and hashes unchanged"
+    },
+    "results/unified_language_cl/sib200/comparison-dev-v1/table.md": {
+      "raw_source_sha256": "d006999b4cd8c3ea953a177fc24018042047dc2744f4e987154b07650cb9836d",
+      "public_sha256": "d006999b4cd8c3ea953a177fc24018042047dc2744f4e987154b07650cb9836d",
+      "git_blob_sha": "6b2f4a299dbebb1d47e4e5f75e181c0f84eb0d50",
+      "bytes": 1154,
+      "curation": "Encoded retention output paths anonymized where present; numerical results and hashes unchanged"
+    },
+    "results/unified_language_cl/sib200/comparison-test-v1/effects.json": {
+      "raw_source_sha256": "53a2b53c169e84b9b42726cd61187a2fe231531f1e6c251eefa3b22823d45daa",
+      "public_sha256": "53a2b53c169e84b9b42726cd61187a2fe231531f1e6c251eefa3b22823d45daa",
+      "git_blob_sha": "5a4f9d2f2a55109a0a87270f67d04f25f24fa7ae",
+      "bytes": 11344,
+      "curation": "Encoded retention output paths anonymized where present; numerical results and hashes unchanged"
+    },
+    "results/unified_language_cl/sib200/comparison-test-v1/table.md": {
+      "raw_source_sha256": "299ae525b7cd43d923fcf550f4cb9864262fa49c035243897db93e94dc7b5b32",
+      "public_sha256": "299ae525b7cd43d923fcf550f4cb9864262fa49c035243897db93e94dc7b5b32",
+      "git_blob_sha": "4bbb4ff7e703239daa243c8c41c1843a6e771e68",
+      "bytes": 1156,
+      "curation": "Encoded retention output paths anonymized where present; numerical results and hashes unchanged"
+    },
+    "results/unified_language_cl/sib200/retention-comparison-v1/effects.json": {
+      "raw_source_sha256": "7f4df3a6798b46b1464852ad302e0f3488599ad821cff65ec9e3455929224a60",
+      "public_sha256": "4dae367e0266a12c01d203f232aeae11966c535dc731cb874a1d0941681b6575",
+      "git_blob_sha": "b1326645b60dd225a7934f46878e037a754b4969",
+      "bytes": 15320,
+      "curation": "Encoded retention output paths anonymized where present; numerical results and hashes unchanged"
+    },
+    "results/unified_language_cl/sib200/retention-comparison-v1/table.md": {
+      "raw_source_sha256": "1a6c917f39238f69afb9e2c32a2d256432bba4c5232081e7ed60e87917b7c532",
+      "public_sha256": "1a6c917f39238f69afb9e2c32a2d256432bba4c5232081e7ed60e87917b7c532",
+      "git_blob_sha": "39a9c7eef09899b8687cf589670d6b6163c4f945",
+      "bytes": 1222,
+      "curation": "Encoded retention output paths anonymized where present; numerical results and hashes unchanged"
+    },
+    "results/unified_language_cl/massive/native-auxiliary-v1/metrics.json": {
+      "raw_source_sha256": "c93d1eb095f1415605d5e2c1fa457fd0bd0b5194d0ef68665d2e34b607e30620",
+      "public_sha256": "c93d1eb095f1415605d5e2c1fa457fd0bd0b5194d0ef68665d2e34b607e30620",
+      "git_blob_sha": "1f0f5ae2dd5b5935c83075359d77051bcc3a646e",
+      "bytes": 6227,
+      "curation": "Scientific scalars and intervals unchanged"
+    },
+    "results/unified_language_cl/massive/native-auxiliary-v1/table.md": {
+      "raw_source_sha256": "bee0c52f20dfeee41b90bb55720a83ee2011b04420d321a7f29ae9cbfa5a3a8a",
+      "public_sha256": "bee0c52f20dfeee41b90bb55720a83ee2011b04420d321a7f29ae9cbfa5a3a8a",
+      "git_blob_sha": "8463041038098a0a4c2c4a87325334f3a0628cb7",
+      "bytes": 3532,
+      "curation": "Scientific scalars and intervals unchanged"
+    },
+    "results/unified_language_cl/mathoctopus/native-auxiliary-v1/metrics.json": {
+      "raw_source_sha256": "f5dc149f28c356d8b8de231af4d753afa86d5f1fed6c1404052abb8ef0b66bca",
+      "public_sha256": "f5dc149f28c356d8b8de231af4d753afa86d5f1fed6c1404052abb8ef0b66bca",
+      "git_blob_sha": "eeb40634908aec081c926538a29f3516c1cd7094",
+      "bytes": 8538,
+      "curation": "Scientific scalars and intervals unchanged"
+    },
+    "results/unified_language_cl/mathoctopus/native-auxiliary-v1/table.md": {
+      "raw_source_sha256": "e1c060fd8e1658d3f0a83ee7426089a61c7e9abe2184fa3301ecb34d6d83d324",
+      "public_sha256": "e1c060fd8e1658d3f0a83ee7426089a61c7e9abe2184fa3301ecb34d6d83d324",
+      "git_blob_sha": "e2c5faec0bcafe7a50d558eaf27eb4329c983dd7",
+      "bytes": 5383,
+      "curation": "Scientific scalars and intervals unchanged"
+    },
+    "results/unified_language_cl/mtop/native-auxiliary-v1/metrics.json": {
+      "raw_source_sha256": "1c39e42ddc4c22d20fd9834bc99176404ca14b821d13d33d69c99d772565ade5",
+      "public_sha256": "1c39e42ddc4c22d20fd9834bc99176404ca14b821d13d33d69c99d772565ade5",
+      "git_blob_sha": "743677babd33e64fdd4a7f607b572df6fbfe6249",
+      "bytes": 5809,
+      "curation": "Scientific scalars and intervals unchanged"
+    },
+    "results/unified_language_cl/mtop/native-auxiliary-v1/table.md": {
+      "raw_source_sha256": "76047a81c9b5bf7683760a0e910b8a51d8a0df755ea844cb3e512658a5051b46",
+      "public_sha256": "76047a81c9b5bf7683760a0e910b8a51d8a0df755ea844cb3e512658a5051b46",
+      "git_blob_sha": "bdf9323b1146a6917268ac369107401af8b2a44f",
+      "bytes": 2631,
+      "curation": "Scientific scalars and intervals unchanged"
+    },
+    "results/unified_language_cl/xnli/native-auxiliary-v1/metrics.json": {
+      "raw_source_sha256": "ccdba5ed42e1a28eca500942a883a5aad482119f61968abf75553b87b15b98b0",
+      "public_sha256": "ccdba5ed42e1a28eca500942a883a5aad482119f61968abf75553b87b15b98b0",
+      "git_blob_sha": "8faba60ad475ddf446f9b3495e187dbe3df44103",
+      "bytes": 5931,
+      "curation": "Scientific scalars and intervals unchanged"
+    },
+    "results/unified_language_cl/xnli/native-auxiliary-v1/table.md": {
+      "raw_source_sha256": "b5363c2788dd5afb265d96948a1b766cf0a234b9e3f534bed0339a3e3e876e9f",
+      "public_sha256": "b5363c2788dd5afb265d96948a1b766cf0a234b9e3f534bed0339a3e3e876e9f",
+      "git_blob_sha": "804e628609f7a5bec52cb94b934cd8c86b6187b5",
+      "bytes": 3337,
+      "curation": "Scientific scalars and intervals unchanged"
+    },
+    "results/unified_language_cl/xlsum/native-auxiliary-v1/metrics.json": {
+      "raw_source_sha256": "c6ebd05023b68cd2f57f6872b921a606d807486bc414a5aad9445caa0cdb048b",
+      "public_sha256": "c6ebd05023b68cd2f57f6872b921a606d807486bc414a5aad9445caa0cdb048b",
+      "git_blob_sha": "19137f1356bec15654ed3cb004c9c979e13af1d4",
+      "bytes": 12730,
+      "curation": "Scientific scalars and intervals unchanged"
+    },
+    "results/unified_language_cl/xlsum/native-auxiliary-v1/table.md": {
+      "raw_source_sha256": "62860f585bf9cd9ae7df40c3dffc35d936a3480baca0117f7101b264a1c5050c",
+      "public_sha256": "62860f585bf9cd9ae7df40c3dffc35d936a3480baca0117f7101b264a1c5050c",
+      "git_blob_sha": "cf21ebb19798c63a4360e045c3caf20d5df4c050",
+      "bytes": 8126,
+      "curation": "Scientific scalars and intervals unchanged"
+    },
+    "results/unified_language_cl/sib200/native-auxiliary-v1/metrics.json": {
+      "raw_source_sha256": "22cd7ed065d7e7d7002735d9ad426a044675a445635e65b53dcd7dd2144d0fe1",
+      "public_sha256": "22cd7ed065d7e7d7002735d9ad426a044675a445635e65b53dcd7dd2144d0fe1",
+      "git_blob_sha": "3cc2bae3fe3c135c1f5593ab23c10d18ee2b9710",
+      "bytes": 5969,
+      "curation": "Scientific scalars and intervals unchanged"
+    },
+    "results/unified_language_cl/sib200/native-auxiliary-v1/table.md": {
+      "raw_source_sha256": "5f487fa56a3485612ad483f5c805c6f141ae9916f83774505ce75b9e93743011",
+      "public_sha256": "5f487fa56a3485612ad483f5c805c6f141ae9916f83774505ce75b9e93743011",
+      "git_blob_sha": "db01b65b52154d9993dd83484f75db46567e7fc2",
+      "bytes": 3466,
+      "curation": "Scientific scalars and intervals unchanged"
+    },
+    "results/unified_language_cl/classification_readout_complete_v2/effects.json": {
+      "raw_source_sha256": "1fbc84509d262f640d0ddee5f3563caafd313a37c6a1acf69efd2471ed759c82",
+      "public_sha256": "1fbc84509d262f640d0ddee5f3563caafd313a37c6a1acf69efd2471ed759c82",
+      "git_blob_sha": "24b6fdcfcff1ebd3ff0674ca38fa92066529ab17",
+      "bytes": 22642,
+      "curation": "Scientific scalars and intervals unchanged"
+    },
+    "results/unified_language_cl/classification_readout_complete_v2/table.md": {
+      "raw_source_sha256": "bd35126bb35f6dab7db94b8e5dd349e77390e3e3c1db8f5231c1c174ea18d5ed",
+      "public_sha256": "bd35126bb35f6dab7db94b8e5dd349e77390e3e3c1db8f5231c1c174ea18d5ed",
+      "git_blob_sha": "aa664e85ecf4f8eea1ecfff84f44365cad0eee19",
+      "bytes": 3349,
+      "curation": "Scientific scalars and intervals unchanged"
+    },
+    "results/unified_language_cl/xlsum/output-audit-v1/effects.json": {
+      "raw_source_sha256": "747e40ffa1f97866187581220481483bbeb9475857765000a533d44a67129d43",
+      "public_sha256": "747e40ffa1f97866187581220481483bbeb9475857765000a533d44a67129d43",
+      "git_blob_sha": "e07188317d19f3e5fedf5d76cff31a39fe33e28a",
+      "bytes": 12296,
+      "curation": "Scientific scalars and intervals unchanged"
+    },
+    "results/unified_language_cl/xlsum/output-audit-v1/table.md": {
+      "raw_source_sha256": "db83d5bd3299ceff8a2e4a3295939de957ec7363c36205d9dde9811c82a5bc8e",
+      "public_sha256": "db83d5bd3299ceff8a2e4a3295939de957ec7363c36205d9dde9811c82a5bc8e",
+      "git_blob_sha": "bedca33c03fd6489bd3aa5d99db6b0958734c41e",
+      "bytes": 2263,
+      "curation": "Scientific scalars and intervals unchanged"
+    },
+    "results/unified_language_cl/data-audit-v2/audit.json": {
+      "raw_source_sha256": "0096f01c2971a5b894ade075808d46a1d173bd4b4eca889801974f027c964716",
+      "public_sha256": "0096f01c2971a5b894ade075808d46a1d173bd4b4eca889801974f027c964716",
+      "git_blob_sha": "846155e1195ef6c6dc9e3b629c7e09958b9a6086",
+      "bytes": 99079,
+      "curation": "Scientific scalars and intervals unchanged"
+    },
+    "research/unified_language_cl/xlsum_results.md": {
+      "raw_source_sha256": "5a4c8509011cd658802aac875d2099b532d45b4c357cd1128c96b1c399a83008",
+      "public_sha256": "5a4c8509011cd658802aac875d2099b532d45b4c357cd1128c96b1c399a83008",
+      "git_blob_sha": "d6f067185e8eaed83f5f117fd9d6d672687e8edf",
+      "bytes": 6828,
+      "curation": "Scientific scalars and intervals unchanged"
+    },
+    "research/unified_language_cl/sib200_results.md": {
+      "raw_source_sha256": "5e77e61269b3af26ef0abd073a09302c29dcd2da147020ec7a7b5f2a6db7a798",
+      "public_sha256": "5e77e61269b3af26ef0abd073a09302c29dcd2da147020ec7a7b5f2a6db7a798",
+      "git_blob_sha": "4a4a4ec7cc796481cf59a9001dba3dc4b889d109",
+      "bytes": 5525,
+      "curation": "Scientific scalars and intervals unchanged"
+    },
+    "research/unified_language_cl/dataset_audit.md": {
+      "raw_source_sha256": "f2087fa324fe454b851390804546d19c15513a5572cf598898d078168cce60c5",
+      "public_sha256": "f2087fa324fe454b851390804546d19c15513a5572cf598898d078168cce60c5",
+      "git_blob_sha": "b47aaef526706e2c5c61f902de7b6bcc7146a0db",
+      "bytes": 5233,
+      "curation": "Scientific scalars and intervals unchanged"
+    },
+    "research/unified_language_cl/dataset_audit_initial_snapshot.md": {
+      "raw_source_sha256": "ea024773187f30dd086408e59020f08b9cff269c4a74a6339eb18b2371fa204a",
+      "public_sha256": "ea024773187f30dd086408e59020f08b9cff269c4a74a6339eb18b2371fa204a",
+      "git_blob_sha": "c0e2ebd96e3c92375af34c968aec35e1d8820862",
+      "bytes": 2459,
+      "curation": "Scientific scalars and intervals unchanged"
+    },
+    "research/unified_language_cl/language_alignment.md": {
+      "raw_source_sha256": "e8d5114522dd13017d5137ba9048f5e08406614ec73c2537e0f55205f9231335",
+      "public_sha256": "e8d5114522dd13017d5137ba9048f5e08406614ec73c2537e0f55205f9231335",
+      "git_blob_sha": "9e13c91241b18a505186de1e12f2adcd54813f8a",
+      "bytes": 3521,
+      "curation": "Scientific scalars and intervals unchanged"
+    },
+    "README.md": {
+      "raw_source_sha256": "303903f810dad6164b4842016c0aa45805cb0f7d3791ce2e2fc3d1919d7d6ef8",
+      "public_sha256": "6613a0ec5bcd1634b518f73cd87c5e1f0b5cc34afcdfc62033f42127726db464",
+      "git_blob_sha": "0fbe77a958b3142b68a1731d4a0fc753803c3b1f",
+      "bytes": 6514,
+      "curation": "Update current navigation; retain historical scientific content"
+    },
+    "research/chatgpt_handoff.md": {
+      "raw_source_sha256": "aa70ef5ac9352d8996f108a653f6e6925b75eec598aebad8e23cc2580e790a67",
+      "public_sha256": "c72480dbb396a819e398df409f0211625ba95e014b2824ae13bab1a9f6e86b71",
+      "git_blob_sha": "e8a96f3a0af8b24c4901ccf711d2e0542eb01e0f",
+      "bytes": 14556,
+      "curation": "Update current navigation; retain historical scientific content"
+    },
+    "research/unified_language_cl/README.md": {
+      "raw_source_sha256": "a73e6d398b04c44c358d151a3ed6293a10065ade957fe0363dd4c61fcc1591b5",
+      "public_sha256": "ed2d1475c58e5fb3a7f0f2373086be8f162def2ecc9f2b104216fc9f384230a7",
+      "git_blob_sha": "91558fdf4a7a86e6985dd5535349ac69e9049b3a",
+      "bytes": 15727,
+      "curation": "Update current navigation; retain historical scientific content"
+    }
+  }
+}

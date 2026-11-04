@@ -1,0 +1,289 @@
+{
+  "track": "mathoctopus",
+  "split": "test",
+  "status": "COMPLETE_FIXED_NATIVE_AUXILIARY_SCALARS",
+  "comparison_sha256": "3368cecf9b37696b7016e91c50a9ea8454a2251d0ec89c911a1adb9a802f6a2e",
+  "limits": [
+    "Fraction metrics retain 0..1 units, except ROUGE metrics in 0..100. Counts and token lengths are explicit.",
+    "Only pre-existing scorer outputs copied; no new inference, parser changes, or test-based selection.",
+    "Parsed prediction frequency maps deliberately excluded because their keys may contain raw outputs."
+  ],
+  "models": {
+    "base": {
+      "scores_sha256": "9e8393458cc3faeb5c92f7d5feb89a6d65cc51274b2b43a3d4ff8c0c9226d98e",
+      "groups": {
+        "es:msvamp": {
+          "samples": 1000,
+          "primary_metric": "accuracy",
+          "score": 0.826,
+          "hit_cap_rate": 0.003,
+          "strict_accuracy": 0.005,
+          "answer_parse_rate": 1.0
+        },
+        "es:mgsm_rev2": {
+          "samples": 250,
+          "primary_metric": "accuracy",
+          "score": 0.748,
+          "hit_cap_rate": 0.0,
+          "strict_accuracy": 0.004,
+          "answer_parse_rate": 1.0
+        },
+        "th:msvamp": {
+          "samples": 1000,
+          "primary_metric": "accuracy",
+          "score": 0.755,
+          "hit_cap_rate": 0.006,
+          "strict_accuracy": 0.017,
+          "answer_parse_rate": 0.999
+        },
+        "th:mgsm_rev2": {
+          "samples": 250,
+          "primary_metric": "accuracy",
+          "score": 0.58,
+          "hit_cap_rate": 0.004,
+          "strict_accuracy": 0.032,
+          "answer_parse_rate": 1.0
+        },
+        "fr:msvamp": {
+          "samples": 1000,
+          "primary_metric": "accuracy",
+          "score": 0.834,
+          "hit_cap_rate": 0.004,
+          "strict_accuracy": 0.0,
+          "answer_parse_rate": 0.999
+        },
+        "fr:mgsm_rev2": {
+          "samples": 250,
+          "primary_metric": "accuracy",
+          "score": 0.716,
+          "hit_cap_rate": 0.004,
+          "strict_accuracy": 0.0,
+          "answer_parse_rate": 1.0
+        },
+        "en:msvamp": {
+          "samples": 1000,
+          "primary_metric": "accuracy",
+          "score": 0.906,
+          "hit_cap_rate": 0.001,
+          "strict_accuracy": 0.002,
+          "answer_parse_rate": 1.0
+        },
+        "en:mgsm_rev2": {
+          "samples": 250,
+          "primary_metric": "accuracy",
+          "score": 0.808,
+          "hit_cap_rate": 0.0,
+          "strict_accuracy": 0.0,
+          "answer_parse_rate": 1.0
+        }
+      }
+    },
+    "single_es": {
+      "scores_sha256": "1e4b88fae4af9446f3ddce4f01e8a021c408ea48c9599badaf50abcbfb7f2751",
+      "groups": {
+        "es:msvamp": {
+          "samples": 1000,
+          "primary_metric": "accuracy",
+          "score": 0.646,
+          "hit_cap_rate": 0.005,
+          "strict_accuracy": 0.644,
+          "answer_parse_rate": 1.0
+        },
+        "es:mgsm_rev2": {
+          "samples": 250,
+          "primary_metric": "accuracy",
+          "score": 0.56,
+          "hit_cap_rate": 0.024,
+          "strict_accuracy": 0.56,
+          "answer_parse_rate": 1.0
+        },
+        "th:msvamp": {
+          "samples": 1000,
+          "primary_metric": "accuracy",
+          "score": 0.568,
+          "hit_cap_rate": 0.028,
+          "strict_accuracy": 0.566,
+          "answer_parse_rate": 0.999
+        },
+        "th:mgsm_rev2": {
+          "samples": 250,
+          "primary_metric": "accuracy",
+          "score": 0.432,
+          "hit_cap_rate": 0.052,
+          "strict_accuracy": 0.432,
+          "answer_parse_rate": 0.996
+        },
+        "fr:msvamp": {
+          "samples": 1000,
+          "primary_metric": "accuracy",
+          "score": 0.609,
+          "hit_cap_rate": 0.008,
+          "strict_accuracy": 0.609,
+          "answer_parse_rate": 1.0
+        },
+        "fr:mgsm_rev2": {
+          "samples": 250,
+          "primary_metric": "accuracy",
+          "score": 0.54,
+          "hit_cap_rate": 0.024,
+          "strict_accuracy": 0.54,
+          "answer_parse_rate": 1.0
+        },
+        "en:msvamp": {
+          "samples": 1000,
+          "primary_metric": "accuracy",
+          "score": 0.651,
+          "hit_cap_rate": 0.016,
+          "strict_accuracy": 0.647,
+          "answer_parse_rate": 1.0
+        },
+        "en:mgsm_rev2": {
+          "samples": 250,
+          "primary_metric": "accuracy",
+          "score": 0.636,
+          "hit_cap_rate": 0.02,
+          "strict_accuracy": 0.636,
+          "answer_parse_rate": 1.0
+        }
+      }
+    },
+    "single_th": {
+      "scores_sha256": "bd6eb8b261967f4903b8e764d3f00aca325edd712c37546e155ca2c167cd03ba",
+      "groups": {
+        "es:msvamp": {
+          "samples": 1000,
+          "primary_metric": "accuracy",
+          "score": 0.593,
+          "hit_cap_rate": 0.012,
+          "strict_accuracy": 0.592,
+          "answer_parse_rate": 1.0
+        },
+        "es:mgsm_rev2": {
+          "samples": 250,
+          "primary_metric": "accuracy",
+          "score": 0.528,
+          "hit_cap_rate": 0.016,
+          "strict_accuracy": 0.528,
+          "answer_parse_rate": 1.0
+        },
+        "th:msvamp": {
+          "samples": 1000,
+          "primary_metric": "accuracy",
+          "score": 0.565,
+          "hit_cap_rate": 0.028,
+          "strict_accuracy": 0.564,
+          "answer_parse_rate": 0.999
+        },
+        "th:mgsm_rev2": {
+          "samples": 250,
+          "primary_metric": "accuracy",
+          "score": 0.444,
+          "hit_cap_rate": 0.052,
+          "strict_accuracy": 0.444,
+          "answer_parse_rate": 1.0
+        },
+        "fr:msvamp": {
+          "samples": 1000,
+          "primary_metric": "accuracy",
+          "score": 0.581,
+          "hit_cap_rate": 0.005,
+          "strict_accuracy": 0.581,
+          "answer_parse_rate": 1.0
+        },
+        "fr:mgsm_rev2": {
+          "samples": 250,
+          "primary_metric": "accuracy",
+          "score": 0.556,
+          "hit_cap_rate": 0.032,
+          "strict_accuracy": 0.556,
+          "answer_parse_rate": 1.0
+        },
+        "en:msvamp": {
+          "samples": 1000,
+          "primary_metric": "accuracy",
+          "score": 0.603,
+          "hit_cap_rate": 0.019,
+          "strict_accuracy": 0.6,
+          "answer_parse_rate": 1.0
+        },
+        "en:mgsm_rev2": {
+          "samples": 250,
+          "primary_metric": "accuracy",
+          "score": 0.636,
+          "hit_cap_rate": 0.02,
+          "strict_accuracy": 0.628,
+          "answer_parse_rate": 0.996
+        }
+      }
+    },
+    "seq_es_th": {
+      "scores_sha256": "436a5e1bbba323e217fc87b477bbcfb29ca69c39c240f5176c1d95e364b9001f",
+      "groups": {
+        "es:msvamp": {
+          "samples": 1000,
+          "primary_metric": "accuracy",
+          "score": 0.638,
+          "hit_cap_rate": 0.005,
+          "strict_accuracy": 0.636,
+          "answer_parse_rate": 1.0
+        },
+        "es:mgsm_rev2": {
+          "samples": 250,
+          "primary_metric": "accuracy",
+          "score": 0.528,
+          "hit_cap_rate": 0.028,
+          "strict_accuracy": 0.528,
+          "answer_parse_rate": 1.0
+        },
+        "th:msvamp": {
+          "samples": 1000,
+          "primary_metric": "accuracy",
+          "score": 0.591,
+          "hit_cap_rate": 0.03,
+          "strict_accuracy": 0.588,
+          "answer_parse_rate": 0.998
+        },
+        "th:mgsm_rev2": {
+          "samples": 250,
+          "primary_metric": "accuracy",
+          "score": 0.456,
+          "hit_cap_rate": 0.032,
+          "strict_accuracy": 0.456,
+          "answer_parse_rate": 1.0
+        },
+        "fr:msvamp": {
+          "samples": 1000,
+          "primary_metric": "accuracy",
+          "score": 0.592,
+          "hit_cap_rate": 0.014,
+          "strict_accuracy": 0.591,
+          "answer_parse_rate": 1.0
+        },
+        "fr:mgsm_rev2": {
+          "samples": 250,
+          "primary_metric": "accuracy",
+          "score": 0.512,
+          "hit_cap_rate": 0.028,
+          "strict_accuracy": 0.504,
+          "answer_parse_rate": 1.0
+        },
+        "en:msvamp": {
+          "samples": 1000,
+          "primary_metric": "accuracy",
+          "score": 0.599,
+          "hit_cap_rate": 0.012,
+          "strict_accuracy": 0.598,
+          "answer_parse_rate": 1.0
+        },
+        "en:mgsm_rev2": {
+          "samples": 250,
+          "primary_metric": "accuracy",
+          "score": 0.616,
+          "hit_cap_rate": 0.024,
+          "strict_accuracy": 0.616,
+          "answer_parse_rate": 1.0
+        }
+      }
+    }
+  }
+}

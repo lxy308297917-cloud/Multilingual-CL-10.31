@@ -1,0 +1,161 @@
+{
+  "track": "mtop",
+  "split": "test",
+  "status": "COMPLETE_FIXED_NATIVE_AUXILIARY_SCALARS",
+  "comparison_sha256": "5e5b3bffeeef02f3f19ea229363176a5035dbe63d77947e6b89ffa93617ba868",
+  "limits": [
+    "Fraction metrics retain 0..1 units, except ROUGE metrics in 0..100. Counts and token lengths are explicit.",
+    "Only pre-existing scorer outputs copied; no new inference, parser changes, or test-based selection.",
+    "Parsed prediction frequency maps deliberately excluded because their keys may contain raw outputs."
+  ],
+  "models": {
+    "base": {
+      "scores_sha256": "295502b73693486b6592bfb936a15e47c2b20eae4df1831adf7f2dfed12fb93c",
+      "groups": {
+        "es:mtop": {
+          "samples": 2998,
+          "primary_metric": "structural_exact_match",
+          "score": 0.00133422281521014,
+          "hit_cap_rate": 0.040693795863909275,
+          "intent_accuracy": 0.12508338892595064,
+          "valid_tree_rate": 0.5383589059372915
+        },
+        "th:mtop": {
+          "samples": 2765,
+          "primary_metric": "structural_exact_match",
+          "score": 0.0,
+          "hit_cap_rate": 0.0216998191681736,
+          "intent_accuracy": 0.00108499095840868,
+          "valid_tree_rate": 0.00433996383363472
+        },
+        "fr:mtop": {
+          "samples": 3193,
+          "primary_metric": "structural_exact_match",
+          "score": 0.0,
+          "hit_cap_rate": 0.041027247103037894,
+          "intent_accuracy": 0.0,
+          "valid_tree_rate": 0.0
+        },
+        "en:mtop": {
+          "samples": 4386,
+          "primary_metric": "structural_exact_match",
+          "score": 0.007523939808481532,
+          "hit_cap_rate": 0.019151846785225718,
+          "intent_accuracy": 0.3378932968536252,
+          "valid_tree_rate": 0.8857729138166894
+        }
+      }
+    },
+    "single_es": {
+      "scores_sha256": "56de9b2f1f4b99220de7c792ecf58ebc69689c87e08831ce064f90fc61474775",
+      "groups": {
+        "es:mtop": {
+          "samples": 2998,
+          "primary_metric": "structural_exact_match",
+          "score": 0.6617745163442295,
+          "hit_cap_rate": 0.0010006671114076052,
+          "intent_accuracy": 0.9199466310873916,
+          "valid_tree_rate": 0.9989993328885924
+        },
+        "th:mtop": {
+          "samples": 2765,
+          "primary_metric": "structural_exact_match",
+          "score": 0.1291139240506329,
+          "hit_cap_rate": 0.003616636528028933,
+          "intent_accuracy": 0.7790235081374322,
+          "valid_tree_rate": 0.9887884267631103
+        },
+        "fr:mtop": {
+          "samples": 3193,
+          "primary_metric": "structural_exact_match",
+          "score": 0.5155026620732853,
+          "hit_cap_rate": 0.005010961478233636,
+          "intent_accuracy": 0.871594112120263,
+          "valid_tree_rate": 0.9949890385217663
+        },
+        "en:mtop": {
+          "samples": 4386,
+          "primary_metric": "structural_exact_match",
+          "score": 0.5294117647058824,
+          "hit_cap_rate": 0.0015959872321021432,
+          "intent_accuracy": 0.8784769721842225,
+          "valid_tree_rate": 0.9981760145918832
+        }
+      }
+    },
+    "single_th": {
+      "scores_sha256": "4dd7c3c25ca42c0cccf1d8c7b41e5109a40444668706ce9b85f720c3d3002dd5",
+      "groups": {
+        "es:mtop": {
+          "samples": 2998,
+          "primary_metric": "structural_exact_match",
+          "score": 0.45263509006004005,
+          "hit_cap_rate": 0.0200133422281521,
+          "intent_accuracy": 0.8819212808539026,
+          "valid_tree_rate": 0.9796531020680453
+        },
+        "th:mtop": {
+          "samples": 2765,
+          "primary_metric": "structural_exact_match",
+          "score": 0.45678119349005425,
+          "hit_cap_rate": 0.0028933092224231465,
+          "intent_accuracy": 0.8766726943942134,
+          "valid_tree_rate": 0.996745027124774
+        },
+        "fr:mtop": {
+          "samples": 3193,
+          "primary_metric": "structural_exact_match",
+          "score": 0.4215471343564046,
+          "hit_cap_rate": 0.03476354525524585,
+          "intent_accuracy": 0.8371437519574069,
+          "valid_tree_rate": 0.964610084559975
+        },
+        "en:mtop": {
+          "samples": 4386,
+          "primary_metric": "structural_exact_match",
+          "score": 0.3652530779753762,
+          "hit_cap_rate": 0.015047879616963064,
+          "intent_accuracy": 0.8529411764705882,
+          "valid_tree_rate": 0.9844961240310077
+        }
+      }
+    },
+    "seq_es_th": {
+      "scores_sha256": "00c43c5814c0b8e7f4e435e13d7c8305e296987a36abd96657f6c9965ff3ad3e",
+      "groups": {
+        "es:mtop": {
+          "samples": 2998,
+          "primary_metric": "structural_exact_match",
+          "score": 0.6511007338225484,
+          "hit_cap_rate": 0.012675116744496331,
+          "intent_accuracy": 0.9142761841227485,
+          "valid_tree_rate": 0.9873248832555037
+        },
+        "th:mtop": {
+          "samples": 2765,
+          "primary_metric": "structural_exact_match",
+          "score": 0.49005424954792043,
+          "hit_cap_rate": 0.0007233273056057866,
+          "intent_accuracy": 0.8918625678119348,
+          "valid_tree_rate": 0.9992766726943942
+        },
+        "fr:mtop": {
+          "samples": 3193,
+          "primary_metric": "structural_exact_match",
+          "score": 0.5305355465079862,
+          "hit_cap_rate": 0.029752583777012214,
+          "intent_accuracy": 0.860632633886627,
+          "valid_tree_rate": 0.9686814907610398
+        },
+        "en:mtop": {
+          "samples": 4386,
+          "primary_metric": "structural_exact_match",
+          "score": 0.5574555403556771,
+          "hit_cap_rate": 0.009347925216598267,
+          "intent_accuracy": 0.8919288645690835,
+          "valid_tree_rate": 0.9906520747834018
+        }
+      }
+    }
+  }
+}
