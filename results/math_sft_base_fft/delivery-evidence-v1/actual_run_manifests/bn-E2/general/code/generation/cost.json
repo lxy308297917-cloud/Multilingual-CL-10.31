@@ -1,0 +1,8 @@
+{
+  "elapsed_seconds": 66.23375904001296,
+  "input_tokens": 27424,
+  "generated_tokens": 43091,
+  "gpu_peak_allocated_bytes": 20205599744,
+  "torch_cuda_reserved_bytes": 20266876928,
+  "note": "allocated/reserved do not include all vLLM GPU allocations; wall time excludes CPU prompt/hash preparation"
+}

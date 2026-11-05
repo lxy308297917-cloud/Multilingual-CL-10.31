@@ -1,0 +1,96 @@
+{
+  "status": "COMPLETE",
+  "language": "ja",
+  "epochs": [
+    {
+      "status": "VALIDATED",
+      "epoch": 1,
+      "steps": 439,
+      "source_records_per_epoch": 7024,
+      "epoch_exposure_samples": 7024,
+      "epoch_extra_distributed_padding": 0,
+      "every_source_example_covered": true,
+      "cumulative_samples": 7024,
+      "cumulative_input_tokens": 1751960,
+      "cumulative_shifted_supervised_tokens": 926867,
+      "trace_files_sha256": {
+        "exposure-rank0.jsonl": "a5dc9d504a371c435475a99b289994e28a27881dda41a413ad9b6b67772183d2",
+        "exposure-rank1.jsonl": "7be08f43a32becddc94e279e9113370115a39e67a4536cebd02e043acb40eab2"
+      },
+      "weights_shapes_equal_base_after_declared_tied_alias_restoration": true,
+      "omitted_tied_aliases": [
+        "lm_head.weight"
+      ],
+      "sampled_parameter_update": {
+        "model.layers.0.self_attn.q_proj.weight": {
+          "elements": 4194304,
+          "changed_elements": 2112762,
+          "l2_difference": 0.1937921643257141
+        },
+        "model.layers.14.mlp.down_proj.weight": {
+          "elements": 12582912,
+          "changed_elements": 7206324,
+          "l2_difference": 0.39422211050987244
+        },
+        "model.norm.weight": {
+          "elements": 2048,
+          "changed_elements": 0,
+          "l2_difference": 0.0
+        }
+      },
+      "independent_HF_CPU_load_and_forward": "PASSED",
+      "weights_sha256": {
+        "model.safetensors": "3816d1c5d44117bb8166c6e9399f48c7578aad14ced7e3d3725edbbaa93c4729"
+      },
+      "continuous_optimizer_scheduler": true,
+      "on_disk_optimizer_state": false,
+      "inference_loadability": "Independent CPU load/forward PASSED; formal vLLM inference follows"
+    },
+    {
+      "status": "VALIDATED",
+      "epoch": 2,
+      "steps": 878,
+      "source_records_per_epoch": 7024,
+      "epoch_exposure_samples": 7024,
+      "epoch_extra_distributed_padding": 0,
+      "every_source_example_covered": true,
+      "cumulative_samples": 14048,
+      "cumulative_input_tokens": 3503920,
+      "cumulative_shifted_supervised_tokens": 1853734,
+      "trace_files_sha256": {
+        "exposure-rank0.jsonl": "d363d17788a1db120db597d0f6c6428074b5305dde3769a10d62cd716ac610aa",
+        "exposure-rank1.jsonl": "afecd2519c3ce2d185b84180036fda74c5ced59c23bbde52b6c15b57991b888b"
+      },
+      "weights_shapes_equal_base_after_declared_tied_alias_restoration": true,
+      "omitted_tied_aliases": [
+        "lm_head.weight"
+      ],
+      "sampled_parameter_update": {
+        "model.layers.0.self_attn.q_proj.weight": {
+          "elements": 4194304,
+          "changed_elements": 2197474,
+          "l2_difference": 0.208088219165802
+        },
+        "model.layers.14.mlp.down_proj.weight": {
+          "elements": 12582912,
+          "changed_elements": 7557108,
+          "l2_difference": 0.435301810503006
+        },
+        "model.norm.weight": {
+          "elements": 2048,
+          "changed_elements": 0,
+          "l2_difference": 0.0
+        }
+      },
+      "independent_HF_CPU_load_and_forward": "PASSED",
+      "weights_sha256": {
+        "model.safetensors": "ba4711cffd8e5cbc8d9e7652a4c6b1ab9012878c910d72b042e160c91f06d068"
+      },
+      "continuous_optimizer_scheduler": true,
+      "on_disk_optimizer_state": false,
+      "inference_loadability": "Independent CPU load/forward PASSED; formal vLLM inference follows"
+    }
+  ],
+  "config_sha256": "d2a8b9f328b88e9d1c110c909f446a4d26e9ff85a0f9fa1ddd09179bf895c8e6",
+  "data_manifest_sha256": "4faed9e484fc4c6542978b11e8fc48a9a6d313c00074362a968c84a616d73d86"
+}

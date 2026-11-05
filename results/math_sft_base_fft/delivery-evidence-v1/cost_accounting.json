@@ -1,0 +1,318 @@
+{
+  "training": [
+    {
+      "language": "sw",
+      "source_records_per_epoch": 6915,
+      "epochs": 2,
+      "optimizer_steps": 866,
+      "epoch1_optimizer_steps": 433,
+      "epoch2_optimizer_steps": 866,
+      "epoch1_supervised_tokens": 1090798,
+      "actual_exposures": 13832,
+      "input_tokens": 4116548,
+      "supervised_tokens": 2181462,
+      "trainer_runtime_seconds": 5090.8219,
+      "assigned_training_gpus": 2,
+      "per_rank_peak_memory": [
+        {
+          "rank": 0,
+          "max_torch_allocated_bytes": 22165467648,
+          "max_torch_reserved_bytes": 24190648320,
+          "max_rss_kib": 5188116
+        },
+        {
+          "rank": 1,
+          "max_torch_allocated_bytes": 22165496832,
+          "max_torch_reserved_bytes": 24190648320,
+          "max_rss_kib": 2974624
+        }
+      ],
+      "epoch_checkpoint_costs": [
+        {
+          "epoch": 1,
+          "steps": 433,
+          "cumulative_input_tokens": 2058375,
+          "cumulative_supervised_tokens": 1090798,
+          "cumulative_exposures": 6916,
+          "cumulative_callback_elapsed_seconds": 2552.1640408392996,
+          "cumulative_two_gpu_hours_to_checkpoint": 1.4178689115773886
+        },
+        {
+          "epoch": 2,
+          "steps": 866,
+          "cumulative_input_tokens": 4116548,
+          "cumulative_supervised_tokens": 2181462,
+          "cumulative_exposures": 13832,
+          "cumulative_callback_elapsed_seconds": 5094.132292956114,
+          "cumulative_two_gpu_hours_to_checkpoint": 2.83007349608673
+        }
+      ],
+      "trainer_gradient_norm_log_records": 173,
+      "trainer_gpu_hours": 2.828234388888889,
+      "actual_input_tokens_per_second": 808.6214919441594,
+      "actual_supervised_tokens_per_second": 428.5088032641645
+    },
+    {
+      "language": "bn",
+      "source_records_per_epoch": 6058,
+      "epochs": 2,
+      "optimizer_steps": 758,
+      "epoch1_optimizer_steps": 379,
+      "epoch2_optimizer_steps": 758,
+      "epoch1_supervised_tokens": 1656946,
+      "actual_exposures": 12120,
+      "input_tokens": 6599127,
+      "supervised_tokens": 3313900,
+      "trainer_runtime_seconds": 4967.6808,
+      "assigned_training_gpus": 2,
+      "per_rank_peak_memory": [
+        {
+          "rank": 0,
+          "max_torch_allocated_bytes": 24515237376,
+          "max_torch_reserved_bytes": 24920457216,
+          "max_rss_kib": 5271936
+        },
+        {
+          "rank": 1,
+          "max_torch_allocated_bytes": 24515218944,
+          "max_torch_reserved_bytes": 24899485696,
+          "max_rss_kib": 2984872
+        }
+      ],
+      "epoch_checkpoint_costs": [
+        {
+          "epoch": 1,
+          "steps": 379,
+          "cumulative_input_tokens": 3299439,
+          "cumulative_supervised_tokens": 1656946,
+          "cumulative_exposures": 6060,
+          "cumulative_callback_elapsed_seconds": 2488.0052592270076,
+          "cumulative_two_gpu_hours_to_checkpoint": 1.3822251440150042
+        },
+        {
+          "epoch": 2,
+          "steps": 758,
+          "cumulative_input_tokens": 6599127,
+          "cumulative_supervised_tokens": 3313900,
+          "cumulative_exposures": 12120,
+          "cumulative_callback_elapsed_seconds": 4970.672368263826,
+          "cumulative_two_gpu_hours_to_checkpoint": 2.761484649035459
+        }
+      ],
+      "trainer_gradient_norm_log_records": 151,
+      "trainer_gpu_hours": 2.7598226666666665,
+      "actual_input_tokens_per_second": 1328.4120428993747,
+      "actual_supervised_tokens_per_second": 667.0919757968346
+    },
+    {
+      "language": "ja",
+      "source_records_per_epoch": 7024,
+      "epochs": 2,
+      "optimizer_steps": 878,
+      "epoch1_optimizer_steps": 439,
+      "epoch2_optimizer_steps": 878,
+      "epoch1_supervised_tokens": 926867,
+      "actual_exposures": 14048,
+      "input_tokens": 3503920,
+      "supervised_tokens": 1853734,
+      "trainer_runtime_seconds": 5102.6723,
+      "assigned_training_gpus": 2,
+      "per_rank_peak_memory": [
+        {
+          "rank": 0,
+          "max_torch_allocated_bytes": 20747952640,
+          "max_torch_reserved_bytes": 24106762240,
+          "max_rss_kib": 5212356
+        },
+        {
+          "rank": 1,
+          "max_torch_allocated_bytes": 20747836416,
+          "max_torch_reserved_bytes": 24106762240,
+          "max_rss_kib": 2979664
+        }
+      ],
+      "epoch_checkpoint_costs": [
+        {
+          "epoch": 1,
+          "steps": 439,
+          "cumulative_input_tokens": 1751960,
+          "cumulative_supervised_tokens": 926867,
+          "cumulative_exposures": 7024,
+          "cumulative_callback_elapsed_seconds": 2555.0050946958363,
+          "cumulative_two_gpu_hours_to_checkpoint": 1.41944727483102
+        },
+        {
+          "epoch": 2,
+          "steps": 878,
+          "cumulative_input_tokens": 3503920,
+          "cumulative_supervised_tokens": 1853734,
+          "cumulative_exposures": 14048,
+          "cumulative_callback_elapsed_seconds": 5105.792985660955,
+          "cumulative_two_gpu_hours_to_checkpoint": 2.8365516587005306
+        }
+      ],
+      "trainer_gradient_norm_log_records": 175,
+      "trainer_gpu_hours": 2.8348179444444446,
+      "actual_input_tokens_per_second": 686.6833286550657,
+      "actual_supervised_tokens_per_second": 363.28689968979586
+    }
+  ],
+  "route_A_allocation_jobs": [
+    {
+      "job": "mathoctopus_sw_full_2epochs_seed42_v1",
+      "kind": "train",
+      "assigned_gpu_count": 2,
+      "allocation_wall_seconds": 5144.077614545822,
+      "allocation_gpu_hours": 2.8578208969699013,
+      "exit_code": 0
+    },
+    {
+      "job": "mathoctopus_bn_full_2epochs_seed42_v1",
+      "kind": "train",
+      "assigned_gpu_count": 2,
+      "allocation_wall_seconds": 5022.258398532867,
+      "allocation_gpu_hours": 2.790143554740482,
+      "exit_code": 0
+    },
+    {
+      "job": "mathoctopus_ja_full_2epochs_seed42_v1",
+      "kind": "train",
+      "assigned_gpu_count": 2,
+      "allocation_wall_seconds": 5159.256268024445,
+      "allocation_gpu_hours": 2.8662534822358023,
+      "exit_code": 0
+    },
+    {
+      "job": "A-sw-epoch1-full-eval-v1",
+      "kind": "eval",
+      "assigned_gpu_count": 1,
+      "allocation_wall_seconds": 2800.293438911438,
+      "allocation_gpu_hours": 0.7778592885865105,
+      "exit_code": 0
+    },
+    {
+      "job": "A-sw-epoch2-full-eval-v1",
+      "kind": "eval",
+      "assigned_gpu_count": 1,
+      "allocation_wall_seconds": 2663.288249731064,
+      "allocation_gpu_hours": 0.7398022915919622,
+      "exit_code": 0
+    },
+    {
+      "job": "A-bn-epoch1-full-eval-v1",
+      "kind": "eval",
+      "assigned_gpu_count": 1,
+      "allocation_wall_seconds": 2815.490170955658,
+      "allocation_gpu_hours": 0.7820806030432383,
+      "exit_code": 0
+    },
+    {
+      "job": "A-bn-epoch2-full-eval-v1",
+      "kind": "eval",
+      "assigned_gpu_count": 1,
+      "allocation_wall_seconds": 2678.493507385254,
+      "allocation_gpu_hours": 0.7440259742736817,
+      "exit_code": 0
+    },
+    {
+      "job": "A-ja-epoch1-full-eval-v1",
+      "kind": "eval",
+      "assigned_gpu_count": 1,
+      "allocation_wall_seconds": 2662.50950217247,
+      "allocation_gpu_hours": 0.7395859728256862,
+      "exit_code": 0
+    },
+    {
+      "job": "A-ja-epoch2-full-eval-v1",
+      "kind": "eval",
+      "assigned_gpu_count": 1,
+      "allocation_wall_seconds": 2556.015765428543,
+      "allocation_gpu_hours": 0.7100043792857064,
+      "exit_code": 0
+    }
+  ],
+  "route_A_total_allocation_gpu_hours": 13.00757644355297,
+  "nine_language_base_generation": [
+    {
+      "worker": 1,
+      "status": "COMPLETE",
+      "samples": 5250,
+      "seconds": 1814.7259873636067,
+      "input_tokens": 958747,
+      "generated_tokens": 3552050,
+      "predictions_sha256": "4ba016aa3e5dc52baeae259252c7c2c8c406c0f0a16ceb1a850f16b021a117af"
+    },
+    {
+      "worker": 2,
+      "status": "COMPLETE",
+      "samples": 5250,
+      "seconds": 1211.190754674375,
+      "input_tokens": 583692,
+      "generated_tokens": 2319489,
+      "predictions_sha256": "8008903d40efa1af95769e53d60a3e73ae14b6c40dd0aad89c69d2990bc7e931"
+    },
+    {
+      "worker": 3,
+      "status": "COMPLETE",
+      "samples": 5250,
+      "seconds": 1185.2476349081844,
+      "input_tokens": 593799,
+      "generated_tokens": 2303228,
+      "predictions_sha256": "01b3cd97a6b0a3cc34b0f4597c9a8224c9acae809ce91876ffe5e92b2e83d0bc"
+    }
+  ],
+  "engineering_validation_trainer_runtime_seconds": 44.1223,
+  "gpu_evaluation_phases": [
+    {
+      "role": "Base-general",
+      "status": "COMPLETE",
+      "receipt_sha256": "0e6afe38a18302fc5c7424a9c33086d2a6734e330683eb8f89658d534d1a7a11",
+      "reported_seconds": 1620.959958679974,
+      "gpu_count": 1
+    },
+    {
+      "role": "sw-E1",
+      "status": "COMPLETE",
+      "receipt_sha256": "c4939f8a737dd91b8bd2bcf42038d9aed76b99d0a13768b8377503c76ed2122f",
+      "reported_seconds": null,
+      "gpu_count": 1
+    },
+    {
+      "role": "sw-E2",
+      "status": "COMPLETE",
+      "receipt_sha256": "7a590645b3632fa2ea95e4d5b5c75ee2da37f37c4ec1f044e776f67f68028e18",
+      "reported_seconds": null,
+      "gpu_count": 1
+    },
+    {
+      "role": "bn-E1",
+      "status": "COMPLETE",
+      "receipt_sha256": "6585859917e73da52f64cd2e4671d6afec62bc743fb106f6d196242df57b2223",
+      "reported_seconds": null,
+      "gpu_count": 1
+    },
+    {
+      "role": "bn-E2",
+      "status": "COMPLETE",
+      "receipt_sha256": "287c36b538daed255f0e7dde16b88f2892640bbc0bff66113ebf718fb21dd795",
+      "reported_seconds": null,
+      "gpu_count": 1
+    },
+    {
+      "role": "ja-E1",
+      "status": "COMPLETE",
+      "receipt_sha256": "886072f4b5fa52be771684601902cb75c2587e369123fb87672d43acc28fe025",
+      "reported_seconds": null,
+      "gpu_count": 1
+    },
+    {
+      "role": "ja-E2",
+      "status": "COMPLETE",
+      "receipt_sha256": "e29660daf111c0f9c3fc9b619846fd904a325209661b36b979618e743f14e6b0",
+      "reported_seconds": null,
+      "gpu_count": 1
+    }
+  ],
+  "training_total_trainer_gpu_hours": 8.422875000000001,
+  "scope": "Trainer runtimes include trainer checkpoint activity; multiplied by two assigned GPUs. Evaluation phase wall time is reported separately, may contain CPU loading/waits and does not measure kernel active time. Nine-language Base census, engineering validation, audit CPU and queue reservation overhead are additional costs, not included in trainer-only total. FLOP counter from stock trainer is not treated as reliable measured device FLOPs."
+}

@@ -6,6 +6,7 @@
 
 - **[最新阶段结果完整表（2026-11-05）](stage_results_20261105.md)**
 - [给ChatGPT的交接](chatgpt_handoff.md)
+- [完整实验报告：六张主表](final_report.md)
 - [研究结论与当前完成状态](research_conclusion.md)
 - [冻结协议](protocol.md)
 - [九语言 Base 普查](base_language_screening.md)

@@ -1,0 +1,362 @@
+[
+  {
+    "language": "sw",
+    "before_epoch": 0,
+    "after_epoch": 1,
+    "metric": "PolyMath DW-ACC (unrounded counts, official weights)",
+    "delta_pp_unrounded": -2.506666666666667,
+    "paired_stratified_bootstrap95_pp": [
+      -4.32,
+      -0.96
+    ],
+    "bootstrap_replicates": 10000,
+    "seed": 42,
+    "difficulty_pair_counts": [
+      {
+        "level": "low",
+        "n": 125,
+        "right_to_wrong": 7,
+        "wrong_to_right": 16
+      },
+      {
+        "level": "medium",
+        "n": 125,
+        "right_to_wrong": 13,
+        "wrong_to_right": 1
+      },
+      {
+        "level": "high",
+        "n": 125,
+        "right_to_wrong": 4,
+        "wrong_to_right": 0
+      },
+      {
+        "level": "top",
+        "n": 125,
+        "right_to_wrong": 2,
+        "wrong_to_right": 0
+      }
+    ],
+    "note": "Official displayed DW-ACC first rounds per-level percentages; inferential statistic uses exact paired rates, independent resampling within each difficulty."
+  },
+  {
+    "language": "sw",
+    "before_epoch": 0,
+    "after_epoch": 2,
+    "metric": "PolyMath DW-ACC (unrounded counts, official weights)",
+    "delta_pp_unrounded": -2.4533333333333336,
+    "paired_stratified_bootstrap95_pp": [
+      -4.266666666666667,
+      -0.906666666666667
+    ],
+    "bootstrap_replicates": 10000,
+    "seed": 42,
+    "difficulty_pair_counts": [
+      {
+        "level": "low",
+        "n": 125,
+        "right_to_wrong": 5,
+        "wrong_to_right": 17
+      },
+      {
+        "level": "medium",
+        "n": 125,
+        "right_to_wrong": 13,
+        "wrong_to_right": 0
+      },
+      {
+        "level": "high",
+        "n": 125,
+        "right_to_wrong": 4,
+        "wrong_to_right": 0
+      },
+      {
+        "level": "top",
+        "n": 125,
+        "right_to_wrong": 2,
+        "wrong_to_right": 0
+      }
+    ],
+    "note": "Official displayed DW-ACC first rounds per-level percentages; inferential statistic uses exact paired rates, independent resampling within each difficulty."
+  },
+  {
+    "language": "sw",
+    "before_epoch": 1,
+    "after_epoch": 2,
+    "metric": "PolyMath DW-ACC (unrounded counts, official weights)",
+    "delta_pp_unrounded": 0.05333333333333333,
+    "paired_stratified_bootstrap95_pp": [
+      -0.4266666666666667,
+      0.5333333333333333
+    ],
+    "bootstrap_replicates": 10000,
+    "seed": 42,
+    "difficulty_pair_counts": [
+      {
+        "level": "low",
+        "n": 125,
+        "right_to_wrong": 7,
+        "wrong_to_right": 10
+      },
+      {
+        "level": "medium",
+        "n": 125,
+        "right_to_wrong": 1,
+        "wrong_to_right": 0
+      },
+      {
+        "level": "high",
+        "n": 125,
+        "right_to_wrong": 0,
+        "wrong_to_right": 0
+      },
+      {
+        "level": "top",
+        "n": 125,
+        "right_to_wrong": 0,
+        "wrong_to_right": 0
+      }
+    ],
+    "note": "Official displayed DW-ACC first rounds per-level percentages; inferential statistic uses exact paired rates, independent resampling within each difficulty."
+  },
+  {
+    "language": "bn",
+    "before_epoch": 0,
+    "after_epoch": 1,
+    "metric": "PolyMath DW-ACC (unrounded counts, official weights)",
+    "delta_pp_unrounded": -3.733333333333333,
+    "paired_stratified_bootstrap95_pp": [
+      -5.066666666666666,
+      -2.6133333333333333
+    ],
+    "bootstrap_replicates": 10000,
+    "seed": 42,
+    "difficulty_pair_counts": [
+      {
+        "level": "low",
+        "n": 125,
+        "right_to_wrong": 44,
+        "wrong_to_right": 0
+      },
+      {
+        "level": "medium",
+        "n": 125,
+        "right_to_wrong": 8,
+        "wrong_to_right": 1
+      },
+      {
+        "level": "high",
+        "n": 125,
+        "right_to_wrong": 1,
+        "wrong_to_right": 0
+      },
+      {
+        "level": "top",
+        "n": 125,
+        "right_to_wrong": 1,
+        "wrong_to_right": 0
+      }
+    ],
+    "note": "Official displayed DW-ACC first rounds per-level percentages; inferential statistic uses exact paired rates, independent resampling within each difficulty."
+  },
+  {
+    "language": "bn",
+    "before_epoch": 0,
+    "after_epoch": 2,
+    "metric": "PolyMath DW-ACC (unrounded counts, official weights)",
+    "delta_pp_unrounded": -3.7333333333333334,
+    "paired_stratified_bootstrap95_pp": [
+      -5.493333333333334,
+      -2.0799999999999996
+    ],
+    "bootstrap_replicates": 10000,
+    "seed": 42,
+    "difficulty_pair_counts": [
+      {
+        "level": "low",
+        "n": 125,
+        "right_to_wrong": 43,
+        "wrong_to_right": 1
+      },
+      {
+        "level": "medium",
+        "n": 125,
+        "right_to_wrong": 8,
+        "wrong_to_right": 0
+      },
+      {
+        "level": "high",
+        "n": 125,
+        "right_to_wrong": 1,
+        "wrong_to_right": 0
+      },
+      {
+        "level": "top",
+        "n": 125,
+        "right_to_wrong": 2,
+        "wrong_to_right": 1
+      }
+    ],
+    "note": "Official displayed DW-ACC first rounds per-level percentages; inferential statistic uses exact paired rates, independent resampling within each difficulty."
+  },
+  {
+    "language": "bn",
+    "before_epoch": 1,
+    "after_epoch": 2,
+    "metric": "PolyMath DW-ACC (unrounded counts, official weights)",
+    "delta_pp_unrounded": 0.0,
+    "paired_stratified_bootstrap95_pp": [
+      -1.28,
+      1.2266666666666668
+    ],
+    "bootstrap_replicates": 10000,
+    "seed": 42,
+    "difficulty_pair_counts": [
+      {
+        "level": "low",
+        "n": 125,
+        "right_to_wrong": 2,
+        "wrong_to_right": 4
+      },
+      {
+        "level": "medium",
+        "n": 125,
+        "right_to_wrong": 1,
+        "wrong_to_right": 0
+      },
+      {
+        "level": "high",
+        "n": 125,
+        "right_to_wrong": 0,
+        "wrong_to_right": 0
+      },
+      {
+        "level": "top",
+        "n": 125,
+        "right_to_wrong": 1,
+        "wrong_to_right": 1
+      }
+    ],
+    "note": "Official displayed DW-ACC first rounds per-level percentages; inferential statistic uses exact paired rates, independent resampling within each difficulty."
+  },
+  {
+    "language": "ja",
+    "before_epoch": 0,
+    "after_epoch": 1,
+    "metric": "PolyMath DW-ACC (unrounded counts, official weights)",
+    "delta_pp_unrounded": -6.026666666666666,
+    "paired_stratified_bootstrap95_pp": [
+      -8.106666666666667,
+      -4.0
+    ],
+    "bootstrap_replicates": 10000,
+    "seed": 42,
+    "difficulty_pair_counts": [
+      {
+        "level": "low",
+        "n": 125,
+        "right_to_wrong": 51,
+        "wrong_to_right": 0
+      },
+      {
+        "level": "medium",
+        "n": 125,
+        "right_to_wrong": 13,
+        "wrong_to_right": 0
+      },
+      {
+        "level": "high",
+        "n": 125,
+        "right_to_wrong": 7,
+        "wrong_to_right": 0
+      },
+      {
+        "level": "top",
+        "n": 125,
+        "right_to_wrong": 2,
+        "wrong_to_right": 1
+      }
+    ],
+    "note": "Official displayed DW-ACC first rounds per-level percentages; inferential statistic uses exact paired rates, independent resampling within each difficulty."
+  },
+  {
+    "language": "ja",
+    "before_epoch": 0,
+    "after_epoch": 2,
+    "metric": "PolyMath DW-ACC (unrounded counts, official weights)",
+    "delta_pp_unrounded": -5.653333333333333,
+    "paired_stratified_bootstrap95_pp": [
+      -7.840000000000001,
+      -3.466666666666667
+    ],
+    "bootstrap_replicates": 10000,
+    "seed": 42,
+    "difficulty_pair_counts": [
+      {
+        "level": "low",
+        "n": 125,
+        "right_to_wrong": 54,
+        "wrong_to_right": 2
+      },
+      {
+        "level": "medium",
+        "n": 125,
+        "right_to_wrong": 13,
+        "wrong_to_right": 0
+      },
+      {
+        "level": "high",
+        "n": 125,
+        "right_to_wrong": 7,
+        "wrong_to_right": 0
+      },
+      {
+        "level": "top",
+        "n": 125,
+        "right_to_wrong": 2,
+        "wrong_to_right": 2
+      }
+    ],
+    "note": "Official displayed DW-ACC first rounds per-level percentages; inferential statistic uses exact paired rates, independent resampling within each difficulty."
+  },
+  {
+    "language": "ja",
+    "before_epoch": 1,
+    "after_epoch": 2,
+    "metric": "PolyMath DW-ACC (unrounded counts, official weights)",
+    "delta_pp_unrounded": 0.37333333333333335,
+    "paired_stratified_bootstrap95_pp": [
+      -1.0666666666666667,
+      1.9200000000000002
+    ],
+    "bootstrap_replicates": 10000,
+    "seed": 42,
+    "difficulty_pair_counts": [
+      {
+        "level": "low",
+        "n": 125,
+        "right_to_wrong": 6,
+        "wrong_to_right": 5
+      },
+      {
+        "level": "medium",
+        "n": 125,
+        "right_to_wrong": 0,
+        "wrong_to_right": 0
+      },
+      {
+        "level": "high",
+        "n": 125,
+        "right_to_wrong": 0,
+        "wrong_to_right": 0
+      },
+      {
+        "level": "top",
+        "n": 125,
+        "right_to_wrong": 1,
+        "wrong_to_right": 2
+      }
+    ],
+    "note": "Official displayed DW-ACC first rounds per-level percentages; inferential statistic uses exact paired rates, independent resampling within each difficulty."
+  }
+]

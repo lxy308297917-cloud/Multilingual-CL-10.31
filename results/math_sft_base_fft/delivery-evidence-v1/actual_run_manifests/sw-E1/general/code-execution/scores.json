@@ -1,0 +1,21 @@
+{
+  "status": "COMPLETE",
+  "n": 164,
+  "pass_at_1_base": 0.6036585365853658,
+  "pass_at_1_plus": 0.5487804878048781,
+  "base_correct": 99,
+  "plus_correct": 90,
+  "seconds_model_execution": 112.81411915458739,
+  "protocol": "EvalPlus0.3.1+find_zero-bookkeeping; 4GiB/process,2 processes,2 parallel isolated namespaces,120s outer wall; real execution; plus requires base and plus pass",
+  "generation_manifest_sha256": "570bab2364d0f6d3450e6889c4e1204601bf748bb3de47f3544b5b5a515c3a7c",
+  "generation_predictions_sha256": "3d9b72f0e374ec8c85f78231ab593ce301a4a5f82201c4382b32db447c47e264",
+  "executor_identity": {
+    "isolation.py": "495dc49445914635f22b582514e4a40ce3704c86ce13d97aa061e02246bf6836",
+    "kernel_limits.py": "41b448af0c422885400193436d2cadfa7fa88bb2abff5b07c2ae8b60cb45668d",
+    "evaluate_one.py": "3348c39fd21517aecbfe7bf859f6396bdecc203142a92acc36613dc3a42492cb",
+    "runtime-manifest.json": "49239b30dfe3c03e96d6053d94112c886787b2ae9553947ae531c38270630b0a",
+    "execution-proof.json": "06dccc338f968d98e04e3446e9bb7b0b58f4644b40e503eba5cdcdfc15d6fed4",
+    "fixed_namespace_policy.py": "c4eefc8f26de9a45cad8153ae3b0c9ab155044ab640fe1ff3109f3f0457d2e86",
+    "raw_sha256": "42526ec0e7d5f3ee0b06d6ced98f8c8bae3d76519151bfb3d36f79010645bd7f"
+  }
+}

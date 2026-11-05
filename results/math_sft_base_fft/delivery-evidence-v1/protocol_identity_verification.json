@@ -1,0 +1,255 @@
+{
+  "status": "PASSED_ACTUAL_ROLE_PROTOCOL_IDENTITIES",
+  "math_protocol_sha256": "1d4bec88980e9228e30bd770cf5a91c991dfb442a3a9a244ee51f4ec660cee56",
+  "model_roles_checked": 7,
+  "base_census_workers_checked": 3,
+  "canonical_references_passed": 164,
+  "canonical_result_sha256": "59d39f762e4ab6034b950d02646959d56f95c311a4a3ebf0cbedd149f66f4015",
+  "executor_identity": {
+    "isolation.py": "495dc49445914635f22b582514e4a40ce3704c86ce13d97aa061e02246bf6836",
+    "kernel_limits.py": "41b448af0c422885400193436d2cadfa7fa88bb2abff5b07c2ae8b60cb45668d",
+    "evaluate_one.py": "3348c39fd21517aecbfe7bf859f6396bdecc203142a92acc36613dc3a42492cb",
+    "runtime-manifest.json": "49239b30dfe3c03e96d6053d94112c886787b2ae9553947ae531c38270630b0a",
+    "execution-proof.json": "06dccc338f968d98e04e3446e9bb7b0b58f4644b40e503eba5cdcdfc15d6fed4",
+    "fixed_namespace_policy.py": "c4eefc8f26de9a45cad8153ae3b0c9ab155044ab640fe1ff3109f3f0457d2e86",
+    "raw_sha256": "42526ec0e7d5f3ee0b06d6ced98f8c8bae3d76519151bfb3d36f79010645bd7f"
+  },
+  "polymath_equivalence_calibration": {
+    "cases": [
+      {
+        "id": "fraction",
+        "extracted": "\\frac{1}{2}",
+        "correct": true,
+        "box_parse": true
+      },
+      {
+        "id": "symbolic",
+        "extracted": "(x+1)^2",
+        "correct": true,
+        "box_parse": true
+      },
+      {
+        "id": "wrong",
+        "extracted": "3",
+        "correct": false,
+        "box_parse": true
+      },
+      {
+        "id": "first_box",
+        "extracted": "2",
+        "correct": true,
+        "box_parse": true
+      },
+      {
+        "id": "no_box",
+        "extracted": null,
+        "correct": false,
+        "box_parse": false
+      },
+      {
+        "id": "sqrt",
+        "extracted": "\\sqrt{4}",
+        "correct": true,
+        "box_parse": true
+      }
+    ],
+    "official_code_revision": "fbf4e41cae78687d6be7447dbea897357c06aaa7",
+    "worker_sha256": "883af3a186477acd81544408f021844fde124ca80cb1559679a8c1338d3d5f48"
+  },
+  "proofs": [
+    {
+      "role": "base-census-worker1-v1",
+      "weights_sha256": {
+        "model-00001-of-00002.safetensors": "169ad53ec313c3a34b06c0809216e4fc072cce444a5d4ff2b59690d064130ed5",
+        "model-00002-of-00002.safetensors": "912becff8d60672aa8628ef08c05898d9adf17c2ad4ae3caf99b065622fdeff9"
+      },
+      "math_engine": {
+        "engine": "V1",
+        "actual_log_sha256": "e6d2da4e13c582ba2254a716b9b787e1cda22fd3ecca93409d29c4390213c5c8",
+        "initialization_marker": "Initializing a V1 LLM engine (v0.9.2)"
+      }
+    },
+    {
+      "role": "base-census-worker2-v1",
+      "weights_sha256": {
+        "model-00001-of-00002.safetensors": "169ad53ec313c3a34b06c0809216e4fc072cce444a5d4ff2b59690d064130ed5",
+        "model-00002-of-00002.safetensors": "912becff8d60672aa8628ef08c05898d9adf17c2ad4ae3caf99b065622fdeff9"
+      },
+      "math_engine": {
+        "engine": "V1",
+        "actual_log_sha256": "62d54c907f86f3c4fddcbd52d026d7b02f15c3d29b429c5243925739240302b7",
+        "initialization_marker": "Initializing a V1 LLM engine (v0.9.2)"
+      }
+    },
+    {
+      "role": "base-census-worker3-v1",
+      "weights_sha256": {
+        "model-00001-of-00002.safetensors": "169ad53ec313c3a34b06c0809216e4fc072cce444a5d4ff2b59690d064130ed5",
+        "model-00002-of-00002.safetensors": "912becff8d60672aa8628ef08c05898d9adf17c2ad4ae3caf99b065622fdeff9"
+      },
+      "math_engine": {
+        "engine": "V1",
+        "actual_log_sha256": "bbab58fb0cd02d726395a6b5569c2430304813bb1e5c4743e9415a64c6a8e3bd",
+        "initialization_marker": "Initializing a V1 LLM engine (v0.9.2)"
+      }
+    },
+    {
+      "role": "Base",
+      "weights_sha256": {
+        "model-00001-of-00002.safetensors": "169ad53ec313c3a34b06c0809216e4fc072cce444a5d4ff2b59690d064130ed5",
+        "model-00002-of-00002.safetensors": "912becff8d60672aa8628ef08c05898d9adf17c2ad4ae3caf99b065622fdeff9"
+      },
+      "same_frozen_general_tasks": true,
+      "same_code_data_template_decoding_backend_and_prompt_tokens": true,
+      "core_engine": {
+        "engine": "V0",
+        "actual_log_sha256": "c212879635c5b67e1fe97fe9c1f26c5330cf7ef6dbf590368ce5eb063415e3ef",
+        "initialization_marker": "Initializing a V0 LLM engine (v0.9.2)"
+      },
+      "code_engine": {
+        "engine": "V0",
+        "actual_log_sha256": "f0dc0c9c332ef38986dedd117db516d829ae2fd34c4d8a1938155f160b818fc8",
+        "initialization_marker": "Initializing a V0 LLM engine (v0.9.2)"
+      }
+    },
+    {
+      "role": "sw-E1",
+      "weights_sha256": {
+        "model.safetensors": "91abcd0ba0a0abd20cd2aca8738384b214c4e573a4aa45432df33e012043668d"
+      },
+      "same_frozen_general_tasks": true,
+      "same_code_data_template_decoding_backend_and_prompt_tokens": true,
+      "core_engine": {
+        "engine": "V0",
+        "actual_log_sha256": "0eebffe3ea00a5b2453dab47f760d9396dcf84193f270b06af467a4c4e1316f5",
+        "initialization_marker": "Initializing a V0 LLM engine (v0.9.2)"
+      },
+      "code_engine": {
+        "engine": "V0",
+        "actual_log_sha256": "51eb3536171701324a18d901fc3358f0efde1c3280944d2d59672209787c4b18",
+        "initialization_marker": "Initializing a V0 LLM engine (v0.9.2)"
+      },
+      "math_engine": {
+        "engine": "V1",
+        "actual_log_sha256": "5982b9489a1fcd899626dbfe517ecec0735d205771f4ccbb3504db0139fbc392",
+        "initialization_marker": "Initializing a V1 LLM engine (v0.9.2)"
+      }
+    },
+    {
+      "role": "sw-E2",
+      "weights_sha256": {
+        "model.safetensors": "b7ed4708ab8d70678225ddce0add7f1b498d00c3eb28e2a67a0bb57482b21ffb"
+      },
+      "same_frozen_general_tasks": true,
+      "same_code_data_template_decoding_backend_and_prompt_tokens": true,
+      "core_engine": {
+        "engine": "V0",
+        "actual_log_sha256": "4def9492034ce5a9f42e23ae0732bd20cff344bf7d9f90c7a08db19733d91d66",
+        "initialization_marker": "Initializing a V0 LLM engine (v0.9.2)"
+      },
+      "code_engine": {
+        "engine": "V0",
+        "actual_log_sha256": "3e2a1a04b628d6efbee8597b88395a8088596b0a3def8973a6a6e130aedd7c1f",
+        "initialization_marker": "Initializing a V0 LLM engine (v0.9.2)"
+      },
+      "math_engine": {
+        "engine": "V1",
+        "actual_log_sha256": "a2814c2901bfde03fc5e4acb5898a8bfcc004e0091e17c6110c1055fa7c2e65c",
+        "initialization_marker": "Initializing a V1 LLM engine (v0.9.2)"
+      }
+    },
+    {
+      "role": "bn-E1",
+      "weights_sha256": {
+        "model.safetensors": "8893b1d987e5d5699592d6a294211ee8b2c9670f105d16add8e7b832e078ed36"
+      },
+      "same_frozen_general_tasks": true,
+      "same_code_data_template_decoding_backend_and_prompt_tokens": true,
+      "core_engine": {
+        "engine": "V0",
+        "actual_log_sha256": "f18657639840b65bc7f8c08dee18aa6e2054e96ca1f841536c89f0c5159cb4d1",
+        "initialization_marker": "Initializing a V0 LLM engine (v0.9.2)"
+      },
+      "code_engine": {
+        "engine": "V0",
+        "actual_log_sha256": "6e0d0970f88de9f8949f1affa1261b0fae7b6851f833c6e4d00fd53bf6e13a09",
+        "initialization_marker": "Initializing a V0 LLM engine (v0.9.2)"
+      },
+      "math_engine": {
+        "engine": "V1",
+        "actual_log_sha256": "4ccba546d1895fd1dfa796bf9237cce6f03deacda3fb59d969131f27e06226e5",
+        "initialization_marker": "Initializing a V1 LLM engine (v0.9.2)"
+      }
+    },
+    {
+      "role": "bn-E2",
+      "weights_sha256": {
+        "model.safetensors": "10f0668fba63c251eb6f05685bbbb115496a096fa3a9b2c32dc51d20a0e0c39d"
+      },
+      "same_frozen_general_tasks": true,
+      "same_code_data_template_decoding_backend_and_prompt_tokens": true,
+      "core_engine": {
+        "engine": "V0",
+        "actual_log_sha256": "1ba768710441c5b182861fd05f00958c9e0a0a9a060385f29650f559c5bf0c94",
+        "initialization_marker": "Initializing a V0 LLM engine (v0.9.2)"
+      },
+      "code_engine": {
+        "engine": "V0",
+        "actual_log_sha256": "0942e6d55d9f3e9954a0b064bd24588e6e4f26662598a950a65a585a94b208dd",
+        "initialization_marker": "Initializing a V0 LLM engine (v0.9.2)"
+      },
+      "math_engine": {
+        "engine": "V1",
+        "actual_log_sha256": "19d8bb1a71b4fc636d098353e1dbaec91619aa7532ac1c7cc9f942578710b677",
+        "initialization_marker": "Initializing a V1 LLM engine (v0.9.2)"
+      }
+    },
+    {
+      "role": "ja-E1",
+      "weights_sha256": {
+        "model.safetensors": "3816d1c5d44117bb8166c6e9399f48c7578aad14ced7e3d3725edbbaa93c4729"
+      },
+      "same_frozen_general_tasks": true,
+      "same_code_data_template_decoding_backend_and_prompt_tokens": true,
+      "core_engine": {
+        "engine": "V0",
+        "actual_log_sha256": "1bfa038e5bdaa6cf18f0a4b8e67a56df7b73130b250233351bdd2e1c9ce2fd48",
+        "initialization_marker": "Initializing a V0 LLM engine (v0.9.2)"
+      },
+      "code_engine": {
+        "engine": "V0",
+        "actual_log_sha256": "ca6b5a89be302fbd943bdc3173f35042d3ae26ef9dc797a8b543d1b4bf6764f5",
+        "initialization_marker": "Initializing a V0 LLM engine (v0.9.2)"
+      },
+      "math_engine": {
+        "engine": "V1",
+        "actual_log_sha256": "ad6bc4dd88354307c1138df6afb4d3f9ff8d85299d9ee81c4726b2a2c2d9c741",
+        "initialization_marker": "Initializing a V1 LLM engine (v0.9.2)"
+      }
+    },
+    {
+      "role": "ja-E2",
+      "weights_sha256": {
+        "model.safetensors": "ba4711cffd8e5cbc8d9e7652a4c6b1ab9012878c910d72b042e160c91f06d068"
+      },
+      "same_frozen_general_tasks": true,
+      "same_code_data_template_decoding_backend_and_prompt_tokens": true,
+      "core_engine": {
+        "engine": "V0",
+        "actual_log_sha256": "f941003ba3ef888c632aa83c83630a9679f6102c7a4e813aa5a4c98f07da59d0",
+        "initialization_marker": "Initializing a V0 LLM engine (v0.9.2)"
+      },
+      "code_engine": {
+        "engine": "V0",
+        "actual_log_sha256": "1a7166ddb0ae7829c6c72980b23819774b86be98f86e037a779ce9541a3130f2",
+        "initialization_marker": "Initializing a V0 LLM engine (v0.9.2)"
+      },
+      "math_engine": {
+        "engine": "V1",
+        "actual_log_sha256": "7046f3088d9d5b9699a52f03bb2aaaedc6494d2ad400de3560fbc370711cfd99",
+        "initialization_marker": "Initializing a V1 LLM engine (v0.9.2)"
+      }
+    }
+  ],
+  "scope": "Actual logs, data, prompt, task, decoding/backend manifests and training/evaluation weight hashes compared across all fixed roles. Task-level paired analysis additionally checks each source/prompt/target hash; code output equivalence is not assumed."
+}

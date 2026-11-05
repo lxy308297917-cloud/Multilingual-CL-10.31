@@ -53,6 +53,16 @@ def main():
     old_intro = '当前执行：先完成九语言 Base 数学普查，再按冻结规则选择三种语言，独立从同一 Base 做完整两轮 FFT。没有启动新的顺序多语言或 My Method。'
     new_intro = '路线A已完成九语言Base普查、SW/BN/JA三组独立完整两轮FFT、六个节点全量正式评测和逐题配对分析。路线A状态：' + decision['status'] + '；路线B：' + decision['route_B'] + '。没有启动新的顺序多语言或My Method。'
     readme.write_text(old_readme.replace(old_intro, new_intro))
+    sections = [('1. 九语言Base数学普查', 'base_language_screening.md'), ('2. 三语言Base／E1／E2及全部预算差值', 'mathoctopus_epoch_comparison.md'), ('3. 英语与通用能力完整成绩', 'general_retention_results.md'), ('4. E2相对E1的逐题配对区间', 'epoch2_minus_epoch1.md'), ('5. 真实记录数、监督token、步数与GPU成本', 'cost_report.md'), ('6. 路线A／B状态及选择依据', 'route_selection_decision.md')]
+    report = '# 多语言数学SFT：Base／FFT完整实验报告\n\n' + status + '\n\n模型为固定官方后训练Qwen3-1.7B；三个语言独立从同一Base开始，未执行顺序语言训练或新方法。全部正式题、提示和各自评分协议冻结；这是已暴露benchmark引导的单种子探索。完整解释见[研究结论](research_conclusion.md)，生成/解析/难度诊断见[目标任务附表](target_math_results.md)，语言识别限制见[辅助诊断](output_language_diagnostics.md)。\n\n'
+    for heading, name in sections:
+        body = (D / name).read_text().split('\n', 1)[1].lstrip()
+        body = '\n'.join(('#' + line if line.startswith('#') else line for line in body.split('\n')))
+        report += '## ' + heading + '\n\n' + body + '\n\n'
+    (D / 'final_report.md').write_text(report)
+    handoff = D / 'chatgpt_handoff.md'
+    handoff.write_text(handoff.read_text().replace('请先阅读[研究结论与全节点总表]', '请先阅读[六张主表的完整实验报告](final_report.md)及[研究结论与全节点总表]'))
+    readme.write_text(readme.read_text().replace('- [研究结论与当前完成状态]', '- [完整实验报告：六张主表](final_report.md)\n- [研究结论与当前完成状态]'))
     print(json.dumps({'final_reports_written': True, 'route_A': decision['status'], 'route_B': decision['route_B']}))
 if __name__ == '__main__':
     main()

@@ -1,0 +1,13 @@
+{
+  "status": "COMPLETE_AUXILIARY_LANGUAGE_ID_DIAGNOSTIC",
+  "model": "GlotLID model_v3.bin",
+  "model_sha256": "a818b6bd42a628ab47d3dfc1578c7ea615c45381f3494c42535e31e8c4cafc9e",
+  "seed": 42,
+  "sample_rule": "Each math task selects the same 64 items by fixed ID hash; PolyMath stratifies 16 per difficulty. Up to 6000 output characters; fewer than 50 alphabetic characters not measured.",
+  "roles": 15,
+  "role_task_groups": 45,
+  "selected_outputs": 2880,
+  "used_GPU": false,
+  "not_used_for_scoring_selection_or_data_filtering": true,
+  "limitations": "Automatic language ID on formula-rich text is not human-verified output-language correctness. English technical/math fragments and script confusion can affect labels; short outputs remain explicitly unmeasured. No generated text or answer is exported."
+}

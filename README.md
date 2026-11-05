@@ -2,7 +2,7 @@
 
 ## 当前研究（2026-11-05）
 
-[数学单阶段 Base / 两轮 FFT](research/math_sft_base_fft/README.md)：九语言Base普查完成，按冻结规则选择SW/BN/JA，独立完整两轮；Epoch1与Epoch2均测完整目标数学和通用benchmark。三语言训练及目标数学已完成；SW提升，BN/JA未提升，JA通用测评尚在进行。路线A两个预算均未通过，路线B正在准备数据、尚未训练。详见[当前完整阶段表](research/math_sft_base_fft/stage_results_20261105.md)。旧GPU工作已按用户要求停止，已有结果保留。
+[三语言数学FFT完整路线A报告](research/math_sft_base_fft/final_report.md)：九语言Base普查、SW/BN/JA完整两轮FFT、六节点全部目标数学与通用benchmark、实际代码执行及配对分析已完成。路线A两个预算均未通过预定门槛，备用路线B正在准备数据、尚未训练，整体研究仍在执行。详见[给ChatGPT的交接](research/math_sft_base_fft/chatgpt_handoff.md)。
 
 
 ## 统一语言顺序实验：当前阶段

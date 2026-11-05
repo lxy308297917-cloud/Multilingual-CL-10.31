@@ -1,0 +1,115 @@
+{
+  "scope": "Answer-free per-item correctness and diagnostic flags. IDs hashed consistently; source/prompt identity retained. Raw questions, references, model outputs and generated programs omitted. General metrics are the four predeclared primary metrics; full auxiliary scalar metrics in all_roles.csv.",
+  "files": [
+    {
+      "file": "target_sw_E0.csv.gz",
+      "rows": 1750,
+      "sha256": "6831bcc9c7e2c6a18b5f3e31f92e33133777d2ffa03f453b4911024b5035dad3"
+    },
+    {
+      "file": "target_sw_E1.csv.gz",
+      "rows": 1750,
+      "sha256": "183c5ec280d5c3db48293610a15544b0424859b1227c69a493e44344fb826fd3"
+    },
+    {
+      "file": "target_sw_E2.csv.gz",
+      "rows": 1750,
+      "sha256": "8be5b43f3c74dd989af4930f797485af901f658492840322400a92bdefe1510f"
+    },
+    {
+      "file": "target_bn_E0.csv.gz",
+      "rows": 1750,
+      "sha256": "58944d51e51a6e8b01fddd28aab01e8dc01cf5185f3004372c56fe8f0561de51"
+    },
+    {
+      "file": "target_bn_E1.csv.gz",
+      "rows": 1750,
+      "sha256": "9412e6a9e66407bf1e8dfff4912bb632d3a9fece9e5cc1c2206aa860abc28e8d"
+    },
+    {
+      "file": "target_bn_E2.csv.gz",
+      "rows": 1750,
+      "sha256": "16b3b567043745735f729c7250921237b465c589d5c851a35b2602d51ccb4ea7"
+    },
+    {
+      "file": "target_th_E0.csv.gz",
+      "rows": 1750,
+      "sha256": "28ea3aa928d14c8e008b28d677df8e473c3c35af10950dd26c53f16adb523351"
+    },
+    {
+      "file": "target_ja_E0.csv.gz",
+      "rows": 1750,
+      "sha256": "2b121806a98372d26d1b8563dfa53e6aa596aed006f2fe860c73ac8010cbb5e2"
+    },
+    {
+      "file": "target_ja_E1.csv.gz",
+      "rows": 1750,
+      "sha256": "e8ceaac4da7ce60fb677670941df1b868ba1a7582afcdf5c45c995791597b42e"
+    },
+    {
+      "file": "target_ja_E2.csv.gz",
+      "rows": 1750,
+      "sha256": "f3215d1ff350bb15f399cc3553a647a20d2e76fba36fdcf76f3329b72cf21130"
+    },
+    {
+      "file": "target_zh_E0.csv.gz",
+      "rows": 1750,
+      "sha256": "8f11d923ad9a323b731f8f42ace48ed74b1f6fc11adcd638b5dbe39991b67999"
+    },
+    {
+      "file": "target_ru_E0.csv.gz",
+      "rows": 1750,
+      "sha256": "fc23df093cdf405092b1dbbdab6b9988cb6894c9d298a354d5779539d7f1aec4"
+    },
+    {
+      "file": "target_fr_E0.csv.gz",
+      "rows": 1750,
+      "sha256": "3efbd7e7c522a56f577e07e03f479022d77c67bd64128e8288dc0d6cb9942460"
+    },
+    {
+      "file": "target_de_E0.csv.gz",
+      "rows": 1750,
+      "sha256": "138b0be4375e2f4c0c51fdc9d832487888f9e0a1bf4ca44fcf9259d27760dfdc"
+    },
+    {
+      "file": "target_es_E0.csv.gz",
+      "rows": 1750,
+      "sha256": "32693558fd88c14ab7f8273635dd3dc64fc9e441a18a4c77b1f878a774a29a77"
+    },
+    {
+      "file": "general_Base.csv.gz",
+      "rows": 16066,
+      "sha256": "776cd201c34d64d950818225601f8dddbab81054aea371bd6b4445834f43ca5a"
+    },
+    {
+      "file": "general_sw-E1.csv.gz",
+      "rows": 16066,
+      "sha256": "e869bb23e92c953a9242fa1d5e90724438fa422703fe0e660aad640759c01997"
+    },
+    {
+      "file": "general_sw-E2.csv.gz",
+      "rows": 16066,
+      "sha256": "f8b489af93d7cd100dbeac7aac372b8ddb379ccaef1e4a2045b55fbd1201099a"
+    },
+    {
+      "file": "general_bn-E1.csv.gz",
+      "rows": 16066,
+      "sha256": "56a67a0c4a278c65a9f23f18040872e2b1244e99686c1cda36c51e8f32ccfdf7"
+    },
+    {
+      "file": "general_bn-E2.csv.gz",
+      "rows": 16066,
+      "sha256": "8313702d0069e7a41db31923c8536ea0d81d3dc26650e4c737cbf5421aa1ccb5"
+    },
+    {
+      "file": "general_ja-E1.csv.gz",
+      "rows": 16066,
+      "sha256": "d12d3421b76ac80af7f9d3f0e0b6e912d5446dc0b874327a703f36782a613e71"
+    },
+    {
+      "file": "general_ja-E2.csv.gz",
+      "rows": 16066,
+      "sha256": "0a5a10d87be7af084879ecaa984dd915606f4e304b9b653057a9699c2e069936"
+    }
+  ]
+}

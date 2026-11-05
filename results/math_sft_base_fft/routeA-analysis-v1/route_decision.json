@@ -1,0 +1,309 @@
+{
+  "route": "A",
+  "status": "FAIL_FIXED_E1_AND_E2_GATE",
+  "passing_languages_per_same_epoch": {
+    "1": 1,
+    "2": 1
+  },
+  "gate_details": [
+    {
+      "language": "sw",
+      "epoch": 1,
+      "passes": true,
+      "metrics": [
+        {
+          "language": "sw",
+          "before_epoch": 0,
+          "after_epoch": 1,
+          "task": "mgsm_rev2",
+          "n": 250,
+          "before_correct": 23,
+          "after_correct": 63,
+          "before_acc": 0.092,
+          "after_acc": 0.252,
+          "delta_pp": 16.0,
+          "right_to_wrong": 10,
+          "wrong_to_right": 50,
+          "paired_bootstrap95_pp": [
+            10.4,
+            21.6
+          ],
+          "bootstrap_replicates": 10000,
+          "bootstrap_seed": 42,
+          "inference_scope": "paired question uncertainty, single training seed; not training-seed stability or multiplicity-adjusted confirmatory inference"
+        },
+        {
+          "language": "sw",
+          "before_epoch": 0,
+          "after_epoch": 1,
+          "task": "msvamp",
+          "n": 1000,
+          "before_correct": 266,
+          "after_correct": 493,
+          "before_acc": 0.266,
+          "after_acc": 0.493,
+          "delta_pp": 22.7,
+          "right_to_wrong": 83,
+          "wrong_to_right": 310,
+          "paired_bootstrap95_pp": [
+            19.1,
+            26.3
+          ],
+          "bootstrap_replicates": 10000,
+          "bootstrap_seed": 42,
+          "inference_scope": "paired question uncertainty, single training seed; not training-seed stability or multiplicity-adjusted confirmatory inference"
+        }
+      ]
+    },
+    {
+      "language": "sw",
+      "epoch": 2,
+      "passes": true,
+      "metrics": [
+        {
+          "language": "sw",
+          "before_epoch": 0,
+          "after_epoch": 2,
+          "task": "mgsm_rev2",
+          "n": 250,
+          "before_correct": 23,
+          "after_correct": 84,
+          "before_acc": 0.092,
+          "after_acc": 0.336,
+          "delta_pp": 24.4,
+          "right_to_wrong": 8,
+          "wrong_to_right": 69,
+          "paired_bootstrap95_pp": [
+            18.4,
+            30.8
+          ],
+          "bootstrap_replicates": 10000,
+          "bootstrap_seed": 42,
+          "inference_scope": "paired question uncertainty, single training seed; not training-seed stability or multiplicity-adjusted confirmatory inference"
+        },
+        {
+          "language": "sw",
+          "before_epoch": 0,
+          "after_epoch": 2,
+          "task": "msvamp",
+          "n": 1000,
+          "before_correct": 266,
+          "after_correct": 491,
+          "before_acc": 0.266,
+          "after_acc": 0.491,
+          "delta_pp": 22.5,
+          "right_to_wrong": 79,
+          "wrong_to_right": 304,
+          "paired_bootstrap95_pp": [
+            19.0,
+            26.1
+          ],
+          "bootstrap_replicates": 10000,
+          "bootstrap_seed": 42,
+          "inference_scope": "paired question uncertainty, single training seed; not training-seed stability or multiplicity-adjusted confirmatory inference"
+        }
+      ]
+    },
+    {
+      "language": "bn",
+      "epoch": 1,
+      "passes": false,
+      "metrics": [
+        {
+          "language": "bn",
+          "before_epoch": 0,
+          "after_epoch": 1,
+          "task": "mgsm_rev2",
+          "n": 250,
+          "before_correct": 118,
+          "after_correct": 98,
+          "before_acc": 0.472,
+          "after_acc": 0.392,
+          "delta_pp": -8.0,
+          "right_to_wrong": 50,
+          "wrong_to_right": 30,
+          "paired_bootstrap95_pp": [
+            -14.799999999999999,
+            -1.2
+          ],
+          "bootstrap_replicates": 10000,
+          "bootstrap_seed": 42,
+          "inference_scope": "paired question uncertainty, single training seed; not training-seed stability or multiplicity-adjusted confirmatory inference"
+        },
+        {
+          "language": "bn",
+          "before_epoch": 0,
+          "after_epoch": 1,
+          "task": "msvamp",
+          "n": 1000,
+          "before_correct": 605,
+          "after_correct": 483,
+          "before_acc": 0.605,
+          "after_acc": 0.483,
+          "delta_pp": -12.2,
+          "right_to_wrong": 223,
+          "wrong_to_right": 101,
+          "paired_bootstrap95_pp": [
+            -15.6,
+            -8.799999999999999
+          ],
+          "bootstrap_replicates": 10000,
+          "bootstrap_seed": 42,
+          "inference_scope": "paired question uncertainty, single training seed; not training-seed stability or multiplicity-adjusted confirmatory inference"
+        }
+      ]
+    },
+    {
+      "language": "bn",
+      "epoch": 2,
+      "passes": false,
+      "metrics": [
+        {
+          "language": "bn",
+          "before_epoch": 0,
+          "after_epoch": 2,
+          "task": "mgsm_rev2",
+          "n": 250,
+          "before_correct": 118,
+          "after_correct": 117,
+          "before_acc": 0.472,
+          "after_acc": 0.468,
+          "delta_pp": -0.4,
+          "right_to_wrong": 36,
+          "wrong_to_right": 35,
+          "paired_bootstrap95_pp": [
+            -6.800000000000001,
+            6.0
+          ],
+          "bootstrap_replicates": 10000,
+          "bootstrap_seed": 42,
+          "inference_scope": "paired question uncertainty, single training seed; not training-seed stability or multiplicity-adjusted confirmatory inference"
+        },
+        {
+          "language": "bn",
+          "before_epoch": 0,
+          "after_epoch": 2,
+          "task": "msvamp",
+          "n": 1000,
+          "before_correct": 605,
+          "after_correct": 510,
+          "before_acc": 0.605,
+          "after_acc": 0.51,
+          "delta_pp": -9.5,
+          "right_to_wrong": 210,
+          "wrong_to_right": 115,
+          "paired_bootstrap95_pp": [
+            -12.902499999999998,
+            -6.1
+          ],
+          "bootstrap_replicates": 10000,
+          "bootstrap_seed": 42,
+          "inference_scope": "paired question uncertainty, single training seed; not training-seed stability or multiplicity-adjusted confirmatory inference"
+        }
+      ]
+    },
+    {
+      "language": "ja",
+      "epoch": 1,
+      "passes": false,
+      "metrics": [
+        {
+          "language": "ja",
+          "before_epoch": 0,
+          "after_epoch": 1,
+          "task": "mgsm_rev2",
+          "n": 250,
+          "before_correct": 156,
+          "after_correct": 117,
+          "before_acc": 0.624,
+          "after_acc": 0.468,
+          "delta_pp": -15.6,
+          "right_to_wrong": 60,
+          "wrong_to_right": 21,
+          "paired_bootstrap95_pp": [
+            -22.400000000000002,
+            -8.799999999999999
+          ],
+          "bootstrap_replicates": 10000,
+          "bootstrap_seed": 42,
+          "inference_scope": "paired question uncertainty, single training seed; not training-seed stability or multiplicity-adjusted confirmatory inference"
+        },
+        {
+          "language": "ja",
+          "before_epoch": 0,
+          "after_epoch": 1,
+          "task": "msvamp",
+          "n": 1000,
+          "before_correct": 764,
+          "after_correct": 605,
+          "before_acc": 0.764,
+          "after_acc": 0.605,
+          "delta_pp": -15.9,
+          "right_to_wrong": 230,
+          "wrong_to_right": 71,
+          "paired_bootstrap95_pp": [
+            -19.1,
+            -12.6
+          ],
+          "bootstrap_replicates": 10000,
+          "bootstrap_seed": 42,
+          "inference_scope": "paired question uncertainty, single training seed; not training-seed stability or multiplicity-adjusted confirmatory inference"
+        }
+      ]
+    },
+    {
+      "language": "ja",
+      "epoch": 2,
+      "passes": false,
+      "metrics": [
+        {
+          "language": "ja",
+          "before_epoch": 0,
+          "after_epoch": 2,
+          "task": "mgsm_rev2",
+          "n": 250,
+          "before_correct": 156,
+          "after_correct": 136,
+          "before_acc": 0.624,
+          "after_acc": 0.544,
+          "delta_pp": -8.0,
+          "right_to_wrong": 47,
+          "wrong_to_right": 27,
+          "paired_bootstrap95_pp": [
+            -14.799999999999999,
+            -1.6
+          ],
+          "bootstrap_replicates": 10000,
+          "bootstrap_seed": 42,
+          "inference_scope": "paired question uncertainty, single training seed; not training-seed stability or multiplicity-adjusted confirmatory inference"
+        },
+        {
+          "language": "ja",
+          "before_epoch": 0,
+          "after_epoch": 2,
+          "task": "msvamp",
+          "n": 1000,
+          "before_correct": 764,
+          "after_correct": 614,
+          "before_acc": 0.764,
+          "after_acc": 0.614,
+          "delta_pp": -15.0,
+          "right_to_wrong": 222,
+          "wrong_to_right": 72,
+          "paired_bootstrap95_pp": [
+            -18.2,
+            -11.799999999999999
+          ],
+          "bootstrap_replicates": 10000,
+          "bootstrap_seed": 42,
+          "inference_scope": "paired question uncertainty, single training seed; not training-seed stability or multiplicity-adjusted confirmatory inference"
+        }
+      ]
+    }
+  ],
+  "route_B": "AUTHORIZED_CONDITIONAL_READY_FOR_RESOURCE_AND_DATA_AUDIT",
+  "EN_decline_used_as_failure": false,
+  "all_epochs_and_languages_retained": true,
+  "scope": "BENCHMARK_GUIDED_EXPLORATORY_SINGLE_SEED",
+  "earlier_math_gate_sha256": "0b66c6d17c824dd78fb4c72318f797f7460f0009c293875118f75f0f7886de2b"
+}

@@ -1,0 +1,59 @@
+{
+  "inputs": [
+    {
+      "file": "data_inputs/sw/training_data.json.gz",
+      "uncompressed_sha256": "4a89c5709e9c6c9244372a7dd197e299ed218e4769b8a4920626971ae02a7cf9",
+      "compressed_sha256": "e9b55284668c94a7f3e078e0d26f23b67a1252c0b1fcbae274fcb3cc19140315",
+      "exact_original_bytes_after_decompression": true
+    },
+    {
+      "file": "data_inputs/sw/fingerprint_source_ids.json.gz",
+      "uncompressed_sha256": "8a261c2bc6b548c1ef0eba5bd411bae7db130dfed6b4f817d7761c324e659635",
+      "compressed_sha256": "6cc85f5483b06c8161edc9304f0e3e5a894ac83e8039af28b7386499433a5f4b",
+      "exact_original_bytes_after_decompression": true
+    },
+    {
+      "file": "data_inputs/sw/dataset_info.json.gz",
+      "uncompressed_sha256": "662ad0e783c10e3a1ce203c603b323e8ec297dce447d02369301674c7654311d",
+      "compressed_sha256": "0eed02e7b1b3bf60f6b23394be0b40ab9166a652c24591ee0a3f974f5c5ce0fd",
+      "exact_original_bytes_after_decompression": true
+    },
+    {
+      "file": "data_inputs/bn/training_data.json.gz",
+      "uncompressed_sha256": "df2b625c4200fb58e4fbdecada0cf6b3ec485d2078f6cbed7b998972af0078fb",
+      "compressed_sha256": "d1d63b76783fa1be0ae6bca782253355284f09f9b6d4c24d0d497b2b5641f173",
+      "exact_original_bytes_after_decompression": true
+    },
+    {
+      "file": "data_inputs/bn/fingerprint_source_ids.json.gz",
+      "uncompressed_sha256": "6946a3537d87d098b529578a4dad4abd2810b1aca9172d36cc5eac73dfddabeb",
+      "compressed_sha256": "93cc20c31c76890caac128c4a2dc2c490defa21ca9852fda41197bc2355d7a50",
+      "exact_original_bytes_after_decompression": true
+    },
+    {
+      "file": "data_inputs/bn/dataset_info.json.gz",
+      "uncompressed_sha256": "7a806f4085c27264dfb8e2bb3796ecf2649480abbc529bcd8afeb3b3fa83ab47",
+      "compressed_sha256": "374337f80878084eb340e9916477aafda005b944fcdd6d44fc53164c7d365b69",
+      "exact_original_bytes_after_decompression": true
+    },
+    {
+      "file": "data_inputs/ja/training_data.json.gz",
+      "uncompressed_sha256": "4faed9e484fc4c6542978b11e8fc48a9a6d313c00074362a968c84a616d73d86",
+      "compressed_sha256": "dc1ea50df291d43c0ff54051d027db809ee2f69a827b5a495e6f152ad6737c91",
+      "exact_original_bytes_after_decompression": true
+    },
+    {
+      "file": "data_inputs/ja/fingerprint_source_ids.json.gz",
+      "uncompressed_sha256": "1b85043f9fabe673b1d5533e7441aafc4734de8791df9df27308fbb0fe785beb",
+      "compressed_sha256": "9728b7b3bff3e8d84fcc9fbad0414bf272204272387bf6b32966192bc4ed2d9d",
+      "exact_original_bytes_after_decompression": true
+    },
+    {
+      "file": "data_inputs/ja/dataset_info.json.gz",
+      "uncompressed_sha256": "de474f7f7af2e83488ad03e116c0b40a755bb9d33ba7d3847f7b286cb938496f",
+      "compressed_sha256": "75da351f4ba077cf863598ae6b0535a950f0b5fb26fd4b3308c49cbf07a056d0",
+      "exact_original_bytes_after_decompression": true
+    }
+  ],
+  "scope": "Original frozen training metadata and input-label/source-ID fingerprints; compressed exactly. No raw question, answer, token sequence or host path."
+}

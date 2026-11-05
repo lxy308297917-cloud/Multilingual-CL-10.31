@@ -1,0 +1,24 @@
+{
+  "role": "A-ja-E1",
+  "model": "${CHECKPOINTS}/mathoctopus_ja_full_2epochs_seed42_v1/checkpoint-439",
+  "weights_sha256": {
+    "model.safetensors": "3816d1c5d44117bb8166c6e9399f48c7578aad14ced7e3d3725edbbaa93c4729"
+  },
+  "protocol_sha256": "1d4bec88980e9228e30bd770cf5a91c991dfb442a3a9a244ee51f4ec660cee56",
+  "assets": {
+    "ja_eval.jsonl": "05f91e7c0c62a94d6477a7e28024947215c1bab407b9e86047828afe41d2fea7"
+  },
+  "generation": {
+    "temperature": 0,
+    "top_p": 1,
+    "seed": 42,
+    "max_model_len": 8192,
+    "mgsm_msvamp_max_new_tokens": 1280,
+    "polymath_max_new_tokens": 2048,
+    "max_num_seqs": 32,
+    "max_num_batched_tokens": 8192,
+    "gpu_memory_utilization": 0.8
+  },
+  "code_sha256": "0777cded37c7f848951a6f5ccb28c53bad508ea1a61d1629a2d7d23cf839c8d8",
+  "common_sha256": "bd55e82ee88b0c57122961848843dd5474de09203d4e5821f6865c79eebd4152"
+}

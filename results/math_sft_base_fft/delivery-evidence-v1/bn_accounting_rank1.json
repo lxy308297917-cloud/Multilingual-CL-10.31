@@ -1,0 +1,28 @@
+{
+  "step": 758,
+  "resume_initial_step": 0,
+  "local_counts": {
+    "samples": 6060,
+    "input_tokens": 3290544,
+    "shifted_assistant_tokens": 1651795,
+    "padded_positions": 3968016
+  },
+  "global_counts": {
+    "samples": 12120,
+    "input_tokens": 6599127,
+    "shifted_assistant_tokens": 3313900,
+    "padded_positions": 7978976
+  },
+  "elapsed_this_process_seconds": 4978.855836573988,
+  "max_memory_allocated": 24515218944,
+  "max_memory_reserved": 24899485696,
+  "max_rss_kib": 2984872,
+  "parameters": {
+    "unique_model_parameters": 1720574976,
+    "trainable_unique_parameters": 1720574976
+  },
+  "world_size": 2,
+  "exposure_file_sha256": "cb187dfd2b06a283f6882328f445d0f54856d259314bab5236d609e623f99f79",
+  "trace_rows": 6060,
+  "trace_covers_all_local_samples": true
+}

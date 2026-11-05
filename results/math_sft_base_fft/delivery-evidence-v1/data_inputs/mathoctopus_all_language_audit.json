@@ -1,0 +1,127 @@
+{
+  "source_revision": "dd8076b83bacd7c6ade2829317e8a500c6ffbec4",
+  "source_sha256": "57864b498f8ea0bc0f8903e8fd912c079ea1a824fad23b1077a0149b455f5022",
+  "canonical_gsm8k_train_sha256": "ea82612ea9582142387730c793eb67d3b12849002bc0b7fa6f8efafa7351419d",
+  "anchors": 7473,
+  "languages": {
+    "sw": {
+      "raw": 7472,
+      "valid": 6915,
+      "unique_source_ids": 6915,
+      "rejections": {
+        "final_numeric_disagrees_with_original_gsm8k_gold": 556,
+        "unparseable_final_numeric": 1
+      },
+      "records_sha256": "d687457bcf607931339e6e2c7c725306a9013f5e8b4a999dabc0f1b687ad4a50",
+      "source_ids_sha256": "c2519be2180574197cb28fcfe3a9dc12ed9e9c42cd334334dec963d22b7aaf5a",
+      "no_intersection_requirement": true,
+      "no_random_size_cap": true
+    },
+    "bn": {
+      "raw": 6539,
+      "valid": 6058,
+      "unique_source_ids": 6058,
+      "rejections": {
+        "final_numeric_disagrees_with_original_gsm8k_gold": 445,
+        "unparseable_final_numeric": 36
+      },
+      "records_sha256": "3ccf9c3e7c3e6cb67883d0352c38dfcb92d6e58447247da0a213dbed9f5251d3",
+      "source_ids_sha256": "3289c6bd317820fa477d7a9a175bc0c0b41b352e5ce822e0162cbe47f087d380",
+      "no_intersection_requirement": true,
+      "no_random_size_cap": true
+    },
+    "th": {
+      "raw": 7473,
+      "valid": 6908,
+      "unique_source_ids": 6908,
+      "rejections": {
+        "final_numeric_disagrees_with_original_gsm8k_gold": 557,
+        "unparseable_final_numeric": 8
+      },
+      "records_sha256": "48ba6401f2a4533ad47d84e3ff7b74c2a27a7ae77ae3ba8c6e73d84f227f6ab3",
+      "source_ids_sha256": "1c0e0a65cff9b0d19997d034d3af16620f7fc0b0841faf4452a133134d3df5d9",
+      "no_intersection_requirement": true,
+      "no_random_size_cap": true
+    },
+    "ja": {
+      "raw": 7471,
+      "valid": 7024,
+      "unique_source_ids": 7024,
+      "rejections": {
+        "final_numeric_disagrees_with_original_gsm8k_gold": 447
+      },
+      "records_sha256": "12fcf0f50a985131c168e4524f1dbb6818769767b179a5c4331a0bec946b9d4e",
+      "source_ids_sha256": "838b87b10e9a0c7a62808a7b65b8429e68ef61c8da7a71fb304ad14b3619a374",
+      "no_intersection_requirement": true,
+      "no_random_size_cap": true
+    },
+    "zh": {
+      "raw": 7364,
+      "valid": 6898,
+      "unique_source_ids": 6898,
+      "rejections": {
+        "final_numeric_disagrees_with_original_gsm8k_gold": 465,
+        "unparseable_final_numeric": 1
+      },
+      "records_sha256": "2d7f86c9c31147195e68c958914cacd9061d27c60184d740985a3dcde217980a",
+      "source_ids_sha256": "289e3c73a3e48cd279f5de2915e006cd9356951116670892d7365850edf1ee61",
+      "no_intersection_requirement": true,
+      "no_random_size_cap": true
+    },
+    "ru": {
+      "raw": 7361,
+      "valid": 6766,
+      "unique_source_ids": 6766,
+      "rejections": {
+        "final_numeric_disagrees_with_original_gsm8k_gold": 518,
+        "unparseable_final_numeric": 77
+      },
+      "records_sha256": "6303717be1738bd10de9c46879c4b194811b9613e9a89c60281ceecf2a9e7865",
+      "source_ids_sha256": "db6440011cdab186d90e50f676dd7eb3b41b0633da0a77d159df970089d4cc49",
+      "no_intersection_requirement": true,
+      "no_random_size_cap": true
+    },
+    "fr": {
+      "raw": 7469,
+      "valid": 6763,
+      "unique_source_ids": 6763,
+      "rejections": {
+        "final_numeric_disagrees_with_original_gsm8k_gold": 705,
+        "unparseable_final_numeric": 1
+      },
+      "records_sha256": "ef0e842778a7a80d047d952be1c451bf52eb5c3d9c8c0fd496f6318cf2c1b913",
+      "source_ids_sha256": "36f306f29763c2cb3c726c8a89f865401f6dc2ee4b60c27d9fe96f95cc4a74cb",
+      "no_intersection_requirement": true,
+      "no_random_size_cap": true
+    },
+    "de": {
+      "raw": 7466,
+      "valid": 6629,
+      "unique_source_ids": 6629,
+      "rejections": {
+        "final_numeric_disagrees_with_original_gsm8k_gold": 639,
+        "unparseable_final_numeric": 198
+      },
+      "records_sha256": "4018706f9d886e044e2781ceae1ea0dbc3800c38d2c1de0307146afcda96a46a",
+      "source_ids_sha256": "69d121066224f7e9635b8be12443aee396c70ee9d6ad8251464de6db37d81036",
+      "no_intersection_requirement": true,
+      "no_random_size_cap": true
+    },
+    "es": {
+      "raw": 7470,
+      "valid": 6926,
+      "unique_source_ids": 6926,
+      "rejections": {
+        "final_numeric_disagrees_with_original_gsm8k_gold": 543,
+        "unparseable_final_numeric": 1
+      },
+      "records_sha256": "8224363b2acb791914bb31eac730a10628e797604aa7b9cb372331d887aa7ece",
+      "source_ids_sha256": "3cf0cb4c0883d731df992e1ed0c269cc62db048e45a6b9a421567b14fe540d06",
+      "no_intersection_requirement": true,
+      "no_random_size_cap": true
+    }
+  },
+  "known_overlap_rule": "exact NFKC casefold whitespace question and canonical English source only, never same final number",
+  "language_semantic_and_reasoning_audit": "NOT_RUN; final-number agreement is necessary but insufficient evidence of translation/reasoning quality",
+  "license": "MathOctopus Apache-2.0; retain upstream sources. Full data not published."
+}

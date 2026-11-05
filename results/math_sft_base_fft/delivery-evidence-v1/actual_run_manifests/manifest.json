@@ -1,0 +1,375 @@
+{
+  "files": [
+    {
+      "file": "Base-census-worker1/run.json",
+      "actual_manifest_sha256": "47974e7484531ffdb7d03de9cb159ade05520c487ce061132d461df606100bc9",
+      "public_manifest_sha256": "ef04e140306f882c35c08228dda6519908712ebb05dbd90b4768032b1a1617a8"
+    },
+    {
+      "file": "Base-census-worker1/GENERATION_DONE.json",
+      "actual_manifest_sha256": "376b9485d67f97f1369877107e6851b894dcfa8595f94f11829ba18d76af0f3c",
+      "public_manifest_sha256": "376b9485d67f97f1369877107e6851b894dcfa8595f94f11829ba18d76af0f3c"
+    },
+    {
+      "file": "Base-census-worker2/run.json",
+      "actual_manifest_sha256": "3265c074d61f2799dd37cdc24544edd2b3f604bb108fb5dca4ccf1c89a9d117c",
+      "public_manifest_sha256": "72fe94719e4297c51d6f1a24255b42af0a247ef5b74d0a06aac7af0e09d10381"
+    },
+    {
+      "file": "Base-census-worker2/GENERATION_DONE.json",
+      "actual_manifest_sha256": "e38049f64ecc7e5336d8cd67a373823aa705262fdc11bcc6e403bf80f5bc962e",
+      "public_manifest_sha256": "e38049f64ecc7e5336d8cd67a373823aa705262fdc11bcc6e403bf80f5bc962e"
+    },
+    {
+      "file": "Base-census-worker3/run.json",
+      "actual_manifest_sha256": "369ab3f8440949f110dc9fb2a57dc067e678865bbbb1c1a0d42713beecf20127",
+      "public_manifest_sha256": "ae2c233e9d80e5044378db56b0c7fe3e2d4d1e0cac88a06d9648c1601d6c5b57"
+    },
+    {
+      "file": "Base-census-worker3/GENERATION_DONE.json",
+      "actual_manifest_sha256": "76d8d938c8ec25e614cef0038bcd3a8d714cf1580657145d765daeb0e1b35da1",
+      "public_manifest_sha256": "76d8d938c8ec25e614cef0038bcd3a8d714cf1580657145d765daeb0e1b35da1"
+    },
+    {
+      "file": "Base/general/launch.json",
+      "actual_manifest_sha256": "00a20b695cd53debcf514c54b5cba8d89abaf237eb4a9b561fff5542e4a92ebb",
+      "public_manifest_sha256": "dbacc0a3c8e90bd82967b0c31c955bb041b1934569daf80928ed2dd91484763b"
+    },
+    {
+      "file": "Base/general/GPU_PHASE_DONE.json",
+      "actual_manifest_sha256": "0e6afe38a18302fc5c7424a9c33086d2a6734e330683eb8f89658d534d1a7a11",
+      "public_manifest_sha256": "0e6afe38a18302fc5c7424a9c33086d2a6734e330683eb8f89658d534d1a7a11"
+    },
+    {
+      "file": "Base/general/core/TASK_DONE.json",
+      "actual_manifest_sha256": "c5f2f17fca874cac5f8aade7303c1549e1261707fe273f23b3ad598eabb30a5b",
+      "public_manifest_sha256": "c5f2f17fca874cac5f8aade7303c1549e1261707fe273f23b3ad598eabb30a5b"
+    },
+    {
+      "file": "Base/general/mmlu/TASK_DONE.json",
+      "actual_manifest_sha256": "06016f3a8c4b6a86a839af5c4e27afd1d65b2a3530ae7a799ff3150c1ce2f3f9",
+      "public_manifest_sha256": "06016f3a8c4b6a86a839af5c4e27afd1d65b2a3530ae7a799ff3150c1ce2f3f9"
+    },
+    {
+      "file": "Base/general/code/generation/manifest.json",
+      "actual_manifest_sha256": "7cbd97fac750d117a800bd26a3b46ea1a0ede68c84cd91104088d70815ec748f",
+      "public_manifest_sha256": "a2b5ac4257453cbc5f96a3bc666dc1f0bf01c50a33de8103bab3da6db795e9fe"
+    },
+    {
+      "file": "Base/general/code/generation/DONE.json",
+      "actual_manifest_sha256": "f23eb54e5fc7c7c1f7d0ec13242352190f21c9df89357a763b81d78ef8619624",
+      "public_manifest_sha256": "f23eb54e5fc7c7c1f7d0ec13242352190f21c9df89357a763b81d78ef8619624"
+    },
+    {
+      "file": "Base/general/code/generation/cost.json",
+      "actual_manifest_sha256": "fdfd236db64fdefd690c5b55f8b28f4c84a2a0e828f7d8aa5669d7bdf9b1f232",
+      "public_manifest_sha256": "288f03579e9b7ae0d4996c9e7fcbfb73d6a1d0efa84dd37d3556bac13f44ef16"
+    },
+    {
+      "file": "Base/general/code-execution/scores.json",
+      "actual_manifest_sha256": "bc46a81b754730f7c01056e797672e5ddc79abf48b6c6def61ce144da45eab13",
+      "public_manifest_sha256": "bc46a81b754730f7c01056e797672e5ddc79abf48b6c6def61ce144da45eab13"
+    },
+    {
+      "file": "sw-E1/general/launch.json",
+      "actual_manifest_sha256": "365815b6b44d2e41e853170fd681332fcdb776a3cb8fec6b98819122b853d737",
+      "public_manifest_sha256": "07bcb5affd5c88c473b14faa79e4bcf920e6533e6223c3e8e84abe77c1c91219"
+    },
+    {
+      "file": "sw-E1/general/GPU_PHASE_DONE.json",
+      "actual_manifest_sha256": "e814e3e01dbe8de8e8ec765a097047b1523e8c126a4d02981eb9a8c89e19f9b8",
+      "public_manifest_sha256": "e814e3e01dbe8de8e8ec765a097047b1523e8c126a4d02981eb9a8c89e19f9b8"
+    },
+    {
+      "file": "sw-E1/general/core/TASK_DONE.json",
+      "actual_manifest_sha256": "7bd267534009faa854048d4b40d77ce602cf37f88b714fa757f91e777db74616",
+      "public_manifest_sha256": "7bd267534009faa854048d4b40d77ce602cf37f88b714fa757f91e777db74616"
+    },
+    {
+      "file": "sw-E1/general/mmlu/TASK_DONE.json",
+      "actual_manifest_sha256": "ef72aa0f7fbe0e7191597bbdb3c86b0757701e9e179bafe5f4f1dc9b49658afd",
+      "public_manifest_sha256": "ef72aa0f7fbe0e7191597bbdb3c86b0757701e9e179bafe5f4f1dc9b49658afd"
+    },
+    {
+      "file": "sw-E1/general/code/generation/manifest.json",
+      "actual_manifest_sha256": "570bab2364d0f6d3450e6889c4e1204601bf748bb3de47f3544b5b5a515c3a7c",
+      "public_manifest_sha256": "613cb965c2d6369d69be52a9036fdff7c5dade3967266d330e1bed3736a0683f"
+    },
+    {
+      "file": "sw-E1/general/code/generation/DONE.json",
+      "actual_manifest_sha256": "16dbeb302fdb901988d9741b66fe3c6420bd266fdfe5acd52a692e3b6cd6409c",
+      "public_manifest_sha256": "16dbeb302fdb901988d9741b66fe3c6420bd266fdfe5acd52a692e3b6cd6409c"
+    },
+    {
+      "file": "sw-E1/general/code/generation/cost.json",
+      "actual_manifest_sha256": "e5d908957988e4092e74d1c443d876587bf500c2425a4f5737816a5729dfea43",
+      "public_manifest_sha256": "4af958db04ec6624a9473d91d7a7785443b56dcf33c87275d6e1dbba627a064a"
+    },
+    {
+      "file": "sw-E1/general/code-execution/scores.json",
+      "actual_manifest_sha256": "6c9bb408daaa821dcd2bcc0aa93269ce8e0db5dd0f54abe41c911ff62ba92c27",
+      "public_manifest_sha256": "6c9bb408daaa821dcd2bcc0aa93269ce8e0db5dd0f54abe41c911ff62ba92c27"
+    },
+    {
+      "file": "sw-E1/math/run.json",
+      "actual_manifest_sha256": "1dde3ddc413cabdc2afbe23f12a5214e254cbe77980d43e11e368f1b55945074",
+      "public_manifest_sha256": "e5ea9b048d296c77573244f6ac2f3e9a202cf4b57119e9b08fdc2f5d1233e132"
+    },
+    {
+      "file": "sw-E1/math/GENERATION_DONE.json",
+      "actual_manifest_sha256": "aeadb25003bda31d137117f7c1f2826dc0f3f848ac298e6abb6e68b118c263d6",
+      "public_manifest_sha256": "aeadb25003bda31d137117f7c1f2826dc0f3f848ac298e6abb6e68b118c263d6"
+    },
+    {
+      "file": "sw-E2/general/launch.json",
+      "actual_manifest_sha256": "267677a3ff6799318be0692374a08635c0e79d77cd4a4cd8155d6af1a387742b",
+      "public_manifest_sha256": "3223f9f077fe5a730652bad2c8375f564850764b0120e5378a43870b9119c567"
+    },
+    {
+      "file": "sw-E2/general/GPU_PHASE_DONE.json",
+      "actual_manifest_sha256": "99264a752cd2c3f0659d8d1eb7b6933c4db20fffc77157dd4615f0078f4226c1",
+      "public_manifest_sha256": "99264a752cd2c3f0659d8d1eb7b6933c4db20fffc77157dd4615f0078f4226c1"
+    },
+    {
+      "file": "sw-E2/general/core/TASK_DONE.json",
+      "actual_manifest_sha256": "ad2ec1584147d4e8905aa1029c73fdfe5bf0f977ceb6ed612d2e23b4bec32e63",
+      "public_manifest_sha256": "ad2ec1584147d4e8905aa1029c73fdfe5bf0f977ceb6ed612d2e23b4bec32e63"
+    },
+    {
+      "file": "sw-E2/general/mmlu/TASK_DONE.json",
+      "actual_manifest_sha256": "2d460afbb5a6005eb46ff0be349cbb53329a2be201c60165e2a4962a08c2ea29",
+      "public_manifest_sha256": "2d460afbb5a6005eb46ff0be349cbb53329a2be201c60165e2a4962a08c2ea29"
+    },
+    {
+      "file": "sw-E2/general/code/generation/manifest.json",
+      "actual_manifest_sha256": "efaf24c147439023eb8fa9ff199980cb5f082b6b43bc8eb2ba1ca6e3bdb40db0",
+      "public_manifest_sha256": "92aac20a927575caf7e66d13e10e88c4e673b29718dd3e550f0946ad0b157a27"
+    },
+    {
+      "file": "sw-E2/general/code/generation/DONE.json",
+      "actual_manifest_sha256": "0c065c015e290337284fa4f49490a0fac37b082881ef48c68b217c9c2edf7c9a",
+      "public_manifest_sha256": "0c065c015e290337284fa4f49490a0fac37b082881ef48c68b217c9c2edf7c9a"
+    },
+    {
+      "file": "sw-E2/general/code/generation/cost.json",
+      "actual_manifest_sha256": "4d3f15d230c24ce0e6aef6406ca7826d421ef4f9db65843bf7662f1474469d26",
+      "public_manifest_sha256": "96c3db022b32deb21474993b02ce329d5c55c09c2ba434fcf9a150a1cee51633"
+    },
+    {
+      "file": "sw-E2/general/code-execution/scores.json",
+      "actual_manifest_sha256": "c11fdab9f8a01991447f78b1d42efe7a6b2b164c57e322f4fa14c152d770b936",
+      "public_manifest_sha256": "c11fdab9f8a01991447f78b1d42efe7a6b2b164c57e322f4fa14c152d770b936"
+    },
+    {
+      "file": "sw-E2/math/run.json",
+      "actual_manifest_sha256": "9cfd915732eb33055e3c0fa0c25104636b054d5cc8ec5d982966427973331fb5",
+      "public_manifest_sha256": "522ea0935a25cc5043d388843bb0f3277d29907469726f6519f828b37c18859c"
+    },
+    {
+      "file": "sw-E2/math/GENERATION_DONE.json",
+      "actual_manifest_sha256": "17fa4e079e267fb9d632964fa5fe4d340e1ed041601278343cb91ca091910ce2",
+      "public_manifest_sha256": "17fa4e079e267fb9d632964fa5fe4d340e1ed041601278343cb91ca091910ce2"
+    },
+    {
+      "file": "bn-E1/general/launch.json",
+      "actual_manifest_sha256": "86e1fb4a21c59b543c2f11fd010f0363de41bd06949acddde3d9e7fb73243ce6",
+      "public_manifest_sha256": "34415a8db7a1602fef791cf791b31cebaa3c48c58996261ddf9f9e801aa7d39f"
+    },
+    {
+      "file": "bn-E1/general/GPU_PHASE_DONE.json",
+      "actual_manifest_sha256": "d87be0a8cd699f2753161f715be89ad1d5264514d7d43750ed9e64d3e4c8f229",
+      "public_manifest_sha256": "d87be0a8cd699f2753161f715be89ad1d5264514d7d43750ed9e64d3e4c8f229"
+    },
+    {
+      "file": "bn-E1/general/core/TASK_DONE.json",
+      "actual_manifest_sha256": "77464f0b28fba17cda05e20d80067b9351a04a8c5b98f3d6890382befeca08b8",
+      "public_manifest_sha256": "77464f0b28fba17cda05e20d80067b9351a04a8c5b98f3d6890382befeca08b8"
+    },
+    {
+      "file": "bn-E1/general/mmlu/TASK_DONE.json",
+      "actual_manifest_sha256": "75de3125074919735bedf42f68725edc77933b1c22ffd68b59d2a17867893deb",
+      "public_manifest_sha256": "75de3125074919735bedf42f68725edc77933b1c22ffd68b59d2a17867893deb"
+    },
+    {
+      "file": "bn-E1/general/code/generation/manifest.json",
+      "actual_manifest_sha256": "45457ee21264f61dbce70025554e6c873ccc271987c0ba8b96e00bc5b5574bf5",
+      "public_manifest_sha256": "4c820e1c852bcc0f7adc47d2ed93e4b60d3887332285042b5ae089bfa5f2eeb8"
+    },
+    {
+      "file": "bn-E1/general/code/generation/DONE.json",
+      "actual_manifest_sha256": "5dca382a61153ff29248516c619af0e125e1445154d998dd46775a419c1e1bd9",
+      "public_manifest_sha256": "5dca382a61153ff29248516c619af0e125e1445154d998dd46775a419c1e1bd9"
+    },
+    {
+      "file": "bn-E1/general/code/generation/cost.json",
+      "actual_manifest_sha256": "76e0c2c04868c84a5304bf3115589596ac008382c1fdeedfc58af8973e70b268",
+      "public_manifest_sha256": "8f08645bc5f0f51f33383f6d0a8d98c0b48f2cbebaef75075c97ecbda3c4c399"
+    },
+    {
+      "file": "bn-E1/general/code-execution/scores.json",
+      "actual_manifest_sha256": "918610015ad36dcb65644ce9ffc163b98e600e835b07780b52a1666d5b59bcd4",
+      "public_manifest_sha256": "918610015ad36dcb65644ce9ffc163b98e600e835b07780b52a1666d5b59bcd4"
+    },
+    {
+      "file": "bn-E1/math/run.json",
+      "actual_manifest_sha256": "a3b1c2aa56ed4793d2173b5c4c46f91d698ea46c8c1d086bf71df7644bd19f7a",
+      "public_manifest_sha256": "972e16fe51712b393028c8f9b9e9a84b982031ad4e73641fca8ead61cf574b4f"
+    },
+    {
+      "file": "bn-E1/math/GENERATION_DONE.json",
+      "actual_manifest_sha256": "85e66580308372580ba58377e3d0333d7cca8f465aa93ff5d5c3f7cd9144a2ce",
+      "public_manifest_sha256": "85e66580308372580ba58377e3d0333d7cca8f465aa93ff5d5c3f7cd9144a2ce"
+    },
+    {
+      "file": "bn-E2/general/launch.json",
+      "actual_manifest_sha256": "913af3c8c02d8dc8c1a95c67f43e41da1a1e976e17da8fa24bb51378b892c6dc",
+      "public_manifest_sha256": "a64877c4e914001f48c1fe0325ff260b73edb37abfd9c5c60efd43dd4b5c5fa8"
+    },
+    {
+      "file": "bn-E2/general/GPU_PHASE_DONE.json",
+      "actual_manifest_sha256": "e4a0d1cd0d1a123918a8a406de13f35af91c3156d9063fa5c13ad70c2bbc5932",
+      "public_manifest_sha256": "e4a0d1cd0d1a123918a8a406de13f35af91c3156d9063fa5c13ad70c2bbc5932"
+    },
+    {
+      "file": "bn-E2/general/core/TASK_DONE.json",
+      "actual_manifest_sha256": "1ac612bb545be545521838717ba6b22ce94405b4d5313cdce40cc9a919e085e5",
+      "public_manifest_sha256": "1ac612bb545be545521838717ba6b22ce94405b4d5313cdce40cc9a919e085e5"
+    },
+    {
+      "file": "bn-E2/general/mmlu/TASK_DONE.json",
+      "actual_manifest_sha256": "1cb431e4429a6f48581fa0f183f8a64b84b311bd21be57afd7f9c314167a3633",
+      "public_manifest_sha256": "1cb431e4429a6f48581fa0f183f8a64b84b311bd21be57afd7f9c314167a3633"
+    },
+    {
+      "file": "bn-E2/general/code/generation/manifest.json",
+      "actual_manifest_sha256": "d262bb6fc09728ed01c7c0752769530e619abf31cddffd83881974155a6b681c",
+      "public_manifest_sha256": "9fda1d34e433e0eb7f59973f6b9bf4b0e5287b5889da357c77e5550af4d8fcd0"
+    },
+    {
+      "file": "bn-E2/general/code/generation/DONE.json",
+      "actual_manifest_sha256": "dd5ce35057d3236fede8aaac531848e3bfccc52d058ea9bff6398977f6f48512",
+      "public_manifest_sha256": "dd5ce35057d3236fede8aaac531848e3bfccc52d058ea9bff6398977f6f48512"
+    },
+    {
+      "file": "bn-E2/general/code/generation/cost.json",
+      "actual_manifest_sha256": "cda8756cf67a26f831f1425ab58caab64bf42b011e78d6d9e6c4d563ca74e55f",
+      "public_manifest_sha256": "8bbf0bc620d4df810622d5f239c31a5d67a8a20b7ce9455622f8611dd36ea278"
+    },
+    {
+      "file": "bn-E2/general/code-execution/scores.json",
+      "actual_manifest_sha256": "b528ee13b9be747ddbee71c0398527150707ca75fb022ea78c8f5eb4e94a6aca",
+      "public_manifest_sha256": "b528ee13b9be747ddbee71c0398527150707ca75fb022ea78c8f5eb4e94a6aca"
+    },
+    {
+      "file": "bn-E2/math/run.json",
+      "actual_manifest_sha256": "da99dd17423489d8ffab99a8f6a769920f4dc8a6f04e6531845edf92107fff13",
+      "public_manifest_sha256": "cf46e73f578b08f2da9ba52587c5ac3266cf973da08b7b545b5d01c296cb5d33"
+    },
+    {
+      "file": "bn-E2/math/GENERATION_DONE.json",
+      "actual_manifest_sha256": "23e95ce202ead83808a8ba84e18e90ad28e3715e70e695721adc9fa49537ef15",
+      "public_manifest_sha256": "23e95ce202ead83808a8ba84e18e90ad28e3715e70e695721adc9fa49537ef15"
+    },
+    {
+      "file": "ja-E1/general/launch.json",
+      "actual_manifest_sha256": "b64d38fe9637801abdde00238c18ca51a0279494ecb8f9a9f4e51f08cd88345e",
+      "public_manifest_sha256": "a2fa9e5f6535d1c4f1563a5181bdfa3ed84244751e25b99421fa10607a50058a"
+    },
+    {
+      "file": "ja-E1/general/GPU_PHASE_DONE.json",
+      "actual_manifest_sha256": "3efc4ecd06fdd9863be09f26d1322707033f67909265ba4804654a83c812ef93",
+      "public_manifest_sha256": "3efc4ecd06fdd9863be09f26d1322707033f67909265ba4804654a83c812ef93"
+    },
+    {
+      "file": "ja-E1/general/core/TASK_DONE.json",
+      "actual_manifest_sha256": "fbbc5c105e65b536c5f9853c1fd8b0bbf224e61b328de8de90de78ad5412d36d",
+      "public_manifest_sha256": "fbbc5c105e65b536c5f9853c1fd8b0bbf224e61b328de8de90de78ad5412d36d"
+    },
+    {
+      "file": "ja-E1/general/mmlu/TASK_DONE.json",
+      "actual_manifest_sha256": "35acc0459feafc6637417bd4f53b7c333a8fe63f953099e23e67812b9d2e6a7e",
+      "public_manifest_sha256": "35acc0459feafc6637417bd4f53b7c333a8fe63f953099e23e67812b9d2e6a7e"
+    },
+    {
+      "file": "ja-E1/general/code/generation/manifest.json",
+      "actual_manifest_sha256": "37fbda64b23bc062cc47037c1ecae5da7fbf9d7b7277e4eaba1335ea06578653",
+      "public_manifest_sha256": "a4a91a1ba5df3afc56fec1ec13e0d35139a8050553bb04a58155835ff0cf99a6"
+    },
+    {
+      "file": "ja-E1/general/code/generation/DONE.json",
+      "actual_manifest_sha256": "e8d0ad87365cc347031f2af1c5368f83f6c0a49c8e93792b8285c6ddf61230cf",
+      "public_manifest_sha256": "e8d0ad87365cc347031f2af1c5368f83f6c0a49c8e93792b8285c6ddf61230cf"
+    },
+    {
+      "file": "ja-E1/general/code/generation/cost.json",
+      "actual_manifest_sha256": "86273ba9c024b7a061cd542d5866ae1a428972ae9986495169472cb0693a0db5",
+      "public_manifest_sha256": "2a41b3ef209bf4f0e61f1fc74847145b1011475e21033f2b216038b0f16bd3ee"
+    },
+    {
+      "file": "ja-E1/general/code-execution/scores.json",
+      "actual_manifest_sha256": "4210257c4ea63569268941cce0845429b42512004d211953388514a5960a96bb",
+      "public_manifest_sha256": "4210257c4ea63569268941cce0845429b42512004d211953388514a5960a96bb"
+    },
+    {
+      "file": "ja-E1/math/run.json",
+      "actual_manifest_sha256": "a1e5e2a525232f693c404096ecf04cda4ba0abefb8aec39e88a2649d3b451ca2",
+      "public_manifest_sha256": "8e15291be0d95add14114e96da5f9ebb8b6972e06d5bac2605c7a7f62f7d96e4"
+    },
+    {
+      "file": "ja-E1/math/GENERATION_DONE.json",
+      "actual_manifest_sha256": "01b8434d34b5fd93ed97435a1e2f279659e51aeb7890078625a80dda8b24cc44",
+      "public_manifest_sha256": "01b8434d34b5fd93ed97435a1e2f279659e51aeb7890078625a80dda8b24cc44"
+    },
+    {
+      "file": "ja-E2/general/launch.json",
+      "actual_manifest_sha256": "a32bc06c99bce60cc65d3f94a601a414e01e526ca4cdd1c71ce049045e6c05ef",
+      "public_manifest_sha256": "00da43738150c27f5273916081c70abeac0c4fb9c7a802ec983daf15164bae29"
+    },
+    {
+      "file": "ja-E2/general/GPU_PHASE_DONE.json",
+      "actual_manifest_sha256": "160a7fe1cb940b2f48024e9f29c65fb3f91b0006183981080bb03666540c28f4",
+      "public_manifest_sha256": "160a7fe1cb940b2f48024e9f29c65fb3f91b0006183981080bb03666540c28f4"
+    },
+    {
+      "file": "ja-E2/general/core/TASK_DONE.json",
+      "actual_manifest_sha256": "3ced945157f8f4dfd25b7395b6239c8e2ffa6686c2e04bd4b93c4a2635f2135c",
+      "public_manifest_sha256": "3ced945157f8f4dfd25b7395b6239c8e2ffa6686c2e04bd4b93c4a2635f2135c"
+    },
+    {
+      "file": "ja-E2/general/mmlu/TASK_DONE.json",
+      "actual_manifest_sha256": "3074f752b2b4223156a2505acfd8957d065930258323101540873d3143f3d6e7",
+      "public_manifest_sha256": "3074f752b2b4223156a2505acfd8957d065930258323101540873d3143f3d6e7"
+    },
+    {
+      "file": "ja-E2/general/code/generation/manifest.json",
+      "actual_manifest_sha256": "e7ff7075d651af9836d1eaa9c1e12fc4c8b5031c016e2c0bfe29526bda6722b8",
+      "public_manifest_sha256": "f12c789a4c05bd83780400ee1c6c99c536ca9be0f735f3cd6b81bcd7b0636470"
+    },
+    {
+      "file": "ja-E2/general/code/generation/DONE.json",
+      "actual_manifest_sha256": "48dd7741286cd56ccf023b2f17314041b43ac70c0a9d9dc361e15e725ea3cb49",
+      "public_manifest_sha256": "48dd7741286cd56ccf023b2f17314041b43ac70c0a9d9dc361e15e725ea3cb49"
+    },
+    {
+      "file": "ja-E2/general/code/generation/cost.json",
+      "actual_manifest_sha256": "c4a6a932d9c937a47c261120011df4a8f089fd0f1fa0e574b68a246b83a7f40c",
+      "public_manifest_sha256": "be1fa322b9a50566c0bd7169207db704bd451ccb54754ac49fc2377cda50bf26"
+    },
+    {
+      "file": "ja-E2/general/code-execution/scores.json",
+      "actual_manifest_sha256": "b3d920f92d4cf5ae93a3bebe754d2cbcc7c2292829984f3f12b6b48c82f78d06",
+      "public_manifest_sha256": "b3d920f92d4cf5ae93a3bebe754d2cbcc7c2292829984f3f12b6b48c82f78d06"
+    },
+    {
+      "file": "ja-E2/math/run.json",
+      "actual_manifest_sha256": "2d3dd046d0e48826fa9bd2b97443decce8f0ee041ebb8bb6b5d7f865104101fe",
+      "public_manifest_sha256": "4558cebfce9ec25e901feafc7350b9230c3dd9e0e413fa2f9cf345212d418d31"
+    },
+    {
+      "file": "ja-E2/math/GENERATION_DONE.json",
+      "actual_manifest_sha256": "76372aff7f04d0bffa4608cb35043b202f864f2fcfa805b90b51f6b3dca220b1",
+      "public_manifest_sha256": "76372aff7f04d0bffa4608cb35043b202f864f2fcfa805b90b51f6b3dca220b1"
+    }
+  ],
+  "adaptation": "Known deployment path prefixes become declared profile keys. GPU UUID and host process/hostname fields omitted; UUID strings inside commands replaced by GPU_UUID. All other metric, source, model, protocol, version, input and output hashes retained. Public JSON is not byte-identical to private original; both hashes recorded. No raw questions, answers or generated solutions in these manifests."
+}

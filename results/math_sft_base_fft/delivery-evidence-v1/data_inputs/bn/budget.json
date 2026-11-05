@@ -1,0 +1,16 @@
+{
+  "language": "bn",
+  "samples_per_unpadded_epoch": 6058,
+  "expected_steps_per_epoch": 379,
+  "expected_total_steps": 758,
+  "epoch1_step": 379,
+  "epoch2_step": 758,
+  "data_manifest_sha256": "df2b625c4200fb58e4fbdecada0cf6b3ec485d2078f6cbed7b998972af0078fb",
+  "config_sha256": "7730a10c0c8396591c931433e54e19180570109175d82e5fe643b54611c4c3fa",
+  "optimizer_state_persisted": false,
+  "continuous_optimizer_scheduler_in_memory": true,
+  "budget": "all valid records independently, two full passes; final partial effective batch and any DDP padding reported honestly",
+  "epoch_checkpoints_have_full_weights": true,
+  "gpu_count": 2,
+  "effective_batch": 16
+}

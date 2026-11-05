@@ -1,0 +1,24 @@
+{
+  "status": "PASSED_ROUTE_A_DELIVERY_AUDIT",
+  "published": false,
+  "files_checked": 245,
+  "python_sources_compiled": 37,
+  "gzip_files_decompressed_and_checked": 32,
+  "source_mapping_hashes_checked": 35,
+  "all_local_markdown_links_resolve_against_curated_plus_existing_public_tree": true,
+  "private_host_path_or_gpu_identity_hits": 0,
+  "whole_study_complete": false,
+  "per_item_files": {
+    "target": 15,
+    "general": 7
+  },
+  "per_item_rows": {
+    "target": 26250,
+    "general": 112462
+  },
+  "input_evidence_files": 9,
+  "run_manifest_files": 74,
+  "route_A": "FAIL_FIXED_E1_AND_E2_GATE",
+  "route_B": "AUTHORIZED_CONDITIONAL_READY_FOR_RESOURCE_AND_DATA_AUDIT",
+  "scope": "Complete route A delivery; conditional route B remains required and unfinished"
+}
