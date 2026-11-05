@@ -20,6 +20,8 @@
 
 ## 结果与复核入口
 
+- [交给ChatGPT的最新讨论说明](chatgpt_review_20261105.md)：已完成结果、较少遗忘现象及未完成对照。
+- [按两个训练阶段展示实际分数的三角表](triangle_tables.md)。
 - [七轨道Single FFT](single_fft_results.md)、[FFT-SEQ对比](fft_seq_results.md)、[四语言与通用能力完整矩阵](stage_language_matrix.md)。
 - [六轨道历史阶段总表](six_track_summary.md)：保留该次发布范围。
 - [MTOP解释](mtop_results.md)、[XNLI解释](xnli_results.md)、[XL-Sum解释](xlsum_results.md)、[SIB-200解释](sib200_results.md)、[WikiLingua解释](wikilingua_results.md)。
@@ -45,7 +47,7 @@ Single TH与SEQ的TH实际输入/标签顺序一致，但SEQ累计两段预算�
 
 ## 下一步：按原计划完成
 
-七轨道主矩阵及15个预定中点评测已完成。MASSIVE、XNLI的四段预留Disjoint-ID训练与正式测评正在执行；MTOP两段将在优先对照完成并通过独立资源核查后衔接。共六段沿用原预算及正式协议。
+七轨道主矩阵及15个预定中点评测已完成。MASSIVE、XNLI的四段预留Disjoint-ID训练与正式测评继续执行，其中MASSIVE直接TH_B及其三项测评已完成；顺序TH_B首次在第一步优化时显存不足，保留失败记录后，已在独立目录按原配方恢复。MTOP两段将在优先对照完成并通过独立资源核查后衔接。共六段沿用原预算及正式协议。
 
 [P3资格与范围](p3_eligibility.md)在正式对照之前冻结。MathOctopus、WikiLingua与SIB-200不足原预算所需共同ID，XL-Sum非平行，不事后缩预算造对照。Same-ID与Disjoint-ID仍有内容难度差异，不能直接视为纯语言切换因果。
 

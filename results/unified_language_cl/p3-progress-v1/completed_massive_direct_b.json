@@ -1,0 +1,142 @@
+{
+  "status": "ONE_OF_SIX_P3_SEGMENTS_AND_ITS_THREE_EVALUATIONS_COMPLETE",
+  "model_role": "massive_disjoint_single_th",
+  "native": {
+    "dev": {
+      "es:massive": {
+        "samples": 256,
+        "primary_metric": "accuracy",
+        "score": 0.83203125,
+        "hit_cap_rate": 0.0,
+        "invalid_label_rate": 0.0,
+        "macro_accuracy": 0.8189802336028751,
+        "macro_f1": 0.8040152230151845
+      },
+      "th:massive": {
+        "samples": 256,
+        "primary_metric": "accuracy",
+        "score": 0.82421875,
+        "hit_cap_rate": 0.0,
+        "invalid_label_rate": 0.0,
+        "macro_accuracy": 0.8469451931716083,
+        "macro_f1": 0.8341663386930429
+      },
+      "fr:massive": {
+        "samples": 256,
+        "primary_metric": "accuracy",
+        "score": 0.80078125,
+        "hit_cap_rate": 0.0,
+        "invalid_label_rate": 0.0,
+        "macro_accuracy": 0.7892258161126086,
+        "macro_f1": 0.7596992739807741
+      },
+      "en:massive": {
+        "samples": 256,
+        "primary_metric": "accuracy",
+        "score": 0.8671875,
+        "hit_cap_rate": 0.0,
+        "invalid_label_rate": 0.0,
+        "macro_accuracy": 0.8568209044624139,
+        "macro_f1": 0.8472377722988151
+      }
+    },
+    "test": {
+      "es:massive": {
+        "samples": 2974,
+        "primary_metric": "accuracy",
+        "score": 0.7861466039004708,
+        "hit_cap_rate": 0.0,
+        "invalid_label_rate": 0.0003362474781439139,
+        "macro_accuracy": 0.7728452039296093,
+        "macro_f1": 0.7547934948206906
+      },
+      "th:massive": {
+        "samples": 2974,
+        "primary_metric": "accuracy",
+        "score": 0.8032952252858103,
+        "hit_cap_rate": 0.0,
+        "invalid_label_rate": 0.0010087424344317419,
+        "macro_accuracy": 0.7780962413542373,
+        "macro_f1": 0.7675844299538483
+      },
+      "fr:massive": {
+        "samples": 2974,
+        "primary_metric": "accuracy",
+        "score": 0.8043039677202422,
+        "hit_cap_rate": 0.0,
+        "invalid_label_rate": 0.0013449899125756557,
+        "macro_accuracy": 0.787310336754658,
+        "macro_f1": 0.7671679767100255
+      },
+      "en:massive": {
+        "samples": 2974,
+        "primary_metric": "accuracy",
+        "score": 0.8362474781439139,
+        "hit_cap_rate": 0.0,
+        "invalid_label_rate": 0.003026227303295225,
+        "macro_accuracy": 0.7998096846874043,
+        "macro_f1": 0.7913839815018112
+      }
+    }
+  },
+  "retention": {
+    "belebele_eng_Latn_locked": {
+      "acc,none": {
+        "rate": 0.7877777777777778,
+        "n": 900
+      }
+    },
+    "sft_v1_gsm8k": {
+      "exact_match,strict-match": {
+        "rate": 0.000758150113722517,
+        "n": 1319
+      },
+      "exact_match,flexible-extract": {
+        "rate": 0.510235026535254,
+        "n": 1319
+      }
+    },
+    "sft_v1_ifeval": {
+      "prompt_level_strict_acc,none": {
+        "rate": 0.38817005545286504,
+        "n": 541
+      },
+      "inst_level_strict_acc,none": {
+        "rate": 0.5167865707434053,
+        "n": 834
+      },
+      "prompt_level_loose_acc,none": {
+        "rate": 0.3900184842883549,
+        "n": 541
+      },
+      "inst_level_loose_acc,none": {
+        "rate": 0.5167865707434053,
+        "n": 834
+      }
+    }
+  },
+  "source_sha256": {
+    "dev": {
+      "DONE.json": "57c4b442ae899e3701283da74488ce967379d155c94741ecffa6393f09b5578b",
+      "run.json": "bd3a0be35c3f8e340626de0119dea03b1253561963daf2fd664cec07c1f9b581",
+      "scores.json": "ff8cec169fe1a8244f36ae3b08ad2d10f19a8609bfdc3d3cc00873f54a2d0603",
+      "predictions.jsonl": "2fa889cd2cd29bfb816130dec8d8763b2701e0caa4bf6844ac04dbf968c4b898"
+    },
+    "test": {
+      "DONE.json": "6d23e8afa91c298de9682636fa8c5e0d3e63de7bf996f2588d9e18c8218d4692",
+      "run.json": "2eacb58db9d61ac3ab88e6f7fab24ae628d2201cac5dbcdd9d170e689e212888",
+      "scores.json": "cf24b7800e0ac6bdeb98531da8be127a2ebe4825c0759590b28a46693e2131b2",
+      "predictions.jsonl": "424f8044cd36e284acfffebfc82980db0a4927839b47ca28691b79f88e9159eb"
+    },
+    "retention": {
+      "DONE.json": "7ea1f143ecbb0c58a022b3b7324391949b23e3291b3b7a02e91ab7fe2065efae",
+      "scores.json": "3b22333316c9bc382ed4a2ec0a0d4f725d44fc0c8c25c0ec59feeb01e7aee902",
+      "accuracy_audit.json": "5a2a057ceb6713a0061e79b99cb3b39bb7c1ab14268fece42379768d4ffa0a73"
+    }
+  },
+  "limits": [
+    "Remaining five fixed training segments not completed at this snapshot.",
+    "No Same-ID/Disjoint-ID interaction conclusion is available yet.",
+    "This directTH control alone does not measure sequential forgetting."
+  ]
+}
