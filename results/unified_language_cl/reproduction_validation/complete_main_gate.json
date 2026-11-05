@@ -1,0 +1,19 @@
+{
+  "status": "PASS_ALL_SEVEN_REAL_MAIN_AND_FIFTEEN_MIDPOINT_INPUTS",
+  "new_gpu_work": false,
+  "independent_gpu_reproduction": false,
+  "logical_base_and_final_check_roles": 84,
+  "fixed_midpoint_locations": 15,
+  "native_and_general_tracks": 7,
+  "helper_source_sha256": "bcbec9dc4ff7f17d99601d685f9f14cf0257c1426b7dd956f4a156385db4dc38",
+  "proof_file_sha256": {
+    "remaining_tracks_fixed_dev_curves_v1.json": "7749a4e01e39aadc244e89a11f97d6ec47b017fa7e2922d0325a3b21d080e5af",
+    "MAIN_FIXED_FINALS_VALIDATED.json": "27722d0e098adffc0eff96aca6e72167789d338d53b4b23ebd8073b24b9a4f33",
+    "SUMMARY_SCORING_CORRECTION_v2.json": "83a9ef4fb4068042b9326752f64c097a4cdb538a41f2aa1b1e04837a7915823b",
+    "remaining_tracks_fixed_dev_curves_v1.state.json": "4342393da005de9a3f179f169a0358168501984fec6f19b7af23584012a202fb"
+  },
+  "limits": [
+    "CPU integration against original completed server artifacts, not an independent training or generation rerun.",
+    "The new gate and midpoint receipts were generated in a separate scratch namespace; original execution markers were unchanged."
+  ]
+}

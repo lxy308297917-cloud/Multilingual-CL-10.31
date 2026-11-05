@@ -16,7 +16,7 @@
 | wikilingua | 3/3 | 完成 | 完成 | [矩阵](../../results/unified_language_cl/wikilingua/comparison-test-v1/table.md) | [矩阵](../../results/unified_language_cl/wikilingua/retention-comparison-v1/table.md) |
 | sib200 | 3/3 | 完成 | 完成 | [矩阵](../../results/unified_language_cl/sib200/comparison-test-v1/table.md) | [矩阵](../../results/unified_language_cl/sib200/retention-comparison-v1/table.md) |
 
-主训练21/21段；完整轨道7/7。整个目标继续进行，正式矩阵齐全后还须完成预定开发节点、三个合格轨道P3及最终交付核验。
+主训练21/21段；完整轨道7/7。主实验与全部预定中点已完成；整个目标还需完成三个合格轨道P3及最终交付核验。
 
 ## 结果与复核入口
 
@@ -27,7 +27,7 @@
 - [固定开发64题分类读出复核](../../results/unified_language_cl/classification_readout_complete_v2/table.md)。
 - [摘要评分修正](summary_scoring_correction.md)：所有摘要Base/Final使用同一v2句子分词，旧分数保留，不把评分修正当训练收益。
 - [数据审计](dataset_audit.md)、[语言对齐与污染限制](language_alignment.md)、[WikiLingua来源补充](wikilingua_protocol_addendum.md)。
-- [冻结测评协议](evaluation_protocol.md)、[复现步骤](reproduction.md)、[完整任务书](task_specification.md)。
+- [七轨道开发学习曲线](development_curves.md)、[冻结测评协议](evaluation_protocol.md)、[复现步骤](reproduction.md)、[完整任务书](task_specification.md)。
 
 ## 固定实验设置
 
@@ -45,7 +45,7 @@ Single TH与SEQ的TH实际输入/标签顺序一致，但SEQ累计两段预算�
 
 ## 下一步：按原计划完成
 
-七轨道原生与通用正式矩阵已齐；15个预定中点开发评测正在进行。随后对MASSIVE、XNLI、MTOP各运行预留Disjoint-ID的Single TH和SEQ TH，共六段，沿用原预算及正式协议。
+七轨道主矩阵及15个预定中点评测已完成。MASSIVE、XNLI的四段预留Disjoint-ID训练与正式测评正在执行；MTOP两段将在优先对照完成并通过独立资源核查后衔接。共六段沿用原预算及正式协议。
 
 [P3资格与范围](p3_eligibility.md)在正式对照之前冻结。MathOctopus、WikiLingua与SIB-200不足原预算所需共同ID，XL-Sum非平行，不事后缩预算造对照。Same-ID与Disjoint-ID仍有内容难度差异，不能直接视为纯语言切换因果。
 

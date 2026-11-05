@@ -1,0 +1,48 @@
+{
+  "status": "SIX_FROZEN_P3_CONFIGS_REGENERATED_IDENTICALLY_CPU_ONLY",
+  "records": [
+    {
+      "track": "massive",
+      "arm": "seq_es_th",
+      "actual_frozen_config_sha256": "a73cd56def87bf6c7b5c41c93dcbda07a5ca5ee33db0c321e7ac50c80995fc09",
+      "regenerated_config_identical_bytes": true,
+      "required_identity_fields_match": true
+    },
+    {
+      "track": "massive",
+      "arm": "single_th",
+      "actual_frozen_config_sha256": "3b3c42b4c65bac8ed1b93a4d14cb2676e77f8b0eeab3584c21941c8deea574a6",
+      "regenerated_config_identical_bytes": true,
+      "required_identity_fields_match": true
+    },
+    {
+      "track": "xnli",
+      "arm": "single_th",
+      "actual_frozen_config_sha256": "83494ff0ba0842099057c81960f560511934341ad2c610d383d5d401a616e6f2",
+      "regenerated_config_identical_bytes": true,
+      "required_identity_fields_match": true
+    },
+    {
+      "track": "xnli",
+      "arm": "seq_es_th",
+      "actual_frozen_config_sha256": "ac2d169d5e07a8a9083ca6ee5f8dec140999ffc32e60db2a72e43afb4b061ca9",
+      "regenerated_config_identical_bytes": true,
+      "required_identity_fields_match": true
+    },
+    {
+      "track": "mtop",
+      "arm": "single_th",
+      "actual_frozen_config_sha256": "9101a1e221cf5049b62205fe3abc59838104615e34173784faf7f4964b18a622",
+      "regenerated_config_identical_bytes": true,
+      "required_identity_fields_match": true
+    },
+    {
+      "track": "mtop",
+      "arm": "seq_es_th",
+      "actual_frozen_config_sha256": "e3804ee127d83505a8703f8e7c5c6b362e5dc2d4c6378e24db1d3d7a99cdfee6",
+      "regenerated_config_identical_bytes": true,
+      "required_identity_fields_match": true
+    }
+  ],
+  "new_training_or_evaluation": false
+}

@@ -1,5 +1,5 @@
 {
-  "status": "CPU_VALIDATED_NOT_GPU_REEXECUTED",
+  "status": "CPU_CONFIG_AND_POSITIVE_NEGATIVE_GATE_VALIDATED_NOT_GPU_REEXECUTED",
   "files": [
     {
       "file": "common.py",
@@ -139,7 +139,7 @@
       "reference_source": "evaluate_summary_v3.py",
       "reference_sha256": "1f0a2c880533278161ea6a135e3239a44b3c4f69f704afce66a827e8eb572dc7",
       "portable_sha256": "f584bb2cdb6b2c2761d2de7fe68b742d81354e7e964454e37db757b6666139f6",
-      "scope": "Runtime path relocation and versioned module-name consolidation. Corrected summary inference v3 is prepared for future dev curves; historical main generations use v2 followed by validated CPU rescoring, so v3 is not claimed as a previously executed GPU workflow."
+      "scope": "Runtime path/module-name relocation only. Historical main v2 generations were uniformly rescored; original v3 generated fixed summary midpoint-dev outputs. The portable package is not an independent GPU rerun."
     },
     {
       "file": "summary_scoring.py",
@@ -168,18 +168,189 @@
       "reference_sha256": "9d048c68e36ae4e7bd5a66427e202c4b4a29373dff9e63f8074491b023d77bae",
       "portable_sha256": "1e9dfae8219ec9cef27381031d1561d6bc8cda8d46308b3e10caeaf7f80df055",
       "scope": "AST-preserved reference logic; runtime path relocation and versioned module-name consolidation only"
+    },
+    {
+      "file": "run_train_p3.py",
+      "reference_source": "run_train_p3.py",
+      "reference_sha256": "c1ea7140509c4995172d4d3170f721965e76f754c30d65f3b067fc0b774f863f",
+      "portable_sha256": "dd2ec8707b0a6a609df7af5e0cb4be2272be8b9241d10f561b8a1266cde2d2ee",
+      "scope": "AST-preserved reference logic; runtime path relocation and versioned module-name consolidation only"
+    },
+    {
+      "file": "run_train_p3_mtop.py",
+      "reference_source": "run_train_p3_mtop.py",
+      "reference_sha256": "2ad9660a21b943cafd5787527bf3b3ea38764ad575626858ec5a023f1dc94774",
+      "portable_sha256": "cbf543a8eb14971b53cf61b0989167205d0605a2c70dbcfc61d49c5e22f5badb",
+      "scope": "AST-preserved reference logic; runtime path relocation and versioned module-name consolidation only"
+    },
+    {
+      "file": "aggregate_p3.py",
+      "reference_source": "aggregate_p3.py",
+      "reference_sha256": "c87408f8cbdbcaa3870c5755ef4440941d7371fb5f8bacb410c61bc7c2db84b0",
+      "portable_sha256": "9f4803e99de9355da598895ec84df92d2c389008a9479ef2cbaa2e9e61ba8442",
+      "scope": "AST-preserved reference logic; runtime path relocation and versioned module-name consolidation only"
+    },
+    {
+      "file": "aggregate_p3_mtop.py",
+      "reference_source": "aggregate_p3_mtop.py",
+      "reference_sha256": "2de9a420d6ef224163fda48b2f0596074717018edc8b3e3b23f2ee0afc0ffcfa",
+      "portable_sha256": "e8d9830ac3c2272cdc4e845e2360aad67c53a56c8c4d3a068940a52574fa2f20",
+      "scope": "AST-preserved reference logic; runtime path relocation and versioned module-name consolidation only"
+    },
+    {
+      "file": "analyze_classification_readout_v2.py",
+      "reference_source": "analyze_classification_readout_v2.py",
+      "reference_sha256": "9921ae644545cb152fe405cbd6f4125978457d3e8f7f32d56bff495bcf6a9273",
+      "portable_sha256": "7640f4e5cabaa6a9eebd33b0b68a55a77848148066f05296c00c1d93f9a7f8f8",
+      "scope": "AST-preserved reference logic; runtime path relocation and versioned module-name consolidation only"
+    },
+    {
+      "file": "summary_output_audit.py",
+      "reference_source": "summary_output_audit.py",
+      "reference_sha256": "c63dea01b586a692dcf774d5575bd8a40830c5928126832a66f36e6f5d5adfe9",
+      "portable_sha256": "c35a5a4eabdf5a447e5fba97d850917154dd1277f803016f338bcbe2c9fa39ae",
+      "scope": "AST-preserved reference logic; runtime path relocation and versioned module-name consolidation only"
+    },
+    {
+      "file": "export_auxiliary_metrics.py",
+      "reference_source": "export_auxiliary_metrics.py",
+      "reference_sha256": "bef990ab3a1da0688ee592b5058637293e89d5ca49197d04c0ce74ee2acd2248",
+      "portable_sha256": "f2fdcf552ff1129679ea63d03144188278f468b2a029c298ce6757a8c60ea700",
+      "scope": "AST-preserved reference logic; runtime path relocation and versioned module-name consolidation only"
+    },
+    {
+      "file": "render_stage_effects.py",
+      "reference_source": "render_stage_effects.py",
+      "reference_sha256": "c270ddb9aaafc32b8d44a3f91b9f7bc00994fab0639106bb702df4716ccd6cf0",
+      "portable_sha256": "21fbeff2be16ecb89ad750ea948bced45100198d01cf3c9c30cafc6320a863e1",
+      "scope": "AST-preserved reference logic; runtime path relocation and versioned module-name consolidation only"
+    },
+    {
+      "file": "prepare_disjoint_mtop.py",
+      "reference_source": "prepare_disjoint_mtop.py",
+      "reference_sha256": "0f06781fa785cbe2d8b88895c1e73c3563b118843978d4546db1908726c2f853",
+      "portable_sha256": "b6e2c73ec02e4bd8d7a5b16364ca614173eebde9578fd3f55684d28935fea4ad",
+      "scope": "AST-preserved reference logic; runtime path relocation and versioned module-name consolidation only"
+    },
+    {
+      "file": "render_all_dev_curves.py",
+      "reference_source": "render_all_dev_curves.py",
+      "reference_sha256": "f998b5a89ee4f7d38b2ae56aabc6350b9c704c16ccfbbad195bd4fb1b316126c",
+      "portable_sha256": "77fd9eeeb1723286080d309dc1218c592e5f24803a531eca0f43a998b5f91062",
+      "scope": "AST-preserved logic with runtime path relocation. Original CPU rendering of all196 predeclared dev points completed and was visually checked; no independent GPU rerun."
+    },
+    {
+      "file": "analyze_reading_choices.py",
+      "reference_source": "analyze_reading_choices.py",
+      "reference_sha256": "5451ac88c76f60967a218b13114712a8cd5b5995f5f196093ea6398432934022",
+      "portable_sha256": "bd347e4116359cb6cf536ab0a65ca66902eb0a452ebcf9e85da59af602d48602",
+      "scope": "AST-preserved science logic; path relocation only. Original CPU analysis verified all22 model reading ACC values and every sample from stored option likelihoods; no new generation."
+    },
+    {
+      "file": "analyze_p3_cohorts.py",
+      "reference_source": "analyze_p3_cohorts.py",
+      "reference_sha256": "566a8a119346b381bf1b910d0bde2644008dc9d4b0b5302edcc1d8f36172a2ac",
+      "portable_sha256": "d587b2749ffc15d03b62bcaf5eb355ecc5171e51432b54bcaf024fb15717495a",
+      "scope": "AST-preserved CPU analysis with runtime path relocation. Fixed A/B counts, train text overlap, task/root-intent distributions and actual token budgets; no resampling or model scores."
     }
   ],
   "notes": [
-    "Original running server sources and scientific outputs remain unchanged.",
-    "Only deployment paths and versioned module names are consolidated in reference modules; new helpers rebuild source/task/gate resources in isolated reproduction directories.",
-    "Historical summary main predictions use original v2 generation followed by CPU scoring correction; combined summary v3 is not claimed as a completed independent GPU rerun.",
-    "No private scheduling, host process/GPU metadata, full environment dump, raw dataset or prediction text is included."
+    "Original experimental training, decoding and benchmark scores are unchanged.",
+    "Reference modules consolidate deployment paths and versioned module names; new helpers regenerate input resources, configurations and real completion evidence in isolated namespaces.",
+    "All six P3 configs regenerated byte-identically in CPU checks; positive seven-track/fifteen-midpoint gate integration and incomplete-input refusal checks passed.",
+    "Original v3 generated fixed summary midpoint-dev outputs; historical main v2 generations were uniformly rescored. No independent GPU reproduction of the portable package is claimed.",
+    "No private scheduling, host/GPU metadata, full environment, raw dataset, target trees or prediction text is published."
   ],
+  "support_files": {
+    "freeze_main_evaluation.py": "bcbec9dc4ff7f17d99601d685f9f14cf0257c1426b7dd956f4a156385db4dc38",
+    "fetch_sources.py": "3b40ed52e1091644845ebc1c6c1ae9ac5299b020aa938d2acedffab3d7af182b",
+    "setup_retention.py": "0414bf62a4cd6d116c0295938572346f59d59980e8f9e33354aeb2d051dff98e",
+    "runtime.py": "84853aa1f1050c697541ad423a87de303462504c287c794982c5cacdfc41e1a4",
+    "make_p3_configs.py": "0ef922ab20821378c0078d7ebdb85629be0b21c0e43c9b8eac005a0258c78ee2",
+    "freeze_gate.py": "d902dbd07e7c383c9cfb9e3e40020086da9bd403a65c5f6216dff45627317916",
+    "fetch_metrics.py": "8478ccb2fc22b049f3cb9586986e978257b2bf8881a49ba5da08205db030bd54"
+  },
+  "checks": {
+    "p3_config_regeneration": {
+      "status": "SIX_FROZEN_P3_CONFIGS_REGENERATED_IDENTICALLY_CPU_ONLY",
+      "records": [
+        {
+          "track": "massive",
+          "arm": "seq_es_th",
+          "actual_frozen_config_sha256": "a73cd56def87bf6c7b5c41c93dcbda07a5ca5ee33db0c321e7ac50c80995fc09",
+          "regenerated_config_identical_bytes": true,
+          "required_identity_fields_match": true
+        },
+        {
+          "track": "massive",
+          "arm": "single_th",
+          "actual_frozen_config_sha256": "3b3c42b4c65bac8ed1b93a4d14cb2676e77f8b0eeab3584c21941c8deea574a6",
+          "regenerated_config_identical_bytes": true,
+          "required_identity_fields_match": true
+        },
+        {
+          "track": "xnli",
+          "arm": "single_th",
+          "actual_frozen_config_sha256": "83494ff0ba0842099057c81960f560511934341ad2c610d383d5d401a616e6f2",
+          "regenerated_config_identical_bytes": true,
+          "required_identity_fields_match": true
+        },
+        {
+          "track": "xnli",
+          "arm": "seq_es_th",
+          "actual_frozen_config_sha256": "ac2d169d5e07a8a9083ca6ee5f8dec140999ffc32e60db2a72e43afb4b061ca9",
+          "regenerated_config_identical_bytes": true,
+          "required_identity_fields_match": true
+        },
+        {
+          "track": "mtop",
+          "arm": "single_th",
+          "actual_frozen_config_sha256": "9101a1e221cf5049b62205fe3abc59838104615e34173784faf7f4964b18a622",
+          "regenerated_config_identical_bytes": true,
+          "required_identity_fields_match": true
+        },
+        {
+          "track": "mtop",
+          "arm": "seq_es_th",
+          "actual_frozen_config_sha256": "e3804ee127d83505a8703f8e7c5c6b362e5dc2d4c6378e24db1d3d7a99cdfee6",
+          "regenerated_config_identical_bytes": true,
+          "required_identity_fields_match": true
+        }
+      ],
+      "new_training_or_evaluation": false
+    },
+    "incomplete_main_gate": {
+      "status": "INCOMPLETE_REAL_WIKILINGUA_RESULTS_CORRECTLY_BLOCK_MAIN_GATE",
+      "new_main_marker": false,
+      "new_midpoint_receipt": false,
+      "new_gpu_work": false
+    },
+    "complete_main_evaluation_gate": {
+      "status": "PASS_ALL_SEVEN_REAL_MAIN_AND_FIFTEEN_MIDPOINT_INPUTS",
+      "new_gpu_work": false,
+      "independent_gpu_reproduction": false,
+      "logical_base_and_final_check_roles": 84,
+      "fixed_midpoint_locations": 15,
+      "native_and_general_tracks": 7,
+      "helper_source_sha256": "bcbec9dc4ff7f17d99601d685f9f14cf0257c1426b7dd956f4a156385db4dc38",
+      "proof_file_sha256": {
+        "remaining_tracks_fixed_dev_curves_v1.json": "7749a4e01e39aadc244e89a11f97d6ec47b017fa7e2922d0325a3b21d080e5af",
+        "MAIN_FIXED_FINALS_VALIDATED.json": "27722d0e098adffc0eff96aca6e72167789d338d53b4b23ebd8073b24b9a4f33",
+        "SUMMARY_SCORING_CORRECTION_v2.json": "83a9ef4fb4068042b9326752f64c097a4cdb538a41f2aa1b1e04837a7915823b",
+        "remaining_tracks_fixed_dev_curves_v1.state.json": "4342393da005de9a3f179f169a0358168501984fec6f19b7af23584012a202fb"
+      },
+      "limits": [
+        "CPU integration against original completed server artifacts, not an independent training or generation rerun.",
+        "The new gate and midpoint receipts were generated in a separate scratch namespace; original execution markers were unchanged."
+      ]
+    }
+  },
   "workflow_helpers": {
     "scripts/unified_language_cl/fetch_metrics.py": "8478ccb2fc22b049f3cb9586986e978257b2bf8881a49ba5da08205db030bd54",
     "scripts/unified_language_cl/fetch_sources.py": "3b40ed52e1091644845ebc1c6c1ae9ac5299b020aa938d2acedffab3d7af182b",
     "scripts/unified_language_cl/freeze_gate.py": "d902dbd07e7c383c9cfb9e3e40020086da9bd403a65c5f6216dff45627317916",
+    "scripts/unified_language_cl/freeze_main_evaluation.py": "bcbec9dc4ff7f17d99601d685f9f14cf0257c1426b7dd956f4a156385db4dc38",
+    "scripts/unified_language_cl/make_p3_configs.py": "0ef922ab20821378c0078d7ebdb85629be0b21c0e43c9b8eac005a0258c78ee2",
     "scripts/unified_language_cl/runtime.py": "84853aa1f1050c697541ad423a87de303462504c287c794982c5cacdfc41e1a4",
     "scripts/unified_language_cl/setup_retention.py": "0414bf62a4cd6d116c0295938572346f59d59980e8f9e33354aeb2d051dff98e"
   }

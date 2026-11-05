@@ -1,0 +1,678 @@
+{
+  "status": "FROZEN_COHORTS_DESCRIBED_WITHOUT_RESELECTION",
+  "model_scores_used": false,
+  "tracks": {
+    "massive": {
+      "A_rows": 3200,
+      "B_rows": 3200,
+      "steps_each": 200,
+      "A_B_semantic_ID_overlap": 0,
+      "B_rows_with_NFKC_stripped_TH_text_in_A": 38,
+      "label_definition": "classification label",
+      "label_total_variation": 0.08968749999999998,
+      "A_label_counts": {
+        "alarm_query": 42,
+        "alarm_remove": 14,
+        "alarm_set": 46,
+        "audio_volume_down": 14,
+        "audio_volume_mute": 28,
+        "audio_volume_other": 5,
+        "audio_volume_up": 25,
+        "calendar_query": 139,
+        "calendar_remove": 69,
+        "calendar_set": 267,
+        "cooking_query": 1,
+        "cooking_recipe": 52,
+        "datetime_convert": 12,
+        "datetime_query": 86,
+        "email_addcontact": 18,
+        "email_query": 114,
+        "email_querycontact": 33,
+        "email_sendemail": 125,
+        "general_greet": 6,
+        "general_joke": 19,
+        "general_quirky": 183,
+        "iot_cleaning": 17,
+        "iot_coffee": 28,
+        "iot_hue_lightchange": 39,
+        "iot_hue_lightdim": 21,
+        "iot_hue_lightoff": 27,
+        "iot_hue_lighton": 7,
+        "iot_hue_lightup": 30,
+        "iot_wemo_off": 6,
+        "iot_wemo_on": 13,
+        "lists_createoradd": 66,
+        "lists_query": 49,
+        "lists_remove": 48,
+        "music_dislikeness": 5,
+        "music_likeness": 34,
+        "music_query": 38,
+        "music_settings": 17,
+        "news_query": 140,
+        "play_audiobook": 43,
+        "play_game": 37,
+        "play_music": 160,
+        "play_podcasts": 61,
+        "play_radio": 78,
+        "qa_currency": 46,
+        "qa_definition": 70,
+        "qa_factoid": 145,
+        "qa_maths": 27,
+        "qa_stock": 48,
+        "recommendation_events": 47,
+        "recommendation_locations": 55,
+        "recommendation_movies": 18,
+        "social_post": 86,
+        "social_query": 32,
+        "takeaway_order": 37,
+        "takeaway_query": 27,
+        "transport_query": 66,
+        "transport_taxi": 25,
+        "transport_ticket": 24,
+        "transport_traffic": 36,
+        "weather_query": 149
+      },
+      "B_label_counts": {
+        "alarm_query": 41,
+        "alarm_remove": 35,
+        "alarm_set": 54,
+        "audio_volume_down": 11,
+        "audio_volume_mute": 29,
+        "audio_volume_other": 8,
+        "audio_volume_up": 23,
+        "calendar_query": 160,
+        "calendar_remove": 100,
+        "calendar_set": 220,
+        "cooking_query": 2,
+        "cooking_recipe": 75,
+        "datetime_convert": 19,
+        "datetime_query": 72,
+        "email_addcontact": 12,
+        "email_query": 118,
+        "email_querycontact": 40,
+        "email_sendemail": 92,
+        "general_greet": 5,
+        "general_joke": 18,
+        "general_quirky": 157,
+        "iot_cleaning": 29,
+        "iot_coffee": 39,
+        "iot_hue_lightchange": 24,
+        "iot_hue_lightdim": 15,
+        "iot_hue_lightoff": 23,
+        "iot_hue_lighton": 5,
+        "iot_hue_lightup": 15,
+        "iot_wemo_off": 8,
+        "iot_wemo_on": 11,
+        "lists_createoradd": 39,
+        "lists_query": 57,
+        "lists_remove": 31,
+        "music_dislikeness": 3,
+        "music_likeness": 33,
+        "music_query": 48,
+        "music_settings": 15,
+        "news_query": 141,
+        "play_audiobook": 49,
+        "play_game": 24,
+        "play_music": 180,
+        "play_podcasts": 54,
+        "play_radio": 73,
+        "qa_currency": 42,
+        "qa_definition": 74,
+        "qa_factoid": 165,
+        "qa_maths": 24,
+        "qa_stock": 46,
+        "recommendation_events": 62,
+        "recommendation_locations": 56,
+        "recommendation_movies": 19,
+        "social_post": 77,
+        "social_query": 24,
+        "takeaway_order": 40,
+        "takeaway_query": 37,
+        "transport_query": 71,
+        "transport_taxi": 30,
+        "transport_ticket": 44,
+        "transport_traffic": 27,
+        "weather_query": 155
+      },
+      "A_token_statistics": {
+        "n": 3200,
+        "totals": [
+          974007,
+          14718,
+          974007,
+          14718
+        ],
+        "quantiles_0_50_90_95_99_100": [
+          [
+            286.0,
+            4.0,
+            286.0,
+            4.0
+          ],
+          [
+            303.0,
+            4.0,
+            303.0,
+            4.0
+          ],
+          [
+            316.0,
+            6.0,
+            316.0,
+            6.0
+          ],
+          [
+            322.0,
+            6.0,
+            322.0,
+            6.0
+          ],
+          [
+            334.0,
+            7.0,
+            334.0,
+            7.0
+          ],
+          [
+            359.0,
+            7.0,
+            359.0,
+            7.0
+          ]
+        ],
+        "truncated": 0
+      },
+      "B_token_statistics": {
+        "n": 3200,
+        "totals": [
+          973355,
+          14548,
+          973355,
+          14548
+        ],
+        "quantiles_0_50_90_95_99_100": [
+          [
+            286.0,
+            4.0,
+            286.0,
+            4.0
+          ],
+          [
+            303.0,
+            4.0,
+            303.0,
+            4.0
+          ],
+          [
+            316.0,
+            6.0,
+            316.0,
+            6.0
+          ],
+          [
+            321.0,
+            6.0,
+            321.0,
+            6.0
+          ],
+          [
+            330.0,
+            7.0,
+            330.0,
+            7.0
+          ],
+          [
+            357.0,
+            7.0,
+            357.0,
+            7.0
+          ]
+        ],
+        "truncated": 0
+      },
+      "B_over_A_tokens": {
+        "input_after_cutoff": 0.999330600293427,
+        "shifted_assistant": 0.9884495175974997
+      },
+      "A_ID_order_sha256": "ab4e3538a0623f88fc9cea876661ccb2bb4db590066b638f21f2809188fbd3c5",
+      "B_ID_order_sha256": "76fa7eefec0d6b44a47ca80987220d0e169d3f6836c019182efb51f7290baa06",
+      "parent_protocol_sha256": "29688354b5216715e9f55bced4ff715b9e7e2cb29b794d02c5f74a7a3a4a5807",
+      "B_protocol_sha256": "ddf6dbfe7cac83f17ea67ade20b7dd5aaf0e1cf25304c9072a84b1bfdf4bb55c",
+      "A_train_json_sha256": "a40a31f53881f52191ec5f2d4e1d41b9b4eae8b5266e7a27faef005666ca3aef",
+      "B_train_json_sha256": "36357c7c6176300274126136da5329bb8352ff0cacfb67749b63f1f5f69ac0cc"
+    },
+    "xnli": {
+      "A_rows": 3200,
+      "B_rows": 3200,
+      "steps_each": 200,
+      "A_B_semantic_ID_overlap": 0,
+      "B_rows_with_NFKC_stripped_TH_text_in_A": 0,
+      "label_definition": "classification label",
+      "label_total_variation": 0.007812500000000028,
+      "A_label_counts": {
+        "contradiction": 1052,
+        "entailment": 1094,
+        "neutral": 1054
+      },
+      "B_label_counts": {
+        "contradiction": 1067,
+        "entailment": 1069,
+        "neutral": 1064
+      },
+      "A_token_statistics": {
+        "n": 3200,
+        "totals": [
+          545011,
+          13892,
+          545011,
+          13892
+        ],
+        "quantiles_0_50_90_95_99_100": [
+          [
+            78.0,
+            3.0,
+            78.0,
+            3.0
+          ],
+          [
+            162.0,
+            5.0,
+            162.0,
+            5.0
+          ],
+          [
+            236.0,
+            5.0,
+            236.0,
+            5.0
+          ],
+          [
+            260.0,
+            5.0,
+            260.0,
+            5.0
+          ],
+          [
+            341.0,
+            5.0,
+            341.0,
+            5.0
+          ],
+          [
+            803.0,
+            5.0,
+            803.0,
+            5.0
+          ]
+        ],
+        "truncated": 0
+      },
+      "B_token_statistics": {
+        "n": 3200,
+        "totals": [
+          542304,
+          13872,
+          542304,
+          13872
+        ],
+        "quantiles_0_50_90_95_99_100": [
+          [
+            81.0,
+            3.0,
+            81.0,
+            3.0
+          ],
+          [
+            162.0,
+            5.0,
+            162.0,
+            5.0
+          ],
+          [
+            237.0,
+            5.0,
+            237.0,
+            5.0
+          ],
+          [
+            260.0499999999997,
+            5.0,
+            260.0499999999997,
+            5.0
+          ],
+          [
+            316.00999999999976,
+            5.0,
+            316.00999999999976,
+            5.0
+          ],
+          [
+            586.0,
+            5.0,
+            586.0,
+            5.0
+          ]
+        ],
+        "truncated": 0
+      },
+      "B_over_A_tokens": {
+        "input_after_cutoff": 0.995033127771733,
+        "shifted_assistant": 0.9985603224877627
+      },
+      "A_ID_order_sha256": "64378820eab1791998b6fda5b0c813109f2d7f60ca21e3905eb0352c9e93a5d9",
+      "B_ID_order_sha256": "5af0293ef7df5934e8ea27682f390b4953c70d92cb5da45f26a0083e8eb4438a",
+      "parent_protocol_sha256": "c11a77d2f4cbc136907a3ab96921c1e99a925c9fa310798c2c72028eae3ab85d",
+      "B_protocol_sha256": "98527a4adb6ac124ca68fe89f3a0c63ad0f820c3580aa7d471137db19dc96c98",
+      "A_train_json_sha256": "094c52993ac84532df23851b682c9e12aee913f1eb1a4e593ac86891b93252ce",
+      "B_train_json_sha256": "229d18ecb5b07d5d760281f49967418acf0630b60bcbb1b24a3d4d7d6b78b274"
+    },
+    "mtop": {
+      "A_rows": 3200,
+      "B_rows": 3200,
+      "steps_each": 200,
+      "A_B_semantic_ID_overlap": 0,
+      "B_rows_with_NFKC_stripped_TH_text_in_A": 25,
+      "label_definition": "root intent only, not full target trees",
+      "label_total_variation": 0.06624999999999993,
+      "A_label_counts": {
+        "IN:ADD_TIME_TIMER": 26,
+        "IN:ADD_TO_PLAYLIST_MUSIC": 1,
+        "IN:ANSWER_CALL": 10,
+        "IN:CANCEL_MESSAGE": 1,
+        "IN:CREATE_ALARM": 259,
+        "IN:CREATE_CALL": 228,
+        "IN:CREATE_PLAYLIST_MUSIC": 3,
+        "IN:CREATE_REMINDER": 278,
+        "IN:CREATE_TIMER": 77,
+        "IN:DELETE_ALARM": 13,
+        "IN:DELETE_PLAYLIST_MUSIC": 1,
+        "IN:DELETE_REMINDER": 64,
+        "IN:DELETE_TIMER": 11,
+        "IN:DISLIKE_MUSIC": 3,
+        "IN:END_CALL": 39,
+        "IN:FAST_FORWARD_MUSIC": 3,
+        "IN:FOLLOW_MUSIC": 1,
+        "IN:GET_AGE": 1,
+        "IN:GET_ALARM": 25,
+        "IN:GET_ATTENDEE_EVENT": 3,
+        "IN:GET_AVAILABILITY": 63,
+        "IN:GET_CALL": 15,
+        "IN:GET_CALL_CONTACT": 6,
+        "IN:GET_CALL_TIME": 9,
+        "IN:GET_CATEGORY_EVENT": 2,
+        "IN:GET_CONTACT": 125,
+        "IN:GET_CONTACT_METHOD": 1,
+        "IN:GET_DATE_TIME_EVENT": 2,
+        "IN:GET_DETAILS_NEWS": 2,
+        "IN:GET_EDUCATION_TIME": 1,
+        "IN:GET_EMPLOYER": 29,
+        "IN:GET_EMPLOYMENT_TIME": 1,
+        "IN:GET_EVENT": 198,
+        "IN:GET_INFO_CONTACT": 1,
+        "IN:GET_INFO_RECIPES": 9,
+        "IN:GET_JOB": 2,
+        "IN:GET_LOCATION": 9,
+        "IN:GET_LYRICS_MUSIC": 1,
+        "IN:GET_MESSAGE": 34,
+        "IN:GET_MESSAGE_CONTACT": 3,
+        "IN:GET_MUTUAL_FRIENDS": 2,
+        "IN:GET_RECIPES": 150,
+        "IN:GET_REMINDER": 48,
+        "IN:GET_REMINDER_AMOUNT": 3,
+        "IN:GET_REMINDER_DATE_TIME": 5,
+        "IN:GET_REMINDER_LOCATION": 1,
+        "IN:GET_STORIES_NEWS": 117,
+        "IN:GET_SUNRISE": 6,
+        "IN:GET_SUNSET": 7,
+        "IN:GET_TIMER": 41,
+        "IN:GET_TRACK_INFO_MUSIC": 16,
+        "IN:GET_WEATHER": 401,
+        "IN:HELP_REMINDER": 2,
+        "IN:HOLD_CALL": 2,
+        "IN:IGNORE_CALL": 11,
+        "IN:IS_TRUE_RECIPES": 8,
+        "IN:LIKE_MUSIC": 3,
+        "IN:LOOP_MUSIC": 1,
+        "IN:PAUSE_MUSIC": 8,
+        "IN:PAUSE_TIMER": 19,
+        "IN:PLAY_MUSIC": 166,
+        "IN:PREVIOUS_TRACK_MUSIC": 9,
+        "IN:QUESTION_MUSIC": 5,
+        "IN:QUESTION_NEWS": 32,
+        "IN:REMOVE_FROM_PLAYLIST_MUSIC": 3,
+        "IN:REPEAT_ALL_MUSIC": 1,
+        "IN:REPEAT_ALL_OFF_MUSIC": 3,
+        "IN:REPLAY_MUSIC": 10,
+        "IN:RESTART_TIMER": 14,
+        "IN:RESUME_CALL": 2,
+        "IN:RESUME_MUSIC": 1,
+        "IN:RESUME_TIMER": 5,
+        "IN:REWIND_MUSIC": 3,
+        "IN:SEND_MESSAGE": 224,
+        "IN:SET_AVAILABLE": 17,
+        "IN:SET_DEFAULT_PROVIDER_CALLING": 2,
+        "IN:SET_DEFAULT_PROVIDER_MUSIC": 15,
+        "IN:SET_RSVP_INTERESTED": 15,
+        "IN:SET_RSVP_NO": 13,
+        "IN:SET_RSVP_YES": 13,
+        "IN:SET_UNAVAILABLE": 27,
+        "IN:SHARE_EVENT": 3,
+        "IN:SILENCE_ALARM": 17,
+        "IN:SKIP_TRACK_MUSIC": 10,
+        "IN:SNOOZE_ALARM": 25,
+        "IN:START_SHUFFLE_MUSIC": 8,
+        "IN:STOP_MUSIC": 2,
+        "IN:SUBTRACT_TIME_TIMER": 11,
+        "IN:SWITCH_CALL": 13,
+        "IN:UNLOOP_MUSIC": 2,
+        "IN:UPDATE_ALARM": 9,
+        "IN:UPDATE_CALL": 66,
+        "IN:UPDATE_METHOD_CALL": 11,
+        "IN:UPDATE_REMINDER": 1,
+        "IN:UPDATE_REMINDER_DATE_TIME": 16,
+        "IN:UPDATE_REMINDER_TODO": 2,
+        "IN:UPDATE_TIMER": 13
+      },
+      "B_label_counts": {
+        "IN:ADD_TIME_TIMER": 21,
+        "IN:ADD_TO_PLAYLIST_MUSIC": 4,
+        "IN:ANSWER_CALL": 14,
+        "IN:CANCEL_MESSAGE": 3,
+        "IN:CREATE_ALARM": 252,
+        "IN:CREATE_CALL": 216,
+        "IN:CREATE_PLAYLIST_MUSIC": 5,
+        "IN:CREATE_REMINDER": 282,
+        "IN:CREATE_TIMER": 86,
+        "IN:DELETE_ALARM": 14,
+        "IN:DELETE_PLAYLIST_MUSIC": 3,
+        "IN:DELETE_REMINDER": 70,
+        "IN:DELETE_TIMER": 15,
+        "IN:DISLIKE_MUSIC": 2,
+        "IN:END_CALL": 25,
+        "IN:FAST_FORWARD_MUSIC": 1,
+        "IN:GET_ALARM": 28,
+        "IN:GET_ATTENDEE_EVENT": 6,
+        "IN:GET_AVAILABILITY": 69,
+        "IN:GET_CALL": 17,
+        "IN:GET_CALL_CONTACT": 6,
+        "IN:GET_CALL_TIME": 8,
+        "IN:GET_CATEGORY_EVENT": 9,
+        "IN:GET_CONTACT": 115,
+        "IN:GET_DATE_TIME_EVENT": 3,
+        "IN:GET_DETAILS_NEWS": 2,
+        "IN:GET_EDUCATION_TIME": 1,
+        "IN:GET_EMPLOYER": 37,
+        "IN:GET_EMPLOYMENT_TIME": 2,
+        "IN:GET_EVENT": 222,
+        "IN:GET_INFO_CONTACT": 4,
+        "IN:GET_INFO_RECIPES": 7,
+        "IN:GET_JOB": 2,
+        "IN:GET_LOCATION": 7,
+        "IN:GET_MESSAGE": 28,
+        "IN:GET_MESSAGE_CONTACT": 1,
+        "IN:GET_MUTUAL_FRIENDS": 1,
+        "IN:GET_RECIPES": 126,
+        "IN:GET_REMINDER": 36,
+        "IN:GET_REMINDER_DATE_TIME": 6,
+        "IN:GET_REMINDER_LOCATION": 2,
+        "IN:GET_STORIES_NEWS": 128,
+        "IN:GET_SUNRISE": 5,
+        "IN:GET_SUNSET": 5,
+        "IN:GET_TIMER": 37,
+        "IN:GET_TRACK_INFO_MUSIC": 21,
+        "IN:GET_UNDERGRAD": 1,
+        "IN:GET_WEATHER": 410,
+        "IN:HELP_REMINDER": 1,
+        "IN:HOLD_CALL": 4,
+        "IN:IGNORE_CALL": 17,
+        "IN:IS_TRUE_RECIPES": 12,
+        "IN:LIKE_MUSIC": 4,
+        "IN:LOOP_MUSIC": 5,
+        "IN:MERGE_CALL": 1,
+        "IN:PAUSE_MUSIC": 2,
+        "IN:PAUSE_TIMER": 16,
+        "IN:PLAY_MEDIA": 2,
+        "IN:PLAY_MUSIC": 182,
+        "IN:PREVIOUS_TRACK_MUSIC": 10,
+        "IN:QUESTION_MUSIC": 3,
+        "IN:QUESTION_NEWS": 29,
+        "IN:REMOVE_FROM_PLAYLIST_MUSIC": 2,
+        "IN:REPLAY_MUSIC": 18,
+        "IN:RESTART_TIMER": 14,
+        "IN:RESUME_CALL": 1,
+        "IN:RESUME_MUSIC": 3,
+        "IN:RESUME_TIMER": 13,
+        "IN:SEND_MESSAGE": 203,
+        "IN:SET_AVAILABLE": 7,
+        "IN:SET_DEFAULT_PROVIDER_CALLING": 2,
+        "IN:SET_DEFAULT_PROVIDER_MUSIC": 13,
+        "IN:SET_RSVP_INTERESTED": 13,
+        "IN:SET_RSVP_NO": 12,
+        "IN:SET_RSVP_YES": 12,
+        "IN:SET_UNAVAILABLE": 22,
+        "IN:SHARE_EVENT": 6,
+        "IN:SILENCE_ALARM": 18,
+        "IN:SKIP_TRACK_MUSIC": 8,
+        "IN:SNOOZE_ALARM": 13,
+        "IN:START_SHUFFLE_MUSIC": 14,
+        "IN:STOP_MUSIC": 6,
+        "IN:STOP_SHUFFLE_MUSIC": 1,
+        "IN:SUBTRACT_TIME_TIMER": 18,
+        "IN:SWITCH_CALL": 6,
+        "IN:UPDATE_ALARM": 16,
+        "IN:UPDATE_CALL": 68,
+        "IN:UPDATE_METHOD_CALL": 12,
+        "IN:UPDATE_REMINDER": 1,
+        "IN:UPDATE_REMINDER_DATE_TIME": 14,
+        "IN:UPDATE_REMINDER_TODO": 4,
+        "IN:UPDATE_TIMER": 7
+      },
+      "A_token_statistics": {
+        "n": 3200,
+        "totals": [
+          4580851,
+          106470,
+          4580851,
+          106470
+        ],
+        "quantiles_0_50_90_95_99_100": [
+          [
+            1389.0,
+            8.0,
+            1389.0,
+            8.0
+          ],
+          [
+            1429.0,
+            32.0,
+            1429.0,
+            32.0
+          ],
+          [
+            1460.0,
+            53.0,
+            1460.0,
+            53.0
+          ],
+          [
+            1473.0,
+            62.0,
+            1473.0,
+            62.0
+          ],
+          [
+            1505.0,
+            84.00999999999976,
+            1505.0,
+            84.00999999999976
+          ],
+          [
+            1575.0,
+            125.0,
+            1575.0,
+            125.0
+          ]
+        ],
+        "truncated": 0
+      },
+      "B_token_statistics": {
+        "n": 3200,
+        "totals": [
+          4583695,
+          108212,
+          4583695,
+          108212
+        ],
+        "quantiles_0_50_90_95_99_100": [
+          [
+            1390.0,
+            8.0,
+            1390.0,
+            8.0
+          ],
+          [
+            1428.0,
+            32.0,
+            1428.0,
+            32.0
+          ],
+          [
+            1462.0,
+            54.0,
+            1462.0,
+            54.0
+          ],
+          [
+            1476.0,
+            64.0,
+            1476.0,
+            64.0
+          ],
+          [
+            1506.0,
+            85.0,
+            1506.0,
+            85.0
+          ],
+          [
+            1635.0,
+            197.0,
+            1635.0,
+            197.0
+          ]
+        ],
+        "truncated": 0
+      },
+      "B_over_A_tokens": {
+        "input_after_cutoff": 1.0006208453407457,
+        "shifted_assistant": 1.0163614163614163
+      },
+      "A_ID_order_sha256": "e945ef787f3a4029c9061cd7c39d8dfe5ac747bbab463f48733cfce0ada8df7f",
+      "B_ID_order_sha256": "a638ae8b362ae13f037186c05b3d125eed6d169fa2b912b254a3d0cf43d6ce6a",
+      "parent_protocol_sha256": "522afc6fa9497802862bd7fa2ebf2289154892d94d79ac185b0e3c90d562a5b7",
+      "B_protocol_sha256": "4c91af985b56b6edefcd00d17b537169a6f628fc7ff5d9acd4c2a63002ed0ab3",
+      "A_train_json_sha256": "33820246d117745f90b0992c66c1d45af6855a445981db65736fa84967e90374",
+      "B_train_json_sha256": "7b2fd331b11d1fdc7931d81154874dac5aa35f4065aa7d857fd494ff301bd2a8"
+    }
+  }
+}
