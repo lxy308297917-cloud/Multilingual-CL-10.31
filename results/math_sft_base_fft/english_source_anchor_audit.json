@@ -1,0 +1,48 @@
+{
+  "status": "COMPLETE_EXACT_SOURCE_ANCHOR_CHECK",
+  "frozen_training_data_unchanged": true,
+  "anchor_counts": {
+    "en_gsm8k_test": 1319,
+    "en_mgsm_rev2": 250,
+    "en_msvamp": 1000,
+    "en_polymath_low": 125,
+    "en_polymath_medium": 125,
+    "en_polymath_high": 125,
+    "en_polymath_top": 125
+  },
+  "assets": [
+    {
+      "level": "low",
+      "sha256": "58f7c2e9b46eeb34e0e8630ac1f081b480fabb06f6e3e6ea8961691655aeaeff",
+      "url": "https://huggingface.co/datasets/Qwen/PolyMath/resolve/71e0db902e0ece05e208dfd8b1695bd3d95cf130/en/low.parquet"
+    },
+    {
+      "level": "medium",
+      "sha256": "cb022db342bbdaff429e6e40ce9df1c51bc25f5b97fb5b78597f8c54a771c99a",
+      "url": "https://huggingface.co/datasets/Qwen/PolyMath/resolve/71e0db902e0ece05e208dfd8b1695bd3d95cf130/en/medium.parquet"
+    },
+    {
+      "level": "high",
+      "sha256": "4827781c292fa04b06bce0d027eeae79939135452a14283af8e5053962db4c84",
+      "url": "https://huggingface.co/datasets/Qwen/PolyMath/resolve/71e0db902e0ece05e208dfd8b1695bd3d95cf130/en/high.parquet"
+    },
+    {
+      "level": "top",
+      "sha256": "8ccf31eb919587027fa97e7342c206660b04614527762b57f431aa244ae5d522",
+      "url": "https://huggingface.co/datasets/Qwen/PolyMath/resolve/71e0db902e0ece05e208dfd8b1695bd3d95cf130/en/top.parquet"
+    }
+  ],
+  "hits_by_language": {
+    "sw": [],
+    "bn": [],
+    "th": [],
+    "ja": [],
+    "zh": [],
+    "ru": [],
+    "fr": [],
+    "de": [],
+    "es": []
+  },
+  "rule": "exact NFKC-casefold-whitespace canonical English source question identity; not numerical-answer matching",
+  "scope": "Auxiliary English source anchors complement the existing nine-language exact question check; no English PolyMath performance evaluated; no semantic/paraphrase contamination-free claim"
+}

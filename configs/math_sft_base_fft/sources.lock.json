@@ -1,0 +1,423 @@
+{
+  "polymath_dataset_revision": "71e0db902e0ece05e208dfd8b1695bd3d95cf130",
+  "polymath_code_revision": "fbf4e41cae78687d6be7447dbea897357c06aaa7",
+  "mgsm_revision": "5f091edeae66ebc605ac4f98dca07a6c345f0060",
+  "msvamp_revision": "301e2b3b168be70058c89c21c2fbdc9262102add",
+  "assets": [
+    {
+      "path": "PolyMath-official/README.md",
+      "url": "https://raw.githubusercontent.com/QwenLM/PolyMath/fbf4e41cae78687d6be7447dbea897357c06aaa7/README.md",
+      "bytes": 7084,
+      "sha256": "195f6da95f65b2344246bdda4ffbc2f441b4493fe8e271c7d1402e47d576f499"
+    },
+    {
+      "path": "PolyMath-official/eval/bundled/latex2sympy2/README.md",
+      "url": "https://raw.githubusercontent.com/QwenLM/PolyMath/fbf4e41cae78687d6be7447dbea897357c06aaa7/eval/bundled/latex2sympy2/README.md",
+      "bytes": 604,
+      "sha256": "84c66548694970c67d19904c4ab428e4738dfd68f6f61035bdcb54e488c951f9"
+    },
+    {
+      "path": "PolyMath-official/eval/bundled/latex2sympy2/asciimath_printer.py",
+      "url": "https://raw.githubusercontent.com/QwenLM/PolyMath/fbf4e41cae78687d6be7447dbea897357c06aaa7/eval/bundled/latex2sympy2/asciimath_printer.py",
+      "bytes": 1698,
+      "sha256": "3dbccdc82bea098cffc8a469004c176f7148d75bc5ec17bc0419af89b6d4446c"
+    },
+    {
+      "path": "PolyMath-official/eval/bundled/latex2sympy2/assets/PS.g4",
+      "url": "https://raw.githubusercontent.com/QwenLM/PolyMath/fbf4e41cae78687d6be7447dbea897357c06aaa7/eval/bundled/latex2sympy2/assets/PS.g4",
+      "bytes": 16068,
+      "sha256": "58baa7b7ae8f08ec2df1a34df7dc2f555274dcdb84722db19341a1410dee5cc0"
+    },
+    {
+      "path": "PolyMath-official/eval/bundled/latex2sympy2/gen/PSLexer.py",
+      "url": "https://raw.githubusercontent.com/QwenLM/PolyMath/fbf4e41cae78687d6be7447dbea897357c06aaa7/eval/bundled/latex2sympy2/gen/PSLexer.py",
+      "bytes": 94941,
+      "sha256": "0316c7728e8e5a7cb0940b003ccb01f81c91e8e5a1d3edf4ca96acfa40a64dae"
+    },
+    {
+      "path": "PolyMath-official/eval/bundled/latex2sympy2/gen/PSListener.py",
+      "url": "https://raw.githubusercontent.com/QwenLM/PolyMath/fbf4e41cae78687d6be7447dbea897357c06aaa7/eval/bundled/latex2sympy2/gen/PSListener.py",
+      "bytes": 17967,
+      "sha256": "be48dc05d04b568ad86e7c8baf138d137b794c5cd480a7a4213f00de8028202f"
+    },
+    {
+      "path": "PolyMath-official/eval/bundled/latex2sympy2/gen/PSParser.py",
+      "url": "https://raw.githubusercontent.com/QwenLM/PolyMath/fbf4e41cae78687d6be7447dbea897357c06aaa7/eval/bundled/latex2sympy2/gen/PSParser.py",
+      "bytes": 244090,
+      "sha256": "4f519225994ddf2c938481f14093fb3a1e0135be356bae7381f3823aef22fed1"
+    },
+    {
+      "path": "PolyMath-official/eval/bundled/latex2sympy2/latex2sympy2.py",
+      "url": "https://raw.githubusercontent.com/QwenLM/PolyMath/fbf4e41cae78687d6be7447dbea897357c06aaa7/eval/bundled/latex2sympy2/latex2sympy2.py",
+      "bytes": 40624,
+      "sha256": "da9aa217c1634fe49287a19669e30daa5f4df0d1bbe526ee4e9e66dd02c3b652"
+    },
+    {
+      "path": "PolyMath-official/eval/bundled/symeval/_modidx.py",
+      "url": "https://raw.githubusercontent.com/QwenLM/PolyMath/fbf4e41cae78687d6be7447dbea897357c06aaa7/eval/bundled/symeval/_modidx.py",
+      "bytes": 7737,
+      "sha256": "ca3fbb24ae73d5a67a9200517720da4293df21deca399d78622c934d03f55404"
+    },
+    {
+      "path": "PolyMath-official/eval/bundled/symeval/core.py",
+      "url": "https://raw.githubusercontent.com/QwenLM/PolyMath/fbf4e41cae78687d6be7447dbea897357c06aaa7/eval/bundled/symeval/core.py",
+      "bytes": 52020,
+      "sha256": "1fabe6c4f2630e1e7d84553e9503608b7f21f47ffec99ed722ff4c225554f1c7"
+    },
+    {
+      "path": "PolyMath-official/eval/run_eval.py",
+      "url": "https://raw.githubusercontent.com/QwenLM/PolyMath/fbf4e41cae78687d6be7447dbea897357c06aaa7/eval/run_eval.py",
+      "bytes": 7140,
+      "sha256": "b4c11db236ac5f264b55571129b1499bb93eb3c1d50eb9dd30aa03fc00dfa96a"
+    },
+    {
+      "path": "PolyMath-official/eval/run_eval.sh",
+      "url": "https://raw.githubusercontent.com/QwenLM/PolyMath/fbf4e41cae78687d6be7447dbea897357c06aaa7/eval/run_eval.sh",
+      "bytes": 349,
+      "sha256": "8e0585b0d1333f49cfb8ac970329f0f994898767f0bbc1c21c1907780ac1294c"
+    },
+    {
+      "path": "PolyMath-official/eval/scripts.py",
+      "url": "https://raw.githubusercontent.com/QwenLM/PolyMath/fbf4e41cae78687d6be7447dbea897357c06aaa7/eval/scripts.py",
+      "bytes": 26181,
+      "sha256": "47f72329d37f07cebec186070aae5703929dcf80116062b2542e13a54e9f5407"
+    },
+    {
+      "path": "PolyMath-official/instruction.py",
+      "url": "https://raw.githubusercontent.com/QwenLM/PolyMath/fbf4e41cae78687d6be7447dbea897357c06aaa7/instruction.py",
+      "bytes": 6888,
+      "sha256": "39954a0b738ac92c44d53f3915146530a741e4df454b6036066b0fab3a10e22e"
+    },
+    {
+      "path": "PolyMath-official/requirements.txt",
+      "url": "https://raw.githubusercontent.com/QwenLM/PolyMath/fbf4e41cae78687d6be7447dbea897357c06aaa7/requirements.txt",
+      "bytes": 137,
+      "sha256": "babd23c70e842f823cd21e0d56a43df1228d140324ee5043f489d0b4a0f83d2e"
+    },
+    {
+      "path": "mgsm_rev2/mgsm_bn.tsv",
+      "url": "https://raw.githubusercontent.com/google-research-datasets/MGSM-Rev2/5f091edeae66ebc605ac4f98dca07a6c345f0060/MGSM-Rev2/mgsm_bn.tsv",
+      "bytes": 157720,
+      "sha256": "9d3b404c099143ac54a33dc2d268b792937a3846bb2ae0fb2fdea8250d002d93"
+    },
+    {
+      "path": "mgsm_rev2/mgsm_de.tsv",
+      "url": "https://raw.githubusercontent.com/google-research-datasets/MGSM-Rev2/5f091edeae66ebc605ac4f98dca07a6c345f0060/MGSM-Rev2/mgsm_de.tsv",
+      "bytes": 70011,
+      "sha256": "a752874e878e6d1a6083fa79baf0c130bb76c2830d90dc33b393fd7e56421977"
+    },
+    {
+      "path": "mgsm_rev2/mgsm_es.tsv",
+      "url": "https://raw.githubusercontent.com/google-research-datasets/MGSM-Rev2/5f091edeae66ebc605ac4f98dca07a6c345f0060/MGSM-Rev2/mgsm_es.tsv",
+      "bytes": 67570,
+      "sha256": "10b976421c7b0e7cd54d77d77e2f77913be1d2afbba569e547637a1fc3f78195"
+    },
+    {
+      "path": "mgsm_rev2/mgsm_fr.tsv",
+      "url": "https://raw.githubusercontent.com/google-research-datasets/MGSM-Rev2/5f091edeae66ebc605ac4f98dca07a6c345f0060/MGSM-Rev2/mgsm_fr.tsv",
+      "bytes": 70495,
+      "sha256": "35ea07e63163c52349963a40ac9c6b557bff4e17fb6729158c005b8e6069cd7d"
+    },
+    {
+      "path": "mgsm_rev2/mgsm_ja.tsv",
+      "url": "https://raw.githubusercontent.com/google-research-datasets/MGSM-Rev2/5f091edeae66ebc605ac4f98dca07a6c345f0060/MGSM-Rev2/mgsm_ja.tsv",
+      "bytes": 82690,
+      "sha256": "7e2daf676deea614ea7945e8c301077d32916c8d6d1b7577d25d522a8d1a57dc"
+    },
+    {
+      "path": "mgsm_rev2/mgsm_ru.tsv",
+      "url": "https://raw.githubusercontent.com/google-research-datasets/MGSM-Rev2/5f091edeae66ebc605ac4f98dca07a6c345f0060/MGSM-Rev2/mgsm_ru.tsv",
+      "bytes": 111687,
+      "sha256": "a7cd1a19c020512804597cd9d2fa50f01aabbce8dc59e59187d0096cad6a99cf"
+    },
+    {
+      "path": "mgsm_rev2/mgsm_sw.tsv",
+      "url": "https://raw.githubusercontent.com/google-research-datasets/MGSM-Rev2/5f091edeae66ebc605ac4f98dca07a6c345f0060/MGSM-Rev2/mgsm_sw.tsv",
+      "bytes": 68038,
+      "sha256": "7a23573f28ab82504f5436f18f4168f1807103756905d82495828b69148739d5"
+    },
+    {
+      "path": "mgsm_rev2/mgsm_th.tsv",
+      "url": "https://raw.githubusercontent.com/google-research-datasets/MGSM-Rev2/5f091edeae66ebc605ac4f98dca07a6c345f0060/MGSM-Rev2/mgsm_th.tsv",
+      "bytes": 153534,
+      "sha256": "473a0cd3711766ea4746899cf6993ec4d4b0ec2188922e3ecdc1df04bd64d8e4"
+    },
+    {
+      "path": "mgsm_rev2/mgsm_zh.tsv",
+      "url": "https://raw.githubusercontent.com/google-research-datasets/MGSM-Rev2/5f091edeae66ebc605ac4f98dca07a6c345f0060/MGSM-Rev2/mgsm_zh.tsv",
+      "bytes": 57941,
+      "sha256": "115c306f1a58810f5949784cf749c48a12716e79fff2aab8f2225e4f02e38d41"
+    },
+    {
+      "path": "msvamp/test_Bengali.json",
+      "url": "https://huggingface.co/datasets/Mathoctopus/MSVAMP/resolve/301e2b3b168be70058c89c21c2fbdc9262102add/test_Bengali.json",
+      "bytes": 644605,
+      "sha256": "d1c0bb8e3a93127bdffab516ef9bb739ae5007f9071ae97c447c294b1fd65e82"
+    },
+    {
+      "path": "msvamp/test_Chinese.json",
+      "url": "https://huggingface.co/datasets/Mathoctopus/MSVAMP/resolve/301e2b3b168be70058c89c21c2fbdc9262102add/test_Chinese.json",
+      "bytes": 395550,
+      "sha256": "31e136303b56ed1734d3e9fbcdcff4499f974a0857298816c41e1c5c0be6b4bd"
+    },
+    {
+      "path": "msvamp/test_French.json",
+      "url": "https://huggingface.co/datasets/Mathoctopus/MSVAMP/resolve/301e2b3b168be70058c89c21c2fbdc9262102add/test_French.json",
+      "bytes": 441373,
+      "sha256": "3a756d228f3d9ee219b673f9dda091b6d64f7c4d0e71045d6a6dbf315539e0ea"
+    },
+    {
+      "path": "msvamp/test_German.json",
+      "url": "https://huggingface.co/datasets/Mathoctopus/MSVAMP/resolve/301e2b3b168be70058c89c21c2fbdc9262102add/test_German.json",
+      "bytes": 430816,
+      "sha256": "f5b854da48da762163fb3ccf60307bb9a97e0efac2fd44fdb5ba0969ee1464aa"
+    },
+    {
+      "path": "msvamp/test_Japanese.json",
+      "url": "https://huggingface.co/datasets/Mathoctopus/MSVAMP/resolve/301e2b3b168be70058c89c21c2fbdc9262102add/test_Japanese.json",
+      "bytes": 495398,
+      "sha256": "04f89b370bb22a6a78de99fc36e30658186149858172abf8e68665890e81322b"
+    },
+    {
+      "path": "msvamp/test_Russian.json",
+      "url": "https://huggingface.co/datasets/Mathoctopus/MSVAMP/resolve/301e2b3b168be70058c89c21c2fbdc9262102add/test_Russian.json",
+      "bytes": 539571,
+      "sha256": "05d2d317c24f1180c0839d7813f6bebcaeeb57d919cd2d748a0b9964fd77a1c0"
+    },
+    {
+      "path": "msvamp/test_Spanish.json",
+      "url": "https://huggingface.co/datasets/Mathoctopus/MSVAMP/resolve/301e2b3b168be70058c89c21c2fbdc9262102add/test_Spanish.json",
+      "bytes": 426865,
+      "sha256": "0aecc731e945d196c8eb38ddb5ad683821e5fd72c55273db1f2233d559495275"
+    },
+    {
+      "path": "msvamp/test_Swahili.json",
+      "url": "https://huggingface.co/datasets/Mathoctopus/MSVAMP/resolve/301e2b3b168be70058c89c21c2fbdc9262102add/test_Swahili.json",
+      "bytes": 421440,
+      "sha256": "15f863a79b7e4adf820d76b61044f4e4489f7710d14128ad7b4e915e133a2c16"
+    },
+    {
+      "path": "msvamp/test_Thai.json",
+      "url": "https://huggingface.co/datasets/Mathoctopus/MSVAMP/resolve/301e2b3b168be70058c89c21c2fbdc9262102add/test_Thai.json",
+      "bytes": 636572,
+      "sha256": "60b81f4458f584f637a35e57e85f503173ef67434a83a449c6ee6670a730e9f8"
+    },
+    {
+      "path": "polymath/bn/high.parquet",
+      "url": "https://huggingface.co/datasets/Qwen/PolyMath/resolve/71e0db902e0ece05e208dfd8b1695bd3d95cf130/bn/high.parquet",
+      "bytes": 43423,
+      "sha256": "f0a9c531ea8d07f47a17c1901a12a6bd0d13e88d753d4d756cfdc015fd12af00"
+    },
+    {
+      "path": "polymath/bn/low.parquet",
+      "url": "https://huggingface.co/datasets/Qwen/PolyMath/resolve/71e0db902e0ece05e208dfd8b1695bd3d95cf130/bn/low.parquet",
+      "bytes": 33683,
+      "sha256": "2f77d8633e53dcf3a9a504d1ed5ee68cfddc8ade2573c7965986312d5dd97ca5"
+    },
+    {
+      "path": "polymath/bn/medium.parquet",
+      "url": "https://huggingface.co/datasets/Qwen/PolyMath/resolve/71e0db902e0ece05e208dfd8b1695bd3d95cf130/bn/medium.parquet",
+      "bytes": 32214,
+      "sha256": "1ebdfcacf3fb5487863cf7dcc0506f9f5c1488b9cac88ae6930b50bcf761a143"
+    },
+    {
+      "path": "polymath/bn/top.parquet",
+      "url": "https://huggingface.co/datasets/Qwen/PolyMath/resolve/71e0db902e0ece05e208dfd8b1695bd3d95cf130/bn/top.parquet",
+      "bytes": 51448,
+      "sha256": "413a9e989f08492cbaecadeedef303ca8aed3a47cd7b2f0696ae4417ac494ae4"
+    },
+    {
+      "path": "polymath/de/high.parquet",
+      "url": "https://huggingface.co/datasets/Qwen/PolyMath/resolve/71e0db902e0ece05e208dfd8b1695bd3d95cf130/de/high.parquet",
+      "bytes": 31608,
+      "sha256": "cd786cdf3b65bfc6d444b121b64b2f13d20b5b9de471f02730ce77e1be823e9d"
+    },
+    {
+      "path": "polymath/de/low.parquet",
+      "url": "https://huggingface.co/datasets/Qwen/PolyMath/resolve/71e0db902e0ece05e208dfd8b1695bd3d95cf130/de/low.parquet",
+      "bytes": 25309,
+      "sha256": "91796f145ec29e6ff499db1dd4b7c8eef5a1ef182e89facfff6552440e4ae9a0"
+    },
+    {
+      "path": "polymath/de/medium.parquet",
+      "url": "https://huggingface.co/datasets/Qwen/PolyMath/resolve/71e0db902e0ece05e208dfd8b1695bd3d95cf130/de/medium.parquet",
+      "bytes": 25859,
+      "sha256": "05685f468b2b840a947403bebdde2f403f2f52d00d25fc18e72c3969f0242b26"
+    },
+    {
+      "path": "polymath/de/top.parquet",
+      "url": "https://huggingface.co/datasets/Qwen/PolyMath/resolve/71e0db902e0ece05e208dfd8b1695bd3d95cf130/de/top.parquet",
+      "bytes": 37952,
+      "sha256": "e8cd1e8bfa291eee01f1381e755ad2e2a5925ca7f6000d3a3ce47d341ae6b9bd"
+    },
+    {
+      "path": "polymath/es/high.parquet",
+      "url": "https://huggingface.co/datasets/Qwen/PolyMath/resolve/71e0db902e0ece05e208dfd8b1695bd3d95cf130/es/high.parquet",
+      "bytes": 30694,
+      "sha256": "3897b2d6665f3e90f8853dcd87bd9353342d303fd107c016c68572412a8dcc82"
+    },
+    {
+      "path": "polymath/es/low.parquet",
+      "url": "https://huggingface.co/datasets/Qwen/PolyMath/resolve/71e0db902e0ece05e208dfd8b1695bd3d95cf130/es/low.parquet",
+      "bytes": 23753,
+      "sha256": "e43b9ad7b91d2d8ca1f0dc940a384168ea015374f72e09e191064cf6355fa799"
+    },
+    {
+      "path": "polymath/es/medium.parquet",
+      "url": "https://huggingface.co/datasets/Qwen/PolyMath/resolve/71e0db902e0ece05e208dfd8b1695bd3d95cf130/es/medium.parquet",
+      "bytes": 25075,
+      "sha256": "3344eaadd88f27f9094a55eb68f8d51c41fa112baf60dfacebf9d70c316ae4f2"
+    },
+    {
+      "path": "polymath/es/top.parquet",
+      "url": "https://huggingface.co/datasets/Qwen/PolyMath/resolve/71e0db902e0ece05e208dfd8b1695bd3d95cf130/es/top.parquet",
+      "bytes": 33505,
+      "sha256": "87549e39d1bc4f8d4d899203d3fa5d2bdfcdc19a018f9b0a64f220a316617489"
+    },
+    {
+      "path": "polymath/fr/high.parquet",
+      "url": "https://huggingface.co/datasets/Qwen/PolyMath/resolve/71e0db902e0ece05e208dfd8b1695bd3d95cf130/fr/high.parquet",
+      "bytes": 31275,
+      "sha256": "d1ba3caaf04b956ecb22436da81f84f47acee04ac8e1370d88d9c118969cb9d2"
+    },
+    {
+      "path": "polymath/fr/low.parquet",
+      "url": "https://huggingface.co/datasets/Qwen/PolyMath/resolve/71e0db902e0ece05e208dfd8b1695bd3d95cf130/fr/low.parquet",
+      "bytes": 25382,
+      "sha256": "eae0b9fb78949904541a8986e6e8b2f8c37fbf9c5da747992e42e108d7f695d0"
+    },
+    {
+      "path": "polymath/fr/medium.parquet",
+      "url": "https://huggingface.co/datasets/Qwen/PolyMath/resolve/71e0db902e0ece05e208dfd8b1695bd3d95cf130/fr/medium.parquet",
+      "bytes": 25426,
+      "sha256": "c10044f9c44232e55f47461135ec71980312cfc5343d90a18bbd4651f56f2336"
+    },
+    {
+      "path": "polymath/fr/top.parquet",
+      "url": "https://huggingface.co/datasets/Qwen/PolyMath/resolve/71e0db902e0ece05e208dfd8b1695bd3d95cf130/fr/top.parquet",
+      "bytes": 33626,
+      "sha256": "81464362518a215811a757d5ea80b7862d584bbf87029d188eed442c2cf05a96"
+    },
+    {
+      "path": "polymath/ja/high.parquet",
+      "url": "https://huggingface.co/datasets/Qwen/PolyMath/resolve/71e0db902e0ece05e208dfd8b1695bd3d95cf130/ja/high.parquet",
+      "bytes": 32105,
+      "sha256": "f12385352524b3712f4c9fea3485a5c1425658c2d9e30e520a0a2341f35f6eff"
+    },
+    {
+      "path": "polymath/ja/low.parquet",
+      "url": "https://huggingface.co/datasets/Qwen/PolyMath/resolve/71e0db902e0ece05e208dfd8b1695bd3d95cf130/ja/low.parquet",
+      "bytes": 26332,
+      "sha256": "4662c02b4a6e0c8448694817e32f1fdb1f54eb40dca1a5f5fc64ced4e7c9d005"
+    },
+    {
+      "path": "polymath/ja/medium.parquet",
+      "url": "https://huggingface.co/datasets/Qwen/PolyMath/resolve/71e0db902e0ece05e208dfd8b1695bd3d95cf130/ja/medium.parquet",
+      "bytes": 25739,
+      "sha256": "413deac1ab20011178e84ed1182afa8da6f7cdf33a068343b610d5cc56c94401"
+    },
+    {
+      "path": "polymath/ja/top.parquet",
+      "url": "https://huggingface.co/datasets/Qwen/PolyMath/resolve/71e0db902e0ece05e208dfd8b1695bd3d95cf130/ja/top.parquet",
+      "bytes": 37336,
+      "sha256": "aa6872ee4b784ab736600dec1044a4d5e9db8a68164614b57abea0e219b66ee5"
+    },
+    {
+      "path": "polymath/ru/high.parquet",
+      "url": "https://huggingface.co/datasets/Qwen/PolyMath/resolve/71e0db902e0ece05e208dfd8b1695bd3d95cf130/ru/high.parquet",
+      "bytes": 41303,
+      "sha256": "6005628302817eea851c807802e49d1bbf482f5e12cc5fde8724d3131100828a"
+    },
+    {
+      "path": "polymath/ru/low.parquet",
+      "url": "https://huggingface.co/datasets/Qwen/PolyMath/resolve/71e0db902e0ece05e208dfd8b1695bd3d95cf130/ru/low.parquet",
+      "bytes": 31076,
+      "sha256": "efbadd8a3b59537905633699bb57bf45dee0daa078a1c1efdea16a22c35bdb81"
+    },
+    {
+      "path": "polymath/ru/medium.parquet",
+      "url": "https://huggingface.co/datasets/Qwen/PolyMath/resolve/71e0db902e0ece05e208dfd8b1695bd3d95cf130/ru/medium.parquet",
+      "bytes": 30958,
+      "sha256": "56114629cc5f6584f3fb05c05c442c60a8ca4275ec275641bf36ed6a2912b0fc"
+    },
+    {
+      "path": "polymath/ru/top.parquet",
+      "url": "https://huggingface.co/datasets/Qwen/PolyMath/resolve/71e0db902e0ece05e208dfd8b1695bd3d95cf130/ru/top.parquet",
+      "bytes": 44629,
+      "sha256": "310c8de88b3d027c768d4a540dc2fd82cb8441bcd46a28c547e3a35122e0c73b"
+    },
+    {
+      "path": "polymath/sw/high.parquet",
+      "url": "https://huggingface.co/datasets/Qwen/PolyMath/resolve/71e0db902e0ece05e208dfd8b1695bd3d95cf130/sw/high.parquet",
+      "bytes": 35009,
+      "sha256": "37b64af521db6aaecf1e1b0b4575490698c90637f80759e881176a1d805285f8"
+    },
+    {
+      "path": "polymath/sw/low.parquet",
+      "url": "https://huggingface.co/datasets/Qwen/PolyMath/resolve/71e0db902e0ece05e208dfd8b1695bd3d95cf130/sw/low.parquet",
+      "bytes": 23958,
+      "sha256": "9f13e7b18ce2dc92fb57563adfea71925d8173aedb18c3201cb464b70990a486"
+    },
+    {
+      "path": "polymath/sw/medium.parquet",
+      "url": "https://huggingface.co/datasets/Qwen/PolyMath/resolve/71e0db902e0ece05e208dfd8b1695bd3d95cf130/sw/medium.parquet",
+      "bytes": 26826,
+      "sha256": "b991871ca3679a5b5d2dd8ddff11bc74981753d11214620929c8395319d3da86"
+    },
+    {
+      "path": "polymath/sw/top.parquet",
+      "url": "https://huggingface.co/datasets/Qwen/PolyMath/resolve/71e0db902e0ece05e208dfd8b1695bd3d95cf130/sw/top.parquet",
+      "bytes": 37298,
+      "sha256": "a2ee5f99dd59dbbc03f615478fade37556e0b7573f8ae6b0e35a7e8d9af6f215"
+    },
+    {
+      "path": "polymath/th/high.parquet",
+      "url": "https://huggingface.co/datasets/Qwen/PolyMath/resolve/71e0db902e0ece05e208dfd8b1695bd3d95cf130/th/high.parquet",
+      "bytes": 41568,
+      "sha256": "e6b3d0f4e3341e86a1f3fd386ba0da38d5b38c5d086a602abeeed84ea71b6534"
+    },
+    {
+      "path": "polymath/th/low.parquet",
+      "url": "https://huggingface.co/datasets/Qwen/PolyMath/resolve/71e0db902e0ece05e208dfd8b1695bd3d95cf130/th/low.parquet",
+      "bytes": 33096,
+      "sha256": "41d74c79f3a936039bdcb4b035c8acd067f714f997e53b8386f1b0c6fa45d03e"
+    },
+    {
+      "path": "polymath/th/medium.parquet",
+      "url": "https://huggingface.co/datasets/Qwen/PolyMath/resolve/71e0db902e0ece05e208dfd8b1695bd3d95cf130/th/medium.parquet",
+      "bytes": 33536,
+      "sha256": "b2430152d03115eb7127e2a061b38342a05e2e921fc893d69bc3e009af70f750"
+    },
+    {
+      "path": "polymath/th/top.parquet",
+      "url": "https://huggingface.co/datasets/Qwen/PolyMath/resolve/71e0db902e0ece05e208dfd8b1695bd3d95cf130/th/top.parquet",
+      "bytes": 47582,
+      "sha256": "f20e36ee1d57a0bb8bf0bff4c0602958327f4a7fee56d1f697785efc65146f80"
+    },
+    {
+      "path": "polymath/zh/high.parquet",
+      "url": "https://huggingface.co/datasets/Qwen/PolyMath/resolve/71e0db902e0ece05e208dfd8b1695bd3d95cf130/zh/high.parquet",
+      "bytes": 30622,
+      "sha256": "ccd6473ee3187c5e6722f5224c589dd909a84558dc51ef1c3720391b3292a87e"
+    },
+    {
+      "path": "polymath/zh/low.parquet",
+      "url": "https://huggingface.co/datasets/Qwen/PolyMath/resolve/71e0db902e0ece05e208dfd8b1695bd3d95cf130/zh/low.parquet",
+      "bytes": 23160,
+      "sha256": "5fc016295161cf4946c2bb592c7827bdec121a08d5c24c228d26f6d8a2d585dd"
+    },
+    {
+      "path": "polymath/zh/medium.parquet",
+      "url": "https://huggingface.co/datasets/Qwen/PolyMath/resolve/71e0db902e0ece05e208dfd8b1695bd3d95cf130/zh/medium.parquet",
+      "bytes": 24226,
+      "sha256": "6cd55e278e91bcc35c69f10692c3ee6612fe9e85572c0e69520bb508a82d01f7"
+    },
+    {
+      "path": "polymath/zh/top.parquet",
+      "url": "https://huggingface.co/datasets/Qwen/PolyMath/resolve/71e0db902e0ece05e208dfd8b1695bd3d95cf130/zh/top.parquet",
+      "bytes": 31697,
+      "sha256": "c01807f1759b9851d98a0d0d0ffe4fa37e14a437f4b40da28527b7dcaeae7506"
+    }
+  ],
+  "failures": []
+}

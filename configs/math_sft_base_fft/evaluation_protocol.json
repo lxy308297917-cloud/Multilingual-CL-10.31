@@ -1,0 +1,90 @@
+{
+  "status": "FROZEN_BEFORE_ANY_NEW_SCORE",
+  "model_revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "weights_sha256": {
+    "model-00001-of-00002.safetensors": "169ad53ec313c3a34b06c0809216e4fc072cce444a5d4ff2b59690d064130ed5",
+    "model-00002-of-00002.safetensors": "912becff8d60672aa8628ef08c05898d9adf17c2ad4ae3caf99b065622fdeff9"
+  },
+  "tokenizer_sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+  "source_lock_sha256": "67f2c5da5fb10574fcb1e608055fb5fe27bb1d24d6b84c90a5a64be3401c3c25",
+  "files": {
+    "sw_eval.jsonl": "21d8292ebf0d6ac0b2c0161b6ca34cb0b05ee3b42e1407b2da0d822745babf7c",
+    "bn_eval.jsonl": "13c28be55724deec15ee49f099b467c23cbe83747c42b93c904ac73d9501c671",
+    "th_eval.jsonl": "97864ea0a761a4616b8f4117b6c6297d07ed5e0663f4558de04612162b00e6e2",
+    "ja_eval.jsonl": "05f91e7c0c62a94d6477a7e28024947215c1bab407b9e86047828afe41d2fea7",
+    "zh_eval.jsonl": "593c4de43d682f09cd0b939ee7a6b0a88dedd3fea94af2dfbba1f24e1b219bb0",
+    "ru_eval.jsonl": "ae38814ee9864cc8cc87cf73e45eb4670faa6ca3e6d2f94f08ee1bd4bfb77919",
+    "fr_eval.jsonl": "eb428b2ee04d27db8f2cd9f27db0da6651f88cb1661de77f4be59f7359e75213",
+    "de_eval.jsonl": "315ab28eaa5a9766b1d76ecf1b050f58a4daee19101536df83bfdc0dde0e7ca0",
+    "es_eval.jsonl": "ee2080540faf3c588b832b38e239a870cb152a2763ec5b1eed428c093752b427"
+  },
+  "counts": {
+    "sw": {
+      "mgsm_rev2": 250,
+      "msvamp": 1000,
+      "polymath": 500
+    },
+    "bn": {
+      "mgsm_rev2": 250,
+      "msvamp": 1000,
+      "polymath": 500
+    },
+    "th": {
+      "mgsm_rev2": 250,
+      "msvamp": 1000,
+      "polymath": 500
+    },
+    "ja": {
+      "mgsm_rev2": 250,
+      "msvamp": 1000,
+      "polymath": 500
+    },
+    "zh": {
+      "mgsm_rev2": 250,
+      "msvamp": 1000,
+      "polymath": 500
+    },
+    "ru": {
+      "mgsm_rev2": 250,
+      "msvamp": 1000,
+      "polymath": 500
+    },
+    "fr": {
+      "mgsm_rev2": 250,
+      "msvamp": 1000,
+      "polymath": 500
+    },
+    "de": {
+      "mgsm_rev2": 250,
+      "msvamp": 1000,
+      "polymath": 500
+    },
+    "es": {
+      "mgsm_rev2": 250,
+      "msvamp": 1000,
+      "polymath": 500
+    }
+  },
+  "math_prompt": "uniform English instruction requesting target language; literal final-number placeholder removed; all nine Base rerun, no reuse of old different prompts",
+  "polymath_prompt": "question + two newlines + official query_dic[language]; no language_control forcing",
+  "template": "exact installed LLaMA-Factory qwen3, enable_thinking=False; no fewshot",
+  "generation": {
+    "temperature": 0,
+    "top_p": 1,
+    "seed": 42,
+    "max_model_len": 8192,
+    "mgsm_msvamp_max_new_tokens": 1280,
+    "polymath_max_new_tokens": 2048,
+    "max_num_seqs": 32,
+    "max_num_batched_tokens": 8192,
+    "gpu_memory_utilization": 0.8
+  },
+  "polymath_scoring": "official first balanced boxed extraction, math_equal; medium dataset mapped to official middle; per-level ACC rounded1decimal before official weights1,2,4,8 /15",
+  "numeric_scoring": "frozen common.py number last numeric and #### strict supplementary",
+  "selection": "MGSM and MSVAMP average ascending rank only; PolyMath excluded; ties favor script diversity then ISO; audit training eligibility before choose",
+  "exposure": "benchmark-guided exploratory language/route/epoch comparisons; ES/FR/TH and EN previously exposed. Not independent blind validation.",
+  "code_sha256": {
+    "prepare_eval.py": "2ae0eef4a43ea137642fe5a9725beb40d3cff9cc8fc696f8e59b4673ee01da97",
+    "common.py": "bd55e82ee88b0c57122961848843dd5474de09203d4e5821f6865c79eebd4152"
+  }
+}

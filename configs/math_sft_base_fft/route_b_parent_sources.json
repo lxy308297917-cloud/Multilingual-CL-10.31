@@ -1,0 +1,46 @@
+{
+  "meta-math/MetaMathQA": {
+    "revision": "aa4f34d3d2d3231299b5b03d9b3e5a20da45aa18",
+    "files": [
+      {
+        "size": 2474,
+        "path": ".gitattributes"
+      },
+      {
+        "size": 395626321,
+        "lfs": {
+          "oid": "fb39a5d8c05c042ece92eae37dfd5ea414a5979df2bf3ad3b86411bef8205725",
+          "size": 395626321,
+          "pointerSize": 134
+        },
+        "path": "MetaMathQA-395K.json"
+      },
+      {
+        "size": 4445,
+        "path": "README.md"
+      }
+    ]
+  },
+  "TIGER-Lab/MathInstruct": {
+    "revision": "b4fdc323a7be1379c9c7c0b67b1de72dfee2111a",
+    "files": [
+      {
+        "size": 2361,
+        "path": ".gitattributes"
+      },
+      {
+        "size": 212488891,
+        "lfs": {
+          "oid": "15b8be9824c31d619078f43baf67f7243c53f475ae4de5f8346b6d3ea9c269dd",
+          "size": 212488891,
+          "pointerSize": 134
+        },
+        "path": "MathInstruct.json"
+      },
+      {
+        "size": 2716,
+        "path": "README.md"
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "status": "PASSED_REAL_PUBLIC_PROFILE_DATA_REBUILD",
+  "language_files": {
+    "bn_all_valid.jsonl": {
+      "sha256": "3ccf9c3e7c3e6cb67883d0352c38dfcb92d6e58447247da0a213dbed9f5251d3",
+      "byte_identical": true
+    },
+    "de_all_valid.jsonl": {
+      "sha256": "4018706f9d886e044e2781ceae1ea0dbc3800c38d2c1de0307146afcda96a46a",
+      "byte_identical": true
+    },
+    "es_all_valid.jsonl": {
+      "sha256": "8224363b2acb791914bb31eac730a10628e797604aa7b9cb372331d887aa7ece",
+      "byte_identical": true
+    },
+    "fr_all_valid.jsonl": {
+      "sha256": "ef0e842778a7a80d047d952be1c451bf52eb5c3d9c8c0fd496f6318cf2c1b913",
+      "byte_identical": true
+    },
+    "ja_all_valid.jsonl": {
+      "sha256": "12fcf0f50a985131c168e4524f1dbb6818769767b179a5c4331a0bec946b9d4e",
+      "byte_identical": true
+    },
+    "ru_all_valid.jsonl": {
+      "sha256": "6303717be1738bd10de9c46879c4b194811b9613e9a89c60281ceecf2a9e7865",
+      "byte_identical": true
+    },
+    "sw_all_valid.jsonl": {
+      "sha256": "d687457bcf607931339e6e2c7c725306a9013f5e8b4a999dabc0f1b687ad4a50",
+      "byte_identical": true
+    },
+    "th_all_valid.jsonl": {
+      "sha256": "48ba6401f2a4533ad47d84e3ff7b74c2a27a7ae77ae3ba8c6e73d84f227f6ab3",
+      "byte_identical": true
+    },
+    "zh_all_valid.jsonl": {
+      "sha256": "2d7f86c9c31147195e68c958914cacd9061d27c60184d740985a3dcde217980a",
+      "byte_identical": true
+    }
+  },
+  "public_script_sha256": "7a65f55630f96ce2144d76f13c0c6daae477aa208888f87706a850a85b459db1",
+  "gpu_used": false,
+  "frozen_actual_experiment_data_modified": false,
+  "scope": "Actual public path-adapted audit script run in independent scratch storage against identical pinned sources; all nine qualified training JSONL files byte-identical. Not an additional training or performance experiment."
+}

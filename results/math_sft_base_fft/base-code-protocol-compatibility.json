@@ -1,0 +1,17 @@
+{
+  "benchmark_protocol": true,
+  "sample_ids_sha256": true,
+  "prompt_tokens_sha256": true,
+  "checkpoint_identity": true,
+  "source_files_sha256": true,
+  "backend": true,
+  "batch_size": true,
+  "old_engine": "V1 (verified engine initialization log)",
+  "new_engine": "V0 (verified engine initialization log; General runner explicitly VLLM_USE_V1=0)",
+  "historical_reuse": false,
+  "new_sanitized_solutions_differing": 70,
+  "total": 164,
+  "new_base_humaneval_plus_correct": 108,
+  "new_base_humaneval_plus_n": 164,
+  "interpretation": "Known backend protocol change; all current Base/E1/E2 code generations fixed to V0. Do not mix old V1 baseline or attribute score difference to training."
+}

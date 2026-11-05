@@ -1,0 +1,65 @@
+{
+  "status": "COMPLETE_BOUNDED_ARITHMETIC_REVIEW",
+  "target_language_records": 9,
+  "unique_source_groups": 4,
+  "sampling": "first3 by SHA256([42,reasoning_review,source_id]) independently in each selected language; may share source groups across languages",
+  "private_sample_sha256": "d4e315a23bcb5479c57965e47f93238f1bef065777eb7491d1fcc3f36d0ee6bc",
+  "reviewed_by": "research assistant reading paired canonical English and target-language examples; no independent native-speaker certification",
+  "items": [
+    {
+      "language": "sw",
+      "source_id": "5033c0ebd6f9e21744b5588fcea90c99520b7318b5e0538c35eb5397348473d1",
+      "arithmetic": "No clear arithmetic inconsistency observed in reviewed steps; final agrees with canonical reference",
+      "language_caveat": "No claim of fully certified native-language fluency"
+    },
+    {
+      "language": "sw",
+      "source_id": "9b82c87343b5e4700ea37416f36f549b993b86a31a5a66df71774236479644ec",
+      "arithmetic": "No clear arithmetic inconsistency observed in reviewed steps; final agrees with canonical reference",
+      "language_caveat": "No claim of fully certified native-language fluency"
+    },
+    {
+      "language": "sw",
+      "source_id": "45f5a34038da4bc5ffa4124fc1ef4eecef5cbdeee3c23311330439f836b72f49",
+      "arithmetic": "No clear arithmetic inconsistency observed in reviewed steps; final agrees with canonical reference",
+      "language_caveat": "Possible object-name translation shift: crayons rendered as paper-like term; arithmetic preserved"
+    },
+    {
+      "language": "bn",
+      "source_id": "5033c0ebd6f9e21744b5588fcea90c99520b7318b5e0538c35eb5397348473d1",
+      "arithmetic": "No clear arithmetic inconsistency observed in reviewed steps; final agrees with canonical reference",
+      "language_caveat": "Possible lexical/semantic shift: sports participation rendered as survey wording"
+    },
+    {
+      "language": "bn",
+      "source_id": "9b82c87343b5e4700ea37416f36f549b993b86a31a5a66df71774236479644ec",
+      "arithmetic": "No clear arithmetic inconsistency observed in reviewed steps; final agrees with canonical reference",
+      "language_caveat": "No claim of fully certified native-language fluency"
+    },
+    {
+      "language": "bn",
+      "source_id": "45f5a34038da4bc5ffa4124fc1ef4eecef5cbdeee3c23311330439f836b72f49",
+      "arithmetic": "No clear arithmetic inconsistency observed in reviewed steps; final agrees with canonical reference",
+      "language_caveat": "No claim of fully certified native-language fluency"
+    },
+    {
+      "language": "ja",
+      "source_id": "5033c0ebd6f9e21744b5588fcea90c99520b7318b5e0538c35eb5397348473d1",
+      "arithmetic": "No clear arithmetic inconsistency observed in reviewed steps; final agrees with canonical reference",
+      "language_caveat": "No claim of fully certified native-language fluency"
+    },
+    {
+      "language": "ja",
+      "source_id": "45f5a34038da4bc5ffa4124fc1ef4eecef5cbdeee3c23311330439f836b72f49",
+      "arithmetic": "No clear arithmetic inconsistency observed in reviewed steps; final agrees with canonical reference",
+      "language_caveat": "No claim of fully certified native-language fluency"
+    },
+    {
+      "language": "ja",
+      "source_id": "b7c1aa0b7c44225f82b86ca3b8a79f8fb022d8b510d53aa4ea6bf7b1bac19613",
+      "arithmetic": "No clear arithmetic inconsistency observed in reviewed steps; final agrees with canonical reference",
+      "language_caveat": "No claim of fully certified native-language fluency"
+    }
+  ],
+  "limits": "9 target records across4 source groups only; cannot estimate whole-library error rate. Final-number consistency does not certify all reasoning. Data unchanged after freeze."
+}

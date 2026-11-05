@@ -1,0 +1,69 @@
+{
+  "status": "PASSED_CRITICAL_SHARED_DEPENDENCY_AUDIT",
+  "public_parent_commit": "19808f004ed0f8aa47a0ae92944ce9b594734a10",
+  "shared_python_sources": [
+    {
+      "path": "scripts/sft_v1/vllm_compat.py",
+      "actual_git_blob_sha": "738868af068505e06df0e886b1a995b2cddcc979",
+      "published_git_blob_sha": "738868af068505e06df0e886b1a995b2cddcc979",
+      "equal": true
+    },
+    {
+      "path": "scripts/sft_v1/train.py",
+      "actual_git_blob_sha": "b56c81899fde5fc8bfeed54915b1ef893ebfc9e6",
+      "published_git_blob_sha": "b56c81899fde5fc8bfeed54915b1ef893ebfc9e6",
+      "equal": true
+    },
+    {
+      "path": "scripts/sft_v1/train_formal.py",
+      "actual_git_blob_sha": "471365515e7fc3bc324bb01ad33b6a7f970c17ae",
+      "published_git_blob_sha": "471365515e7fc3bc324bb01ad33b6a7f970c17ae",
+      "equal": true
+    },
+    {
+      "path": "scripts/sft_v1/harness.py",
+      "actual_git_blob_sha": "8c7c0c353d1515e34a3b05a69cdc9d5693726e5b",
+      "published_git_blob_sha": "8c7c0c353d1515e34a3b05a69cdc9d5693726e5b",
+      "equal": true
+    },
+    {
+      "path": "scripts/bench_v2/generate.py",
+      "actual_git_blob_sha": "6e1e43447926efc77903df53b72a5791ddc7f6e3",
+      "published_git_blob_sha": "6e1e43447926efc77903df53b72a5791ddc7f6e3",
+      "equal": true
+    },
+    {
+      "path": "scripts/bench_v2/prompting.py",
+      "actual_git_blob_sha": "0c584a03f39fa51642e2985dfaacedf0dbc118c8",
+      "published_git_blob_sha": "0c584a03f39fa51642e2985dfaacedf0dbc118c8",
+      "equal": true
+    },
+    {
+      "path": "scripts/bench_v2/common.py",
+      "actual_git_blob_sha": "5f90f2bffa81b4159f65667d6b9901b0e06095de",
+      "published_git_blob_sha": "5f90f2bffa81b4159f65667d6b9901b0e06095de",
+      "equal": true
+    },
+    {
+      "path": "scripts/bench_v2/analyze_code.py",
+      "actual_git_blob_sha": "cf38e891540e655274996d213adcbc960cbf6dd3",
+      "published_git_blob_sha": "cf38e891540e655274996d213adcbc960cbf6dd3",
+      "equal": true
+    }
+  ],
+  "general_task_definitions": [
+    {
+      "path": "configs/sft_v1/eval_tasks/gsm8k.yaml",
+      "actual_sha256": "664dbeb0f31e9b328889728a03fb0e36ea9f579f534fcdd21705c6bd45c379b9",
+      "published_sha256": "4f5c375d7c46b3365c53245d71c58a7caf8ef58e10326b318280e7fb7b752070",
+      "equivalence": "Exact UTF-8 text identity after replacing only the actual storage-root prefix by the already-published deployment placeholder; no task/scoring/generation changes."
+    },
+    {
+      "path": "configs/sft_v1/eval_tasks/ifeval.yaml",
+      "actual_sha256": "a9d802386355e28ddbfb5eb15a7907ec1d1ab53d1ba2e6c3d5f995b5c0b80a04",
+      "published_sha256": "fb492656b26d5bf2a719da7ebae0642e28615b6cc1a988472ac5ffa7396b7c9b",
+      "equivalence": "Exact UTF-8 text identity after replacing only the actual storage-root prefix by the already-published deployment placeholder; no task/scoring/generation changes."
+    }
+  ],
+  "scope": "Only shared scientific dependencies actually used in this track. Unrelated legacy method scripts and unused task variants are not dependencies and are not silently republished."
+}

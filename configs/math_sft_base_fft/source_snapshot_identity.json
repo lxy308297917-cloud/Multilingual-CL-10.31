@@ -1,0 +1,222 @@
+{
+  "scope": "Curated scientific sources; internal schedulers, raw data/predictions, host identities, chat and weights excluded",
+  "source_mapping": [
+    {
+      "path": "scripts/math_sft_base_fft/common.py",
+      "original_sha256": "bd55e82ee88b0c57122961848843dd5474de09203d4e5821f6865c79eebd4152",
+      "public_sha256": "8c453e6d748a9d1c3c132c9b8d769a03418ce529fe02fdec34eac6fa57c9fc3c",
+      "adaptation": "Deployment paths exposed as explicit environment profile; AST numerical constants unchanged"
+    },
+    {
+      "path": "scripts/math_sft_base_fft/fetch_sources.py",
+      "original_sha256": "804e15fe03faab8f024aa3d81ffbe32ad3ffca8c83c5931028837d8ce9f58380",
+      "public_sha256": "749fec3e55f2cbbcfcea3cbcb726afa7dd7ecbdb396e9449248c92dc0a877dea",
+      "adaptation": "Deployment paths exposed as explicit environment profile; AST numerical constants unchanged; fetch two pinned training-source dependencies explicitly instead of requiring old host caches"
+    },
+    {
+      "path": "scripts/math_sft_base_fft/prepare_eval.py",
+      "original_sha256": "2ae0eef4a43ea137642fe5a9725beb40d3cff9cc8fc696f8e59b4673ee01da97",
+      "public_sha256": "959ad3245ef0782acfe8498d33afb5a96e308ac008e1800aae7254940eb02680",
+      "adaptation": "Deployment paths exposed as explicit environment profile; AST numerical constants unchanged"
+    },
+    {
+      "path": "scripts/math_sft_base_fft/audit_mathoctopus.py",
+      "original_sha256": "be3f0ad044009c90f0cb37b788f95f0418ee4ff7684c68d003e0baee78ef8ba5",
+      "public_sha256": "7a65f55630f96ce2144d76f13c0c6daae477aa208888f87706a850a85b459db1",
+      "adaptation": "Deployment paths exposed as explicit environment profile; AST numerical constants unchanged"
+    },
+    {
+      "path": "scripts/math_sft_base_fft/prepare_train.py",
+      "original_sha256": "1c6b7f4aca4f0fd522e1e1c8e88d96b3713d11d8aeec28c6c1cb6cc81b3aadf1",
+      "public_sha256": "1a8c0db0acfff74ba7776566956b9068f55c87598c9e20d784350c331ca8ef20",
+      "adaptation": "Deployment paths exposed as explicit environment profile; AST numerical constants unchanged"
+    },
+    {
+      "path": "scripts/math_sft_base_fft/prepare_engineering.py",
+      "original_sha256": "dafafc92d4ce43fce3a4ebf3fc355455d535cf39657467343b3d4a3affb47729",
+      "public_sha256": "7d5bf4524ffda7017151d3fff878bec36cceb693a1f79d0341fd79cc324c6a60",
+      "adaptation": "Deployment paths exposed as explicit environment profile; AST numerical constants unchanged"
+    },
+    {
+      "path": "scripts/math_sft_base_fft/train_two_epochs.py",
+      "original_sha256": "e0e399a95f09748a6a0a1510fb68c90d378a6a63e71b91eaced7d3e78a260493",
+      "public_sha256": "89d81869c9f14efd402c94cdf74243ae4f1e31b3986a9f14f262787b4c981ed7",
+      "adaptation": "Deployment paths exposed as explicit environment profile; AST numerical constants unchanged"
+    },
+    {
+      "path": "scripts/math_sft_base_fft/run_training_job.py",
+      "original_sha256": "cac18d0906460123afdaefc1d136fb492598b970260f7893e0889c131d9202ab",
+      "public_sha256": "7ded4da4eb21ba82aa8e72524f3c61f78c97721dc22fc45360f468ec89e0bf13",
+      "adaptation": "Deployment paths exposed as explicit environment profile; AST numerical constants unchanged"
+    },
+    {
+      "path": "scripts/math_sft_base_fft/validate_training.py",
+      "original_sha256": "c344fc2aadcdba6e66c0dd23d0f26e76f4c64908a5829fab33ba1b74d0987269",
+      "public_sha256": "86dfbb7618a659ff70f927bb3efbaaa58f81a94fdc02ba689eeecb629ad30e6c",
+      "adaptation": "Deployment paths exposed as explicit environment profile; AST numerical constants unchanged"
+    },
+    {
+      "path": "scripts/math_sft_base_fft/make_training_configs.py",
+      "original_sha256": "77cf3e765508b8976f8457aa6a7027c4ddf81b44aaf103dc61da729dc4c4c8b8",
+      "public_sha256": "acafeb225b1998bb0270eb365fc02797ef28a1c680ded0d3377e8447d7fb9572",
+      "adaptation": "Deployment paths exposed as explicit environment profile; AST numerical constants unchanged; removed unused --smoke parser flag with no behavior change"
+    },
+    {
+      "path": "scripts/math_sft_base_fft/screen_languages.py",
+      "original_sha256": "5bf7ec7c266bd2409e8ba932f1c72326f8cad77c20c6eefbf811b5ab50604fd2",
+      "public_sha256": "836936fd0df628951e588a3b067bb34242f3f2f991d35284337d1526bb178b60",
+      "adaptation": "Deployment paths exposed as explicit environment profile; AST numerical constants unchanged"
+    },
+    {
+      "path": "scripts/math_sft_base_fft/evaluate_math.py",
+      "original_sha256": "0777cded37c7f848951a6f5ccb28c53bad508ea1a61d1629a2d7d23cf839c8d8",
+      "public_sha256": "636666082a75d09d55c78a91e3b312ded998f322cad3e7e465a6dbd5aac3855a",
+      "adaptation": "Deployment paths exposed as explicit environment profile; AST numerical constants unchanged"
+    },
+    {
+      "path": "scripts/math_sft_base_fft/evaluate_general.py",
+      "original_sha256": "387816175817ef82b9aaaf830aba20619c8318a3d9a1c20c1495c570f104c006",
+      "public_sha256": "75a25eb7ca7de728271227c99c38a46add2c70a561685219f96d58a482f43479",
+      "adaptation": "Deployment paths exposed as explicit environment profile; AST numerical constants unchanged"
+    },
+    {
+      "path": "scripts/math_sft_base_fft/evaluate_checkpoint_gpu.py",
+      "original_sha256": "743305418ff6c00733d82b92a6fbd4beb0667425f4caf47adffbe3bd67556aef",
+      "public_sha256": "5784e7dfbb3a1af076f69427f6e1467e7e7fe707c0ab54dcb5e2dfa1865165e1",
+      "adaptation": "Deployment paths exposed as explicit environment profile; AST numerical constants unchanged"
+    },
+    {
+      "path": "scripts/math_sft_base_fft/polymath_worker.py",
+      "original_sha256": "883af3a186477acd81544408f021844fde124ca80cb1559679a8c1338d3d5f48",
+      "public_sha256": "74ff609ca9778407e1d928b1bd4950e991f61c46cd1a602a1eaa53bb4556ca6e",
+      "adaptation": "Deployment paths exposed as explicit environment profile; AST numerical constants unchanged"
+    },
+    {
+      "path": "scripts/math_sft_base_fft/polymath_kernel_limits.py",
+      "original_sha256": "d42549226c99240bb104abd0e621abbe2a9e9c3ee6289014dc8b8a6486b8a811",
+      "public_sha256": "b5e5314456ac6c50d3a6d9e71d2dbcdd0bea0eacbb63845b07ecf02a06f851c3",
+      "adaptation": "Deployment paths exposed as explicit environment profile; AST numerical constants unchanged"
+    },
+    {
+      "path": "scripts/math_sft_base_fft/score_polymath.py",
+      "original_sha256": "22fdce91e51037c541994e0d5cb18005c7fe0f8f725c0f6fab54fbb88702ceb8",
+      "public_sha256": "04324ed452c4fbf9e8af240d8855070c047e5f48979bc829473416a651a35d96",
+      "adaptation": "Deployment paths exposed as explicit environment profile; AST numerical constants unchanged"
+    },
+    {
+      "path": "scripts/math_sft_base_fft/execute_code.py",
+      "original_sha256": "8645f46e4600e7e1a2f1e90b29bc17f6e6176ae5ce2d9a33e19508286909f21f",
+      "public_sha256": "e6fab855d0a070711360e230c12b42cfcfbea24fe2e182aa25db57fe0e8455eb",
+      "adaptation": "Deployment paths exposed as explicit environment profile; AST numerical constants unchanged"
+    },
+    {
+      "path": "scripts/math_sft_base_fft/audit_general_scores.py",
+      "original_sha256": "9c7a2a46f3e42cb54ad927d54ebd49eec4798dcafc208f2fa7db89fc0f03f809",
+      "public_sha256": "d2bd683af3612b8b0b75d2e0d983ce086f0f382bfc08a553f4c6851fa7caaece",
+      "adaptation": "Deployment paths exposed as explicit environment profile; AST numerical constants unchanged"
+    },
+    {
+      "path": "scripts/math_sft_base_fft/aggregate_route_a.py",
+      "original_sha256": "a5eeb6c9836c2539bbfa04559b67c7ad436a0444dc7141c501f5d92624cf4a12",
+      "public_sha256": "3bd49f2746566c9be1c9334b129b2400c2135c1b21e8ceccfc0bbcdcae542e3c",
+      "adaptation": "Deployment paths exposed as explicit environment profile; AST numerical constants unchanged"
+    },
+    {
+      "path": "scripts/math_sft_base_fft/language_sample.py",
+      "original_sha256": "e2c8b3f1410c4a5e1b4b653cc6c00354cfff9adabf4b3db3c2f13a3f3ffd04a3",
+      "public_sha256": "bf506aed08dc5204419f534ac340e041c517d74e82de5511fb16d858d6bae32a",
+      "adaptation": "Deployment paths exposed as explicit environment profile; AST numerical constants unchanged"
+    },
+    {
+      "path": "scripts/math_sft_base_fft/score_census_once.py",
+      "original_sha256": "3a8ec26d646e2d36f476b027a4f64b2cac3385f3ae4b56ad00fbe75fac0998c8",
+      "public_sha256": "2b8c9efbe94283020e0d8ae690242b8cd92fe0e7f119c82a56f33872c60f1544",
+      "adaptation": "Deployment paths exposed as explicit environment profile; AST numerical constants unchanged"
+    },
+    {
+      "path": "scripts/math_sft_base_fft/finish_cpu_once.py",
+      "original_sha256": "917ef13d3f4c1e8af939cd955daf83ecf110ab8f4e88359363d3c23fba31563c",
+      "public_sha256": "947cb87802730ffde47ea29eb299fb6990806c1b90bdd7ed717cb08e9ee81f46",
+      "adaptation": "Deployment paths exposed as explicit environment profile; AST numerical constants unchanged"
+    },
+    {
+      "path": "scripts/math_sft_base_fft/collect_delivery_evidence.py",
+      "original_sha256": "d55b450bf006aa0ac16b2b6e8e6245098f4097859cc48ce07f20fb5673415931",
+      "public_sha256": "2dc8e6aa7719d8251521c4d15cc3fd1b206b300759a2d32caa8004d097631cc7",
+      "adaptation": "Deployment paths exposed as explicit environment profile; AST numerical constants unchanged"
+    },
+    {
+      "path": "scripts/math_sft_base_fft/finalize_route_a_delivery.py",
+      "original_sha256": "00d54e7cda0a2b12498c6a57125c75b48e7c08596dd10b29ebc642fec04869e0",
+      "public_sha256": "6dc5c137b37925493034cd923f64825df04e3958a8bfdd5cf23a6b75d23bb19b",
+      "adaptation": "Deployment paths exposed as explicit environment profile; AST numerical constants unchanged"
+    },
+    {
+      "path": "scripts/math_sft_base_fft/audit_output_language.py",
+      "original_sha256": "a51104aa8c6273761bcb585e75fc894e0e515005969b8aeaa5df66c60ca5cbdd",
+      "public_sha256": "ae0e46b184cbd57df886c6a21650d3f62b4f6d3b46f6a67030a58ed00d28621e",
+      "adaptation": "Deployment paths exposed as explicit environment profile; AST numerical constants unchanged"
+    },
+    {
+      "path": "scripts/math_sft_base_fft/audit_english_source_anchors.py",
+      "original_sha256": "9bab69742dd1a24b8a28bee7a3fa0e7b0764a58c9eddfca9c47e0e1b5ad967dd",
+      "public_sha256": "a1bc4741e6ddb18249fbe3edf30e8368fcdc881a70624745c09e4ffaded58538",
+      "adaptation": "Deployment paths exposed as explicit environment profile; AST numerical constants unchanged"
+    },
+    {
+      "path": "scripts/math_sft_base_fft/evaluate_math_gate.py",
+      "original_sha256": "53fb8b5cb1e58811a0fb2c2b9f03aab02ded9c4da76ca53679efca6f9cb483b6",
+      "public_sha256": "6087e520387813a3235a0550b0ed92055a93e40d00a7e23a7b3d4dbf95add0d9",
+      "adaptation": "Deployment paths exposed as explicit environment profile; AST numerical constants unchanged"
+    },
+    {
+      "path": "scripts/math_sft_base_fft/fetch_route_b_parent_sources.py",
+      "original_sha256": "b49cba01d5490aa464b6db9ed2ef7cbdefe46813b3e2b9eca3667bd932ceb14e",
+      "public_sha256": "a9cdfda828978c966fc8732ac68439ffa33d1177659c9c0b5f385b04f4a7a6a8",
+      "adaptation": "Deployment paths exposed as explicit environment profile; AST numerical constants unchanged"
+    },
+    {
+      "path": "scripts/math_sft_base_fft/index_mcot_sources.py",
+      "original_sha256": "d60488694e5fd1730ab2818e2b49c4625675a27f5bc17b8f52cf47e00f71a2cb",
+      "public_sha256": "69da45215e5be6d85591318901e7eee375abfab67e84b3060c1a1640dc1ba89d",
+      "adaptation": "Deployment paths exposed as explicit environment profile; AST numerical constants unchanged"
+    },
+    {
+      "path": "scripts/math_sft_base_fft/executor_adapter/evaluate_one.py",
+      "original_sha256": "3348c39fd21517aecbfe7bf859f6396bdecc203142a92acc36613dc3a42492cb",
+      "public_sha256": "844020cf76049b79ffb30b12d78f46a141ab909ff5bbbed00c8d58bd50a251c0",
+      "adaptation": "Deployment paths exposed as explicit environment profile; AST numerical constants unchanged"
+    },
+    {
+      "path": "scripts/math_sft_base_fft/executor_adapter/kernel_limits.py",
+      "original_sha256": "41b448af0c422885400193436d2cadfa7fa88bb2abff5b07c2ae8b60cb45668d",
+      "public_sha256": "4fb56c9d818da9881c9682515d77a24abdc4b806b9d2c57145509f8b0bb9b287",
+      "adaptation": "Deployment paths exposed as explicit environment profile; AST numerical constants unchanged"
+    },
+    {
+      "path": "scripts/math_sft_base_fft/executor_adapter/fixed_namespace_policy.py",
+      "original_sha256": "c4eefc8f26de9a45cad8153ae3b0c9ab155044ab640fe1ff3109f3f0457d2e86",
+      "public_sha256": "ab4f290ac00e52586c25c866f2811b8118ed07183b439f31f28d7f0016ae0089",
+      "adaptation": "Deployment paths exposed as explicit environment profile; AST numerical constants unchanged"
+    },
+    {
+      "path": "scripts/math_sft_base_fft/executor_adapter/isolation.py",
+      "original_sha256": "495dc49445914635f22b582514e4a40ce3704c86ce13d97aa061e02246bf6836",
+      "public_sha256": "1e7682127a89fe2f990f253a1dca31f79fac71cd60c78c2ca5d0c90a8440d8d9",
+      "adaptation": "Deployment paths exposed as explicit environment profile; AST numerical constants unchanged"
+    },
+    {
+      "path": "scripts/math_sft_base_fft/executor_adapter/executor_dispatch.py",
+      "original_sha256": "a6cc8bb22b4e6eb4e20f6649b19cd64ed72ba5617258e6a32f5f88c134d4c0d2",
+      "public_sha256": "8c1b8151552229f56a6babf37b79b300db3d021d744e4ffe642b4572459ec845",
+      "adaptation": "Deployment paths exposed as explicit environment profile; AST numerical constants unchanged; retained exact evaluate/phase dispatcher functions only, old matrix main excluded"
+    }
+  ],
+  "profile_paths_sha256": "56e934fef211dad5e0f8c1e0f4503bc0c05885aefa515d4bf4cb61ba8c93d9a1",
+  "generated_helpers": {
+    "scripts/math_sft_base_fft/profile_paths.py": "56e934fef211dad5e0f8c1e0f4503bc0c05885aefa515d4bf4cb61ba8c93d9a1",
+    "scripts/math_sft_base_fft/materialize_config.py": "f637576a6169546be165fb5257d52296dc2c6c31e4d3c4798cef10bdb6f17467"
+  },
+  "not_claimed_byte_identical_to_private_deployment": true,
+  "public_evalplus_adapter": "Must configure runtime/mounts and regenerate real namespace/seccomp/resource/calibration proofs on deployment host; no proof is fabricated or inherited by copying this source."
+}

@@ -1,0 +1,23 @@
+{
+  "cached_english_assets": [
+    {
+      "name": "en_gsm8k_test",
+      "file": "test-00000-of-00001.parquet",
+      "sha256": "ee7b8da9e381df27b9e3f7758a159ab2bdaa4dbaa910546cbbc47e0cb44e4f59",
+      "url": "https://huggingface.co/datasets/openai/gsm8k/resolve/740312add88f781978c0658806c59bc2815b9866/main/test-00000-of-00001.parquet"
+    },
+    {
+      "name": "en_mgsm_rev2",
+      "file": "mgsm_en.tsv",
+      "sha256": "5920212bc6e777413ca1ffc96162c600b5ea3785d3695a119dc12f6e3f78da68",
+      "url": "https://raw.githubusercontent.com/google-research-datasets/MGSM-Rev2/5f091edeae66ebc605ac4f98dca07a6c345f0060/MGSM-Rev2/mgsm_en.tsv"
+    },
+    {
+      "name": "en_msvamp",
+      "file": "test_English.json",
+      "sha256": "9431a24e993a8f83fd602393ffbb368e1d91fa36b2110ad8f1e0ec319792eed0",
+      "url": "https://huggingface.co/datasets/Mathoctopus/MSVAMP/resolve/301e2b3b168be70058c89c21c2fbdc9262102add/test_English.json"
+    }
+  ],
+  "note": "Complements the frozen target-language assets and separate official English PolyMath audit sources; no English PolyMath performance computed."
+}

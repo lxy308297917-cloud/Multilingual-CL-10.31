@@ -1,0 +1,261 @@
+{
+  "status": "PARTIAL_STUDY_SNAPSHOT",
+  "as_of": "2026-11-05T17:19:03+08:00",
+  "missing_metric_means": "PENDING, never zero",
+  "roles": [
+    {
+      "language": "sw",
+      "epoch": 0,
+      "model": "Base",
+      "mgsm_rev2": 9.2,
+      "msvamp": 26.6,
+      "polymath": 3.6,
+      "gsm8k": 73.1614859742229,
+      "ifeval": 66.35859519408503,
+      "mmlu": 57.00754878222476,
+      "humaneval_plus": 65.85365853658537
+    },
+    {
+      "language": "sw",
+      "epoch": 1,
+      "model": "FFT E1",
+      "mgsm_rev2": 25.2,
+      "msvamp": 49.3,
+      "polymath": 1.1,
+      "gsm8k": 58.68081880212282,
+      "ifeval": 51.75600739371534,
+      "mmlu": 56.59450220766272,
+      "humaneval_plus": 54.87804878048781
+    },
+    {
+      "language": "sw",
+      "epoch": 2,
+      "model": "FFT E2",
+      "mgsm_rev2": 33.6,
+      "msvamp": 49.1,
+      "polymath": 1.2,
+      "gsm8k": 59.74222896133434,
+      "ifeval": 52.865064695009245,
+      "mmlu": 55.205811138014525,
+      "humaneval_plus": 56.70731707317073
+    },
+    {
+      "language": "bn",
+      "epoch": 0,
+      "model": "Base",
+      "mgsm_rev2": 47.199999999999996,
+      "msvamp": 60.5,
+      "polymath": 4.4,
+      "gsm8k": 73.1614859742229,
+      "ifeval": 66.35859519408503,
+      "mmlu": 57.00754878222476,
+      "humaneval_plus": 65.85365853658537
+    },
+    {
+      "language": "bn",
+      "epoch": 1,
+      "model": "FFT E1",
+      "mgsm_rev2": 39.2,
+      "msvamp": 48.3,
+      "polymath": 0.7,
+      "gsm8k": 59.81804397270659,
+      "ifeval": 53.60443622920518,
+      "mmlu": 57.513174761429994,
+      "humaneval_plus": 57.3170731707317
+    },
+    {
+      "language": "bn",
+      "epoch": 2,
+      "model": "FFT E2",
+      "mgsm_rev2": 46.800000000000004,
+      "msvamp": 51.0,
+      "polymath": 0.7,
+      "gsm8k": 62.39575435936315,
+      "ifeval": 54.71349353049908,
+      "mmlu": 56.59450220766272,
+      "humaneval_plus": 55.487804878048784
+    },
+    {
+      "language": "ja",
+      "epoch": 0,
+      "model": "Base",
+      "mgsm_rev2": 62.4,
+      "msvamp": 76.4,
+      "polymath": 7.3,
+      "gsm8k": 73.1614859742229,
+      "ifeval": 66.35859519408503,
+      "mmlu": 57.00754878222476,
+      "humaneval_plus": 65.85365853658537
+    },
+    {
+      "language": "ja",
+      "epoch": 1,
+      "model": "FFT E1",
+      "mgsm_rev2": 46.800000000000004,
+      "msvamp": 60.5,
+      "polymath": 1.3
+    },
+    {
+      "language": "ja",
+      "epoch": 2,
+      "model": "FFT E2",
+      "mgsm_rev2": 54.400000000000006,
+      "msvamp": 61.4,
+      "polymath": 1.7
+    }
+  ],
+  "source_file_hashes": [
+    {
+      "file": "results/math_sft_base_fft/base-census-worker1-v1/predictions.jsonl",
+      "sha256": "4ba016aa3e5dc52baeae259252c7c2c8c406c0f0a16ceb1a850f16b021a117af"
+    },
+    {
+      "file": "results/math_sft_base_fft/base-census-worker2-v1/predictions.jsonl",
+      "sha256": "8008903d40efa1af95769e53d60a3e73ae14b6c40dd0aad89c69d2990bc7e931"
+    },
+    {
+      "file": "results/math_sft_base_fft/base-census-worker3-v1/predictions.jsonl",
+      "sha256": "01b3cd97a6b0a3cc34b0f4597c9a8224c9acae809ce91876ffe5e92b2e83d0bc"
+    },
+    {
+      "file": "results/math_sft_base_fft/base-census-polymath-v1/sw-score/scores.json",
+      "sha256": "e6c51b44e8dcfa83131a1301fb59069b064500b51ded4cb3a2a1387525c3cc27"
+    },
+    {
+      "file": "results/math_sft_base_fft/base-general-v1/scores.json",
+      "sha256": "d951aef4ab448be38aaf42e49bb83180f88bd208f082f1ae3a48d56cbd7b35fe"
+    },
+    {
+      "file": "results/math_sft_base_fft/base-general-v1/code-execution/scores.json",
+      "sha256": "bc46a81b754730f7c01056e797672e5ddc79abf48b6c6def61ce144da45eab13"
+    },
+    {
+      "file": "results/math_sft_base_fft/A/sw/epoch1/math/scores.json",
+      "sha256": "9eca247540a52c7060e64fc37d3ab334e0fe4becb57c17bf25cd3dc66598951c"
+    },
+    {
+      "file": "results/math_sft_base_fft/A/sw/epoch1/polymath/scores.json",
+      "sha256": "ac405fc206fab24061e228a7c40413fdcb565c57e4872305a53f7d9e399e387b"
+    },
+    {
+      "file": "results/math_sft_base_fft/A/sw/epoch1/general/scores.json",
+      "sha256": "4c103474d850f7763a7814f647a8f5c1d21af1e8202b04c6b1045cab2fc448bd"
+    },
+    {
+      "file": "results/math_sft_base_fft/A/sw/epoch1/general/code-execution/scores.json",
+      "sha256": "6c9bb408daaa821dcd2bcc0aa93269ce8e0db5dd0f54abe41c911ff62ba92c27"
+    },
+    {
+      "file": "results/math_sft_base_fft/A/sw/epoch2/math/scores.json",
+      "sha256": "09a006c3c1788a0649dd9cd8d9df3cfa2e3100146ac7bc802720850237e0af44"
+    },
+    {
+      "file": "results/math_sft_base_fft/A/sw/epoch2/polymath/scores.json",
+      "sha256": "fcc0975384b6c4b5d3a1830703f88538e4e76efb4da99a63f57f38c89d2c2ab7"
+    },
+    {
+      "file": "results/math_sft_base_fft/A/sw/epoch2/general/scores.json",
+      "sha256": "45f1a3bf6317e1bcaf36bf57cce35221aae684f5dec8cdc1f088fb275bf9499d"
+    },
+    {
+      "file": "results/math_sft_base_fft/A/sw/epoch2/general/code-execution/scores.json",
+      "sha256": "c11fdab9f8a01991447f78b1d42efe7a6b2b164c57e322f4fa14c152d770b936"
+    },
+    {
+      "file": "results/math_sft_base_fft/base-census-worker1-v1/predictions.jsonl",
+      "sha256": "4ba016aa3e5dc52baeae259252c7c2c8c406c0f0a16ceb1a850f16b021a117af"
+    },
+    {
+      "file": "results/math_sft_base_fft/base-census-worker2-v1/predictions.jsonl",
+      "sha256": "8008903d40efa1af95769e53d60a3e73ae14b6c40dd0aad89c69d2990bc7e931"
+    },
+    {
+      "file": "results/math_sft_base_fft/base-census-worker3-v1/predictions.jsonl",
+      "sha256": "01b3cd97a6b0a3cc34b0f4597c9a8224c9acae809ce91876ffe5e92b2e83d0bc"
+    },
+    {
+      "file": "results/math_sft_base_fft/base-census-polymath-v1/bn-score/scores.json",
+      "sha256": "9afb0ccab173ae32787debae818019740e79e608418144f2501c9def68b965ca"
+    },
+    {
+      "file": "results/math_sft_base_fft/base-general-v1/scores.json",
+      "sha256": "d951aef4ab448be38aaf42e49bb83180f88bd208f082f1ae3a48d56cbd7b35fe"
+    },
+    {
+      "file": "results/math_sft_base_fft/base-general-v1/code-execution/scores.json",
+      "sha256": "bc46a81b754730f7c01056e797672e5ddc79abf48b6c6def61ce144da45eab13"
+    },
+    {
+      "file": "results/math_sft_base_fft/A/bn/epoch1/math/scores.json",
+      "sha256": "801ec3ac936d9eb747f5f04b4505af0dfe36a3c159e4dbf4b8b385200f340d91"
+    },
+    {
+      "file": "results/math_sft_base_fft/A/bn/epoch1/polymath/scores.json",
+      "sha256": "6ce0d7d710a68c08200540e2477d6b4a183bd137098da0ab35fb0d25af54bafc"
+    },
+    {
+      "file": "results/math_sft_base_fft/A/bn/epoch1/general/scores.json",
+      "sha256": "c406578088548730eca970f93b8af5c5cf8949a04ce04ee74988557fafd9857d"
+    },
+    {
+      "file": "results/math_sft_base_fft/A/bn/epoch1/general/code-execution/scores.json",
+      "sha256": "918610015ad36dcb65644ce9ffc163b98e600e835b07780b52a1666d5b59bcd4"
+    },
+    {
+      "file": "results/math_sft_base_fft/A/bn/epoch2/math/scores.json",
+      "sha256": "3c04ae569f136802fe55cf263ba540446847f637d17fd81e4ab379ee826dc2e5"
+    },
+    {
+      "file": "results/math_sft_base_fft/A/bn/epoch2/polymath/scores.json",
+      "sha256": "abe1d0a476815f6507273d3f505e08ecb9e2a029ca333a1e9f53b9816b5ae928"
+    },
+    {
+      "file": "results/math_sft_base_fft/A/bn/epoch2/general/scores.json",
+      "sha256": "4036966e12597cfcacf3e3183a603600496bc040fdbc1b8f560ec857a07a0973"
+    },
+    {
+      "file": "results/math_sft_base_fft/A/bn/epoch2/general/code-execution/scores.json",
+      "sha256": "b528ee13b9be747ddbee71c0398527150707ca75fb022ea78c8f5eb4e94a6aca"
+    },
+    {
+      "file": "results/math_sft_base_fft/base-census-worker1-v1/predictions.jsonl",
+      "sha256": "4ba016aa3e5dc52baeae259252c7c2c8c406c0f0a16ceb1a850f16b021a117af"
+    },
+    {
+      "file": "results/math_sft_base_fft/base-census-worker2-v1/predictions.jsonl",
+      "sha256": "8008903d40efa1af95769e53d60a3e73ae14b6c40dd0aad89c69d2990bc7e931"
+    },
+    {
+      "file": "results/math_sft_base_fft/base-census-worker3-v1/predictions.jsonl",
+      "sha256": "01b3cd97a6b0a3cc34b0f4597c9a8224c9acae809ce91876ffe5e92b2e83d0bc"
+    },
+    {
+      "file": "results/math_sft_base_fft/base-census-polymath-v1/ja-score/scores.json",
+      "sha256": "4ee95ae009e549a7b1dd474f37035f26f445cba5a65169e1985ad5e98f30174b"
+    },
+    {
+      "file": "results/math_sft_base_fft/base-general-v1/scores.json",
+      "sha256": "d951aef4ab448be38aaf42e49bb83180f88bd208f082f1ae3a48d56cbd7b35fe"
+    },
+    {
+      "file": "results/math_sft_base_fft/base-general-v1/code-execution/scores.json",
+      "sha256": "bc46a81b754730f7c01056e797672e5ddc79abf48b6c6def61ce144da45eab13"
+    },
+    {
+      "file": "results/math_sft_base_fft/A/ja/epoch1/math/scores.json",
+      "sha256": "1dc83b712c6b3509475a25d2e6a8af35c83f03e023943a6c307c148f59d9a6dd"
+    },
+    {
+      "file": "results/math_sft_base_fft/A/ja/epoch1/polymath/scores.json",
+      "sha256": "d8ed789bf51df0bb01a99540f0e3498e7b443fe677066dfb16249b3959854347"
+    },
+    {
+      "file": "results/math_sft_base_fft/A/ja/epoch2/math/scores.json",
+      "sha256": "019bd1d5dfc6a5327db61e7bdf9f68b54f8c19198d2b6bf262d8b058cfa345db"
+    },
+    {
+      "file": "results/math_sft_base_fft/A/ja/epoch2/polymath/scores.json",
+      "sha256": "3ee675b90910fcde63e6d611ebf9da15a957b6871aae81179c879426603f6e41"
+    }
+  ]
+}
