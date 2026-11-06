@@ -1,7 +1,7 @@
 <!-- aya4b-current-start -->
 # Multilingual-CL：Qwen3-4B SW适配
 
-## 完整四模型基线 · 2026-11-06
+## 本轮实验交付完成 · 2026-11-06
 
 原模型、FFT、LoRA、SSU-Wanda 的固定预算正式测评已完成：**80 项分数、60 项配对比较**，32 个模型／任务组的权重与协议身份核验通过。逐题统计和翻译语料统计可在 CPU 上独立复算，不需原始题目或权重。
 
@@ -16,11 +16,16 @@
 
 ## 翻译修正与补充诊断
 
-第一个重平衡数据 LoRA 候选已完成，但开发区间跨零，尚未确认修复。第二个预定 LR2e-5 候选正在独立训练；不改原四模型结果，不用正式 test 调参，也不把开发分数当正式确认。
+两个预定重平衡数据 LoRA 候选均完成固定400步，实际训练曝光顺序一致。两组都未达到冻结开发条件，翻译修复尚未成功；有限搜索在两候选处结束。候选正式确认和保持测评NOT_RUN，不改原四模型结果，不用正式test调参。
 
+- [最终研究结论和后续讨论](research/aya_4b_20261105/final_decision.md)
+- [补充XNLI/XCOPA全量结果](research/aya_4b_20261105/supplemental_benchmarks.md)
+- [第二个翻译候选](research/aya_4b_20261105/translation_lr2e5_candidate_result.md)
 - [第一个候选：完整结果和边界](research/aya_4b_20261105/translation_rebalanced_candidate_result.md)
 - [有限修正计划](research/aya_4b_20261105/translation_repair_candidate_plan.md)
 - [XNLI/XCOPA 与开发诊断的阶段记录](research/aya_4b_20261105/progress.md)
+
+主线加补充共92项分数、69项配对比较；开发诊断另列。
 
 只有一个训练种子；样本区间不代表跨训练种子稳定性。模型规模和数据同时改变，不能分别归因。旧路线 B 仍保持用户停止。以下保留历史项目记录，历史“进行中”字样不表示任务恢复。
 <!-- aya4b-current-end -->

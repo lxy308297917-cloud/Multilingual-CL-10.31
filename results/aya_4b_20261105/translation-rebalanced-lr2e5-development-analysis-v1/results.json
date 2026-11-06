@@ -1,0 +1,648 @@
+{
+  "status": "VERIFIED_DEVELOPMENT_COMPARISON_NOT_FORMAL_TEST",
+  "scores": [
+    {
+      "model": "base",
+      "profile": "greedy",
+      "direction": "en->sw",
+      "samples": 64,
+      "chrF++": 14.156246514640161,
+      "BLEU": 0.810644101736707,
+      "cap_count": 25,
+      "repetitive_4gram_count": 25,
+      "empty_count": 0,
+      "mean_generated_tokens": 235.578125
+    },
+    {
+      "model": "base",
+      "profile": "greedy",
+      "direction": "sw->en",
+      "samples": 64,
+      "chrF++": 35.83758711577285,
+      "BLEU": 14.475482060385954,
+      "cap_count": 0,
+      "repetitive_4gram_count": 0,
+      "empty_count": 0,
+      "mean_generated_tokens": 26.859375
+    },
+    {
+      "model": "base",
+      "profile": "official_non_thinking",
+      "direction": "en->sw",
+      "samples": 64,
+      "chrF++": 16.132951007152865,
+      "BLEU": 1.1698267766316444,
+      "cap_count": 18,
+      "repetitive_4gram_count": 19,
+      "empty_count": 0,
+      "mean_generated_tokens": 188.421875
+    },
+    {
+      "model": "base",
+      "profile": "official_non_thinking",
+      "direction": "sw->en",
+      "samples": 64,
+      "chrF++": 35.65236090852749,
+      "BLEU": 13.907532431646212,
+      "cap_count": 0,
+      "repetitive_4gram_count": 0,
+      "empty_count": 0,
+      "mean_generated_tokens": 26.96875
+    },
+    {
+      "model": "lora",
+      "profile": "greedy",
+      "direction": "en->sw",
+      "samples": 64,
+      "chrF++": 8.218767457278915,
+      "BLEU": 0.36391133213906596,
+      "cap_count": 45,
+      "repetitive_4gram_count": 45,
+      "empty_count": 0,
+      "mean_generated_tokens": 374
+    },
+    {
+      "model": "lora",
+      "profile": "greedy",
+      "direction": "sw->en",
+      "samples": 64,
+      "chrF++": 35.38713311512552,
+      "BLEU": 14.551449109929452,
+      "cap_count": 0,
+      "repetitive_4gram_count": 0,
+      "empty_count": 0,
+      "mean_generated_tokens": 27.265625
+    },
+    {
+      "model": "lora",
+      "profile": "official_non_thinking",
+      "direction": "en->sw",
+      "samples": 64,
+      "chrF++": 13.846746027661608,
+      "BLEU": 0.7620048380114085,
+      "cap_count": 24,
+      "repetitive_4gram_count": 24,
+      "empty_count": 0,
+      "mean_generated_tokens": 227.40625
+    },
+    {
+      "model": "lora",
+      "profile": "official_non_thinking",
+      "direction": "sw->en",
+      "samples": 64,
+      "chrF++": 35.33894447388862,
+      "BLEU": 13.838135456776685,
+      "cap_count": 0,
+      "repetitive_4gram_count": 0,
+      "empty_count": 0,
+      "mean_generated_tokens": 27.078125
+    }
+  ],
+  "paired_comparisons": [
+    {
+      "contrast": "official_sampling_minus_greedy",
+      "target": [
+        "base",
+        "official_non_thinking",
+        "en->sw"
+      ],
+      "base": [
+        "base",
+        "greedy",
+        "en->sw"
+      ],
+      "metric": "chrF++",
+      "delta": 1.9767044925127042,
+      "ci95_low": -0.5840823339073153,
+      "ci95_high": 4.588875215899922,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 64,
+      "unit": "paired original sample IDs",
+      "algorithm": "resample segment statistics then recompute corpus metric; not mean sentence scores",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "contrast": "official_sampling_minus_greedy",
+      "target": [
+        "base",
+        "official_non_thinking",
+        "en->sw"
+      ],
+      "base": [
+        "base",
+        "greedy",
+        "en->sw"
+      ],
+      "metric": "BLEU",
+      "delta": 0.3591826748949374,
+      "ci95_low": -0.03490463853306525,
+      "ci95_high": 0.8984399811114256,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 64,
+      "unit": "paired original sample IDs",
+      "algorithm": "resample segment statistics then recompute corpus metric; not mean sentence scores",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "contrast": "official_sampling_minus_greedy",
+      "target": [
+        "lora",
+        "official_non_thinking",
+        "en->sw"
+      ],
+      "base": [
+        "lora",
+        "greedy",
+        "en->sw"
+      ],
+      "metric": "chrF++",
+      "delta": 5.627978570382693,
+      "ci95_low": 3.563455715507367,
+      "ci95_high": 7.8019429811639815,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 64,
+      "unit": "paired original sample IDs",
+      "algorithm": "resample segment statistics then recompute corpus metric; not mean sentence scores",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "contrast": "official_sampling_minus_greedy",
+      "target": [
+        "lora",
+        "official_non_thinking",
+        "en->sw"
+      ],
+      "base": [
+        "lora",
+        "greedy",
+        "en->sw"
+      ],
+      "metric": "BLEU",
+      "delta": 0.39809350587234255,
+      "ci95_low": 0.10224021950022004,
+      "ci95_high": 0.7798433301062299,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 64,
+      "unit": "paired original sample IDs",
+      "algorithm": "resample segment statistics then recompute corpus metric; not mean sentence scores",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "target": [
+        "lora",
+        "greedy",
+        "en->sw"
+      ],
+      "base": [
+        "base",
+        "greedy",
+        "en->sw"
+      ],
+      "metric": "chrF++",
+      "delta": -5.937479057361246,
+      "ci95_low": -8.376967505864322,
+      "ci95_high": -3.7835994452235737,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 64,
+      "unit": "paired original sample IDs",
+      "algorithm": "resample segment statistics then recompute corpus metric; not mean sentence scores",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "target": [
+        "lora",
+        "greedy",
+        "en->sw"
+      ],
+      "base": [
+        "base",
+        "greedy",
+        "en->sw"
+      ],
+      "metric": "BLEU",
+      "delta": -0.446732769597641,
+      "ci95_low": -0.9744105056218723,
+      "ci95_high": 0.04363815221604638,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 64,
+      "unit": "paired original sample IDs",
+      "algorithm": "resample segment statistics then recompute corpus metric; not mean sentence scores",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "target": [
+        "lora",
+        "official_non_thinking",
+        "en->sw"
+      ],
+      "base": [
+        "base",
+        "official_non_thinking",
+        "en->sw"
+      ],
+      "metric": "chrF++",
+      "delta": -2.2862049794912576,
+      "ci95_low": -5.169355006084032,
+      "ci95_high": 0.22405646749780528,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 64,
+      "unit": "paired original sample IDs",
+      "algorithm": "resample segment statistics then recompute corpus metric; not mean sentence scores",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "target": [
+        "lora",
+        "official_non_thinking",
+        "en->sw"
+      ],
+      "base": [
+        "base",
+        "official_non_thinking",
+        "en->sw"
+      ],
+      "metric": "BLEU",
+      "delta": -0.40782193862023586,
+      "ci95_low": -0.9484870460957571,
+      "ci95_high": -0.006004165662245063,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 64,
+      "unit": "paired original sample IDs",
+      "algorithm": "resample segment statistics then recompute corpus metric; not mean sentence scores",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "contrast": "official_sampling_minus_greedy",
+      "target": [
+        "base",
+        "official_non_thinking",
+        "sw->en"
+      ],
+      "base": [
+        "base",
+        "greedy",
+        "sw->en"
+      ],
+      "metric": "chrF++",
+      "delta": -0.185226207245357,
+      "ci95_low": -1.081942921323418,
+      "ci95_high": 0.5784762051121702,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 64,
+      "unit": "paired original sample IDs",
+      "algorithm": "resample segment statistics then recompute corpus metric; not mean sentence scores",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "contrast": "official_sampling_minus_greedy",
+      "target": [
+        "base",
+        "official_non_thinking",
+        "sw->en"
+      ],
+      "base": [
+        "base",
+        "greedy",
+        "sw->en"
+      ],
+      "metric": "BLEU",
+      "delta": -0.5679496287397416,
+      "ci95_low": -1.6668700757825883,
+      "ci95_high": 0.38540459814200145,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 64,
+      "unit": "paired original sample IDs",
+      "algorithm": "resample segment statistics then recompute corpus metric; not mean sentence scores",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "contrast": "official_sampling_minus_greedy",
+      "target": [
+        "lora",
+        "official_non_thinking",
+        "sw->en"
+      ],
+      "base": [
+        "lora",
+        "greedy",
+        "sw->en"
+      ],
+      "metric": "chrF++",
+      "delta": -0.04818864123690503,
+      "ci95_low": -1.9332448638138255,
+      "ci95_high": 1.8305750464727952,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 64,
+      "unit": "paired original sample IDs",
+      "algorithm": "resample segment statistics then recompute corpus metric; not mean sentence scores",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "contrast": "official_sampling_minus_greedy",
+      "target": [
+        "lora",
+        "official_non_thinking",
+        "sw->en"
+      ],
+      "base": [
+        "lora",
+        "greedy",
+        "sw->en"
+      ],
+      "metric": "BLEU",
+      "delta": -0.7133136531527668,
+      "ci95_low": -2.97211434350627,
+      "ci95_high": 1.7802116380478774,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 64,
+      "unit": "paired original sample IDs",
+      "algorithm": "resample segment statistics then recompute corpus metric; not mean sentence scores",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "target": [
+        "lora",
+        "greedy",
+        "sw->en"
+      ],
+      "base": [
+        "base",
+        "greedy",
+        "sw->en"
+      ],
+      "metric": "chrF++",
+      "delta": -0.4504540006473263,
+      "ci95_low": -2.5054807168653044,
+      "ci95_high": 1.6763515854256064,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 64,
+      "unit": "paired original sample IDs",
+      "algorithm": "resample segment statistics then recompute corpus metric; not mean sentence scores",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "target": [
+        "lora",
+        "greedy",
+        "sw->en"
+      ],
+      "base": [
+        "base",
+        "greedy",
+        "sw->en"
+      ],
+      "metric": "BLEU",
+      "delta": 0.07596704954349853,
+      "ci95_low": -2.6815774889272155,
+      "ci95_high": 2.7511422458243664,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 64,
+      "unit": "paired original sample IDs",
+      "algorithm": "resample segment statistics then recompute corpus metric; not mean sentence scores",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "target": [
+        "lora",
+        "official_non_thinking",
+        "sw->en"
+      ],
+      "base": [
+        "base",
+        "official_non_thinking",
+        "sw->en"
+      ],
+      "metric": "chrF++",
+      "delta": -0.31341643463887436,
+      "ci95_low": -2.5849225013912647,
+      "ci95_high": 1.766593466238855,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 64,
+      "unit": "paired original sample IDs",
+      "algorithm": "resample segment statistics then recompute corpus metric; not mean sentence scores",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    },
+    {
+      "contrast": "lora_minus_base",
+      "target": [
+        "lora",
+        "official_non_thinking",
+        "sw->en"
+      ],
+      "base": [
+        "base",
+        "official_non_thinking",
+        "sw->en"
+      ],
+      "metric": "BLEU",
+      "delta": -0.06939697486952667,
+      "ci95_low": -2.7688482513905175,
+      "ci95_high": 2.3508765686689483,
+      "repeats": 1000,
+      "seed": 42,
+      "samples": 64,
+      "unit": "paired original sample IDs",
+      "algorithm": "resample segment statistics then recompute corpus metric; not mean sentence scores",
+      "multiple_comparisons": "unadjusted exploratory intervals"
+    }
+  ],
+  "corpus_statistics": [
+    {
+      "model": "base",
+      "profile": "greedy",
+      "direction": "en->sw",
+      "metric": "chrF++",
+      "score": 14.156246514640161,
+      "samples": 64,
+      "file": "base_greedy_en_sw_chrF++.csv.gz",
+      "sha256": "104afc760ff13c6aec35379b325e1800127172e1332bad345bc9a23f73a0432c"
+    },
+    {
+      "model": "base",
+      "profile": "greedy",
+      "direction": "en->sw",
+      "metric": "BLEU",
+      "score": 0.810644101736707,
+      "samples": 64,
+      "file": "base_greedy_en_sw_BLEU.csv.gz",
+      "sha256": "c5b06eac1919e0d40022ac8433aa13ebc68c6120adad4a2ae07ffff6b0b181a6"
+    },
+    {
+      "model": "base",
+      "profile": "greedy",
+      "direction": "sw->en",
+      "metric": "chrF++",
+      "score": 35.83758711577285,
+      "samples": 64,
+      "file": "base_greedy_sw_en_chrF++.csv.gz",
+      "sha256": "4750884f2854fd501e5481127c70a096be10850aa5049397154afa54afdecc68"
+    },
+    {
+      "model": "base",
+      "profile": "greedy",
+      "direction": "sw->en",
+      "metric": "BLEU",
+      "score": 14.475482060385954,
+      "samples": 64,
+      "file": "base_greedy_sw_en_BLEU.csv.gz",
+      "sha256": "1a25a034bcb5a72b54e8adb04f53dfd1c339c7fcdf7c613fd4acd02bb06c5e80"
+    },
+    {
+      "model": "base",
+      "profile": "official_non_thinking",
+      "direction": "en->sw",
+      "metric": "chrF++",
+      "score": 16.132951007152865,
+      "samples": 64,
+      "file": "base_official_non_thinking_en_sw_chrF++.csv.gz",
+      "sha256": "30720b25d8fa3f760e7a4bb903ab1fa4eb027f181604cf7b54e0ee6e1d2a8d4f"
+    },
+    {
+      "model": "base",
+      "profile": "official_non_thinking",
+      "direction": "en->sw",
+      "metric": "BLEU",
+      "score": 1.1698267766316444,
+      "samples": 64,
+      "file": "base_official_non_thinking_en_sw_BLEU.csv.gz",
+      "sha256": "f856b0e8f30703ab624393374127d0bb8b5cdba93da84142a2985f13cea4047f"
+    },
+    {
+      "model": "base",
+      "profile": "official_non_thinking",
+      "direction": "sw->en",
+      "metric": "chrF++",
+      "score": 35.65236090852749,
+      "samples": 64,
+      "file": "base_official_non_thinking_sw_en_chrF++.csv.gz",
+      "sha256": "458afca22622967c2c73f904a23f51d0c377844c69537ecaefa67ecf089f322a"
+    },
+    {
+      "model": "base",
+      "profile": "official_non_thinking",
+      "direction": "sw->en",
+      "metric": "BLEU",
+      "score": 13.907532431646212,
+      "samples": 64,
+      "file": "base_official_non_thinking_sw_en_BLEU.csv.gz",
+      "sha256": "dba0f2f6a2eb4515cfe6cb4a7c433d50ce48a44a0eb47739ab6f006c5063cda0"
+    },
+    {
+      "model": "lora",
+      "profile": "greedy",
+      "direction": "en->sw",
+      "metric": "chrF++",
+      "score": 8.218767457278915,
+      "samples": 64,
+      "file": "lora_greedy_en_sw_chrF++.csv.gz",
+      "sha256": "ff04ea6e2bb4749236955255358c892aa6a05c9b89de779fa4166f575106adc3"
+    },
+    {
+      "model": "lora",
+      "profile": "greedy",
+      "direction": "en->sw",
+      "metric": "BLEU",
+      "score": 0.36391133213906596,
+      "samples": 64,
+      "file": "lora_greedy_en_sw_BLEU.csv.gz",
+      "sha256": "fbcd932f68188c781fc36a1a1d5e9e52f1563242d46cef4e00a7cb214a5bb8aa"
+    },
+    {
+      "model": "lora",
+      "profile": "greedy",
+      "direction": "sw->en",
+      "metric": "chrF++",
+      "score": 35.38713311512552,
+      "samples": 64,
+      "file": "lora_greedy_sw_en_chrF++.csv.gz",
+      "sha256": "90c8d99ca367ed60fa81bc1de6860118510714e52da92bd32353e7e60bcc02d4"
+    },
+    {
+      "model": "lora",
+      "profile": "greedy",
+      "direction": "sw->en",
+      "metric": "BLEU",
+      "score": 14.551449109929452,
+      "samples": 64,
+      "file": "lora_greedy_sw_en_BLEU.csv.gz",
+      "sha256": "531060a811d7b6a2af10ecf30dd7c06329198392942ca9b913799d9addf3e2c3"
+    },
+    {
+      "model": "lora",
+      "profile": "official_non_thinking",
+      "direction": "en->sw",
+      "metric": "chrF++",
+      "score": 13.846746027661608,
+      "samples": 64,
+      "file": "lora_official_non_thinking_en_sw_chrF++.csv.gz",
+      "sha256": "a3c66781777eed2dffe534f280a9e8319116618422eccddf2a5db0ac4a873790"
+    },
+    {
+      "model": "lora",
+      "profile": "official_non_thinking",
+      "direction": "en->sw",
+      "metric": "BLEU",
+      "score": 0.7620048380114085,
+      "samples": 64,
+      "file": "lora_official_non_thinking_en_sw_BLEU.csv.gz",
+      "sha256": "87179f84e6f32c077fa10b671ef96fabe1a0048d76243b81f308f1cb1744bd03"
+    },
+    {
+      "model": "lora",
+      "profile": "official_non_thinking",
+      "direction": "sw->en",
+      "metric": "chrF++",
+      "score": 35.33894447388862,
+      "samples": 64,
+      "file": "lora_official_non_thinking_sw_en_chrF++.csv.gz",
+      "sha256": "9928b799e7169e0c774eb0ac491c4e2afe759581ba7d8da202c8c09f3d90ffae"
+    },
+    {
+      "model": "lora",
+      "profile": "official_non_thinking",
+      "direction": "sw->en",
+      "metric": "BLEU",
+      "score": 13.838135456776685,
+      "samples": 64,
+      "file": "lora_official_non_thinking_sw_en_BLEU.csv.gz",
+      "sha256": "8fbcd44e5b7ec3aee2be155d577791fcf88a7a5572ddba4c5504ee691328e361"
+    }
+  ],
+  "source_predictions_sha256": "e86234ed412a35a6f75ac0470438e46c97955964e0adf34307b07988b27c5b41",
+  "frozen_manifest_sha256": "c8e41c8b998af0e17ce76de8963ca373c28976c6a21ce439190a63cdc5b5a179",
+  "cost": {
+    "generation_process_seconds": 385.1648192964494,
+    "including_wait_process_seconds": 409.7243463881314,
+    "generated_tokens": 72549,
+    "completed_generations": 512,
+    "scope": "Additional development decoding diagnosis, excluded from original formal evaluation cost table"
+  },
+  "limitations": [
+    "64paireddevexamples per direction; historically exposed public corpus",
+    "One fixed stochastic inference seed; intervals conditional on observed generations",
+    "Base/no-adapter and LoRA share an enable_lora engine, separate numerical profile from formal evaluation",
+    "No formal predictions, scores, masks or checkpoints modified"
+  ]
+}

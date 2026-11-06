@@ -1,0 +1,24 @@
+[
+  {
+    "candidate": "lr1e4",
+    "loss_rows": 80,
+    "exposure_rows": 6400,
+    "loss_file": "lr1e4-loss.csv",
+    "exposure_file": "lr1e4-ordered-exposure.csv.gz",
+    "loss_sha256": "0de8accdee31e4a8b64a36516155dcec3ac4ea59bba90320c4fd91507dfcfb25",
+    "exposure_sha256": "ae8aea936300bc3f4145221b3adb59c5780ef8aa29139698610b8f863719181e",
+    "source_trainer_state_sha256": "81f0eff29f68c066baebdd9d92e19f4341780893d96a73219f3d713ee4f0f5e9",
+    "source_exposure_sha256": "c78ba9c479f8ddcc314043eb67ed49540942a73764d6e41a588810f2c315fa6b"
+  },
+  {
+    "candidate": "lr2e5",
+    "loss_rows": 80,
+    "exposure_rows": 6400,
+    "loss_file": "lr2e5-loss.csv",
+    "exposure_file": "lr2e5-ordered-exposure.csv.gz",
+    "loss_sha256": "5e6ab13fd9e9253368d12f2eae0f59aa613362b5215b0dc34becadcb88c1781b",
+    "exposure_sha256": "51e90ee777af3307b5bda753231cb3d1501d6979c32b231f0be2c4bbc524ab46",
+    "source_trainer_state_sha256": "e4fd214bc9ecd6cbaa4682f6ed5d27f3b24aa0ede24e9d207ba77bb931dac795",
+    "source_exposure_sha256": "c78ba9c479f8ddcc314043eb67ed49540942a73764d6e41a588810f2c315fa6b"
+  }
+]

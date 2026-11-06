@@ -1,0 +1,20 @@
+{
+  "status": "VERIFIED_REVISED_LORA_FINAL400",
+  "samples": 6400,
+  "steps": 400,
+  "input_tokens": 1328744,
+  "shifted_assistant_tokens": 209925,
+  "all_input_label_exposures_match_frozen_candidate": true,
+  "samples_per_optimizer_step": 16,
+  "finite_loss_gradient_and_scheduler_logs": 80,
+  "learning_rate": 2e-05,
+  "data_manifest_sha256": "bb4c77baf266fdb5440787f74f33ef08d54b74424ffd0948f0af87f7e098c90c",
+  "config_sha256": "6080f19d6e465f07d0593493e38c8c91f2e88de0a3ad39dc6341ee78ad259186",
+  "weights_sha256": {
+    "adapter_model.safetensors": "27c7866770cbdf9af352f364e0339b5cb6fe85cffd9a2f8fe43c573022da505a"
+  },
+  "actual_exposure_sha256": "c78ba9c479f8ddcc314043eb67ed49540942a73764d6e41a588810f2c315fa6b",
+  "trainer_runtime_seconds": 2536.7966,
+  "process_wall_seconds": 2544.462621,
+  "optimizer_state_saved": false
+}

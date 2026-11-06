@@ -1,0 +1,37 @@
+{
+  "status": "ACTUAL_ADDITIONAL_COSTS",
+  "candidates": [
+    {
+      "candidate": "translation-rebalanced",
+      "training_process_seconds": 2579.117307,
+      "trainer_runtime_seconds": 2571.8786,
+      "development_generation": {
+        "generation_process_seconds": 366.35222714208066,
+        "including_wait_process_seconds": 391.1606529764831,
+        "generated_tokens": 64100,
+        "completed_generations": 512,
+        "scope": "Additional development decoding diagnosis, excluded from original formal evaluation cost table"
+      },
+      "data_manifest_sha256": "bb4c77baf266fdb5440787f74f33ef08d54b74424ffd0948f0af87f7e098c90c",
+      "config_sha256": "436356205210fb3047a988d4de51020ed62f527506ced9ad082fdf20d92b7e02",
+      "actual_exposure_sha256": "c78ba9c479f8ddcc314043eb67ed49540942a73764d6e41a588810f2c315fa6b"
+    },
+    {
+      "candidate": "translation-rebalanced-lr2e5",
+      "training_process_seconds": 2544.462621,
+      "trainer_runtime_seconds": 2536.7966,
+      "development_generation": {
+        "generation_process_seconds": 385.1648192964494,
+        "including_wait_process_seconds": 409.7243463881314,
+        "generated_tokens": 72549,
+        "completed_generations": 512,
+        "scope": "Additional development decoding diagnosis, excluded from original formal evaluation cost table"
+      },
+      "data_manifest_sha256": "bb4c77baf266fdb5440787f74f33ef08d54b74424ffd0948f0af87f7e098c90c",
+      "config_sha256": "6080f19d6e465f07d0593493e38c8c91f2e88de0a3ad39dc6341ee78ad259186",
+      "actual_exposure_sha256": "c78ba9c479f8ddcc314043eb67ed49540942a73764d6e41a588810f2c315fa6b"
+    }
+  ],
+  "original_formal_evaluation_costs_unchanged": true,
+  "sum_is_wall_time_not_CUDA_kernel_time": true
+}

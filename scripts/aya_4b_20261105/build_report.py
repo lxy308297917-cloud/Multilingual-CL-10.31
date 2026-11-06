@@ -102,6 +102,17 @@ def main():
     report = report.replace('第二个LR2e-5候选NOT_RUN。', '第二个预定LR2e-5候选已启动；其最新状态和最终结果见独立候选报告，本表不据此改写。')
     write(a.report / 'final_report.md', report)
     write(a.report / 'chatgpt_handoff.md', '# 交给ChatGPT：Qwen3-4B SW适配\n\n原四模型固定预算实验和完整评测已完成；翻译修复仍未确认。先阅读[完整报告](final_report.md)和[逐任务表](results.md)。\n\n' + '\n'.join(absolute) + '\n\n讨论重点：目标收益是否跨阅读、知识、摘要、翻译一致；通用损失集中在哪些任务；SSU是否在本轮配方下体现收益—保留取舍。模型规模和数据同时改变，不把与旧1.7B的差异单独归因于规模。只有seed42；尚无新方法，未开展顺序多语言实验。旧路线B仍停止。\n')
+    supplement = a.analysis.parent / 'supplemental-analysis-v1/scores.json'
+    if supplement.exists():
+        extra = json.loads(supplement.read_text())
+        values = {(x['model'], x['task']): x['score'] for x in extra}
+        table = ['\n\n## 补充全量 benchmark：XNLI 与 XCOPA', '', '指标为0-shot指令选择题likelihood ACC（%）；XNLI EN/SW各5010题，XCOPA SW500题。训练后冻结的探索性补充，不是原80项主辅指标的一部分。', '', '|任务|Base|FFT|LoRA|SSU-Wanda|', '|---|---:|---:|---:|---:|']
+        for task, label in [('xnli_sw', 'XNLI SW'), ('xnli_en', 'XNLI EN'), ('xcopa_sw', 'XCOPA SW')]:
+            table.append('|' + label + '|' + '|'.join((f'{values[role, task]:.2f}' for role in ROLES)) + '|')
+        table += ['', 'XNLI有明显提示/标签偏好敏感性；不能将全部零样本增益解释为纯语义学习。192题/语言的3-shot开发对照不覆盖全量表。XCOPA提升较小且方法区间不同；详见supplemental_benchmarks.md和xnli_format_diagnosis.md。主线加补充共92项分数、69项配对比较，开发诊断另列。']
+        for name in ['final_report.md', 'chatgpt_handoff.md']:
+            target = a.report / name
+            target.write_text(target.read_text() + '\n'.join(table) + '\n')
     print(json.dumps({'status': 'FINAL_REPORT_RENDERED', 'main_metrics': len(MAIN), 'score_rows': len(scores), 'paired_comparisons': len(paired), 'figures': 4, 'report': str(a.report)}, ensure_ascii=False))
 if __name__ == '__main__':
     main()

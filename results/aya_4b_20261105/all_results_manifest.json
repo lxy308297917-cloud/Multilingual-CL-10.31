@@ -1,0 +1,38 @@
+[
+  {
+    "file": "all_scores.csv",
+    "rows": 92,
+    "sha256": "e80e2d9f8c5c3393d75f11504c47991da5ce1bbcb5ed6c4db4cb6e78233e34f9",
+    "source_files": [
+      {
+        "path": "analysis-v1/scores.json",
+        "sha256": "af9b07eb3747e12caf3edb949f007dfc671ef4d6b31fb5b1d9e0f814899c5427",
+        "rows": 80
+      },
+      {
+        "path": "supplemental-analysis-v1/scores.json",
+        "sha256": "4f81b27a93905a7ef8af03c38f20a3a2f3fa1f8285a683b48901e7774b517f54",
+        "rows": 12
+      }
+    ],
+    "development_diagnostics_included": false
+  },
+  {
+    "file": "all_paired_comparisons.csv",
+    "rows": 69,
+    "sha256": "d1320a26b43589d372be8ee3a4e8afca24d3c3b538d98270c9c11e67ec24529f",
+    "source_files": [
+      {
+        "path": "analysis-v1/paired_comparisons.json",
+        "sha256": "bae3838bed3aa4fd9c3eb8261a106aeb3929670ab626da1e437c43f919f3c04f",
+        "rows": 60
+      },
+      {
+        "path": "supplemental-analysis-v1/paired_comparisons.json",
+        "sha256": "1c0ca7b898226017b7be632e6be1c8dedb433090ea1189aa41f914d8d4f2e4f9",
+        "rows": 9
+      }
+    ],
+    "development_diagnostics_included": false
+  }
+]
