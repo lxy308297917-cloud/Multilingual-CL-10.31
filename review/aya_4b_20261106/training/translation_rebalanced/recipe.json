@@ -1,0 +1,43 @@
+{
+  "rows": 6400,
+  "input_tokens": 1328744,
+  "shifted_assistant_tokens": 209925,
+  "task_stats": {
+    "reading": {
+      "rows": 1280,
+      "input_tokens": 303112,
+      "assistant_tokens": 11572
+    },
+    "summary_native": {
+      "rows": 640,
+      "input_tokens": 528357,
+      "assistant_tokens": 38330
+    },
+    "knowledge": {
+      "rows": 640,
+      "input_tokens": 45839,
+      "assistant_tokens": 5113
+    },
+    "commonsense": {
+      "rows": 640,
+      "input_tokens": 119350,
+      "assistant_tokens": 28867
+    },
+    "en_to_sw": {
+      "rows": 1600,
+      "input_tokens": 166043,
+      "assistant_tokens": 82000
+    },
+    "sw_to_en": {
+      "rows": 1600,
+      "input_tokens": 166043,
+      "assistant_tokens": 44043
+    }
+  },
+  "translation_unique_parallel_groups": 1600,
+  "translation_rows": 3200,
+  "source_manifest_sha256": "bb4c77baf266fdb5440787f74f33ef08d54b74424ffd0948f0af87f7e098c90c",
+  "training_seed": 42,
+  "fixed_final_steps": 400,
+  "effective_batch": 16
+}

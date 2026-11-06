@@ -1,0 +1,95 @@
+{
+  "status": "FROZEN_ACTUAL_INPUT_IDENTITIES",
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "tokenizer_sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+  "tokenizer_config_sha256": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+  "rows": 6400,
+  "input_tokens": 1328744,
+  "shifted_assistant_tokens": 209925,
+  "task_stats": {
+    "reading": {
+      "rows": 1280,
+      "input_tokens": 303112,
+      "assistant_tokens": 11572
+    },
+    "summary_native": {
+      "rows": 640,
+      "input_tokens": 528357,
+      "assistant_tokens": 38330
+    },
+    "knowledge": {
+      "rows": 640,
+      "input_tokens": 45839,
+      "assistant_tokens": 5113
+    },
+    "commonsense": {
+      "rows": 640,
+      "input_tokens": 119350,
+      "assistant_tokens": 28867
+    },
+    "en_to_sw": {
+      "rows": 1600,
+      "input_tokens": 166043,
+      "assistant_tokens": 82000
+    },
+    "sw_to_en": {
+      "rows": 1600,
+      "input_tokens": 166043,
+      "assistant_tokens": 44043
+    }
+  },
+  "training_jsonl_sha256": "1140882af3142ec9005122d6441b2e3e94129da67e4304ffc49154fe71b77dc6",
+  "training_files_sha256": {
+    "dataset_info.json": "d5af798bb2fa4bfa534e7a22dd028f274aacbcca0c284a3d9e7a5e52cfcd1c91",
+    "train6400.jsonl": "1140882af3142ec9005122d6441b2e3e94129da67e4304ffc49154fe71b77dc6",
+    "train6400.provenance.jsonl": "64db7eb3a76871c6f4007e1d94fd392b3f4a15b6350c36480e931edbc2adf2e0",
+    "train6400_tokenized/dataset_dict.json": "c172eebfc28c1400d6be4338ce7d00191507ffb4ae64c315f039585c894df5b7",
+    "train6400_tokenized/train/dataset_info.json": "2d4d048eea9f68a62b9488465df49de56fff8c40382878d73a820bae08a5da5e",
+    "train6400_tokenized/train/state.json": "c800dc8afbe7b403cee366a7cd563623ae8f19c462e2037064946507182aa3af",
+    "train6400_tokenized/train/data-00000-of-00001.arrow": "82b178ec3f866b79af58f57e8ce3d409ee59ec05db84e63857a476d37a37569f"
+  },
+  "sources": [
+    {
+      "name": "aya-swahili-train.parquet",
+      "repository": "CohereLabs/aya_collection_language_split",
+      "revision": "a3af2fde4b4cb5b2775830b11244a1a20b5f004f",
+      "url": "https://huggingface.co/datasets/CohereLabs/aya_collection_language_split/resolve/a3af2fde4b4cb5b2775830b11244a1a20b5f004f/swahili/train-00000-of-00001.parquet",
+      "sha256": "96147702c0faa8e4d5f4a0512fb570b7cb490a16f4d1c61b5177a90ed952a87b",
+      "split": "train"
+    },
+    {
+      "name": "tydiqa-secondary-train.parquet",
+      "url": "https://huggingface.co/datasets/google-research-datasets/tydiqa/resolve/da78f23f9119363459acbaf46bf89426ff26c259/secondary_task/train-00000-of-00001.parquet",
+      "repository": "google-research-datasets/tydiqa",
+      "revision": "da78f23f9119363459acbaf46bf89426ff26c259",
+      "sha256": "8139944554bcd89f6c4b167b93c9a63ec44a6d97b8caebe049061f78fcc0e786",
+      "split": "train"
+    },
+    {
+      "name": "globalvoices-en-sw-v2018q4.zip",
+      "url": "https://object.pouta.csc.fi/OPUS-GlobalVoices/v2018q4/moses/en-sw.txt.zip",
+      "repository": "OPUS/GlobalVoices",
+      "revision": "v2018q4",
+      "sha256": "026c58fdb52245e3da1b7c3615089758a1c5114fdd2a8b539ad91565fd32fa7b",
+      "split": "unpartitioned corpus; deterministic heldout groups before sampling"
+    },
+    {
+      "name": "xlsum-swahili_XLSum_v2.0.tar.bz2",
+      "repository": "csebuetnlp/xlsum",
+      "revision": "30fece425f9a3866e04321773ca7a80056d55ca6",
+      "url": "https://huggingface.co/datasets/csebuetnlp/xlsum/resolve/30fece425f9a3866e04321773ca7a80056d55ca6/data/swahili_XLSum_v2.0.tar.bz2",
+      "sha256": "cf820351b803cc212194e798278628a2f6cf52426fd5166327b657b4cea473bf",
+      "split": "official train member only"
+    }
+  ],
+  "selection_file_sha256": "40d1b5f2de6cd3f1594e42bb038ea159d972fb55e4b675440b0c323cc42da54d",
+  "fingerprints_file_sha256": "877ef9fa7139eabe5dfcbfa9dcd89f554e6816a0cc938417f843c85d24334d95",
+  "contains_raw_training_text": false,
+  "contains_raw_token_ids": false,
+  "notes": [
+    "Replay exact selected source IDs and order instead of re-running data selection",
+    "1600paired translation source groups contribute two directions, not3200independent pairs",
+    "8selected native QA contexts use the frozen answer-preserving window; selected full SFT examples have no truncation"
+  ]
+}
