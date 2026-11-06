@@ -1,0 +1,37 @@
+{
+  "status": "ACTUAL_SCIENTIFIC_TRAINING_LOGS_EXPORTED",
+  "training_loss_rows": 240,
+  "actual_cpuadam_lr_rows": 800,
+  "shared_training_exposures": 6400,
+  "exposure_order_identical_for_all_three_models": true,
+  "source_identities": {
+    "fft": {
+      "actual_training_done_sha256": "9c6cdbeba3b58634720886d81cb2ebe6d62adb861a1cbe5286d8b8bac8b2520d",
+      "trainer_state_sha256": "de9dbe52fdefb32880435014ad5a26364899055e8371518da75803aac49e0eef",
+      "actual_exposure_sha256": "22d31b9c5c1c4612217d6dde0683ecd1c567bed75e8f8249130d3de32b65c35b",
+      "actual_applied_lr_trace_sha256": "1dbeb3e6bda55e05010404924d00924ec9f55e60fa5f875b8e3f3823f5db40fa"
+    },
+    "lora": {
+      "actual_training_done_sha256": "c34b0d1a8f49ac1d5343422a06642ca05599cd5dcce46812061b50a7051577a1",
+      "trainer_state_sha256": "599629880005be55a3985ecd7136713c9e8db97a360e14ef006212ef22257866",
+      "actual_exposure_sha256": "22d31b9c5c1c4612217d6dde0683ecd1c567bed75e8f8249130d3de32b65c35b"
+    },
+    "ssu": {
+      "actual_training_done_sha256": "22bb2274921de1cd6651c82ebf1626f057abe1ad2d964c13c9546caaee022fd2",
+      "trainer_state_sha256": "4d1fa6f0afc7578c1f98b6b8a77b1178bee5ad9c1d3c12534e2c44af780f43dc",
+      "actual_exposure_sha256": "22d31b9c5c1c4612217d6dde0683ecd1c567bed75e8f8249130d3de32b65c35b",
+      "actual_applied_lr_trace_sha256": "1dbeb3e6bda55e05010404924d00924ec9f55e60fa5f875b8e3f3823f5db40fa"
+    }
+  },
+  "notes": [
+    "Loss/grad-norm/scheduler-LR logged every5steps; no interpolation",
+    "CPUAdam applied LR trace covers all400updates for FFT/SSU; LoRA has logged scheduler LR only",
+    "Shared exposure keeps hashes, step and counts only; no raw input/output token IDs",
+    "Independent fixed Final weights; no test-based early stop or checkpoint selection"
+  ],
+  "files_sha256": {
+    "cpuadam_applied_lr.csv": "4c63605d9f93a872e869e06ddae954a15f671a57e61eaa3688055398ab64d541",
+    "shared_training_exposure.jsonl.gz": "3c947a6a4437c5864d4b6365e6fdea7cefd4a74c8d219a53ecbff766bdfeb1e3",
+    "training_curves.csv": "3e049bdd2d4e7c7d8f4ac045c87b402cceadf8c73ec083b9dcf2a9bca1f850b2"
+  }
+}

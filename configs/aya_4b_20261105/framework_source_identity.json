@@ -1,0 +1,65 @@
+{
+  "llamafactory": {
+    "repository": "https://github.com/hiyouga/LLaMA-Factory",
+    "git_commit": "47d407d2aabbd52e11d4f34c7a06b9de3e2f0a77",
+    "tracked_modified_file_count": 0,
+    "critical_files": {
+      "train/sft/workflow.py": {
+        "installed_sha256": "aaa1f92b66c4985fe1c1d47a6c28831a1cd0b107d77e3819c2ea174e37a1384b",
+        "locked_source_sha256": "aaa1f92b66c4985fe1c1d47a6c28831a1cd0b107d77e3819c2ea174e37a1384b",
+        "matches_locked_source": true,
+        "current_aya4b_sha256": "aaa1f92b66c4985fe1c1d47a6c28831a1cd0b107d77e3819c2ea174e37a1384b"
+      },
+      "train/sft/trainer.py": {
+        "installed_sha256": "4016aa09576891d53f2f3ee8f0cd21cd0f5c80c8ee1f45ab964a00750253d7c9",
+        "locked_source_sha256": "4016aa09576891d53f2f3ee8f0cd21cd0f5c80c8ee1f45ab964a00750253d7c9",
+        "matches_locked_source": true,
+        "current_aya4b_sha256": "4016aa09576891d53f2f3ee8f0cd21cd0f5c80c8ee1f45ab964a00750253d7c9"
+      },
+      "data/template.py": {
+        "installed_sha256": "6fc7184691354b912d69d3fd29308c47c85eb300e861e6ef7f36c18772674ce7",
+        "locked_source_sha256": "6fc7184691354b912d69d3fd29308c47c85eb300e861e6ef7f36c18772674ce7",
+        "matches_locked_source": true,
+        "current_aya4b_sha256": "6fc7184691354b912d69d3fd29308c47c85eb300e861e6ef7f36c18772674ce7"
+      },
+      "data/processor/supervised.py": {
+        "installed_sha256": "f1b4b8db32179f7471e7c0bf45806533f8cabe8ade98d3a6b427d80a94b959cf",
+        "locked_source_sha256": "f1b4b8db32179f7471e7c0bf45806533f8cabe8ade98d3a6b427d80a94b959cf",
+        "matches_locked_source": true,
+        "current_aya4b_sha256": "f1b4b8db32179f7471e7c0bf45806533f8cabe8ade98d3a6b427d80a94b959cf"
+      },
+      "hparams/training_args.py": {
+        "installed_sha256": "4e70536ef02e3ec17dd88d64f82021cf8f585d3808a62e3775b7751b87778690",
+        "locked_source_sha256": "4e70536ef02e3ec17dd88d64f82021cf8f585d3808a62e3775b7751b87778690",
+        "matches_locked_source": true,
+        "current_aya4b_sha256": "4e70536ef02e3ec17dd88d64f82021cf8f585d3808a62e3775b7751b87778690"
+      }
+    },
+    "current_aya4b_critical_files_verified": true
+  },
+  "harness": {
+    "repository": "https://github.com/EleutherAI/lm-evaluation-harness",
+    "git_commit": "d6de81643928d653435c431bae19945d41d32520",
+    "tracked_modified_file_count": 0,
+    "critical_files": {
+      "models/huggingface.py": {
+        "installed_sha256": "56d215b8f713d7579f9c7b58a9b8771b09c88e0e4fb8d1b6dd9068033b614b80",
+        "locked_source_sha256": "56d215b8f713d7579f9c7b58a9b8771b09c88e0e4fb8d1b6dd9068033b614b80",
+        "matches_locked_source": true,
+        "current_aya4b_sha256": "56d215b8f713d7579f9c7b58a9b8771b09c88e0e4fb8d1b6dd9068033b614b80"
+      },
+      "evaluator.py": {
+        "installed_sha256": "581e7767820aaa8503e6b23682360a6dbcd0c0f8e5b50b53e3f282c64b5bc986",
+        "locked_source_sha256": "581e7767820aaa8503e6b23682360a6dbcd0c0f8e5b50b53e3f282c64b5bc986",
+        "matches_locked_source": true,
+        "current_aya4b_sha256": "581e7767820aaa8503e6b23682360a6dbcd0c0f8e5b50b53e3f282c64b5bc986"
+      }
+    },
+    "current_aya4b_critical_files_verified": true
+  },
+  "vllm_uuid_compat": {
+    "path": "scripts/sft_v1/vllm_compat.py",
+    "sha256": "579c7df59e1f758ad0fb2fa8f59ed14fa8a3201c6517b813e58a1f97c04952dd",
+    "scope": "NVML UUID mapping only, no CUDA selection or generation/scoring algorithm change"
+  }
+}

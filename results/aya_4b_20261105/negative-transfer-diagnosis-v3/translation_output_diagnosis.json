@@ -1,0 +1,112 @@
+{
+  "status": "COMPLETE",
+  "rows": [
+    {
+      "model": "base",
+      "direction": "en->sw",
+      "samples": 1012,
+      "cap_count": 345,
+      "repetitive_4gram_count": 357,
+      "both_cap_and_repetitive": 344,
+      "empty_count": 0,
+      "exact_source_copy_count": 1,
+      "median_prediction_reference_character_ratio": 1.227671451355662,
+      "mean_generated_tokens": 215.76284584980237,
+      "predictions_sha256": "69fb4a6bf869684dda91311fb11c503f9379e7f342dd6f6f590be414d3286e36"
+    },
+    {
+      "model": "base",
+      "direction": "sw->en",
+      "samples": 1012,
+      "cap_count": 0,
+      "repetitive_4gram_count": 0,
+      "both_cap_and_repetitive": 0,
+      "empty_count": 0,
+      "exact_source_copy_count": 0,
+      "median_prediction_reference_character_ratio": 0.9644957983193277,
+      "mean_generated_tokens": 28.35375494071146,
+      "predictions_sha256": "3df2d465ca884869ea786657e59a60b43e1589a6278101b06912660af38f8b3e"
+    },
+    {
+      "model": "fft",
+      "direction": "en->sw",
+      "samples": 1012,
+      "cap_count": 811,
+      "repetitive_4gram_count": 811,
+      "both_cap_and_repetitive": 811,
+      "empty_count": 0,
+      "exact_source_copy_count": 0,
+      "median_prediction_reference_character_ratio": 8.025650511777037,
+      "mean_generated_tokens": 419.37549407114625,
+      "predictions_sha256": "09c5cc07e0ae36c76ee5bd1b389e3b242c538cfe8fbc6589d7e2a504e75952f8"
+    },
+    {
+      "model": "fft",
+      "direction": "sw->en",
+      "samples": 1012,
+      "cap_count": 8,
+      "repetitive_4gram_count": 8,
+      "both_cap_and_repetitive": 8,
+      "empty_count": 0,
+      "exact_source_copy_count": 1,
+      "median_prediction_reference_character_ratio": 0.8605047126786257,
+      "mean_generated_tokens": 30.210474308300395,
+      "predictions_sha256": "1f7b954533415911212545b7d0a4fe0bb99063266d87d9f81eaed6ef66e4c715"
+    },
+    {
+      "model": "lora",
+      "direction": "en->sw",
+      "samples": 1012,
+      "cap_count": 769,
+      "repetitive_4gram_count": 769,
+      "both_cap_and_repetitive": 769,
+      "empty_count": 0,
+      "exact_source_copy_count": 2,
+      "median_prediction_reference_character_ratio": 7.867545648795649,
+      "mean_generated_tokens": 401.05830039525694,
+      "predictions_sha256": "9aa7e9964338a9d2103ef405ddf8ab9f2ca06fb57bd1ebc4aa15ef910649beb3"
+    },
+    {
+      "model": "lora",
+      "direction": "sw->en",
+      "samples": 1012,
+      "cap_count": 5,
+      "repetitive_4gram_count": 5,
+      "both_cap_and_repetitive": 5,
+      "empty_count": 0,
+      "exact_source_copy_count": 5,
+      "median_prediction_reference_character_ratio": 0.9187155963302753,
+      "mean_generated_tokens": 30.67687747035573,
+      "predictions_sha256": "cc6ba364c489edd47557722b37466f39584fa41ee31cdeab76a5ad899a2bd409"
+    },
+    {
+      "model": "ssu",
+      "direction": "en->sw",
+      "samples": 1012,
+      "cap_count": 668,
+      "repetitive_4gram_count": 669,
+      "both_cap_and_repetitive": 668,
+      "empty_count": 0,
+      "exact_source_copy_count": 2,
+      "median_prediction_reference_character_ratio": 7.009203151037721,
+      "mean_generated_tokens": 354.47332015810275,
+      "predictions_sha256": "ff204ab08db1adac274e45ac1f8b8d9f46d615197d21061a6c48f23dde7baa2b"
+    },
+    {
+      "model": "ssu",
+      "direction": "sw->en",
+      "samples": 1012,
+      "cap_count": 11,
+      "repetitive_4gram_count": 8,
+      "both_cap_and_repetitive": 8,
+      "empty_count": 0,
+      "exact_source_copy_count": 0,
+      "median_prediction_reference_character_ratio": 0.9180327868852459,
+      "mean_generated_tokens": 33.269762845849804,
+      "predictions_sha256": "ee9c17092f22821c73b4796eb6d9446932c7945ec3a9d22ec7becd1597c0ddae"
+    }
+  ],
+  "not_yet_available": [],
+  "repetition_definition": "At least24 Unicode-word tokens, max count of one4gram>=5, distinct4grams/total4grams<0.5. Heuristic only; original predictions and corpus scores unchanged.",
+  "causal_claim": "Repetition and cap coincide with poor translation; this alone does not identify whether decoding, training data or model changes cause it."
+}

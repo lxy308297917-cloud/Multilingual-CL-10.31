@@ -1,0 +1,26 @@
+{
+  "fft": {
+    "trainer_runtime_seconds": 10804.9386,
+    "process_wall_seconds": 10894.437564,
+    "samples_per_second": 0.592,
+    "optimizer_steps_per_second": 0.037,
+    "started_at": "2026-11-05T23:07:17.296728+08:00",
+    "ended_at": "2026-11-06T02:08:51.734292+08:00"
+  },
+  "lora": {
+    "trainer_runtime_seconds": 3099.9881,
+    "process_wall_seconds": 3107.790967,
+    "samples_per_second": 2.065,
+    "optimizer_steps_per_second": 0.129,
+    "started_at": "2026-11-05T22:59:27.043569+08:00",
+    "ended_at": "2026-11-05T23:51:14.834536+08:00"
+  },
+  "ssu": {
+    "trainer_runtime_seconds": 13055.7786,
+    "process_wall_seconds": 13199.464432,
+    "samples_per_second": 0.49,
+    "optimizer_steps_per_second": 0.031,
+    "started_at": "2026-11-05T23:09:32.607553+08:00",
+    "ended_at": "2026-11-06T02:49:32.071985+08:00"
+  }
+}

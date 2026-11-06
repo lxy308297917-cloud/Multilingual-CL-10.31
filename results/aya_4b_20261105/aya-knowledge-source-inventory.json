@@ -1,0 +1,7 @@
+{
+  "status": "SOURCE_METADATA_COUNTS_ONLY_NOT_TRAINING_SELECTION",
+  "source_sha256": "96147702c0faa8e4d5f4a0512fb570b7cb490a16f4d1c61b5177a90ed952a87b",
+  "total_sw_source_rows": 3580061,
+  "candidates": [],
+  "caution": "Aya train wrapper does not prove upstream original examples came only from original source train. Check provenance before using new sources; no benchmark-score filtering or full decontamination scan."
+}

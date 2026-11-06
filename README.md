@@ -1,3 +1,21 @@
+<!-- aya4b-current-start -->
+# Multilingual-CL：Qwen3-4B SW适配
+
+## 当前阶段交付 · 2026-11-06（仍在运行）
+
+原Base/FFT/LoRA/SSU训练均已核验；完整正式测评尚未测齐。当前已核验的64项分数、44个配对比较及待完成项见[阶段结果与交接](research/aya_4b_20261105/progress.md)。翻译数据重平衡LoRA候选仍训练中，未把候选或未完成结果写入正式模型列。
+
+- [本轮研究入口](research/aya_4b_20261105/README.md) · [复现代码与数据身份](research/aya_4b_20261105/reproduction.md)
+- [新增XNLI/XCOPA完整比较](research/aya_4b_20261105/supplemental_benchmarks.md) · [XNLI提示敏感性开发对照](research/aya_4b_20261105/xnli_format_diagnosis.md)
+- [翻译解码诊断](research/aya_4b_20261105/translation_decoding_diagnosis.md) · [修正候选的冻结计划](research/aya_4b_20261105/translation_repair_candidate_plan.md)
+
+有阅读/摘要收益、SSU小幅知识收益和部分通用任务退化；翻译仍存在严重问题，尚未声称修复。旧数学路线B及取消方法保持停止。下方“进行中”等表述属于历史快照，本轮当前状态以上述入口为准。
+<!-- aya4b-current-end -->
+
+---
+
+## 历史研究记录
+
 ## 进行中的统一语言顺序基线 · 2026-11-04
 
 ## 当前研究（2026-11-05）

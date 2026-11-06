@@ -1,0 +1,86 @@
+{
+  "status": "FROZEN_BEFORE_MODEL_SCORING",
+  "task_family": "Supplemental instruction-format multiple-choice likelihood ACC; not the original completion-style Harness XNLI prompt",
+  "models": [
+    "base",
+    "fft_final400",
+    "lora_final400",
+    "ssu_final400"
+  ],
+  "num_fewshot": 0,
+  "batch_size": 4,
+  "seed": 42,
+  "model_revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "primary_metric": "ACC",
+  "source_revisions": {
+    "facebook/xnli": "b8dd5d7af51114dbda02c0e3f6133f332186418e",
+    "cambridgeltl/xcopa": "042f78955ba48e6404616762fa6e05e839c3907a"
+  },
+  "source_file_sha256": {
+    "all_languages/test-00000-of-00001.parquet": "599e3a0191403f19cbe802afdf69841152000b41eaed725e4f463d432c0ffb49",
+    "all_languages/validation-00000-of-00001.parquet": "c5e6263b0872a3914c9bc165bfe3883e433aa2066c3fa3b9d142829a9b122518",
+    "xcopa/sw/test-00000-of-00001.parquet": "2a116f99cd89acad88cc0f1ff5f327759d1a4bad4f4edd4ac126b94c68018e3c",
+    "xcopa/sw/validation-00000-of-00001.parquet": "9820318a8a4bd34b23e59c685afdbbaeada8ead21ebefef99e0936967174b2d7"
+  },
+  "tasks": [
+    {
+      "task": "xnli_sw",
+      "options": 3,
+      "splits": {
+        "test": {
+          "file": "xnli_sw_test.jsonl",
+          "sha256": "83771673e091464a0634b8aed4d911f9fc39a0ad19549a6b12fcd6c677cba99f",
+          "rows": 5010
+        },
+        "validation": {
+          "file": "xnli_sw_validation.jsonl",
+          "sha256": "4defd12c3fd91ea9cc13ce600c3bbf15c9e44bd27df87a8557c9a2542af6f3b4",
+          "rows": 2490
+        }
+      },
+      "task_yaml_sha256": "9786813fcc77746ac516495a33e952b259b123663b738c8e829018c0e8c328a3"
+    },
+    {
+      "task": "xnli_en",
+      "options": 3,
+      "splits": {
+        "test": {
+          "file": "xnli_en_test.jsonl",
+          "sha256": "e17696a4d77f2719d688e6baee9514218ad484d73e1f7c7d7ef613100b82a929",
+          "rows": 5010
+        },
+        "validation": {
+          "file": "xnli_en_validation.jsonl",
+          "sha256": "5af4e6e76eebab3523f59b943fd93fb732043c2e41eb9dad4c414fdaf8b0ce98",
+          "rows": 2490
+        }
+      },
+      "task_yaml_sha256": "90a1d23c65fd775d68f3e8bce80e71bb97650df756d846cd7f1bef1c752bc30b"
+    },
+    {
+      "task": "xcopa_sw",
+      "options": 2,
+      "splits": {
+        "test": {
+          "file": "xcopa_sw_test.jsonl",
+          "sha256": "302a71aa910688d0a5566b062c411d7d6e5439bd254d2017bc99b3bc9667fd85",
+          "rows": 500
+        },
+        "validation": {
+          "file": "xcopa_sw_validation.jsonl",
+          "sha256": "7d94b57e6e74548d9601b03567287955adba0e26c4820179c8870cca2a6ec1fb",
+          "rows": 100
+        }
+      },
+      "task_yaml_sha256": "b83b67c87f3056a457bdd69480926605ffeb919ad6d4fe97f5d7cd2aba6d6369"
+    }
+  ],
+  "notes": [
+    "English relation labels and instructions held constant across EN/SW; source sentences retain native benchmark language. XCOPA cause/effect instruction uses the same English wording across future languages.",
+    "Development validation split only for two-example engineering smoke and any later recipe development; official test never chooses labels/prompts/checkpoint.",
+    "English causal reference omitted: no XCOPA-en exists; do not fabricate parallel English results.",
+    "All three tasks and all four models will be reported even if scores decline; no selection on test gains.",
+    "One training seed; source XNLI historically available to prior research, exposure recorded.",
+    "Use original labels0=entailment,1=neutral,2=contradiction; XCOPA0/1. Models score A/B/C letter likelihoods, not generated answer parsing."
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "status": "FROZEN_BEFORE_NEW_DIAGNOSTIC_GENERATION",
+  "purpose": "Development-only comparison of repetition and translation under two predefined decoding recipes; not formal results or test-based tuning",
+  "models": [
+    "base",
+    "lora_final400"
+  ],
+  "directions": [
+    "en->sw",
+    "sw->en"
+  ],
+  "samples_each_direction": 64,
+  "dev_indices": [
+    16,
+    580,
+    890,
+    307,
+    387,
+    32,
+    345,
+    969,
+    868,
+    367,
+    25,
+    876,
+    8,
+    148,
+    347,
+    343,
+    539,
+    161,
+    137,
+    657,
+    1,
+    572,
+    911,
+    653,
+    289,
+    420,
+    947,
+    110,
+    524,
+    955,
+    458,
+    946,
+    544,
+    241,
+    930,
+    354,
+    919,
+    474,
+    586,
+    862,
+    957,
+    865,
+    57,
+    945,
+    447,
+    492,
+    593,
+    399,
+    243,
+    566,
+    123,
+    935,
+    201,
+    641,
+    795,
+    76,
+    92,
+    643,
+    616,
+    644,
+    532,
+    319,
+    777,
+    601
+  ],
+  "fewshot_indices_excluded": [
+    409,
+    521,
+    656
+  ],
+  "seed": 42,
+  "max_new_tokens": 512,
+  "enable_thinking": false,
+  "profiles": {
+    "greedy": {
+      "temperature": 0,
+      "top_p": 1,
+      "top_k": -1,
+      "min_p": 0
+    },
+    "official_non_thinking": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "top_k": 20,
+      "min_p": 0
+    }
+  },
+  "stop_token_ids": [
+    151645,
+    151643
+  ],
+  "data_sha256": "c5a01f7246fd6af714031c42a157b1dd71a5af7882241ba6862755cd17df6545",
+  "dev_source_sha256": {
+    "eng_Latn": "51a25f527fd81f428b6933d85a2f5e5544af92aa82042c7fbf0c4120327fba0a",
+    "swh_Latn": "59c8ee7cb9a702f32ff3f3e6974f4465db63df0d7172fe0d53c8bd2405daa547"
+  },
+  "notes": [
+    "FLORES dev is historically exposed as a corpus; these64 indices exclude all3 fixed in-context demonstrations, are selected by deterministic hash before observing comparison outputs, and are not a new untouched confirmatory set.",
+    "No formal devtest scores used to choose between sampling values.",
+    "One fixed inference seed; stochastic scores do not establish multi-seed robustness.",
+    "Both Base/no-adapter and LoRA share one enable_lora engine; numerical execution differs from separate official runners, so no mixing into canonical table."
+  ],
+  "official_source": "https://huggingface.co/Qwen/Qwen3-4B#best-practices",
+  "frozen_at": "2026-11-06T03:09:53.367974+08:00"
+}

@@ -1,0 +1,225 @@
+{
+  "identity_semantics": "Local snapshots at packaging, adapted only for deployment paths in the public copy; these are not all historical execution versions. Actual generation manifests separately retain runtime source SHA256. Numerical scoring and input hashes permit result recomputation.",
+  "scope": "Scientific source/configuration and answer-free evidence only",
+  "mapping": [
+    {
+      "path": "scripts/aya_4b_20261105/train.py",
+      "original_sha256": "b2764ae6938e8739f0407e2027d84c2b63f67bd2384488728872b3f94eeacd36",
+      "public_sha256": "0cde531e572f05d2814bd97c0ea7ba95f30c8a9b1c194a9558615981111fa0b9",
+      "adaptation": "Deployment path constants resolve from explicit environment keys; numerical scientific settings unchanged."
+    },
+    {
+      "path": "scripts/aya_4b_20261105/train_cpu.py",
+      "original_sha256": "4c86f34428c3612dac1421792f27bdd190a52e5f27755642fd99bc7e274524aa",
+      "public_sha256": "7508f865d4c768b1e6eb63572474233b093c0186b7df2dd675dcc1de6afaaf86",
+      "adaptation": "Deployment path constants resolve from explicit environment keys; numerical scientific settings unchanged."
+    },
+    {
+      "path": "scripts/aya_4b_20261105/generate_v2.py",
+      "original_sha256": "eae4b80141b31273fbd613242bbd05c3cefe6e7fd1999095ea7172acd8390cdd",
+      "public_sha256": "b0986845e09b3b989e3cae742570f3c503ef0dab2886a869e3a5052f903bb5fc",
+      "adaptation": "Deployment path constants resolve from explicit environment keys; numerical scientific settings unchanged."
+    },
+    {
+      "path": "scripts/aya_4b_20261105/generate_v2_gpu_guard.py",
+      "original_sha256": "ed8be20d5d111aac13d8ac36a667c87c335ea80f1b1a22f08b855d5d8b2a6a7c",
+      "public_sha256": "071dea622915de4dc84ec7359ee4146fc37adbb21a1919ac6b111356aaa4bb80",
+      "adaptation": "Deployment path constants resolve from explicit environment keys; numerical scientific settings unchanged."
+    },
+    {
+      "path": "scripts/aya_4b_20261105/rebuild_selected_data.py",
+      "original_sha256": "51a9f824f568bbe0aed32e886502733b270686a6a3c783e846de22e57d78f8e2",
+      "public_sha256": "50930a5e6e7eab628283863cd42ba0ca10d614ab531ae56654610d8e68f7101c",
+      "adaptation": "Deployment path constants resolve from explicit environment keys; numerical scientific settings unchanged."
+    },
+    {
+      "path": "scripts/aya_4b_20261105/analyze.py",
+      "original_sha256": "baf4a493aeb54c3cebfb864154962de8507eb5c727c44acd4f67f01a62e5e12d",
+      "public_sha256": "50e12de3f938f03a4c9dd125814e06d673a7186b5a810f38ea2c0eea7ad7868d",
+      "adaptation": "Deployment path constants resolve from explicit environment keys; numerical scientific settings unchanged."
+    },
+    {
+      "path": "scripts/aya_4b_20261105/audit_ssu_delta.py",
+      "original_sha256": "6ee82097f924a81498fcb781e34b2dca8105ad2ac398c23449aaa16971af9b4d",
+      "public_sha256": "808ed8f18f3c23b33551d7b2710b11132b990cdf08f39e07820094fe33c7bdb7",
+      "adaptation": "Deployment path constants resolve from explicit environment keys; numerical scientific settings unchanged."
+    },
+    {
+      "path": "scripts/aya_4b_20261105/audit_training.py",
+      "original_sha256": "e50541d3c62ff24b554d035f685a1785a1b76785efb9c63f42d1c79b7295d7d2",
+      "public_sha256": "4330a170b86dca27736bab77a2e749be358f80ef36c8ef981d69ba1b3a8a6699",
+      "adaptation": "Deployment path constants resolve from explicit environment keys; numerical scientific settings unchanged."
+    },
+    {
+      "path": "scripts/aya_4b_20261105/audit_protocol_identity.py",
+      "original_sha256": "e86d9bf35a064433166282916b6e8d0f2e58c63acdf8ac7e2348cd1a2bfdc76d",
+      "public_sha256": "c53e54530a14f0359970684dfaae99044f549871ea25345d0ec62e57147d5525",
+      "adaptation": "Deployment path constants resolve from explicit environment keys; numerical scientific settings unchanged."
+    },
+    {
+      "path": "scripts/aya_4b_20261105/export_training_traces.py",
+      "original_sha256": "f19f6e61469583a7baf71240bca2aab4046c4eaf4d37f669a4ccc8a896eee251",
+      "public_sha256": "def86ac87c12915809232ecfd8382847502f088d5fe6151a9517954e1a00e4a3",
+      "adaptation": "Deployment path constants resolve from explicit environment keys; numerical scientific settings unchanged."
+    },
+    {
+      "path": "scripts/aya_4b_20261105/verify_public_results.py",
+      "original_sha256": "68089f463105a4e2bdce063f2ca9648155389be12070e3f0a032595f76ad5dd0",
+      "public_sha256": "6bd73fc236ec4d7dd2043c91b6f143956865c29a88faea7564427728fe4f912b",
+      "adaptation": "Deployment path constants resolve from explicit environment keys; numerical scientific settings unchanged."
+    },
+    {
+      "path": "scripts/aya_4b_20261105/collect_costs.py",
+      "original_sha256": "5ae7c4c90733afa4b374506065157af21c1370c6e2437374806e677b400240df",
+      "public_sha256": "2ba0f10fce8b002d3e9d2ac34e1ce49ed1a3e6eb1eb1f88d47ce665a5e100fb1",
+      "adaptation": "Deployment path constants resolve from explicit environment keys; numerical scientific settings unchanged."
+    },
+    {
+      "path": "scripts/aya_4b_20261105/build_report.py",
+      "original_sha256": "0cc9a185a1322cd991e771fad566cf0b1f2b6c90428e1e141e088a4c64976512",
+      "public_sha256": "5420782f05c0b9934d341b970f31866ae107997fa7d50c25aa821679c2772cd4",
+      "adaptation": "Deployment path constants resolve from explicit environment keys; numerical scientific settings unchanged."
+    },
+    {
+      "path": "scripts/aya_4b_20261105/diagnose_negative_transfer.py",
+      "original_sha256": "1f73e61a40e7d1ceab03546fe0aaa5d8b8c59798af51255b10241ab58c1bf37d",
+      "public_sha256": "e2d165b5087661f027308d95f56fb027b0cb446b9f0fccf7a0cd05cba34b49e7",
+      "adaptation": "Deployment path constants resolve from explicit environment keys; numerical scientific settings unchanged."
+    },
+    {
+      "path": "scripts/aya_4b_20261105/prepare_translation_dev.py",
+      "original_sha256": "a638f8bdb0db0e2bf5d219b56af29be0165213e373fefdfd79da4b8be16633c8",
+      "public_sha256": "58065a83aae7fbf785b828842892044bef5246f31d55cddb1c01278049caf495",
+      "adaptation": "Deployment path constants resolve from explicit environment keys; numerical scientific settings unchanged."
+    },
+    {
+      "path": "scripts/aya_4b_20261105/run_translation_dev.py",
+      "original_sha256": "a31523c1dfc3fded3b98899965c44ecebd4e81af61b8244245da6003c72c3dd2",
+      "public_sha256": "802960e1d648a3803dccd29b4e401844ed75ebdab3a9f3467d387ec734e2a3d9",
+      "adaptation": "Deployment path constants resolve from explicit environment keys; numerical scientific settings unchanged."
+    },
+    {
+      "path": "scripts/aya_4b_20261105/analyze_translation_dev.py",
+      "original_sha256": "34e41ea29cda7060b48b0221100c22750aeb749ac8eba949c1dc3f109126dad5",
+      "public_sha256": "8693bc327ca5b948df8564bf19a74914f4ff6b90691acc05e4a510686f338d5c",
+      "adaptation": "Deployment path constants resolve from explicit environment keys; numerical scientific settings unchanged."
+    },
+    {
+      "path": "scripts/aya_4b_20261105/prepare_supplemental.py",
+      "original_sha256": "85ccb7581c3478de921d573d99a6d052cb5d4c94373b92c5ea752f1e1b44ce9c",
+      "public_sha256": "165d8cec3094e07e833b309a650bc91ab66aef07f954c48769bdc34e44f8f9ac",
+      "adaptation": "Deployment path constants resolve from explicit environment keys; numerical scientific settings unchanged."
+    },
+    {
+      "path": "scripts/aya_4b_20261105/analyze_supplemental.py",
+      "original_sha256": "3cabd0a735bb5f90f840620aae5c5ce00faf1d56cb70195b0fd2a508bad5112e",
+      "public_sha256": "75a6c292ef7c010eab1b166e2e9730c4399e298b0bd1ef6e205de9008b9127c0",
+      "adaptation": "Deployment path constants resolve from explicit environment keys; numerical scientific settings unchanged."
+    },
+    {
+      "path": "scripts/aya_4b_20261105/prepare_xnli_format_control.py",
+      "original_sha256": "f0d979ac6758c7452511eab934f492093b0efb74dfc6130716c9c9b03dd6e07b",
+      "public_sha256": "82c47b085a71bc5d78104149b71b683b5b651e227cd321cb902880edbe76aba8",
+      "adaptation": "Deployment path constants resolve from explicit environment keys; numerical scientific settings unchanged."
+    },
+    {
+      "path": "scripts/aya_4b_20261105/analyze_xnli_format_control.py",
+      "original_sha256": "5b41cd4e67cf2fb84170523e0e56618fe2d9f8763e881f11d1ed2a00b204efd5",
+      "public_sha256": "9f4d310616567992c1d3b828d0f9cf9954d9806683a2a189b4e8d9d269f6f4a2",
+      "adaptation": "Deployment path constants resolve from explicit environment keys; numerical scientific settings unchanged."
+    },
+    {
+      "path": "scripts/aya_4b_20261105/prepare_translation_rebalanced.py",
+      "original_sha256": "6bf438c406a688eb22019eccf2821ffe77eb4e7b35062e287a8d2fc19b0b5168",
+      "public_sha256": "20a9b8cc60238c22c16626c2aba0c7b10cfef71edff58264246aa5dbd532683a",
+      "adaptation": "Deployment path constants resolve from explicit environment keys; numerical scientific settings unchanged."
+    },
+    {
+      "path": "scripts/aya_4b_20261105/train_revised.py",
+      "original_sha256": "ca31a3fbaf9d76ab6a40e2bca954f3b7b98d943f90d85a4fbb4b9c1d31941924",
+      "public_sha256": "4ce6b47fd20b8c352758f3dbf37321e582c6bc7600052c46044c5c3885f8babd",
+      "adaptation": "Deployment path constants resolve from explicit environment keys; numerical scientific settings unchanged."
+    },
+    {
+      "path": "scripts/aya_4b_20261105/audit_revised_training.py",
+      "original_sha256": "64fe73445d927a499ed48f142a865eb0bfc4d93b6660b1d946640fe67f4d1a6a",
+      "public_sha256": "622dd60a0b19109f98732370024039e25c3427121604c0eec9ddb3e4c2acb76e",
+      "adaptation": "Deployment path constants resolve from explicit environment keys; numerical scientific settings unchanged."
+    },
+    {
+      "path": "scripts/aya_4b_20261105/run_translation_candidate_dev.py",
+      "original_sha256": "439faef7638fc6b883c5c8e4e6e09b712dfd0fb0e2a61a13c8757b1d49a4dfbe",
+      "public_sha256": "dba437b975df8a112dcdea10df89c4d7940e9677a186fd165d7c76a5bde9782f",
+      "adaptation": "Deployment path constants resolve from explicit environment keys; numerical scientific settings unchanged."
+    },
+    {
+      "path": "configs/aya_4b_20261105/fft_v2.yaml",
+      "original_sha256": "17bc8d2d814f84b0a6bfa93e5f995b722d2c4c88c03637060a1e1e338c6bf1ed",
+      "public_sha256": "900286b4a43e6107c788ba79cac59bbe36c866ae765532eb16bc44c729bf9e0a",
+      "adaptation": "Only deployment prefixes replaced by explicit ${KEY} profile variables; all source pins, hyperparameters and hashes retained."
+    },
+    {
+      "path": "configs/aya_4b_20261105/lora.yaml",
+      "original_sha256": "9d0ac862d9b21d0ff8c199c63eca04ada77707733baaaaef820b187ce518fefc",
+      "public_sha256": "b8edad4243aba320d751cd5bf2c2b8a2d93db953a753d5249c2cd1765a5c24a1",
+      "adaptation": "Only deployment prefixes replaced by explicit ${KEY} profile variables; all source pins, hyperparameters and hashes retained."
+    },
+    {
+      "path": "configs/aya_4b_20261105/ssu_v2.yaml",
+      "original_sha256": "786e2d8a0649963127b067fa5a862d1955075b979b2d97736b8f06c50acfd4cc",
+      "public_sha256": "9e3d646e7d8615e5cf7c61293c71bbc8b73b574aeb5b469996480caa34d49101",
+      "adaptation": "Only deployment prefixes replaced by explicit ${KEY} profile variables; all source pins, hyperparameters and hashes retained."
+    },
+    {
+      "path": "configs/aya_4b_20261105/deepspeed_z2_cpu_offload.json",
+      "original_sha256": "a5475c4c1977feaeb259de3b1cf4449e70b7440bd9b05efb82be3376fa452e76",
+      "public_sha256": "a5475c4c1977feaeb259de3b1cf4449e70b7440bd9b05efb82be3376fa452e76",
+      "adaptation": "Only deployment prefixes replaced by explicit ${KEY} profile variables; all source pins, hyperparameters and hashes retained."
+    },
+    {
+      "path": "configs/aya_4b_20261105/model.lock.json",
+      "original_sha256": "cb173fd1a7f00bcad0e3707f8bce9ecaad0592e133e0c031d967b1dd05368563",
+      "public_sha256": "82f1f0d96a66178dc6834a791bc8657a3ae9e33b25b3890641f0ffb41eb90754",
+      "adaptation": "Only deployment prefixes replaced by explicit ${KEY} profile variables; all source pins, hyperparameters and hashes retained."
+    },
+    {
+      "path": "configs/aya_4b_20261105/data.lock.json",
+      "original_sha256": "c52a1e7016a2460b51b08ca2133f53cab118674595a0fb3739d96c4d4357021c",
+      "public_sha256": "ab135d53b32524b8ae328fa391d0fae83a514ae2275df56eef400551d53ea7e6",
+      "adaptation": "Only deployment prefixes replaced by explicit ${KEY} profile variables; all source pins, hyperparameters and hashes retained."
+    },
+    {
+      "path": "configs/aya_4b_20261105/evaluation.lock.json",
+      "original_sha256": "d8aeca861dfd49b3e7667ce53cb7176059c523f2ea699fa2d084e9c7a40248b5",
+      "public_sha256": "1f9f0cf00f374aea4f9ea484ef82841a3d3cf55ab0819fde76d37521ef9abe79",
+      "adaptation": "Only deployment prefixes replaced by explicit ${KEY} profile variables; all source pins, hyperparameters and hashes retained."
+    },
+    {
+      "path": "configs/aya_4b_20261105/generation_execution_v2.json",
+      "original_sha256": "dc36f85ef5d2144cd77a7b3454347329d86add704e8a8f35d0ec76cf052bd25d",
+      "public_sha256": "dc36f85ef5d2144cd77a7b3454347329d86add704e8a8f35d0ec76cf052bd25d",
+      "adaptation": "Only deployment prefixes replaced by explicit ${KEY} profile variables; all source pins, hyperparameters and hashes retained."
+    },
+    {
+      "path": "configs/aya_4b_20261105/lora_mt_data_v2_smoke.yaml",
+      "original_sha256": "91ead39c9c88dd82c0354c5e569826af6fb3e0a11f640d0e4ad580f0a9a0a82c",
+      "public_sha256": "60e6e9a382a929045085fa778b7f2c597940aee84037fc2d72398553f340588f",
+      "adaptation": "Only deployment prefixes replaced by explicit ${KEY} profile variables; all source pins, hyperparameters and hashes retained."
+    },
+    {
+      "path": "configs/aya_4b_20261105/lora_mt_data_v2_final.yaml",
+      "original_sha256": "436356205210fb3047a988d4de51020ed62f527506ced9ad082fdf20d92b7e02",
+      "public_sha256": "3737a49b59a817bfff5b5ca555b5740c3215a389bad6a062870243240f5f5ceb",
+      "adaptation": "Only deployment prefixes replaced by explicit ${KEY} profile variables; all source pins, hyperparameters and hashes retained."
+    },
+    {
+      "path": "configs/aya_4b_20261105/data_mt_v2.lock.json",
+      "original_sha256": "bb4c77baf266fdb5440787f74f33ef08d54b74424ffd0948f0af87f7e098c90c",
+      "public_sha256": "bb4c77baf266fdb5440787f74f33ef08d54b74424ffd0948f0af87f7e098c90c",
+      "adaptation": "Only deployment prefixes replaced by explicit ${KEY} profile variables; all source pins, hyperparameters and hashes retained."
+    }
+  ],
+  "deployment_paths_adapted": true,
+  "raw_training_or_benchmark_text_published": false,
+  "no_weights_or_operational_controllers": true
+}

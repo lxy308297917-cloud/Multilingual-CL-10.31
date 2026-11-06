@@ -1,0 +1,373 @@
+[
+  {
+    "model": "base",
+    "task": "xnli_sw",
+    "predicted_label_counts": {
+      "0": 4933,
+      "1": 77
+    },
+    "gold_label_counts": {
+      "2": 1670,
+      "0": 1670,
+      "1": 1670
+    },
+    "confusion_matrix_rows_gold_columns_predicted": [
+      [
+        1649,
+        21,
+        0
+      ],
+      [
+        1656,
+        14,
+        0
+      ],
+      [
+        1628,
+        42,
+        0
+      ]
+    ],
+    "majority_gold_baseline_ACC": 33.333333333333336,
+    "largest_prediction_class_fraction": 0.9846307385229541,
+    "use": "Choice preference and task-format diagnosis only; not a replacement for main ACC"
+  },
+  {
+    "model": "base",
+    "task": "xnli_en",
+    "predicted_label_counts": {
+      "2": 314,
+      "0": 3727,
+      "1": 969
+    },
+    "gold_label_counts": {
+      "2": 1670,
+      "0": 1670,
+      "1": 1670
+    },
+    "confusion_matrix_rows_gold_columns_predicted": [
+      [
+        1656,
+        12,
+        2
+      ],
+      [
+        1163,
+        503,
+        4
+      ],
+      [
+        908,
+        454,
+        308
+      ]
+    ],
+    "majority_gold_baseline_ACC": 33.333333333333336,
+    "largest_prediction_class_fraction": 0.7439121756487026,
+    "use": "Choice preference and task-format diagnosis only; not a replacement for main ACC"
+  },
+  {
+    "model": "base",
+    "task": "xcopa_sw",
+    "predicted_label_counts": {
+      "0": 482,
+      "1": 18
+    },
+    "gold_label_counts": {
+      "0": 250,
+      "1": 250
+    },
+    "confusion_matrix_rows_gold_columns_predicted": [
+      [
+        239,
+        11
+      ],
+      [
+        243,
+        7
+      ]
+    ],
+    "majority_gold_baseline_ACC": 50.0,
+    "largest_prediction_class_fraction": 0.964,
+    "use": "Choice preference and task-format diagnosis only; not a replacement for main ACC"
+  },
+  {
+    "model": "lora",
+    "task": "xnli_sw",
+    "predicted_label_counts": {
+      "0": 3961,
+      "1": 1005,
+      "2": 44
+    },
+    "gold_label_counts": {
+      "2": 1670,
+      "0": 1670,
+      "1": 1670
+    },
+    "confusion_matrix_rows_gold_columns_predicted": [
+      [
+        1426,
+        235,
+        9
+      ],
+      [
+        1251,
+        405,
+        14
+      ],
+      [
+        1284,
+        365,
+        21
+      ]
+    ],
+    "majority_gold_baseline_ACC": 33.333333333333336,
+    "largest_prediction_class_fraction": 0.7906187624750499,
+    "use": "Choice preference and task-format diagnosis only; not a replacement for main ACC"
+  },
+  {
+    "model": "lora",
+    "task": "xnli_en",
+    "predicted_label_counts": {
+      "2": 707,
+      "0": 1444,
+      "1": 2859
+    },
+    "gold_label_counts": {
+      "2": 1670,
+      "0": 1670,
+      "1": 1670
+    },
+    "confusion_matrix_rows_gold_columns_predicted": [
+      [
+        1279,
+        386,
+        5
+      ],
+      [
+        149,
+        1512,
+        9
+      ],
+      [
+        16,
+        961,
+        693
+      ]
+    ],
+    "majority_gold_baseline_ACC": 33.333333333333336,
+    "largest_prediction_class_fraction": 0.5706586826347305,
+    "use": "Choice preference and task-format diagnosis only; not a replacement for main ACC"
+  },
+  {
+    "model": "lora",
+    "task": "xcopa_sw",
+    "predicted_label_counts": {
+      "0": 470,
+      "1": 30
+    },
+    "gold_label_counts": {
+      "0": 250,
+      "1": 250
+    },
+    "confusion_matrix_rows_gold_columns_predicted": [
+      [
+        240,
+        10
+      ],
+      [
+        230,
+        20
+      ]
+    ],
+    "majority_gold_baseline_ACC": 50.0,
+    "largest_prediction_class_fraction": 0.94,
+    "use": "Choice preference and task-format diagnosis only; not a replacement for main ACC"
+  },
+  {
+    "model": "fft",
+    "task": "xnli_sw",
+    "predicted_label_counts": {
+      "0": 1998,
+      "1": 2482,
+      "2": 530
+    },
+    "gold_label_counts": {
+      "2": 1670,
+      "0": 1670,
+      "1": 1670
+    },
+    "confusion_matrix_rows_gold_columns_predicted": [
+      [
+        1015,
+        577,
+        78
+      ],
+      [
+        546,
+        1056,
+        68
+      ],
+      [
+        437,
+        849,
+        384
+      ]
+    ],
+    "majority_gold_baseline_ACC": 33.333333333333336,
+    "largest_prediction_class_fraction": 0.49540918163672654,
+    "use": "Choice preference and task-format diagnosis only; not a replacement for main ACC"
+  },
+  {
+    "model": "fft",
+    "task": "xnli_en",
+    "predicted_label_counts": {
+      "2": 1506,
+      "0": 1998,
+      "1": 1506
+    },
+    "gold_label_counts": {
+      "2": 1670,
+      "0": 1670,
+      "1": 1670
+    },
+    "confusion_matrix_rows_gold_columns_predicted": [
+      [
+        1572,
+        80,
+        18
+      ],
+      [
+        385,
+        1202,
+        83
+      ],
+      [
+        41,
+        224,
+        1405
+      ]
+    ],
+    "majority_gold_baseline_ACC": 33.333333333333336,
+    "largest_prediction_class_fraction": 0.39880239520958083,
+    "use": "Choice preference and task-format diagnosis only; not a replacement for main ACC"
+  },
+  {
+    "model": "fft",
+    "task": "xcopa_sw",
+    "predicted_label_counts": {
+      "1": 108,
+      "0": 392
+    },
+    "gold_label_counts": {
+      "0": 250,
+      "1": 250
+    },
+    "confusion_matrix_rows_gold_columns_predicted": [
+      [
+        194,
+        56
+      ],
+      [
+        198,
+        52
+      ]
+    ],
+    "majority_gold_baseline_ACC": 50.0,
+    "largest_prediction_class_fraction": 0.784,
+    "use": "Choice preference and task-format diagnosis only; not a replacement for main ACC"
+  },
+  {
+    "model": "ssu",
+    "task": "xnli_sw",
+    "predicted_label_counts": {
+      "0": 2045,
+      "1": 2929,
+      "2": 36
+    },
+    "gold_label_counts": {
+      "2": 1670,
+      "0": 1670,
+      "1": 1670
+    },
+    "confusion_matrix_rows_gold_columns_predicted": [
+      [
+        1001,
+        666,
+        3
+      ],
+      [
+        534,
+        1136,
+        0
+      ],
+      [
+        510,
+        1127,
+        33
+      ]
+    ],
+    "majority_gold_baseline_ACC": 33.333333333333336,
+    "largest_prediction_class_fraction": 0.5846307385229541,
+    "use": "Choice preference and task-format diagnosis only; not a replacement for main ACC"
+  },
+  {
+    "model": "ssu",
+    "task": "xnli_en",
+    "predicted_label_counts": {
+      "2": 1112,
+      "0": 1740,
+      "1": 2158
+    },
+    "gold_label_counts": {
+      "2": 1670,
+      "0": 1670,
+      "1": 1670
+    },
+    "confusion_matrix_rows_gold_columns_predicted": [
+      [
+        1455,
+        209,
+        6
+      ],
+      [
+        261,
+        1382,
+        27
+      ],
+      [
+        24,
+        567,
+        1079
+      ]
+    ],
+    "majority_gold_baseline_ACC": 33.333333333333336,
+    "largest_prediction_class_fraction": 0.4307385229540918,
+    "use": "Choice preference and task-format diagnosis only; not a replacement for main ACC"
+  },
+  {
+    "model": "ssu",
+    "task": "xcopa_sw",
+    "predicted_label_counts": {
+      "1": 338,
+      "0": 162
+    },
+    "gold_label_counts": {
+      "0": 250,
+      "1": 250
+    },
+    "confusion_matrix_rows_gold_columns_predicted": [
+      [
+        88,
+        162
+      ],
+      [
+        74,
+        176
+      ]
+    ],
+    "majority_gold_baseline_ACC": 50.0,
+    "largest_prediction_class_fraction": 0.676,
+    "use": "Choice preference and task-format diagnosis only; not a replacement for main ACC"
+  }
+]

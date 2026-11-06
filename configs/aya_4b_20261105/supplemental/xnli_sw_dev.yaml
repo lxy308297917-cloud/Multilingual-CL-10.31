@@ -1,0 +1,22 @@
+task: aya4b_xnli_sw_dev
+dataset_path: json
+dataset_kwargs:
+  data_files:
+    test: ${DATA}/supplemental-v1/xnli_sw_test.jsonl
+    validation: ${DATA}/supplemental-v1/xnli_sw_validation.jsonl
+output_type: multiple_choice
+test_split: validation
+validation_split: validation
+doc_to_text: '{{prompt}}'
+doc_to_choice:
+- A
+- B
+- C
+doc_to_target: label
+num_fewshot: 0
+metric_list:
+- metric: acc
+  aggregation: mean
+  higher_is_better: true
+metadata:
+  version: '1.0'

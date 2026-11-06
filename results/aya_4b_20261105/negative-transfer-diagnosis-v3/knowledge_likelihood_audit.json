@@ -1,0 +1,31 @@
+{
+  "status": "COMPLETE",
+  "models_checked": [
+    {
+      "model": "base",
+      "subjects": 57,
+      "questions": 14042,
+      "four_likelihood_argmax_and_gold_mapping_match_all_saved_ACC": true
+    },
+    {
+      "model": "fft",
+      "subjects": 57,
+      "questions": 14042,
+      "four_likelihood_argmax_and_gold_mapping_match_all_saved_ACC": true
+    },
+    {
+      "model": "lora",
+      "subjects": 57,
+      "questions": 14042,
+      "four_likelihood_argmax_and_gold_mapping_match_all_saved_ACC": true
+    },
+    {
+      "model": "ssu",
+      "subjects": 57,
+      "questions": 14042,
+      "four_likelihood_argmax_and_gold_mapping_match_all_saved_ACC": true
+    }
+  ],
+  "scoring": "Four-option likelihood ACC; generation letter parsing is not involved. All actual questions, options, gold labels and sample identities compared locally; raw content excluded here.",
+  "models_not_yet_available": []
+}

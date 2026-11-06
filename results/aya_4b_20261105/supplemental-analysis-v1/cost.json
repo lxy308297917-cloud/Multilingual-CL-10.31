@@ -1,0 +1,22 @@
+{
+  "formal_evaluations": [
+    {
+      "model": "base",
+      "total_evaluation_time_seconds": "226.78942173533142"
+    },
+    {
+      "model": "lora",
+      "total_evaluation_time_seconds": "298.1770476754755"
+    },
+    {
+      "model": "fft",
+      "total_evaluation_time_seconds": "237.93628820963204"
+    },
+    {
+      "model": "ssu",
+      "total_evaluation_time_seconds": "237.68102660402656"
+    }
+  ],
+  "engineering_smoke_is_validation_only": true,
+  "scope": "Supplemental tasks, not included in original32evaluationphase costs"
+}

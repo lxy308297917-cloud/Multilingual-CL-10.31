@@ -1,0 +1,26 @@
+{
+  "execution_profile": "aya4b-cuda-memory-v2",
+  "reason": "LoRA XL-Sum SW V1 OOM at8192-token prefill, request304MiB with228MiB free; no foreign process involved in recorded preflight",
+  "task_inputs_prompts_generation_lengths_and_scorers_unchanged": true,
+  "canonical_root_suffix": "generation-v2",
+  "v1_results_preserved_and_not_mixed": true,
+  "all_four_models_use_uniform_profile": true,
+  "mt_summary": {
+    "backend": "vLLM V1",
+    "external_batch_size": 8,
+    "max_num_seqs": 8,
+    "max_num_batched_tokens": 4096,
+    "gpu_memory_utilization": 0.65
+  },
+  "gsm8k_ifeval": {
+    "backend": "vLLM V0",
+    "batch_size": "auto",
+    "max_num_seqs": 8,
+    "max_num_batched_tokens": 8192,
+    "gpu_memory_utilization": 0.65,
+    "enforce_eager": true
+  },
+  "old_generator_sha256": "1d2917ad5086261ca6324e7eb0142aea71ca25ace29d6e185fa50aa62bbc7a79",
+  "new_generator_sha256": "eae4b80141b31273fbd613242bbd05c3cefe6e7fd1999095ea7172acd8390cdd",
+  "selection_basis": "Observed memory allocation failure only; no benchmark accuracy or task gain used to choose execution parameters"
+}

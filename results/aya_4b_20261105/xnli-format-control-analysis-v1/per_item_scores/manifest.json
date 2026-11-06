@@ -1,0 +1,58 @@
+[
+  {
+    "model": "base",
+    "language": "sw",
+    "shots": 0,
+    "file": "base_sw_0shot.csv.gz",
+    "sha256": "f300bbf7d7cdab4a80d5911a828b53ceea0aca69f66aaa45aca1ba4916668869"
+  },
+  {
+    "model": "base",
+    "language": "sw",
+    "shots": 3,
+    "file": "base_sw_3shot.csv.gz",
+    "sha256": "0bae6924b9139e038fdb51e2014fabe461561e50cd70d0f151353ffa08f17a27"
+  },
+  {
+    "model": "base",
+    "language": "en",
+    "shots": 0,
+    "file": "base_en_0shot.csv.gz",
+    "sha256": "8351a269ca47507aab8163ddf7803aabb43371d80d58951eee5793b41a1e3f45"
+  },
+  {
+    "model": "base",
+    "language": "en",
+    "shots": 3,
+    "file": "base_en_3shot.csv.gz",
+    "sha256": "13bdbd233b740aabd9b48cca69e230c7b26d46d417d8694397914af20228bcd3"
+  },
+  {
+    "model": "fft",
+    "language": "sw",
+    "shots": 0,
+    "file": "fft_sw_0shot.csv.gz",
+    "sha256": "f1d002b1adeffb185a04d20848506e84a44d2ca58466b43c66b846daf9f6c7aa"
+  },
+  {
+    "model": "fft",
+    "language": "sw",
+    "shots": 3,
+    "file": "fft_sw_3shot.csv.gz",
+    "sha256": "479f61b423209db4ed25270a905a203d64450869a4783b9cd5b126a526435fc8"
+  },
+  {
+    "model": "fft",
+    "language": "en",
+    "shots": 0,
+    "file": "fft_en_0shot.csv.gz",
+    "sha256": "e3450ce52a3ae5d9f751b4073efcedf22ab2d724239c21f1c925a49cce7405b4"
+  },
+  {
+    "model": "fft",
+    "language": "en",
+    "shots": 3,
+    "file": "fft_en_3shot.csv.gz",
+    "sha256": "473607cbc5eafcff457fadcc3c4c29ec5ef3627a120c8bf80635656b914364c8"
+  }
+]

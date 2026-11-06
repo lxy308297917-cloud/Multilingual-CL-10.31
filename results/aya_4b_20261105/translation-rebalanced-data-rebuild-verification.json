@@ -1,0 +1,16 @@
+{
+  "status": "VERIFIED_EXACT_REBUILD_ALL7_FROZEN_FILES",
+  "rows": 6400,
+  "input_label_fingerprints_verified": 6400,
+  "files_verified": {
+    "dataset_info.json": "d5af798bb2fa4bfa534e7a22dd028f274aacbcca0c284a3d9e7a5e52cfcd1c91",
+    "train6400.jsonl": "1140882af3142ec9005122d6441b2e3e94129da67e4304ffc49154fe71b77dc6",
+    "train6400.provenance.jsonl": "64db7eb3a76871c6f4007e1d94fd392b3f4a15b6350c36480e931edbc2adf2e0",
+    "train6400_tokenized/dataset_dict.json": "c172eebfc28c1400d6be4338ce7d00191507ffb4ae64c315f039585c894df5b7",
+    "train6400_tokenized/train/dataset_info.json": "2d4d048eea9f68a62b9488465df49de56fff8c40382878d73a820bae08a5da5e",
+    "train6400_tokenized/train/state.json": "c800dc8afbe7b403cee366a7cd563623ae8f19c462e2037064946507182aa3af",
+    "train6400_tokenized/train/data-00000-of-00001.arrow": "82b178ec3f866b79af58f57e8ce3d409ee59ec05db84e63857a476d37a37569f"
+  },
+  "new_input_tokens": 1328744,
+  "new_shifted_assistant_tokens": 209925
+}

@@ -1,0 +1,95 @@
+{
+  "status": "VERIFIED_COMPLETE",
+  "methods": {
+    "fft": {
+      "global_step": 400,
+      "epochs": 1,
+      "samples": 6400,
+      "input_tokens": 2373891,
+      "shifted_assistant_tokens": 324892,
+      "allocated_sequence_positions": 2396336,
+      "padding_positions": 22445,
+      "raw_counter_note": "Historical padded_positions counter means all allocated sequence positions; padding is the derived difference",
+      "parameters": {
+        "unique_model_parameters": 4022468096,
+        "trainable_unique_parameters": 4022468096
+      },
+      "max_gpu_allocated_bytes": 14003937280,
+      "max_gpu_reserved_bytes": 19969081344,
+      "actual_saved_weights_sha256": {
+        "model-00001-of-00002.safetensors": "a816a272981c1aa396a356ff6c72ef407c88cee8a5fdee88575ab22e980f3d1d",
+        "model-00002-of-00002.safetensors": "410a334310508267945dd98b48aaf8f1c398f2de375e78474dfae4729249d7ed"
+      },
+      "config_sha256": "17bc8d2d814f84b0a6bfa93e5f995b722d2c4c88c03637060a1e1e338c6bf1ed",
+      "training_done_sha256": "9c6cdbeba3b58634720886d81cb2ebe6d62adb861a1cbe5286d8b8bac8b2520d",
+      "exposure_sha256": "22d31b9c5c1c4612217d6dde0683ecd1c567bed75e8f8249130d3de32b65c35b",
+      "input_label_multiset_matches_frozen_data": true,
+      "steps_each_exposed16_examples": true,
+      "logged_lr_and_finite_loss_checked": 80,
+      "applied_cpuadam_lr_steps_checked": 400,
+      "saved_optimizer_state": false
+    },
+    "lora": {
+      "global_step": 400,
+      "epochs": 1,
+      "samples": 6400,
+      "input_tokens": 2373891,
+      "shifted_assistant_tokens": 324892,
+      "allocated_sequence_positions": 2396336,
+      "padding_positions": 22445,
+      "raw_counter_note": "Historical padded_positions counter means all allocated sequence positions; padding is the derived difference",
+      "parameters": {
+        "unique_model_parameters": 4055498240,
+        "trainable_unique_parameters": 33030144
+      },
+      "max_gpu_allocated_bytes": 12712472576,
+      "max_gpu_reserved_bytes": 22106079232,
+      "actual_saved_weights_sha256": {
+        "adapter_model.safetensors": "0e3e8de0b3fa0fa2434b3a8946eeaca21b9580b613c475347ff4000f2e8d2265"
+      },
+      "config_sha256": "9d0ac862d9b21d0ff8c199c63eca04ada77707733baaaaef820b187ce518fefc",
+      "training_done_sha256": "c34b0d1a8f49ac1d5343422a06642ca05599cd5dcce46812061b50a7051577a1",
+      "exposure_sha256": "22d31b9c5c1c4612217d6dde0683ecd1c567bed75e8f8249130d3de32b65c35b",
+      "input_label_multiset_matches_frozen_data": true,
+      "steps_each_exposed16_examples": true,
+      "logged_lr_and_finite_loss_checked": 80,
+      "applied_cpuadam_lr_steps_checked": null,
+      "saved_optimizer_state": false
+    },
+    "ssu": {
+      "global_step": 400,
+      "epochs": 1,
+      "samples": 6400,
+      "input_tokens": 2373891,
+      "shifted_assistant_tokens": 324892,
+      "allocated_sequence_positions": 2396336,
+      "padding_positions": 22445,
+      "raw_counter_note": "Historical padded_positions counter means all allocated sequence positions; padding is the derived difference",
+      "parameters": {
+        "unique_model_parameters": 4022468096,
+        "trainable_unique_parameters": 4022468096
+      },
+      "max_gpu_allocated_bytes": 14003937280,
+      "max_gpu_reserved_bytes": 19969081344,
+      "actual_saved_weights_sha256": {
+        "model-00001-of-00002.safetensors": "68f97e3298c757186dc34a5b2408c46e6e1b497de40bb8d2edc25c85e4e61fbc",
+        "model-00002-of-00002.safetensors": "4779a9ddf39ff9556a2e01f2ba3227edc3139a56aba696b4f4361e84444a4862"
+      },
+      "config_sha256": "786e2d8a0649963127b067fa5a862d1955075b979b2d97736b8f06c50acfd4cc",
+      "training_done_sha256": "22bb2274921de1cd6651c82ebf1626f057abe1ad2d964c13c9546caaee022fd2",
+      "exposure_sha256": "22d31b9c5c1c4612217d6dde0683ecd1c567bed75e8f8249130d3de32b65c35b",
+      "input_label_multiset_matches_frozen_data": true,
+      "steps_each_exposed16_examples": true,
+      "logged_lr_and_finite_loss_checked": 80,
+      "applied_cpuadam_lr_steps_checked": 400,
+      "saved_optimizer_state": false
+    }
+  },
+  "pending": [],
+  "full_example_order_equal_among_completed_methods": true,
+  "input_tokens": 2373891,
+  "shifted_assistant_tokens": 324892,
+  "model_lock_sha256": "cb173fd1a7f00bcad0e3707f8bce9ecaad0592e133e0c031d967b1dd05368563",
+  "data_manifest_sha256": "c52a1e7016a2460b51b08ca2133f53cab118674595a0fb3739d96c4d4357021c",
+  "baseline_selection": "All methods fixed Final400, no test-based checkpoint selection"
+}

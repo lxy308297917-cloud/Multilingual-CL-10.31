@@ -1,0 +1,9 @@
+{
+  "status": "VERIFIED_ALL_NONTHINKING_TRAINING_INFERENCE_PREFIXES_IDENTICAL",
+  "rows": 6400,
+  "counts": {
+    "exact": 6400
+  },
+  "raw_token_ids_or_text_published": false,
+  "interpretation": "No mismatch found between masked training prefix and tokenizer.apply_chat_template(non-thinking, generation prompt). Does not establish downstream task learning."
+}

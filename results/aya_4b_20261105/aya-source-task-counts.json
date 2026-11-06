@@ -1,0 +1,99 @@
+{
+  "source_sha256": "96147702c0faa8e4d5f4a0512fb570b7cb490a16f4d1c61b5177a90ed952a87b",
+  "total_rows": 3580061,
+  "task_counts": [
+    {
+      "dataset_name": "SODA-inst (T)",
+      "rows": 1191582
+    },
+    {
+      "dataset_name": "Wiki-split-inst (T)",
+      "rows": 989944
+    },
+    {
+      "dataset_name": "Xlel_wd-inst (T)",
+      "rows": 523112
+    },
+    {
+      "dataset_name": "HotpotQA (T)",
+      "rows": 355476
+    },
+    {
+      "dataset_name": "NQ-Open (T)",
+      "rows": 175850
+    },
+    {
+      "dataset_name": "CNN-Daily-Mail (T)",
+      "rows": 100000
+    },
+    {
+      "dataset_name": "Flan-CoT-submix (T)",
+      "rows": 91910
+    },
+    {
+      "dataset_name": "PAWS-Wiki (T)",
+      "rows": 49401
+    },
+    {
+      "dataset_name": "Flan-GEM-wiki-lingua (T)",
+      "rows": 27147
+    },
+    {
+      "dataset_name": "PIQA (T)",
+      "rows": 16113
+    },
+    {
+      "dataset_name": "Dolly-v2 (T)",
+      "rows": 14808
+    },
+    {
+      "dataset_name": "Mintaka-inst (T)",
+      "rows": 14000
+    },
+    {
+      "dataset_name": "Adversarial QA (T)",
+      "rows": 10000
+    },
+    {
+      "dataset_name": "Flan-Coqa (T)",
+      "rows": 6409
+    },
+    {
+      "dataset_name": "Flan-lambada (T)",
+      "rows": 4279
+    },
+    {
+      "dataset_name": "AfriSenti-inst",
+      "rows": 3620
+    },
+    {
+      "dataset_name": "MasakhaNEWS-inst",
+      "rows": 3316
+    },
+    {
+      "dataset_name": "WIKI QA (T)",
+      "rows": 1040
+    },
+    {
+      "dataset_name": "Joke-explaination-inst (T)",
+      "rows": 754
+    },
+    {
+      "dataset_name": "Flan-unified-QA (T)",
+      "rows": 540
+    },
+    {
+      "dataset_name": "Aya-Dataset",
+      "rows": 366
+    },
+    {
+      "dataset_name": "AfriQA-inst",
+      "rows": 220
+    },
+    {
+      "dataset_name": "Xlel_wd-inst",
+      "rows": 174
+    }
+  ],
+  "purpose": "Metadata-only inventory to assess available task coverage; no text quality or contamination expansion"
+}

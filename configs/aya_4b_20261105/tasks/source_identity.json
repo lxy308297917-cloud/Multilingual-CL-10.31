@@ -1,0 +1,616 @@
+{
+  "task_definitions": [
+    {
+      "path": "configs/aya_4b_20261105/tasks/belebele/_belebele_locked_base.yaml",
+      "original_sha256": "0634916091a6aa37684ac9e01198ec797cd2e487963171fe2ba4887306489fb4",
+      "public_sha256": "0634916091a6aa37684ac9e01198ec797cd2e487963171fe2ba4887306489fb4"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/belebele/belebele_eng_Latn_locked.yaml",
+      "original_sha256": "d7e2f6ef55dbbb7bd0894f109384362daa2fbe7b7162ec6a88f4ffbf361e8f36",
+      "public_sha256": "c35123075b6af04175beee86620bb1750204ce8991de1bd0d8c1498d139fed60"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/belebele/belebele_swh_Latn_locked.yaml",
+      "original_sha256": "7c28078ee22ec019222f93b9554f133114379e246e9869276747afdffb0a7dcf",
+      "public_sha256": "4f2f90a158744b0ec4c175c26cb8a95e4a5795ba721771ca048887c10e9cac97"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/_mmlu_locked.yaml",
+      "original_sha256": "db86b29afbdbb38512e08543e8248aa7351c885c974965e202fc2365ec8eefe4",
+      "public_sha256": "db86b29afbdbb38512e08543e8248aa7351c885c974965e202fc2365ec8eefe4"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_abstract_algebra_locked.yaml",
+      "original_sha256": "8224c46dadf05e26bc5def6c15d5019c7843d1d2fef4ee332938d98d78bb12b4",
+      "public_sha256": "8224c46dadf05e26bc5def6c15d5019c7843d1d2fef4ee332938d98d78bb12b4"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_anatomy_locked.yaml",
+      "original_sha256": "199fb451f8df4b4da1e5ea537753d534256220ed68c46ee41cd40c50e21dd08a",
+      "public_sha256": "199fb451f8df4b4da1e5ea537753d534256220ed68c46ee41cd40c50e21dd08a"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_astronomy_locked.yaml",
+      "original_sha256": "00cb451f09925f85cd574a55d6a40990d85e6f2ef38a67e12fe350e20c116d65",
+      "public_sha256": "00cb451f09925f85cd574a55d6a40990d85e6f2ef38a67e12fe350e20c116d65"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_business_ethics_locked.yaml",
+      "original_sha256": "9d410e345649dba71f372938cd536a4d45c921f8e0719bf0c8198e98878533bc",
+      "public_sha256": "9d410e345649dba71f372938cd536a4d45c921f8e0719bf0c8198e98878533bc"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_clinical_knowledge_locked.yaml",
+      "original_sha256": "9f3a13dda3b9268a7505589e9633db82af0ffca04a50a2400fc94752eee05c0d",
+      "public_sha256": "9f3a13dda3b9268a7505589e9633db82af0ffca04a50a2400fc94752eee05c0d"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_college_biology_locked.yaml",
+      "original_sha256": "5068ac58638a052e58b78bfdf896ddb1684bb6bfb09e3ff690588094ee237da0",
+      "public_sha256": "5068ac58638a052e58b78bfdf896ddb1684bb6bfb09e3ff690588094ee237da0"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_college_chemistry_locked.yaml",
+      "original_sha256": "ad9d3fbdd23054318f65ef87792c7b884024c0b4c6d23c21741236a1822af81d",
+      "public_sha256": "ad9d3fbdd23054318f65ef87792c7b884024c0b4c6d23c21741236a1822af81d"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_college_computer_science_locked.yaml",
+      "original_sha256": "bbef6e918c5ce133e525d8b0eadc1652e64ae5498f734228f1c802178cadbad2",
+      "public_sha256": "bbef6e918c5ce133e525d8b0eadc1652e64ae5498f734228f1c802178cadbad2"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_college_mathematics_locked.yaml",
+      "original_sha256": "6078dd6b0d26c0cc0792827434fc7aaa217e14a8da080ab2756677e16820afb2",
+      "public_sha256": "6078dd6b0d26c0cc0792827434fc7aaa217e14a8da080ab2756677e16820afb2"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_college_medicine_locked.yaml",
+      "original_sha256": "eaadf5c807b063c6dd8887a82e1bdf8d7e668e445e9b48526237a144e401a870",
+      "public_sha256": "eaadf5c807b063c6dd8887a82e1bdf8d7e668e445e9b48526237a144e401a870"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_college_physics_locked.yaml",
+      "original_sha256": "afca866b96e6e1bf3113d2f78ff358161f1cafe846211fc8331be8d1e51463bb",
+      "public_sha256": "afca866b96e6e1bf3113d2f78ff358161f1cafe846211fc8331be8d1e51463bb"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_computer_security_locked.yaml",
+      "original_sha256": "8641ab1eca8cc26965e64cdfff3b3fe1e41528a0e3272a7a88c5cc0b480a346e",
+      "public_sha256": "8641ab1eca8cc26965e64cdfff3b3fe1e41528a0e3272a7a88c5cc0b480a346e"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_conceptual_physics_locked.yaml",
+      "original_sha256": "687b51382ee9683a6b97933427a9a9cd9b65ab9e5a5549bc79dbc0da66da495c",
+      "public_sha256": "687b51382ee9683a6b97933427a9a9cd9b65ab9e5a5549bc79dbc0da66da495c"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_econometrics_locked.yaml",
+      "original_sha256": "7f83a9442a652fea5618987c67f2f67cba6b1b200ab92154a977f899549f74a5",
+      "public_sha256": "7f83a9442a652fea5618987c67f2f67cba6b1b200ab92154a977f899549f74a5"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_electrical_engineering_locked.yaml",
+      "original_sha256": "07a2da947155c53fe334a05197463c600ff483c8de1acdab35eb6d88524719a9",
+      "public_sha256": "07a2da947155c53fe334a05197463c600ff483c8de1acdab35eb6d88524719a9"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_elementary_mathematics_locked.yaml",
+      "original_sha256": "733bd727b604f5d18a86d11f17cd9d171e60d07eef46bbf41e30b5688e96b396",
+      "public_sha256": "733bd727b604f5d18a86d11f17cd9d171e60d07eef46bbf41e30b5688e96b396"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_formal_logic_locked.yaml",
+      "original_sha256": "8ece682389f8f0556f3d627732976a582e4451e39f203f4c773a204c01e4c03f",
+      "public_sha256": "8ece682389f8f0556f3d627732976a582e4451e39f203f4c773a204c01e4c03f"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_global_facts_locked.yaml",
+      "original_sha256": "4c70c1c615f22ab7f913b407ab4d75575a80197f06ed641f97424f78f7ae0642",
+      "public_sha256": "4c70c1c615f22ab7f913b407ab4d75575a80197f06ed641f97424f78f7ae0642"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_high_school_biology_locked.yaml",
+      "original_sha256": "89b4375968b974c71d6a9b2f767f2201db7a37b1110195f79a4030d60760bdcf",
+      "public_sha256": "89b4375968b974c71d6a9b2f767f2201db7a37b1110195f79a4030d60760bdcf"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_high_school_chemistry_locked.yaml",
+      "original_sha256": "704a06e4cb81c29cf097f9f086fbf3c4a86d11ee18f4a23c82530a214025a97b",
+      "public_sha256": "704a06e4cb81c29cf097f9f086fbf3c4a86d11ee18f4a23c82530a214025a97b"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_high_school_computer_science_locked.yaml",
+      "original_sha256": "4ce02511436f054b46d9897da82bfa4d396854faf4636973a7ae86b095567ea1",
+      "public_sha256": "4ce02511436f054b46d9897da82bfa4d396854faf4636973a7ae86b095567ea1"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_high_school_european_history_locked.yaml",
+      "original_sha256": "cfb333a774f79c6c42692ff90c9c6e8e732bdde084e9f94314e3afa8a7b74854",
+      "public_sha256": "cfb333a774f79c6c42692ff90c9c6e8e732bdde084e9f94314e3afa8a7b74854"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_high_school_geography_locked.yaml",
+      "original_sha256": "f0186ea757b1e4dc1454a10c07476c0b831523c78f48f7d0091dcfb48591ffc2",
+      "public_sha256": "f0186ea757b1e4dc1454a10c07476c0b831523c78f48f7d0091dcfb48591ffc2"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_high_school_government_and_politics_locked.yaml",
+      "original_sha256": "35d3a0cc7002f8b46863a4ba821d6bbfece531153930354cbd0f17e9cf46a4f1",
+      "public_sha256": "35d3a0cc7002f8b46863a4ba821d6bbfece531153930354cbd0f17e9cf46a4f1"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_high_school_macroeconomics_locked.yaml",
+      "original_sha256": "cd97cc2c182e79d4d33c4a2ed7e604dc8d0412ab5cc39a42322b060c31b96a5f",
+      "public_sha256": "cd97cc2c182e79d4d33c4a2ed7e604dc8d0412ab5cc39a42322b060c31b96a5f"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_high_school_mathematics_locked.yaml",
+      "original_sha256": "b0f2dbf1b6104e99ef07b84922348a42e16345ca2d004aa4397a4fc32d725b16",
+      "public_sha256": "b0f2dbf1b6104e99ef07b84922348a42e16345ca2d004aa4397a4fc32d725b16"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_high_school_microeconomics_locked.yaml",
+      "original_sha256": "a98f0686058bb7086b347652343bcf2e151fb7314a7c83d29970a486c1dc9db6",
+      "public_sha256": "a98f0686058bb7086b347652343bcf2e151fb7314a7c83d29970a486c1dc9db6"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_high_school_physics_locked.yaml",
+      "original_sha256": "5655e3f4a8571a896ebd18c6c223a0e7f7e0cc4b17f9afa0e1687ddf74e2a48d",
+      "public_sha256": "5655e3f4a8571a896ebd18c6c223a0e7f7e0cc4b17f9afa0e1687ddf74e2a48d"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_high_school_psychology_locked.yaml",
+      "original_sha256": "f9a6c0623bd7e3f0fc6b40350f04a2e04874deff7510e42a57e4298a05972648",
+      "public_sha256": "f9a6c0623bd7e3f0fc6b40350f04a2e04874deff7510e42a57e4298a05972648"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_high_school_statistics_locked.yaml",
+      "original_sha256": "fd59fc79b71df07baf73b89413bba9311c6ea10fe06b5b21a1c7149ce5273311",
+      "public_sha256": "fd59fc79b71df07baf73b89413bba9311c6ea10fe06b5b21a1c7149ce5273311"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_high_school_us_history_locked.yaml",
+      "original_sha256": "6f14ceb294f3168b66bdf4bf30e88737b88de158644cb1eb1ced509a7c445e0f",
+      "public_sha256": "6f14ceb294f3168b66bdf4bf30e88737b88de158644cb1eb1ced509a7c445e0f"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_high_school_world_history_locked.yaml",
+      "original_sha256": "f53a09f7762c8a2115477f96f37b038fd630ce75d9948a1caa5e2aa66aa4e618",
+      "public_sha256": "f53a09f7762c8a2115477f96f37b038fd630ce75d9948a1caa5e2aa66aa4e618"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_human_aging_locked.yaml",
+      "original_sha256": "47fc2fc086437b0376ce5e4601042b16fa5a7468d7f13045a385aa31f8079f35",
+      "public_sha256": "47fc2fc086437b0376ce5e4601042b16fa5a7468d7f13045a385aa31f8079f35"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_human_sexuality_locked.yaml",
+      "original_sha256": "2bd460c5d04e7bd80b2c5593ce243b7e74e5c9d0674b5ea5f350d993ffab87f2",
+      "public_sha256": "2bd460c5d04e7bd80b2c5593ce243b7e74e5c9d0674b5ea5f350d993ffab87f2"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_international_law_locked.yaml",
+      "original_sha256": "6beb4df3f94822cd19f5ad90807b409fbaf3be8d6ab4afec56dbf1f81b0806b3",
+      "public_sha256": "6beb4df3f94822cd19f5ad90807b409fbaf3be8d6ab4afec56dbf1f81b0806b3"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_jurisprudence_locked.yaml",
+      "original_sha256": "5d931f5ef50d8236f94bb6373b7e34e9c08f6a1550d5814b3a6ff33afb2d4eef",
+      "public_sha256": "5d931f5ef50d8236f94bb6373b7e34e9c08f6a1550d5814b3a6ff33afb2d4eef"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_logical_fallacies_locked.yaml",
+      "original_sha256": "a2fc0497d7d11ae0c183b6df62e681d8141db9fc0bf0032d94ef41914d1bebee",
+      "public_sha256": "a2fc0497d7d11ae0c183b6df62e681d8141db9fc0bf0032d94ef41914d1bebee"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_machine_learning_locked.yaml",
+      "original_sha256": "0ab5c82e23c4611eff6176aeb9fb29061365a5350fd641a67fd11d206aedf940",
+      "public_sha256": "0ab5c82e23c4611eff6176aeb9fb29061365a5350fd641a67fd11d206aedf940"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_management_locked.yaml",
+      "original_sha256": "332b2c7bb5a66a7689706a0770fc69e8bd4017c3329c11c9d985b03d0685bdf5",
+      "public_sha256": "332b2c7bb5a66a7689706a0770fc69e8bd4017c3329c11c9d985b03d0685bdf5"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_marketing_locked.yaml",
+      "original_sha256": "a8c823338bf3a5bdcc9c510f55ba9f1d38c4f6b8d97cba65aa616e0c2a69b4a0",
+      "public_sha256": "a8c823338bf3a5bdcc9c510f55ba9f1d38c4f6b8d97cba65aa616e0c2a69b4a0"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_medical_genetics_locked.yaml",
+      "original_sha256": "dfeeb1aeea88f42ffc321b8a32c037e7e1bab933741f24e87af620507687bd19",
+      "public_sha256": "dfeeb1aeea88f42ffc321b8a32c037e7e1bab933741f24e87af620507687bd19"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_miscellaneous_locked.yaml",
+      "original_sha256": "807f711174e248e0900da3ce1d07d04fd263fb1ca30a540e4ab7bbe5909910a1",
+      "public_sha256": "807f711174e248e0900da3ce1d07d04fd263fb1ca30a540e4ab7bbe5909910a1"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_moral_disputes_locked.yaml",
+      "original_sha256": "6076f69cb662c41884fe00801abe88d51a82cdfb062b5607533c48137b76de61",
+      "public_sha256": "6076f69cb662c41884fe00801abe88d51a82cdfb062b5607533c48137b76de61"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_moral_scenarios_locked.yaml",
+      "original_sha256": "e546a7aa7b0b6189f6f9c74320e912d4562404be71ead6fa2792e82b20499684",
+      "public_sha256": "e546a7aa7b0b6189f6f9c74320e912d4562404be71ead6fa2792e82b20499684"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_nutrition_locked.yaml",
+      "original_sha256": "ee7bde0156905cb9d8f921b6ce9d5f262bc96c91e3de00ea062ccc939d38407b",
+      "public_sha256": "ee7bde0156905cb9d8f921b6ce9d5f262bc96c91e3de00ea062ccc939d38407b"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_philosophy_locked.yaml",
+      "original_sha256": "9db4df334fc245066784e728760b5332a9769e1f71238f69ec56c75a6d77d1e1",
+      "public_sha256": "9db4df334fc245066784e728760b5332a9769e1f71238f69ec56c75a6d77d1e1"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_prehistory_locked.yaml",
+      "original_sha256": "000dbdd823124e458c5f1cd20dbe6fdd1bf5d4dc65c667009bdbe529419fce58",
+      "public_sha256": "000dbdd823124e458c5f1cd20dbe6fdd1bf5d4dc65c667009bdbe529419fce58"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_professional_accounting_locked.yaml",
+      "original_sha256": "247a3f7793b3ef7b00784f98ef9648a5ceaacf9ec44ba4e356bc51591d00e6bc",
+      "public_sha256": "247a3f7793b3ef7b00784f98ef9648a5ceaacf9ec44ba4e356bc51591d00e6bc"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_professional_law_locked.yaml",
+      "original_sha256": "2db0638a92fa544b11657d77fa2507967c43839ef5646ade815f4d9ea94924c7",
+      "public_sha256": "2db0638a92fa544b11657d77fa2507967c43839ef5646ade815f4d9ea94924c7"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_professional_medicine_locked.yaml",
+      "original_sha256": "d74778bac311b0540f5a9fb6b8cb5c7c67beea2f84ebca29cc208ca5b06036e4",
+      "public_sha256": "d74778bac311b0540f5a9fb6b8cb5c7c67beea2f84ebca29cc208ca5b06036e4"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_professional_psychology_locked.yaml",
+      "original_sha256": "dd514ceb95503244ca213fd5197293640b479ecde48652c53502c4432611541b",
+      "public_sha256": "dd514ceb95503244ca213fd5197293640b479ecde48652c53502c4432611541b"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_public_relations_locked.yaml",
+      "original_sha256": "03038ebf9e52bd4267d637f510c7a62dcdbabaea6ab0e3ff3084b786efb8b61f",
+      "public_sha256": "03038ebf9e52bd4267d637f510c7a62dcdbabaea6ab0e3ff3084b786efb8b61f"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_security_studies_locked.yaml",
+      "original_sha256": "b3be7454f2fac7bd9bb7313fa18505db692adbcb1bc764fed1bc46e1b7838e6b",
+      "public_sha256": "b3be7454f2fac7bd9bb7313fa18505db692adbcb1bc764fed1bc46e1b7838e6b"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_sociology_locked.yaml",
+      "original_sha256": "4ae05c7d8ac21f2227d42860eaf53888605ee7db2c0ade273dc14165b8dcf47d",
+      "public_sha256": "4ae05c7d8ac21f2227d42860eaf53888605ee7db2c0ade273dc14165b8dcf47d"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_us_foreign_policy_locked.yaml",
+      "original_sha256": "01e3a9df69e6aa26b7b54cb5bcd4c8c70316785e92b3a6aed9f0a90a9bef40dd",
+      "public_sha256": "01e3a9df69e6aa26b7b54cb5bcd4c8c70316785e92b3a6aed9f0a90a9bef40dd"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_virology_locked.yaml",
+      "original_sha256": "2ce641760d7afde56aafcd2a2345928d9f7716eaa55fef734e579fc7c1a9a675",
+      "public_sha256": "2ce641760d7afde56aafcd2a2345928d9f7716eaa55fef734e579fc7c1a9a675"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/mmlu/mmlu_world_religions_locked.yaml",
+      "original_sha256": "3dc9977d48f5bb10d5543c74c873aa43614246e32f2e2993896fd28dbf1257ad",
+      "public_sha256": "3dc9977d48f5bb10d5543c74c873aa43614246e32f2e2993896fd28dbf1257ad"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/_global_mmlu_full_sw_locked.yaml",
+      "original_sha256": "78b076f0afefda86f9947962d8ddda77cd8748271aa89c64bb6bdc1870375a46",
+      "public_sha256": "78b076f0afefda86f9947962d8ddda77cd8748271aa89c64bb6bdc1870375a46"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_abstract_algebra_locked.yaml",
+      "original_sha256": "c431810d887a0d6dec45a8ae5b0519612f15dcbde36be73ae8bb0d4cf9cdb8f7",
+      "public_sha256": "c431810d887a0d6dec45a8ae5b0519612f15dcbde36be73ae8bb0d4cf9cdb8f7"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_anatomy_locked.yaml",
+      "original_sha256": "e5980bb94877fa59a82c390b2d16f543c6ba4744daf350affec2dddd7ab7b8fe",
+      "public_sha256": "e5980bb94877fa59a82c390b2d16f543c6ba4744daf350affec2dddd7ab7b8fe"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_astronomy_locked.yaml",
+      "original_sha256": "ed9b77019b700e346a8e141f272d6cd0c685dfb88feb76e0c783bb9094e40951",
+      "public_sha256": "ed9b77019b700e346a8e141f272d6cd0c685dfb88feb76e0c783bb9094e40951"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_business_ethics_locked.yaml",
+      "original_sha256": "011d09d9eda69e1e00cb356defe3494613e7ca35585fbe74b3a6215e449840a7",
+      "public_sha256": "011d09d9eda69e1e00cb356defe3494613e7ca35585fbe74b3a6215e449840a7"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_clinical_knowledge_locked.yaml",
+      "original_sha256": "6fd5a84e362133056a7b081843157ac4e228525c3a8bf4075fd7899c17988c51",
+      "public_sha256": "6fd5a84e362133056a7b081843157ac4e228525c3a8bf4075fd7899c17988c51"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_college_biology_locked.yaml",
+      "original_sha256": "73c1bb9e9c115d3ee079163fdaccc32ef16b8bada001c408f80b51f799287121",
+      "public_sha256": "73c1bb9e9c115d3ee079163fdaccc32ef16b8bada001c408f80b51f799287121"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_college_chemistry_locked.yaml",
+      "original_sha256": "58b019f7cb82505f8b78525c569b9eaf76f46f860fd023d5c202ecdf3183e69a",
+      "public_sha256": "58b019f7cb82505f8b78525c569b9eaf76f46f860fd023d5c202ecdf3183e69a"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_college_computer_science_locked.yaml",
+      "original_sha256": "0c631c7c7e16ae75785f9f18c6df7b87ba790cc7b3bf01a48634f553d77dd554",
+      "public_sha256": "0c631c7c7e16ae75785f9f18c6df7b87ba790cc7b3bf01a48634f553d77dd554"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_college_mathematics_locked.yaml",
+      "original_sha256": "8ccff05dbbcd86dfe74c84927ee2f49b497ac65f4a3466fdd8a7481742f72c06",
+      "public_sha256": "8ccff05dbbcd86dfe74c84927ee2f49b497ac65f4a3466fdd8a7481742f72c06"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_college_medicine_locked.yaml",
+      "original_sha256": "f60e980589d67d832de36eece2681c547a363958a7438e82d9cec023a6332f79",
+      "public_sha256": "f60e980589d67d832de36eece2681c547a363958a7438e82d9cec023a6332f79"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_college_physics_locked.yaml",
+      "original_sha256": "5dd7d49fd269916a608093e589f6312d19275c94c0f542367c05242e88ead270",
+      "public_sha256": "5dd7d49fd269916a608093e589f6312d19275c94c0f542367c05242e88ead270"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_computer_security_locked.yaml",
+      "original_sha256": "ba75b3a59d6cae3402509b3af2375242cc84a97655fa944a4a948f98e70bec24",
+      "public_sha256": "ba75b3a59d6cae3402509b3af2375242cc84a97655fa944a4a948f98e70bec24"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_conceptual_physics_locked.yaml",
+      "original_sha256": "3d7f3d687acb3ed062d1dbb7f0195512fd92354fc70eb3aa66148f69ef97c9dd",
+      "public_sha256": "3d7f3d687acb3ed062d1dbb7f0195512fd92354fc70eb3aa66148f69ef97c9dd"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_econometrics_locked.yaml",
+      "original_sha256": "a3075736295f84fd4beae2b97ef5a709d297b6b90b1e3cb1e78fa8095c731bff",
+      "public_sha256": "a3075736295f84fd4beae2b97ef5a709d297b6b90b1e3cb1e78fa8095c731bff"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_electrical_engineering_locked.yaml",
+      "original_sha256": "47c02b36fb6e02228fa1488c27aa0db265fbfb650650d8d02f6183d12ecc03fd",
+      "public_sha256": "47c02b36fb6e02228fa1488c27aa0db265fbfb650650d8d02f6183d12ecc03fd"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_elementary_mathematics_locked.yaml",
+      "original_sha256": "9ea4c78549b4467943c9100728a586108f0043f09cab193715174a909c6b2e21",
+      "public_sha256": "9ea4c78549b4467943c9100728a586108f0043f09cab193715174a909c6b2e21"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_formal_logic_locked.yaml",
+      "original_sha256": "81f3149dd5710a7ea6cbfe71c4e5e2c1d06048b731ad6a39ce5d2dbc9c8e3b3c",
+      "public_sha256": "81f3149dd5710a7ea6cbfe71c4e5e2c1d06048b731ad6a39ce5d2dbc9c8e3b3c"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_global_facts_locked.yaml",
+      "original_sha256": "a7879a4ba93fc0d3067285ad1e2ff5673f062144103bc6c81e8e0184111dbff6",
+      "public_sha256": "a7879a4ba93fc0d3067285ad1e2ff5673f062144103bc6c81e8e0184111dbff6"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_high_school_biology_locked.yaml",
+      "original_sha256": "73bdd301200f17e6bfe373d11d0142b206d08b970103a52333f055d751d6e750",
+      "public_sha256": "73bdd301200f17e6bfe373d11d0142b206d08b970103a52333f055d751d6e750"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_high_school_chemistry_locked.yaml",
+      "original_sha256": "553a83208feb708268adda3de7430319cb0c9a0dda4e47b87a5e0acd28a81249",
+      "public_sha256": "553a83208feb708268adda3de7430319cb0c9a0dda4e47b87a5e0acd28a81249"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_high_school_computer_science_locked.yaml",
+      "original_sha256": "2b209add6e7e47febefcc192d7fc4c013396885f8550b9dfb2929c37a7506102",
+      "public_sha256": "2b209add6e7e47febefcc192d7fc4c013396885f8550b9dfb2929c37a7506102"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_high_school_european_history_locked.yaml",
+      "original_sha256": "d2f8b879ea75d6767e842dda5b02551272803d965506a822cc7c8506454ba745",
+      "public_sha256": "d2f8b879ea75d6767e842dda5b02551272803d965506a822cc7c8506454ba745"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_high_school_geography_locked.yaml",
+      "original_sha256": "1d5f8330c769b2f076987d2fa8d34c1fc09ae3c36869e7551ddd95f0a72b5f4e",
+      "public_sha256": "1d5f8330c769b2f076987d2fa8d34c1fc09ae3c36869e7551ddd95f0a72b5f4e"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_high_school_government_and_politics_locked.yaml",
+      "original_sha256": "d54f64e9b84c05e6692756392afeef674ebbc90aa2d188782c225ef140a9a434",
+      "public_sha256": "d54f64e9b84c05e6692756392afeef674ebbc90aa2d188782c225ef140a9a434"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_high_school_macroeconomics_locked.yaml",
+      "original_sha256": "3c74d588e85967f7ab0774268585812754ccdd27a544739b811ec3ea47bab2f7",
+      "public_sha256": "3c74d588e85967f7ab0774268585812754ccdd27a544739b811ec3ea47bab2f7"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_high_school_mathematics_locked.yaml",
+      "original_sha256": "4804c3e0993dcb5a0cc1e4df0e81dcaa25eaaa48e1c967bf677d4faa1e598a7a",
+      "public_sha256": "4804c3e0993dcb5a0cc1e4df0e81dcaa25eaaa48e1c967bf677d4faa1e598a7a"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_high_school_microeconomics_locked.yaml",
+      "original_sha256": "8951c336805da1fa91a710d91b6c9f7f3f7aec83d98fdb8242dca801da8bfeb6",
+      "public_sha256": "8951c336805da1fa91a710d91b6c9f7f3f7aec83d98fdb8242dca801da8bfeb6"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_high_school_physics_locked.yaml",
+      "original_sha256": "1d1113447b2b0dd5fccaa3f8e53cc41f3137eddbbd445fa4a75b549fb36b3fb1",
+      "public_sha256": "1d1113447b2b0dd5fccaa3f8e53cc41f3137eddbbd445fa4a75b549fb36b3fb1"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_high_school_psychology_locked.yaml",
+      "original_sha256": "86f92f373a620e817a02bdcecae307edceed47e76d282b2f131d5c0ac22973ab",
+      "public_sha256": "86f92f373a620e817a02bdcecae307edceed47e76d282b2f131d5c0ac22973ab"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_high_school_statistics_locked.yaml",
+      "original_sha256": "6df8f2834ae409baf618ac5164664045861cb6e2b3ac90520864dea190f4b56b",
+      "public_sha256": "6df8f2834ae409baf618ac5164664045861cb6e2b3ac90520864dea190f4b56b"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_high_school_us_history_locked.yaml",
+      "original_sha256": "2ad00927a12a70619f3f3178cc9dfee5bc1e40bd39d888fe9c2a55d3e1bd5d0d",
+      "public_sha256": "2ad00927a12a70619f3f3178cc9dfee5bc1e40bd39d888fe9c2a55d3e1bd5d0d"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_high_school_world_history_locked.yaml",
+      "original_sha256": "94940e75e40ef87341f0a1715f013747fa9c4d3192134258c720e03d993f2883",
+      "public_sha256": "94940e75e40ef87341f0a1715f013747fa9c4d3192134258c720e03d993f2883"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_human_aging_locked.yaml",
+      "original_sha256": "a57f4e5ddd72fc49d4a8f56ff396917ce0dc35b7bb6eeffc635b9328bb56bcb5",
+      "public_sha256": "a57f4e5ddd72fc49d4a8f56ff396917ce0dc35b7bb6eeffc635b9328bb56bcb5"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_human_sexuality_locked.yaml",
+      "original_sha256": "3dac51b548df85041e0aef7319cb550b228619327f882d7631a94adc35055fca",
+      "public_sha256": "3dac51b548df85041e0aef7319cb550b228619327f882d7631a94adc35055fca"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_international_law_locked.yaml",
+      "original_sha256": "fc45b411acc83b3ce31ce9bc9a200915498c7866acb9cb64edd08b5e615d7629",
+      "public_sha256": "fc45b411acc83b3ce31ce9bc9a200915498c7866acb9cb64edd08b5e615d7629"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_jurisprudence_locked.yaml",
+      "original_sha256": "5356dfc8157eea4745f3fecdf33e4894906b8a1a77f32a548a45e8e8ab28812e",
+      "public_sha256": "5356dfc8157eea4745f3fecdf33e4894906b8a1a77f32a548a45e8e8ab28812e"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_logical_fallacies_locked.yaml",
+      "original_sha256": "36011304228692e85eb194961dbc29bb03e750a31547711a770a90690e61bc75",
+      "public_sha256": "36011304228692e85eb194961dbc29bb03e750a31547711a770a90690e61bc75"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_machine_learning_locked.yaml",
+      "original_sha256": "b7f1e1f91db11f3f29a8df61525876eb166502eee56c5f895492343f2a64542f",
+      "public_sha256": "b7f1e1f91db11f3f29a8df61525876eb166502eee56c5f895492343f2a64542f"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_management_locked.yaml",
+      "original_sha256": "02a82dbb0e36973a1acb927c2b35db03f81603e9e485a9e864f1fbf86bfc0d91",
+      "public_sha256": "02a82dbb0e36973a1acb927c2b35db03f81603e9e485a9e864f1fbf86bfc0d91"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_marketing_locked.yaml",
+      "original_sha256": "af84e19e11e2db8380e63bf15d66103179e5046d4b99cb0a33d031aa711661b4",
+      "public_sha256": "af84e19e11e2db8380e63bf15d66103179e5046d4b99cb0a33d031aa711661b4"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_medical_genetics_locked.yaml",
+      "original_sha256": "d825639c2226aeeb75d8cdbc295157d36cdc74c1b4cb61fa3f446f31ade67d83",
+      "public_sha256": "d825639c2226aeeb75d8cdbc295157d36cdc74c1b4cb61fa3f446f31ade67d83"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_miscellaneous_locked.yaml",
+      "original_sha256": "0f0a81524dc61402ade0b4f47efd359aae4b4d187cf496f95acae41eaaa483a7",
+      "public_sha256": "0f0a81524dc61402ade0b4f47efd359aae4b4d187cf496f95acae41eaaa483a7"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_moral_disputes_locked.yaml",
+      "original_sha256": "683f36337b677f53453f461af86526d4230618c9eb7ed35c5c9a6fe72e29ec08",
+      "public_sha256": "683f36337b677f53453f461af86526d4230618c9eb7ed35c5c9a6fe72e29ec08"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_moral_scenarios_locked.yaml",
+      "original_sha256": "f51ac2fd277481d51bfa23d865d573ce59ab81e763d6e4d654254e66133528c8",
+      "public_sha256": "f51ac2fd277481d51bfa23d865d573ce59ab81e763d6e4d654254e66133528c8"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_nutrition_locked.yaml",
+      "original_sha256": "bf908c9364e634ec144dfef70f8d31078bcd1bbbcd97f69e37a0875a25421e85",
+      "public_sha256": "bf908c9364e634ec144dfef70f8d31078bcd1bbbcd97f69e37a0875a25421e85"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_philosophy_locked.yaml",
+      "original_sha256": "d3b088d315bbe7e8b0e23cc56b9448da019af19be6bdade443ab101c8940ed9c",
+      "public_sha256": "d3b088d315bbe7e8b0e23cc56b9448da019af19be6bdade443ab101c8940ed9c"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_prehistory_locked.yaml",
+      "original_sha256": "f662ec11ac7db31232aec193989fd59660c96a527a5e27afa97d9ce4812f24a8",
+      "public_sha256": "f662ec11ac7db31232aec193989fd59660c96a527a5e27afa97d9ce4812f24a8"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_professional_accounting_locked.yaml",
+      "original_sha256": "b1b6ea820eaa371f52104b98ab537ba942ccf96b5a72046175fb60f8c1660e40",
+      "public_sha256": "b1b6ea820eaa371f52104b98ab537ba942ccf96b5a72046175fb60f8c1660e40"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_professional_law_locked.yaml",
+      "original_sha256": "ecc9cf020ec8098069e3d47bfe03f7985aee42ec9cae1620c9dc89fb2648ef56",
+      "public_sha256": "ecc9cf020ec8098069e3d47bfe03f7985aee42ec9cae1620c9dc89fb2648ef56"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_professional_medicine_locked.yaml",
+      "original_sha256": "6041e0f5ade93bacd65149cb0dd2415b41e3114042d3e71ffd5629f62d8fbe04",
+      "public_sha256": "6041e0f5ade93bacd65149cb0dd2415b41e3114042d3e71ffd5629f62d8fbe04"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_professional_psychology_locked.yaml",
+      "original_sha256": "99d5a976c9efa03e560dad75055be777415d90430db475b758e1718f128ab381",
+      "public_sha256": "99d5a976c9efa03e560dad75055be777415d90430db475b758e1718f128ab381"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_public_relations_locked.yaml",
+      "original_sha256": "94fd028c3f05e99022ca9143f24581e4be5d2167749f7f8f24f50498f75d20d7",
+      "public_sha256": "94fd028c3f05e99022ca9143f24581e4be5d2167749f7f8f24f50498f75d20d7"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_security_studies_locked.yaml",
+      "original_sha256": "34b3e1136d859051bcf55f0aca0d700906215d1cc30b5c6c818738a14b4dea46",
+      "public_sha256": "34b3e1136d859051bcf55f0aca0d700906215d1cc30b5c6c818738a14b4dea46"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_sociology_locked.yaml",
+      "original_sha256": "dd94022ee4b15e09113db759412e57830e6ae8a6d4212d57e94c634e4870cee9",
+      "public_sha256": "dd94022ee4b15e09113db759412e57830e6ae8a6d4212d57e94c634e4870cee9"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_us_foreign_policy_locked.yaml",
+      "original_sha256": "684836242e5ff2612bd83e4817a754134df4b18ccc30c3f1bdf826a36ab75c4a",
+      "public_sha256": "684836242e5ff2612bd83e4817a754134df4b18ccc30c3f1bdf826a36ab75c4a"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_virology_locked.yaml",
+      "original_sha256": "2e1716403f6d2d7cfe202fd0d11d7a5109effd55b17e2230060231811e5c630c",
+      "public_sha256": "2e1716403f6d2d7cfe202fd0d11d7a5109effd55b17e2230060231811e5c630c"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/global_mmlu_full_sw_world_religions_locked.yaml",
+      "original_sha256": "94536f4bb5631f0599ce143c65db6debc96d104cad8cc4c65330ccbf88dbc6ad",
+      "public_sha256": "94536f4bb5631f0599ce143c65db6debc96d104cad8cc4c65330ccbf88dbc6ad"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/global_mmlu_full_sw/utils.py",
+      "original_sha256": "b4012dd2b1a508885d23ee2ddb12bc26f3e622081ba41ec1ab766edc31a4982b",
+      "public_sha256": "b4012dd2b1a508885d23ee2ddb12bc26f3e622081ba41ec1ab766edc31a4982b"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/core/gsm8k.yaml",
+      "original_sha256": "664dbeb0f31e9b328889728a03fb0e36ea9f579f534fcdd21705c6bd45c379b9",
+      "public_sha256": "218c16ade8e4dfa1b8977701978cd4b7b021fa6d6a6c3b4f8f9da24b89ac03e7"
+    },
+    {
+      "path": "configs/aya_4b_20261105/tasks/core/ifeval.yaml",
+      "original_sha256": "a9d802386355e28ddbfb5eb15a7907ec1d1ab53d1ba2e6c3d5f995b5c0b80a04",
+      "public_sha256": "8be842ea193d551557064805c7bc38b565597168b3c0b3a96d3824332af5245e"
+    }
+  ],
+  "no_raw_dataset_content": true,
+  "materialization": "Replace only BELEBELE_DATA, BENCHMARK_CACHE, HARNESS_TASKS variables before running. Preserve !function tags and relative includes."
+}

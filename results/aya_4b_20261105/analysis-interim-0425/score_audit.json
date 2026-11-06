@@ -1,0 +1,538 @@
+[
+  {
+    "model": "base",
+    "task_group": "belebele",
+    "candidate_likelihood_argmax_and_actual_gold_recomputed": true,
+    "sample_files": 2,
+    "samples": 1800
+  },
+  {
+    "model": "base",
+    "task_group": "gmmlu",
+    "candidate_likelihood_argmax_and_actual_gold_recomputed": true,
+    "sample_files": 57,
+    "samples": 14042
+  },
+  {
+    "model": "base",
+    "task_group": "mmlu",
+    "candidate_likelihood_argmax_and_actual_gold_recomputed": true,
+    "sample_files": 57,
+    "samples": 14042
+  },
+  {
+    "model": "base",
+    "task_group": "flores200_en_sw_full_devtest_v2",
+    "samples": 1012,
+    "predictions_and_scoring_manifest_hashes_verified": true,
+    "actual_corpus_MT_recomputed": true
+  },
+  {
+    "model": "base",
+    "task_group": "flores200_sw_en_full_devtest_v2",
+    "samples": 1012,
+    "predictions_and_scoring_manifest_hashes_verified": true,
+    "actual_corpus_MT_recomputed": true
+  },
+  {
+    "model": "base",
+    "task_group": "xlsum_sw_v2",
+    "samples": 987,
+    "predictions_and_scoring_manifest_hashes_verified": true,
+    "actual_corpus_MT_recomputed": false
+  },
+  {
+    "model": "base",
+    "task_group": "xlsum_en_v2",
+    "samples": 11535,
+    "predictions_and_scoring_manifest_hashes_verified": true,
+    "actual_corpus_MT_recomputed": false
+  },
+  {
+    "model": "base",
+    "task_group": "core",
+    "official_gsm_regex_and_exact_match_reexecuted": true,
+    "ifeval_saved_official_flags_aggregated_and_instruction_counts_verified": true,
+    "ifeval_deterministic_prompts_reexecuted": 508,
+    "ifeval_stochastic_or_language_prompts_not_claimed_exact_rescore": [
+      {
+        "item_id_sha256": "0234a350f4d56ae45c5ece57b08c54496f372bc570bd83a465fb6d2d85531479",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "49f65dc5d4333e3ed1ba4c9bbea03134a985509541efa8a4955542d50dea45f0",
+        "python_random_used": true,
+        "language_detector": false
+      },
+      {
+        "item_id_sha256": "b16781f85251cf7a5bab973eb0927776b89a75f8def28c649ae65e01b3db5e28",
+        "python_random_used": true,
+        "language_detector": false
+      },
+      {
+        "item_id_sha256": "227e4918add1d7964e1745439f5cf44f3e3aba15de6f570942d418510b022b9d",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "4ec621b227e30e8a72d97865785a0bf20b5032024c589a56e1a6b18a099bdb7c",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "4d231049a895fe6ccb92cac773d7c76dfe7934209ca8de35548ec7a7f523fb2c",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "78cee6c1e2eb2e74f8a3eb06342910344c22b2c264a3e21cbe03a6cc70868e7e",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "40ed3b1cf3b47983afe652cbc151885cb494796828ded64b586a879d316ce531",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "6ec1347c314a6f863c818c6b80f7f01cd68a924d3c5761de0a9105abbda2c302",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "0e44aab7746dacc614c9ea91024c79663206387f5ee2e492039e1283df5f8d3d",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "ace0a6094deb7f50ce512cf5fb92bea01782106d93c266cdc0d3c7c5fe083593",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "c8667ccb085d7d974de35671652e1f30021622e4247181e271236b819d8f4eca",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "58e139bbd012d7a0f6b0ae35a2fb2135ffbfefce291177325d851dbdb5483ac7",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "a446cbd71cd9a5a8c929b9f1e4bdb4488dada3661ef896b27fe7a79f7966d1e6",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "5dbf53591a9e40e4245b608bd3f5eda76f8a2704c85eeb141d8915ace8c94ad6",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "72cb8cd083a5278730209f1ef0dead8421f974441fdddb88c82cc0301d293d9a",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "d9d1f554239abcf9dd7f6d9f3ba957331ce69f6cec4e6d0e7ab537fb21df4bef",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "3332300cb375f3fb00ce2e3e1e73770f115fd39602012847a83f08327ced169f",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "47cca5335abc693741cb7dd0c0da6fdddfcec7220b322c05b63d46b5387f44f1",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "346947ad3b3d96545b9d95c2ad7ee921ae167a65985db6e718445047bab1ae91",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "c20363551e93e7bb396c0111631dcde2fec0039866e02d20b130e58402fbf9d6",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "3e7c535ec44223eff986d371b529c17a1f95a2e0999f4035a210efdc1654bd34",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "41d48522c145041f66cd09831fa0e54250d939474be741dfee02f807252ea89e",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "9d82a35489fef29fcd01b8ce6447771dbb0769510636a6f21c93858b1caade93",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "9f11e39a7820edf0c1cb67c2bb40147c7731e7434d2b9a28c001d33464474d13",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "c0084f0e987db4bd834bdc5bd206f862d0559df820e23d1f3390f00a07262359",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "3465a2c38344b857137ccc8884044ae9d282ea46a0d97ac46588f719e00dd8b0",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "fdadea7a6b27c9b84c2ba886fcbfd467cfe2e999f1b058cd1ede424b5c9d3c95",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "348325a6ba8daafcda1128e1bd7314c56f451764837a8f6f2c13b4f7f57fe352",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "083e077608cfec3bbf6b3cb9b1ff2388156eae2cfd2960d57dfe2e3b72777fec",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "1424b8118e5b1477f49d0e53a500ff9e1b4c990ca663465c7c47f6b41b6654d4",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "b483f2017c90cae0d90daa93555e32c10eae7ab581991f65a5e44dc605f22615",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "2ea37a73ae30bbbd410d2d4242e51e31193cd9229c5f841dc3f793854b5755a8",
+        "python_random_used": false,
+        "language_detector": true
+      }
+    ],
+    "ifeval_note": "Unchanged official scorer can sample fallback constraints for invalid parameters; primary scores always use the actual original Harness flags. Independent full deterministic replay is not claimed without captured scorer RNG state.",
+    "unique_gsm_questions": 1319,
+    "unique_ifeval_prompts": 541
+  },
+  {
+    "model": "fft",
+    "task_group": "belebele",
+    "candidate_likelihood_argmax_and_actual_gold_recomputed": true,
+    "sample_files": 2,
+    "samples": 1800
+  },
+  {
+    "model": "fft",
+    "task_group": "gmmlu",
+    "candidate_likelihood_argmax_and_actual_gold_recomputed": true,
+    "sample_files": 57,
+    "samples": 14042
+  },
+  {
+    "model": "fft",
+    "task_group": "mmlu",
+    "candidate_likelihood_argmax_and_actual_gold_recomputed": true,
+    "sample_files": 57,
+    "samples": 14042
+  },
+  {
+    "model": "fft",
+    "task_group": "flores200_en_sw_full_devtest_v2",
+    "samples": 1012,
+    "predictions_and_scoring_manifest_hashes_verified": true,
+    "actual_corpus_MT_recomputed": true
+  },
+  {
+    "model": "fft",
+    "task_group": "flores200_sw_en_full_devtest_v2",
+    "samples": 1012,
+    "predictions_and_scoring_manifest_hashes_verified": true,
+    "actual_corpus_MT_recomputed": true
+  },
+  {
+    "model": "fft",
+    "task_group": "xlsum_sw_v2",
+    "samples": 987,
+    "predictions_and_scoring_manifest_hashes_verified": true,
+    "actual_corpus_MT_recomputed": false
+  },
+  {
+    "model": "fft",
+    "task_group": "xlsum_en_v2",
+    "samples": 11535,
+    "predictions_and_scoring_manifest_hashes_verified": true,
+    "actual_corpus_MT_recomputed": false
+  },
+  {
+    "model": "lora",
+    "task_group": "belebele",
+    "candidate_likelihood_argmax_and_actual_gold_recomputed": true,
+    "sample_files": 2,
+    "samples": 1800
+  },
+  {
+    "model": "lora",
+    "task_group": "gmmlu",
+    "candidate_likelihood_argmax_and_actual_gold_recomputed": true,
+    "sample_files": 57,
+    "samples": 14042
+  },
+  {
+    "model": "lora",
+    "task_group": "mmlu",
+    "candidate_likelihood_argmax_and_actual_gold_recomputed": true,
+    "sample_files": 57,
+    "samples": 14042
+  },
+  {
+    "model": "lora",
+    "task_group": "flores200_en_sw_full_devtest_v2",
+    "samples": 1012,
+    "predictions_and_scoring_manifest_hashes_verified": true,
+    "actual_corpus_MT_recomputed": true
+  },
+  {
+    "model": "lora",
+    "task_group": "flores200_sw_en_full_devtest_v2",
+    "samples": 1012,
+    "predictions_and_scoring_manifest_hashes_verified": true,
+    "actual_corpus_MT_recomputed": true
+  },
+  {
+    "model": "lora",
+    "task_group": "xlsum_sw_v2",
+    "samples": 987,
+    "predictions_and_scoring_manifest_hashes_verified": true,
+    "actual_corpus_MT_recomputed": false
+  },
+  {
+    "model": "lora",
+    "task_group": "xlsum_en_v2",
+    "samples": 11535,
+    "predictions_and_scoring_manifest_hashes_verified": true,
+    "actual_corpus_MT_recomputed": false
+  },
+  {
+    "model": "lora",
+    "task_group": "core",
+    "official_gsm_regex_and_exact_match_reexecuted": true,
+    "ifeval_saved_official_flags_aggregated_and_instruction_counts_verified": true,
+    "ifeval_deterministic_prompts_reexecuted": 508,
+    "ifeval_stochastic_or_language_prompts_not_claimed_exact_rescore": [
+      {
+        "item_id_sha256": "0234a350f4d56ae45c5ece57b08c54496f372bc570bd83a465fb6d2d85531479",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "49f65dc5d4333e3ed1ba4c9bbea03134a985509541efa8a4955542d50dea45f0",
+        "python_random_used": true,
+        "language_detector": false
+      },
+      {
+        "item_id_sha256": "b16781f85251cf7a5bab973eb0927776b89a75f8def28c649ae65e01b3db5e28",
+        "python_random_used": true,
+        "language_detector": false
+      },
+      {
+        "item_id_sha256": "227e4918add1d7964e1745439f5cf44f3e3aba15de6f570942d418510b022b9d",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "4ec621b227e30e8a72d97865785a0bf20b5032024c589a56e1a6b18a099bdb7c",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "4d231049a895fe6ccb92cac773d7c76dfe7934209ca8de35548ec7a7f523fb2c",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "78cee6c1e2eb2e74f8a3eb06342910344c22b2c264a3e21cbe03a6cc70868e7e",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "40ed3b1cf3b47983afe652cbc151885cb494796828ded64b586a879d316ce531",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "6ec1347c314a6f863c818c6b80f7f01cd68a924d3c5761de0a9105abbda2c302",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "0e44aab7746dacc614c9ea91024c79663206387f5ee2e492039e1283df5f8d3d",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "ace0a6094deb7f50ce512cf5fb92bea01782106d93c266cdc0d3c7c5fe083593",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "c8667ccb085d7d974de35671652e1f30021622e4247181e271236b819d8f4eca",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "58e139bbd012d7a0f6b0ae35a2fb2135ffbfefce291177325d851dbdb5483ac7",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "a446cbd71cd9a5a8c929b9f1e4bdb4488dada3661ef896b27fe7a79f7966d1e6",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "5dbf53591a9e40e4245b608bd3f5eda76f8a2704c85eeb141d8915ace8c94ad6",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "72cb8cd083a5278730209f1ef0dead8421f974441fdddb88c82cc0301d293d9a",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "d9d1f554239abcf9dd7f6d9f3ba957331ce69f6cec4e6d0e7ab537fb21df4bef",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "3332300cb375f3fb00ce2e3e1e73770f115fd39602012847a83f08327ced169f",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "47cca5335abc693741cb7dd0c0da6fdddfcec7220b322c05b63d46b5387f44f1",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "346947ad3b3d96545b9d95c2ad7ee921ae167a65985db6e718445047bab1ae91",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "c20363551e93e7bb396c0111631dcde2fec0039866e02d20b130e58402fbf9d6",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "3e7c535ec44223eff986d371b529c17a1f95a2e0999f4035a210efdc1654bd34",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "41d48522c145041f66cd09831fa0e54250d939474be741dfee02f807252ea89e",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "9d82a35489fef29fcd01b8ce6447771dbb0769510636a6f21c93858b1caade93",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "9f11e39a7820edf0c1cb67c2bb40147c7731e7434d2b9a28c001d33464474d13",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "c0084f0e987db4bd834bdc5bd206f862d0559df820e23d1f3390f00a07262359",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "3465a2c38344b857137ccc8884044ae9d282ea46a0d97ac46588f719e00dd8b0",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "fdadea7a6b27c9b84c2ba886fcbfd467cfe2e999f1b058cd1ede424b5c9d3c95",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "348325a6ba8daafcda1128e1bd7314c56f451764837a8f6f2c13b4f7f57fe352",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "083e077608cfec3bbf6b3cb9b1ff2388156eae2cfd2960d57dfe2e3b72777fec",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "1424b8118e5b1477f49d0e53a500ff9e1b4c990ca663465c7c47f6b41b6654d4",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "b483f2017c90cae0d90daa93555e32c10eae7ab581991f65a5e44dc605f22615",
+        "python_random_used": false,
+        "language_detector": true
+      },
+      {
+        "item_id_sha256": "2ea37a73ae30bbbd410d2d4242e51e31193cd9229c5f841dc3f793854b5755a8",
+        "python_random_used": false,
+        "language_detector": true
+      }
+    ],
+    "ifeval_note": "Unchanged official scorer can sample fallback constraints for invalid parameters; primary scores always use the actual original Harness flags. Independent full deterministic replay is not claimed without captured scorer RNG state.",
+    "unique_gsm_questions": 1319,
+    "unique_ifeval_prompts": 541
+  },
+  {
+    "model": "ssu",
+    "task_group": "belebele",
+    "candidate_likelihood_argmax_and_actual_gold_recomputed": true,
+    "sample_files": 2,
+    "samples": 1800
+  },
+  {
+    "model": "ssu",
+    "task_group": "gmmlu",
+    "candidate_likelihood_argmax_and_actual_gold_recomputed": true,
+    "sample_files": 57,
+    "samples": 14042
+  },
+  {
+    "model": "ssu",
+    "task_group": "flores200_en_sw_full_devtest_v2",
+    "samples": 1012,
+    "predictions_and_scoring_manifest_hashes_verified": true,
+    "actual_corpus_MT_recomputed": true
+  },
+  {
+    "model": "ssu",
+    "task_group": "flores200_sw_en_full_devtest_v2",
+    "samples": 1012,
+    "predictions_and_scoring_manifest_hashes_verified": true,
+    "actual_corpus_MT_recomputed": true
+  },
+  {
+    "model": "ssu",
+    "task_group": "xlsum_sw_v2",
+    "samples": 987,
+    "predictions_and_scoring_manifest_hashes_verified": true,
+    "actual_corpus_MT_recomputed": false
+  }
+]

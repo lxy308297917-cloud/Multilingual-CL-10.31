@@ -1,0 +1,66 @@
+{
+  "status": "FROZEN_DATA_CANDIDATE_NOT_TRAINED",
+  "rows": 6400,
+  "model_revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "selection_seed": "aya-4b-task-aligned-v1-seed42",
+  "parent_data_manifest_sha256": "c52a1e7016a2460b51b08ca2133f53cab118674595a0fb3739d96c4d4357021c",
+  "task_stats": {
+    "reading": {
+      "rows": 1280,
+      "input_tokens": 303112,
+      "assistant_tokens": 11572
+    },
+    "summary_native": {
+      "rows": 640,
+      "input_tokens": 528357,
+      "assistant_tokens": 38330
+    },
+    "knowledge": {
+      "rows": 640,
+      "input_tokens": 45839,
+      "assistant_tokens": 5113
+    },
+    "commonsense": {
+      "rows": 640,
+      "input_tokens": 119350,
+      "assistant_tokens": 28867
+    },
+    "en_to_sw": {
+      "rows": 1600,
+      "input_tokens": 166043,
+      "assistant_tokens": 82000
+    },
+    "sw_to_en": {
+      "rows": 1600,
+      "input_tokens": 166043,
+      "assistant_tokens": 44043
+    }
+  },
+  "input_tokens": 1328744,
+  "shifted_assistant_tokens": 209925,
+  "translation_unique_parallel_groups": 1600,
+  "translation_rows": 3200,
+  "original640parallelgroups_retained": true,
+  "removed_task": "summary_instructional/AyaWikiLingua",
+  "unchanged_source_rows": "Reading/news subsets of parent; all640HotpotQA and640PIQA retained; nativeQA contextcrop inherited, no test-score selection",
+  "source_parallel_zip_sha256": "026c58fdb52245e3da1b7c3615089758a1c5114fdd2a8b539ad91565fd32fa7b",
+  "tokenizer_sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+  "template_config_sha256": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+  "full_6400_nonthinking_prefix_and_im_end_labels_verified": true,
+  "truncated_selected_examples": 0,
+  "limitations": [
+    "Same6400examples/400steps/effectivebatch16, but input/supervisedtokenbudgets differ fromv1",
+    "Token share is not gradient contribution; recipe change tests a joint rebalancing hypothesis, not a pure one-variable gradient mechanism",
+    "Knowledge source is unchanged and not57subject MMLU training; no promise of knowledge gain",
+    "Translation heldoutgroup rule remains10% and both directions stay in one split"
+  ],
+  "files": {
+    "dataset_info.json": "d5af798bb2fa4bfa534e7a22dd028f274aacbcca0c284a3d9e7a5e52cfcd1c91",
+    "train6400.jsonl": "1140882af3142ec9005122d6441b2e3e94129da67e4304ffc49154fe71b77dc6",
+    "train6400.provenance.jsonl": "64db7eb3a76871c6f4007e1d94fd392b3f4a15b6350c36480e931edbc2adf2e0",
+    "train6400_tokenized/dataset_dict.json": "c172eebfc28c1400d6be4338ce7d00191507ffb4ae64c315f039585c894df5b7",
+    "train6400_tokenized/train/dataset_info.json": "2d4d048eea9f68a62b9488465df49de56fff8c40382878d73a820bae08a5da5e",
+    "train6400_tokenized/train/state.json": "c800dc8afbe7b403cee366a7cd563623ae8f19c462e2037064946507182aa3af",
+    "train6400_tokenized/train/data-00000-of-00001.arrow": "82b178ec3f866b79af58f57e8ce3d409ee59ec05db84e63857a476d37a37569f"
+  }
+}

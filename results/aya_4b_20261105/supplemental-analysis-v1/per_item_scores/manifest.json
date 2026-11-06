@@ -1,0 +1,98 @@
+[
+  {
+    "model": "base",
+    "task": "xnli_sw",
+    "metric": "ACC",
+    "file": "base_xnli_sw.csv.gz",
+    "sha256": "f1a9cb66eada10b2f14429c509a9e93176790151126d34af6c747807d7f7e9a5",
+    "rows": 5010
+  },
+  {
+    "model": "base",
+    "task": "xnli_en",
+    "metric": "ACC",
+    "file": "base_xnli_en.csv.gz",
+    "sha256": "fee1c1bf6c10ac5d8d45b017d435249b259b0e0e3c00743dbb12b29d74dcbec8",
+    "rows": 5010
+  },
+  {
+    "model": "base",
+    "task": "xcopa_sw",
+    "metric": "ACC",
+    "file": "base_xcopa_sw.csv.gz",
+    "sha256": "6cf4855131d3ec6dbd6c9b25da63856986ea411b4612d7609dba469ee9474542",
+    "rows": 500
+  },
+  {
+    "model": "lora",
+    "task": "xnli_sw",
+    "metric": "ACC",
+    "file": "lora_xnli_sw.csv.gz",
+    "sha256": "574762160fad052cc84efad9ebbe35599c57216925f3dbdd0b90366645dfbf22",
+    "rows": 5010
+  },
+  {
+    "model": "lora",
+    "task": "xnli_en",
+    "metric": "ACC",
+    "file": "lora_xnli_en.csv.gz",
+    "sha256": "44d2518f24a2df68bdde95cc6d0c0342166e4863a46080d8f7e93818f5f31502",
+    "rows": 5010
+  },
+  {
+    "model": "lora",
+    "task": "xcopa_sw",
+    "metric": "ACC",
+    "file": "lora_xcopa_sw.csv.gz",
+    "sha256": "d7c8b84f71b70d5cb9510fc251932e8f2292198c510dee4934cf682029c24bc5",
+    "rows": 500
+  },
+  {
+    "model": "fft",
+    "task": "xnli_sw",
+    "metric": "ACC",
+    "file": "fft_xnli_sw.csv.gz",
+    "sha256": "978a847e4818c15acdb329b3843f994ea171a0dd0534c2d61fcda4186f5c3017",
+    "rows": 5010
+  },
+  {
+    "model": "fft",
+    "task": "xnli_en",
+    "metric": "ACC",
+    "file": "fft_xnli_en.csv.gz",
+    "sha256": "10ef31e5f6adadbe2b76d71800c241ea6a394f2ae2c8871c5ca4ab8eb2e6820b",
+    "rows": 5010
+  },
+  {
+    "model": "fft",
+    "task": "xcopa_sw",
+    "metric": "ACC",
+    "file": "fft_xcopa_sw.csv.gz",
+    "sha256": "0b4e208bc790da10fe5d92635399a553a9def1e0ef20f63441de78ef426f287f",
+    "rows": 500
+  },
+  {
+    "model": "ssu",
+    "task": "xnli_sw",
+    "metric": "ACC",
+    "file": "ssu_xnli_sw.csv.gz",
+    "sha256": "6f13d38bb2b2f094b965096ce2594c8543f55ddeaa3f791e7cfa2f9ff02eaf29",
+    "rows": 5010
+  },
+  {
+    "model": "ssu",
+    "task": "xnli_en",
+    "metric": "ACC",
+    "file": "ssu_xnli_en.csv.gz",
+    "sha256": "e1bc4d4348dd716a5ca166c41dd7ea87a540aa5095443a29c48dece0c59a1d7d",
+    "rows": 5010
+  },
+  {
+    "model": "ssu",
+    "task": "xcopa_sw",
+    "metric": "ACC",
+    "file": "ssu_xcopa_sw.csv.gz",
+    "sha256": "b5d42d4de53939cb6f4bcccecfb616b5c7d5f9cfada2525c286d4c33b0074f71",
+    "rows": 500
+  }
+]

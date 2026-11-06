@@ -1,0 +1,15 @@
+{
+  "extension_name": "cpu_adam",
+  "sha256": "5227647d72d1994146fc57b0572a0316864d12dcf9de6910391f448722679bc9",
+  "bytes": 19737976,
+  "used_by": [
+    "fft",
+    "ssu"
+  ],
+  "deepspeed_version": "0.17.6",
+  "training_torch": "2.6.0+cu118",
+  "python": "3.11.18",
+  "behavior": "Existing compatible CPUAdam extension loaded read-only; no framework/optimizer update kernel rewritten",
+  "optimizer_binding": "Existing wrapper verifies actual optimizer group identity and records applied LR each of400steps",
+  "portable_setup": "Build compatible extension in your training environment and set AYA4B_CPU_ADAM_SO; shared binary is not included"
+}

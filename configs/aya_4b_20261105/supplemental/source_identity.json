@@ -1,0 +1,41 @@
+{
+  "task_files": [
+    {
+      "file": "xnli_en.yaml",
+      "actual_frozen_yaml_sha256": "90a1d23c65fd775d68f3e8bce80e71bb97650df756d846cd7f1bef1c752bc30b",
+      "public_path_adapted_sha256": "8daf8e3737010bef50a3773082a89f444897a0c2a806dede45ca1a8e9e51199d",
+      "change": "Deployment path prefix only; question templates,labels,shots,metrics unchanged"
+    },
+    {
+      "file": "xcopa_sw_dev.yaml",
+      "actual_frozen_yaml_sha256": "a3b5bd89faead7395bc5c6e2ba2e60c115141b7622035f6478d54ebf46bf3128",
+      "public_path_adapted_sha256": "1228cb863cbb8bd3e66422284f69baf0e9eee97f5ce6eece0c7c4a1ad56d881b",
+      "change": "Deployment path prefix only; question templates,labels,shots,metrics unchanged"
+    },
+    {
+      "file": "xcopa_sw.yaml",
+      "actual_frozen_yaml_sha256": "b83b67c87f3056a457bdd69480926605ffeb919ad6d4fe97f5d7cd2aba6d6369",
+      "public_path_adapted_sha256": "857dfc39af8155f69420a979a68a1637ce56904caf4b04dbcbedcf2560583ce7",
+      "change": "Deployment path prefix only; question templates,labels,shots,metrics unchanged"
+    },
+    {
+      "file": "xnli_en_dev.yaml",
+      "actual_frozen_yaml_sha256": "7bd508675b3a0894bbcf835098a254e17c0a60de0e95e8bf082a74e1011aef41",
+      "public_path_adapted_sha256": "836b317fd79163f1d3b00a5eaddfd589c7825a262850bc84599a2ce1979f6234",
+      "change": "Deployment path prefix only; question templates,labels,shots,metrics unchanged"
+    },
+    {
+      "file": "xnli_sw_dev.yaml",
+      "actual_frozen_yaml_sha256": "8409a8fc176d8221d3ec3ac1aaacee8f82fd36531d725f74adf6e310b162e0a4",
+      "public_path_adapted_sha256": "2bfac5a69b08dc7e46d6a98a4017bf292c22be6ab5169cc39b3c18df8299ffe5",
+      "change": "Deployment path prefix only; question templates,labels,shots,metrics unchanged"
+    },
+    {
+      "file": "xnli_sw.yaml",
+      "actual_frozen_yaml_sha256": "9786813fcc77746ac516495a33e952b259b123663b738c8e829018c0e8c328a3",
+      "public_path_adapted_sha256": "dd2c194c43ecba0df8dd96f7a060cc9599079da24a6068b88ab1dfaedf5bf9a9",
+      "change": "Deployment path prefix only; question templates,labels,shots,metrics unchanged"
+    }
+  ],
+  "no_raw_dataset_content": true
+}

@@ -1,0 +1,113 @@
+{
+  "status": "DATA_READY_NOT_TRAINED",
+  "model": "${MODEL}",
+  "tokenizer_sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+  "template_config_sha256": "d5d09f07b48c3086c508b30d1c9114bd1189145b74e982a265350c923acd8101",
+  "rows": 6400,
+  "selection_seed": "aya-4b-task-aligned-v1-seed42",
+  "task_stats": {
+    "reading": {
+      "rows": 1920,
+      "input_tokens": 449375,
+      "assistant_tokens": 17066
+    },
+    "summary_native": {
+      "rows": 1280,
+      "input_tokens": 1071073,
+      "assistant_tokens": 76673
+    },
+    "summary_instructional": {
+      "rows": 640,
+      "input_tokens": 557076,
+      "assistant_tokens": 147584
+    },
+    "knowledge": {
+      "rows": 640,
+      "input_tokens": 45839,
+      "assistant_tokens": 5113
+    },
+    "commonsense": {
+      "rows": 640,
+      "input_tokens": 119350,
+      "assistant_tokens": 28867
+    },
+    "en_to_sw": {
+      "rows": 640,
+      "input_tokens": 65589,
+      "assistant_tokens": 32145
+    },
+    "sw_to_en": {
+      "rows": 640,
+      "input_tokens": 65589,
+      "assistant_tokens": 17444
+    }
+  },
+  "input_tokens": 2373891,
+  "shifted_assistant_tokens": 324892,
+  "truncated_selected_examples": 0,
+  "native_qa_context_policy": "If context exceeds 1400 tokens, answer-preserving fixed window before SFT encoding; selected full examples are not truncated",
+  "qa_context_cropped_in_pool": 14,
+  "selected_qa_context_cropped": 10,
+  "translation_unique_parallel_groups": 640,
+  "translation_rows": 1280,
+  "rejections": {
+    "qa_span_mismatch": 478,
+    "exact_known_eval_text": 202,
+    "empty_or_damaged": 537,
+    "duplicate_prompt": 17,
+    "overlong_complete_example": 128
+  },
+  "aya_source_lock": {
+    "repo": "CohereLabs/aya_collection_language_split",
+    "revision": "a3af2fde4b4cb5b2775830b11244a1a20b5f004f",
+    "split": "train",
+    "source_file": "swahili/train-00000-of-00001.parquet",
+    "path": "${SECONDARY_ROOT}/datasets/qwen3-sft-source-audit-20261031/CohereLabs--aya_collection_language_split/a3af2fde4b4cb5b2775830b11244a1a20b5f004f/train-00000-of-00001.parquet",
+    "bytes": 865819355,
+    "sha256": "96147702c0faa8e4d5f4a0512fb570b7cb490a16f4d1c61b5177a90ed952a87b",
+    "sha256_matches_hub_lfs_oid": true
+  },
+  "native_summary_archive_sha256": "cf820351b803cc212194e798278628a2f6cf52426fd5166327b657b4cea473bf",
+  "download_sources": {
+    "status": "COMPLETE",
+    "sources": [
+      {
+        "name": "tydiqa-secondary-train.parquet",
+        "url": "https://huggingface.co/datasets/google-research-datasets/tydiqa/resolve/da78f23f9119363459acbaf46bf89426ff26c259/secondary_task/train-00000-of-00001.parquet",
+        "repository": "google-research-datasets/tydiqa",
+        "revision": "da78f23f9119363459acbaf46bf89426ff26c259",
+        "split": "train",
+        "maximum_bytes": 314572800,
+        "resolved_url": "https://us.aws.cdn.hf.co/xet-bridge-us/621ffdd236468d709f181fe6/4452687878fb2f69157814ef01c0f479f952e5cb280c6b5c260e2584d22f09ea?xip=iqLYcdWFl3o&user_id=public&X-Xet-Cas-Uid=public&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27train-00000-of-00001.parquet%3B+filename%3D%22train-00000-of-00001.parquet%22%3B&Expires=1793893455&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly91cy5hd3MuY2RuLmhmLmNvL3hldC1icmlkZ2UtdXMvNjIxZmZkZDIzNjQ2OGQ3MDlmMTgxZmU2LzQ0NTI2ODc4NzhmYjJmNjkxNTc4MTRlZjAxYzBmNDc5Zjk1MmU1Y2IyODBjNmI1YzI2MGUyNTg0ZDIyZjA5ZWFcXD94aXA9aXFMWWNkV0ZsM28mdXNlcl9pZD1wdWJsaWMmWC1YZXQtQ2FzLVVpZD1wdWJsaWMmcmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj1pbmxpbmUlM0IrZmlsZW5hbWUlMkElM0RVVEYtOCUyNyUyN3RyYWluLTAwMDAwLW9mLTAwMDAxLnBhcnF1ZXQlM0IrZmlsZW5hbWUlM0QlMjJ0cmFpbi0wMDAwMC1vZi0wMDAwMS5wYXJxdWV0JTIyJTNCIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJFcG9jaFRpbWUiOjE3OTM4OTM0NTV9fX1dfQ__&Signature=MEUCIBWaDRtMvGyEpoKRR3ZypJf7lQp3qxAedPUdDDlh7l9EAiEAnL6Nflm0RsX5pBxFf58NcPdcrYbYg5hfDQyd6JR-R7k_&Key-Pair-Id=01KXEF4KZ1B6FV465MAWR4M21F&Hash-Algorithm=SHA256",
+        "sha256": "8139944554bcd89f6c4b167b93c9a63ec44a6d97b8caebe049061f78fcc0e786",
+        "bytes": 26918058
+      },
+      {
+        "name": "globalvoices-en-sw-v2018q4.zip",
+        "url": "https://object.pouta.csc.fi/OPUS-GlobalVoices/v2018q4/moses/en-sw.txt.zip",
+        "repository": "OPUS/GlobalVoices",
+        "revision": "v2018q4",
+        "split": "unpartitioned corpus; deterministic heldout groups before sampling",
+        "maximum_bytes": 104857600,
+        "resolved_url": "https://object.pouta.csc.fi/OPUS-GlobalVoices/v2018q4/moses/en-sw.txt.zip",
+        "sha256": "026c58fdb52245e3da1b7c3615089758a1c5114fdd2a8b539ad91565fd32fa7b",
+        "bytes": 2949574
+      }
+    ]
+  },
+  "limitations": [
+    "Not a semantic decontamination or native-speaker quality certification",
+    "Native reading QA is short-answer, not artificially generated four-option questions",
+    "Only exact existing evaluation text exclusions; formal test outcomes never enter selection",
+    "Two directions intentionally share 640 underlying parallel source groups, not 1280 independent pairs"
+  ],
+  "files": {
+    "dataset_info.json": "d5af798bb2fa4bfa534e7a22dd028f274aacbcca0c284a3d9e7a5e52cfcd1c91",
+    "train6400.jsonl": "9caa853fa92d16c18778186330bc60a26411f2ec2d56bb8d97bbb42cbe48f1fd",
+    "train6400.provenance.jsonl": "0cd62cb1d7863d3eb032d7b8609e42cc88e32552a4c82bd84ee31e621ac31ae5",
+    "train6400_tokenized/dataset_dict.json": "c172eebfc28c1400d6be4338ce7d00191507ffb4ae64c315f039585c894df5b7",
+    "train6400_tokenized/train/dataset_info.json": "2d4d048eea9f68a62b9488465df49de56fff8c40382878d73a820bae08a5da5e",
+    "train6400_tokenized/train/state.json": "3b1d394cebd41dd49f5fd3268cfd730d6f05e646a3f3e70d87e3ba3fe075c963",
+    "train6400_tokenized/train/data-00000-of-00001.arrow": "57e716e11b83d14363c726ed8fc5be64742b8f76b248f82945ce90efc1c21949"
+  }
+}

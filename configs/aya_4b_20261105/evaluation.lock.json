@@ -1,0 +1,40 @@
+{
+  "benchmarks": [
+    "flores200_en_sw_full_devtest_v2",
+    "flores200_sw_en_full_devtest_v2",
+    "xlsum_sw_v2",
+    "xlsum_en_v2"
+  ],
+  "prepared_data": "${DATA}/evaluation-v1",
+  "generation_adapter_parent_sha256": "a645d44d6676e06791f08d3eed6f7e8306a16720805396e0be332b670ea8e4ae",
+  "generation_adapter_sha256": "1d2917ad5086261ca6324e7eb0142aea71ca25ace29d6e185fa50aa62bbc7a79",
+  "changes": "Model revision and source hash paths only. Existing prompt construction, generation and scoring unchanged.",
+  "translation": {
+    "directions": [
+      "en->sw",
+      "sw->en"
+    ],
+    "samples_each": 1012,
+    "shots": 3,
+    "primary": "corpus chrF++",
+    "secondary": "BLEU",
+    "max_new_tokens": 512
+  },
+  "summary": {
+    "samples": {
+      "sw": 987,
+      "en": 11535
+    },
+    "primary": "ROUGE-Lsum",
+    "max_new_tokens": 256
+  },
+  "core": {
+    "tasks": [
+      "sft_v1_gsm8k",
+      "sft_v1_ifeval"
+    ],
+    "engine": "V0 as original Aya core evaluation",
+    "max_new_tokens": 1280,
+    "greedy": true
+  }
+}

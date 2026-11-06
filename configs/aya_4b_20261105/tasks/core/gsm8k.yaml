@@ -1,0 +1,17 @@
+include: ${HARNESS_TASKS}/gsm8k/gsm8k.yaml
+task: sft_v1_gsm8k
+dataset_path: parquet
+dataset_name: null
+dataset_kwargs:
+  data_files:
+    train: ${BENCHMARK_CACHE}/gsm8k/740312add88f781978c0658806c59bc2815b9866/main/train-00000-of-00001.parquet
+    test: ${BENCHMARK_CACHE}/gsm8k/740312add88f781978c0658806c59bc2815b9866/main/test-00000-of-00001.parquet
+generation_kwargs:
+  until:
+  - 'Question:'
+  - </s>
+  - <|im_end|>
+  do_sample: false
+  temperature: 0.0
+  max_gen_toks: 1280
+num_fewshot: 5

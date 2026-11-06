@@ -1,0 +1,110 @@
+[
+  {
+    "model": "base",
+    "task": "xnli_sw",
+    "metric": "ACC",
+    "score": 33.1936127744511,
+    "unit": "percent",
+    "samples": 5010,
+    "status": "VERIFIED_COMPLETE"
+  },
+  {
+    "model": "base",
+    "task": "xnli_en",
+    "metric": "ACC",
+    "score": 49.24151696606786,
+    "unit": "percent",
+    "samples": 5010,
+    "status": "VERIFIED_COMPLETE"
+  },
+  {
+    "model": "base",
+    "task": "xcopa_sw",
+    "metric": "ACC",
+    "score": 49.2,
+    "unit": "percent",
+    "samples": 500,
+    "status": "VERIFIED_COMPLETE"
+  },
+  {
+    "model": "lora",
+    "task": "xnli_sw",
+    "metric": "ACC",
+    "score": 36.96606786427146,
+    "unit": "percent",
+    "samples": 5010,
+    "status": "VERIFIED_COMPLETE"
+  },
+  {
+    "model": "lora",
+    "task": "xnli_en",
+    "metric": "ACC",
+    "score": 69.54091816367266,
+    "unit": "percent",
+    "samples": 5010,
+    "status": "VERIFIED_COMPLETE"
+  },
+  {
+    "model": "lora",
+    "task": "xcopa_sw",
+    "metric": "ACC",
+    "score": 52.0,
+    "unit": "percent",
+    "samples": 500,
+    "status": "VERIFIED_COMPLETE"
+  },
+  {
+    "model": "fft",
+    "task": "xnli_sw",
+    "metric": "ACC",
+    "score": 49.00199600798403,
+    "unit": "percent",
+    "samples": 5010,
+    "status": "VERIFIED_COMPLETE"
+  },
+  {
+    "model": "fft",
+    "task": "xnli_en",
+    "metric": "ACC",
+    "score": 83.41317365269461,
+    "unit": "percent",
+    "samples": 5010,
+    "status": "VERIFIED_COMPLETE"
+  },
+  {
+    "model": "fft",
+    "task": "xcopa_sw",
+    "metric": "ACC",
+    "score": 49.2,
+    "unit": "percent",
+    "samples": 500,
+    "status": "VERIFIED_COMPLETE"
+  },
+  {
+    "model": "ssu",
+    "task": "xnli_sw",
+    "metric": "ACC",
+    "score": 43.31337325349301,
+    "unit": "percent",
+    "samples": 5010,
+    "status": "VERIFIED_COMPLETE"
+  },
+  {
+    "model": "ssu",
+    "task": "xnli_en",
+    "metric": "ACC",
+    "score": 78.16367265469061,
+    "unit": "percent",
+    "samples": 5010,
+    "status": "VERIFIED_COMPLETE"
+  },
+  {
+    "model": "ssu",
+    "task": "xcopa_sw",
+    "metric": "ACC",
+    "score": 52.8,
+    "unit": "percent",
+    "samples": 500,
+    "status": "VERIFIED_COMPLETE"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "original_mask_sha256": "2550dfd33a1701aa7b61b67b936630e392dc066bf191dbe0a4d61f4138a03744",
+  "gzip_sha256": "753ca85fee24e85e62eba8e327b49514445597d0e0049545bde8cfc762768bf2",
+  "compressed_bytes": 698878,
+  "parameter_masks": 398,
+  "protected_unique_elements": 1816796928,
+  "total_unique_parameters": 4022468096,
+  "protected_fraction": 0.45166223438954034,
+  "model_config_sha256": "8ba006f74fecfaaeb392872a60f4a480e7ec9860153d2e1b769ec81f9a147f8a",
+  "tokenizer_sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+  "contains": "Frozen parameter indices, mask rule and aggregate calibration activation ranges; no weights or calibration text",
+  "reproduction": "Decompress to an ordinary JSON file; train_cpu.py --mask requires this FILE, not a directory."
+}

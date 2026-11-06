@@ -1,0 +1,34 @@
+{
+  "status": "EXACT_ORIGINAL_FROZEN_MANIFESTS_AND_DATA_HASHES_VERIFIED",
+  "manifests": [
+    {
+      "benchmark": "flores200_en_sw_full_devtest_v2",
+      "manifest_sha256": "fb9e3e4cd2bd31a230d5f866ce34e56c2813aec8a8d2914d6ddaa348af2168db",
+      "data_sha256": "962873c694e06f8fc51fc9aaf60bd4936e937ed7969ee9b7c9438ed15645431c",
+      "samples": 1012,
+      "frozen_manifest_run_status_is_not_execution_state": true
+    },
+    {
+      "benchmark": "flores200_sw_en_full_devtest_v2",
+      "manifest_sha256": "c0bddf8a0195acb92e8652b77d23b29a17c01c3cd0373821e1aab66d88c96a22",
+      "data_sha256": "84d78ac3cded1563dc8dbf491b8e3ab5faa8735f528e240056452f838cd05780",
+      "samples": 1012,
+      "frozen_manifest_run_status_is_not_execution_state": true
+    },
+    {
+      "benchmark": "xlsum_en_v2",
+      "manifest_sha256": "191e9f8711b01330a707d9732a85004a7d0d7204d745a4a48e026e0ea0427af8",
+      "data_sha256": "296eaacf964c366948ce588f09482112a60e376a5932b8cacde902324e8bea20",
+      "samples": 11535,
+      "frozen_manifest_run_status_is_not_execution_state": true
+    },
+    {
+      "benchmark": "xlsum_sw_v2",
+      "manifest_sha256": "1b3c316c67d0787de2152106da639d8e3a2744647a4896ed0731e9d78355142f",
+      "data_sha256": "7a2a449245c044386030adc9a60ea0c1c8c62354458dc2ad40e10b1e64990d5e",
+      "samples": 987,
+      "frozen_manifest_run_status_is_not_execution_state": true
+    }
+  ],
+  "contains_raw_benchmark_text": false
+}

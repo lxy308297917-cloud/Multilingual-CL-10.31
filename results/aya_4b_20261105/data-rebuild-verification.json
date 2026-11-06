@@ -1,0 +1,15 @@
+{
+  "status": "VERIFIED_EXACT_REBUILD_ALL_FROZEN_FILES",
+  "files_verified": {
+    "dataset_info.json": "d5af798bb2fa4bfa534e7a22dd028f274aacbcca0c284a3d9e7a5e52cfcd1c91",
+    "train6400.jsonl": "9caa853fa92d16c18778186330bc60a26411f2ec2d56bb8d97bbb42cbe48f1fd",
+    "train6400.provenance.jsonl": "0cd62cb1d7863d3eb032d7b8609e42cc88e32552a4c82bd84ee31e621ac31ae5",
+    "train6400_tokenized/dataset_dict.json": "c172eebfc28c1400d6be4338ce7d00191507ffb4ae64c315f039585c894df5b7",
+    "train6400_tokenized/train/dataset_info.json": "2d4d048eea9f68a62b9488465df49de56fff8c40382878d73a820bae08a5da5e",
+    "train6400_tokenized/train/state.json": "3b1d394cebd41dd49f5fd3268cfd730d6f05e646a3f3e70d87e3ba3fe075c963",
+    "train6400_tokenized/train/data-00000-of-00001.arrow": "57e716e11b83d14363c726ed8fc5be64742b8f76b248f82945ce90efc1c21949"
+  },
+  "rows": 6400,
+  "input_label_fingerprints_previously_verified": 6400,
+  "provenance_file_added_from_exact_frozen_selection_bytes": true
+}

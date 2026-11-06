@@ -1,0 +1,24 @@
+{
+  "status": "VERIFIED",
+  "translation_samples": {
+    "sw_to_en": 640,
+    "en_to_sw": 640
+  },
+  "independent_parallel_groups": 640,
+  "all_direction_prompts_and_targets_match_original_parallel_lines": true,
+  "rows_supervising_im_end_then_newline": 6400,
+  "ending_tokens": [
+    151645,
+    198
+  ],
+  "translation_eval_stop_tokens": [
+    151645,
+    151643
+  ],
+  "note": "Last token alone is newline198, not missing EOS; im_end151645 is correctly supervised immediately before newline. No missing-end-label explanation was established.",
+  "source_sha256": {
+    "parallel_zip": "026c58fdb52245e3da1b7c3615089758a1c5114fdd2a8b539ad91565fd32fa7b",
+    "train": "9caa853fa92d16c18778186330bc60a26411f2ec2d56bb8d97bbb42cbe48f1fd",
+    "provenance": "0cd62cb1d7863d3eb032d7b8609e42cc88e32552a4c82bd84ee31e621ac31ae5"
+  }
+}
