@@ -1,0 +1,241 @@
+[
+  {
+    "model": "base",
+    "task_group": "flores200_en_sw_full_devtest_v2",
+    "samples": 1012,
+    "generation_hit_cap_count": 345,
+    "empty_prediction_count": 0,
+    "article_truncated_count": 0,
+    "mean_generated_tokens": 215.76284584980237,
+    "median_generated_tokens": 76.0,
+    "finish_reason_counts": {
+      "length": 345,
+      "stop": 667
+    },
+    "use": "Output-length/empty/truncation diagnosis only; no generation tuning or checkpoint selection"
+  },
+  {
+    "model": "base",
+    "task_group": "flores200_sw_en_full_devtest_v2",
+    "samples": 1012,
+    "generation_hit_cap_count": 0,
+    "empty_prediction_count": 0,
+    "article_truncated_count": 0,
+    "mean_generated_tokens": 28.35375494071146,
+    "median_generated_tokens": 27.0,
+    "finish_reason_counts": {
+      "stop": 1012
+    },
+    "use": "Output-length/empty/truncation diagnosis only; no generation tuning or checkpoint selection"
+  },
+  {
+    "model": "base",
+    "task_group": "xlsum_sw_v2",
+    "samples": 987,
+    "generation_hit_cap_count": 976,
+    "empty_prediction_count": 0,
+    "article_truncated_count": 0,
+    "mean_generated_tokens": 255.66261398176292,
+    "median_generated_tokens": 256.0,
+    "finish_reason_counts": {
+      "length": 976,
+      "stop": 11
+    },
+    "use": "Output-length/empty/truncation diagnosis only; no generation tuning or checkpoint selection"
+  },
+  {
+    "model": "base",
+    "task_group": "xlsum_en_v2",
+    "samples": 11535,
+    "generation_hit_cap_count": 329,
+    "empty_prediction_count": 0,
+    "article_truncated_count": 0,
+    "mean_generated_tokens": 160.48131772865193,
+    "median_generated_tokens": 157.0,
+    "finish_reason_counts": {
+      "stop": 11206,
+      "length": 329
+    },
+    "use": "Output-length/empty/truncation diagnosis only; no generation tuning or checkpoint selection"
+  },
+  {
+    "model": "fft",
+    "task_group": "flores200_en_sw_full_devtest_v2",
+    "samples": 1012,
+    "generation_hit_cap_count": 811,
+    "empty_prediction_count": 0,
+    "article_truncated_count": 0,
+    "mean_generated_tokens": 419.37549407114625,
+    "median_generated_tokens": 512.0,
+    "finish_reason_counts": {
+      "length": 811,
+      "stop": 201
+    },
+    "use": "Output-length/empty/truncation diagnosis only; no generation tuning or checkpoint selection"
+  },
+  {
+    "model": "fft",
+    "task_group": "flores200_sw_en_full_devtest_v2",
+    "samples": 1012,
+    "generation_hit_cap_count": 8,
+    "empty_prediction_count": 0,
+    "article_truncated_count": 0,
+    "mean_generated_tokens": 30.210474308300395,
+    "median_generated_tokens": 25.0,
+    "finish_reason_counts": {
+      "stop": 1004,
+      "length": 8
+    },
+    "use": "Output-length/empty/truncation diagnosis only; no generation tuning or checkpoint selection"
+  },
+  {
+    "model": "fft",
+    "task_group": "xlsum_sw_v2",
+    "samples": 987,
+    "generation_hit_cap_count": 189,
+    "empty_prediction_count": 0,
+    "article_truncated_count": 0,
+    "mean_generated_tokens": 91.6676798378926,
+    "median_generated_tokens": 55.0,
+    "finish_reason_counts": {
+      "stop": 798,
+      "length": 189
+    },
+    "use": "Output-length/empty/truncation diagnosis only; no generation tuning or checkpoint selection"
+  },
+  {
+    "model": "fft",
+    "task_group": "xlsum_en_v2",
+    "samples": 11535,
+    "generation_hit_cap_count": 1520,
+    "empty_prediction_count": 0,
+    "article_truncated_count": 0,
+    "mean_generated_tokens": 95.61543129605549,
+    "median_generated_tokens": 62.0,
+    "finish_reason_counts": {
+      "stop": 10015,
+      "length": 1520
+    },
+    "use": "Output-length/empty/truncation diagnosis only; no generation tuning or checkpoint selection"
+  },
+  {
+    "model": "lora",
+    "task_group": "flores200_en_sw_full_devtest_v2",
+    "samples": 1012,
+    "generation_hit_cap_count": 769,
+    "empty_prediction_count": 0,
+    "article_truncated_count": 0,
+    "mean_generated_tokens": 401.05830039525694,
+    "median_generated_tokens": 512.0,
+    "finish_reason_counts": {
+      "stop": 243,
+      "length": 769
+    },
+    "use": "Output-length/empty/truncation diagnosis only; no generation tuning or checkpoint selection"
+  },
+  {
+    "model": "lora",
+    "task_group": "flores200_sw_en_full_devtest_v2",
+    "samples": 1012,
+    "generation_hit_cap_count": 5,
+    "empty_prediction_count": 0,
+    "article_truncated_count": 0,
+    "mean_generated_tokens": 30.67687747035573,
+    "median_generated_tokens": 27.0,
+    "finish_reason_counts": {
+      "stop": 1007,
+      "length": 5
+    },
+    "use": "Output-length/empty/truncation diagnosis only; no generation tuning or checkpoint selection"
+  },
+  {
+    "model": "lora",
+    "task_group": "xlsum_sw_v2",
+    "samples": 987,
+    "generation_hit_cap_count": 137,
+    "empty_prediction_count": 0,
+    "article_truncated_count": 0,
+    "mean_generated_tokens": 82.81256332320162,
+    "median_generated_tokens": 55.0,
+    "finish_reason_counts": {
+      "stop": 850,
+      "length": 137
+    },
+    "use": "Output-length/empty/truncation diagnosis only; no generation tuning or checkpoint selection"
+  },
+  {
+    "model": "lora",
+    "task_group": "xlsum_en_v2",
+    "samples": 11535,
+    "generation_hit_cap_count": 101,
+    "empty_prediction_count": 0,
+    "article_truncated_count": 0,
+    "mean_generated_tokens": 35.78508885999133,
+    "median_generated_tokens": 30.0,
+    "finish_reason_counts": {
+      "stop": 11434,
+      "length": 101
+    },
+    "use": "Output-length/empty/truncation diagnosis only; no generation tuning or checkpoint selection"
+  },
+  {
+    "model": "ssu",
+    "task_group": "flores200_en_sw_full_devtest_v2",
+    "samples": 1012,
+    "generation_hit_cap_count": 668,
+    "empty_prediction_count": 0,
+    "article_truncated_count": 0,
+    "mean_generated_tokens": 354.47332015810275,
+    "median_generated_tokens": 512.0,
+    "finish_reason_counts": {
+      "length": 668,
+      "stop": 344
+    },
+    "use": "Output-length/empty/truncation diagnosis only; no generation tuning or checkpoint selection"
+  },
+  {
+    "model": "ssu",
+    "task_group": "flores200_sw_en_full_devtest_v2",
+    "samples": 1012,
+    "generation_hit_cap_count": 11,
+    "empty_prediction_count": 0,
+    "article_truncated_count": 0,
+    "mean_generated_tokens": 33.269762845849804,
+    "median_generated_tokens": 27.0,
+    "finish_reason_counts": {
+      "stop": 1001,
+      "length": 11
+    },
+    "use": "Output-length/empty/truncation diagnosis only; no generation tuning or checkpoint selection"
+  },
+  {
+    "model": "ssu",
+    "task_group": "xlsum_sw_v2",
+    "samples": 987,
+    "generation_hit_cap_count": 129,
+    "empty_prediction_count": 0,
+    "article_truncated_count": 0,
+    "mean_generated_tokens": 80.7193515704154,
+    "median_generated_tokens": 54.0,
+    "finish_reason_counts": {
+      "stop": 858,
+      "length": 129
+    },
+    "use": "Output-length/empty/truncation diagnosis only; no generation tuning or checkpoint selection"
+  },
+  {
+    "model": "ssu",
+    "task_group": "xlsum_en_v2",
+    "samples": 11535,
+    "generation_hit_cap_count": 2351,
+    "empty_prediction_count": 0,
+    "article_truncated_count": 0,
+    "mean_generated_tokens": 149.92986562635457,
+    "median_generated_tokens": 137.0,
+    "finish_reason_counts": {
+      "stop": 9184,
+      "length": 2351
+    },
+    "use": "Output-length/empty/truncation diagnosis only; no generation tuning or checkpoint selection"
+  }
+]

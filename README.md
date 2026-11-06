@@ -1,15 +1,28 @@
 <!-- aya4b-current-start -->
 # Multilingual-CL：Qwen3-4B SW适配
 
-## 当前阶段交付 · 2026-11-06（仍在运行）
+## 完整四模型基线 · 2026-11-06
 
-原Base/FFT/LoRA/SSU训练均已核验；完整正式测评尚未测齐。当前已核验的64项分数、44个配对比较及待完成项见[阶段结果与交接](research/aya_4b_20261105/progress.md)。翻译数据重平衡LoRA候选仍训练中，未把候选或未完成结果写入正式模型列。
+原模型、FFT、LoRA、SSU-Wanda 的固定预算正式测评已完成：**80 项分数、60 项配对比较**，32 个模型／任务组的权重与协议身份核验通过。逐题统计和翻译语料统计可在 CPU 上独立复算，不需原始题目或权重。
 
-- [本轮研究入口](research/aya_4b_20261105/README.md) · [复现代码与数据身份](research/aya_4b_20261105/reproduction.md)
-- [新增XNLI/XCOPA完整比较](research/aya_4b_20261105/supplemental_benchmarks.md) · [XNLI提示敏感性开发对照](research/aya_4b_20261105/xnli_format_diagnosis.md)
-- [翻译解码诊断](research/aya_4b_20261105/translation_decoding_diagnosis.md) · [修正候选的冻结计划](research/aya_4b_20261105/translation_repair_candidate_plan.md)
+- [完整报告：设置、结果、成本与限制](research/aya_4b_20261105/final_report.md)
+- [主结果与配对区间](research/aya_4b_20261105/results.md)
+- [交给 ChatGPT 的总结](research/aya_4b_20261105/chatgpt_handoff.md)
+- [机器可读结果](results/aya_4b_20261105/analysis-v1/scores.csv)
+- [独立复算记录](results/aya_4b_20261105/analysis-v1/public_recomputation_verified.json)
+- [复现说明](research/aya_4b_20261105/reproduction.md)
 
-有阅读/摘要收益、SSU小幅知识收益和部分通用任务退化；翻译仍存在严重问题，尚未声称修复。旧数学路线B及取消方法保持停止。下方“进行中”等表述属于历史快照，本轮当前状态以上述入口为准。
+当前结果：阅读和摘要改善；SSU 的 SW 知识小幅提升；双向翻译仍落后于原模型。数学及指令遵循有下降，英语阅读和知识有提高，不能概括为英语整体退化。GSM8K strict/flexible 的差异另有提取敏感性统计。
+
+## 翻译修正与补充诊断
+
+第一个重平衡数据 LoRA 候选已完成，但开发区间跨零，尚未确认修复。第二个预定 LR2e-5 候选正在独立训练；不改原四模型结果，不用正式 test 调参，也不把开发分数当正式确认。
+
+- [第一个候选：完整结果和边界](research/aya_4b_20261105/translation_rebalanced_candidate_result.md)
+- [有限修正计划](research/aya_4b_20261105/translation_repair_candidate_plan.md)
+- [XNLI/XCOPA 与开发诊断的阶段记录](research/aya_4b_20261105/progress.md)
+
+只有一个训练种子；样本区间不代表跨训练种子稳定性。模型规模和数据同时改变，不能分别归因。旧路线 B 仍保持用户停止。以下保留历史项目记录，历史“进行中”字样不表示任务恢复。
 <!-- aya4b-current-end -->
 
 ---

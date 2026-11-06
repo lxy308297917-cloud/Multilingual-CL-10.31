@@ -1,0 +1,514 @@
+[
+  {
+    "model": "base",
+    "task": "Belebele EN",
+    "metric": "ACC",
+    "file": "base_Belebele_EN_ACC.csv.gz",
+    "rows": 900,
+    "sha256": "48164b671a223be119b80f6ac4db01bf6f0ad3450ff687a6cb9c55f73bfe5bd3"
+  },
+  {
+    "model": "base",
+    "task": "Belebele SW",
+    "metric": "ACC",
+    "file": "base_Belebele_SW_ACC.csv.gz",
+    "rows": 900,
+    "sha256": "87436e1d5e29ef5faa2cba78fe9781d3808a2e557a598a8f99c3456ff0767089"
+  },
+  {
+    "model": "base",
+    "task": "Global-MMLU SW",
+    "metric": "ACC",
+    "file": "base_Global-MMLU_SW_ACC.csv.gz",
+    "rows": 14042,
+    "sha256": "38619e4184598b5ff5a68fd850932750a90c290996cfa5aa1647e7fd35cc0bbe"
+  },
+  {
+    "model": "base",
+    "task": "MMLU EN",
+    "metric": "ACC",
+    "file": "base_MMLU_EN_ACC.csv.gz",
+    "rows": 14042,
+    "sha256": "d910159a45936ea97e6d6073af4236cb1fb85fb44bfd2675f2c86a821ceabd68"
+  },
+  {
+    "model": "base",
+    "task": "Summary SW",
+    "metric": "ROUGE-1",
+    "file": "base_Summary_SW_ROUGE-1.csv.gz",
+    "rows": 987,
+    "sha256": "50f9c5b5048b5367c6048eafbc00eba6739ea03fa6b80eb69944f5cb07ce23d2"
+  },
+  {
+    "model": "base",
+    "task": "Summary SW",
+    "metric": "ROUGE-2",
+    "file": "base_Summary_SW_ROUGE-2.csv.gz",
+    "rows": 987,
+    "sha256": "d6b99ef2c17addac3be6e8447ce298d57a8a43f497dd3982cc5ab86a845cb611"
+  },
+  {
+    "model": "base",
+    "task": "Summary SW",
+    "metric": "ROUGE-Lsum",
+    "file": "base_Summary_SW_ROUGE-Lsum.csv.gz",
+    "rows": 987,
+    "sha256": "567874757294fa0c3c57c0b125f461530d50718ecd1e7e995b303b10cfae29ec"
+  },
+  {
+    "model": "base",
+    "task": "Summary EN",
+    "metric": "ROUGE-1",
+    "file": "base_Summary_EN_ROUGE-1.csv.gz",
+    "rows": 11535,
+    "sha256": "d97e6cb46087af6cc41d3ba42c0c64366dfff353b97325dc620debc54c8b7137"
+  },
+  {
+    "model": "base",
+    "task": "Summary EN",
+    "metric": "ROUGE-2",
+    "file": "base_Summary_EN_ROUGE-2.csv.gz",
+    "rows": 11535,
+    "sha256": "f341995e77af0297c944bb906a9c169e7185e199c37aae007824425aa9e85b8d"
+  },
+  {
+    "model": "base",
+    "task": "Summary EN",
+    "metric": "ROUGE-Lsum",
+    "file": "base_Summary_EN_ROUGE-Lsum.csv.gz",
+    "rows": 11535,
+    "sha256": "6d04e49c3b5e0387c7e8507293e8780cfd6bee7f0175cb09137f09574936a397"
+  },
+  {
+    "model": "base",
+    "task": "GSM8K strict-match",
+    "metric": "ACC",
+    "file": "base_GSM8K_strict-match_ACC.csv.gz",
+    "rows": 1319,
+    "sha256": "8e5e72f2cfc2cb7dbc4ad12477c1e7c5dd63bf41f3f2f031783ba81e621af884"
+  },
+  {
+    "model": "base",
+    "task": "GSM8K flexible-extract",
+    "metric": "ACC",
+    "file": "base_GSM8K_flexible-extract_ACC.csv.gz",
+    "rows": 1319,
+    "sha256": "383669bd54f40abba2a52f9fa77c45fb20fa9a75b1ac74752dde3de320d1546f"
+  },
+  {
+    "model": "base",
+    "task": "IFEval",
+    "metric": "prompt_level_strict_acc",
+    "file": "base_IFEval_prompt_level_strict_acc.csv.gz",
+    "rows": 541,
+    "sha256": "c370579bc7f979a11bc596c6a2c948d2fd483f6b10e463f3821b6fe784a8f445"
+  },
+  {
+    "model": "base",
+    "task": "IFEval",
+    "metric": "inst_level_strict_acc",
+    "file": "base_IFEval_inst_level_strict_acc.csv.gz",
+    "rows": 541,
+    "sha256": "48d30ac200f0477d78b867594b793ca564efc1d3b1ae64743ef1635c3c12d081"
+  },
+  {
+    "model": "base",
+    "task": "IFEval",
+    "metric": "prompt_level_loose_acc",
+    "file": "base_IFEval_prompt_level_loose_acc.csv.gz",
+    "rows": 541,
+    "sha256": "f441dc7abe630ba864565a9581b8a231b556ec556c31bda133b68e500df353b7"
+  },
+  {
+    "model": "base",
+    "task": "IFEval",
+    "metric": "inst_level_loose_acc",
+    "file": "base_IFEval_inst_level_loose_acc.csv.gz",
+    "rows": 541,
+    "sha256": "3c58df012fd09f74eccd7cd9582d902ff71cdd8ea7a9b2ddb38dbd0f6efcdc9d"
+  },
+  {
+    "model": "fft",
+    "task": "Belebele EN",
+    "metric": "ACC",
+    "file": "fft_Belebele_EN_ACC.csv.gz",
+    "rows": 900,
+    "sha256": "4f01a70ebb8c42fb532ebe1d7f37e1d040d941c21316c47e798bbfa054eb7c1c"
+  },
+  {
+    "model": "fft",
+    "task": "Belebele SW",
+    "metric": "ACC",
+    "file": "fft_Belebele_SW_ACC.csv.gz",
+    "rows": 900,
+    "sha256": "952347b680eceb3e7502bf45d092d1cfd0e46f9ffa728c6ec1b5f82fa3ded39c"
+  },
+  {
+    "model": "fft",
+    "task": "Global-MMLU SW",
+    "metric": "ACC",
+    "file": "fft_Global-MMLU_SW_ACC.csv.gz",
+    "rows": 14042,
+    "sha256": "a2e254641345cb784feb801a60f37ca8937059b8a188b3b3e0f26d60e46c3914"
+  },
+  {
+    "model": "fft",
+    "task": "MMLU EN",
+    "metric": "ACC",
+    "file": "fft_MMLU_EN_ACC.csv.gz",
+    "rows": 14042,
+    "sha256": "f2b49af632e5d1f730714cb8d3386dcc6352044899f2313fd19a124ed4b8fb73"
+  },
+  {
+    "model": "fft",
+    "task": "Summary SW",
+    "metric": "ROUGE-1",
+    "file": "fft_Summary_SW_ROUGE-1.csv.gz",
+    "rows": 987,
+    "sha256": "979fa21436adcea3dc19f081e9e38ea7ca93e121ad0c0652c3b0349e9b567656"
+  },
+  {
+    "model": "fft",
+    "task": "Summary SW",
+    "metric": "ROUGE-2",
+    "file": "fft_Summary_SW_ROUGE-2.csv.gz",
+    "rows": 987,
+    "sha256": "c4ffd2c19e3fb7019a67c9a5e4d447dff2ea9caca56cd366a9b5383d04e084d0"
+  },
+  {
+    "model": "fft",
+    "task": "Summary SW",
+    "metric": "ROUGE-Lsum",
+    "file": "fft_Summary_SW_ROUGE-Lsum.csv.gz",
+    "rows": 987,
+    "sha256": "f3e262675fa024beb6be31d0762247f4a0cf88db1a639353ddd948cdc7a22a01"
+  },
+  {
+    "model": "fft",
+    "task": "Summary EN",
+    "metric": "ROUGE-1",
+    "file": "fft_Summary_EN_ROUGE-1.csv.gz",
+    "rows": 11535,
+    "sha256": "85f966cae3bd7907e230c97dc704c0e4c8d037d7fa24b73142cf4ccdbd87cdbb"
+  },
+  {
+    "model": "fft",
+    "task": "Summary EN",
+    "metric": "ROUGE-2",
+    "file": "fft_Summary_EN_ROUGE-2.csv.gz",
+    "rows": 11535,
+    "sha256": "76b73667399b98ae725e14d6954b0676c688d7f2964a2267533a1248f0dc03aa"
+  },
+  {
+    "model": "fft",
+    "task": "Summary EN",
+    "metric": "ROUGE-Lsum",
+    "file": "fft_Summary_EN_ROUGE-Lsum.csv.gz",
+    "rows": 11535,
+    "sha256": "4f829bae6dc6c7d9f0d00944cfc3ef6d497cf2d6c36f184c258515ca22f25bbb"
+  },
+  {
+    "model": "fft",
+    "task": "GSM8K strict-match",
+    "metric": "ACC",
+    "file": "fft_GSM8K_strict-match_ACC.csv.gz",
+    "rows": 1319,
+    "sha256": "ae7d1d149c684b2f8f86a4a3c58e456af38de23c745b4d4e6d8906c7366ee415"
+  },
+  {
+    "model": "fft",
+    "task": "GSM8K flexible-extract",
+    "metric": "ACC",
+    "file": "fft_GSM8K_flexible-extract_ACC.csv.gz",
+    "rows": 1319,
+    "sha256": "85a7a3d5b847eadffdd099b0f17b106ec28b347256727af2f4b00f7418f5e544"
+  },
+  {
+    "model": "fft",
+    "task": "IFEval",
+    "metric": "prompt_level_strict_acc",
+    "file": "fft_IFEval_prompt_level_strict_acc.csv.gz",
+    "rows": 541,
+    "sha256": "ac2b4eb727a140afeef941f39ac3a7690fdd88f6a3aa8fc5e9a57c5e631bd428"
+  },
+  {
+    "model": "fft",
+    "task": "IFEval",
+    "metric": "inst_level_strict_acc",
+    "file": "fft_IFEval_inst_level_strict_acc.csv.gz",
+    "rows": 541,
+    "sha256": "b11b95eb325d68c1cdfe405421ee85ca3341799fe6d9309644256291f2f69048"
+  },
+  {
+    "model": "fft",
+    "task": "IFEval",
+    "metric": "prompt_level_loose_acc",
+    "file": "fft_IFEval_prompt_level_loose_acc.csv.gz",
+    "rows": 541,
+    "sha256": "5730c00230cead3676275722d584d2016bdd0d49d237635f747c055ee834067d"
+  },
+  {
+    "model": "fft",
+    "task": "IFEval",
+    "metric": "inst_level_loose_acc",
+    "file": "fft_IFEval_inst_level_loose_acc.csv.gz",
+    "rows": 541,
+    "sha256": "eba38b04aa534463946ca7ef3ac1bd2b2b83ca303dce992ed23d33e94c9e05af"
+  },
+  {
+    "model": "lora",
+    "task": "Belebele EN",
+    "metric": "ACC",
+    "file": "lora_Belebele_EN_ACC.csv.gz",
+    "rows": 900,
+    "sha256": "4f9da0ddf9b0ea87f22639c6e73eddea0d6eba70b114b03d9f4855ff79b07f99"
+  },
+  {
+    "model": "lora",
+    "task": "Belebele SW",
+    "metric": "ACC",
+    "file": "lora_Belebele_SW_ACC.csv.gz",
+    "rows": 900,
+    "sha256": "2fa4e1811ec502e27059167ae4758b3e922b787c03e5f89f994d6f56dc6a6a69"
+  },
+  {
+    "model": "lora",
+    "task": "Global-MMLU SW",
+    "metric": "ACC",
+    "file": "lora_Global-MMLU_SW_ACC.csv.gz",
+    "rows": 14042,
+    "sha256": "89788536b2af066e3cf5596b4a1e4f824f7782165af35748c1e05a3a8646a8e6"
+  },
+  {
+    "model": "lora",
+    "task": "MMLU EN",
+    "metric": "ACC",
+    "file": "lora_MMLU_EN_ACC.csv.gz",
+    "rows": 14042,
+    "sha256": "e80a37a4f107775ef3f85bfaabf2fcc2a54e7be6f3650ff78f586355768990d6"
+  },
+  {
+    "model": "lora",
+    "task": "Summary SW",
+    "metric": "ROUGE-1",
+    "file": "lora_Summary_SW_ROUGE-1.csv.gz",
+    "rows": 987,
+    "sha256": "027b1eb59daeabe6cf049af89cffd15b9ccbe66d5b2b24a9c3722a74e31f957c"
+  },
+  {
+    "model": "lora",
+    "task": "Summary SW",
+    "metric": "ROUGE-2",
+    "file": "lora_Summary_SW_ROUGE-2.csv.gz",
+    "rows": 987,
+    "sha256": "c9e781ad0ad895783cab86d059dd18e7c07e20db7f0f8a4be6318d73a3f306a0"
+  },
+  {
+    "model": "lora",
+    "task": "Summary SW",
+    "metric": "ROUGE-Lsum",
+    "file": "lora_Summary_SW_ROUGE-Lsum.csv.gz",
+    "rows": 987,
+    "sha256": "4719b1f7baee7bad1cb2cbd73bafeed711ef5ffaeffc600c9c0f3e577f06abbe"
+  },
+  {
+    "model": "lora",
+    "task": "Summary EN",
+    "metric": "ROUGE-1",
+    "file": "lora_Summary_EN_ROUGE-1.csv.gz",
+    "rows": 11535,
+    "sha256": "370d1098009f89b18bcdd3fceec07d62b04ec0ed6cc1bb82e2c5712150a98aa8"
+  },
+  {
+    "model": "lora",
+    "task": "Summary EN",
+    "metric": "ROUGE-2",
+    "file": "lora_Summary_EN_ROUGE-2.csv.gz",
+    "rows": 11535,
+    "sha256": "71abc0e6f2cbb262b15523871d196c8d8a2274948c63ba8d93e9bfd957acbc78"
+  },
+  {
+    "model": "lora",
+    "task": "Summary EN",
+    "metric": "ROUGE-Lsum",
+    "file": "lora_Summary_EN_ROUGE-Lsum.csv.gz",
+    "rows": 11535,
+    "sha256": "87459634cd8b2918e205b9102f6440d958d1ddc7f3f4d6396e9ad17d7657bfbc"
+  },
+  {
+    "model": "lora",
+    "task": "GSM8K strict-match",
+    "metric": "ACC",
+    "file": "lora_GSM8K_strict-match_ACC.csv.gz",
+    "rows": 1319,
+    "sha256": "ce213099122ad44b46738773d337004fd649109b8a6f7eb3e6e16ff6ed5d128b"
+  },
+  {
+    "model": "lora",
+    "task": "GSM8K flexible-extract",
+    "metric": "ACC",
+    "file": "lora_GSM8K_flexible-extract_ACC.csv.gz",
+    "rows": 1319,
+    "sha256": "55e066a481c9aba55d63a8bd0d8c07bcfff75197069dc035df0b78713ba29c0d"
+  },
+  {
+    "model": "lora",
+    "task": "IFEval",
+    "metric": "prompt_level_strict_acc",
+    "file": "lora_IFEval_prompt_level_strict_acc.csv.gz",
+    "rows": 541,
+    "sha256": "e3792c546084cfa9d014b601a59ebd87e6efeadc3970081e29249cab97ae493e"
+  },
+  {
+    "model": "lora",
+    "task": "IFEval",
+    "metric": "inst_level_strict_acc",
+    "file": "lora_IFEval_inst_level_strict_acc.csv.gz",
+    "rows": 541,
+    "sha256": "bf3bd1e275d3e229c366747fb3fa9156a448acd077ca6e0f5f9358e89f5b6687"
+  },
+  {
+    "model": "lora",
+    "task": "IFEval",
+    "metric": "prompt_level_loose_acc",
+    "file": "lora_IFEval_prompt_level_loose_acc.csv.gz",
+    "rows": 541,
+    "sha256": "969dd089442fe5fb3f1abbccfdf6c4f0d9b98d24edd24a6e010e08e83da1b015"
+  },
+  {
+    "model": "lora",
+    "task": "IFEval",
+    "metric": "inst_level_loose_acc",
+    "file": "lora_IFEval_inst_level_loose_acc.csv.gz",
+    "rows": 541,
+    "sha256": "efdf5de3dff41cfc4352d7e7a4e5f3285cf21e850a309b3099fbb15ff258117a"
+  },
+  {
+    "model": "ssu",
+    "task": "Belebele EN",
+    "metric": "ACC",
+    "file": "ssu_Belebele_EN_ACC.csv.gz",
+    "rows": 900,
+    "sha256": "dcebf05e7ad6594b1c79758a2e8827bfd5501ce5d5febe7ad47a58735b556d4a"
+  },
+  {
+    "model": "ssu",
+    "task": "Belebele SW",
+    "metric": "ACC",
+    "file": "ssu_Belebele_SW_ACC.csv.gz",
+    "rows": 900,
+    "sha256": "23a5f4bc6822daba19361dd7b7da5383399d6450c867bb0887e88a80cc488198"
+  },
+  {
+    "model": "ssu",
+    "task": "Global-MMLU SW",
+    "metric": "ACC",
+    "file": "ssu_Global-MMLU_SW_ACC.csv.gz",
+    "rows": 14042,
+    "sha256": "765a284842e2d5860e60420f6775a30516a019d970f22326e19c0f19eb6d4d5d"
+  },
+  {
+    "model": "ssu",
+    "task": "MMLU EN",
+    "metric": "ACC",
+    "file": "ssu_MMLU_EN_ACC.csv.gz",
+    "rows": 14042,
+    "sha256": "2cac341aaffe30abb52df5beef840367d1490588682cf699e9f3598eb2870a45"
+  },
+  {
+    "model": "ssu",
+    "task": "Summary SW",
+    "metric": "ROUGE-1",
+    "file": "ssu_Summary_SW_ROUGE-1.csv.gz",
+    "rows": 987,
+    "sha256": "8d18bf469742595329d6011a1b70f6c40ac0476d3fa42d1687c0c0fdecca2669"
+  },
+  {
+    "model": "ssu",
+    "task": "Summary SW",
+    "metric": "ROUGE-2",
+    "file": "ssu_Summary_SW_ROUGE-2.csv.gz",
+    "rows": 987,
+    "sha256": "94b58668e5723cb674207d882298338b01c18c4d5fde9d1c133414999536fd92"
+  },
+  {
+    "model": "ssu",
+    "task": "Summary SW",
+    "metric": "ROUGE-Lsum",
+    "file": "ssu_Summary_SW_ROUGE-Lsum.csv.gz",
+    "rows": 987,
+    "sha256": "ac1bd722ddebadc59430a43031201d14680e28dff9f515be3fc0598aefa1ebbc"
+  },
+  {
+    "model": "ssu",
+    "task": "Summary EN",
+    "metric": "ROUGE-1",
+    "file": "ssu_Summary_EN_ROUGE-1.csv.gz",
+    "rows": 11535,
+    "sha256": "7ac0c082e7c9fba2ca5fdce41b49bffcd65da5ce01f9d2e3f062eb97fe578b20"
+  },
+  {
+    "model": "ssu",
+    "task": "Summary EN",
+    "metric": "ROUGE-2",
+    "file": "ssu_Summary_EN_ROUGE-2.csv.gz",
+    "rows": 11535,
+    "sha256": "0695fcb86521ff2002955f799db9ce9a6e4b9c92ab2821c54259b97efa725f45"
+  },
+  {
+    "model": "ssu",
+    "task": "Summary EN",
+    "metric": "ROUGE-Lsum",
+    "file": "ssu_Summary_EN_ROUGE-Lsum.csv.gz",
+    "rows": 11535,
+    "sha256": "f035ddbb4e62a58dba7202163d42c73dfdc4260fc66153de470c1a4c720cc45f"
+  },
+  {
+    "model": "ssu",
+    "task": "GSM8K strict-match",
+    "metric": "ACC",
+    "file": "ssu_GSM8K_strict-match_ACC.csv.gz",
+    "rows": 1319,
+    "sha256": "01a9a0a9c3e637c2e3e955b3c61e57f04f1e014195af38903e4f57c98993f533"
+  },
+  {
+    "model": "ssu",
+    "task": "GSM8K flexible-extract",
+    "metric": "ACC",
+    "file": "ssu_GSM8K_flexible-extract_ACC.csv.gz",
+    "rows": 1319,
+    "sha256": "50fee5658e302ff9f092e6baa168a76ba5dbf443b760d0116bea32a1021d872c"
+  },
+  {
+    "model": "ssu",
+    "task": "IFEval",
+    "metric": "prompt_level_strict_acc",
+    "file": "ssu_IFEval_prompt_level_strict_acc.csv.gz",
+    "rows": 541,
+    "sha256": "d6cc58870bc94640020d4151438bad0f357c2916ea7af772788309274160aa28"
+  },
+  {
+    "model": "ssu",
+    "task": "IFEval",
+    "metric": "inst_level_strict_acc",
+    "file": "ssu_IFEval_inst_level_strict_acc.csv.gz",
+    "rows": 541,
+    "sha256": "ca2454cdec9f27b47d6f92af8258ef0ff13fff7508edff5a908935eac054eccb"
+  },
+  {
+    "model": "ssu",
+    "task": "IFEval",
+    "metric": "prompt_level_loose_acc",
+    "file": "ssu_IFEval_prompt_level_loose_acc.csv.gz",
+    "rows": 541,
+    "sha256": "79529a5a7c552e5373fe36864e00707f3adb3490d1da53454a0dcd4f0c59b8da"
+  },
+  {
+    "model": "ssu",
+    "task": "IFEval",
+    "metric": "inst_level_loose_acc",
+    "file": "ssu_IFEval_inst_level_loose_acc.csv.gz",
+    "rows": 541,
+    "sha256": "fd99e426015158c483821f8623ff0c6a8e1db0b41d5c810214f1335fb14c94a1"
+  }
+]

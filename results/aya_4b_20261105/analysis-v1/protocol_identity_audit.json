@@ -1,0 +1,233 @@
+{
+  "status": "VERIFIED_ALL_FOUR_MODELS_FROZEN_PROTOCOL",
+  "groups_verified": 32,
+  "records": [
+    {
+      "model": "base",
+      "task_group": "belebele",
+      "result_sha256": "765fdfc66ede1db5babe1c0ef12790472be51c32318b5ddd5cfae5af686be53e",
+      "actual_model_and_tokenizer_verified": true,
+      "fixed_batch_shots_seeds_verified": true
+    },
+    {
+      "model": "base",
+      "task_group": "gmmlu",
+      "result_sha256": "b3949e90f2ac26f2ed0b49fce3445c55c51399056ee5f8e7d9815393bff1a9f0",
+      "actual_model_and_tokenizer_verified": true,
+      "fixed_batch_shots_seeds_verified": true
+    },
+    {
+      "model": "base",
+      "task_group": "mmlu",
+      "result_sha256": "cd861160629fffcaea6696e1a9d37bdc1e1e78cdc0e2605a45ce7b42703fc889",
+      "actual_model_and_tokenizer_verified": true,
+      "fixed_batch_shots_seeds_verified": true
+    },
+    {
+      "model": "base",
+      "task_group": "core",
+      "result_sha256": "2c98329af78699bb32952052d86342b5db545662b2ff96120a080c446e4fc249",
+      "actual_model_and_tokenizer_verified": true,
+      "fixed_batch_shots_seeds_verified": true
+    },
+    {
+      "model": "base",
+      "task_group": "flores200_en_sw_full_devtest_v2",
+      "manifest_sha256": "5dcb48168a2aa461ae5deafe07709e6a5ca44d3a8840403afd2e0d21f9344216",
+      "actual_weight_hashes_verified": true,
+      "cross_model_prompt_data_and_execution_identity_verified": true
+    },
+    {
+      "model": "base",
+      "task_group": "flores200_sw_en_full_devtest_v2",
+      "manifest_sha256": "368bd494c4bc09e607d5c1871c0e6b17330e72f7628e0c19d44be5fd62b18556",
+      "actual_weight_hashes_verified": true,
+      "cross_model_prompt_data_and_execution_identity_verified": true
+    },
+    {
+      "model": "base",
+      "task_group": "xlsum_sw_v2",
+      "manifest_sha256": "583ae6e28059916844addcbfe3a4808e5eec3b664068dd506f80e01b32978d3b",
+      "actual_weight_hashes_verified": true,
+      "cross_model_prompt_data_and_execution_identity_verified": true
+    },
+    {
+      "model": "base",
+      "task_group": "xlsum_en_v2",
+      "manifest_sha256": "697c9d1930f0e0664517d3733c9ff5f9f309cad0ae904284d52af0c88a7b37c4",
+      "actual_weight_hashes_verified": true,
+      "cross_model_prompt_data_and_execution_identity_verified": true
+    },
+    {
+      "model": "fft",
+      "task_group": "belebele",
+      "result_sha256": "de42d58df40f84b3c3b66cdbb503d6ab6c30d26fd984fb8d930d32e2513b614d",
+      "actual_model_and_tokenizer_verified": true,
+      "fixed_batch_shots_seeds_verified": true
+    },
+    {
+      "model": "fft",
+      "task_group": "gmmlu",
+      "result_sha256": "227c0002d0aca00495ea0b543d6024dc89562cea693ee1c7791129685c66c6b1",
+      "actual_model_and_tokenizer_verified": true,
+      "fixed_batch_shots_seeds_verified": true
+    },
+    {
+      "model": "fft",
+      "task_group": "mmlu",
+      "result_sha256": "8c05eb7c151810119336c58e426b760084da341f56e279f9b908dbb30c53565c",
+      "actual_model_and_tokenizer_verified": true,
+      "fixed_batch_shots_seeds_verified": true
+    },
+    {
+      "model": "fft",
+      "task_group": "core",
+      "result_sha256": "4bf98fea5cc736398238128196c22fd5c288deffc4bf21a87550e2ba2211ed86",
+      "actual_model_and_tokenizer_verified": true,
+      "fixed_batch_shots_seeds_verified": true
+    },
+    {
+      "model": "fft",
+      "task_group": "flores200_en_sw_full_devtest_v2",
+      "manifest_sha256": "39df4f9ed2618ff012522c08c402d4870909270dba0541406ac023d05ccf42ea",
+      "actual_weight_hashes_verified": true,
+      "cross_model_prompt_data_and_execution_identity_verified": true
+    },
+    {
+      "model": "fft",
+      "task_group": "flores200_sw_en_full_devtest_v2",
+      "manifest_sha256": "0f7c01a86f4dd43b788e997346468555399792defdbc342e77fa0833e52688c6",
+      "actual_weight_hashes_verified": true,
+      "cross_model_prompt_data_and_execution_identity_verified": true
+    },
+    {
+      "model": "fft",
+      "task_group": "xlsum_sw_v2",
+      "manifest_sha256": "b4e4c4e8650e8d63eb1edafe7d21b44c3dd51180e2ded56008618e681212b142",
+      "actual_weight_hashes_verified": true,
+      "cross_model_prompt_data_and_execution_identity_verified": true
+    },
+    {
+      "model": "fft",
+      "task_group": "xlsum_en_v2",
+      "manifest_sha256": "5b565f8e0dcebca3aed6e211638593a058c47cf0095638bbcbabc4c7cabc5209",
+      "actual_weight_hashes_verified": true,
+      "cross_model_prompt_data_and_execution_identity_verified": true
+    },
+    {
+      "model": "lora",
+      "task_group": "belebele",
+      "result_sha256": "e7af0edd39c1bb814b9c44a6fd3f8761d4348bba41e54d3ae4dd2efad2475425",
+      "actual_model_and_tokenizer_verified": true,
+      "fixed_batch_shots_seeds_verified": true
+    },
+    {
+      "model": "lora",
+      "task_group": "gmmlu",
+      "result_sha256": "e966307e253abeb1ecd8bce2609843ae50b9f08da8299596aa33d58d055c2016",
+      "actual_model_and_tokenizer_verified": true,
+      "fixed_batch_shots_seeds_verified": true
+    },
+    {
+      "model": "lora",
+      "task_group": "mmlu",
+      "result_sha256": "e8bc3a62703ed9ec0fb9e9e47e1d3f55802c1e3d1b665e414d276a6eab653f65",
+      "actual_model_and_tokenizer_verified": true,
+      "fixed_batch_shots_seeds_verified": true
+    },
+    {
+      "model": "lora",
+      "task_group": "core",
+      "result_sha256": "ac6b9eb7262994bfbaa4194891b8e7bf2e1912a97bdafaff534dc5c904e26613",
+      "actual_model_and_tokenizer_verified": true,
+      "fixed_batch_shots_seeds_verified": true
+    },
+    {
+      "model": "lora",
+      "task_group": "flores200_en_sw_full_devtest_v2",
+      "manifest_sha256": "574613fe0480b49cbee088e77559779046bfd763000870e637aa2ce57eb45bf1",
+      "actual_weight_hashes_verified": true,
+      "cross_model_prompt_data_and_execution_identity_verified": true
+    },
+    {
+      "model": "lora",
+      "task_group": "flores200_sw_en_full_devtest_v2",
+      "manifest_sha256": "41c3a517d88cc964be7bb2389dc5633a557dff7c48f06e307efe34c6422e413c",
+      "actual_weight_hashes_verified": true,
+      "cross_model_prompt_data_and_execution_identity_verified": true
+    },
+    {
+      "model": "lora",
+      "task_group": "xlsum_sw_v2",
+      "manifest_sha256": "da7bbc7c445d4240ef5d0648d9e216c1d5e3f3af2af3342d4d8823a1a753ab71",
+      "actual_weight_hashes_verified": true,
+      "cross_model_prompt_data_and_execution_identity_verified": true
+    },
+    {
+      "model": "lora",
+      "task_group": "xlsum_en_v2",
+      "manifest_sha256": "131148ea20a4c749d408878a0e23f322b8fc6c35a479c611baeb40ca78d2b91d",
+      "actual_weight_hashes_verified": true,
+      "cross_model_prompt_data_and_execution_identity_verified": true
+    },
+    {
+      "model": "ssu",
+      "task_group": "belebele",
+      "result_sha256": "28b63cdea478bf9e3c5f691ecc196c395b68c7e0f23aa8cf62ff31fa34738623",
+      "actual_model_and_tokenizer_verified": true,
+      "fixed_batch_shots_seeds_verified": true
+    },
+    {
+      "model": "ssu",
+      "task_group": "gmmlu",
+      "result_sha256": "edcb4c4c38d145160650fa4dacbf44c4004e5e4afe885df2da30d23fd4a2b508",
+      "actual_model_and_tokenizer_verified": true,
+      "fixed_batch_shots_seeds_verified": true
+    },
+    {
+      "model": "ssu",
+      "task_group": "mmlu",
+      "result_sha256": "e437069543022ff662da0ec3b34b9a077abcfa31eb65e70087bbd1b004d12556",
+      "actual_model_and_tokenizer_verified": true,
+      "fixed_batch_shots_seeds_verified": true
+    },
+    {
+      "model": "ssu",
+      "task_group": "core",
+      "result_sha256": "87a7977d4d65a3eb513a88061b091363e37e8a6363a4c51a51686e96c19bfd0c",
+      "actual_model_and_tokenizer_verified": true,
+      "fixed_batch_shots_seeds_verified": true
+    },
+    {
+      "model": "ssu",
+      "task_group": "flores200_en_sw_full_devtest_v2",
+      "manifest_sha256": "d94779ca87eef3acde2c2630d2bd20f7a5269887ce4e2f177ecc5a0e7a0d0990",
+      "actual_weight_hashes_verified": true,
+      "cross_model_prompt_data_and_execution_identity_verified": true
+    },
+    {
+      "model": "ssu",
+      "task_group": "flores200_sw_en_full_devtest_v2",
+      "manifest_sha256": "f6f6b68a572eb99fad61f311e0993245db52fe3ef4ad0a1007a9cb2383e81e6d",
+      "actual_weight_hashes_verified": true,
+      "cross_model_prompt_data_and_execution_identity_verified": true
+    },
+    {
+      "model": "ssu",
+      "task_group": "xlsum_sw_v2",
+      "manifest_sha256": "66345cff674002108c60193794de4df668ae5ed101ce816fbd7877bb7d10fcb3",
+      "actual_weight_hashes_verified": true,
+      "cross_model_prompt_data_and_execution_identity_verified": true
+    },
+    {
+      "model": "ssu",
+      "task_group": "xlsum_en_v2",
+      "manifest_sha256": "c013d8d65a9e26c98aa9a26b1933f31bd94e51cf632ebd0a95143adc2a57e557",
+      "actual_weight_hashes_verified": true,
+      "cross_model_prompt_data_and_execution_identity_verified": true
+    }
+  ],
+  "official_model_revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "canonical_generation_execution": "v2; v1 excluded",
+  "physical_device_assertion": "Additional recovery guard observes UUID only; no prompts or decoding modifications"
+}

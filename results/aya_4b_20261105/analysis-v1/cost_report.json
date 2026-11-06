@@ -1,0 +1,473 @@
+{
+  "status": "COMPLETE_ACTUAL_COST_ACCOUNTING",
+  "training": {
+    "fft": {
+      "trainer_runtime_seconds": 10804.9386,
+      "process_wall_seconds": 10894.437564,
+      "samples_per_second": 0.592,
+      "optimizer_steps_per_second": 0.037,
+      "started_at": "2026-11-05T23:07:17.296728+08:00",
+      "ended_at": "2026-11-06T02:08:51.734292+08:00"
+    },
+    "lora": {
+      "trainer_runtime_seconds": 3099.9881,
+      "process_wall_seconds": 3107.790967,
+      "samples_per_second": 2.065,
+      "optimizer_steps_per_second": 0.129,
+      "started_at": "2026-11-05T22:59:27.043569+08:00",
+      "ended_at": "2026-11-05T23:51:14.834536+08:00"
+    },
+    "ssu": {
+      "trainer_runtime_seconds": 13055.7786,
+      "process_wall_seconds": 13199.464432,
+      "samples_per_second": 0.49,
+      "optimizer_steps_per_second": 0.031,
+      "started_at": "2026-11-05T23:09:32.607553+08:00",
+      "ended_at": "2026-11-06T02:49:32.071985+08:00"
+    }
+  },
+  "evaluation": [
+    {
+      "model": "base",
+      "task_group": "belebele",
+      "wall_seconds": 96.64190179295838,
+      "measurement": "Official Harness total_evaluation_time_seconds",
+      "source_sha256": "765fdfc66ede1db5babe1c0ef12790472be51c32318b5ddd5cfae5af686be53e"
+    },
+    {
+      "model": "base",
+      "task_group": "gmmlu",
+      "wall_seconds": 3336.058893688023,
+      "measurement": "Official Harness total_evaluation_time_seconds",
+      "source_sha256": "b3949e90f2ac26f2ed0b49fce3445c55c51399056ee5f8e7d9815393bff1a9f0"
+    },
+    {
+      "model": "base",
+      "task_group": "mmlu",
+      "wall_seconds": 1969.9257116913795,
+      "measurement": "Official Harness total_evaluation_time_seconds",
+      "source_sha256": "cd861160629fffcaea6696e1a9d37bdc1e1e78cdc0e2605a45ce7b42703fc889"
+    },
+    {
+      "model": "base",
+      "task_group": "flores200_en_sw_full_devtest_v2",
+      "wall_seconds": 954.3923496622592,
+      "input_tokens": 384857,
+      "generated_tokens": 218352,
+      "measurement": "Generation driver elapsed including engine load/generation, excluding prior CPU prompt/hash prep",
+      "source_sha256": "570436d735a1e1783dfc001c3d57ba8de829b1b3799a0f3fd94647deaadd19b6"
+    },
+    {
+      "model": "base",
+      "task_group": "flores200_sw_en_full_devtest_v2",
+      "wall_seconds": 159.0070604328066,
+      "input_tokens": 410719,
+      "generated_tokens": 28694,
+      "measurement": "Generation driver elapsed including engine load/generation, excluding prior CPU prompt/hash prep",
+      "source_sha256": "f4b9e8f2e4ed55d0fb168df3b690d7a46dd65e76c19a41ccc141b224b1c4374c"
+    },
+    {
+      "model": "base",
+      "task_group": "xlsum_sw_v2",
+      "wall_seconds": 675.9643981214613,
+      "input_tokens": 979052,
+      "generated_tokens": 252339,
+      "measurement": "Generation driver elapsed including engine load/generation, excluding prior CPU prompt/hash prep",
+      "source_sha256": "59d3d6330778a02c9eb447d69b2c3a5403418e57028faafeb955af38530e8971"
+    },
+    {
+      "model": "base",
+      "task_group": "xlsum_en_v2",
+      "wall_seconds": 5447.592200562358,
+      "input_tokens": 6822432,
+      "generated_tokens": 1851152,
+      "measurement": "Generation driver elapsed including engine load/generation, excluding prior CPU prompt/hash prep",
+      "source_sha256": "587ad247a39c112a03b78f6dc429f8a4994e4c43d84821bfaa50753b7d83bd5f"
+    },
+    {
+      "model": "base",
+      "task_group": "GSM8K+IFEval",
+      "wall_seconds": 1258.1185923125595,
+      "measurement": "Official Harness total_evaluation_time_seconds",
+      "source_sha256": "2c98329af78699bb32952052d86342b5db545662b2ff96120a080c446e4fc249"
+    },
+    {
+      "model": "fft",
+      "task_group": "belebele",
+      "wall_seconds": 101.83963650278747,
+      "measurement": "Official Harness total_evaluation_time_seconds",
+      "source_sha256": "de42d58df40f84b3c3b66cdbb503d6ab6c30d26fd984fb8d930d32e2513b614d"
+    },
+    {
+      "model": "fft",
+      "task_group": "gmmlu",
+      "wall_seconds": 3847.756126387045,
+      "measurement": "Official Harness total_evaluation_time_seconds",
+      "source_sha256": "227c0002d0aca00495ea0b543d6024dc89562cea693ee1c7791129685c66c6b1"
+    },
+    {
+      "model": "fft",
+      "task_group": "mmlu",
+      "wall_seconds": 2137.339984348044,
+      "measurement": "Official Harness total_evaluation_time_seconds",
+      "source_sha256": "8c05eb7c151810119336c58e426b760084da341f56e279f9b908dbb30c53565c"
+    },
+    {
+      "model": "fft",
+      "task_group": "flores200_en_sw_full_devtest_v2",
+      "wall_seconds": 1081.9838797040284,
+      "input_tokens": 384857,
+      "generated_tokens": 424408,
+      "measurement": "Generation driver elapsed including engine load/generation, excluding prior CPU prompt/hash prep",
+      "source_sha256": "ca39abe7788eb13ece4adcbc2bb18faafaefc4530d2f58ed6815645f98be9231"
+    },
+    {
+      "model": "fft",
+      "task_group": "flores200_sw_en_full_devtest_v2",
+      "wall_seconds": 205.5840595588088,
+      "input_tokens": 410719,
+      "generated_tokens": 30573,
+      "measurement": "Generation driver elapsed including engine load/generation, excluding prior CPU prompt/hash prep",
+      "source_sha256": "c6edfcfb036b6552dd766ea0730f6c9abacdb1305ad2aebf23bc30620af77237"
+    },
+    {
+      "model": "fft",
+      "task_group": "xlsum_sw_v2",
+      "wall_seconds": 570.5745913628489,
+      "input_tokens": 979052,
+      "generated_tokens": 90476,
+      "measurement": "Generation driver elapsed including engine load/generation, excluding prior CPU prompt/hash prep",
+      "source_sha256": "2bdb821bedbb76d95c4d9497f61ea786cd0cec8c9b5563484f133725504ab027"
+    },
+    {
+      "model": "fft",
+      "task_group": "xlsum_en_v2",
+      "wall_seconds": 5412.673460254446,
+      "input_tokens": 6822432,
+      "generated_tokens": 1102924,
+      "measurement": "Generation driver elapsed including engine load/generation, excluding prior CPU prompt/hash prep",
+      "source_sha256": "240d8f3567337034181479695b7818479df0024504a46a45a634f445a99ca6aa"
+    },
+    {
+      "model": "fft",
+      "task_group": "GSM8K+IFEval",
+      "wall_seconds": 980.2669349294156,
+      "measurement": "Official Harness total_evaluation_time_seconds",
+      "source_sha256": "4bf98fea5cc736398238128196c22fd5c288deffc4bf21a87550e2ba2211ed86"
+    },
+    {
+      "model": "lora",
+      "task_group": "belebele",
+      "wall_seconds": 125.19078479893506,
+      "measurement": "Official Harness total_evaluation_time_seconds",
+      "source_sha256": "e7af0edd39c1bb814b9c44a6fd3f8761d4348bba41e54d3ae4dd2efad2475425"
+    },
+    {
+      "model": "lora",
+      "task_group": "gmmlu",
+      "wall_seconds": 4366.528409842402,
+      "measurement": "Official Harness total_evaluation_time_seconds",
+      "source_sha256": "e966307e253abeb1ecd8bce2609843ae50b9f08da8299596aa33d58d055c2016"
+    },
+    {
+      "model": "lora",
+      "task_group": "mmlu",
+      "wall_seconds": 2597.636782359332,
+      "measurement": "Official Harness total_evaluation_time_seconds",
+      "source_sha256": "e8bc3a62703ed9ec0fb9e9e47e1d3f55802c1e3d1b665e414d276a6eab653f65"
+    },
+    {
+      "model": "lora",
+      "task_group": "flores200_en_sw_full_devtest_v2",
+      "wall_seconds": 1209.967267755419,
+      "input_tokens": 384857,
+      "generated_tokens": 405871,
+      "measurement": "Generation driver elapsed including engine load/generation, excluding prior CPU prompt/hash prep",
+      "source_sha256": "16dbd14c06970f7d83f79e2e5ed6b9f91f12d55895fc84d1ffaf1133a5672696"
+    },
+    {
+      "model": "lora",
+      "task_group": "flores200_sw_en_full_devtest_v2",
+      "wall_seconds": 244.71748008206487,
+      "input_tokens": 410719,
+      "generated_tokens": 31045,
+      "measurement": "Generation driver elapsed including engine load/generation, excluding prior CPU prompt/hash prep",
+      "source_sha256": "14a5781ed7d2e87175fdee4e6da1283b6b470406b37d8ce3696d932e86cb40df"
+    },
+    {
+      "model": "lora",
+      "task_group": "xlsum_sw_v2",
+      "wall_seconds": 643.7885688766837,
+      "input_tokens": 979052,
+      "generated_tokens": 81736,
+      "measurement": "Generation driver elapsed including engine load/generation, excluding prior CPU prompt/hash prep",
+      "source_sha256": "04fa31981f226d189f5a18e99f20ce6685c55fb97f0e0975b428c06dacd739cf"
+    },
+    {
+      "model": "lora",
+      "task_group": "xlsum_en_v2",
+      "wall_seconds": 2834.5064803864807,
+      "input_tokens": 6822432,
+      "generated_tokens": 412781,
+      "measurement": "Generation driver elapsed including engine load/generation, excluding prior CPU prompt/hash prep",
+      "source_sha256": "e5c00d8f0dc4feb9c67b291551bc616d8675484def0d01da0a2949fe3b5d076c"
+    },
+    {
+      "model": "lora",
+      "task_group": "GSM8K+IFEval",
+      "wall_seconds": 3399.256194844842,
+      "measurement": "Official Harness total_evaluation_time_seconds",
+      "source_sha256": "ac6b9eb7262994bfbaa4194891b8e7bf2e1912a97bdafaff534dc5c904e26613"
+    },
+    {
+      "model": "ssu",
+      "task_group": "belebele",
+      "wall_seconds": 100.91733686067164,
+      "measurement": "Official Harness total_evaluation_time_seconds",
+      "source_sha256": "28b63cdea478bf9e3c5f691ecc196c395b68c7e0f23aa8cf62ff31fa34738623"
+    },
+    {
+      "model": "ssu",
+      "task_group": "gmmlu",
+      "wall_seconds": 3910.838543679565,
+      "measurement": "Official Harness total_evaluation_time_seconds",
+      "source_sha256": "edcb4c4c38d145160650fa4dacbf44c4004e5e4afe885df2da30d23fd4a2b508"
+    },
+    {
+      "model": "ssu",
+      "task_group": "mmlu",
+      "wall_seconds": 2173.077816432342,
+      "measurement": "Official Harness total_evaluation_time_seconds",
+      "source_sha256": "e437069543022ff662da0ec3b34b9a077abcfa31eb65e70087bbd1b004d12556"
+    },
+    {
+      "model": "ssu",
+      "task_group": "flores200_en_sw_full_devtest_v2",
+      "wall_seconds": 1059.776957957074,
+      "input_tokens": 384857,
+      "generated_tokens": 358727,
+      "measurement": "Generation driver elapsed including engine load/generation, excluding prior CPU prompt/hash prep",
+      "source_sha256": "6b104a176ce778848aef0ba8fd990ac80d88da0f29d25ce6ee3c554110796654"
+    },
+    {
+      "model": "ssu",
+      "task_group": "flores200_sw_en_full_devtest_v2",
+      "wall_seconds": 223.31603366695344,
+      "input_tokens": 410719,
+      "generated_tokens": 33669,
+      "measurement": "Generation driver elapsed including engine load/generation, excluding prior CPU prompt/hash prep",
+      "source_sha256": "c40ba730b36a98e61d38e859ed8807179ca21ee8a1938b1628ed685edf3a19d0"
+    },
+    {
+      "model": "ssu",
+      "task_group": "xlsum_sw_v2",
+      "wall_seconds": 549.2989774271846,
+      "input_tokens": 979052,
+      "generated_tokens": 79670,
+      "measurement": "Generation driver elapsed including engine load/generation, excluding prior CPU prompt/hash prep",
+      "source_sha256": "40b176b848ffb3f3632849813146dff78081338dc9f2d5652cea43bc67f48f75"
+    },
+    {
+      "model": "ssu",
+      "task_group": "xlsum_en_v2",
+      "wall_seconds": 5983.67882485874,
+      "input_tokens": 6822432,
+      "generated_tokens": 1729441,
+      "measurement": "Generation driver elapsed including engine load/generation, excluding prior CPU prompt/hash prep",
+      "source_sha256": "1f158b22d53ac046937be59f5dfeedeb0a62fb2bbf16433f2837326c0b60868f"
+    },
+    {
+      "model": "ssu",
+      "task_group": "GSM8K+IFEval",
+      "wall_seconds": 1082.4263862278312,
+      "measurement": "Official Harness total_evaluation_time_seconds",
+      "source_sha256": "87a7977d4d65a3eb513a88061b091363e37e8a6363a4c51a51686e96c19bfd0c"
+    }
+  ],
+  "engineering_smokes": [
+    {
+      "method": "lora",
+      "scope": "Isolated two-step engineering smoke, never benchmark-selected",
+      "wall_seconds": 20.77354,
+      "samples": 32,
+      "input_tokens": 8809,
+      "assistant_tokens": 903
+    },
+    {
+      "method": "fft",
+      "scope": "Isolated two-step engineering smoke, never benchmark-selected",
+      "wall_seconds": 176.415995,
+      "samples": 32,
+      "input_tokens": 8809,
+      "assistant_tokens": 903
+    },
+    {
+      "method": "ssu",
+      "scope": "Isolated two-step engineering smoke, never benchmark-selected",
+      "wall_seconds": 202.244526,
+      "samples": 32,
+      "input_tokens": 8809,
+      "assistant_tokens": 903
+    },
+    {
+      "method": "lora",
+      "scope": "Four-example physical GPU identity/memory recovery probe; not model selection",
+      "wall_seconds": 209.1356118246913,
+      "samples": 4,
+      "input_tokens": 1529,
+      "generated_tokens": 2048,
+      "source_sha256": "fb25ced94aa91a85b50038a8d8ea85147dd60b9e881943f5c7c79e763308f050"
+    }
+  ],
+  "failed_attempts": [
+    {
+      "attempt": "ssu-pipeline-v1",
+      "wall_seconds": 17.293586,
+      "reason": "SSU mask JSON passed as a directory",
+      "failed_log_sha256": "45f8aadde343c36631fd29aaa038ea6f6a77f0f67afcbe9c316e8fc97ee2c64e",
+      "restarted_in_independent_directory": true
+    },
+    {
+      "attempt": "ssu-pipeline-v2",
+      "wall_seconds": 16.197756,
+      "reason": "SSU mask JSON passed as a directory",
+      "failed_log_sha256": "ae01105ba71563769cdbe7a0f19cc9540b522acde3767136e87f1bd2d23b0025",
+      "restarted_in_independent_directory": true
+    },
+    {
+      "attempt": "fft-pipeline-v1",
+      "wall_seconds": 19.589383,
+      "reason": "CPUAdam JIT PATH/ninja missing",
+      "failed_log_sha256": "4945f570a496ca02310c53645a081d235db82995daaa9c84a21052ef60875f5c",
+      "restarted_in_independent_directory": true
+    }
+  ],
+  "superseded_generation_completed_costs": [
+    {
+      "model": "base",
+      "attempt": "generation-v1",
+      "task_group": "flores200_en_sw_full_devtest_v2",
+      "wall_seconds": 381.8503826316446,
+      "generated_tokens": 183753,
+      "source_sha256": "64baeda4ae413110e7c41a5423b281610d480046ee91cace9ad6c783b422fd02",
+      "included_in_canonical_comparison": false
+    },
+    {
+      "model": "base",
+      "attempt": "generation-v1",
+      "task_group": "flores200_sw_en_full_devtest_v2",
+      "wall_seconds": 107.08383941464126,
+      "generated_tokens": 28758,
+      "source_sha256": "0be6e713e3bfcba265a5a54900764d03e8a940d789ef4228c1c88e1eb71e1f20",
+      "included_in_canonical_comparison": false
+    },
+    {
+      "model": "base",
+      "attempt": "generation-v1",
+      "task_group": "xlsum_en_v2",
+      "wall_seconds": 2472.547105934471,
+      "generated_tokens": 1853513,
+      "source_sha256": "7421a5a9f85e2dd0eddfb6159e31c1a4599991cf1b43e099a833df275d25ec82",
+      "included_in_canonical_comparison": false
+    },
+    {
+      "model": "base",
+      "attempt": "generation-v1",
+      "task_group": "xlsum_sw_v2",
+      "wall_seconds": 376.8069524113089,
+      "generated_tokens": 252420,
+      "source_sha256": "ddd5536c0f80f22076830a20d15443105735603182da98ef5bdaaa08b427f929",
+      "included_in_canonical_comparison": false
+    },
+    {
+      "model": "base",
+      "attempt": "generation-v1",
+      "task_group": "GSM8K+IFEval",
+      "wall_seconds": 558.5484948940575,
+      "source_sha256": "c9929d8918f79b10498ccf5eda5387ab15b79f530a4e53c83f33732fd8692592",
+      "included_in_canonical_comparison": false
+    },
+    {
+      "model": "lora",
+      "attempt": "generation-v1",
+      "task_group": "flores200_en_sw_full_devtest_v2",
+      "wall_seconds": 533.2122356388718,
+      "generated_tokens": 401711,
+      "source_sha256": "0f696f08112ae7f5b38f6bee532265a8c7c1ebf7bde727e80431b0f3720344fa",
+      "included_in_canonical_comparison": false
+    },
+    {
+      "model": "lora",
+      "attempt": "generation-v1",
+      "task_group": "flores200_sw_en_full_devtest_v2",
+      "wall_seconds": 187.5854716654867,
+      "generated_tokens": 31910,
+      "source_sha256": "e5a503c97167d149cf1779097e7e24f7c367cb0f2d76448a2f30e7e2f50a0876",
+      "included_in_canonical_comparison": false
+    }
+  ],
+  "failed_generation_without_completed_cost_record": [
+    {
+      "attempt": "LoRA v1 summary prefill OOM",
+      "log_sha256": "0541345aad7c24f18db4dcb937283b1eff4d976f627b78d983feb69c2bf71ba7",
+      "wall_seconds": null,
+      "measurement": "Failure has no completed driver cost record; exact wall time not inferred or reported as zero"
+    },
+    {
+      "attempt": "LoRA v2 initial memory report inconsistency",
+      "log_sha256": "fd949681083012a0d85b9b1bad72c5513f4789819f9512c2074ac823932a7b41",
+      "wall_seconds": null,
+      "measurement": "Failure has no completed driver cost record; exact wall time not inferred or reported as zero"
+    }
+  ],
+  "ssu_mask": {
+    "blocks": 500,
+    "tokens_per_block": 2048,
+    "forward_tokens": 1024000,
+    "process_wall_seconds": 201.69208,
+    "mask_sha256": "2550dfd33a1701aa7b61b67b936630e392dc066bf191dbe0a4d61f4138a03744"
+  },
+  "sampled_gpu_peak_mib_by_role": {
+    "fft": 20578,
+    "lora": 23638,
+    "ssu": 20578,
+    "base": 22704,
+    "evaluation": 20058
+  },
+  "sampled_max_single_process_rss_kib_by_role": {
+    "base": 6640700,
+    "lora": 6911400,
+    "fft": 92277096,
+    "ssu": 96801412,
+    "evaluation": 2577612
+  },
+  "resource_sample_counts": {
+    "resource-samples-v1.jsonl": 33,
+    "resource-samples-v2.jsonl": 616
+  },
+  "resource_sample_sha256": {
+    "resource-samples-v1.jsonl": "36e4d4a0157c68095351fdab1a4a373c62a90fa6e4faf66d5378c597575cc2fe",
+    "resource-samples-v2.jsonl": "01cae966819a329864dc1823fad3221cc4726499332d2945203f01727447c1a0"
+  },
+  "new_disk_usage_bytes": {
+    "new_data": 124385035,
+    "new_checkpoints_including_preserved_smokes": 35953486468,
+    "new_logs": 2544096918
+  },
+  "directory_and_sampler_scope": "Directory sizes and folder-wide process samples include later supplemental/development/rebalanced-data additions; they are not exclusive footprints of the original three trainings. Precise original per-training allocator peaks come from its own accounting file.",
+  "additional_cost_evidence": {
+    "supplemental": "results/aya_4b_20261105/supplemental-analysis-v1/cost.json",
+    "decoding_development": "results/aya_4b_20261105/translation-decoding-development-analysis-v1/results.json",
+    "xnli_format_development": "results/aya_4b_20261105/xnli-format-control-analysis-v1/results.json",
+    "data_rebalanced_training": "results/aya_4b_20261105/translation-rebalanced-training-audit-v1.json"
+  },
+  "trainer_runtime_sum_seconds": 26960.7053,
+  "reported_evaluation_runtime_sum_seconds": 58740.64262736775,
+  "limitations": [
+    "Sums are cumulative process/evaluation wall time across parallel GPUs, not project elapsed time or CUDA kernel time",
+    "v1 sampler missed some HF/vLLM child processes; v2 includes verified own descendants; observed peaks remain lower bounds",
+    "RSS includes shared pages and allocator caches; it is not unique total system RAM",
+    "Final-only weight exports have no optimizer checkpoints; smoke exports and failures are retained"
+  ],
+  "created_at": "2026-11-06T10:13:25.412849+08:00"
+}

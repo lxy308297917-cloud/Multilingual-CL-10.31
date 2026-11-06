@@ -1,0 +1,38 @@
+{
+  "status": "VERIFIED_SAME_GENERATIONS_TWO_OFFICIAL_EXTRACTORS",
+  "rows": [
+    {
+      "model": "base",
+      "samples": 1319,
+      "strict_0_flexible_0": 204,
+      "strict_0_flexible_1": 310,
+      "strict_1_flexible_0": 1,
+      "strict_1_flexible_1": 804
+    },
+    {
+      "model": "fft",
+      "samples": 1319,
+      "strict_0_flexible_0": 239,
+      "strict_0_flexible_1": 448,
+      "strict_1_flexible_0": 0,
+      "strict_1_flexible_1": 632
+    },
+    {
+      "model": "lora",
+      "samples": 1319,
+      "strict_0_flexible_0": 248,
+      "strict_0_flexible_1": 283,
+      "strict_1_flexible_0": 0,
+      "strict_1_flexible_1": 788
+    },
+    {
+      "model": "ssu",
+      "samples": 1319,
+      "strict_0_flexible_0": 242,
+      "strict_0_flexible_1": 522,
+      "strict_1_flexible_0": 1,
+      "strict_1_flexible_1": 554
+    }
+  ],
+  "interpretation": "Flexible-correct and strict-wrong responses demonstrate scoring/extraction sensitivity, not proof of unchanged reasoning. Keep both official scores; do not replace the frozen primary results."
+}

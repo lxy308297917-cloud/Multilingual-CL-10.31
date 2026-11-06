@@ -1,0 +1,287 @@
+{
+  "status": "DESCRIPTIVE_FIXED_FINAL_RESULTS",
+  "methods": {
+    "fft": {
+      "positive_interval": [
+        {
+          "task": "Belebele SW",
+          "metric": "ACC",
+          "delta": 12.444444444444445,
+          "ci95_low": 8.450079635239373,
+          "ci95_high": 16.04483952171177
+        },
+        {
+          "task": "Summary SW",
+          "metric": "ROUGE-Lsum",
+          "delta": 4.6549249876176875,
+          "ci95_low": 3.9551711258021403,
+          "ci95_high": 5.441862111106652
+        },
+        {
+          "task": "Belebele EN",
+          "metric": "ACC",
+          "delta": 24.11111111111111,
+          "ci95_low": 21.034821688518093,
+          "ci95_high": 27.42524154589372
+        },
+        {
+          "task": "MMLU EN",
+          "metric": "ACC",
+          "delta": 1.345962113659023,
+          "ci95_low": 0.655177325167355,
+          "ci95_high": 2.022681954137587
+        },
+        {
+          "task": "Summary EN",
+          "metric": "ROUGE-Lsum",
+          "delta": 4.881590151742288,
+          "ci95_low": 4.720730393695774,
+          "ci95_high": 5.0475451688946515
+        }
+      ],
+      "negative_interval": [
+        {
+          "task": "Translation EN->SW",
+          "metric": "chrF++",
+          "delta": -7.8216446831246085,
+          "ci95_low": -8.430550532199899,
+          "ci95_high": -7.213542092337888
+        },
+        {
+          "task": "Translation SW->EN",
+          "metric": "chrF++",
+          "delta": -7.053666249333759,
+          "ci95_low": -7.900791020177597,
+          "ci95_high": -6.229661581491743
+        },
+        {
+          "task": "GSM8K flexible-extract",
+          "metric": "ACC",
+          "delta": -2.577710386656558,
+          "ci95_low": -4.854056103108415,
+          "ci95_high": -0.4529946929492057
+        },
+        {
+          "task": "GSM8K strict-match",
+          "metric": "ACC",
+          "delta": -13.115996967399544,
+          "ci95_low": -16.45185746777862,
+          "ci95_high": -9.855951478392722
+        },
+        {
+          "task": "IFEval",
+          "metric": "prompt_level_strict_acc",
+          "delta": -33.45656192236599,
+          "ci95_low": -38.817005545286506,
+          "ci95_high": -28.830868761552683
+        },
+        {
+          "task": "IFEval",
+          "metric": "inst_level_strict_acc",
+          "delta": -27.937649880095922,
+          "ci95_low": -31.956983507254662,
+          "ci95_high": -24.173927230261953
+        }
+      ],
+      "interval_crosses_zero": [
+        {
+          "task": "Global-MMLU SW",
+          "metric": "ACC",
+          "delta": -0.655177325167355,
+          "ci95_low": -1.6094573422589376,
+          "ci95_high": 0.32776669990029894
+        }
+      ]
+    },
+    "lora": {
+      "positive_interval": [
+        {
+          "task": "Belebele SW",
+          "metric": "ACC",
+          "delta": 10.777777777777779,
+          "ci95_low": 7.58040334671374,
+          "ci95_high": 14.270424964716952
+        },
+        {
+          "task": "Summary SW",
+          "metric": "ROUGE-Lsum",
+          "delta": 6.528749168075881,
+          "ci95_low": 5.7414244429137185,
+          "ci95_high": 7.236498549574906
+        },
+        {
+          "task": "Belebele EN",
+          "metric": "ACC",
+          "delta": 23.444444444444443,
+          "ci95_low": 20.31537278764681,
+          "ci95_high": 26.787754817646118
+        },
+        {
+          "task": "MMLU EN",
+          "metric": "ACC",
+          "delta": 1.1821677823671841,
+          "ci95_low": 0.5768409058538669,
+          "ci95_high": 1.7803731662156388
+        },
+        {
+          "task": "Summary EN",
+          "metric": "ROUGE-Lsum",
+          "delta": 10.582977683071462,
+          "ci95_low": 10.376082041515044,
+          "ci95_high": 10.783943574171365
+        }
+      ],
+      "negative_interval": [
+        {
+          "task": "Translation EN->SW",
+          "metric": "chrF++",
+          "delta": -6.858471091088788,
+          "ci95_low": -7.479811783096021,
+          "ci95_high": -6.221240206003222
+        },
+        {
+          "task": "Translation SW->EN",
+          "metric": "chrF++",
+          "delta": -1.3310231702261461,
+          "ci95_low": -2.1192811065357717,
+          "ci95_high": -0.6220942879048308
+        },
+        {
+          "task": "GSM8K flexible-extract",
+          "metric": "ACC",
+          "delta": -3.2600454890068233,
+          "ci95_low": -5.534495830174374,
+          "ci95_high": -1.1372251705837755
+        },
+        {
+          "task": "IFEval",
+          "metric": "prompt_level_strict_acc",
+          "delta": -29.02033271719039,
+          "ci95_low": -34.195933456561924,
+          "ci95_high": -24.209796672828098
+        },
+        {
+          "task": "IFEval",
+          "metric": "inst_level_strict_acc",
+          "delta": -22.182254196642685,
+          "ci95_low": -26.05078873654725,
+          "ci95_high": -18.703785576945904
+        }
+      ],
+      "interval_crosses_zero": [
+        {
+          "task": "Global-MMLU SW",
+          "metric": "ACC",
+          "delta": -0.04272895598917533,
+          "ci95_low": -0.9403931063951003,
+          "ci95_high": 0.8973080757726819
+        },
+        {
+          "task": "GSM8K strict-match",
+          "metric": "ACC",
+          "delta": -1.288855193328279,
+          "ci95_low": -4.550796057619408,
+          "ci95_high": 2.047005307050796
+        }
+      ]
+    },
+    "ssu": {
+      "positive_interval": [
+        {
+          "task": "Belebele SW",
+          "metric": "ACC",
+          "delta": 16.77777777777778,
+          "ci95_low": 12.583184605270723,
+          "ci95_high": 20.71364130247742
+        },
+        {
+          "task": "Global-MMLU SW",
+          "metric": "ACC",
+          "delta": 1.296111665004985,
+          "ci95_low": 0.4413545079048569,
+          "ci95_high": 2.200719270759151
+        },
+        {
+          "task": "Summary SW",
+          "metric": "ROUGE-Lsum",
+          "delta": 6.176082061622926,
+          "ci95_low": 5.419840764174104,
+          "ci95_high": 6.920185411030027
+        },
+        {
+          "task": "Belebele EN",
+          "metric": "ACC",
+          "delta": 26.333333333333332,
+          "ci95_low": 23.49002566102413,
+          "ci95_high": 29.54066837314445
+        },
+        {
+          "task": "MMLU EN",
+          "metric": "ACC",
+          "delta": 2.59222333000997,
+          "ci95_low": 2.0225039168209658,
+          "ci95_high": 3.1336348098561455
+        },
+        {
+          "task": "Summary EN",
+          "metric": "ROUGE-Lsum",
+          "delta": 1.7616854073595898,
+          "ci95_low": 1.6482062657752192,
+          "ci95_high": 1.872240731032037
+        }
+      ],
+      "negative_interval": [
+        {
+          "task": "Translation EN->SW",
+          "metric": "chrF++",
+          "delta": -6.1937107507750735,
+          "ci95_low": -6.828431960393584,
+          "ci95_high": -5.5679263408976345
+        },
+        {
+          "task": "Translation SW->EN",
+          "metric": "chrF++",
+          "delta": -3.9194696560456137,
+          "ci95_low": -4.672430364833505,
+          "ci95_high": -3.1203945518390843
+        },
+        {
+          "task": "GSM8K flexible-extract",
+          "metric": "ACC",
+          "delta": -2.8809704321455647,
+          "ci95_low": -5.079605761940864,
+          "ci95_high": -0.8320697498104641
+        },
+        {
+          "task": "GSM8K strict-match",
+          "metric": "ACC",
+          "delta": -18.953752843062926,
+          "ci95_low": -22.293404094010615,
+          "ci95_high": -15.693707354056103
+        },
+        {
+          "task": "IFEval",
+          "metric": "prompt_level_strict_acc",
+          "delta": -8.687615526802219,
+          "ci95_low": -12.38909426987061,
+          "ci95_high": -4.990757855822551
+        },
+        {
+          "task": "IFEval",
+          "metric": "inst_level_strict_acc",
+          "delta": -5.635491606714628,
+          "ci95_low": -8.263720759919012,
+          "ci95_high": -3.026542888177754
+        }
+      ],
+      "interval_crosses_zero": []
+    }
+  },
+  "method_selection_or_early_stop_based_on_tests": false,
+  "limitations": [
+    "Single training seed; conditional sample intervals do not establish cross-seed stability",
+    "Model scale and data changed together relative to1.7B historical runs",
+    "Learning rates and parameter budgets differ across methods",
+    "One-stage SW adaptation, not a completed sequential multilingual CL study"
+  ]
+}
