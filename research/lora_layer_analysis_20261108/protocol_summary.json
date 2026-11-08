@@ -1,0 +1,151 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "not_pretrained_base_variant": true,
+  "mode": "non-thinking",
+  "trained_source_adapters": {
+    "steps": 400,
+    "samples": 6400,
+    "seed": 42,
+    "r": 16,
+    "alpha": 32,
+    "dropout": 0.05,
+    "lr": 0.0001
+  },
+  "new_training_jobs": 0,
+  "layer_groups": {
+    "early": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "middle": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "late": [
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35
+    ]
+  },
+  "mask_variants": [
+    "remove_early",
+    "remove_middle",
+    "remove_late",
+    "keep_late",
+    "remove_attention",
+    "remove_mlp"
+  ],
+  "benchmarks": {
+    "Belebele": {
+      "samples_per_language": 900,
+      "fewshot": 0,
+      "primary": "candidate letter likelihood ACC",
+      "backend": "HF",
+      "batch_size": 4
+    },
+    "SW_Global_MMLU": {
+      "samples": 14042,
+      "subjects": 57,
+      "fewshot": 5,
+      "primary": "candidate likelihood ACC",
+      "backend": "HF",
+      "batch_size": 1
+    },
+    "XL_Sum": {
+      "samples": {
+        "sw": 987,
+        "ar": 4689,
+        "ru": 7780
+      },
+      "fewshot": 0,
+      "primary": "ROUGE-Lsum",
+      "max_new_tokens": 256,
+      "max_input_tokens": 7168,
+      "max_model_len": 8192,
+      "backend": "vLLM V1",
+      "batch_size": 8,
+      "max_num_seqs": 8,
+      "max_num_batched_tokens": 4096,
+      "greedy": true,
+      "native_AR_RU_tokenizer": true,
+      "cross_language_absolute_rouge_ranking": false
+    },
+    "GSM8K": {
+      "samples": 1319,
+      "fewshot": 5,
+      "primary": "official flexible extract exact match",
+      "secondary": "official strict-match",
+      "max_new_tokens": 1280,
+      "greedy": true,
+      "backend": "vLLM V0"
+    },
+    "IFEval": {
+      "prompts": 541,
+      "instructions": 834,
+      "fewshot": 0,
+      "primary": "official prompt strict",
+      "secondary": "official instruction strict",
+      "max_new_tokens": 1280,
+      "greedy": true,
+      "backend": "vLLM V0"
+    }
+  },
+  "core_engine": {
+    "max_model_len": 8192,
+    "max_num_seqs": 8,
+    "max_num_batched_tokens": 8192,
+    "gpu_memory_utilization": 0.65,
+    "seed": 42,
+    "enforce_eager": true
+  },
+  "statistics": {
+    "paired_bootstrap": 2000,
+    "instruction_level_bootstrap_unit": "prompt_cluster",
+    "multiple_comparison_correction": false,
+    "cross_training_seed_replication": false
+  },
+  "test_use": "Historically exposed frozen supplementary ablations; no model/layer/hyperparameter selection",
+  "skipped": [
+    "new training B/C/D",
+    "single-layer ablations",
+    "matched random ablation groups",
+    "norm-matched ablation controls",
+    "new translation/XNLI inference",
+    "Logit Lens/hidden-state/gradient diagnostics"
+  ],
+  "hardware": {
+    "gpu_model": "NVIDIA GeForce RTX 3090",
+    "VRAM_MiB": 24576,
+    "max_concurrent_account_gpus": 4
+  }
+}

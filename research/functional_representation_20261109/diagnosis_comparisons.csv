@@ -1,0 +1,5 @@
+capability,comparison,heldout_mse_gain,ci95_low,ci95_high,bootstrap_unit,resamples,interval_conditions
+math,norm_total_minus_functional,0.012727942822719607,-0.009814483582233923,0.03337303236201229,example ID with all3 variants retained,2000,"fixed build-fitted coefficients, source adapter seed and calibration pool; no multiplicity correction"
+math,norm_total_random_minus_functional,0.019087871591383063,-0.005399542337487408,0.04106967123648678,example ID with all3 variants retained,2000,"fixed build-fitted coefficients, source adapter seed and calibration pool; no multiplicity correction"
+instruction,norm_total_minus_functional,-0.0015413414276121632,-0.00648154779497265,0.003808051270547901,example ID with all3 variants retained,2000,"fixed build-fitted coefficients, source adapter seed and calibration pool; no multiplicity correction"
+instruction,norm_total_random_minus_functional,-0.05007953979267007,-0.08277086976931188,-0.01872786734780275,example ID with all3 variants retained,2000,"fixed build-fitted coefficients, source adapter seed and calibration pool; no multiplicity correction"

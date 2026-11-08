@@ -1,0 +1,128 @@
+{
+  "scope": "Independent P1 numerical/input checks; no efficacy claim",
+  "base_feature_rows_checked": 256,
+  "build_gradient_fit_ids_checked": 128,
+  "check_ids_used_for_gradient_fit": 0,
+  "orthonormal_functional_and_random_bases_checked": 144,
+  "zero_adapter_feature_and_ce_checks": 4,
+  "variant_feature_rows_checked": 768,
+  "variant_layer_aggregates_checked": 27648,
+  "behavior_rows_checked": 1024,
+  "behavior_group_counts": [
+    {
+      "variant": "base",
+      "capability": "math",
+      "split": "build",
+      "correct": 64,
+      "samples": 64
+    },
+    {
+      "variant": "base",
+      "capability": "math",
+      "split": "check",
+      "correct": 64,
+      "samples": 64
+    },
+    {
+      "variant": "base",
+      "capability": "instruction",
+      "split": "build",
+      "correct": 64,
+      "samples": 64
+    },
+    {
+      "variant": "base",
+      "capability": "instruction",
+      "split": "check",
+      "correct": 64,
+      "samples": 64
+    },
+    {
+      "variant": "full",
+      "capability": "math",
+      "split": "build",
+      "correct": 51,
+      "samples": 64
+    },
+    {
+      "variant": "full",
+      "capability": "math",
+      "split": "check",
+      "correct": 50,
+      "samples": 64
+    },
+    {
+      "variant": "full",
+      "capability": "instruction",
+      "split": "build",
+      "correct": 55,
+      "samples": 64
+    },
+    {
+      "variant": "full",
+      "capability": "instruction",
+      "split": "check",
+      "correct": 57,
+      "samples": 64
+    },
+    {
+      "variant": "remove_middle",
+      "capability": "math",
+      "split": "build",
+      "correct": 64,
+      "samples": 64
+    },
+    {
+      "variant": "remove_middle",
+      "capability": "math",
+      "split": "check",
+      "correct": 63,
+      "samples": 64
+    },
+    {
+      "variant": "remove_middle",
+      "capability": "instruction",
+      "split": "build",
+      "correct": 64,
+      "samples": 64
+    },
+    {
+      "variant": "remove_middle",
+      "capability": "instruction",
+      "split": "check",
+      "correct": 64,
+      "samples": 64
+    },
+    {
+      "variant": "uniform",
+      "capability": "math",
+      "split": "build",
+      "correct": 56,
+      "samples": 64
+    },
+    {
+      "variant": "uniform",
+      "capability": "math",
+      "split": "check",
+      "correct": 53,
+      "samples": 64
+    },
+    {
+      "variant": "uniform",
+      "capability": "instruction",
+      "split": "build",
+      "correct": 59,
+      "samples": 64
+    },
+    {
+      "variant": "uniform",
+      "capability": "instruction",
+      "split": "check",
+      "correct": 63,
+      "samples": 64
+    }
+  ],
+  "analysis_sources_and_rules_unchanged": true,
+  "primary_and_nuisance_results_retained": true,
+  "new_training_jobs": 0
+}

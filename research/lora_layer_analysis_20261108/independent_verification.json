@@ -1,0 +1,135 @@
+{
+  "completed_groups_checked": 18,
+  "expected_groups": 18,
+  "checks": [
+    {
+      "language": "sw",
+      "variant": "remove_early",
+      "aggregate_matches_per_sample": true,
+      "candidate_argmax_recomputed": true,
+      "original_and_derived_identities_unchanged": true
+    },
+    {
+      "language": "sw",
+      "variant": "remove_middle",
+      "aggregate_matches_per_sample": true,
+      "candidate_argmax_recomputed": true,
+      "original_and_derived_identities_unchanged": true
+    },
+    {
+      "language": "sw",
+      "variant": "remove_late",
+      "aggregate_matches_per_sample": true,
+      "candidate_argmax_recomputed": true,
+      "original_and_derived_identities_unchanged": true
+    },
+    {
+      "language": "sw",
+      "variant": "keep_late",
+      "aggregate_matches_per_sample": true,
+      "candidate_argmax_recomputed": true,
+      "original_and_derived_identities_unchanged": true
+    },
+    {
+      "language": "sw",
+      "variant": "remove_attention",
+      "aggregate_matches_per_sample": true,
+      "candidate_argmax_recomputed": true,
+      "original_and_derived_identities_unchanged": true
+    },
+    {
+      "language": "sw",
+      "variant": "remove_mlp",
+      "aggregate_matches_per_sample": true,
+      "candidate_argmax_recomputed": true,
+      "original_and_derived_identities_unchanged": true
+    },
+    {
+      "language": "ar",
+      "variant": "remove_early",
+      "aggregate_matches_per_sample": true,
+      "candidate_argmax_recomputed": true,
+      "original_and_derived_identities_unchanged": true
+    },
+    {
+      "language": "ar",
+      "variant": "remove_middle",
+      "aggregate_matches_per_sample": true,
+      "candidate_argmax_recomputed": true,
+      "original_and_derived_identities_unchanged": true
+    },
+    {
+      "language": "ar",
+      "variant": "remove_late",
+      "aggregate_matches_per_sample": true,
+      "candidate_argmax_recomputed": true,
+      "original_and_derived_identities_unchanged": true
+    },
+    {
+      "language": "ar",
+      "variant": "keep_late",
+      "aggregate_matches_per_sample": true,
+      "candidate_argmax_recomputed": true,
+      "original_and_derived_identities_unchanged": true
+    },
+    {
+      "language": "ar",
+      "variant": "remove_attention",
+      "aggregate_matches_per_sample": true,
+      "candidate_argmax_recomputed": true,
+      "original_and_derived_identities_unchanged": true
+    },
+    {
+      "language": "ar",
+      "variant": "remove_mlp",
+      "aggregate_matches_per_sample": true,
+      "candidate_argmax_recomputed": true,
+      "original_and_derived_identities_unchanged": true
+    },
+    {
+      "language": "ru",
+      "variant": "remove_early",
+      "aggregate_matches_per_sample": true,
+      "candidate_argmax_recomputed": true,
+      "original_and_derived_identities_unchanged": true
+    },
+    {
+      "language": "ru",
+      "variant": "remove_middle",
+      "aggregate_matches_per_sample": true,
+      "candidate_argmax_recomputed": true,
+      "original_and_derived_identities_unchanged": true
+    },
+    {
+      "language": "ru",
+      "variant": "remove_late",
+      "aggregate_matches_per_sample": true,
+      "candidate_argmax_recomputed": true,
+      "original_and_derived_identities_unchanged": true
+    },
+    {
+      "language": "ru",
+      "variant": "keep_late",
+      "aggregate_matches_per_sample": true,
+      "candidate_argmax_recomputed": true,
+      "original_and_derived_identities_unchanged": true
+    },
+    {
+      "language": "ru",
+      "variant": "remove_attention",
+      "aggregate_matches_per_sample": true,
+      "candidate_argmax_recomputed": true,
+      "original_and_derived_identities_unchanged": true
+    },
+    {
+      "language": "ru",
+      "variant": "remove_mlp",
+      "aggregate_matches_per_sample": true,
+      "candidate_argmax_recomputed": true,
+      "original_and_derived_identities_unchanged": true
+    }
+  ],
+  "source_code_and_data_hashes_unchanged": true,
+  "new_inference_or_training": false,
+  "ifeval_note": "Original official RNG-dependent labels retained; no posthoc random fallback rescoring"
+}

@@ -1,0 +1,115 @@
+{
+  "complete": true,
+  "checks": [
+    {
+      "language": "sw",
+      "variant": "remove_early",
+      "all_item_identity_checks_passed": true,
+      "complete_primary_tasks": true
+    },
+    {
+      "language": "sw",
+      "variant": "remove_middle",
+      "all_item_identity_checks_passed": true,
+      "complete_primary_tasks": true
+    },
+    {
+      "language": "sw",
+      "variant": "remove_late",
+      "all_item_identity_checks_passed": true,
+      "complete_primary_tasks": true
+    },
+    {
+      "language": "sw",
+      "variant": "keep_late",
+      "all_item_identity_checks_passed": true,
+      "complete_primary_tasks": true
+    },
+    {
+      "language": "sw",
+      "variant": "remove_attention",
+      "all_item_identity_checks_passed": true,
+      "complete_primary_tasks": true
+    },
+    {
+      "language": "sw",
+      "variant": "remove_mlp",
+      "all_item_identity_checks_passed": true,
+      "complete_primary_tasks": true
+    },
+    {
+      "language": "ar",
+      "variant": "remove_early",
+      "all_item_identity_checks_passed": true,
+      "complete_primary_tasks": true
+    },
+    {
+      "language": "ar",
+      "variant": "remove_middle",
+      "all_item_identity_checks_passed": true,
+      "complete_primary_tasks": true
+    },
+    {
+      "language": "ar",
+      "variant": "remove_late",
+      "all_item_identity_checks_passed": true,
+      "complete_primary_tasks": true
+    },
+    {
+      "language": "ar",
+      "variant": "keep_late",
+      "all_item_identity_checks_passed": true,
+      "complete_primary_tasks": true
+    },
+    {
+      "language": "ar",
+      "variant": "remove_attention",
+      "all_item_identity_checks_passed": true,
+      "complete_primary_tasks": true
+    },
+    {
+      "language": "ar",
+      "variant": "remove_mlp",
+      "all_item_identity_checks_passed": true,
+      "complete_primary_tasks": true
+    },
+    {
+      "language": "ru",
+      "variant": "remove_early",
+      "all_item_identity_checks_passed": true,
+      "complete_primary_tasks": true
+    },
+    {
+      "language": "ru",
+      "variant": "remove_middle",
+      "all_item_identity_checks_passed": true,
+      "complete_primary_tasks": true
+    },
+    {
+      "language": "ru",
+      "variant": "remove_late",
+      "all_item_identity_checks_passed": true,
+      "complete_primary_tasks": true
+    },
+    {
+      "language": "ru",
+      "variant": "keep_late",
+      "all_item_identity_checks_passed": true,
+      "complete_primary_tasks": true
+    },
+    {
+      "language": "ru",
+      "variant": "remove_attention",
+      "all_item_identity_checks_passed": true,
+      "complete_primary_tasks": true
+    },
+    {
+      "language": "ru",
+      "variant": "remove_mlp",
+      "all_item_identity_checks_passed": true,
+      "complete_primary_tasks": true
+    }
+  ],
+  "pending": [],
+  "paired_bootstrap": 2000
+}

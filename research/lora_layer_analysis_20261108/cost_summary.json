@@ -1,0 +1,36 @@
+{
+  "planned_formal_stage_jobs": 60,
+  "completed_formal_stage_jobs": 60,
+  "new_training_jobs": 0,
+  "completed_formal_gpu_child_process_window_hours": 35.968190106388874,
+  "completed_formal_stage_wall_hours_including_queue": 36.04197665750556,
+  "max_user_gpus": 4,
+  "formal_samples": {
+    "Belebele_total": 32400,
+    "GSM8K_total": 23742,
+    "IFEval_prompts_total": 9738,
+    "XL_Sum_total": 80736,
+    "Global_MMLU_SW_total": 84252
+  },
+  "planned_multiple_choice_candidate_requests": 466608,
+  "planned_generation_requests": 114216,
+  "smoke": {
+    "inference_jobs": 3,
+    "scope": "2 reading examples per language/task; 2 GSM8K and 2 IFEval; 4 SW summaries",
+    "pipeline_wall_seconds_including_queue": 275.18320993899397,
+    "never_used_as_scientific_results": true
+  },
+  "cpu_preparation_seconds": 34.009444880000956,
+  "extra_public_recreation_validation": {
+    "new_training_or_inference": 0,
+    "variants_recreated_and_byte_compared": 18
+  },
+  "failures": [],
+  "limitations": [
+    "Only completed formal stage costs counted; ongoing/failed attempts require separate inspection",
+    "GPU process wall windows are not GPU kernel execution time",
+    "Queue waits and shared resource contention are separate from inference computation",
+    "No new Base/Full evaluations; existing same-protocol references reused"
+  ],
+  "all_formal_groups_complete": true
+}

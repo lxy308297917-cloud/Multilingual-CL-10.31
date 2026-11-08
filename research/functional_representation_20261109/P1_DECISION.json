@@ -1,0 +1,155 @@
+{
+  "stage": "P1_EXPLORATORY_DIAGNOSIS_COMPLETE",
+  "analysis_protocol_sha256": "25d34584d4293cd5df828980931ff84d7fcaa6c6d64afda459f6f3eda4b07bdc",
+  "capabilities": [
+    {
+      "capability": "math",
+      "heldout_ce_additional_information": false,
+      "behavioral_coverage_and_auc_support": false,
+      "supports_training_investigation": false
+    },
+    {
+      "capability": "instruction",
+      "heldout_ce_additional_information": false,
+      "behavioral_coverage_and_auc_support": false,
+      "supports_training_investigation": false
+    }
+  ],
+  "supports_training_investigation": false,
+  "base_recheck_errors_without_reselection": 0,
+  "regression_fits_build_only": {
+    "math/norm_total": {
+      "features": [
+        "effective_delta_squared_norm_ratio",
+        "answer_total"
+      ],
+      "build_mean": [
+        0.8063023449650285,
+        0.1021007987795567
+      ],
+      "build_std": [
+        0.13696492537516086,
+        0.043832612143151206
+      ],
+      "beta": [
+        -1.4045040986190238,
+        0.07203413374986435,
+        -0.2690861712777469
+      ]
+    },
+    "math/norm_total_functional": {
+      "features": [
+        "effective_delta_squared_norm_ratio",
+        "answer_total",
+        "answer_functional"
+      ],
+      "build_mean": [
+        0.8063023449650285,
+        0.1021007987795567,
+        0.0020482470889441173
+      ],
+      "build_std": [
+        0.13696492537516086,
+        0.043832612143151206,
+        0.001252600059025791
+      ],
+      "beta": [
+        -1.4045040986190236,
+        0.07096215291649,
+        -0.5607327214647762,
+        0.3054631840300572
+      ]
+    },
+    "math/norm_total_random": {
+      "features": [
+        "effective_delta_squared_norm_ratio",
+        "answer_total",
+        "answer_random"
+      ],
+      "build_mean": [
+        0.8063023449650285,
+        0.1021007987795567,
+        0.0003194437360663417
+      ],
+      "build_std": [
+        0.13696492537516086,
+        0.043832612143151206,
+        0.00013993433077125382
+      ],
+      "beta": [
+        -1.4045040986190238,
+        0.0755864913772927,
+        -0.5405856331757145,
+        0.27180061878569534
+      ]
+    },
+    "instruction/norm_total": {
+      "features": [
+        "effective_delta_squared_norm_ratio",
+        "answer_total"
+      ],
+      "build_mean": [
+        0.8063023449650285,
+        0.16053286499976568
+      ],
+      "build_std": [
+        0.13696492537516086,
+        0.05537816510790281
+      ],
+      "beta": [
+        -0.613300845400469,
+        0.05922077433627121,
+        -0.03386563913845048
+      ]
+    },
+    "instruction/norm_total_functional": {
+      "features": [
+        "effective_delta_squared_norm_ratio",
+        "answer_total",
+        "answer_functional"
+      ],
+      "build_mean": [
+        0.8063023449650285,
+        0.16053286499976568,
+        0.0023524551248058296
+      ],
+      "build_std": [
+        0.13696492537516086,
+        0.05537816510790281,
+        0.0009058035645659143
+      ],
+      "beta": [
+        -0.613300845400469,
+        0.06414904670771937,
+        -0.1840133848630043,
+        0.15141008944591977
+      ]
+    },
+    "instruction/norm_total_random": {
+      "features": [
+        "effective_delta_squared_norm_ratio",
+        "answer_total",
+        "answer_random"
+      ],
+      "build_mean": [
+        0.8063023449650285,
+        0.16053286499976568,
+        0.0004941105134203327
+      ],
+      "build_std": [
+        0.13696492537516086,
+        0.05537816510790281,
+        0.0001736414445405956
+      ],
+      "beta": [
+        -0.613300845400469,
+        0.027622926267771436,
+        -0.7194944384835923,
+        0.7362360617139182
+      ]
+    }
+  },
+  "new_training_jobs": 0,
+  "formal_benchmark_benefit": "NOT_ESTABLISHED",
+  "next_action": "Do not launch complex regularized training yet; mechanism/calibration evidence insufficient, not a proof that the method cannot work"
+}

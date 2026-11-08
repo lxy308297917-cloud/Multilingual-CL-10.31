@@ -1,0 +1,119 @@
+{
+  "scope": "Selected actual benchmark assets only; no raw questions, prompts, private paths or full internal asset list",
+  "files": [
+    {
+      "asset": "Belebele/en/test",
+      "sha256": "15af884c2b5994fdc71199e79d553a1864b08ce1b31894aa87f6be925a064a31",
+      "matches_pre_run_input_lock": true
+    },
+    {
+      "asset": "Belebele/sw/test",
+      "sha256": "c7b1c735c1b555f7d12219b7c16ceff3bc9f76d61f1736097acbefe055349813",
+      "matches_pre_run_input_lock": true
+    },
+    {
+      "asset": "Belebele/ar/test",
+      "sha256": "a2282b0974826172b1ce76a5d9e362091cfc8a7a25023df2d011f88f588b56e0",
+      "matches_pre_run_input_lock": true
+    },
+    {
+      "asset": "Belebele/ru/test",
+      "sha256": "e8b81853605b97e993af07a34ad2c0a48ccd8dab80956b0650a161e8fea00de5",
+      "matches_pre_run_input_lock": true
+    },
+    {
+      "asset": "XL-Sum/sw/test.jsonl",
+      "sha256": "7a2a449245c044386030adc9a60ea0c1c8c62354458dc2ad40e10b1e64990d5e",
+      "matches_pre_run_input_lock": true
+    },
+    {
+      "asset": "XL-Sum/sw/manifest.json",
+      "sha256": "1b3c316c67d0787de2152106da639d8e3a2744647a4896ed0731e9d78355142f",
+      "matches_pre_run_input_lock": true
+    },
+    {
+      "asset": "XL-Sum/ar/test.jsonl",
+      "sha256": "4670f9e3ec40b212bc9ed81a8a1d0deb5d3892282e18185e1041ee8c862e8b61",
+      "matches_pre_run_input_lock": true
+    },
+    {
+      "asset": "XL-Sum/ar/manifest.json",
+      "sha256": "c089b5651abd3e0812d4b76ec927bbcc6a8c01245129a53ed1673e3d9c5be6c5",
+      "matches_pre_run_input_lock": true
+    },
+    {
+      "asset": "XL-Sum/ru/test.jsonl",
+      "sha256": "cabc24c92b278e685de0e348e133a57bfb9fa97c3da6fa212bc4d939be123194",
+      "matches_pre_run_input_lock": true
+    },
+    {
+      "asset": "XL-Sum/ru/manifest.json",
+      "sha256": "cf00f209712c9e744622840118d73a8f56bd84eb3e993b17cbe343813036d790",
+      "matches_pre_run_input_lock": true
+    },
+    {
+      "asset": "GSM8K/train",
+      "sha256": "ea82612ea9582142387730c793eb67d3b12849002bc0b7fa6f8efafa7351419d",
+      "matches_pre_run_input_lock": true
+    },
+    {
+      "asset": "GSM8K/test",
+      "sha256": "ee7b8da9e381df27b9e3f7758a159ab2bdaa4dbaa910546cbbc47e0cb44e4f59",
+      "matches_pre_run_input_lock": true
+    },
+    {
+      "asset": "IFEval/prompts",
+      "sha256": "6a85310ca8ce15eff755aa08a3a4ff931c7e273e7515ebb3c492ea85fd8288f2",
+      "matches_pre_run_input_lock": true
+    },
+    {
+      "asset": "Global-MMLU/sw/source/dev",
+      "sha256": "2c384c8dc9e513e43f8c7c19418305c81f1e19cfc82c5e01a7b63722693d6ef7",
+      "matches_existing_source_asset_lock": true
+    },
+    {
+      "asset": "Global-MMLU/sw/cached/dev",
+      "sha256": "8d01aaa1a09f47bbb58aec88689931a37d2f42107f2abeab0f4f5aa4469ca7f4",
+      "cached_rows_equal_source_rows_in_order": true
+    },
+    {
+      "asset": "Global-MMLU/sw/source/test",
+      "sha256": "de7bfff464f5bbc09a04a31acc4a5a89f66efdb61f6f337abd6081156c4572b5",
+      "matches_existing_source_asset_lock": true
+    },
+    {
+      "asset": "Global-MMLU/sw/cached/test",
+      "sha256": "f353e246212f1c62178b145599c9ebd10b263e1e2a2cf682b4507c0b11921fd1",
+      "cached_rows_equal_source_rows_in_order": true
+    },
+    {
+      "asset": "Global-MMLU/sw/task/_sw_template_yaml",
+      "sha256": "f85a370655184f81ba73ea0fce0d4f6f8dbc1a0392e919e143b8669a08ec62bc",
+      "scope": "Supplementary identity fingerprint; original 89-file input lock omitted these extensionless/helper files"
+    },
+    {
+      "asset": "Global-MMLU/sw/task/utils.py",
+      "sha256": "b4012dd2b1a508885d23ee2ddb12bc26f3e622081ba41ec1ab766edc31a4982b",
+      "scope": "Supplementary identity fingerprint; original 89-file input lock omitted these extensionless/helper files"
+    }
+  ],
+  "global_mmlu_source": {
+    "dataset": "CohereForAI/Global-MMLU",
+    "revision": "0e619dbeb34206cd48705a1a0ea7fb21cae09993",
+    "language": "sw"
+  },
+  "global_mmlu_cached_source_equivalence": [
+    {
+      "split": "dev",
+      "rows": 285,
+      "all_columns_and_rows_equal_in_order": true
+    },
+    {
+      "split": "test",
+      "rows": 14042,
+      "all_columns_and_rows_equal_in_order": true
+    }
+  ],
+  "extra_training_and_inference_jobs": 0,
+  "limits": "Hash verification documents asset identity. It is separate from per-sample prompt/target matching and does not establish a blind test or cross-seed stability."
+}

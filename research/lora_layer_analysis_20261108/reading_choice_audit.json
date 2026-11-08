@@ -1,0 +1,2258 @@
+[
+  {
+    "language": "sw",
+    "task": "Belebele target",
+    "model": "Base",
+    "samples": 900,
+    "accuracy": 27.333333333333332,
+    "predicted_counts": [
+      825,
+      32,
+      28,
+      15
+    ],
+    "gold_counts": [
+      206,
+      251,
+      246,
+      197
+    ],
+    "confusion_gold_rows_pred_columns": [
+      [
+        199,
+        4,
+        2,
+        1
+      ],
+      [
+        227,
+        19,
+        5,
+        0
+      ],
+      [
+        219,
+        9,
+        16,
+        2
+      ],
+      [
+        180,
+        0,
+        5,
+        12
+      ]
+    ],
+    "mean_correct_option_logprob_margin": -1.7659087456597222,
+    "margin_is_auxiliary_not_an_adoption_criterion": true
+  },
+  {
+    "language": "sw",
+    "task": "Belebele target",
+    "model": "Full",
+    "samples": 900,
+    "accuracy": 38.111111111111114,
+    "predicted_counts": [
+      508,
+      204,
+      92,
+      96
+    ],
+    "gold_counts": [
+      206,
+      251,
+      246,
+      197
+    ],
+    "confusion_gold_rows_pred_columns": [
+      [
+        148,
+        30,
+        16,
+        12
+      ],
+      [
+        125,
+        96,
+        13,
+        17
+      ],
+      [
+        131,
+        45,
+        51,
+        19
+      ],
+      [
+        104,
+        33,
+        12,
+        48
+      ]
+    ],
+    "mean_correct_option_logprob_margin": -0.6819965277777778,
+    "margin_is_auxiliary_not_an_adoption_criterion": true
+  },
+  {
+    "language": "sw",
+    "task": "Belebele target",
+    "model": "remove_early",
+    "samples": 900,
+    "accuracy": 42.111111111111114,
+    "predicted_counts": [
+      446,
+      183,
+      164,
+      107
+    ],
+    "gold_counts": [
+      206,
+      251,
+      246,
+      197
+    ],
+    "confusion_gold_rows_pred_columns": [
+      [
+        141,
+        24,
+        32,
+        9
+      ],
+      [
+        115,
+        89,
+        28,
+        19
+      ],
+      [
+        105,
+        39,
+        86,
+        16
+      ],
+      [
+        85,
+        31,
+        18,
+        63
+      ]
+    ],
+    "mean_correct_option_logprob_margin": -0.4430208333333333,
+    "margin_is_auxiliary_not_an_adoption_criterion": true
+  },
+  {
+    "language": "sw",
+    "task": "Belebele target",
+    "model": "remove_middle",
+    "samples": 900,
+    "accuracy": 37.0,
+    "predicted_counts": [
+      615,
+      116,
+      77,
+      92
+    ],
+    "gold_counts": [
+      206,
+      251,
+      246,
+      197
+    ],
+    "confusion_gold_rows_pred_columns": [
+      [
+        171,
+        16,
+        9,
+        10
+      ],
+      [
+        159,
+        64,
+        11,
+        17
+      ],
+      [
+        163,
+        18,
+        49,
+        16
+      ],
+      [
+        122,
+        18,
+        8,
+        49
+      ]
+    ],
+    "mean_correct_option_logprob_margin": -0.9659722222222222,
+    "margin_is_auxiliary_not_an_adoption_criterion": true
+  },
+  {
+    "language": "sw",
+    "task": "Belebele target",
+    "model": "remove_late",
+    "samples": 900,
+    "accuracy": 38.22222222222222,
+    "predicted_counts": [
+      515,
+      194,
+      114,
+      77
+    ],
+    "gold_counts": [
+      206,
+      251,
+      246,
+      197
+    ],
+    "confusion_gold_rows_pred_columns": [
+      [
+        151,
+        27,
+        21,
+        7
+      ],
+      [
+        127,
+        94,
+        16,
+        14
+      ],
+      [
+        126,
+        43,
+        60,
+        17
+      ],
+      [
+        111,
+        30,
+        17,
+        39
+      ]
+    ],
+    "mean_correct_option_logprob_margin": -0.8365755208333333,
+    "margin_is_auxiliary_not_an_adoption_criterion": true
+  },
+  {
+    "language": "sw",
+    "task": "Belebele target",
+    "model": "keep_late",
+    "samples": 900,
+    "accuracy": 26.555555555555557,
+    "predicted_counts": [
+      832,
+      25,
+      10,
+      33
+    ],
+    "gold_counts": [
+      206,
+      251,
+      246,
+      197
+    ],
+    "confusion_gold_rows_pred_columns": [
+      [
+        200,
+        3,
+        0,
+        3
+      ],
+      [
+        227,
+        16,
+        2,
+        6
+      ],
+      [
+        227,
+        4,
+        7,
+        8
+      ],
+      [
+        178,
+        2,
+        1,
+        16
+      ]
+    ],
+    "mean_correct_option_logprob_margin": -1.1656966145833334,
+    "margin_is_auxiliary_not_an_adoption_criterion": true
+  },
+  {
+    "language": "sw",
+    "task": "Belebele target",
+    "model": "remove_attention",
+    "samples": 900,
+    "accuracy": 42.0,
+    "predicted_counts": [
+      442,
+      178,
+      164,
+      116
+    ],
+    "gold_counts": [
+      206,
+      251,
+      246,
+      197
+    ],
+    "confusion_gold_rows_pred_columns": [
+      [
+        139,
+        25,
+        29,
+        13
+      ],
+      [
+        111,
+        92,
+        29,
+        19
+      ],
+      [
+        109,
+        34,
+        83,
+        20
+      ],
+      [
+        83,
+        27,
+        23,
+        64
+      ]
+    ],
+    "mean_correct_option_logprob_margin": -0.4583344184027778,
+    "margin_is_auxiliary_not_an_adoption_criterion": true
+  },
+  {
+    "language": "sw",
+    "task": "Belebele target",
+    "model": "remove_mlp",
+    "samples": 900,
+    "accuracy": 41.22222222222222,
+    "predicted_counts": [
+      457,
+      150,
+      145,
+      148
+    ],
+    "gold_counts": [
+      206,
+      251,
+      246,
+      197
+    ],
+    "confusion_gold_rows_pred_columns": [
+      [
+        146,
+        18,
+        24,
+        18
+      ],
+      [
+        121,
+        77,
+        27,
+        26
+      ],
+      [
+        109,
+        29,
+        76,
+        32
+      ],
+      [
+        81,
+        26,
+        18,
+        72
+      ]
+    ],
+    "mean_correct_option_logprob_margin": -0.4567789713541667,
+    "margin_is_auxiliary_not_an_adoption_criterion": true
+  },
+  {
+    "language": "sw",
+    "task": "Belebele en",
+    "model": "Base",
+    "samples": 900,
+    "accuracy": 62.888888888888886,
+    "predicted_counts": [
+      489,
+      123,
+      129,
+      159
+    ],
+    "gold_counts": [
+      206,
+      251,
+      246,
+      197
+    ],
+    "confusion_gold_rows_pred_columns": [
+      [
+        198,
+        3,
+        0,
+        5
+      ],
+      [
+        124,
+        112,
+        0,
+        15
+      ],
+      [
+        102,
+        5,
+        128,
+        11
+      ],
+      [
+        65,
+        3,
+        1,
+        128
+      ]
+    ],
+    "mean_correct_option_logprob_margin": 2.697534722222222,
+    "margin_is_auxiliary_not_an_adoption_criterion": true
+  },
+  {
+    "language": "sw",
+    "task": "Belebele en",
+    "model": "Full",
+    "samples": 900,
+    "accuracy": 86.33333333333333,
+    "predicted_counts": [
+      255,
+      240,
+      222,
+      183
+    ],
+    "gold_counts": [
+      206,
+      251,
+      246,
+      197
+    ],
+    "confusion_gold_rows_pred_columns": [
+      [
+        193,
+        6,
+        5,
+        2
+      ],
+      [
+        20,
+        213,
+        5,
+        13
+      ],
+      [
+        20,
+        15,
+        207,
+        4
+      ],
+      [
+        22,
+        6,
+        5,
+        164
+      ]
+    ],
+    "mean_correct_option_logprob_margin": 3.3072395833333332,
+    "margin_is_auxiliary_not_an_adoption_criterion": true
+  },
+  {
+    "language": "sw",
+    "task": "Belebele en",
+    "model": "remove_early",
+    "samples": 900,
+    "accuracy": 86.55555555555556,
+    "predicted_counts": [
+      255,
+      248,
+      213,
+      184
+    ],
+    "gold_counts": [
+      206,
+      251,
+      246,
+      197
+    ],
+    "confusion_gold_rows_pred_columns": [
+      [
+        195,
+        7,
+        3,
+        1
+      ],
+      [
+        16,
+        217,
+        4,
+        14
+      ],
+      [
+        23,
+        19,
+        201,
+        3
+      ],
+      [
+        21,
+        5,
+        5,
+        166
+      ]
+    ],
+    "mean_correct_option_logprob_margin": 4.025095486111111,
+    "margin_is_auxiliary_not_an_adoption_criterion": true
+  },
+  {
+    "language": "sw",
+    "task": "Belebele en",
+    "model": "remove_middle",
+    "samples": 900,
+    "accuracy": 82.22222222222223,
+    "predicted_counts": [
+      316,
+      211,
+      187,
+      186
+    ],
+    "gold_counts": [
+      206,
+      251,
+      246,
+      197
+    ],
+    "confusion_gold_rows_pred_columns": [
+      [
+        198,
+        4,
+        0,
+        4
+      ],
+      [
+        44,
+        194,
+        3,
+        10
+      ],
+      [
+        46,
+        10,
+        183,
+        7
+      ],
+      [
+        28,
+        3,
+        1,
+        165
+      ]
+    ],
+    "mean_correct_option_logprob_margin": 4.100665147569444,
+    "margin_is_auxiliary_not_an_adoption_criterion": true
+  },
+  {
+    "language": "sw",
+    "task": "Belebele en",
+    "model": "remove_late",
+    "samples": 900,
+    "accuracy": 86.66666666666667,
+    "predicted_counts": [
+      250,
+      242,
+      222,
+      186
+    ],
+    "gold_counts": [
+      206,
+      251,
+      246,
+      197
+    ],
+    "confusion_gold_rows_pred_columns": [
+      [
+        193,
+        6,
+        5,
+        2
+      ],
+      [
+        18,
+        215,
+        5,
+        13
+      ],
+      [
+        19,
+        16,
+        206,
+        5
+      ],
+      [
+        20,
+        5,
+        6,
+        166
+      ]
+    ],
+    "mean_correct_option_logprob_margin": 4.649518229166667,
+    "margin_is_auxiliary_not_an_adoption_criterion": true
+  },
+  {
+    "language": "sw",
+    "task": "Belebele en",
+    "model": "keep_late",
+    "samples": 900,
+    "accuracy": 71.55555555555556,
+    "predicted_counts": [
+      367,
+      170,
+      134,
+      229
+    ],
+    "gold_counts": [
+      206,
+      251,
+      246,
+      197
+    ],
+    "confusion_gold_rows_pred_columns": [
+      [
+        194,
+        3,
+        0,
+        9
+      ],
+      [
+        67,
+        156,
+        0,
+        28
+      ],
+      [
+        74,
+        8,
+        133,
+        31
+      ],
+      [
+        32,
+        3,
+        1,
+        161
+      ]
+    ],
+    "mean_correct_option_logprob_margin": 2.2459765625,
+    "margin_is_auxiliary_not_an_adoption_criterion": true
+  },
+  {
+    "language": "sw",
+    "task": "Belebele en",
+    "model": "remove_attention",
+    "samples": 900,
+    "accuracy": 89.11111111111111,
+    "predicted_counts": [
+      239,
+      254,
+      220,
+      187
+    ],
+    "gold_counts": [
+      206,
+      251,
+      246,
+      197
+    ],
+    "confusion_gold_rows_pred_columns": [
+      [
+        194,
+        8,
+        3,
+        1
+      ],
+      [
+        13,
+        225,
+        4,
+        9
+      ],
+      [
+        18,
+        16,
+        209,
+        3
+      ],
+      [
+        14,
+        5,
+        4,
+        174
+      ]
+    ],
+    "mean_correct_option_logprob_margin": 5.5135110134548615,
+    "margin_is_auxiliary_not_an_adoption_criterion": true
+  },
+  {
+    "language": "sw",
+    "task": "Belebele en",
+    "model": "remove_mlp",
+    "samples": 900,
+    "accuracy": 87.88888888888889,
+    "predicted_counts": [
+      241,
+      245,
+      220,
+      194
+    ],
+    "gold_counts": [
+      206,
+      251,
+      246,
+      197
+    ],
+    "confusion_gold_rows_pred_columns": [
+      [
+        192,
+        9,
+        1,
+        4
+      ],
+      [
+        15,
+        218,
+        4,
+        14
+      ],
+      [
+        19,
+        14,
+        209,
+        4
+      ],
+      [
+        15,
+        4,
+        6,
+        172
+      ]
+    ],
+    "mean_correct_option_logprob_margin": 5.83292975531684,
+    "margin_is_auxiliary_not_an_adoption_criterion": true
+  },
+  {
+    "language": "ar",
+    "task": "Belebele target",
+    "model": "Base",
+    "samples": 900,
+    "accuracy": 46.22222222222222,
+    "predicted_counts": [
+      430,
+      349,
+      94,
+      27
+    ],
+    "gold_counts": [
+      206,
+      251,
+      246,
+      197
+    ],
+    "confusion_gold_rows_pred_columns": [
+      [
+        152,
+        49,
+        5,
+        0
+      ],
+      [
+        77,
+        168,
+        5,
+        1
+      ],
+      [
+        100,
+        72,
+        72,
+        2
+      ],
+      [
+        101,
+        60,
+        12,
+        24
+      ]
+    ],
+    "mean_correct_option_logprob_margin": -0.0103125,
+    "margin_is_auxiliary_not_an_adoption_criterion": true
+  },
+  {
+    "language": "ar",
+    "task": "Belebele target",
+    "model": "Full",
+    "samples": 900,
+    "accuracy": 78.44444444444444,
+    "predicted_counts": [
+      217,
+      283,
+      224,
+      176
+    ],
+    "gold_counts": [
+      206,
+      251,
+      246,
+      197
+    ],
+    "confusion_gold_rows_pred_columns": [
+      [
+        163,
+        23,
+        11,
+        9
+      ],
+      [
+        17,
+        209,
+        13,
+        12
+      ],
+      [
+        18,
+        33,
+        187,
+        8
+      ],
+      [
+        19,
+        18,
+        13,
+        147
+      ]
+    ],
+    "mean_correct_option_logprob_margin": 1.9005555555555556,
+    "margin_is_auxiliary_not_an_adoption_criterion": true
+  },
+  {
+    "language": "ar",
+    "task": "Belebele target",
+    "model": "remove_early",
+    "samples": 900,
+    "accuracy": 79.0,
+    "predicted_counts": [
+      217,
+      276,
+      222,
+      185
+    ],
+    "gold_counts": [
+      206,
+      251,
+      246,
+      197
+    ],
+    "confusion_gold_rows_pred_columns": [
+      [
+        161,
+        25,
+        10,
+        10
+      ],
+      [
+        18,
+        207,
+        14,
+        12
+      ],
+      [
+        17,
+        29,
+        190,
+        10
+      ],
+      [
+        21,
+        15,
+        8,
+        153
+      ]
+    ],
+    "mean_correct_option_logprob_margin": 1.8814930555555556,
+    "margin_is_auxiliary_not_an_adoption_criterion": true
+  },
+  {
+    "language": "ar",
+    "task": "Belebele target",
+    "model": "remove_middle",
+    "samples": 900,
+    "accuracy": 79.55555555555556,
+    "predicted_counts": [
+      229,
+      263,
+      225,
+      183
+    ],
+    "gold_counts": [
+      206,
+      251,
+      246,
+      197
+    ],
+    "confusion_gold_rows_pred_columns": [
+      [
+        171,
+        20,
+        5,
+        10
+      ],
+      [
+        23,
+        202,
+        14,
+        12
+      ],
+      [
+        16,
+        26,
+        193,
+        11
+      ],
+      [
+        19,
+        15,
+        13,
+        150
+      ]
+    ],
+    "mean_correct_option_logprob_margin": 3.4241145833333335,
+    "margin_is_auxiliary_not_an_adoption_criterion": true
+  },
+  {
+    "language": "ar",
+    "task": "Belebele target",
+    "model": "remove_late",
+    "samples": 900,
+    "accuracy": 79.44444444444444,
+    "predicted_counts": [
+      243,
+      245,
+      225,
+      187
+    ],
+    "gold_counts": [
+      206,
+      251,
+      246,
+      197
+    ],
+    "confusion_gold_rows_pred_columns": [
+      [
+        174,
+        14,
+        11,
+        7
+      ],
+      [
+        26,
+        197,
+        14,
+        14
+      ],
+      [
+        23,
+        25,
+        188,
+        10
+      ],
+      [
+        20,
+        9,
+        12,
+        156
+      ]
+    ],
+    "mean_correct_option_logprob_margin": 2.8824723307291666,
+    "margin_is_auxiliary_not_an_adoption_criterion": true
+  },
+  {
+    "language": "ar",
+    "task": "Belebele target",
+    "model": "keep_late",
+    "samples": 900,
+    "accuracy": 50.44444444444444,
+    "predicted_counts": [
+      438,
+      339,
+      63,
+      60
+    ],
+    "gold_counts": [
+      206,
+      251,
+      246,
+      197
+    ],
+    "confusion_gold_rows_pred_columns": [
+      [
+        161,
+        43,
+        0,
+        2
+      ],
+      [
+        70,
+        179,
+        1,
+        1
+      ],
+      [
+        112,
+        71,
+        60,
+        3
+      ],
+      [
+        95,
+        46,
+        2,
+        54
+      ]
+    ],
+    "mean_correct_option_logprob_margin": 0.1811111111111111,
+    "margin_is_auxiliary_not_an_adoption_criterion": true
+  },
+  {
+    "language": "ar",
+    "task": "Belebele target",
+    "model": "remove_attention",
+    "samples": 900,
+    "accuracy": 81.77777777777777,
+    "predicted_counts": [
+      237,
+      258,
+      217,
+      188
+    ],
+    "gold_counts": [
+      206,
+      251,
+      246,
+      197
+    ],
+    "confusion_gold_rows_pred_columns": [
+      [
+        178,
+        15,
+        6,
+        7
+      ],
+      [
+        19,
+        208,
+        14,
+        10
+      ],
+      [
+        20,
+        27,
+        189,
+        10
+      ],
+      [
+        20,
+        8,
+        8,
+        161
+      ]
+    ],
+    "mean_correct_option_logprob_margin": 3.366935763888889,
+    "margin_is_auxiliary_not_an_adoption_criterion": true
+  },
+  {
+    "language": "ar",
+    "task": "Belebele target",
+    "model": "remove_mlp",
+    "samples": 900,
+    "accuracy": 80.77777777777777,
+    "predicted_counts": [
+      232,
+      255,
+      227,
+      186
+    ],
+    "gold_counts": [
+      206,
+      251,
+      246,
+      197
+    ],
+    "confusion_gold_rows_pred_columns": [
+      [
+        173,
+        18,
+        6,
+        9
+      ],
+      [
+        18,
+        205,
+        14,
+        14
+      ],
+      [
+        21,
+        23,
+        194,
+        8
+      ],
+      [
+        20,
+        9,
+        13,
+        155
+      ]
+    ],
+    "mean_correct_option_logprob_margin": 3.451115993923611,
+    "margin_is_auxiliary_not_an_adoption_criterion": true
+  },
+  {
+    "language": "ar",
+    "task": "Belebele en",
+    "model": "Base",
+    "samples": 900,
+    "accuracy": 62.888888888888886,
+    "predicted_counts": [
+      489,
+      123,
+      129,
+      159
+    ],
+    "gold_counts": [
+      206,
+      251,
+      246,
+      197
+    ],
+    "confusion_gold_rows_pred_columns": [
+      [
+        198,
+        3,
+        0,
+        5
+      ],
+      [
+        124,
+        112,
+        0,
+        15
+      ],
+      [
+        102,
+        5,
+        128,
+        11
+      ],
+      [
+        65,
+        3,
+        1,
+        128
+      ]
+    ],
+    "mean_correct_option_logprob_margin": 2.697534722222222,
+    "margin_is_auxiliary_not_an_adoption_criterion": true
+  },
+  {
+    "language": "ar",
+    "task": "Belebele en",
+    "model": "Full",
+    "samples": 900,
+    "accuracy": 87.66666666666667,
+    "predicted_counts": [
+      225,
+      259,
+      227,
+      189
+    ],
+    "gold_counts": [
+      206,
+      251,
+      246,
+      197
+    ],
+    "confusion_gold_rows_pred_columns": [
+      [
+        186,
+        13,
+        4,
+        3
+      ],
+      [
+        12,
+        222,
+        8,
+        9
+      ],
+      [
+        17,
+        19,
+        207,
+        3
+      ],
+      [
+        10,
+        5,
+        8,
+        174
+      ]
+    ],
+    "mean_correct_option_logprob_margin": 2.602777777777778,
+    "margin_is_auxiliary_not_an_adoption_criterion": true
+  },
+  {
+    "language": "ar",
+    "task": "Belebele en",
+    "model": "remove_early",
+    "samples": 900,
+    "accuracy": 87.22222222222223,
+    "predicted_counts": [
+      234,
+      253,
+      225,
+      188
+    ],
+    "gold_counts": [
+      206,
+      251,
+      246,
+      197
+    ],
+    "confusion_gold_rows_pred_columns": [
+      [
+        189,
+        10,
+        5,
+        2
+      ],
+      [
+        11,
+        221,
+        4,
+        15
+      ],
+      [
+        18,
+        18,
+        207,
+        3
+      ],
+      [
+        16,
+        4,
+        9,
+        168
+      ]
+    ],
+    "mean_correct_option_logprob_margin": 3.2861284722222224,
+    "margin_is_auxiliary_not_an_adoption_criterion": true
+  },
+  {
+    "language": "ar",
+    "task": "Belebele en",
+    "model": "remove_middle",
+    "samples": 900,
+    "accuracy": 85.77777777777777,
+    "predicted_counts": [
+      248,
+      251,
+      213,
+      188
+    ],
+    "gold_counts": [
+      206,
+      251,
+      246,
+      197
+    ],
+    "confusion_gold_rows_pred_columns": [
+      [
+        189,
+        12,
+        1,
+        4
+      ],
+      [
+        22,
+        214,
+        4,
+        11
+      ],
+      [
+        22,
+        20,
+        200,
+        4
+      ],
+      [
+        15,
+        5,
+        8,
+        169
+      ]
+    ],
+    "mean_correct_option_logprob_margin": 3.559739583333333,
+    "margin_is_auxiliary_not_an_adoption_criterion": true
+  },
+  {
+    "language": "ar",
+    "task": "Belebele en",
+    "model": "remove_late",
+    "samples": 900,
+    "accuracy": 88.22222222222223,
+    "predicted_counts": [
+      227,
+      257,
+      227,
+      189
+    ],
+    "gold_counts": [
+      206,
+      251,
+      246,
+      197
+    ],
+    "confusion_gold_rows_pred_columns": [
+      [
+        187,
+        13,
+        3,
+        3
+      ],
+      [
+        12,
+        223,
+        7,
+        9
+      ],
+      [
+        16,
+        17,
+        210,
+        3
+      ],
+      [
+        12,
+        4,
+        7,
+        174
+      ]
+    ],
+    "mean_correct_option_logprob_margin": 3.7054210069444444,
+    "margin_is_auxiliary_not_an_adoption_criterion": true
+  },
+  {
+    "language": "ar",
+    "task": "Belebele en",
+    "model": "keep_late",
+    "samples": 900,
+    "accuracy": 72.88888888888889,
+    "predicted_counts": [
+      374,
+      181,
+      144,
+      201
+    ],
+    "gold_counts": [
+      206,
+      251,
+      246,
+      197
+    ],
+    "confusion_gold_rows_pred_columns": [
+      [
+        194,
+        4,
+        0,
+        8
+      ],
+      [
+        67,
+        163,
+        0,
+        21
+      ],
+      [
+        76,
+        11,
+        143,
+        16
+      ],
+      [
+        37,
+        3,
+        1,
+        156
+      ]
+    ],
+    "mean_correct_option_logprob_margin": 2.274670138888889,
+    "margin_is_auxiliary_not_an_adoption_criterion": true
+  },
+  {
+    "language": "ar",
+    "task": "Belebele en",
+    "model": "remove_attention",
+    "samples": 900,
+    "accuracy": 89.0,
+    "predicted_counts": [
+      225,
+      253,
+      222,
+      200
+    ],
+    "gold_counts": [
+      206,
+      251,
+      246,
+      197
+    ],
+    "confusion_gold_rows_pred_columns": [
+      [
+        189,
+        10,
+        2,
+        5
+      ],
+      [
+        10,
+        224,
+        4,
+        13
+      ],
+      [
+        15,
+        15,
+        211,
+        5
+      ],
+      [
+        11,
+        4,
+        5,
+        177
+      ]
+    ],
+    "mean_correct_option_logprob_margin": 4.683064236111111,
+    "margin_is_auxiliary_not_an_adoption_criterion": true
+  },
+  {
+    "language": "ar",
+    "task": "Belebele en",
+    "model": "remove_mlp",
+    "samples": 900,
+    "accuracy": 88.44444444444444,
+    "predicted_counts": [
+      234,
+      254,
+      226,
+      186
+    ],
+    "gold_counts": [
+      206,
+      251,
+      246,
+      197
+    ],
+    "confusion_gold_rows_pred_columns": [
+      [
+        191,
+        10,
+        2,
+        3
+      ],
+      [
+        13,
+        223,
+        5,
+        10
+      ],
+      [
+        16,
+        17,
+        211,
+        2
+      ],
+      [
+        14,
+        4,
+        8,
+        171
+      ]
+    ],
+    "mean_correct_option_logprob_margin": 4.780799696180556,
+    "margin_is_auxiliary_not_an_adoption_criterion": true
+  },
+  {
+    "language": "ru",
+    "task": "Belebele target",
+    "model": "Base",
+    "samples": 900,
+    "accuracy": 55.55555555555556,
+    "predicted_counts": [
+      340,
+      136,
+      381,
+      43
+    ],
+    "gold_counts": [
+      206,
+      251,
+      246,
+      197
+    ],
+    "confusion_gold_rows_pred_columns": [
+      [
+        155,
+        3,
+        47,
+        1
+      ],
+      [
+        54,
+        125,
+        72,
+        0
+      ],
+      [
+        63,
+        5,
+        178,
+        0
+      ],
+      [
+        68,
+        3,
+        84,
+        42
+      ]
+    ],
+    "mean_correct_option_logprob_margin": 0.7308550347222222,
+    "margin_is_auxiliary_not_an_adoption_criterion": true
+  },
+  {
+    "language": "ru",
+    "task": "Belebele target",
+    "model": "Full",
+    "samples": 900,
+    "accuracy": 81.88888888888889,
+    "predicted_counts": [
+      236,
+      257,
+      246,
+      161
+    ],
+    "gold_counts": [
+      206,
+      251,
+      246,
+      197
+    ],
+    "confusion_gold_rows_pred_columns": [
+      [
+        175,
+        14,
+        16,
+        1
+      ],
+      [
+        22,
+        207,
+        15,
+        7
+      ],
+      [
+        17,
+        21,
+        205,
+        3
+      ],
+      [
+        22,
+        15,
+        10,
+        150
+      ]
+    ],
+    "mean_correct_option_logprob_margin": 2.175173611111111,
+    "margin_is_auxiliary_not_an_adoption_criterion": true
+  },
+  {
+    "language": "ru",
+    "task": "Belebele target",
+    "model": "remove_early",
+    "samples": 900,
+    "accuracy": 81.22222222222223,
+    "predicted_counts": [
+      266,
+      244,
+      237,
+      153
+    ],
+    "gold_counts": [
+      206,
+      251,
+      246,
+      197
+    ],
+    "confusion_gold_rows_pred_columns": [
+      [
+        184,
+        11,
+        11,
+        0
+      ],
+      [
+        31,
+        203,
+        12,
+        5
+      ],
+      [
+        25,
+        17,
+        200,
+        4
+      ],
+      [
+        26,
+        13,
+        14,
+        144
+      ]
+    ],
+    "mean_correct_option_logprob_margin": 2.0526822916666667,
+    "margin_is_auxiliary_not_an_adoption_criterion": true
+  },
+  {
+    "language": "ru",
+    "task": "Belebele target",
+    "model": "remove_middle",
+    "samples": 900,
+    "accuracy": 84.66666666666667,
+    "predicted_counts": [
+      229,
+      261,
+      232,
+      178
+    ],
+    "gold_counts": [
+      206,
+      251,
+      246,
+      197
+    ],
+    "confusion_gold_rows_pred_columns": [
+      [
+        175,
+        13,
+        11,
+        7
+      ],
+      [
+        19,
+        217,
+        8,
+        7
+      ],
+      [
+        13,
+        19,
+        210,
+        4
+      ],
+      [
+        22,
+        12,
+        3,
+        160
+      ]
+    ],
+    "mean_correct_option_logprob_margin": 3.6768619791666666,
+    "margin_is_auxiliary_not_an_adoption_criterion": true
+  },
+  {
+    "language": "ru",
+    "task": "Belebele target",
+    "model": "remove_late",
+    "samples": 900,
+    "accuracy": 82.77777777777777,
+    "predicted_counts": [
+      242,
+      251,
+      242,
+      165
+    ],
+    "gold_counts": [
+      206,
+      251,
+      246,
+      197
+    ],
+    "confusion_gold_rows_pred_columns": [
+      [
+        180,
+        11,
+        14,
+        1
+      ],
+      [
+        23,
+        208,
+        12,
+        8
+      ],
+      [
+        17,
+        18,
+        206,
+        5
+      ],
+      [
+        22,
+        14,
+        10,
+        151
+      ]
+    ],
+    "mean_correct_option_logprob_margin": 3.029701605902778,
+    "margin_is_auxiliary_not_an_adoption_criterion": true
+  },
+  {
+    "language": "ru",
+    "task": "Belebele target",
+    "model": "keep_late",
+    "samples": 900,
+    "accuracy": 56.0,
+    "predicted_counts": [
+      437,
+      173,
+      241,
+      49
+    ],
+    "gold_counts": [
+      206,
+      251,
+      246,
+      197
+    ],
+    "confusion_gold_rows_pred_columns": [
+      [
+        180,
+        5,
+        20,
+        1
+      ],
+      [
+        75,
+        146,
+        30,
+        0
+      ],
+      [
+        102,
+        12,
+        131,
+        1
+      ],
+      [
+        80,
+        10,
+        60,
+        47
+      ]
+    ],
+    "mean_correct_option_logprob_margin": 0.38307291666666665,
+    "margin_is_auxiliary_not_an_adoption_criterion": true
+  },
+  {
+    "language": "ru",
+    "task": "Belebele target",
+    "model": "remove_attention",
+    "samples": 900,
+    "accuracy": 84.0,
+    "predicted_counts": [
+      236,
+      254,
+      234,
+      176
+    ],
+    "gold_counts": [
+      206,
+      251,
+      246,
+      197
+    ],
+    "confusion_gold_rows_pred_columns": [
+      [
+        178,
+        13,
+        12,
+        3
+      ],
+      [
+        21,
+        212,
+        9,
+        9
+      ],
+      [
+        14,
+        18,
+        208,
+        6
+      ],
+      [
+        23,
+        11,
+        5,
+        158
+      ]
+    ],
+    "mean_correct_option_logprob_margin": 3.670427517361111,
+    "margin_is_auxiliary_not_an_adoption_criterion": true
+  },
+  {
+    "language": "ru",
+    "task": "Belebele target",
+    "model": "remove_mlp",
+    "samples": 900,
+    "accuracy": 83.33333333333333,
+    "predicted_counts": [
+      253,
+      252,
+      221,
+      174
+    ],
+    "gold_counts": [
+      206,
+      251,
+      246,
+      197
+    ],
+    "confusion_gold_rows_pred_columns": [
+      [
+        181,
+        11,
+        9,
+        5
+      ],
+      [
+        29,
+        210,
+        7,
+        5
+      ],
+      [
+        20,
+        19,
+        201,
+        6
+      ],
+      [
+        23,
+        12,
+        4,
+        158
+      ]
+    ],
+    "mean_correct_option_logprob_margin": 3.7816593424479166,
+    "margin_is_auxiliary_not_an_adoption_criterion": true
+  },
+  {
+    "language": "ru",
+    "task": "Belebele en",
+    "model": "Base",
+    "samples": 900,
+    "accuracy": 62.888888888888886,
+    "predicted_counts": [
+      489,
+      123,
+      129,
+      159
+    ],
+    "gold_counts": [
+      206,
+      251,
+      246,
+      197
+    ],
+    "confusion_gold_rows_pred_columns": [
+      [
+        198,
+        3,
+        0,
+        5
+      ],
+      [
+        124,
+        112,
+        0,
+        15
+      ],
+      [
+        102,
+        5,
+        128,
+        11
+      ],
+      [
+        65,
+        3,
+        1,
+        128
+      ]
+    ],
+    "mean_correct_option_logprob_margin": 2.697534722222222,
+    "margin_is_auxiliary_not_an_adoption_criterion": true
+  },
+  {
+    "language": "ru",
+    "task": "Belebele en",
+    "model": "Full",
+    "samples": 900,
+    "accuracy": 89.0,
+    "predicted_counts": [
+      232,
+      253,
+      232,
+      183
+    ],
+    "gold_counts": [
+      206,
+      251,
+      246,
+      197
+    ],
+    "confusion_gold_rows_pred_columns": [
+      [
+        193,
+        7,
+        5,
+        1
+      ],
+      [
+        13,
+        224,
+        7,
+        7
+      ],
+      [
+        13,
+        16,
+        213,
+        4
+      ],
+      [
+        13,
+        6,
+        7,
+        171
+      ]
+    ],
+    "mean_correct_option_logprob_margin": 3.292378472222222,
+    "margin_is_auxiliary_not_an_adoption_criterion": true
+  },
+  {
+    "language": "ru",
+    "task": "Belebele en",
+    "model": "remove_early",
+    "samples": 900,
+    "accuracy": 88.11111111111111,
+    "predicted_counts": [
+      239,
+      247,
+      229,
+      185
+    ],
+    "gold_counts": [
+      206,
+      251,
+      246,
+      197
+    ],
+    "confusion_gold_rows_pred_columns": [
+      [
+        191,
+        9,
+        4,
+        2
+      ],
+      [
+        16,
+        220,
+        6,
+        9
+      ],
+      [
+        16,
+        14,
+        212,
+        4
+      ],
+      [
+        16,
+        4,
+        7,
+        170
+      ]
+    ],
+    "mean_correct_option_logprob_margin": 3.3775,
+    "margin_is_auxiliary_not_an_adoption_criterion": true
+  },
+  {
+    "language": "ru",
+    "task": "Belebele en",
+    "model": "remove_middle",
+    "samples": 900,
+    "accuracy": 88.55555555555556,
+    "predicted_counts": [
+      230,
+      250,
+      226,
+      194
+    ],
+    "gold_counts": [
+      206,
+      251,
+      246,
+      197
+    ],
+    "confusion_gold_rows_pred_columns": [
+      [
+        190,
+        10,
+        2,
+        4
+      ],
+      [
+        13,
+        221,
+        6,
+        11
+      ],
+      [
+        15,
+        16,
+        211,
+        4
+      ],
+      [
+        12,
+        3,
+        7,
+        175
+      ]
+    ],
+    "mean_correct_option_logprob_margin": 5.116605902777778,
+    "margin_is_auxiliary_not_an_adoption_criterion": true
+  },
+  {
+    "language": "ru",
+    "task": "Belebele en",
+    "model": "remove_late",
+    "samples": 900,
+    "accuracy": 88.66666666666667,
+    "predicted_counts": [
+      229,
+      253,
+      230,
+      188
+    ],
+    "gold_counts": [
+      206,
+      251,
+      246,
+      197
+    ],
+    "confusion_gold_rows_pred_columns": [
+      [
+        190,
+        9,
+        5,
+        2
+      ],
+      [
+        13,
+        223,
+        6,
+        9
+      ],
+      [
+        13,
+        15,
+        213,
+        5
+      ],
+      [
+        13,
+        6,
+        6,
+        172
+      ]
+    ],
+    "mean_correct_option_logprob_margin": 4.575962456597222,
+    "margin_is_auxiliary_not_an_adoption_criterion": true
+  },
+  {
+    "language": "ru",
+    "task": "Belebele en",
+    "model": "keep_late",
+    "samples": 900,
+    "accuracy": 69.44444444444444,
+    "predicted_counts": [
+      434,
+      168,
+      135,
+      163
+    ],
+    "gold_counts": [
+      206,
+      251,
+      246,
+      197
+    ],
+    "confusion_gold_rows_pred_columns": [
+      [
+        199,
+        3,
+        0,
+        4
+      ],
+      [
+        85,
+        154,
+        0,
+        12
+      ],
+      [
+        95,
+        8,
+        134,
+        9
+      ],
+      [
+        55,
+        3,
+        1,
+        138
+      ]
+    ],
+    "mean_correct_option_logprob_margin": 1.7947612847222223,
+    "margin_is_auxiliary_not_an_adoption_criterion": true
+  },
+  {
+    "language": "ru",
+    "task": "Belebele en",
+    "model": "remove_attention",
+    "samples": 900,
+    "accuracy": 89.33333333333333,
+    "predicted_counts": [
+      230,
+      254,
+      227,
+      189
+    ],
+    "gold_counts": [
+      206,
+      251,
+      246,
+      197
+    ],
+    "confusion_gold_rows_pred_columns": [
+      [
+        190,
+        11,
+        2,
+        3
+      ],
+      [
+        13,
+        225,
+        5,
+        8
+      ],
+      [
+        14,
+        15,
+        214,
+        3
+      ],
+      [
+        13,
+        3,
+        6,
+        175
+      ]
+    ],
+    "mean_correct_option_logprob_margin": 4.797361111111111,
+    "margin_is_auxiliary_not_an_adoption_criterion": true
+  },
+  {
+    "language": "ru",
+    "task": "Belebele en",
+    "model": "remove_mlp",
+    "samples": 900,
+    "accuracy": 88.55555555555556,
+    "predicted_counts": [
+      236,
+      245,
+      224,
+      195
+    ],
+    "gold_counts": [
+      206,
+      251,
+      246,
+      197
+    ],
+    "confusion_gold_rows_pred_columns": [
+      [
+        192,
+        8,
+        2,
+        4
+      ],
+      [
+        13,
+        220,
+        5,
+        13
+      ],
+      [
+        17,
+        14,
+        211,
+        4
+      ],
+      [
+        14,
+        3,
+        6,
+        174
+      ]
+    ],
+    "mean_correct_option_logprob_margin": 4.67568359375,
+    "margin_is_auxiliary_not_an_adoption_criterion": true
+  }
+]

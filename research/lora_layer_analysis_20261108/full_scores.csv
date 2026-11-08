@@ -1,0 +1,177 @@
+language,model,task,metric,score,unit,delta_vs_base,delta_vs_full,ci95_low_vs_full,ci95_high_vs_full,source,new_training
+sw,Base,Belebele target,ACC,27.333333333333332,percent,0.0,-10.777777777777782,,,existing frozen reference,False
+sw,Full,Belebele target,ACC,38.111111111111114,percent,10.777777777777782,0.0,,,existing frozen reference,False
+sw,Base,Belebele EN,ACC,62.888888888888886,percent,0.0,-23.444444444444443,,,existing frozen reference,False
+sw,Full,Belebele EN,ACC,86.33333333333333,percent,23.444444444444443,0.0,,,existing frozen reference,False
+sw,Base,GSM8K,strict-match,61.03108415466262,percent,0.0,1.2888551933282812,,,existing frozen reference,False
+sw,Full,GSM8K,strict-match,59.74222896133434,percent,-1.2888551933282812,0.0,,,existing frozen reference,False
+sw,Base,GSM8K,flexible-extract,84.4579226686884,percent,0.0,3.2600454890068136,,,existing frozen reference,False
+sw,Full,GSM8K,flexible-extract,81.19787717968158,percent,-3.2600454890068136,0.0,,,existing frozen reference,False
+sw,Base,IFEval,prompt_level_strict_acc,78.37338262476895,percent,0.0,29.020332717190392,,,existing frozen reference,False
+sw,Full,IFEval,prompt_level_strict_acc,49.35304990757856,percent,-29.020332717190392,0.0,,,existing frozen reference,False
+sw,Base,IFEval,inst_level_strict_acc,84.65227817745803,percent,0.0,22.18225419664268,,,existing frozen reference,False
+sw,Full,IFEval,inst_level_strict_acc,62.47002398081535,percent,-22.18225419664268,0.0,,,existing frozen reference,False
+sw,Base,XL-Sum target,ROUGE-Lsum,13.709945670869454,ROUGE points,0.0,-6.528749168075899,,,existing frozen reference,False
+sw,Full,XL-Sum target,ROUGE-Lsum,20.238694838945353,ROUGE points,6.528749168075899,0.0,,,existing frozen reference,False
+sw,Base,Global-MMLU SW,ACC,33.37843612021079,percent,0.0,0.04272895598916904,,,existing frozen reference,False
+sw,Full,Global-MMLU SW,ACC,33.335707164221624,percent,-0.04272895598916904,0.0,,,existing frozen reference,False
+ar,Base,Belebele target,ACC,46.22222222222222,percent,0.0,-32.22222222222222,,,existing frozen reference,False
+ar,Full,Belebele target,ACC,78.44444444444444,percent,32.22222222222222,0.0,,,existing frozen reference,False
+ar,Base,Belebele EN,ACC,62.888888888888886,percent,0.0,-24.777777777777786,,,existing frozen reference,False
+ar,Full,Belebele EN,ACC,87.66666666666667,percent,24.777777777777786,0.0,,,existing frozen reference,False
+ar,Base,GSM8K,strict-match,61.03108415466262,percent,0.0,21.000758150113718,,,existing frozen reference,False
+ar,Full,GSM8K,strict-match,40.030326004548904,percent,-21.000758150113718,0.0,,,existing frozen reference,False
+ar,Base,GSM8K,flexible-extract,84.4579226686884,percent,0.0,8.642911296436694,,,existing frozen reference,False
+ar,Full,GSM8K,flexible-extract,75.8150113722517,percent,-8.642911296436694,0.0,,,existing frozen reference,False
+ar,Base,IFEval,prompt_level_strict_acc,78.37338262476895,percent,0.0,35.674676524953796,,,existing frozen reference,False
+ar,Full,IFEval,prompt_level_strict_acc,42.698706099815155,percent,-35.674676524953796,0.0,,,existing frozen reference,False
+ar,Base,IFEval,inst_level_strict_acc,84.65227817745803,percent,0.0,28.17745803357314,,,existing frozen reference,False
+ar,Full,IFEval,inst_level_strict_acc,56.47482014388489,percent,-28.17745803357314,0.0,,,existing frozen reference,False
+ar,Base,XL-Sum target,ROUGE-Lsum,9.213906621654774,ROUGE points,0.0,-11.677351931980704,,,existing frozen reference,False
+ar,Full,XL-Sum target,ROUGE-Lsum,20.891258553635478,ROUGE points,11.677351931980704,0.0,,,existing frozen reference,False
+ru,Base,Belebele target,ACC,55.55555555555556,percent,0.0,-26.33333333333333,,,existing frozen reference,False
+ru,Full,Belebele target,ACC,81.88888888888889,percent,26.33333333333333,0.0,,,existing frozen reference,False
+ru,Base,Belebele EN,ACC,62.888888888888886,percent,0.0,-26.111111111111114,,,existing frozen reference,False
+ru,Full,Belebele EN,ACC,89.0,percent,26.111111111111114,0.0,,,existing frozen reference,False
+ru,Base,GSM8K,strict-match,61.03108415466262,percent,0.0,39.95451099317665,,,existing frozen reference,False
+ru,Full,GSM8K,strict-match,21.076573161485975,percent,-39.95451099317665,0.0,,,existing frozen reference,False
+ru,Base,GSM8K,flexible-extract,84.4579226686884,percent,0.0,6.065200909780131,,,existing frozen reference,False
+ru,Full,GSM8K,flexible-extract,78.39272175890827,percent,-6.065200909780131,0.0,,,existing frozen reference,False
+ru,Base,IFEval,prompt_level_strict_acc,78.37338262476895,percent,0.0,36.04436229205176,,,existing frozen reference,False
+ru,Full,IFEval,prompt_level_strict_acc,42.32902033271719,percent,-36.04436229205176,0.0,,,existing frozen reference,False
+ru,Base,IFEval,inst_level_strict_acc,84.65227817745803,percent,0.0,28.297362110311745,,,existing frozen reference,False
+ru,Full,IFEval,inst_level_strict_acc,56.354916067146284,percent,-28.297362110311745,0.0,,,existing frozen reference,False
+ru,Base,XL-Sum target,ROUGE-Lsum,10.07177673124969,ROUGE points,0.0,-8.801847563074643,,,existing frozen reference,False
+ru,Full,XL-Sum target,ROUGE-Lsum,18.873624294324333,ROUGE points,8.801847563074643,0.0,,,existing frozen reference,False
+sw,remove_early,Belebele target,ACC,42.111111111111114,percent,14.777777777777782,4.0,1.4416666666666669,6.777777777777778,derived post-training adapter ablation,False
+sw,remove_early,Belebele EN,ACC,86.55555555555556,percent,23.66666666666667,0.22222222222222854,-1.3333333333333333,1.7777777777777777,derived post-training adapter ablation,False
+sw,remove_early,GSM8K,strict-match,54.13191811978772,percent,-6.899166034874902,-5.610310841546621,-8.339651250947687,-2.7293404094010616,derived post-training adapter ablation,False
+sw,remove_early,GSM8K,flexible-extract,79.30250189537529,percent,-5.155420773313111,-1.8953752843062972,-3.9423805913570886,0.22744503411675512,derived post-training adapter ablation,False
+sw,remove_early,IFEval,prompt_level_strict_acc,56.00739371534196,percent,-22.36598890942699,6.654343807763404,3.3271719038817005,10.166358595194085,derived post-training adapter ablation,False
+sw,remove_early,IFEval,inst_level_strict_acc,67.62589928057554,percent,-17.02637889688249,5.15587529976019,2.560897626333145,8.076009501187649,derived post-training adapter ablation,False
+sw,remove_early,XL-Sum target,ROUGE-Lsum,18.415774556142303,ROUGE points,4.705828885272849,-1.8229202828030502,-2.5279291391621395,-1.0341592893452825,derived post-training adapter ablation,False
+sw,remove_early,Global-MMLU SW,ACC,35.35821108104258,percent,1.97977496083179,2.022503916820959,1.316942031049708,2.7846816692778797,derived post-training adapter ablation,False
+sw,remove_middle,Belebele target,ACC,37.0,percent,9.666666666666668,-1.1111111111111143,-3.7777777777777777,1.6666666666666667,derived post-training adapter ablation,False
+sw,remove_middle,Belebele EN,ACC,82.22222222222223,percent,19.333333333333343,-4.1111111111111,-6.111111111111111,-2.2222222222222223,derived post-training adapter ablation,False
+sw,remove_middle,GSM8K,strict-match,64.5185746777862,percent,3.487490523123583,4.776345716451864,1.7437452615617892,7.960576194086429,derived post-training adapter ablation,False
+sw,remove_middle,GSM8K,flexible-extract,84.91281273692191,percent,0.4548900682335102,3.7149355572403238,1.6679302501895374,5.688021228203175,derived post-training adapter ablation,False
+sw,remove_middle,IFEval,prompt_level_strict_acc,78.18853974121997,percent,-0.18484288354898126,28.83548983364141,24.399260628465804,33.08687615526802,derived post-training adapter ablation,False
+sw,remove_middle,IFEval,inst_level_strict_acc,84.29256594724221,percent,-0.3597122302158198,21.82254196642686,18.526932292787148,25.27673836509752,derived post-training adapter ablation,False
+sw,remove_middle,XL-Sum target,ROUGE-Lsum,19.036654604234645,ROUGE points,5.326708933365191,-1.202040234710708,-1.9156278777539224,-0.4612680269323879,derived post-training adapter ablation,False
+sw,remove_middle,Global-MMLU SW,ACC,35.36533257370745,percent,1.9868964534966551,2.029625409485824,1.125017803731662,2.8772610739210926,derived post-training adapter ablation,False
+sw,remove_late,Belebele target,ACC,38.22222222222222,percent,10.88888888888889,0.11111111111110716,-1.2222222222222223,1.4444444444444444,derived post-training adapter ablation,False
+sw,remove_late,Belebele EN,ACC,86.66666666666667,percent,23.777777777777786,0.3333333333333428,-0.1111111111111111,0.8888888888888888,derived post-training adapter ablation,False
+sw,remove_late,GSM8K,strict-match,59.59059893858984,percent,-1.44048521607278,-0.15163002274449866,-2.7293404094010616,2.350265352539803,derived post-training adapter ablation,False
+sw,remove_late,GSM8K,flexible-extract,80.81880212282032,percent,-3.6391205458680815,-0.37907505686126797,-2.047005307050796,1.288855193328279,derived post-training adapter ablation,False
+sw,remove_late,IFEval,prompt_level_strict_acc,52.68022181146026,percent,-25.693160813308694,3.3271719038816983,0.5545286506469501,6.284658040665434,derived post-training adapter ablation,False
+sw,remove_late,IFEval,inst_level_strict_acc,64.62829736211032,percent,-20.023980815347713,2.1582733812949684,-0.12077659779541909,4.234401066754387,derived post-training adapter ablation,False
+sw,remove_late,XL-Sum target,ROUGE-Lsum,16.124016455730285,ROUGE points,2.414070784860831,-4.114678383215068,-4.9550117347564875,-3.253400805815356,derived post-training adapter ablation,False
+sw,remove_late,Global-MMLU SW,ACC,33.157669847600054,percent,-0.22076627261073867,-0.17803731662156963,-0.5839623985187296,0.25637373593505197,derived post-training adapter ablation,False
+sw,keep_late,Belebele target,ACC,26.555555555555557,percent,-0.777777777777775,-11.555555555555557,-14.777777777777779,-8.333333333333334,derived post-training adapter ablation,False
+sw,keep_late,Belebele EN,ACC,71.55555555555556,percent,8.666666666666671,-14.777777777777771,-17.77777777777778,-12.0,derived post-training adapter ablation,False
+sw,keep_late,GSM8K,strict-match,62.3199393479909,percent,1.2888551933282812,2.5777103866565625,-0.530705079605762,5.686125852918878,derived post-training adapter ablation,False
+sw,keep_late,GSM8K,flexible-extract,83.54814253222138,percent,-0.9097801364670204,2.350265352539793,0.22744503411675512,4.548900682335102,derived post-training adapter ablation,False
+sw,keep_late,IFEval,prompt_level_strict_acc,80.0369685767098,percent,1.6635859519408456,30.683918669131238,26.247689463955638,35.30499075785582,derived post-training adapter ablation,False
+sw,keep_late,IFEval,inst_level_strict_acc,85.73141486810552,percent,1.0791366906474877,23.26139088729017,19.833055067873822,26.723483365665388,derived post-training adapter ablation,False
+sw,keep_late,XL-Sum target,ROUGE-Lsum,14.083070899636803,ROUGE points,0.3731252287673499,-6.1556239393085495,-6.919298307850029,-5.413084365516546,derived post-training adapter ablation,False
+sw,keep_late,Global-MMLU SW,ACC,33.770118216778236,percent,0.39168209656744324,0.4344110525566123,-0.45595356786782504,1.3463181882922641,derived post-training adapter ablation,False
+sw,remove_attention,Belebele target,ACC,42.0,percent,14.666666666666668,3.8888888888888857,1.5555555555555556,6.222222222222222,derived post-training adapter ablation,False
+sw,remove_attention,Belebele EN,ACC,89.11111111111111,percent,26.22222222222223,2.7777777777777857,1.3333333333333333,4.333333333333333,derived post-training adapter ablation,False
+sw,remove_attention,GSM8K,strict-match,45.640636846095525,percent,-15.390447308567097,-14.101592115238816,-17.058377558756632,-11.068991660348749,derived post-training adapter ablation,False
+sw,remove_attention,GSM8K,flexible-extract,82.03184230477635,percent,-2.4260803639120496,0.833965125094764,-1.061410159211524,2.6535253980288096,derived post-training adapter ablation,False
+sw,remove_attention,IFEval,prompt_level_strict_acc,69.50092421441775,percent,-8.8724584103512,20.147874306839192,16.266173752310536,24.399260628465804,derived post-training adapter ablation,False
+sw,remove_attention,IFEval,inst_level_strict_acc,77.93764988009592,percent,-6.714628297362111,15.46762589928057,12.237508254457408,18.610136870994047,derived post-training adapter ablation,False
+sw,remove_attention,XL-Sum target,ROUGE-Lsum,19.93258423234921,ROUGE points,6.222638561479757,-0.30611060659614253,-0.9706299015594719,0.3879096916412166,derived post-training adapter ablation,False
+sw,remove_attention,Global-MMLU SW,ACC,36.51901438541518,percent,3.1405782652043897,3.1833072211935587,2.4426719840478563,3.8954564876798177,derived post-training adapter ablation,False
+sw,remove_mlp,Belebele target,ACC,41.22222222222222,percent,13.88888888888889,3.111111111111107,0.2222222222222222,6.0,derived post-training adapter ablation,False
+sw,remove_mlp,Belebele EN,ACC,87.88888888888889,percent,25.0,1.5555555555555571,-0.11388888888888872,3.2222222222222223,derived post-training adapter ablation,False
+sw,remove_mlp,GSM8K,strict-match,59.28733889310083,percent,-1.7437452615617914,-0.4548900682335102,-3.639120545868082,2.577710386656558,derived post-training adapter ablation,False
+sw,remove_mlp,GSM8K,flexible-extract,85.51933282789993,percent,1.0614101592115333,4.321455648218347,2.350265352539803,6.368460955269144,derived post-training adapter ablation,False
+sw,remove_mlp,IFEval,prompt_level_strict_acc,76.70979667282809,percent,-1.6635859519408598,27.356746765249532,22.735674676524955,31.423290203327173,derived post-training adapter ablation,False
+sw,remove_mlp,IFEval,inst_level_strict_acc,82.8537170263789,percent,-1.7985611510791273,20.383693045563554,17.06716528436019,23.59447243320684,derived post-training adapter ablation,False
+sw,remove_mlp,XL-Sum target,ROUGE-Lsum,15.35931576221276,ROUGE points,1.6493700913433056,-4.879379076732594,-5.660292431994187,-4.103089070195174,derived post-training adapter ablation,False
+sw,remove_mlp,Global-MMLU SW,ACC,36.28400512747472,percent,2.905569007263928,2.948297963253097,2.1291482694772825,3.7743911123771543,derived post-training adapter ablation,False
+ar,remove_early,Belebele target,ACC,79.0,percent,32.77777777777778,0.5555555555555571,-1.3333333333333333,2.3333333333333335,derived post-training adapter ablation,False
+ar,remove_early,Belebele EN,ACC,87.22222222222223,percent,24.333333333333343,-0.44444444444444287,-1.7777777777777777,0.8888888888888888,derived post-training adapter ablation,False
+ar,remove_early,GSM8K,strict-match,35.25398028809704,percent,-25.777103866565582,-4.776345716451864,-7.429871114480667,-2.047005307050796,derived post-training adapter ablation,False
+ar,remove_early,GSM8K,flexible-extract,75.3601213040182,percent,-9.097801364670204,-0.4548900682335102,-2.5018953752843065,1.51819560272933,derived post-training adapter ablation,False
+ar,remove_early,IFEval,prompt_level_strict_acc,47.504621072088725,percent,-30.868761552680226,4.80591497227357,1.1090573012939002,8.317929759704251,derived post-training adapter ablation,False
+ar,remove_early,IFEval,inst_level_strict_acc,60.5515587529976,percent,-24.10071942446043,4.076738609112709,1.3079278711860387,6.914027776586829,derived post-training adapter ablation,False
+ar,remove_early,XL-Sum target,ROUGE-Lsum,18.988398754420814,ROUGE points,9.77449213276604,-1.9028597992146636,-2.186149565114708,-1.604525680841855,derived post-training adapter ablation,False
+ar,remove_middle,Belebele target,ACC,79.55555555555556,percent,33.333333333333336,1.1111111111111143,-0.3333333333333333,2.7777777777777777,derived post-training adapter ablation,False
+ar,remove_middle,Belebele EN,ACC,85.77777777777777,percent,22.888888888888886,-1.8888888888889,-3.5555555555555554,-0.2222222222222222,derived post-training adapter ablation,False
+ar,remove_middle,GSM8K,strict-match,63.00227445034117,percent,1.9711902956785465,22.971948445792265,19.634192570128885,26.15617892342684,derived post-training adapter ablation,False
+ar,remove_middle,GSM8K,flexible-extract,85.82259287338893,percent,1.3646702047005306,10.007581501137224,7.884761182714177,12.130401819560273,derived post-training adapter ablation,False
+ar,remove_middle,IFEval,prompt_level_strict_acc,76.15526802218115,percent,-2.2181146025878036,33.45656192236599,28.650646950092423,38.07763401109057,derived post-training adapter ablation,False
+ar,remove_middle,IFEval,inst_level_strict_acc,82.73381294964028,percent,-1.918465227817748,26.25899280575539,22.785924097807996,29.914580850218513,derived post-training adapter ablation,False
+ar,remove_middle,XL-Sum target,ROUGE-Lsum,18.61729603873012,ROUGE points,9.403389417075347,-2.2739625149053566,-2.5601957391714447,-1.9876810986072213,derived post-training adapter ablation,False
+ar,remove_late,Belebele target,ACC,79.44444444444444,percent,33.22222222222222,1.0,-0.3333333333333333,2.4444444444444446,derived post-training adapter ablation,False
+ar,remove_late,Belebele EN,ACC,88.22222222222223,percent,25.333333333333343,0.5555555555555571,0.0,1.1111111111111112,derived post-training adapter ablation,False
+ar,remove_late,GSM8K,strict-match,53.60121304018195,percent,-7.429871114480669,13.57088703563305,11.144806671721001,16.300227445034118,derived post-training adapter ablation,False
+ar,remove_late,GSM8K,flexible-extract,78.39272175890827,percent,-6.065200909780131,2.5777103866565625,0.6823351023502654,4.473085670962851,derived post-training adapter ablation,False
+ar,remove_late,IFEval,prompt_level_strict_acc,46.950092421441774,percent,-31.423290203327177,4.251386321626619,1.1090573012939002,7.393715341959335,derived post-training adapter ablation,False
+ar,remove_late,IFEval,inst_level_strict_acc,59.71223021582734,percent,-24.94004796163069,3.237410071942449,0.9512202699534826,5.707574157363434,derived post-training adapter ablation,False
+ar,remove_late,XL-Sum target,ROUGE-Lsum,19.928126671564627,ROUGE points,10.714220049909853,-0.9631318820708508,-1.2227857702458895,-0.7116251531392772,derived post-training adapter ablation,False
+ar,keep_late,Belebele target,ACC,50.44444444444444,percent,4.222222222222221,-28.0,-31.558333333333334,-24.11111111111111,derived post-training adapter ablation,False
+ar,keep_late,Belebele EN,ACC,72.88888888888889,percent,10.0,-14.777777777777786,-17.333333333333332,-12.0,derived post-training adapter ablation,False
+ar,keep_late,GSM8K,strict-match,63.38134950720243,percent,2.3502653525398074,23.351023502653526,20.0909780136467,26.535253980288097,derived post-training adapter ablation,False
+ar,keep_late,GSM8K,flexible-extract,82.33510235026536,percent,-2.122820318423038,6.520090978013656,4.094010614101592,9.021986353297953,derived post-training adapter ablation,False
+ar,keep_late,IFEval,prompt_level_strict_acc,80.40665434380776,percent,2.033271719038808,37.707948243992604,32.90203327171904,42.33364140480589,derived post-training adapter ablation,False
+ar,keep_late,IFEval,inst_level_strict_acc,86.09112709832134,percent,1.4388489208633075,29.616306954436446,25.87818120290319,33.21395982370269,derived post-training adapter ablation,False
+ar,keep_late,XL-Sum target,ROUGE-Lsum,9.526856975408819,ROUGE points,0.31295035375404545,-11.364401578226659,-11.667808768479942,-11.040412608272703,derived post-training adapter ablation,False
+ar,remove_attention,Belebele target,ACC,81.77777777777777,percent,35.55555555555555,3.3333333333333286,1.5555555555555556,5.113888888888873,derived post-training adapter ablation,False
+ar,remove_attention,Belebele EN,ACC,89.0,percent,26.111111111111114,1.3333333333333286,0.0,2.6666666666666665,derived post-training adapter ablation,False
+ar,remove_attention,GSM8K,strict-match,51.47839272175891,percent,-9.552691432903714,11.448066717210004,8.567096285064443,14.404852160727824,derived post-training adapter ablation,False
+ar,remove_attention,GSM8K,flexible-extract,81.19787717968158,percent,-3.2600454890068136,5.38286580742988,3.335860500379075,7.429871114480667,derived post-training adapter ablation,False
+ar,remove_attention,IFEval,prompt_level_strict_acc,59.33456561922366,percent,-19.03881700554529,16.635859519408505,12.749537892791128,20.702402957486136,derived post-training adapter ablation,False
+ar,remove_attention,IFEval,inst_level_strict_acc,69.7841726618705,percent,-14.86810551558753,13.309352517985609,10.246852498598715,16.422193877551017,derived post-training adapter ablation,False
+ar,remove_attention,XL-Sum target,ROUGE-Lsum,20.81504299917058,ROUGE points,11.601136377515806,-0.07621555446489836,-0.3186595304882908,0.16319929864835864,derived post-training adapter ablation,False
+ar,remove_mlp,Belebele target,ACC,80.77777777777777,percent,34.55555555555555,2.3333333333333286,0.4444444444444444,4.222222222222222,derived post-training adapter ablation,False
+ar,remove_mlp,Belebele EN,ACC,88.44444444444444,percent,25.555555555555557,0.7777777777777715,-0.7777777777777778,2.2222222222222223,derived post-training adapter ablation,False
+ar,remove_mlp,GSM8K,strict-match,63.684609552691434,percent,2.653525398028812,23.65428354814253,20.470053070507962,26.838514025777105,derived post-training adapter ablation,False
+ar,remove_mlp,GSM8K,flexible-extract,83.01743745261562,percent,-1.4404852160727728,7.202426080363921,5.229340409401062,9.325246398786959,derived post-training adapter ablation,False
+ar,remove_mlp,IFEval,prompt_level_strict_acc,68.94639556377079,percent,-9.426987060998158,26.247689463955638,21.99630314232902,30.683918669131238,derived post-training adapter ablation,False
+ar,remove_mlp,IFEval,inst_level_strict_acc,77.45803357314149,percent,-7.194244604316538,20.9832134292566,17.647058823529413,24.2673169302033,derived post-training adapter ablation,False
+ar,remove_mlp,XL-Sum target,ROUGE-Lsum,17.23883791903624,ROUGE points,8.024931297381466,-3.6524206345992383,-3.9523131883225324,-3.3396221442994385,derived post-training adapter ablation,False
+ru,remove_early,Belebele target,ACC,81.22222222222223,percent,25.66666666666667,-0.6666666666666572,-2.4472222222222224,1.1111111111111112,derived post-training adapter ablation,False
+ru,remove_early,Belebele EN,ACC,88.11111111111111,percent,25.22222222222223,-0.8888888888888857,-2.3333333333333335,0.4444444444444444,derived post-training adapter ablation,False
+ru,remove_early,GSM8K,strict-match,27.217589082638362,percent,-33.81349507202426,6.141015921152388,3.56330553449583,8.718726307808947,derived post-training adapter ablation,False
+ru,remove_early,GSM8K,flexible-extract,77.40712661106899,percent,-7.050796057619408,-0.9855951478392768,-2.9567854435178167,0.8339651250947687,derived post-training adapter ablation,False
+ru,remove_early,IFEval,prompt_level_strict_acc,45.47134935304991,percent,-32.90203327171904,3.142329020332717,-0.37430683918669105,6.469500924214418,derived post-training adapter ablation,False
+ru,remove_early,IFEval,inst_level_strict_acc,58.63309352517986,percent,-26.01918465227817,2.278177458033575,-0.35714285714285715,4.970414201183432,derived post-training adapter ablation,False
+ru,remove_early,XL-Sum target,ROUGE-Lsum,16.905230753127483,ROUGE points,6.8334540218777935,-1.9683935411968498,-2.183776382548269,-1.760668397401359,derived post-training adapter ablation,False
+ru,remove_middle,Belebele target,ACC,84.66666666666667,percent,29.111111111111114,2.7777777777777857,1.1111111111111112,4.444444444444445,derived post-training adapter ablation,False
+ru,remove_middle,Belebele EN,ACC,88.55555555555556,percent,25.66666666666667,-0.44444444444444287,-1.7777777777777777,0.8888888888888888,derived post-training adapter ablation,False
+ru,remove_middle,GSM8K,strict-match,52.91887793783169,percent,-8.112206216830934,31.842304776345713,28.8855193328279,35.028430629264584,derived post-training adapter ablation,False
+ru,remove_middle,GSM8K,flexible-extract,85.21607278241092,percent,0.7581501137225217,6.823351023502653,4.927975739196361,8.794541319181198,derived post-training adapter ablation,False
+ru,remove_middle,IFEval,prompt_level_strict_acc,77.07948243992607,percent,-1.293900184842883,34.750462107208875,30.31423290203327,39.00184842883549,derived post-training adapter ablation,False
+ru,remove_middle,IFEval,inst_level_strict_acc,83.57314148681056,percent,-1.0791366906474735,27.21822541966427,23.696527307605507,30.722190521408212,derived post-training adapter ablation,False
+ru,remove_middle,XL-Sum target,ROUGE-Lsum,15.935615902445193,ROUGE points,5.863839171195503,-2.9380083918791406,-3.1605085857859883,-2.725560147111892,derived post-training adapter ablation,False
+ru,remove_late,Belebele target,ACC,82.77777777777777,percent,27.222222222222214,0.8888888888888857,0.3333333333333333,1.5555555555555556,derived post-training adapter ablation,False
+ru,remove_late,Belebele EN,ACC,88.66666666666667,percent,25.777777777777786,-0.3333333333333286,-0.8888888888888888,0.2222222222222222,derived post-training adapter ablation,False
+ru,remove_late,GSM8K,strict-match,32.82789992418499,percent,-28.203184230477632,11.751326762699016,9.552691432903716,14.101592115238818,derived post-training adapter ablation,False
+ru,remove_late,GSM8K,flexible-extract,79.98483699772555,percent,-4.4730856709628455,1.5921152388172857,-0.07771038665655788,3.2600454890068233,derived post-training adapter ablation,False
+ru,remove_late,IFEval,prompt_level_strict_acc,45.47134935304991,percent,-32.90203327171904,3.142329020332717,0.0,6.099815157116451,derived post-training adapter ablation,False
+ru,remove_late,IFEval,inst_level_strict_acc,58.63309352517986,percent,-26.01918465227817,2.278177458033575,-0.11658100439019166,4.5839459306038455,derived post-training adapter ablation,False
+ru,remove_late,XL-Sum target,ROUGE-Lsum,18.154250989521756,ROUGE points,8.082474258272066,-0.719373304802577,-0.8990288286418678,-0.5430725320124601,derived post-training adapter ablation,False
+ru,keep_late,Belebele target,ACC,56.0,percent,0.44444444444444287,-25.888888888888886,-29.666666666666668,-22.444444444444443,derived post-training adapter ablation,False
+ru,keep_late,Belebele EN,ACC,69.44444444444444,percent,6.555555555555557,-19.555555555555557,-22.444444444444443,-16.666666666666668,derived post-training adapter ablation,False
+ru,keep_late,GSM8K,strict-match,63.91205458680819,percent,2.880970432145567,42.835481425322214,39.80288097043215,45.94389689158454,derived post-training adapter ablation,False
+ru,keep_late,GSM8K,flexible-extract,82.86580742987111,percent,-1.5921152388172857,4.4730856709628455,2.1986353297952994,6.82524639878695,derived post-training adapter ablation,False
+ru,keep_late,IFEval,prompt_level_strict_acc,78.55822550831793,percent,0.18484288354898126,36.22920517560074,31.423290203327173,40.85027726432532,derived post-training adapter ablation,False
+ru,keep_late,IFEval,inst_level_strict_acc,84.89208633093526,percent,0.2398081534772274,28.537170263788973,24.818601640426788,32.14731405585585,derived post-training adapter ablation,False
+ru,keep_late,XL-Sum target,ROUGE-Lsum,10.431782003518826,ROUGE points,0.36000527226913626,-8.441842290805507,-8.675177806180576,-8.219510485167971,derived post-training adapter ablation,False
+ru,remove_attention,Belebele target,ACC,84.0,percent,28.444444444444443,2.1111111111111143,0.6666666666666666,3.6666666666666665,derived post-training adapter ablation,False
+ru,remove_attention,Belebele EN,ACC,89.33333333333333,percent,26.444444444444443,0.3333333333333286,-0.8888888888888888,1.5555555555555556,derived post-training adapter ablation,False
+ru,remove_attention,GSM8K,strict-match,18.347232752084913,percent,-42.68385140257771,-2.729340409401061,-5.079605761940864,-0.37907505686125853,derived post-training adapter ablation,False
+ru,remove_attention,GSM8K,flexible-extract,81.12206216830933,percent,-3.33586050037907,2.729340409401061,0.9097801364670205,4.473085670962851,derived post-training adapter ablation,False
+ru,remove_attention,IFEval,prompt_level_strict_acc,60.258780036968574,percent,-18.114602587800377,17.92975970425138,14.048059149722736,21.99630314232902,derived post-training adapter ablation,False
+ru,remove_attention,IFEval,inst_level_strict_acc,70.38369304556355,percent,-14.268585131894483,14.028776978417262,11.071546778464255,17.1023755851763,derived post-training adapter ablation,False
+ru,remove_attention,XL-Sum target,ROUGE-Lsum,18.4221994275811,ROUGE points,8.350422696331409,-0.4514248667432348,-0.628515204171401,-0.2663502571134221,derived post-training adapter ablation,False
+ru,remove_mlp,Belebele target,ACC,83.33333333333333,percent,27.77777777777777,1.4444444444444429,-0.1111111111111111,3.111111111111111,derived post-training adapter ablation,False
+ru,remove_mlp,Belebele EN,ACC,88.55555555555556,percent,25.66666666666667,-0.44444444444444287,-1.7777777777777777,0.8888888888888888,derived post-training adapter ablation,False
+ru,remove_mlp,GSM8K,strict-match,49.05231235784685,percent,-11.97877179681577,27.975739196360877,25.094768764215313,30.856709628506444,derived post-training adapter ablation,False
+ru,remove_mlp,GSM8K,flexible-extract,82.2592873388931,percent,-2.1986353297952945,3.8665655799848366,1.8953752843062925,5.913570887035633,derived post-training adapter ablation,False
+ru,remove_mlp,IFEval,prompt_level_strict_acc,63.95563770794824,percent,-14.417744916820709,21.62661737523105,17.375231053604438,25.693160813308687,derived post-training adapter ablation,False
+ru,remove_mlp,IFEval,inst_level_strict_acc,73.26139088729016,percent,-11.390887290167868,16.906474820143877,13.571428571428571,20.27891299141252,derived post-training adapter ablation,False
+ru,remove_mlp,XL-Sum target,ROUGE-Lsum,15.99263349782692,ROUGE points,5.920856766577231,-2.8809907964974126,-3.099006005658659,-2.657940088369328,derived post-training adapter ablation,False

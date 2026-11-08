@@ -1,0 +1,15 @@
+{
+  "scope": "CPU three-layer tiny Qwen3 oracles only; not real4B extraction or method effectiveness",
+  "source_sha256": "e0a4e5df2c1ef2565095c21ca3104c6512d346cc3b41af921fce81556d5061bc",
+  "checks": [
+    "assistant-only selected-position CE agrees with standard HF labels/mask CE",
+    "all three block gradients agree with full HF CE autodiff",
+    "all parameters frozen and unchanged; no parameter grads",
+    "forward hooks removed",
+    "gradient basis orthonormal",
+    "identical representations have zero drift",
+    "known in-subspace perturbation has unit projected fraction"
+  ],
+  "gpu_or_training_jobs": 0,
+  "real_4b_direction_extraction": "NOT_RUN"
+}

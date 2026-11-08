@@ -1,0 +1,31 @@
+{
+  "scope": "P0/P1 only, separate from experiment A",
+  "gpu_stage_jobs": 5,
+  "stages": [
+    {
+      "stage": "Base correctness screening",
+      "reported_process_seconds": 219.38776636200782
+    },
+    {
+      "stage": "Real model representation smoke",
+      "reported_process_seconds": 4.100423010997474
+    },
+    {
+      "stage": "Frozen Base features and gradients",
+      "reported_process_seconds": 26.091879024010268
+    },
+    {
+      "stage": "Three adapter fixed-prefix drift",
+      "reported_process_seconds": 80.91896668399568
+    },
+    {
+      "stage": "Four model calibration generation",
+      "reported_process_seconds": 1292.839180209994
+    }
+  ],
+  "total_reported_process_seconds": 1623.3382152910053,
+  "interpretation": "Includes model loading and CPU scoring, excludes waiting and additional CPU preparation/verification; not CUDA kernel time",
+  "training_jobs": 0,
+  "check_samples_used_for_direction_fit": 0,
+  "basis_fitting_cpu_seconds": 0.6028606699983357
+}

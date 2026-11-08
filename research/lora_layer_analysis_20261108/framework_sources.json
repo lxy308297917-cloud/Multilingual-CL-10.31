@@ -1,0 +1,36 @@
+{
+  "hf": {
+    "package": "lm_eval",
+    "source_commit": null,
+    "files_sha256": {
+      "models/huggingface.py": "56d215b8f713d7579f9c7b58a9b8771b09c88e0e4fb8d1b6dd9068033b614b80",
+      "api/task.py": "4c25a4f1949488483b833ce4fcf91cfd3e066084a9ea00079c6879ae3ba95657",
+      "evaluator.py": "581e7767820aaa8503e6b23682360a6dbcd0c0f8e5b50b53e3f282c64b5bc986",
+      "filters/extraction.py": "eb976bb36d5d3e93faafe6d065678e24b4474e78cd4fce1e730e2b8f49b9fda0",
+      "tasks/ifeval/utils.py": "1ab8f14808c826f93f2364883487ed63cf4267980bf4761fda8053899c013632",
+      "tasks/ifeval/instructions.py": "511cc41a53787d818c292d8335c8e98aa833296a0789ac470db56bcd6496345e"
+    }
+  },
+  "generation": {
+    "lm_eval": {
+      "source_commit": null,
+      "files_sha256": {
+        "models/vllm_causallms.py": "a8552f4e522175f422ad2229813a8a725c0504ad7b8e758c504e3e09911e5c89",
+        "api/task.py": "4c25a4f1949488483b833ce4fcf91cfd3e066084a9ea00079c6879ae3ba95657",
+        "evaluator.py": "581e7767820aaa8503e6b23682360a6dbcd0c0f8e5b50b53e3f282c64b5bc986",
+        "filters/extraction.py": "eb976bb36d5d3e93faafe6d065678e24b4474e78cd4fce1e730e2b8f49b9fda0",
+        "tasks/ifeval/utils.py": "1ab8f14808c826f93f2364883487ed63cf4267980bf4761fda8053899c013632",
+        "tasks/ifeval/instructions.py": "511cc41a53787d818c292d8335c8e98aa833296a0789ac470db56bcd6496345e"
+      }
+    },
+    "vllm": {
+      "source_commit": null,
+      "files_sha256": {
+        "lora/models.py": "e01237c5be6992a405d2ca7ee83dda698ba266c14a091434478cac24b7a891d1",
+        "lora/lora.py": "02e03140d5ebfba44b0a7eca736f2aa9b800ef5e480dbef27ee45e1dc86ed742",
+        "sampling_params.py": "d727e94b24efff566fe94665b8d8a53b015b2fc474cd6a387d67d2eb62513a7c"
+      }
+    }
+  },
+  "scope": "Critical installed source fingerprints; package Git commit unavailable, not inferred from dev version."
+}

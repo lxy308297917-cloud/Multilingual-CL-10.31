@@ -1,0 +1,110 @@
+{
+  "stage": "A_ONLY_NO_NEW_TRAINING",
+  "research_baseline": "d92c63b",
+  "layers": 36,
+  "groups": {
+    "early": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "middle": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "late": [
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35
+    ]
+  },
+  "variants": [
+    "remove_early",
+    "remove_middle",
+    "remove_late",
+    "keep_late",
+    "remove_attention",
+    "remove_mlp"
+  ],
+  "languages": [
+    "sw",
+    "ar",
+    "ru"
+  ],
+  "sources": {
+    "sw": {
+      "sha256": {
+        "adapter_config.json": "b7231c91052f35c45e11dd4906926a12dbf17a6a456653da8a79c682488058ab",
+        "adapter_model.safetensors": "0e3e8de0b3fa0fa2434b3a8946eeaca21b9580b613c475347ff4000f2e8d2265"
+      },
+      "modules": 252,
+      "adapter_parameters": 33030144
+    },
+    "ar": {
+      "sha256": {
+        "adapter_config.json": "7f616f9aa5efb273da8da07991fde93c3da782e95b7f4febb86cb6a4dc9d207c",
+        "adapter_model.safetensors": "b31ff453af2d595b7f7484e7e8be85f16a799573e2d19a67a1cc242b3ad5c321"
+      },
+      "modules": 252,
+      "adapter_parameters": 33030144
+    },
+    "ru": {
+      "sha256": {
+        "adapter_config.json": "9419c331f222a6ae5cd8c2f8077f83d13da864ae2645ed52449f726b72d8e2c0",
+        "adapter_model.safetensors": "8b9830b0f9e97636f5a631a1497e40c9b7370c957752c25440bc7f1226889b91"
+      },
+      "modules": 252,
+      "adapter_parameters": 33030144
+    }
+  },
+  "base_revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "base_model": "Qwen/Qwen3-4B",
+  "primary_tasks": [
+    "Belebele target",
+    "Belebele EN",
+    "XL-Sum target",
+    "GSM8K flexible",
+    "IFEval prompt strict"
+  ],
+  "sw_extra_task": "Global-MMLU full 14042 5shot",
+  "test_use": "Frozen supplemental ablations on previously exposed test; do not select training layers/hyperparameters from these results",
+  "B_C_D": "NOT_RUN_REQUIRES_REVIEW_OF_A",
+  "max_user_gpus": 4,
+  "estimated_gpu_hours": [
+    20,
+    40
+  ],
+  "estimated_elapsed_hours_with_four_gpus": [
+    6,
+    12
+  ],
+  "estimate_uncertainty": "Based on historical task costs; refine from first SW full run, without changing sample counts or metric rules"
+}

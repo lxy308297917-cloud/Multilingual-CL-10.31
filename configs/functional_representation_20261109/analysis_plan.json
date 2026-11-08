@@ -1,0 +1,57 @@
+{
+  "stage": "P1_EXPLORATORY_HELDOUT_ANALYSIS",
+  "status": "ANALYSIS_RULES_FROZEN_AFTER_REPRESENTATION_GENERATION_BEFORE_BEHAVIOR_SUMMARY_REVIEW",
+  "preregistered": false,
+  "reason": "Mechanism hypothesis informed by exposed A ablations; drift files exist but numeric predictive summaries have not been examined; behavior job is running",
+  "models": [
+    "full",
+    "remove_middle",
+    "uniform"
+  ],
+  "classes": [
+    "math",
+    "instruction"
+  ],
+  "direction_fit": "build only, fixed rank8 all36 layers, uncentered gradient basis",
+  "regression_target": "assistant CE delta versus frozen Base on identical teacher sequences",
+  "features": {
+    "norm_total": [
+      "effective_delta_squared_norm_ratio",
+      "answer_total"
+    ],
+    "norm_total_functional": [
+      "effective_delta_squared_norm_ratio",
+      "answer_total",
+      "answer_functional"
+    ],
+    "norm_total_random": [
+      "effective_delta_squared_norm_ratio",
+      "answer_total",
+      "answer_random"
+    ]
+  },
+  "fit": "OLS with intercept, float64; standardization fit only on build; no hyperparameter search; separate classes",
+  "test": "All64 check IDs per class x3 variants; no Base zero rows in predictor fit",
+  "uncertainty": {
+    "resamples": 2000,
+    "seed": 42,
+    "unit": "example ID; retain all3 variant observations for each sampled ID",
+    "multiple_comparison_correction": false,
+    "conditional_on": "one source adapter training seed and frozen calibration pool"
+  },
+  "reported": [
+    "heldout CE MSE and R2 per predictor",
+    "paired-cluster MSE gain functional vs norm_total and vs norm_total_random",
+    "heldout behavior accuracy per variant/class and paired changes",
+    "AUC of CE-predictor output for incorrect behavior, only if both labels occur; no threshold tuning",
+    "Base recheck disagreement count without pool reselection"
+  ],
+  "training_investment_gate": "Exploratory support requires functional CE predictor improvements over both total/norm and same-size random predictor on heldout data in at least one capability, with paired-cluster interval lower bound>0; actual behavior must include at least5 correct and5 incorrect check observations and functional predictor AUC>0.5 with point AUC no worse than random predictor. Report the other capability and all negative evidence. This gate permits further training investigation, never establishes benchmark benefit or algorithm adoption. If unmet, do not launch complex regularized training yet.",
+  "limits": [
+    "CE-direction sensitivity is a local differentiable proxy",
+    "canonical valid reference may differ from a generated valid answer",
+    "shared instruction templates and Base-correct selection limit coverage",
+    "actual formal task effectiveness only via frozen benchmarks",
+    "no causal or cross-seed novelty claim from this pilot"
+  ]
+}

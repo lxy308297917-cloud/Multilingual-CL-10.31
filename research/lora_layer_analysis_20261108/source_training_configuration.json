@@ -1,0 +1,137 @@
+[
+  {
+    "language": "sw",
+    "optimizer_steps": 400,
+    "samples": 6400,
+    "config_sha256": "9d0ac862d9b21d0ff8c199c63eca04ada77707733baaaaef820b187ce518fefc",
+    "adapter_hyperparameters": {
+      "r": 16,
+      "lora_alpha": 32,
+      "lora_dropout": 0.05,
+      "bias": "none",
+      "use_rslora": false,
+      "use_dora": false,
+      "target_modules": [
+        "down_proj",
+        "up_proj",
+        "v_proj",
+        "q_proj",
+        "o_proj",
+        "k_proj",
+        "gate_proj"
+      ]
+    },
+    "training_hyperparameters": {
+      "learning_rate": 0.0001,
+      "num_train_epochs": 1.0,
+      "seed": 42,
+      "data_seed": 42,
+      "cutoff_len": 2048,
+      "packing": false,
+      "train_on_prompt": false,
+      "enable_thinking": false,
+      "per_device_train_batch_size": 1,
+      "gradient_accumulation_steps": 16,
+      "lr_scheduler_type": "cosine",
+      "warmup_ratio": 0.05,
+      "optim": "adamw_torch",
+      "bf16": true,
+      "gradient_checkpointing": true
+    },
+    "exposure": {
+      "samples": 6400,
+      "input_tokens": 2373891,
+      "shifted_assistant_tokens": 324892
+    }
+  },
+  {
+    "language": "ar",
+    "optimizer_steps": 400,
+    "samples": 6400,
+    "config_sha256": "4bc2fc6a7a39e0069e16c3e1c4ea165ce2cbc7c75f776cc99c20e9a88ab82673",
+    "adapter_hyperparameters": {
+      "r": 16,
+      "lora_alpha": 32,
+      "lora_dropout": 0.05,
+      "bias": "none",
+      "use_rslora": false,
+      "use_dora": false,
+      "target_modules": [
+        "v_proj",
+        "o_proj",
+        "k_proj",
+        "gate_proj",
+        "up_proj",
+        "down_proj",
+        "q_proj"
+      ]
+    },
+    "training_hyperparameters": {
+      "learning_rate": 0.0001,
+      "num_train_epochs": 1.0,
+      "seed": 42,
+      "data_seed": 42,
+      "cutoff_len": 2048,
+      "packing": false,
+      "train_on_prompt": false,
+      "enable_thinking": false,
+      "per_device_train_batch_size": 1,
+      "gradient_accumulation_steps": 16,
+      "lr_scheduler_type": "cosine",
+      "warmup_ratio": 0.05,
+      "optim": "adamw_torch",
+      "bf16": true,
+      "gradient_checkpointing": true
+    },
+    "exposure": {
+      "samples": 6400,
+      "input_tokens": 2265373,
+      "shifted_assistant_tokens": 265783
+    }
+  },
+  {
+    "language": "ru",
+    "optimizer_steps": 400,
+    "samples": 6400,
+    "config_sha256": "98bc82098cd1a598c068d435d902f6279fe513a04e704ea665c187cbea8337dd",
+    "adapter_hyperparameters": {
+      "r": 16,
+      "lora_alpha": 32,
+      "lora_dropout": 0.05,
+      "bias": "none",
+      "use_rslora": false,
+      "use_dora": false,
+      "target_modules": [
+        "gate_proj",
+        "q_proj",
+        "k_proj",
+        "down_proj",
+        "o_proj",
+        "v_proj",
+        "up_proj"
+      ]
+    },
+    "training_hyperparameters": {
+      "learning_rate": 0.0001,
+      "num_train_epochs": 1.0,
+      "seed": 42,
+      "data_seed": 42,
+      "cutoff_len": 2048,
+      "packing": false,
+      "train_on_prompt": false,
+      "enable_thinking": false,
+      "per_device_train_batch_size": 1,
+      "gradient_accumulation_steps": 16,
+      "lr_scheduler_type": "cosine",
+      "warmup_ratio": 0.05,
+      "optim": "adamw_torch",
+      "bf16": true,
+      "gradient_checkpointing": true
+    },
+    "exposure": {
+      "samples": 6400,
+      "input_tokens": 2520204,
+      "shifted_assistant_tokens": 305046
+    }
+  }
+]

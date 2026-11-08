@@ -1,0 +1,632 @@
+{
+  "scope": "POSTHOC calibration format audit; not replacement scores or a training gate",
+  "source_predictions_sha256": {
+    "base": "ac4691d1bae3e8f0c36061948ef78212faba08b750c5a7df4ca969c9aa0f97f9",
+    "full": "5235a427b2287e77f21c7237a22462a40f027da8f92e3944eb901afb912fe59f",
+    "remove_middle": "2e0bfb53f4f8f53452fd7dc8b6f389966cbc4ae8a9eee19aa978a11bc310031f",
+    "uniform": "93014924746e2b5216d5e8e60cff7c19650cd408bc56ae2965e62778894ed0d2"
+  },
+  "original_labels_unchanged": true,
+  "formal_benchmark_scores_unchanged": true,
+  "gold_not_used_to_select_output_number": true,
+  "counts": [
+    {
+      "variant": "base",
+      "split": "build",
+      "extraction_type": "hash_final",
+      "explicit_status": "explicit_correct",
+      "frozen_correct": true,
+      "count": 64
+    },
+    {
+      "variant": "base",
+      "split": "check",
+      "extraction_type": "hash_final",
+      "explicit_status": "explicit_correct",
+      "frozen_correct": true,
+      "count": 64
+    },
+    {
+      "variant": "full",
+      "split": "build",
+      "extraction_type": "boxed_final",
+      "explicit_status": "explicit_correct",
+      "frozen_correct": false,
+      "count": 1
+    },
+    {
+      "variant": "full",
+      "split": "build",
+      "extraction_type": "hash_final",
+      "explicit_status": "explicit_correct",
+      "frozen_correct": true,
+      "count": 28
+    },
+    {
+      "variant": "full",
+      "split": "build",
+      "extraction_type": "hash_final",
+      "explicit_status": "explicit_incorrect",
+      "frozen_correct": false,
+      "count": 4
+    },
+    {
+      "variant": "full",
+      "split": "build",
+      "extraction_type": "unstructured_unresolved",
+      "explicit_status": "unresolved",
+      "frozen_correct": false,
+      "count": 8
+    },
+    {
+      "variant": "full",
+      "split": "build",
+      "extraction_type": "unstructured_unresolved",
+      "explicit_status": "unresolved",
+      "frozen_correct": true,
+      "count": 23
+    },
+    {
+      "variant": "full",
+      "split": "check",
+      "extraction_type": "hash_final",
+      "explicit_status": "explicit_correct",
+      "frozen_correct": true,
+      "count": 32
+    },
+    {
+      "variant": "full",
+      "split": "check",
+      "extraction_type": "hash_final",
+      "explicit_status": "explicit_incorrect",
+      "frozen_correct": false,
+      "count": 4
+    },
+    {
+      "variant": "full",
+      "split": "check",
+      "extraction_type": "unstructured_unresolved",
+      "explicit_status": "unresolved",
+      "frozen_correct": false,
+      "count": 10
+    },
+    {
+      "variant": "full",
+      "split": "check",
+      "extraction_type": "unstructured_unresolved",
+      "explicit_status": "unresolved",
+      "frozen_correct": true,
+      "count": 18
+    },
+    {
+      "variant": "remove_middle",
+      "split": "build",
+      "extraction_type": "hash_final",
+      "explicit_status": "explicit_correct",
+      "frozen_correct": true,
+      "count": 64
+    },
+    {
+      "variant": "remove_middle",
+      "split": "check",
+      "extraction_type": "boxed_final",
+      "explicit_status": "explicit_correct",
+      "frozen_correct": false,
+      "count": 1
+    },
+    {
+      "variant": "remove_middle",
+      "split": "check",
+      "extraction_type": "hash_final",
+      "explicit_status": "explicit_correct",
+      "frozen_correct": true,
+      "count": 62
+    },
+    {
+      "variant": "remove_middle",
+      "split": "check",
+      "extraction_type": "unstructured_unresolved",
+      "explicit_status": "unresolved",
+      "frozen_correct": true,
+      "count": 1
+    },
+    {
+      "variant": "uniform",
+      "split": "build",
+      "extraction_type": "boxed_final",
+      "explicit_status": "explicit_correct",
+      "frozen_correct": false,
+      "count": 1
+    },
+    {
+      "variant": "uniform",
+      "split": "build",
+      "extraction_type": "hash_final",
+      "explicit_status": "explicit_correct",
+      "frozen_correct": true,
+      "count": 46
+    },
+    {
+      "variant": "uniform",
+      "split": "build",
+      "extraction_type": "hash_final",
+      "explicit_status": "explicit_incorrect",
+      "frozen_correct": false,
+      "count": 5
+    },
+    {
+      "variant": "uniform",
+      "split": "build",
+      "extraction_type": "unstructured_unresolved",
+      "explicit_status": "unresolved",
+      "frozen_correct": false,
+      "count": 2
+    },
+    {
+      "variant": "uniform",
+      "split": "build",
+      "extraction_type": "unstructured_unresolved",
+      "explicit_status": "unresolved",
+      "frozen_correct": true,
+      "count": 10
+    },
+    {
+      "variant": "uniform",
+      "split": "check",
+      "extraction_type": "hash_final",
+      "explicit_status": "explicit_correct",
+      "frozen_correct": true,
+      "count": 40
+    },
+    {
+      "variant": "uniform",
+      "split": "check",
+      "extraction_type": "hash_final",
+      "explicit_status": "explicit_incorrect",
+      "frozen_correct": false,
+      "count": 2
+    },
+    {
+      "variant": "uniform",
+      "split": "check",
+      "extraction_type": "unstructured_unresolved",
+      "explicit_status": "unresolved",
+      "frozen_correct": false,
+      "count": 9
+    },
+    {
+      "variant": "uniform",
+      "split": "check",
+      "extraction_type": "unstructured_unresolved",
+      "explicit_status": "unresolved",
+      "frozen_correct": true,
+      "count": 13
+    }
+  ],
+  "frozen_math_failure_audit": [
+    {
+      "variant": "full",
+      "id": "math-train-6148",
+      "split": "build",
+      "frozen_correct": false,
+      "extraction_type": "hash_final",
+      "explicit_answer": "16",
+      "explicit_status": "explicit_incorrect"
+    },
+    {
+      "variant": "full",
+      "id": "math-train-3097",
+      "split": "build",
+      "frozen_correct": false,
+      "extraction_type": "unstructured_unresolved",
+      "explicit_answer": null,
+      "explicit_status": "unresolved"
+    },
+    {
+      "variant": "full",
+      "id": "math-train-3865",
+      "split": "build",
+      "frozen_correct": false,
+      "extraction_type": "unstructured_unresolved",
+      "explicit_answer": null,
+      "explicit_status": "unresolved"
+    },
+    {
+      "variant": "full",
+      "id": "math-train-117",
+      "split": "build",
+      "frozen_correct": false,
+      "extraction_type": "boxed_final",
+      "explicit_answer": "16",
+      "explicit_status": "explicit_correct"
+    },
+    {
+      "variant": "full",
+      "id": "math-train-4518",
+      "split": "build",
+      "frozen_correct": false,
+      "extraction_type": "unstructured_unresolved",
+      "explicit_answer": null,
+      "explicit_status": "unresolved"
+    },
+    {
+      "variant": "full",
+      "id": "math-train-3942",
+      "split": "build",
+      "frozen_correct": false,
+      "extraction_type": "unstructured_unresolved",
+      "explicit_answer": null,
+      "explicit_status": "unresolved"
+    },
+    {
+      "variant": "full",
+      "id": "math-train-4427",
+      "split": "build",
+      "frozen_correct": false,
+      "extraction_type": "hash_final",
+      "explicit_answer": "80",
+      "explicit_status": "explicit_incorrect"
+    },
+    {
+      "variant": "full",
+      "id": "math-train-6047",
+      "split": "build",
+      "frozen_correct": false,
+      "extraction_type": "unstructured_unresolved",
+      "explicit_answer": null,
+      "explicit_status": "unresolved"
+    },
+    {
+      "variant": "full",
+      "id": "math-train-6175",
+      "split": "build",
+      "frozen_correct": false,
+      "extraction_type": "hash_final",
+      "explicit_answer": "64",
+      "explicit_status": "explicit_incorrect"
+    },
+    {
+      "variant": "full",
+      "id": "math-train-5595",
+      "split": "build",
+      "frozen_correct": false,
+      "extraction_type": "unstructured_unresolved",
+      "explicit_answer": null,
+      "explicit_status": "unresolved"
+    },
+    {
+      "variant": "full",
+      "id": "math-train-1445",
+      "split": "build",
+      "frozen_correct": false,
+      "extraction_type": "hash_final",
+      "explicit_answer": "9",
+      "explicit_status": "explicit_incorrect"
+    },
+    {
+      "variant": "full",
+      "id": "math-train-4078",
+      "split": "build",
+      "frozen_correct": false,
+      "extraction_type": "unstructured_unresolved",
+      "explicit_answer": null,
+      "explicit_status": "unresolved"
+    },
+    {
+      "variant": "full",
+      "id": "math-train-7141",
+      "split": "build",
+      "frozen_correct": false,
+      "extraction_type": "unstructured_unresolved",
+      "explicit_answer": null,
+      "explicit_status": "unresolved"
+    },
+    {
+      "variant": "full",
+      "id": "math-train-3547",
+      "split": "check",
+      "frozen_correct": false,
+      "extraction_type": "unstructured_unresolved",
+      "explicit_answer": null,
+      "explicit_status": "unresolved"
+    },
+    {
+      "variant": "full",
+      "id": "math-train-6150",
+      "split": "check",
+      "frozen_correct": false,
+      "extraction_type": "unstructured_unresolved",
+      "explicit_answer": null,
+      "explicit_status": "unresolved"
+    },
+    {
+      "variant": "full",
+      "id": "math-train-6762",
+      "split": "check",
+      "frozen_correct": false,
+      "extraction_type": "unstructured_unresolved",
+      "explicit_answer": null,
+      "explicit_status": "unresolved"
+    },
+    {
+      "variant": "full",
+      "id": "math-train-4356",
+      "split": "check",
+      "frozen_correct": false,
+      "extraction_type": "hash_final",
+      "explicit_answer": "64",
+      "explicit_status": "explicit_incorrect"
+    },
+    {
+      "variant": "full",
+      "id": "math-train-19",
+      "split": "check",
+      "frozen_correct": false,
+      "extraction_type": "hash_final",
+      "explicit_answer": "1",
+      "explicit_status": "explicit_incorrect"
+    },
+    {
+      "variant": "full",
+      "id": "math-train-2337",
+      "split": "check",
+      "frozen_correct": false,
+      "extraction_type": "unstructured_unresolved",
+      "explicit_answer": null,
+      "explicit_status": "unresolved"
+    },
+    {
+      "variant": "full",
+      "id": "math-train-546",
+      "split": "check",
+      "frozen_correct": false,
+      "extraction_type": "hash_final",
+      "explicit_answer": "48",
+      "explicit_status": "explicit_incorrect"
+    },
+    {
+      "variant": "full",
+      "id": "math-train-5495",
+      "split": "check",
+      "frozen_correct": false,
+      "extraction_type": "unstructured_unresolved",
+      "explicit_answer": null,
+      "explicit_status": "unresolved"
+    },
+    {
+      "variant": "full",
+      "id": "math-train-1942",
+      "split": "check",
+      "frozen_correct": false,
+      "extraction_type": "unstructured_unresolved",
+      "explicit_answer": null,
+      "explicit_status": "unresolved"
+    },
+    {
+      "variant": "full",
+      "id": "math-train-6780",
+      "split": "check",
+      "frozen_correct": false,
+      "extraction_type": "hash_final",
+      "explicit_answer": "19.5",
+      "explicit_status": "explicit_incorrect"
+    },
+    {
+      "variant": "full",
+      "id": "math-train-3713",
+      "split": "check",
+      "frozen_correct": false,
+      "extraction_type": "unstructured_unresolved",
+      "explicit_answer": null,
+      "explicit_status": "unresolved"
+    },
+    {
+      "variant": "full",
+      "id": "math-train-6653",
+      "split": "check",
+      "frozen_correct": false,
+      "extraction_type": "unstructured_unresolved",
+      "explicit_answer": null,
+      "explicit_status": "unresolved"
+    },
+    {
+      "variant": "full",
+      "id": "math-train-1803",
+      "split": "check",
+      "frozen_correct": false,
+      "extraction_type": "unstructured_unresolved",
+      "explicit_answer": null,
+      "explicit_status": "unresolved"
+    },
+    {
+      "variant": "full",
+      "id": "math-train-4143",
+      "split": "check",
+      "frozen_correct": false,
+      "extraction_type": "unstructured_unresolved",
+      "explicit_answer": null,
+      "explicit_status": "unresolved"
+    },
+    {
+      "variant": "remove_middle",
+      "id": "math-train-4240",
+      "split": "check",
+      "frozen_correct": false,
+      "extraction_type": "boxed_final",
+      "explicit_answer": "47",
+      "explicit_status": "explicit_correct"
+    },
+    {
+      "variant": "uniform",
+      "id": "math-train-6148",
+      "split": "build",
+      "frozen_correct": false,
+      "extraction_type": "unstructured_unresolved",
+      "explicit_answer": null,
+      "explicit_status": "unresolved"
+    },
+    {
+      "variant": "uniform",
+      "id": "math-train-1872",
+      "split": "build",
+      "frozen_correct": false,
+      "extraction_type": "hash_final",
+      "explicit_answer": "4400",
+      "explicit_status": "explicit_incorrect"
+    },
+    {
+      "variant": "uniform",
+      "id": "math-train-4109",
+      "split": "build",
+      "frozen_correct": false,
+      "extraction_type": "hash_final",
+      "explicit_answer": "475",
+      "explicit_status": "explicit_incorrect"
+    },
+    {
+      "variant": "uniform",
+      "id": "math-train-117",
+      "split": "build",
+      "frozen_correct": false,
+      "extraction_type": "boxed_final",
+      "explicit_answer": "16",
+      "explicit_status": "explicit_correct"
+    },
+    {
+      "variant": "uniform",
+      "id": "math-train-4518",
+      "split": "build",
+      "frozen_correct": false,
+      "extraction_type": "hash_final",
+      "explicit_answer": "21.00",
+      "explicit_status": "explicit_incorrect"
+    },
+    {
+      "variant": "uniform",
+      "id": "math-train-6047",
+      "split": "build",
+      "frozen_correct": false,
+      "extraction_type": "unstructured_unresolved",
+      "explicit_answer": null,
+      "explicit_status": "unresolved"
+    },
+    {
+      "variant": "uniform",
+      "id": "math-train-6175",
+      "split": "build",
+      "frozen_correct": false,
+      "extraction_type": "hash_final",
+      "explicit_answer": "84",
+      "explicit_status": "explicit_incorrect"
+    },
+    {
+      "variant": "uniform",
+      "id": "math-train-5595",
+      "split": "build",
+      "frozen_correct": false,
+      "extraction_type": "hash_final",
+      "explicit_answer": "500000",
+      "explicit_status": "explicit_incorrect"
+    },
+    {
+      "variant": "uniform",
+      "id": "math-train-4431",
+      "split": "check",
+      "frozen_correct": false,
+      "extraction_type": "unstructured_unresolved",
+      "explicit_answer": null,
+      "explicit_status": "unresolved"
+    },
+    {
+      "variant": "uniform",
+      "id": "math-train-6762",
+      "split": "check",
+      "frozen_correct": false,
+      "extraction_type": "unstructured_unresolved",
+      "explicit_answer": null,
+      "explicit_status": "unresolved"
+    },
+    {
+      "variant": "uniform",
+      "id": "math-train-4356",
+      "split": "check",
+      "frozen_correct": false,
+      "extraction_type": "hash_final",
+      "explicit_answer": "76",
+      "explicit_status": "explicit_incorrect"
+    },
+    {
+      "variant": "uniform",
+      "id": "math-train-19",
+      "split": "check",
+      "frozen_correct": false,
+      "extraction_type": "unstructured_unresolved",
+      "explicit_answer": null,
+      "explicit_status": "unresolved"
+    },
+    {
+      "variant": "uniform",
+      "id": "math-train-2337",
+      "split": "check",
+      "frozen_correct": false,
+      "extraction_type": "unstructured_unresolved",
+      "explicit_answer": null,
+      "explicit_status": "unresolved"
+    },
+    {
+      "variant": "uniform",
+      "id": "math-train-7238",
+      "split": "check",
+      "frozen_correct": false,
+      "extraction_type": "hash_final",
+      "explicit_answer": "66.67",
+      "explicit_status": "explicit_incorrect"
+    },
+    {
+      "variant": "uniform",
+      "id": "math-train-2405",
+      "split": "check",
+      "frozen_correct": false,
+      "extraction_type": "unstructured_unresolved",
+      "explicit_answer": null,
+      "explicit_status": "unresolved"
+    },
+    {
+      "variant": "uniform",
+      "id": "math-train-1942",
+      "split": "check",
+      "frozen_correct": false,
+      "extraction_type": "unstructured_unresolved",
+      "explicit_answer": null,
+      "explicit_status": "unresolved"
+    },
+    {
+      "variant": "uniform",
+      "id": "math-train-6780",
+      "split": "check",
+      "frozen_correct": false,
+      "extraction_type": "unstructured_unresolved",
+      "explicit_answer": null,
+      "explicit_status": "unresolved"
+    },
+    {
+      "variant": "uniform",
+      "id": "math-train-3713",
+      "split": "check",
+      "frozen_correct": false,
+      "extraction_type": "unstructured_unresolved",
+      "explicit_answer": null,
+      "explicit_status": "unresolved"
+    },
+    {
+      "variant": "uniform",
+      "id": "math-train-4143",
+      "split": "check",
+      "frozen_correct": false,
+      "extraction_type": "unstructured_unresolved",
+      "explicit_answer": null,
+      "explicit_status": "unresolved"
+    }
+  ],
+  "limitation": "Unstructured conclusions require semantic review; explicit markers can still contain reasoning errors. No corrected accuracy is claimed."
+}

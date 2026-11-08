@@ -1,0 +1,26 @@
+{
+  "scope": "EXPLORATORY_NUISANCE_CONTROL_ALWAYS_RUN_BEFORE_P2_DECISION",
+  "preregistered": false,
+  "reason": "Code review identified potential confounding by reference Base CE and sequence length; specified before first analysis execution or behavior summary review",
+  "always_run_regardless_of_primary_result": true,
+  "keep_original_primary_protocol": true,
+  "common_features": [
+    "effective_delta_squared_norm_ratio",
+    "base_ce",
+    "log_prompt_tokens",
+    "log_answer_tokens",
+    "answer_total"
+  ],
+  "additional_features": {
+    "functional": "answer_functional",
+    "random": "answer_random"
+  },
+  "fit": "Build-only OLS, same standardization and fixed heldout64 IDs x3 variants per capability",
+  "bootstrap": {
+    "resamples": 2000,
+    "seed": 43,
+    "unit": "ID with three variants retained",
+    "conditions": "fixed fit and adapter seed; no multiplicity correction"
+  },
+  "combined_training_gate": "Same capability must satisfy original primary gate AND nuisance-controlled positive lower95% MSE-gain intervals vs total/norm and random, plus heldout incorrect-behavior AUC>0.5 and no worse than random with at least5 observations in each label. This permits investigation, not benchmark adoption."
+}
