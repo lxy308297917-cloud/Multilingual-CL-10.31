@@ -1,0 +1,142 @@
+{
+  "status": "PREFLIGHT_PASSED_WITH_DOCUMENTED_GPU_NUMERICAL_REPEATABILITY_LIMIT",
+  "smokes": {
+    "engineering_all_layer_mb1": {
+      "steps": 4,
+      "exposure": {
+        "samples": 64,
+        "input_tokens": 17739,
+        "shifted_assistant_tokens": 3782,
+        "padded_positions": 17976
+      },
+      "peak_allocated_bytes": 12272669696,
+      "elapsed_seconds": 35.70672770999954,
+      "old": {
+        "mode": "all_layer",
+        "samples": 0,
+        "input_tokens": 0,
+        "assistant_tokens": 0,
+        "class_counts": {},
+        "additional_forward_backward_calls": 0,
+        "seconds_including_sync": 0,
+        "check_samples": 0,
+        "loss_coefficient": 1.0,
+        "selected_target_microbatch": 1,
+        "gradient_accumulation_steps": 16,
+        "loss_kwargs": true
+      }
+    },
+    "engineering_all_layer_mb2": {
+      "steps": 4,
+      "exposure": {
+        "samples": 64,
+        "input_tokens": 17739,
+        "shifted_assistant_tokens": 3782,
+        "padded_positions": 28304
+      },
+      "peak_allocated_bytes": 16088478208,
+      "elapsed_seconds": 30.304435149999335,
+      "old": {
+        "mode": "all_layer",
+        "samples": 0,
+        "input_tokens": 0,
+        "assistant_tokens": 0,
+        "class_counts": {},
+        "additional_forward_backward_calls": 0,
+        "seconds_including_sync": 0,
+        "check_samples": 0,
+        "loss_coefficient": 1.0,
+        "selected_target_microbatch": 2,
+        "gradient_accumulation_steps": 8,
+        "loss_kwargs": true
+      }
+    },
+    "engineering_full_feature_mb2": {
+      "steps": 4,
+      "exposure": {
+        "samples": 64,
+        "input_tokens": 17739,
+        "shifted_assistant_tokens": 3782,
+        "padded_positions": 28304
+      },
+      "peak_allocated_bytes": 16088478208,
+      "elapsed_seconds": 39.840292172986665,
+      "old": {
+        "mode": "full_feature",
+        "samples": 32,
+        "input_tokens": 4515,
+        "assistant_tokens": 2614,
+        "class_counts": {
+          "math": 16,
+          "instruction": 16
+        },
+        "additional_forward_backward_calls": 32,
+        "seconds_including_sync": 9.013638662057929,
+        "check_samples": 0,
+        "loss_coefficient": 1.0,
+        "selected_target_microbatch": 2,
+        "gradient_accumulation_steps": 8,
+        "loss_kwargs": true
+      }
+    },
+    "engineering_ce_replay_mb2": {
+      "steps": 4,
+      "exposure": {
+        "samples": 64,
+        "input_tokens": 17739,
+        "shifted_assistant_tokens": 3782,
+        "padded_positions": 28304
+      },
+      "peak_allocated_bytes": 16088478208,
+      "elapsed_seconds": 38.18086942800437,
+      "old": {
+        "mode": "ce_replay",
+        "samples": 32,
+        "input_tokens": 4515,
+        "assistant_tokens": 2614,
+        "class_counts": {
+          "math": 16,
+          "instruction": 16
+        },
+        "additional_forward_backward_calls": 32,
+        "seconds_including_sync": 7.882210810072138,
+        "check_samples": 0,
+        "loss_coefficient": 1.0,
+        "selected_target_microbatch": 2,
+        "gradient_accumulation_steps": 8,
+        "loss_kwargs": true
+      }
+    },
+    "engineering_longest16_mb2": {
+      "steps": 1,
+      "exposure": {
+        "samples": 16,
+        "input_tokens": 32415,
+        "shifted_assistant_tokens": 1419,
+        "padded_positions": 32560
+      },
+      "peak_allocated_bytes": 16569754624,
+      "elapsed_seconds": 36.10023496199574,
+      "old": {
+        "mode": "all_layer",
+        "samples": 0,
+        "input_tokens": 0,
+        "assistant_tokens": 0,
+        "class_counts": {},
+        "additional_forward_backward_calls": 0,
+        "seconds_including_sync": 0,
+        "check_samples": 0,
+        "loss_coefficient": 1.0,
+        "selected_target_microbatch": 2,
+        "gradient_accumulation_steps": 8,
+        "loss_kwargs": true
+      }
+    }
+  },
+  "common_initialization_verified": true,
+  "original_target_prefix64_verified": true,
+  "feature_initial_objective_zero_verified": true,
+  "feature_after_update_objective_nonzero_verified": true,
+  "same_old_pool_and_order_verified": true,
+  "formal_tests_used": false
+}

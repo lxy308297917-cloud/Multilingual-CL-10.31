@@ -1,0 +1,10 @@
+run,role,mode,optimizer_initial_step,optimizer_final_step,target_samples_this_process,target_input_tokens_this_process,target_ce_supervised_tokens_this_process,target_microbatch_forward_backward_calls,old_samples_this_process,old_input_tokens_this_process,old_reference_answer_tokens_this_process,old_ce_supervised_tokens_this_process,feature_answer_positions_this_process,feature_layer_positions_this_process,old_forward_backward_calls,elapsed_accounting_process_seconds,peak_cuda_allocated_bytes,peak_cuda_reserved_bytes,target_microbatch,gradient_accumulation
+engineering_all_layer_mb1,engineering,all_layer,0,4,64,17739,3782,64,0,0,0,0,0,0,0,35.70672770999954,12272669696,18377342976,1,16
+engineering_all_layer_mb2,engineering,all_layer,0,4,64,17739,3782,32,0,0,0,0,0,0,0,30.304435149999335,16088478208,23385341952,2,8
+engineering_ce_replay_mb2,engineering,ce_replay,0,4,64,17739,3782,32,32,4515,2614,2614,0,0,32,38.18086942800437,16088478208,23597154304,2,8
+engineering_ce_replay_mb2_repeat_v1,engineering,ce_replay,0,4,64,17739,3782,32,32,4515,2614,2614,0,0,32,38.01618753999355,16088478208,23597154304,2,8
+engineering_ce_replay_mb2_resume_v1,engineering,ce_replay,2,4,32,8930,2879,16,16,2175,1230,1230,0,0,16,22.05019776900008,16085922304,19539165184,2,8
+engineering_ce_replay_mb2_resume_v2,engineering,ce_replay,2,4,32,8930,2879,16,16,2175,1230,1230,0,0,16,23.43125146899547,16085922304,19539165184,2,8
+engineering_full_feature_mb2,engineering,full_feature,0,4,64,17739,3782,32,32,4515,2614,0,127,4572,32,39.840292172986665,16088478208,23599251456,2,8
+engineering_full_feature_mb2_resume_v1,engineering,full_feature,2,4,32,8930,2879,16,16,2175,1230,0,63,2268,16,22.85663110599853,16085922304,19151192064,2,8
+engineering_longest16_mb2,engineering,all_layer,0,1,16,32415,1419,8,0,0,0,0,0,0,0,36.10023496199574,16569754624,19310575616,2,8

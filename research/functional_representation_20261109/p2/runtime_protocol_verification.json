@@ -1,0 +1,150 @@
+{
+  "complete": true,
+  "stage_records_checked": 20,
+  "expected_stage_records": 20,
+  "pending": [],
+  "checks": [
+    {
+      "model": "Base",
+      "stage": "reading",
+      "actual_protocol_matches_base": true,
+      "requested_adapter_matches_role": true,
+      "full_scope": true
+    },
+    {
+      "model": "Base",
+      "stage": "core",
+      "actual_protocol_matches_base": true,
+      "requested_adapter_matches_role": true,
+      "full_scope": true
+    },
+    {
+      "model": "Base",
+      "stage": "summary",
+      "actual_protocol_matches_base": true,
+      "requested_adapter_matches_role": true,
+      "full_scope": true
+    },
+    {
+      "model": "Base",
+      "stage": "gmmlu",
+      "actual_protocol_matches_base": true,
+      "requested_adapter_matches_role": true,
+      "full_scope": true
+    },
+    {
+      "model": "LegacyFull",
+      "stage": "reading",
+      "actual_protocol_matches_base": true,
+      "requested_adapter_matches_role": true,
+      "full_scope": true
+    },
+    {
+      "model": "LegacyFull",
+      "stage": "core",
+      "actual_protocol_matches_base": true,
+      "requested_adapter_matches_role": true,
+      "full_scope": true
+    },
+    {
+      "model": "LegacyFull",
+      "stage": "summary",
+      "actual_protocol_matches_base": true,
+      "requested_adapter_matches_role": true,
+      "full_scope": true
+    },
+    {
+      "model": "LegacyFull",
+      "stage": "gmmlu",
+      "actual_protocol_matches_base": true,
+      "requested_adapter_matches_role": true,
+      "full_scope": true
+    },
+    {
+      "model": "all_layer",
+      "stage": "reading",
+      "actual_protocol_matches_base": true,
+      "requested_adapter_matches_role": true,
+      "full_scope": true
+    },
+    {
+      "model": "all_layer",
+      "stage": "core",
+      "actual_protocol_matches_base": true,
+      "requested_adapter_matches_role": true,
+      "full_scope": true
+    },
+    {
+      "model": "all_layer",
+      "stage": "summary",
+      "actual_protocol_matches_base": true,
+      "requested_adapter_matches_role": true,
+      "full_scope": true
+    },
+    {
+      "model": "all_layer",
+      "stage": "gmmlu",
+      "actual_protocol_matches_base": true,
+      "requested_adapter_matches_role": true,
+      "full_scope": true
+    },
+    {
+      "model": "full_feature",
+      "stage": "reading",
+      "actual_protocol_matches_base": true,
+      "requested_adapter_matches_role": true,
+      "full_scope": true
+    },
+    {
+      "model": "full_feature",
+      "stage": "core",
+      "actual_protocol_matches_base": true,
+      "requested_adapter_matches_role": true,
+      "full_scope": true
+    },
+    {
+      "model": "full_feature",
+      "stage": "summary",
+      "actual_protocol_matches_base": true,
+      "requested_adapter_matches_role": true,
+      "full_scope": true
+    },
+    {
+      "model": "full_feature",
+      "stage": "gmmlu",
+      "actual_protocol_matches_base": true,
+      "requested_adapter_matches_role": true,
+      "full_scope": true
+    },
+    {
+      "model": "ce_replay",
+      "stage": "reading",
+      "actual_protocol_matches_base": true,
+      "requested_adapter_matches_role": true,
+      "full_scope": true
+    },
+    {
+      "model": "ce_replay",
+      "stage": "core",
+      "actual_protocol_matches_base": true,
+      "requested_adapter_matches_role": true,
+      "full_scope": true
+    },
+    {
+      "model": "ce_replay",
+      "stage": "summary",
+      "actual_protocol_matches_base": true,
+      "requested_adapter_matches_role": true,
+      "full_scope": true
+    },
+    {
+      "model": "ce_replay",
+      "stage": "gmmlu",
+      "actual_protocol_matches_base": true,
+      "requested_adapter_matches_role": true,
+      "full_scope": true
+    }
+  ],
+  "official_scores_not_rescored": true,
+  "description": "Configurations and actual core token-input multiset match Base; type breakdown is descriptive only"
+}

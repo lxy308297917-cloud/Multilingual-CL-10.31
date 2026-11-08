@@ -1,13 +1,18 @@
 # Multilingual-CL：最新研究入口（2026-11-09）
 
-本轮三语言LoRA训练后消融与功能表示诊断的结果入口如下；新方法SFT尚未运行。
+SW三项P2训练与完整固定端点评测已完成：普通全层LoRA、训练中全表示保持、同池英语CE回放。40项绝对分数和48项配对比较均已复核。
 
-- [最新完整研究交接](research/lora_layer_analysis_20261108/chatgpt_handoff.md)
-- [全部18组消融报告](research/lora_layer_analysis_20261108/final_report.md) / [三语言完整结果表](research/lora_layer_analysis_20261108/results.md)
-- [功能敏感表示诊断及下一步决定](research/functional_representation_20261109/README.md)
-- [前一轮4B、多语言泛化和翻译对照](research/updates_20261108/chatgpt_handoff.md)
+- [最新ChatGPT交接](research/functional_representation_20261109/p2/chatgpt_handoff.md)
+- [完整报告](research/functional_representation_20261109/p2/final_report.md) / [全部分数与区间](research/functional_representation_20261109/p2/results.md)
+- [方法下一步决策](research/functional_representation_20261109/p2/next_method_decision.md)
+- [公开科学代码和复算边界](scripts/functional_representation/p2/README.md)
+- [此前三语言18组LoRA消融](research/lora_layer_analysis_20261108/final_report.md)
+- [P0/P1功能敏感诊断](research/functional_representation_20261109/diagnosis.md)
+- [前一轮4B泛化和翻译对照](research/updates_20261108/chatgpt_handoff.md)
 
-观察到中部更新的收益与通用保持代价，但没有无损功能分离证据；功能敏感漂移的额外解释力不稳定。原分数和所有负结果保留，不把消融称为新训练方法，也不用正式测试挑层或调参。下文保留历史快照，其“进行中”状态不表示旧任务恢复。
+普通全表示保持改善了本次SW适配的目标收益与通用保持权衡；同池回放出现数学负结果，完整保留。当前只有单SW、单seed42、单阶段证据，不是功能敏感/动态新方法或顺序CL有效性的证明。后续复杂版本、迁移和新翻译测评未运行。
+
+下方保留历史研究记录，旧“进行中”状态不表示恢复已暂停任务。
 
 ---
 

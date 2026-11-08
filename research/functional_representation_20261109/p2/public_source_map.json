@@ -1,0 +1,74 @@
+[
+  {
+    "file": "scripts/functional_representation/p2/losses.py",
+    "runtime_source_sha256": "d2108164df64367e787f5fe6485889099fc881c0d4d74db245c890f385961df8",
+    "exported_sha256": "d2108164df64367e787f5fe6485889099fc881c0d4d74db245c890f385961df8",
+    "adaptation": "None; byte-identical scientific core"
+  },
+  {
+    "file": "scripts/functional_representation/p2/train.py",
+    "runtime_source_sha256": "9c4b68103776852c7e2dfe4596536a623adacf71772184b3f0f253187dbdd2aa",
+    "exported_sha256": "0e8a916e88f755d891d86ec44f55b31507d096dd49d942b08b20f4fc590faf61",
+    "adaptation": "Repository/external-resource/output paths only; scientific logic unchanged"
+  },
+  {
+    "file": "scripts/functional_representation/p2/prepare.py",
+    "runtime_source_sha256": "f8033abf2c69526af5abe872052272ddf43a4027ce15f867bd4e254666d5b843",
+    "exported_sha256": "47098ec3c763318ef5d10ac725dfbbd9d29dc424088c2eed39047b64e115a4b8",
+    "adaptation": "Repository/external-resource/output paths only; scientific logic unchanged"
+  },
+  {
+    "file": "scripts/functional_representation/p2/collect.py",
+    "runtime_source_sha256": "71b59f86afdb17be63489da03f638e309126337c93c132496812e0dba25b9be0",
+    "exported_sha256": "ce1f42e09ac4897c4cbb2d531554ea8bf4e76add60be077d06ee7f1ff9e855fa",
+    "adaptation": "Repository/external-resource/output paths only; scientific logic unchanged"
+  },
+  {
+    "file": "scripts/functional_representation/p2/audit_training.py",
+    "runtime_source_sha256": "ce4a864e4da64a4e75f5c1e76af0748a5d8cb16f7c250c5a6f765dd6c587ee4c",
+    "exported_sha256": "ccfcedce0e0a3583751e835583aa5be7849eefc3fa360feda91181c054945391",
+    "adaptation": "Repository/external-resource/output paths only; scientific logic unchanged"
+  },
+  {
+    "file": "scripts/functional_representation/p2/audit_protocol.py",
+    "runtime_source_sha256": "6c72bf9571b6e7a428bdd6a383793a80d43699516b20489f4ea3dd476e8a6bc0",
+    "exported_sha256": "487eea7bf1590b1c20a14808984b3d6b5a6b83436a1849697667c2f899d45ae3",
+    "adaptation": "Repository/external-resource/output paths only; scientific logic unchanged"
+  },
+  {
+    "file": "scripts/functional_representation/p2/costs.py",
+    "runtime_source_sha256": "87d690b29b46fa0855af1aec5d2f1e5c2391c4aa19c94765a72fd91616e58b9a",
+    "exported_sha256": "5b40c453028920ee71af6029b03a8d7905c1aa5cd5274df0b2adfb518b159ce2",
+    "adaptation": "Repository/external-resource/output paths only; scientific logic unchanged"
+  },
+  {
+    "file": "scripts/functional_representation/p2/recompute_numeric.py",
+    "runtime_source_sha256": "04eb0c192ab399118af47ae82eb687ab0bdc888a5fd7b259675bd97aa90e1fd3",
+    "exported_sha256": "04eb0c192ab399118af47ae82eb687ab0bdc888a5fd7b259675bd97aa90e1fd3",
+    "adaptation": "None; byte-identical scientific core"
+  },
+  {
+    "file": "scripts/functional_representation/p2/build_results.py",
+    "runtime_source_sha256": "4bc1c39e48e80f036072a92e78504632772ac976973e0ff3d71d522feca24def",
+    "exported_sha256": "f86d1af656f00be9f314392594e64617b6107de7657625417af618f792a63fa1",
+    "adaptation": "Repository/external-resource/output paths only; scientific logic unchanged"
+  },
+  {
+    "file": "scripts/functional_representation/p2/update_norms.py",
+    "runtime_source_sha256": "bc61f0e0e57dc75ea04862410e0e068a1068f0deb096e5f45be345237d9a56a1",
+    "exported_sha256": "b415c3f5ff049d16118b9bba3f85bfeefacb36c6222913ffc4cab7560bca1d48",
+    "adaptation": "Repository/external-resource/output paths only; scientific logic unchanged"
+  },
+  {
+    "file": "scripts/functional_representation/p2/validate_accumulation.py",
+    "runtime_source_sha256": "df8d58df1a9d223259cd758caaec657df8e5e2bd2c618b3c81e88bc109fc17cb",
+    "exported_sha256": "d4a0f53283643c335d3753f770b1df383023189bd8865bd1f70cfa18b42af3c0",
+    "adaptation": "Repository/external-resource/output paths only; scientific logic unchanged"
+  },
+  {
+    "file": "scripts/functional_representation/p2/audit_replay_outputs.py",
+    "runtime_source_sha256": "c0a732b01e95c75f432326f3c82ea9c0ff377cd45c81f614651d099b60c61cac",
+    "exported_sha256": "c6f75b67877533bd4512814bdec5b0e020b93225b9129e352b31bcce879cafd6",
+    "adaptation": "Repository/external-resource/output paths only; scientific logic unchanged"
+  }
+]

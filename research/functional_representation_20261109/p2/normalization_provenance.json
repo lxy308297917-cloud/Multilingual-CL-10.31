@@ -1,0 +1,20 @@
+{
+  "scope": "Supplementary provenance only; immutable P2 inputs and training unchanged",
+  "source": "P1 frozen legacy Full-LoRA fixed-prefix per-example drift",
+  "source_csv_sha256": "70b26afa61f3d6cc86dda79453e2e04075c17565e59da5bd89db95044e80db0a",
+  "legacy_full_weights_sha256": "0e3e8de0b3fa0fa2434b3a8946eeaca21b9580b613c475347ff4000f2e8d2265",
+  "legacy_full_training_steps": 400,
+  "legacy_full_training_microbatch": 1,
+  "build_rows": 128,
+  "build_rows_per_capability": 64,
+  "check_rows_used": 0,
+  "statistic": "Arithmetic mean of full-answer normalized total drift across build rows of each capability; not gradient-subspace drift",
+  "normalizers": {
+    "math": 0.13853428785915772,
+    "instruction": 0.21183144826953915
+  },
+  "matches_immutable_training_manifest": true,
+  "immutable_p2_manifest_sha256": "385c7c4352e8723450545696be4f982db7178f0b685155406b2b5646fb4b4e30",
+  "no_new_benchmark_scores_used": true,
+  "historical_model_information_not_free": true
+}

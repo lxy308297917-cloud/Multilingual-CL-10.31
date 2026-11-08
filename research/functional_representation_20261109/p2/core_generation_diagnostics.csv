@@ -1,0 +1,6 @@
+model,actual_generations,input_tokens,generated_tokens,reached_cap,normal_stop,physical_input_multiset_matches_base
+Base,1860,1420439,382381,27,1833,True
+LegacyFull,1860,1420439,367850,140,1720,True
+all_layer,1860,1420439,360833,130,1730,True
+full_feature,1860,1420439,352543,40,1820,True
+ce_replay,1860,1420439,367757,115,1745,True

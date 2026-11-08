@@ -1,0 +1,92 @@
+{
+  "scope": "POSTHOC descriptive diagnosis after replay formal core result; no tuning or score replacement",
+  "models": [
+    {
+      "model": "all_layer",
+      "samples": 1319,
+      "original_sample_file_sha256": "a92ac6905be42bd60556d6d3b113930c2840857f76e1aaaaba10f3f272977b73",
+      "raw_response_to_completion_metadata_uniquely_joined": 1319,
+      "strict_correct": 841.0,
+      "flexible_correct": 1069.0,
+      "strict_only": 1,
+      "flexible_only": 229,
+      "final_hash_marker_present": 995,
+      "calculator_annotation_present": 916,
+      "reached_1280_token_cap": 9,
+      "mean_generated_tokens": 114.11902956785444,
+      "median_generated_tokens": 99,
+      "finish_reasons": {
+        "stop": 1310,
+        "length": 9
+      }
+    },
+    {
+      "model": "full_feature",
+      "samples": 1319,
+      "original_sample_file_sha256": "826a349c402029796fe30e62871af3fbc4588af7e40eaf750dda894fb358312b",
+      "raw_response_to_completion_metadata_uniquely_joined": 1319,
+      "strict_correct": 997.0,
+      "flexible_correct": 1118.0,
+      "strict_only": 1,
+      "flexible_only": 122,
+      "final_hash_marker_present": 1194,
+      "calculator_annotation_present": 559,
+      "reached_1280_token_cap": 0,
+      "mean_generated_tokens": 136.5147839272176,
+      "median_generated_tokens": 124,
+      "finish_reasons": {
+        "stop": 1319
+      }
+    },
+    {
+      "model": "ce_replay",
+      "samples": 1319,
+      "original_sample_file_sha256": "dd0696503457ed13ab3882b4aa300816f4111302e2c8265a46469b98ae71cdf6",
+      "raw_response_to_completion_metadata_uniquely_joined": 1319,
+      "strict_correct": 805.0,
+      "flexible_correct": 824.0,
+      "strict_only": 1,
+      "flexible_only": 20,
+      "final_hash_marker_present": 1309,
+      "calculator_annotation_present": 1318,
+      "reached_1280_token_cap": 0,
+      "mean_generated_tokens": 115.56937073540561,
+      "median_generated_tokens": 105,
+      "finish_reasons": {
+        "stop": 1319
+      }
+    }
+  ],
+  "same_items_and_prompt_identities": true,
+  "replay_old_pool_training_fit": {
+    "math": {
+      "exposures": 1600,
+      "unique_examples": 64,
+      "first_cycle_mean_training_ce": 1.6341116507537663,
+      "final_cycle_mean_training_ce": 0.0003615734599833331
+    },
+    "instruction": {
+      "exposures": 1600,
+      "unique_examples": 64,
+      "first_cycle_mean_training_ce": 0.2939929601877944,
+      "final_cycle_mean_training_ce": 6.649464216934575e-05
+    }
+  },
+  "all_correct_replay_wrong": 314,
+  "all_wrong_replay_correct": 69,
+  "manual_review_rule": "First5 sorted doc_id among all-layer flexible-correct/replay flexible-wrong; selected failure cases, not an error-rate sample",
+  "manual_reviewed_doc_ids": [
+    2,
+    4,
+    5,
+    7,
+    17
+  ],
+  "formal_scores_unchanged": true,
+  "interpretation": [
+    "Zero replay length caps; the observed decline is not explained by truncation alone.",
+    "Manual selected cases include incorrect operations and arithmetic with a clearly wrong emitted final answer; not all errors can be attributed to answer parsing.",
+    "Calculator annotations and near-zero reused-pool training CE are descriptive observations; they do not establish a causal explanation for test decline.",
+    "This is one frozen128-example replay pool, coefficient1 and seed42; it does not show that replay generally fails."
+  ]
+}

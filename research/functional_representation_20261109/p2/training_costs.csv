@@ -1,0 +1,4 @@
+run,role,mode,optimizer_initial_step,optimizer_final_step,target_samples_this_process,target_input_tokens_this_process,target_ce_supervised_tokens_this_process,target_microbatch_forward_backward_calls,old_samples_this_process,old_input_tokens_this_process,old_reference_answer_tokens_this_process,old_ce_supervised_tokens_this_process,feature_answer_positions_this_process,feature_layer_positions_this_process,old_forward_backward_calls,elapsed_accounting_process_seconds,peak_cuda_allocated_bytes,peak_cuda_reserved_bytes,target_microbatch,gradient_accumulation
+all_layer,formal,all_layer,0,400,6400,2373891,324892,3200,0,0,0,0,0,0,0,3133.599547238002,16832992768,23385341952,2,8
+full_feature,formal,full_feature,0,400,6400,2373891,324892,3200,3200,393750,211250,0,12775,459900,3200,3884.9336373910046,16832992768,23599251456,2,8
+ce_replay,formal,ce_replay,0,400,6400,2373891,324892,3200,3200,393750,211250,211250,0,0,3200,3747.947207786012,16832992768,23597154304,2,8

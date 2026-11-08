@@ -1,0 +1,53 @@
+{
+  "status": "FROZEN_FORMAL_QUEUES_STARTING",
+  "modes": [
+    "all_layer",
+    "full_feature",
+    "ce_replay"
+  ],
+  "target": {
+    "samples": 6400,
+    "steps": 400,
+    "effective_batch": 16,
+    "seed": 42,
+    "data_seed": 42,
+    "source_config_sha256": "9d0ac862d9b21d0ff8c199c63eca04ada77707733baaaaef820b187ce518fefc",
+    "data_lock_sha256": "c52a1e7016a2460b51b08ca2133f53cab118674595a0fb3739d96c4d4357021c"
+  },
+  "old": {
+    "pool": 128,
+    "sampling": "Fixed shuffled per-class order interleaved math/instruction, repeat cycle; one old example per target microbatch",
+    "coefficient": 1.0,
+    "full_feature": "Mean all36 layer normalized squared drift / fixed per-capability normalizer",
+    "ce_replay": "Mean assistant-token CE, same old sample sequence and dropout-disabled old forwards",
+    "loss_backward": "Upstream target backward completed before extra old backward; old mean divided once by actual gradient accumulation steps",
+    "resource_manifest_sha256": "385c7c4352e8723450545696be4f982db7178f0b685155406b2b5646fb4b4e30",
+    "expected_exposures_per_protected_run": 3200,
+    "expected_old_input_tokens": 393750,
+    "expected_reference_answer_tokens": 211250,
+    "reference_answer_tokens_are_not_ce_labels_in_full_feature": true,
+    "precision": "Old forwards use BF16 backbone and PEFT FP32 adapter branches as in diagnostic HF eval; dropout disabled, no top-level Accelerate forward autocast wrapper"
+  },
+  "checkpoints": [
+    0,
+    50,
+    100,
+    200,
+    300,
+    400
+  ],
+  "main": "Final400",
+  "batch_choice": {
+    "micro_batch": 2,
+    "gradient_accumulation": 8,
+    "effective_batch": 16,
+    "selection": "Engineering only: same64 target inputs and labels; HF train_samples/s 2.210 -> 2.623; 3090 peak12.27 ->16.09GB; no benchmark examined",
+    "padding_rng_note": "Different padding/dropout RNG from legacy batch1; all3 new controls use same batch2 and receive fresh formal evaluations"
+  },
+  "saving_optimizer_state": true,
+  "extra_calibration_compute_reported": true,
+  "functional_version": "DEFERRED",
+  "formal_tests_used_for_hyperparameters": false,
+  "frozen_at": "2026-11-09T03:28:35.154293+08:00",
+  "recovery_note": "Loaded weights and optimizer exact; data and old streams restored; GPU final tensors not bitwise repeatable, same-seed uninterrupted control also varies"
+}

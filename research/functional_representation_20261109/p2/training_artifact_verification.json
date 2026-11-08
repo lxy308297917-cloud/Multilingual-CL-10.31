@@ -1,0 +1,192 @@
+{
+  "complete": true,
+  "completed_nodes": 18,
+  "expected_nodes": 18,
+  "pending": [],
+  "nodes": [
+    {
+      "mode": "all_layer",
+      "step": 0,
+      "adapter_sha256": "b18a31736036aee10b7f8c5eb82e3eebd5342c6134e4b7e169c06028c34b4bec",
+      "nonzero_b_matrices": 0,
+      "parameters": 33030144,
+      "tensor_shapes_and_finiteness_passed": true,
+      "target_and_old_streams_checked": false,
+      "optimizer_scheduler_rng_present_and_valid": false
+    },
+    {
+      "mode": "all_layer",
+      "step": 50,
+      "adapter_sha256": "ecc31324e5927bb257e476b18bb52f8d86fb6c9c99dee79061f8cc9524393f7e",
+      "nonzero_b_matrices": 252,
+      "parameters": 33030144,
+      "tensor_shapes_and_finiteness_passed": true,
+      "target_and_old_streams_checked": true,
+      "optimizer_scheduler_rng_present_and_valid": true
+    },
+    {
+      "mode": "all_layer",
+      "step": 100,
+      "adapter_sha256": "ea87c6a2391e39e1c9aeb19fe7a2effb5a6574004e5a4f26ee993d36a2a38adc",
+      "nonzero_b_matrices": 252,
+      "parameters": 33030144,
+      "tensor_shapes_and_finiteness_passed": true,
+      "target_and_old_streams_checked": true,
+      "optimizer_scheduler_rng_present_and_valid": true
+    },
+    {
+      "mode": "all_layer",
+      "step": 200,
+      "adapter_sha256": "3ad1409b3eb1b9ce3a4af095b624340795521af13daca6d6815942609c790980",
+      "nonzero_b_matrices": 252,
+      "parameters": 33030144,
+      "tensor_shapes_and_finiteness_passed": true,
+      "target_and_old_streams_checked": true,
+      "optimizer_scheduler_rng_present_and_valid": true
+    },
+    {
+      "mode": "all_layer",
+      "step": 300,
+      "adapter_sha256": "019053b0bda80d4e8f75c8ea52a8b08f319542f485f2444e3f7ea076eb69cf07",
+      "nonzero_b_matrices": 252,
+      "parameters": 33030144,
+      "tensor_shapes_and_finiteness_passed": true,
+      "target_and_old_streams_checked": true,
+      "optimizer_scheduler_rng_present_and_valid": true
+    },
+    {
+      "mode": "all_layer",
+      "step": 400,
+      "adapter_sha256": "7900ed8d0f4199a6bdfafa909315f36b12ad2650527779cd2cd481464bb01338",
+      "nonzero_b_matrices": 252,
+      "parameters": 33030144,
+      "tensor_shapes_and_finiteness_passed": true,
+      "target_and_old_streams_checked": true,
+      "optimizer_scheduler_rng_present_and_valid": true
+    },
+    {
+      "mode": "full_feature",
+      "step": 0,
+      "adapter_sha256": "b18a31736036aee10b7f8c5eb82e3eebd5342c6134e4b7e169c06028c34b4bec",
+      "nonzero_b_matrices": 0,
+      "parameters": 33030144,
+      "tensor_shapes_and_finiteness_passed": true,
+      "target_and_old_streams_checked": false,
+      "optimizer_scheduler_rng_present_and_valid": false
+    },
+    {
+      "mode": "full_feature",
+      "step": 50,
+      "adapter_sha256": "1c058b46b23e53806f94e38020b6f97730d436f77c5aa733ae15ab2411220188",
+      "nonzero_b_matrices": 252,
+      "parameters": 33030144,
+      "tensor_shapes_and_finiteness_passed": true,
+      "target_and_old_streams_checked": true,
+      "optimizer_scheduler_rng_present_and_valid": true
+    },
+    {
+      "mode": "full_feature",
+      "step": 100,
+      "adapter_sha256": "fcca6260a606b1f0ad36b1af46bd387019f38f06f786104fe2622421f80acf1f",
+      "nonzero_b_matrices": 252,
+      "parameters": 33030144,
+      "tensor_shapes_and_finiteness_passed": true,
+      "target_and_old_streams_checked": true,
+      "optimizer_scheduler_rng_present_and_valid": true
+    },
+    {
+      "mode": "full_feature",
+      "step": 200,
+      "adapter_sha256": "25ec8c304ae13a569dba256c1de137a942af4a8a48aa75310e68fcf22320cca0",
+      "nonzero_b_matrices": 252,
+      "parameters": 33030144,
+      "tensor_shapes_and_finiteness_passed": true,
+      "target_and_old_streams_checked": true,
+      "optimizer_scheduler_rng_present_and_valid": true
+    },
+    {
+      "mode": "full_feature",
+      "step": 300,
+      "adapter_sha256": "e354d5e24802b4530350b81712c11f42daf1179df5cc715bb7af8dbf4b40d841",
+      "nonzero_b_matrices": 252,
+      "parameters": 33030144,
+      "tensor_shapes_and_finiteness_passed": true,
+      "target_and_old_streams_checked": true,
+      "optimizer_scheduler_rng_present_and_valid": true
+    },
+    {
+      "mode": "full_feature",
+      "step": 400,
+      "adapter_sha256": "f08c8dbed28da7236a57dcd13dc6bc6037b0d3d9e72bfbbcdd7e7cf5f8b8fe26",
+      "nonzero_b_matrices": 252,
+      "parameters": 33030144,
+      "tensor_shapes_and_finiteness_passed": true,
+      "target_and_old_streams_checked": true,
+      "optimizer_scheduler_rng_present_and_valid": true
+    },
+    {
+      "mode": "ce_replay",
+      "step": 0,
+      "adapter_sha256": "b18a31736036aee10b7f8c5eb82e3eebd5342c6134e4b7e169c06028c34b4bec",
+      "nonzero_b_matrices": 0,
+      "parameters": 33030144,
+      "tensor_shapes_and_finiteness_passed": true,
+      "target_and_old_streams_checked": false,
+      "optimizer_scheduler_rng_present_and_valid": false
+    },
+    {
+      "mode": "ce_replay",
+      "step": 50,
+      "adapter_sha256": "46d76ddf6500f1b2b02ee57a4b5264372f9a4c92b7032175a885b14579574fed",
+      "nonzero_b_matrices": 252,
+      "parameters": 33030144,
+      "tensor_shapes_and_finiteness_passed": true,
+      "target_and_old_streams_checked": true,
+      "optimizer_scheduler_rng_present_and_valid": true
+    },
+    {
+      "mode": "ce_replay",
+      "step": 100,
+      "adapter_sha256": "ac6e2bd3864b3261698b99533374972a7890689b4d9b373f174f062ee4440a9f",
+      "nonzero_b_matrices": 252,
+      "parameters": 33030144,
+      "tensor_shapes_and_finiteness_passed": true,
+      "target_and_old_streams_checked": true,
+      "optimizer_scheduler_rng_present_and_valid": true
+    },
+    {
+      "mode": "ce_replay",
+      "step": 200,
+      "adapter_sha256": "e50ac1867c33e5f6901f1790777147808d022e1d5c8182a325d7614f05d2dd9f",
+      "nonzero_b_matrices": 252,
+      "parameters": 33030144,
+      "tensor_shapes_and_finiteness_passed": true,
+      "target_and_old_streams_checked": true,
+      "optimizer_scheduler_rng_present_and_valid": true
+    },
+    {
+      "mode": "ce_replay",
+      "step": 300,
+      "adapter_sha256": "6e16c43a4025f404520fcb953ffaddd019cc9ecb7e2382a9d571a7f603c47a02",
+      "nonzero_b_matrices": 252,
+      "parameters": 33030144,
+      "tensor_shapes_and_finiteness_passed": true,
+      "target_and_old_streams_checked": true,
+      "optimizer_scheduler_rng_present_and_valid": true
+    },
+    {
+      "mode": "ce_replay",
+      "step": 400,
+      "adapter_sha256": "479a088f72e45f63fa00a780fa991e244d353a701ec2b0828eaac564fcc64a6d",
+      "nonzero_b_matrices": 252,
+      "parameters": 33030144,
+      "tensor_shapes_and_finiteness_passed": true,
+      "target_and_old_streams_checked": true,
+      "optimizer_scheduler_rng_present_and_valid": true
+    }
+  ],
+  "initial_adapters_identical": true,
+  "check_pool_samples_in_old_training": 0,
+  "source_target_exposure_sha256": "22d31b9c5c1c4612217d6dde0683ecd1c567bed75e8f8249130d3de32b65c35b",
+  "note": "0 is initial adapter only; optimizer checkpoints50/100/200/300/400; numerical recovery repeatability limitation reported separately"
+}

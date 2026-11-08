@@ -1,0 +1,41 @@
+model,task,metric,score,unit,samples_or_instructions,source,training_microbatch
+Base,Belebele target,ACC,27.333333333333332,percent,900,historical same-protocol reference,0
+LegacyFull,Belebele target,ACC,38.111111111111114,percent,900,historical same-protocol reference,1
+all_layer,Belebele target,ACC,36.333333333333336,percent,900,new fixed Final400,2
+full_feature,Belebele target,ACC,40.888888888888886,percent,900,new fixed Final400,2
+ce_replay,Belebele target,ACC,37.0,percent,900,new fixed Final400,2
+Base,Belebele EN,ACC,62.888888888888886,percent,900,historical same-protocol reference,0
+LegacyFull,Belebele EN,ACC,86.33333333333333,percent,900,historical same-protocol reference,1
+all_layer,Belebele EN,ACC,87.55555555555556,percent,900,new fixed Final400,2
+full_feature,Belebele EN,ACC,88.44444444444444,percent,900,new fixed Final400,2
+ce_replay,Belebele EN,ACC,87.22222222222223,percent,900,new fixed Final400,2
+Base,XL-Sum target,ROUGE-Lsum,13.709945670869477,ROUGE points,987,historical same-protocol reference,0
+LegacyFull,XL-Sum target,ROUGE-Lsum,20.238694838945353,ROUGE points,987,historical same-protocol reference,1
+all_layer,XL-Sum target,ROUGE-Lsum,20.1792464092937,ROUGE points,987,new fixed Final400,2
+full_feature,XL-Sum target,ROUGE-Lsum,20.583733107107975,ROUGE points,987,new fixed Final400,2
+ce_replay,XL-Sum target,ROUGE-Lsum,20.83552089002919,ROUGE points,987,new fixed Final400,2
+Base,GSM8K,strict-match,61.03108415466262,percent,1319,historical same-protocol reference,0
+LegacyFull,GSM8K,strict-match,59.74222896133434,percent,1319,historical same-protocol reference,1
+all_layer,GSM8K,strict-match,63.76042456406368,percent,1319,new fixed Final400,2
+full_feature,GSM8K,strict-match,75.58756633813495,percent,1319,new fixed Final400,2
+ce_replay,GSM8K,strict-match,61.03108415466262,percent,1319,new fixed Final400,2
+Base,GSM8K,flexible-extract,84.4579226686884,percent,1319,historical same-protocol reference,0
+LegacyFull,GSM8K,flexible-extract,81.19787717968158,percent,1319,historical same-protocol reference,1
+all_layer,GSM8K,flexible-extract,81.04624715693707,percent,1319,new fixed Final400,2
+full_feature,GSM8K,flexible-extract,84.76118271417741,percent,1319,new fixed Final400,2
+ce_replay,GSM8K,flexible-extract,62.4715693707354,percent,1319,new fixed Final400,2
+Base,IFEval,prompt_level_strict_acc,78.37338262476895,percent,541,historical same-protocol reference,0
+LegacyFull,IFEval,prompt_level_strict_acc,49.35304990757856,percent,541,historical same-protocol reference,1
+all_layer,IFEval,prompt_level_strict_acc,48.42883548983364,percent,541,new fixed Final400,2
+full_feature,IFEval,prompt_level_strict_acc,79.85212569316081,percent,541,new fixed Final400,2
+ce_replay,IFEval,prompt_level_strict_acc,59.51940850277264,percent,541,new fixed Final400,2
+Base,IFEval,inst_level_strict_acc,84.65227817745803,percent,834,historical same-protocol reference,0
+LegacyFull,IFEval,inst_level_strict_acc,62.47002398081535,percent,834,historical same-protocol reference,1
+all_layer,IFEval,inst_level_strict_acc,61.270983213429254,percent,834,new fixed Final400,2
+full_feature,IFEval,inst_level_strict_acc,86.09112709832134,percent,834,new fixed Final400,2
+ce_replay,IFEval,inst_level_strict_acc,69.7841726618705,percent,834,new fixed Final400,2
+Base,Global-MMLU SW,ACC,33.37843612021079,percent,14042,historical same-protocol reference,0
+LegacyFull,Global-MMLU SW,ACC,33.335707164221624,percent,14042,historical same-protocol reference,1
+all_layer,Global-MMLU SW,ACC,33.02948297963253,percent,14042,new fixed Final400,2
+full_feature,Global-MMLU SW,ACC,35.336846603048,percent,14042,new fixed Final400,2
+ce_replay,Global-MMLU SW,ACC,33.74875373878365,percent,14042,new fixed Final400,2

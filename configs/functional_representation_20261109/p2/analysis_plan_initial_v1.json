@@ -1,0 +1,30 @@
+{
+  "scope": "Exploratory frozen P2 endpoint comparison; fixed before any new endpoint scores, historical tests already exposed",
+  "models": [
+    "Base",
+    "LegacyFull",
+    "all_layer",
+    "full_feature",
+    "ce_replay"
+  ],
+  "primary_comparisons": "all3 new vs Base; protected2 vs fresh all_layer",
+  "absolute_metric_rows": 40,
+  "paired_metric_rows": 40,
+  "bootstrap": {
+    "resamples": 2000,
+    "seed": "numpy.SeedSequence([42,model_index,reference_index,metric_index])",
+    "percentile": [
+      2.5,
+      97.5
+    ],
+    "instruction_unit": "prompt cluster weighted by instruction count",
+    "otherwise_unit": "item",
+    "fixed_models_single_training_seed": true,
+    "multiplicity_correction": false
+  },
+  "no_hyperparameter_or_node_selection": true,
+  "no_predeclared_noninferiority_margin": "Do not interpret an interval crossing zero as equivalence",
+  "numeric_publication": "Sufficient item scores/counts only; no raw questions/answers/weights",
+  "numpy": "2.4.6",
+  "source_sha256": "45c684098aba36c8037e3f5ac35aca150b071fb8dadae23aaac2457013419dc5"
+}

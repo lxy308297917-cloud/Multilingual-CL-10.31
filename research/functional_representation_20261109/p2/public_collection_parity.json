@@ -1,0 +1,17 @@
+{
+  "complete": true,
+  "absolute_rows": 40,
+  "paired_rows": 48,
+  "same_raw_input_output_bytes": true,
+  "checked": [
+    "scores.csv",
+    "paired_changes.csv",
+    "numeric_items.json",
+    "summary_all_metrics.csv",
+    "reading_choice_audit.json",
+    "gmmlu_subject_scores.csv",
+    "gsm_extraction_sensitivity.json",
+    "collection_verification.json"
+  ],
+  "scientific_loss_byte_identical": true
+}

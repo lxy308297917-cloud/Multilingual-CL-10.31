@@ -1,0 +1,98 @@
+{
+  "model": "Qwen/Qwen3-4B",
+  "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "not_pretrained_base_variant": true,
+  "mode": "non-thinking",
+  "trained_source_adapters": {
+    "steps": 400,
+    "samples": 6400,
+    "seed": 42,
+    "r": 16,
+    "alpha": 32,
+    "dropout": 0.05,
+    "lr": 0.0001
+  },
+  "new_training_jobs": 3,
+  "benchmarks": {
+    "Belebele": {
+      "samples_per_language": 900,
+      "fewshot": 0,
+      "primary": "candidate letter likelihood ACC",
+      "backend": "HF",
+      "batch_size": 4
+    },
+    "SW_Global_MMLU": {
+      "samples": 14042,
+      "subjects": 57,
+      "fewshot": 5,
+      "primary": "candidate likelihood ACC",
+      "backend": "HF",
+      "batch_size": 1
+    },
+    "XL_Sum": {
+      "samples": {
+        "sw": 987
+      },
+      "fewshot": 0,
+      "primary": "ROUGE-Lsum",
+      "max_new_tokens": 256,
+      "max_input_tokens": 7168,
+      "max_model_len": 8192,
+      "backend": "vLLM V1",
+      "batch_size": 8,
+      "max_num_seqs": 8,
+      "max_num_batched_tokens": 4096,
+      "greedy": true,
+      "native_AR_RU_tokenizer": true,
+      "cross_language_absolute_rouge_ranking": false
+    },
+    "GSM8K": {
+      "samples": 1319,
+      "fewshot": 5,
+      "primary": "official flexible extract exact match",
+      "secondary": "official strict-match",
+      "max_new_tokens": 1280,
+      "greedy": true,
+      "backend": "vLLM V0"
+    },
+    "IFEval": {
+      "prompts": 541,
+      "instructions": 834,
+      "fewshot": 0,
+      "primary": "official prompt strict",
+      "secondary": "official instruction strict",
+      "max_new_tokens": 1280,
+      "greedy": true,
+      "backend": "vLLM V0"
+    }
+  },
+  "core_engine": {
+    "max_model_len": 8192,
+    "max_num_seqs": 8,
+    "max_num_batched_tokens": 8192,
+    "gpu_memory_utilization": 0.65,
+    "seed": 42,
+    "enforce_eager": true
+  },
+  "statistics": {
+    "paired_bootstrap": 2000,
+    "instruction_level_bootstrap_unit": "prompt_cluster",
+    "multiple_comparison_correction": false,
+    "cross_training_seed_replication": false
+  },
+  "test_use": "Historically exposed frozen supplementary ablations; no model/layer/hyperparameter selection",
+  "hardware": {
+    "gpu_model": "NVIDIA GeForce RTX 3090",
+    "VRAM_MiB": 24576,
+    "max_concurrent_account_gpus": 4
+  },
+  "scope": "Fresh three P2 Final400 models; Base and legacy full are historical same-protocol references",
+  "models": [
+    "all_layer",
+    "full_feature",
+    "ce_replay"
+  ],
+  "formal_selection": false,
+  "training_micro_batch": 2,
+  "gradient_accumulation": 8
+}

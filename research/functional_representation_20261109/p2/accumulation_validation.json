@@ -1,0 +1,81 @@
+{
+  "scope": "CPU tiny Qwen3+PEFT engineering oracle; not efficacy",
+  "cases": [
+    {
+      "mode": "all_layer",
+      "model_accepts_loss_kwargs": false,
+      "gradient_checkpointing": false,
+      "maximum_gradient_error": 0.0
+    },
+    {
+      "mode": "all_layer",
+      "model_accepts_loss_kwargs": false,
+      "gradient_checkpointing": true,
+      "maximum_gradient_error": 0.0
+    },
+    {
+      "mode": "all_layer",
+      "model_accepts_loss_kwargs": true,
+      "gradient_checkpointing": false,
+      "maximum_gradient_error": 0.0
+    },
+    {
+      "mode": "all_layer",
+      "model_accepts_loss_kwargs": true,
+      "gradient_checkpointing": true,
+      "maximum_gradient_error": 0.0
+    },
+    {
+      "mode": "ce_replay",
+      "model_accepts_loss_kwargs": false,
+      "gradient_checkpointing": false,
+      "maximum_gradient_error": 0.0
+    },
+    {
+      "mode": "ce_replay",
+      "model_accepts_loss_kwargs": false,
+      "gradient_checkpointing": true,
+      "maximum_gradient_error": 0.0
+    },
+    {
+      "mode": "ce_replay",
+      "model_accepts_loss_kwargs": true,
+      "gradient_checkpointing": false,
+      "maximum_gradient_error": 0.0
+    },
+    {
+      "mode": "ce_replay",
+      "model_accepts_loss_kwargs": true,
+      "gradient_checkpointing": true,
+      "maximum_gradient_error": 0.0
+    },
+    {
+      "mode": "full_feature",
+      "model_accepts_loss_kwargs": false,
+      "gradient_checkpointing": false,
+      "maximum_gradient_error": 0.0
+    },
+    {
+      "mode": "full_feature",
+      "model_accepts_loss_kwargs": false,
+      "gradient_checkpointing": true,
+      "maximum_gradient_error": 0.0
+    },
+    {
+      "mode": "full_feature",
+      "model_accepts_loss_kwargs": true,
+      "gradient_checkpointing": false,
+      "maximum_gradient_error": 0.0
+    },
+    {
+      "mode": "full_feature",
+      "model_accepts_loss_kwargs": true,
+      "gradient_checkpointing": true,
+      "maximum_gradient_error": 0.0
+    }
+  ],
+  "accumulation_steps": 2,
+  "variable_target_supervised_lengths": true,
+  "upstream_target_backward_unchanged": true,
+  "extra_old_backward_scaled_once": true
+}

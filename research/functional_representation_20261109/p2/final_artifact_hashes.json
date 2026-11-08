@@ -1,0 +1,95 @@
+{
+  "models": [
+    {
+      "model": "all_layer",
+      "fixed_optimizer_steps": 400,
+      "artifacts": {
+        "adapter_model.safetensors": {
+          "bytes": 132187888,
+          "sha256": "7900ed8d0f4199a6bdfafa909315f36b12ad2650527779cd2cd481464bb01338"
+        },
+        "adapter_config.json": {
+          "bytes": 1070,
+          "sha256": "eafce92ff10eabe349121eb76b84d3b91635885ecd0c691910cedb2ac69529db"
+        },
+        "TRAINING_DONE.json": {
+          "bytes": 1571,
+          "sha256": "cb9bc152583f6a2219b9bf887bc6419e9dacd8d1958e562d6494c59e6456e1c3"
+        },
+        "exposure-rank0.jsonl": {
+          "bytes": 1371944,
+          "sha256": "1c92a904385aa6cb8700ccd3e745bbcf35c0d5d6c141fd367bdb206ea3f7c74b"
+        },
+        "trainer_state.json": {
+          "bytes": 13732,
+          "sha256": "aaed190e88f8a0912302ec29e56e6fe7d9fcb6db93a3df033ab3c00af6cdd69c"
+        },
+        "old_accounting.json": {
+          "bytes": 536,
+          "sha256": "31fc4c3f72ba35bb2434cf8f614cfeecf77cee228d54a683d0310413d2a4777b"
+        }
+      }
+    },
+    {
+      "model": "full_feature",
+      "fixed_optimizer_steps": 400,
+      "artifacts": {
+        "adapter_model.safetensors": {
+          "bytes": 132187888,
+          "sha256": "f08c8dbed28da7236a57dcd13dc6bc6037b0d3d9e72bfbbcdd7e7cf5f8b8fe26"
+        },
+        "adapter_config.json": {
+          "bytes": 1070,
+          "sha256": "a10348b5f4e876081848817e3422384b516e78a4e243bdee5e1203928208fed3"
+        },
+        "TRAINING_DONE.json": {
+          "bytes": 1666,
+          "sha256": "815ebdd0b1391c29d421573c912f8fcbe700f1e7e09a0ddfbd3ece671425ed4c"
+        },
+        "exposure-rank0.jsonl": {
+          "bytes": 1371944,
+          "sha256": "1c92a904385aa6cb8700ccd3e745bbcf35c0d5d6c141fd367bdb206ea3f7c74b"
+        },
+        "trainer_state.json": {
+          "bytes": 13728,
+          "sha256": "782924e69d6b07895a2959ed50bce46829ff2a21cc0b6908ad198f99f4ddb6f2"
+        },
+        "old_accounting.json": {
+          "bytes": 621,
+          "sha256": "7fd04476ad8f28142d7feb46f608fe9b0c2b1062ccfd040af8dccde4524a1ad0"
+        }
+      }
+    },
+    {
+      "model": "ce_replay",
+      "fixed_optimizer_steps": 400,
+      "artifacts": {
+        "adapter_model.safetensors": {
+          "bytes": 132187888,
+          "sha256": "479a088f72e45f63fa00a780fa991e244d353a701ec2b0828eaac564fcc64a6d"
+        },
+        "adapter_config.json": {
+          "bytes": 1070,
+          "sha256": "90998423be761c609f60d895bf928556057642b886dc2e15ee4e1a915e7ef9d0"
+        },
+        "TRAINING_DONE.json": {
+          "bytes": 1659,
+          "sha256": "13d4356a45f4a30be6a1ea743009f8119ef10a5cf51f8c6315cb57ae35edbdf5"
+        },
+        "exposure-rank0.jsonl": {
+          "bytes": 1371944,
+          "sha256": "1c92a904385aa6cb8700ccd3e745bbcf35c0d5d6c141fd367bdb206ea3f7c74b"
+        },
+        "trainer_state.json": {
+          "bytes": 13731,
+          "sha256": "6549e9f217c89a75e0cba1ed91086443e5a611617e7a6cdb1673dcd6b8b2eafc"
+        },
+        "old_accounting.json": {
+          "bytes": 618,
+          "sha256": "5c4f2de79491112c5697da0e887bbbf73263d92032f4765845ab343f5a60df64"
+        }
+      }
+    }
+  ],
+  "note": "Artifact hashes only; model weights and raw training records are not distributed."
+}

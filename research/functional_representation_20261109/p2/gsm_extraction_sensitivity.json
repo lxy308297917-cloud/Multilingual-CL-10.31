@@ -1,0 +1,37 @@
+[
+  {
+    "model": "Base",
+    "both_correct": 804,
+    "strict_only": 1,
+    "flexible_only": 310,
+    "neither_correct": 204
+  },
+  {
+    "model": "LegacyFull",
+    "both_correct": 788,
+    "strict_only": 0,
+    "flexible_only": 283,
+    "neither_correct": 248
+  },
+  {
+    "model": "all_layer",
+    "both_correct": 840,
+    "strict_only": 1,
+    "flexible_only": 229,
+    "neither_correct": 249
+  },
+  {
+    "model": "full_feature",
+    "both_correct": 996,
+    "strict_only": 1,
+    "flexible_only": 122,
+    "neither_correct": 200
+  },
+  {
+    "model": "ce_replay",
+    "both_correct": 804,
+    "strict_only": 1,
+    "flexible_only": 20,
+    "neither_correct": 494
+  }
+]

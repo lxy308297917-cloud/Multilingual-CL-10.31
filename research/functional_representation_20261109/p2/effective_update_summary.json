@@ -1,0 +1,29 @@
+{
+  "scope": "POSTHOC descriptive magnitude audit, specified after first reading results; no model selection",
+  "effective_delta_norms": {
+    "LegacyFull": 8.11936018480507,
+    "all_layer": 8.1091998192508,
+    "full_feature": 8.021734416184826,
+    "ce_replay": 8.813522689577127
+  },
+  "ratios_to_fresh_all_layer": {
+    "LegacyFull": 1.0012529430499602,
+    "all_layer": 1.0,
+    "full_feature": 0.9892140525556742,
+    "ce_replay": 1.0868547928310142
+  },
+  "model_hashes": {
+    "LegacyFull": "0e3e8de0b3fa0fa2434b3a8946eeaca21b9580b613c475347ff4000f2e8d2265",
+    "all_layer": "7900ed8d0f4199a6bdfafa909315f36b12ad2650527779cd2cd481464bb01338",
+    "full_feature": "f08c8dbed28da7236a57dcd13dc6bc6037b0d3d9e72bfbbcdd7e7cf5f8b8fe26",
+    "ce_replay": "479a088f72e45f63fa00a780fa991e244d353a701ec2b0828eaac564fcc64a6d"
+  },
+  "legacy_norms_match_existing_252_module_reference": true,
+  "cpu_seconds": 1.8606939279998187,
+  "extra_gpu_jobs": 0,
+  "limitations": [
+    "Norm is not direction, functional importance or benchmark performance",
+    "No formal matched-norm uniform-scaling control was run for these new models",
+    "P1 uniform scaling matched Remove-Middle, not this new full-feature training result"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "scope": "Real4B engineering checkpoint2-to4 recovery; not downstream efficacy",
+  "checks": [
+    {
+      "mode": "full_feature",
+      "target_order_identical": true,
+      "old_order_identical": true,
+      "old_rows": 32,
+      "final_tensors_byte_identical": false,
+      "maximum_factor_absolute_difference": 8.491997141391039e-05
+    },
+    {
+      "mode": "ce_replay",
+      "target_order_identical": true,
+      "old_order_identical": true,
+      "old_rows": 32,
+      "final_tensors_byte_identical": false,
+      "maximum_factor_absolute_difference": 7.34478235244751e-05
+    }
+  ],
+  "load_state_exact": {
+    "adapter_tensors_exact_after_load": true,
+    "optimizer_tensors_exact_after_load": true,
+    "optimizer_groups_exact_after_load": true
+  },
+  "uninterrupted_repeat_same_initialization_and_target_order": true,
+  "uninterrupted_repeat_maximum_factor_absolute_difference": 0.00020355641026981175,
+  "final_bitwise_recovery_claim": false,
+  "interpretation": "Exact loaded adapter+optimizer+groups and exact resumed sample streams verified; BF16/SDPA GPU numerical repeatability is not bitwise, including uninterrupted same-seed repeat. Initial bitwise-final assertion failed and is retained as a limitation, not silently declared exact."
+}

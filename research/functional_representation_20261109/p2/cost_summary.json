@@ -1,0 +1,38 @@
+{
+  "complete": true,
+  "formal_training_jobs_complete": 3,
+  "formal_evaluation_stage_jobs_complete": 12,
+  "engineering_gpu_jobs": 9,
+  "maximum_account_gpus": 4,
+  "training_seeds": 1,
+  "formal_training_reported_process_hours": 2.9906889978930606,
+  "formal_endpoint_stage_wall_hours_including_wait": 7.369718261749452,
+  "engineering_process_seconds": 286.4868273069733,
+  "engineering_actual_target_samples": 432,
+  "engineering_actual_old_samples": 144,
+  "reference_cache": {
+    "bytes": 94199512,
+    "sha256": "d5cf1cc269cb1c0c585c4160cc757d04d56ed76b0f4fc14c8d30a77b35aa69d2",
+    "build_examples": 128,
+    "reused_from_P1": true,
+    "standalone_build_cost": "NOT_MEASURED",
+    "previous_P1_generation_and_gradient_diagnostic_costs_reported_separately": true
+  },
+  "normalization_reference": {
+    "historical_unprotected_full_lora_used": true,
+    "information": "Per-capability build drift from previously trained400-step unprotected Full LoRA",
+    "legacy_training_seconds": 3107.790967,
+    "actual_P2_new_training_cost": false,
+    "standalone_method_cost_not_free": true
+  },
+  "interpretation": [
+    "Process walls include loading and CPU work; not CUDA kernel time",
+    "Stage wall sums overlap and include queue waits; they are not total elapsed wall time",
+    "Old forward timer includes synchronization and can include queued target work; not pure incremental GPU time",
+    "HF total_flos is a target-only estimator and is not used as combined measured compute",
+    "Target gradient-checkpoint recomputations are not included in top-level forward/backward call counts",
+    "Full-feature uses reference answer text but no old CE labels; CE replay explicitly uses old CE labels",
+    "Same old samples and calls do not guarantee equal FLOPs between feature and CE objectives",
+    "GPU final tensors not bitwise repeatable; failed initial bitwise recovery assertion and repeated control retained"
+  ]
+}

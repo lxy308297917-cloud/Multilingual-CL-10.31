@@ -1,0 +1,13 @@
+mode,stage,wall_seconds_including_queue_model_load_gpu_and_cpu_scoring,completed
+all_layer,reading,893.2788576970052,True
+all_layer,core,3777.357017896007,True
+all_layer,summary,656.7083402760036,True
+all_layer,gmmlu,4439.519331595002,True
+full_feature,reading,125.68343652600015,True
+full_feature,core,3436.627248521996,True
+full_feature,summary,649.48436003401,True
+full_feature,gmmlu,4303.703208261999,True
+ce_replay,reading,126.31203876899963,True
+ce_replay,core,3120.412800204009,True
+ce_replay,summary,659.6439056639938,True
+ce_replay,gmmlu,4342.255196853002,True
