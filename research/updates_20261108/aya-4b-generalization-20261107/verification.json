@@ -1,0 +1,78 @@
+{
+  "checks": [
+    {
+      "language": "ar",
+      "task": "aya4bml_belebele_ar",
+      "sample_identity": true,
+      "per_sample_recomputed": true,
+      "n": 900
+    },
+    {
+      "language": "ar",
+      "task": "aya4bml_xnli_ar",
+      "sample_identity": true,
+      "per_sample_recomputed": true,
+      "n": 5010
+    },
+    {
+      "language": "ar",
+      "task": "aya4bml_belebele_en",
+      "sample_identity": true,
+      "per_sample_recomputed": true,
+      "n": 900
+    },
+    {
+      "language": "ar",
+      "task": "XL-Sum",
+      "n": 4689,
+      "per_sample_recomputed": true,
+      "same_input_reference_prompt_and_scorer": true
+    },
+    {
+      "language": "ar",
+      "task": "GSM8K/IFEval",
+      "sample_identity": true,
+      "official_per_sample_recomputed": true
+    },
+    {
+      "language": "ru",
+      "task": "aya4bml_belebele_ru",
+      "sample_identity": true,
+      "per_sample_recomputed": true,
+      "n": 900
+    },
+    {
+      "language": "ru",
+      "task": "aya4bml_xnli_ru",
+      "sample_identity": true,
+      "per_sample_recomputed": true,
+      "n": 5010
+    },
+    {
+      "language": "ru",
+      "task": "aya4bml_belebele_en",
+      "sample_identity": true,
+      "per_sample_recomputed": true,
+      "n": 900
+    },
+    {
+      "language": "ru",
+      "task": "XL-Sum",
+      "n": 7780,
+      "per_sample_recomputed": true,
+      "same_input_reference_prompt_and_scorer": true
+    },
+    {
+      "language": "ru",
+      "task": "GSM8K/IFEval",
+      "sample_identity": true,
+      "official_per_sample_recomputed": true
+    }
+  ],
+  "training_steps": 400,
+  "train_samples": 6400,
+  "seed": 42,
+  "all_planned_tasks_complete": true,
+  "bootstrap": 2000,
+  "not_a_cross_seed_confidence_interval": true
+}

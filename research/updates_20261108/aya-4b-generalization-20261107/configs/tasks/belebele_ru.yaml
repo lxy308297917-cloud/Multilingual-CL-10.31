@@ -1,0 +1,37 @@
+dataset_path: json
+dataset_name: null
+test_split: test
+output_type: multiple_choice
+num_fewshot: 0
+doc_to_text: 'P: {{flores_passage}}
+
+  Q: {{question.strip()}}
+
+  A: {{mc_answer1}}
+
+  B: {{mc_answer2}}
+
+  C: {{mc_answer3}}
+
+  D: {{mc_answer4}}
+
+  Answer:'
+doc_to_choice:
+- A
+- B
+- C
+- D
+doc_to_target: '{{[''1'', ''2'', ''3'', ''4''].index(correct_answer_num)}}'
+metric_list:
+- metric: acc
+  aggregation: mean
+  higher_is_better: true
+- metric: acc_norm
+  aggregation: mean
+  higher_is_better: true
+metadata:
+  version: 0.0
+task: aya4bml_belebele_ru
+dataset_kwargs:
+  data_files:
+    test: LOCAL_RESOURCE

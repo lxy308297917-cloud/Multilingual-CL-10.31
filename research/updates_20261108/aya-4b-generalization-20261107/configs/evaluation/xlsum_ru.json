@@ -1,0 +1,54 @@
+{
+  "benchmark_id": "xlsum_ru_v1",
+  "benchmark_version": "2.1",
+  "source_repository": "csebuetnlp/xlsum",
+  "dataset_revision": "30fece425f9a3866e04321773ca7a80056d55ca6",
+  "dataset_split": "test",
+  "sample_ids_sha256": "b1a25cc80917dd41a5f6e55b8e8963197d8fa49e740e24319a626454925ecdf3",
+  "samples": 7780,
+  "data_sha256": "cabc24c92b278e685de0e348e133a57bfb9fa97c3da6fa212bc4d939be123194",
+  "source": {
+    "repository": "csebuetnlp/xlsum",
+    "revision": "30fece425f9a3866e04321773ca7a80056d55ca6",
+    "archive_sha256": "5a582ea371c981295da82b6d4c3a8f44d8e266837a86aeae199e2a49b04af3bf",
+    "not_parallel_to_other_language": true
+  },
+  "language": "ru->ru",
+  "prompt_template": "Кратко изложите следующую статью по-русски. Сохраните основные факты, не добавляйте отсутствующую информацию и выведите только краткое резюме.\n\n{article}",
+  "tokenizer_revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "chat_template": "Base tokenizer.apply_chat_template(add_generation_prompt=True, enable_thinking=False)",
+  "enable_thinking": false,
+  "decoding_config": {
+    "temperature": 0,
+    "top_p": 1,
+    "top_k": -1,
+    "max_new_tokens": 256,
+    "stop_token_ids": [
+      151645,
+      151643
+    ],
+    "seed": 42
+  },
+  "max_input_tokens": 7168,
+  "max_model_len": 8192,
+  "overlong_policy": "Head truncate article tokens only before applying chat wrapper; count and retain every article",
+  "scorer_version": {
+    "implementation": "pinned XL-Sum Unicode word tokenizer with explicit sentence LCS route",
+    "upstream_commit": "afcd803c8d7c98f3be60e9a7ce57fcbc3e729e8c",
+    "stemmer": false,
+    "cross_language_absolute_score_comparison": false
+  },
+  "metric_names": [
+    "ROUGE-1",
+    "ROUGE-2",
+    "ROUGE-Lsum",
+    "chrF++"
+  ],
+  "result_schema_version": "bench-v2.1",
+  "smoke_ids": [
+    "121219_instagram_users_rights",
+    "130321_france_sarkozy_investigated",
+    "141104_midterms_republican_senate",
+    "120925_madrid_austerity_protest"
+  ]
+}

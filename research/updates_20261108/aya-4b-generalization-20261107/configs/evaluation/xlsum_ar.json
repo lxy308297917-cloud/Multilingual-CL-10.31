@@ -1,0 +1,55 @@
+{
+  "benchmark_id": "xlsum_ar_v1",
+  "benchmark_version": "2.1",
+  "source_repository": "csebuetnlp/xlsum",
+  "dataset_revision": "30fece425f9a3866e04321773ca7a80056d55ca6",
+  "dataset_split": "test",
+  "sample_ids_sha256": "ac48c826bbfda0e5b393fc4b0959e141514c2a493d951f0960bd14a18b0fcb60",
+  "samples": 4689,
+  "data_sha256": "4670f9e3ec40b212bc9ed81a8a1d0deb5d3892282e18185e1041ee8c862e8b61",
+  "source": {
+    "repository": "csebuetnlp/xlsum",
+    "revision": "30fece425f9a3866e04321773ca7a80056d55ca6",
+    "archive_sha256": "371a07df0f89d83c2ca330f56ba33cc4cd39c1b532d6886910c97dfbacfdf2b7",
+    "not_parallel_to_other_language": true
+  },
+  "language": "ar->ar",
+  "prompt_template": "لخص المقال التالي باللغة العربية. حافظ على الحقائق الرئيسية ولا تضف معلومات غير موجودة في المقال، وقدم ملخصًا موجزًا فقط.\n\n{article}",
+  "tokenizer_revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "chat_template": "Base tokenizer.apply_chat_template(add_generation_prompt=True, enable_thinking=False)",
+  "enable_thinking": false,
+  "decoding_config": {
+    "temperature": 0,
+    "top_p": 1,
+    "top_k": -1,
+    "max_new_tokens": 256,
+    "stop_token_ids": [
+      151645,
+      151643
+    ],
+    "seed": 42
+  },
+  "max_input_tokens": 7168,
+  "max_model_len": 8192,
+  "overlong_policy": "Head truncate article tokens only before applying chat wrapper; count and retain every article",
+  "scorer_version": {
+    "implementation": "pinned XL-Sum Unicode/Thai word tokenizer with explicit sentence LCS route",
+    "upstream_commit": "afcd803c8d7c98f3be60e9a7ce57fcbc3e729e8c",
+    "stemmer": false,
+    "sentence_split": "newline boundaries; language word tokenizer per sentence",
+    "cross_language_absolute_score_comparison": false
+  },
+  "metric_names": [
+    "ROUGE-1",
+    "ROUGE-2",
+    "ROUGE-Lsum",
+    "chrF++"
+  ],
+  "result_schema_version": "bench-v2.1",
+  "smoke_ids": [
+    "130726_medicine_cancer_family_history",
+    "middleeast-44836258",
+    "121031_us_elections_latest_poll",
+    "world-39833941"
+  ]
+}

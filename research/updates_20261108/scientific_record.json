@@ -1,0 +1,75 @@
+{
+  "model": {
+    "repository": "Qwen/Qwen3-4B",
+    "revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+    "mode": "non-thinking",
+    "not_pretrained_base_variant": true
+  },
+  "training": {
+    "seed": 42,
+    "mixed_examples": 6400,
+    "mixed_optimizer_steps": 400,
+    "pure_translation_examples": 1280,
+    "pure_translation_steps": 80,
+    "effective_batch": 16,
+    "lora_rank": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "learning_rate": 0.0001,
+    "fixed_final": true,
+    "english_decline_early_stopping": false
+  },
+  "budget": {
+    "sw_original": {
+      "input": 2373891,
+      "supervised": 324892
+    },
+    "sw_clean_mixed": {
+      "input": 2383167,
+      "supervised": 329530
+    },
+    "sw_nllb_mixed": {
+      "input": 2339007,
+      "supervised": 307450,
+      "translation_supervised": 32147
+    },
+    "ar": {
+      "input": 2265373,
+      "supervised": 265783
+    },
+    "ru": {
+      "input": 2520204,
+      "supervised": 305046
+    }
+  },
+  "verification": {
+    "ar_ru_per_item_recalculation": "verification.json in AR/RU report folder",
+    "classification_candidate_scores_recomputed": true,
+    "nllb_nontranslation_slots_unchanged": 5120,
+    "nllb_translation_slots_replaced": 1280,
+    "flores_samples_per_direction": 1012,
+    "translation_corpus_chrf_recomputed": true,
+    "paired_bootstrap_resamples": 2000,
+    "cross_training_seed_validation": false
+  },
+  "not_run": [
+    "AR/RU translation",
+    "AR/RU Global-MMLU",
+    "AR/RU FFT/SSU",
+    "new My Method",
+    "additional training seeds"
+  ],
+  "recovery": {
+    "training_repeated": false,
+    "intact_model_hashes_verified": true,
+    "ru_summary_valid_retained": 6728,
+    "ru_summary_resumed": 1052,
+    "ar_ru_core_evaluation": "completed in independent recovery directories with frozen protocol"
+  },
+  "nllb_lineage_sha256": {
+    "archived_manifest": "3c7dba8a78834380d05d2933d7c2e962517e5a60511df2606977a5b25828e9f7",
+    "archived_train": "9d55513d0080cb7a2bcb1aba9d33da8d9943aff00c9ea3b0b738b0e015e1ffbc",
+    "archived_indices": "f6cc3a7b530eb4ee81929b5520849e33734ee29e6a47aabe0c4b9b2f3e9e1d4f"
+  },
+  "publication_scope": "Reports, numeric tables, scientific configuration and scorer only; no raw datasets, model weights or private runtime metadata."
+}

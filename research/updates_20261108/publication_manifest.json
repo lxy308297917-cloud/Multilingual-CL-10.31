@@ -1,0 +1,229 @@
+{
+  "files": [
+    {
+      "path": "research/updates_20261108/README.md",
+      "sha256": "556c8b6abf44f61f24ec37184edd13021ffb7a6e345a0ab7857e17e1f3d26aed",
+      "bytes": 2235
+    },
+    {
+      "path": "research/updates_20261108/aya-4b-generalization-20261107/classification-audit.json",
+      "sha256": "3db3a77ec3c37849d3e913dac6086e4f8af7acebf54ef7bb559a20e5505fec97",
+      "bytes": 7518
+    },
+    {
+      "path": "research/updates_20261108/aya-4b-generalization-20261107/configs/ar_lora_final.yaml",
+      "sha256": "511ded4c08a0825dbca2bc829f157f1e59f09e7ab22c83813ff60d346af0aeae",
+      "bytes": 992
+    },
+    {
+      "path": "research/updates_20261108/aya-4b-generalization-20261107/configs/core/gsm8k.yaml",
+      "sha256": "03843a0ae6abda720411332fe271d59c402c6d783e794e6d2674c3342ae0ae60",
+      "bytes": 307
+    },
+    {
+      "path": "research/updates_20261108/aya-4b-generalization-20261107/configs/core/ifeval.yaml",
+      "sha256": "c75b625194d90ab8838d0382ccf81cb39b8f9357b7eec54dd49f3a7dcb6bab22",
+      "bytes": 243
+    },
+    {
+      "path": "research/updates_20261108/aya-4b-generalization-20261107/configs/evaluation/xlsum_ar.json",
+      "sha256": "09a9ef559e27f7f8ab84c6aafc27471acca806339428d9dee8318b61255fe6fb",
+      "bytes": 2122
+    },
+    {
+      "path": "research/updates_20261108/aya-4b-generalization-20261107/configs/evaluation/xlsum_ru.json",
+      "sha256": "ff3d5706e5a1ad4295087353abcb11edf4dfbfdf4a5aa48bf0bef399e9a62716",
+      "bytes": 2104
+    },
+    {
+      "path": "research/updates_20261108/aya-4b-generalization-20261107/configs/ru_lora_final.yaml",
+      "sha256": "511ded4c08a0825dbca2bc829f157f1e59f09e7ab22c83813ff60d346af0aeae",
+      "bytes": 992
+    },
+    {
+      "path": "research/updates_20261108/aya-4b-generalization-20261107/configs/tasks/belebele_ar.yaml",
+      "sha256": "3eaefe93bb36b210f0aedca18e8691367440096b111c91daee2160d0a415778b",
+      "bytes": 607
+    },
+    {
+      "path": "research/updates_20261108/aya-4b-generalization-20261107/configs/tasks/belebele_en.yaml",
+      "sha256": "e3882b7f83186f978671564739cca777a8951ed419bd242b3ea655b6cec0dea3",
+      "bytes": 607
+    },
+    {
+      "path": "research/updates_20261108/aya-4b-generalization-20261107/configs/tasks/belebele_ru.yaml",
+      "sha256": "20a2cec93603a4ce8c395e6b6dad1f1fbd86fb4406ff34c3a2cd20c1c7256f74",
+      "bytes": 607
+    },
+    {
+      "path": "research/updates_20261108/aya-4b-generalization-20261107/configs/tasks/xnli_ar.yaml",
+      "sha256": "1b89a8c639efa83754c4654532e961ddf9e31818c67bf4616c37ecd719191b75",
+      "bytes": 330
+    },
+    {
+      "path": "research/updates_20261108/aya-4b-generalization-20261107/configs/tasks/xnli_ru.yaml",
+      "sha256": "37fce232c35e2795fd6e946e9630f31e6e4e3a29f006d0d9faf34143f04fd9ea",
+      "bytes": 330
+    },
+    {
+      "path": "research/updates_20261108/aya-4b-generalization-20261107/overview.md",
+      "sha256": "f47f9ad7cd01b05c1d97cdc0e06da07c29f653dd1c13d022bb4eaffcd4035671",
+      "bytes": 1991
+    },
+    {
+      "path": "research/updates_20261108/aya-4b-generalization-20261107/report.md",
+      "sha256": "245129ce00ad0284f998d650cc09235909ce159aae75e1430dcbdd1f43d8938f",
+      "bytes": 6826
+    },
+    {
+      "path": "research/updates_20261108/aya-4b-generalization-20261107/scores.csv",
+      "sha256": "1c021b40111ee58f25f6b285b71e26db92cb5984e5307ea50045ca9e825b7c0b",
+      "bytes": 1725
+    },
+    {
+      "path": "research/updates_20261108/aya-4b-generalization-20261107/summary-all-metrics.csv",
+      "sha256": "9fc129fb589a373a040f70e12075b0009933ffcb659958cdffb87d0b9cb83d60",
+      "bytes": 770
+    },
+    {
+      "path": "research/updates_20261108/aya-4b-generalization-20261107/three-language-scores.csv",
+      "sha256": "fba235a2a2580fe66ff9df2cdaf809a2a4d4959848200a8f4608c126fc1c785a",
+      "bytes": 2992
+    },
+    {
+      "path": "research/updates_20261108/aya-4b-generalization-20261107/verification.json",
+      "sha256": "1681e2bd34f4e4e3af89404054c4a1ca25602f24eaee0cd7aafb34e05695aa52",
+      "bytes": 1750
+    },
+    {
+      "path": "research/updates_20261108/chatgpt_handoff.md",
+      "sha256": "8933ed1c0999c24032c000249b970c9907c5d759854261c571982e5b99a4a702",
+      "bytes": 8505
+    },
+    {
+      "path": "research/updates_20261108/scientific_record.json",
+      "sha256": "93875331417f2ec3cfaa00ec70d55c07e2ab563bd31bdb796200ca40b505fd38",
+      "bytes": 2285
+    },
+    {
+      "path": "research/updates_20261108/sw_original_all_scores.csv",
+      "sha256": "e80e2d9f8c5c3393d75f11504c47991da5ce1bbcb5ed6c4db4cb6e78233e34f9",
+      "bytes": 8118
+    },
+    {
+      "path": "research/updates_20261108/translation-controls-20261106/a-analysis-v2/paired_shot_contrasts.csv",
+      "sha256": "d075359de664afbc770678ee0d3db023a1570ac8f58aaa3fbfd3264cbb906dba",
+      "bytes": 4107
+    },
+    {
+      "path": "research/updates_20261108/translation-controls-20261106/a-analysis-v2/scores.csv",
+      "sha256": "9993da8a7f55ce1e6dffed02967b2a61418686689daef76c6569416b1b665fc6",
+      "bytes": 2253
+    },
+    {
+      "path": "research/updates_20261108/translation-controls-20261106/a-analysis-v2/supplementary_paired_contrasts.csv",
+      "sha256": "3148dfb9ef8bc691a0317a406ddec99c2c8a04eb677bac2d870d80ae9381716a",
+      "bytes": 5613
+    },
+    {
+      "path": "research/updates_20261108/translation-controls-20261106/a-report.md",
+      "sha256": "18043112ee009e9dd6d155f00c1db8311092f2460928fcbf097d6eb78fb22d49",
+      "bytes": 6208
+    },
+    {
+      "path": "research/updates_20261108/translation-nllb-20261106/README.md",
+      "sha256": "1b89af35d061dfec33455eaa01ce15024f904e4fe177a31a325564393abee561",
+      "bytes": 2579
+    },
+    {
+      "path": "research/updates_20261108/translation-nllb-20261106/combined-retention.csv",
+      "sha256": "900d06d04809c7bd3ade1cbbe197a7b6c2230279b890856ff83258880ec38852",
+      "bytes": 861
+    },
+    {
+      "path": "research/updates_20261108/translation-nllb-20261106/configs/nllb_mixed_final.yaml",
+      "sha256": "5e54324b4344f9f674ea3adfcea836038528c2fcc7b6b6ac0cfb04c80951da48",
+      "bytes": 1024
+    },
+    {
+      "path": "research/updates_20261108/translation-nllb-20261106/nllb-retention-scores.csv",
+      "sha256": "8748af8b40bdf6d93e60e1ded72ae5b57a9930b87af67adf1cd247da946e3cb0",
+      "bytes": 640
+    },
+    {
+      "path": "research/updates_20261108/translation-nllb-20261106/report.md",
+      "sha256": "e1a03bc37d0b7c0bb3ab66c297ed6b9d30834a018c0bc774aa028d1fb3d7809a",
+      "bytes": 5761
+    },
+    {
+      "path": "research/updates_20261108/translation-nllb-20261106/translation-analysis-v1/paired_comparisons.csv",
+      "sha256": "3a1862b1ce54abc598dccb9027979b553ab40edcf1ac6c628ff3f5dc1be68007",
+      "bytes": 3816
+    },
+    {
+      "path": "research/updates_20261108/translation-nllb-20261106/translation-analysis-v1/scores.csv",
+      "sha256": "78324fe6c5bb7555bdde1ee90897f959365a0fcc30a10cc3d9b6d12114e57411",
+      "bytes": 1729
+    },
+    {
+      "path": "research/updates_20261108/translation-three-lines-20261106/configs/clean_mixed_final.yaml",
+      "sha256": "5e54324b4344f9f674ea3adfcea836038528c2fcc7b6b6ac0cfb04c80951da48",
+      "bytes": 1024
+    },
+    {
+      "path": "research/updates_20261108/translation-three-lines-20261106/configs/clean_translation_final.yaml",
+      "sha256": "4f74c88f2acde36de076611cae29a6ea5f6b8da0dda50794a755edfcd9f38d7e",
+      "bytes": 1022
+    },
+    {
+      "path": "research/updates_20261108/translation-three-lines-20261106/configs/raw_translation_final.yaml",
+      "sha256": "4f74c88f2acde36de076611cae29a6ea5f6b8da0dda50794a755edfcd9f38d7e",
+      "bytes": 1022
+    },
+    {
+      "path": "research/updates_20261108/translation-three-lines-20261106/mixed-retention-scores.csv",
+      "sha256": "26b367723afdef17084ccd520424e78f9f482126a50d027196dfc527d27f08df",
+      "bytes": 649
+    },
+    {
+      "path": "research/updates_20261108/translation-three-lines-20261106/report.md",
+      "sha256": "9bc19cc9ed8a380cb6f756c38f0f252ff3f3343e853dc5a74d052f669031d9bc",
+      "bytes": 5649
+    },
+    {
+      "path": "research/updates_20261108/translation-three-lines-20261106/translation-analysis-v1/paired_comparisons.csv",
+      "sha256": "5179a582c494ef31c2bc8b7e5728b0c5000a3d56218d2780e9821515a6c3af64",
+      "bytes": 24288
+    },
+    {
+      "path": "research/updates_20261108/translation-three-lines-20261106/translation-analysis-v1/scores.csv",
+      "sha256": "127739ae1fedf93827de78dbd3b5fa46bbe2154c42c1acde6666a69e4d197736",
+      "bytes": 6302
+    },
+    {
+      "path": "scripts/aya_4b_generalization/score_summary_ar_ru.py",
+      "sha256": "e11caec900e285eac2292779ad9705c6c617b2d9f93001d0758a9a977913b50e",
+      "bytes": 3253
+    },
+    {
+      "path": "scripts/unified_language_cl/summary_scoring_v2.py",
+      "sha256": "6b99b552a16a2deed6728daf3a3d07323c25156bd639908a139231e710cd8a34",
+      "bytes": 3042
+    }
+  ],
+  "transformations": [
+    "server paths replaced with placeholders",
+    "historical status note added",
+    "raw sample payloads omitted",
+    "summary scorer dependency lookup made configurable",
+    "numeric CSVs retained byte-for-byte"
+  ],
+  "original_results_preserved": true,
+  "checks": {
+    "relative_links": true,
+    "json_and_csv_parse": true,
+    "python_syntax": true,
+    "private_path_scan": true,
+    "native_summary_identity_empty_partial_oracles": true
+  }
+}
