@@ -35,12 +35,12 @@ matched_fft,IFEval prompt strict,,NOT_COMPLETE,
 matched_fft,HumanEval+,,NOT_COMPLETE,
 matched_fft,EN→SW chrF++,,NOT_COMPLETE,
 matched_fft,SW→EN chrF++,,NOT_COMPLETE,
-fft_full36,SW Belebele,,NOT_COMPLETE,
-fft_full36,SW XL-Sum,,NOT_COMPLETE,
-fft_full36,SW Global-MMLU,,NOT_COMPLETE,
-fft_full36,SW XNLI,,NOT_COMPLETE,
-fft_full36,EN Belebele,,NOT_COMPLETE,
-fft_full36,EN XNLI,,NOT_COMPLETE,
+fft_full36,SW Belebele,42.55555555555556,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/reading/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/results_2026-11-10T00-59-11.979682.json
+fft_full36,SW XL-Sum,19.039625627395544,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/summary/scores/summary.json
+fft_full36,SW Global-MMLU,32.97251103831363,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/gmmlu/scoring.log
+fft_full36,SW XNLI,44.87025948103792,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/reading/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/results_2026-11-10T00-59-11.979682.json
+fft_full36,EN Belebele,87.22222222222223,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/reading/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/results_2026-11-10T00-59-11.979682.json
+fft_full36,EN XNLI,79.74051896207584,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/reading/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/results_2026-11-10T00-59-11.979682.json
 fft_full36,EN MMLU,,NOT_COMPLETE,
 fft_full36,GSM8K flexible,,NOT_COMPLETE,
 fft_full36,IFEval prompt strict,,NOT_COMPLETE,
@@ -65,7 +65,7 @@ p2_full36,SW Global-MMLU,35.336846603048,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAI
 p2_full36,SW XNLI,44.25149700598802,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/research/representation_benchmarks_20261109/complete_scores.csv
 p2_full36,EN Belebele,88.44444444444444,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/research/representation_benchmarks_20261109/complete_scores.csv
 p2_full36,EN XNLI,70.33932135728543,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/research/representation_benchmarks_20261109/complete_scores.csv
-p2_full36,EN MMLU,,NOT_COMPLETE,
+p2_full36,EN MMLU,68.8292266058966,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/p2_full36/mmlu/scoring.log
 p2_full36,GSM8K flexible,84.76118271417741,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/research/representation_benchmarks_20261109/complete_scores.csv
 p2_full36,IFEval prompt strict,79.85212569316081,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/research/representation_benchmarks_20261109/complete_scores.csv
 p2_full36,HumanEval+,74.39024390243902,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/research/representation_benchmarks_20261109/complete_scores.csv
@@ -77,7 +77,7 @@ p2_ce,SW Global-MMLU,33.74875373878365,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRE
 p2_ce,SW XNLI,33.45309381237525,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/research/representation_benchmarks_20261109/complete_scores.csv
 p2_ce,EN Belebele,87.22222222222223,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/research/representation_benchmarks_20261109/complete_scores.csv
 p2_ce,EN XNLI,35.26946107784431,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/research/representation_benchmarks_20261109/complete_scores.csv
-p2_ce,EN MMLU,,NOT_COMPLETE,
+p2_ce,EN MMLU,66.81384418174049,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/p2_ce/mmlu/scoring.log
 p2_ce,GSM8K flexible,62.4715693707354,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/research/representation_benchmarks_20261109/complete_scores.csv
 p2_ce,IFEval prompt strict,59.51940850277264,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/research/representation_benchmarks_20261109/complete_scores.csv
 p2_ce,HumanEval+,62.80487804878049,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/research/representation_benchmarks_20261109/complete_scores.csv

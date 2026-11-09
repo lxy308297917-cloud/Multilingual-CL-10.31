@@ -1,6 +1,6 @@
 {
   "status": "INCOMPLETE",
-  "verified_cells": 64,
+  "verified_cells": 72,
   "required_cells": 96,
   "missing": [
     [
@@ -53,30 +53,6 @@
     ],
     [
       "fft_full36",
-      "SW Belebele"
-    ],
-    [
-      "fft_full36",
-      "SW XL-Sum"
-    ],
-    [
-      "fft_full36",
-      "SW Global-MMLU"
-    ],
-    [
-      "fft_full36",
-      "SW XNLI"
-    ],
-    [
-      "fft_full36",
-      "EN Belebele"
-    ],
-    [
-      "fft_full36",
-      "EN XNLI"
-    ],
-    [
-      "fft_full36",
       "EN MMLU"
     ],
     [
@@ -109,19 +85,11 @@
     ],
     [
       "p2_full36",
-      "EN MMLU"
-    ],
-    [
-      "p2_full36",
       "EN\u2192SW chrF++"
     ],
     [
       "p2_full36",
       "SW\u2192EN chrF++"
-    ],
-    [
-      "p2_ce",
-      "EN MMLU"
     ],
     [
       "p2_ce",
@@ -132,7 +100,7 @@
       "SW\u2192EN chrF++"
     ]
   ],
-  "paired_contrasts": 21,
+  "paired_contrasts": 46,
   "bootstrap_resamples": 2000,
   "note": "Paired benchmark uncertainty for fixed models, not training-seed robustness; unadjusted comparisons; no method selection. Translation resamples corpus statistics, never averages sentence chrF.",
   "xnli_identity": "Exact effective prompt hash, target hash, raw ID/prompt/label, and premise cluster; inert added metadata excluded"

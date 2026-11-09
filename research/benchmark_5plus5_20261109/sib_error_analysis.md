@@ -17,5 +17,14 @@
 | sw_function | 51.96 | 55.39 | 47.05 | 25.00 | science/technology | 102 |
 | ar_all | 25.00 | 50.98 | 5.71 | 25.00 | science/technology | 204 |
 | ar_function | 25.00 | 34.80 | 5.71 | 25.00 | science/technology | 204 |
+| ru_all | 25.98 | 71.08 | 7.88 | 25.00 | science/technology | 202 |
+| ru_full | 54.41 | 73.04 | 53.00 | 25.00 | science/technology | 132 |
+| ru_random | 46.57 | 71.08 | 42.84 | 25.00 | science/technology | 152 |
+| ru_function | 53.43 | 72.06 | 50.84 | 25.00 | science/technology | 134 |
+| historical_fft | 25.00 | 57.35 | 5.71 | 25.00 | science/technology | 204 |
+| historical_ssu | 25.49 | 56.37 | 7.17 | 25.00 | science/technology | 203 |
+| fft_full36 | 25.49 | 53.43 | 8.62 | 25.00 | science/technology | 201 |
+| p2_full36 | 48.04 | 54.90 | 43.11 | 25.00 | science/technology | 120 |
+| p2_ce | 25.49 | 61.76 | 7.12 | 25.00 | science/technology | 202 |
 
 完整逐类召回和混淆矩阵见sib_diagnostics.json；numeric目录保留每题官方ID、金标签、两种预测及七个实际候选分数，可按固定官方源重建具体错误案例。204题的小样本差异需结合paired_changes.csv区间；区间只针对当前固定模型，不代表训练种子稳定性。SIB与Belebele重叠规模见sib_overlap_audit.json，不能将其作为独立文本证据叠加强化结论。

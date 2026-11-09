@@ -1,0 +1,27 @@
+{
+  "profile": "fft_full36",
+  "unique_parameters": 4022468096,
+  "tied_embedding_readout_verified": true,
+  "readout_counted_once": true,
+  "effective_delta_frobenius": 8.980799103284028,
+  "groups_squared_frobenius": {
+    "shared_embedding_and_readout": 33.35810614925246,
+    "decoder_norm": 0.0001552209909741059,
+    "decoder_mlp": 35.004152185036375,
+    "decoder_attention": 12.29233891493745,
+    "final_norm": 6.332993507385254e-08
+  },
+  "groups_frobenius": {
+    "shared_embedding_and_readout": 5.775647682230319,
+    "decoder_norm": 0.012458771647883506,
+    "decoder_mlp": 5.9164306963773665,
+    "decoder_attention": 3.5060431992400565,
+    "final_norm": 0.0002516543960948279
+  },
+  "weights_sha256": {
+    "model-00001-of-00002.safetensors": "efa19d0e063259ee8e89fd8d125ae9d0dcaffbb1772c8fd70dc65c1147794711",
+    "model-00002-of-00002.safetensors": "7c9ace98a30d4e8a578859aec9426b5979fe3efb7bbd8b26ca784a3fc88a4218"
+  },
+  "cpu_seconds": 16.191376446018694,
+  "claim": "Parameter norm is descriptive, not a proxy for downstream effectiveness"
+}

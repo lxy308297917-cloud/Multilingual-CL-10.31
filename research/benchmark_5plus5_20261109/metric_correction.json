@@ -1,0 +1,76 @@
+{
+  "at": "2026-11-10T02:15:14.338601+08:00",
+  "status": "CORRECTED_AND_INDEPENDENTLY_VERIFIED",
+  "cause": "Legacy CSV has both prompt- and instruction-level strict rows; task-only mapping let later instruction score overwrite prompt score.",
+  "affected": "Historical SW/AR/RU IFEval cells and their derived Base deltas and GeneralAvg5; original raw predictions and scoring are unchanged.",
+  "prior_local_projection": [
+    {
+      "model": "sw_historical_lora",
+      "IFEval": "62.47002398081535",
+      "GeneralAvg5": "71.65837703796518"
+    },
+    {
+      "model": "ar_historical_lora",
+      "IFEval": "56.4748201438849",
+      "GeneralAvg5": "67.78509247407598"
+    },
+    {
+      "model": "ru_historical_lora",
+      "IFEval": "56.35491606714629",
+      "GeneralAvg5": "69.4719283072357"
+    }
+  ],
+  "canonical_metric": "prompt_level_strict_acc",
+  "canonical_samples": 541,
+  "excluded_from_primary": "inst_level_strict_acc (834 instructions), retained in original supplementary source",
+  "canonical_scores": {
+    "sw_historical_lora": 49.35304990757856,
+    "ar_historical_lora": 42.69870609981516,
+    "ru_historical_lora": 42.329020332717185
+  },
+  "source_sha256": "fba235a2a2580fe66ff9df2cdaf809a2a4d4959848200a8f4608c126fc1c785a",
+  "frozen_gpu_evaluators_changed": false,
+  "new_gpu_jobs": 0,
+  "affected_public_head": "35503a7f481b9b36750c4a0d958436765861e54c",
+  "published_source_error_confirmed": true,
+  "public_before_and_corrected_scores": [
+    {
+      "model": "sw_historical_lora",
+      "published_incorrect_instruction_score": 62.47002398081535,
+      "correct_prompt_score": 49.35304990757856,
+      "published_previous_GeneralAvg5": "71.65837703796518"
+    },
+    {
+      "model": "ar_historical_lora",
+      "published_incorrect_instruction_score": 56.4748201438849,
+      "correct_prompt_score": 42.69870609981516,
+      "published_previous_GeneralAvg5": ""
+    },
+    {
+      "model": "ru_historical_lora",
+      "published_incorrect_instruction_score": 56.35491606714629,
+      "correct_prompt_score": 42.329020332717185,
+      "published_previous_GeneralAvg5": ""
+    }
+  ],
+  "original_historical_source_csv_changed": false,
+  "corrected_local_projection": [
+    {
+      "model": "sw_historical_lora",
+      "IFEval": "49.35304990757856",
+      "GeneralAvg5": "69.03498222331783"
+    },
+    {
+      "model": "ar_historical_lora",
+      "IFEval": "42.69870609981516",
+      "GeneralAvg5": "65.02986966526204"
+    },
+    {
+      "model": "ru_historical_lora",
+      "IFEval": "42.329020332717185",
+      "GeneralAvg5": "66.6667491603499"
+    }
+  ],
+  "primary_legacy_task_metric_cells_verified": 18,
+  "original_raw_predictions_and_scores_changed": false
+}

@@ -1,6 +1,6 @@
 {
   "status": "PARTIAL_OBSERVED_COSTS",
-  "updated_at": "2026-11-09T23:44:00.762704+08:00",
+  "updated_at": "2026-11-10T02:16:54.653491+08:00",
   "records": [
     {
       "profile": "historical_fft",
@@ -35,6 +35,23 @@
       },
       "saved_optimizer_state": false,
       "incremental_recompute": false
+    },
+    {
+      "profile": "fft_full36",
+      "kind": "incremental_formal",
+      "source": "/path/to/storage/checkpoints/fft_representation_20261109/full36_final_v1/TRAINING_DONE.json",
+      "elapsed_seconds": 10868.477071667992,
+      "target_samples": 6400,
+      "input_tokens": 2373891,
+      "assistant_tokens": 324892,
+      "old_build_samples": 3200,
+      "peak_allocated_bytes": 21044728320,
+      "parameters": {
+        "unique_model_parameters": 4022468096,
+        "trainable_unique_parameters": 4022468096
+      },
+      "saved_optimizer_state": true,
+      "incremental_recompute": true
     },
     {
       "profile": "p2_all",

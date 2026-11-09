@@ -1,0 +1,20 @@
+{
+  "at": "2026-11-09T23:53:52.234320+08:00",
+  "status": "ALL_PREVIOUSLY_RUNNING_TRAININGS_FINISHED",
+  "main_verified": 10,
+  "fft_full36_final400_verified": true,
+  "fft_full36_original_stream_samples": 6400,
+  "fft_full36_old_build_exposures": 3200,
+  "user_deferred": [
+    "ar_full",
+    "ar_kd",
+    "ar_random",
+    "ru_kd",
+    "matched_fft"
+  ],
+  "new_training_allowed": false,
+  "hold_gpu": false,
+  "remaining_priority": "5+5 benchmark and XQuAD inference only",
+  "scope_note": "Matched ordinary FFT remains user-deferred; no paired-FFT causal efficacy claim",
+  "training_audit": "research/fft_representation_20261109/training_artifact_audit.json"
+}

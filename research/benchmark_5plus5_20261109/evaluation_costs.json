@@ -96,6 +96,60 @@
       "task": "sib200",
       "postlaunch_wall_seconds_including_model_load_cpu_audit": 44.676414251327515,
       "inference_log_bytes": 19104
+    },
+    {
+      "model": "ru_all",
+      "task": "sib200",
+      "postlaunch_wall_seconds_including_model_load_cpu_audit": 44.49372458457947,
+      "inference_log_bytes": 19718
+    },
+    {
+      "model": "ru_full",
+      "task": "sib200",
+      "postlaunch_wall_seconds_including_model_load_cpu_audit": 44.8078875541687,
+      "inference_log_bytes": 19908
+    },
+    {
+      "model": "ru_random",
+      "task": "sib200",
+      "postlaunch_wall_seconds_including_model_load_cpu_audit": 44.70468878746033,
+      "inference_log_bytes": 19726
+    },
+    {
+      "model": "ru_function",
+      "task": "sib200",
+      "postlaunch_wall_seconds_including_model_load_cpu_audit": 46.2357542514801,
+      "inference_log_bytes": 20500
+    },
+    {
+      "model": "historical_fft",
+      "task": "sib200",
+      "postlaunch_wall_seconds_including_model_load_cpu_audit": 64.38231492042542,
+      "inference_log_bytes": 16402
+    },
+    {
+      "model": "historical_ssu",
+      "task": "sib200",
+      "postlaunch_wall_seconds_including_model_load_cpu_audit": 63.431586027145386,
+      "inference_log_bytes": 16402
+    },
+    {
+      "model": "fft_full36",
+      "task": "sib200",
+      "postlaunch_wall_seconds_including_model_load_cpu_audit": 62.84159302711487,
+      "inference_log_bytes": 16443
+    },
+    {
+      "model": "p2_full36",
+      "task": "sib200",
+      "postlaunch_wall_seconds_including_model_load_cpu_audit": 45.51538968086243,
+      "inference_log_bytes": 21263
+    },
+    {
+      "model": "p2_ce",
+      "task": "sib200",
+      "postlaunch_wall_seconds_including_model_load_cpu_audit": 44.82321262359619,
+      "inference_log_bytes": 20956
     }
   ]
 }

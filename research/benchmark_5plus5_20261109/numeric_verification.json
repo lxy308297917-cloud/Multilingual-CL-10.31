@@ -1,0 +1,124 @@
+{
+  "status": "PASS_AVAILABLE_EXPORTED_NUMERIC",
+  "all_eligible_cells_present": false,
+  "legacy_primary_cells_verified": 18,
+  "sib_models_recomputed": 22,
+  "full_gmmlu_models_recomputed": 3,
+  "paired_intervals_recomputed": 175,
+  "present_5plus5_cells": 151,
+  "required_5plus5_cells": 220,
+  "resamples": 2000,
+  "numpy": "2.4.6",
+  "inputs": [
+    {
+      "path": "research/updates_20261108/aya-4b-generalization-20261107/three-language-scores.csv",
+      "sha256": "fba235a2a2580fe66ff9df2cdaf809a2a4d4959848200a8f4608c126fc1c785a"
+    },
+    {
+      "path": "research/benchmark_5plus5_20261109/numeric/sw_Base_sib200.json",
+      "sha256": "1b176db002bbc448ee0145fcb8a81b43d460111814b7c952cf63058cde8fc884"
+    },
+    {
+      "path": "research/benchmark_5plus5_20261109/numeric/sw_historical_lora_sib200.json",
+      "sha256": "11347a6dfd2743d98f26571e8afa2aa8290d7bff3c91630a50938b766d852655"
+    },
+    {
+      "path": "research/benchmark_5plus5_20261109/numeric/ar_Base_sib200.json",
+      "sha256": "05b41ab3b4ac3ecaa2e2f0ce715b6f1d4ea3d86ae7c1636e1a63af06c19a816d"
+    },
+    {
+      "path": "research/benchmark_5plus5_20261109/numeric/ar_Base_global_mmlu.json",
+      "sha256": "7461704514c0dcbcf7b8e35476af6912eb38c88882617f796b40f275ceae7f31"
+    },
+    {
+      "path": "research/benchmark_5plus5_20261109/numeric/ar_historical_lora_sib200.json",
+      "sha256": "8f239c7654efe06cb037d65fcd8cc89201bd5d8b7853b41b6841483e9df03214"
+    },
+    {
+      "path": "research/benchmark_5plus5_20261109/numeric/ar_historical_lora_global_mmlu.json",
+      "sha256": "baea77456fc99b9b0c0d70131dc15693674e1f2fc488c9b3c8b4b38241bba65e"
+    },
+    {
+      "path": "research/benchmark_5plus5_20261109/numeric/ru_Base_sib200.json",
+      "sha256": "5aa2aff470ce862d823b58b7fdb2d2688630ac272685cef3f029d2ce359e8308"
+    },
+    {
+      "path": "research/benchmark_5plus5_20261109/numeric/ru_Base_global_mmlu.json",
+      "sha256": "325dc327190c2d41c3384de65436c3429c4943baa1c5dae1b32763ffa7f2ec1c"
+    },
+    {
+      "path": "research/benchmark_5plus5_20261109/numeric/ru_historical_lora_sib200.json",
+      "sha256": "a482775229eb42f630966cf397562073598d2fc07fa9ed2d3e66f9ca36c264c8"
+    },
+    {
+      "path": "research/benchmark_5plus5_20261109/numeric/sw_all_sib200.json",
+      "sha256": "c9ab9e4482be181ae9f4a1ad544c0158cd76f038b94aba68919827fd4e6090b2"
+    },
+    {
+      "path": "research/benchmark_5plus5_20261109/numeric/sw_full_sib200.json",
+      "sha256": "3d23bc92e460f4401803f9b270f175916de0a5e7b361cbb42271eb80b02e500a"
+    },
+    {
+      "path": "research/benchmark_5plus5_20261109/numeric/sw_kd_sib200.json",
+      "sha256": "45d5f8db2766baf13609d660a6e30ab5af0ae31d4eb114414c2e36289612fe4a"
+    },
+    {
+      "path": "research/benchmark_5plus5_20261109/numeric/sw_random_sib200.json",
+      "sha256": "378cf4b96ad6bc799c43b2db8d7788771a31dd394ce328f0e22a804fbd25c912"
+    },
+    {
+      "path": "research/benchmark_5plus5_20261109/numeric/sw_function_sib200.json",
+      "sha256": "c6f94442245551a574a9323b63cc8323c284ab4827a7f33642441bd7518225a7"
+    },
+    {
+      "path": "research/benchmark_5plus5_20261109/numeric/ar_all_sib200.json",
+      "sha256": "b8c14a16993a7ba229dfd315ef502a745dada03bc1e8cf5a2f9e517b67b2135c"
+    },
+    {
+      "path": "research/benchmark_5plus5_20261109/numeric/ar_function_sib200.json",
+      "sha256": "19a5c3b831a78e76f42f93dad00108bdd6dfe1a4638a244a44ec47da1c383705"
+    },
+    {
+      "path": "research/benchmark_5plus5_20261109/numeric/ru_all_sib200.json",
+      "sha256": "ebb6f90cbb90d2e96a8259301bae3e6ea22cfe2771f4177ca111d5c9401f5d64"
+    },
+    {
+      "path": "research/benchmark_5plus5_20261109/numeric/ru_full_sib200.json",
+      "sha256": "fe17e83f9cbbee328cceec3b52760785014717d86695f58ff926dd2fd0679226"
+    },
+    {
+      "path": "research/benchmark_5plus5_20261109/numeric/ru_random_sib200.json",
+      "sha256": "5ef04c897d7ba16765972d96e78f4d0205881916ab870c8a6109f26be1eb2747"
+    },
+    {
+      "path": "research/benchmark_5plus5_20261109/numeric/ru_function_sib200.json",
+      "sha256": "f28a1f26bd712c5813d68d8a2bdbe7a194bd097252ed1816b50132ab80ca54b5"
+    },
+    {
+      "path": "research/benchmark_5plus5_20261109/numeric/historical_fft_sib200.json",
+      "sha256": "747dd7b6f91b18f650a4233ae49905bd01f027da8eabcba4669792ebd4cfa721"
+    },
+    {
+      "path": "research/benchmark_5plus5_20261109/numeric/historical_ssu_sib200.json",
+      "sha256": "104b12be8ef39707b1e074871f0df2fc7c031ab7fe33804faeb81c2a990d866f"
+    },
+    {
+      "path": "research/benchmark_5plus5_20261109/numeric/fft_full36_sib200.json",
+      "sha256": "4feb20f9b53366e64f6371748be83fff2ff9784b3304014a6db5794205e7c7d7"
+    },
+    {
+      "path": "research/benchmark_5plus5_20261109/numeric/p2_full36_sib200.json",
+      "sha256": "730bfc38b7424d03929863ab5401a4a633ea327007a5b6d53af9f4b3ec81b09a"
+    },
+    {
+      "path": "research/benchmark_5plus5_20261109/numeric/p2_ce_sib200.json",
+      "sha256": "f14ad9825060560a55e36709786b88328e89abf6b9a627124b7951963c17f117"
+    }
+  ],
+  "scope": "SIB option likelihoods and full GM correctness/paired intervals plus descriptive table means only. Other task raw scoring depends on the separate formal/FFT audits; this is not proof of all ten raw task scores.",
+  "table_sha256": {
+    "scores_5plus5.csv": "bcab4261920935718b19152227842547eae68149847d9309f3658dea8827b2a5",
+    "paired_changes.csv": "45e8afbcdb9c95ca7e34e1b8985e1514070af4edeaff04f716c36b69306cfaf5",
+    "gmmlu_subjects.csv": "22b61b64598dfc3555334660f865de76943958f1fb10f41900d663c68e885c22"
+  }
+}

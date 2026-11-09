@@ -14,3 +14,9 @@
 `evaluate.py`保留已实际完成的历史AR Global-MMLU执行源码；`evaluate_v2.py`增加完整权重模型身份处理。早期schedule/observe版本及diagnostic_barrier仅为操作追溯，当前不运行；不要用旧调度器恢复暂停训练或机制诊断。运行记录、当前配置及临时5卡授权在research/benchmark_5plus5_20261109。
 
 命令示例：`python scripts/benchmark_5plus5_20261109/report.py` 仅刷新结果，不启动GPU任务。实际手动启动记录另保存在本机日志；不要重复启动已有推理或覆盖输出。
+
+`audit_coverage.py` 只核查缺失单元格是否已有 DONE 或由当前活队列覆盖，同时核对暂缓模型与 XQuAD 清单；它不会启动任务，也不把队列覆盖视为测评成功。输出 `research/benchmark_5plus5_20261109/coverage_audit.json`。
+
+`verify_numeric.py` 在CPU上从numeric中的SIB七候选似然和新补全量Global-MMLU逐题数值复算分数、配对区间、主表平均；不读取题文或模型，不代替其余八项任务的原始评分审计。默认只核验已有结果；完整验收时增加 `--require-complete`，要求22个SIB、4个新补GM数值端点及220个主表单元格均齐。
+
+历史表导入必须按task和metric双键匹配：IFEval只选prompt_level_strict_acc（541提示），GSM8K只选flexible-extract（1319题），拒绝重复。verify_numeric.py另行核对18个历史主指标值，防止同任务补充行覆盖主指标。更正说明见research/benchmark_5plus5_20261109/metric_correction.json。

@@ -1,8 +1,8 @@
 {
   "status": "INCOMPLETE_FORMAL_RESULTS",
-  "verified_cells": 59,
-  "main_cells_verified": 50,
-  "historical_cells_verified": 9,
+  "verified_cells": 80,
+  "main_cells_verified": 70,
+  "historical_cells_verified": 10,
   "required_main_cells": 180,
   "missing": [
     [
@@ -28,22 +28,7 @@
     [
       "sw",
       "full",
-      "en_gsm8k"
-    ],
-    [
-      "sw",
-      "full",
-      "en_ifeval"
-    ],
-    [
-      "sw",
-      "full",
       "en_mmlu"
-    ],
-    [
-      "sw",
-      "full",
-      "en_code"
     ],
     [
       "sw",
@@ -77,76 +62,6 @@
     ],
     [
       "sw",
-      "random",
-      "target_reading"
-    ],
-    [
-      "sw",
-      "random",
-      "target_summary"
-    ],
-    [
-      "sw",
-      "random",
-      "target_knowledge"
-    ],
-    [
-      "sw",
-      "random",
-      "target_xnli"
-    ],
-    [
-      "sw",
-      "random",
-      "en_gsm8k"
-    ],
-    [
-      "sw",
-      "random",
-      "en_ifeval"
-    ],
-    [
-      "sw",
-      "random",
-      "en_mmlu"
-    ],
-    [
-      "sw",
-      "random",
-      "en_code"
-    ],
-    [
-      "sw",
-      "random",
-      "en_reading"
-    ],
-    [
-      "sw",
-      "random",
-      "en_xnli"
-    ],
-    [
-      "sw",
-      "function",
-      "target_reading"
-    ],
-    [
-      "sw",
-      "function",
-      "target_summary"
-    ],
-    [
-      "sw",
-      "function",
-      "target_knowledge"
-    ],
-    [
-      "sw",
-      "function",
-      "target_xnli"
-    ],
-    [
-      "sw",
       "function",
       "en_gsm8k"
     ],
@@ -158,27 +73,7 @@
     [
       "sw",
       "function",
-      "en_mmlu"
-    ],
-    [
-      "sw",
-      "function",
       "en_code"
-    ],
-    [
-      "sw",
-      "function",
-      "en_reading"
-    ],
-    [
-      "sw",
-      "function",
-      "en_xnli"
-    ],
-    [
-      "sw",
-      "HistoricalFull36",
-      "en_mmlu"
     ],
     [
       "ar",
@@ -661,7 +556,7 @@
       "en_xnli"
     ]
   ],
-  "paired_comparisons": 26,
+  "paired_comparisons": 86,
   "all_acc_argmax_recomputed": true,
   "all_aggregates_match_items": true,
   "paired_identity_verified": true,

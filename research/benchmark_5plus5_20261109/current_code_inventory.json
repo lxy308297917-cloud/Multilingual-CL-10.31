@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-09T23:40:26.133957+08:00",
+  "at": "2026-11-10T02:22:25.188748+08:00",
   "files": [
     {
       "path": "/path/to/project/configs/benchmark_5plus5_20261109/deferred_models.json",
@@ -24,6 +24,14 @@
     {
       "path": "/path/to/project/configs/benchmark_5plus5_20261109/sib_manifest.json",
       "sha256": "a17e71a8314ef519d290ced9c174e8b2f7bfaaa20613e8376da0a93a6d7adf5e"
+    },
+    {
+      "path": "/path/to/project/scripts/benchmark_5plus5_20261109/README.md",
+      "sha256": "8b444d2ab6061a11cca5b168c4e91043d852803b48c94f4fb2c354caf8921ff2"
+    },
+    {
+      "path": "/path/to/project/scripts/benchmark_5plus5_20261109/audit_coverage.py",
+      "sha256": "0797518dad26801e45312d22e751f418acb96f0c456148dbabaf7bbdb4880f09"
     },
     {
       "path": "/path/to/project/scripts/benchmark_5plus5_20261109/diagnostic_barrier.py",
@@ -79,7 +87,7 @@
     },
     {
       "path": "/path/to/project/scripts/benchmark_5plus5_20261109/report.py",
-      "sha256": "1c94dd5c59492d5eb1a05ef598341c3b915ae0b19c8c3b275bde5988854a7acc"
+      "sha256": "5febef25d9b77a528f786ea4bf00dd1d5bb2b1470b7f529e37da3093aee8cc1c"
     },
     {
       "path": "/path/to/project/scripts/benchmark_5plus5_20261109/schedule.py",
@@ -92,6 +100,28 @@
     {
       "path": "/path/to/project/scripts/benchmark_5plus5_20261109/schedule_v3.py",
       "sha256": "2074dbf38e4b8ae365804d6d107e338c075158d0d328bb095a4266e41d475837"
+    },
+    {
+      "path": "/path/to/project/scripts/benchmark_5plus5_20261109/verify_numeric.py",
+      "sha256": "4d1a3b15e29926cd77eae17c51eaf81477db3295636ccdfcee2ff504166bc762"
     }
-  ]
+  ],
+  "postprocessing_update": {
+    "scope": "Add public sufficient statistics and independent numeric verification; no scoring formula, seed, prompt, model, data, GPU evaluator or resource-policy change",
+    "prior_inventory_at": "2026-11-09T23:40:26.133957+08:00",
+    "changed_existing_files": [
+      {
+        "path": "/path/to/project/scripts/benchmark_5plus5_20261109/report.py",
+        "before": "1c94dd5c59492d5eb1a05ef598341c3b915ae0b19c8c3b275bde5988854a7acc",
+        "after": "6de6bbaacf6ce96c5c9f1b0903569d1a66f53e27b39ed20ec87b5fa86a655bb4"
+      }
+    ],
+    "all_existing_gpu_evaluator_and_config_hashes_unchanged": true
+  },
+  "metric_projection_correction": {
+    "scope": "Historical primary task+metric selection and independent legacy-source check only; original GPU evaluator, model, prompt, decoding, raw predictions and original scoring unchanged",
+    "details": "research/benchmark_5plus5_20261109/metric_correction.json",
+    "all_existing_gpu_evaluator_and_config_hashes_unchanged": true
+  },
+  "terminal_queue_coverage_fix": "Completed General5 queue has no live PID; terminal status is recognized without restarting it. No inference changes."
 }

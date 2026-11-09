@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-09T22:56:59.599146+08:00",
+  "at": "2026-11-09T23:53:52.234320+08:00",
   "original_new_main_runs": 14,
   "user_deferred": [
     "ar_full",
@@ -8,11 +8,10 @@
     "ru_kd"
   ],
   "currently_eligible_runs": 10,
-  "verified_complete": 9,
-  "eligible_pending": [
-    "ru_random"
-  ],
+  "verified_complete": 10,
+  "eligible_pending": [],
   "deferred_not_failure": true,
   "no_resume_without_user_instruction": true,
-  "source": "training_artifact_audit.json plus latest priority request"
+  "source": "training_artifact_audit.json plus latest priority request",
+  "status": "ALL_TEN_CURRENTLY_ELIGIBLE_MAIN_TRAININGS_COMPLETE_ORIGINAL_SCOPE_NOT_COMPLETE"
 }

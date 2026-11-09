@@ -27,9 +27,16 @@ def main():
  p=R/'research/fft_representation_20261109/scores.csv';mapping={'SW Belebele':'Belebele','SW XNLI':'XNLI','SW XL-Sum':'XL-Sum','SW Global-MMLU':'Global-MMLU','EN Belebele':'EN Belebele','EN MMLU':'EN MMLU','GSM8K flexible':'GSM8K','IFEval prompt strict':'IFEval','HumanEval+':'HumanEval+'}
  for row in csvrows(p):
   if row['profile'] in models and row['task'] in mapping:put(row['profile'],mapping[row['task']],row['score'],p)
- p=R/'research/updates_20261108/aya-4b-generalization-20261107/three-language-scores.csv';mapping={'Belebele target':'Belebele','XNLI target':'XNLI','XL-Sum target':'XL-Sum','Belebele EN':'EN Belebele','GSM8K':'GSM8K','IFEval':'IFEval'}
+ p=R/'research/updates_20261108/aya-4b-generalization-20261107/three-language-scores.csv';mapping={('Belebele target','ACC'):'Belebele',('XNLI target','ACC'):'XNLI',('XL-Sum target','ROUGE-Lsum'):'XL-Sum',('Belebele EN','ACC'):'EN Belebele',('GSM8K','flexible-extract'):'GSM8K',('IFEval','prompt_level_strict_acc'):'IFEval'}
+ seen_legacy=set()
  for row in csvrows(p):
-  if row['task'] in mapping:put(row['language']+'_historical_lora',mapping[row['task']],row['final'],p)
+  key=(row['task'],row['metric'])
+  if key not in mapping:continue
+  destination=(row['language']+'_historical_lora',mapping[key]);assert destination not in seen_legacy,('Duplicate historical primary metric',destination);seen_legacy.add(destination)
+  if key==('IFEval','prompt_level_strict_acc'):assert int(row['n'])==541
+  if key==('GSM8K','flexible-extract'):assert int(row['n'])==1319
+  put(*destination,row['final'],p)
+ assert len(seen_legacy)==18
  p=R/'research/updates_20261108/sw_original_all_scores.csv';mapping={'Global-MMLU SW':'Global-MMLU','MMLU EN':'EN MMLU'}
  for row in csvrows(p):
   if row['model']=='lora' and row['task'] in mapping:put('sw_historical_lora',mapping[row['task']],row['score'],p)
@@ -53,10 +60,11 @@ def main():
       scores=np.array([r[0] if isinstance(r,(list,tuple)) else r for r in x['filtered_resps']],dtype=float);gold='ABCD'.index(x['target']) if x['target'] in ['A','B','C','D'] else int(x['target']);hit=int(int(np.argmax(scores))==gold);assert hit==x['acc'];key=file.name.split('_20')[0]+':'+str(x['doc_id']);assert key not in v;v[key]=dict(identity=[x['doc_hash'],x['prompt_hash'],x['target_hash']],value=hit);hits.append(hit)
      subjects.append(dict(model=name,language=m['language'],subject=file.name,samples=len(xs),correct=sum(hits),acc=100*np.mean(hits)));allhits.extend(hits)
     assert len(allhits)==14042;put(name,'Global-MMLU',100*np.mean(allhits),folder/'DONE.json');vectors[name,'Global-MMLU']=v
+    (Q/'numeric').mkdir(exist_ok=True);keys=sorted(v);(Q/'numeric'/(name+'_global_mmlu.json')).write_text(json.dumps(dict(model=name,language=m['language'],task='Global-MMLU',samples=14042,item_ids=keys,input_identity_sha256=[hashlib.sha256(json.dumps(v[k]['identity']).encode()).hexdigest() for k in keys],values=[100*v[k]['value'] for k in keys]),separators=(',',':'))+'\n')
    else:
     file=only(folder,'samples_mcl5_sib200_'+m['language']+'_*.jsonl');xs=rows(file);assert len(xs)==204;conf=np.zeros((7,7),dtype=int);rawhits=[];v={};numeric=[]
     for x in xs:
-     scores=np.array([r[0] if isinstance(r,(list,tuple)) else r for r in x['filtered_resps']],dtype=float);assert scores.shape==(7,) and np.isfinite(scores).all();gold=int(x['doc']['label']);pred=int(np.argmax(scores/np.array([len(t) for t in LABELS])));raw=int(np.argmax(scores));hit=int(pred==gold);assert hit==x['acc_norm'];assert int(raw==gold)==x['acc'];conf[gold,pred]+=1;rawhits.append(raw==gold);key=str(x['doc']['index_id']);assert key not in v;v[key]=dict(identity=[x['doc_hash'],x['prompt_hash'],x['target_hash']],value=hit,raw_value=int(raw==gold));numeric.append(dict(id=key,gold=gold,pred=pred,raw_pred=raw,option_loglikelihoods=scores.tolist()))
+     scores=np.array([r[0] if isinstance(r,(list,tuple)) else r for r in x['filtered_resps']],dtype=float);assert scores.shape==(7,) and np.isfinite(scores).all();gold=int(x['doc']['label']);pred=int(np.argmax(scores/np.array([len(t) for t in LABELS])));raw=int(np.argmax(scores));hit=int(pred==gold);assert hit==x['acc_norm'];assert int(raw==gold)==x['acc'];conf[gold,pred]+=1;rawhits.append(raw==gold);key=str(x['doc']['index_id']);assert key not in v;v[key]=dict(identity=[x['doc_hash'],x['prompt_hash'],x['target_hash']],value=hit,raw_value=int(raw==gold));numeric.append(dict(id=key,gold=gold,pred=pred,raw_pred=raw,option_loglikelihoods=scores.tolist(),input_identity_sha256=hashlib.sha256(json.dumps(v[key]['identity']).encode()).hexdigest()))
     aggregate=load(only(folder,'results_*.json'))['results']['mcl5_sib200_'+m['language']];score=100*conf.trace()/204;assert abs(score/100-aggregate['acc_norm,none'])<1e-10 and abs(np.mean(rawhits)-aggregate['acc,none'])<1e-10
     support=conf.sum(1);predcounts=conf.sum(0);f1=np.divide(2*np.diag(conf),support+predcounts,out=np.zeros(7),where=(support+predcounts)>0);sib_reports[name]=dict(samples=204,primary_acc_norm=score,raw_acc=100*np.mean(rawhits),macro_f1=100*f1.mean(),labels=LABELS,class_counts=support.tolist(),prediction_counts=predcounts.tolist(),per_class_recall=np.divide(np.diag(conf)*100,support).tolist(),majority_baseline=100*support.max()/204,confusion_matrix_gold_rows_pred_columns=conf.tolist(),raw_sample_file_sha256=sha(file));vectors[name,'SIB-200']=v;vectors[name,'SIB-200 raw']={k:{**x,'value':x['raw_value']} for k,x in v.items()};put(name,'SIB-200',score,file);(Q/'numeric').mkdir(exist_ok=True);(Q/'numeric'/(name+'_sib200.json')).write_text(json.dumps(numeric,separators=(',',':'))+'\n')
    command=folder/'inference.log.command.json'

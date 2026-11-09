@@ -1,12 +1,62 @@
 {
   "status": "INCOMPLETE",
-  "verified_count": 0,
+  "verified_count": 1,
   "expected": 2,
   "pending": [
-    "none",
-    "full36"
+    "none"
   ],
-  "models": [],
+  "models": [
+    {
+      "mode": "full36",
+      "verified_final400": true,
+      "target_exact_historical_input_label_stream": true,
+      "target_exposure": {
+        "samples": 6400,
+        "input_tokens": 2373891,
+        "shifted_assistant_tokens": 324892,
+        "padded_positions": 2396336
+      },
+      "unique_trainable_parameters": 4022468096,
+      "first_step_all_398_parameter_tensors_received_finite_gradient": true,
+      "one_backward_per_target_microbatch": true,
+      "applied_learning_rate_trace_matches_historical_400": true,
+      "old_build_samples": 3200,
+      "old_check_samples": 0,
+      "old_reference_prefix_tokens": 211250,
+      "old_feature_prediction_positions": 12775,
+      "old_reference_prefix_not_CE_supervision": true,
+      "checkpoints": [
+        {
+          "step": 100,
+          "optimizer_files": 1,
+          "optimizer_bytes": 48269653312
+        },
+        {
+          "step": 200,
+          "optimizer_files": 1,
+          "optimizer_bytes": 48269653312
+        },
+        {
+          "step": 300,
+          "optimizer_files": 1,
+          "optimizer_bytes": 48269653312
+        },
+        {
+          "step": 400,
+          "optimizer_files": 1,
+          "optimizer_bytes": 48269653312
+        }
+      ],
+      "optimizer_state_saved_not_a_resume_execution_test": true,
+      "weights_sha256": {
+        "model-00001-of-00002.safetensors": "efa19d0e063259ee8e89fd8d125ae9d0dcaffbb1772c8fd70dc65c1147794711",
+        "model-00002-of-00002.safetensors": "7c9ace98a30d4e8a578859aec9426b5979fe3efb7bbd8b26ca784a3fc88a4218"
+      },
+      "config_sha256": "c013e46d178e879b13df6e060fbf279e90a5b3dd58efe9ed1e0a8f955dcd82c2",
+      "elapsed_seconds": 10868.477071667992,
+      "peak_allocated_bytes": 21044728320
+    }
+  ],
   "new_protected_unprotected_scientific_recipes_identical": true,
   "historical_implementation_difference": "Both new runs use non-reentrant checkpointing and the same combined-backward wrapper; historical FFT remains separately identified.",
   "additional_gpu_jobs": 0

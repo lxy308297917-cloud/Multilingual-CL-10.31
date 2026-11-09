@@ -29,6 +29,34 @@
   },
   {
     "language": "sw",
+    "method": "full",
+    "task": "GSM8K strict",
+    "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/sw_full/core/results/__user__models__Qwen3-4B/samples_sft_v1_gsm8k_2026-11-10T00-13-58.071637.jsonl",
+    "sha256": "e68f14e32bef1a5be5850d6cc0abbbb59b84196e05b80a661c2280eaa94b87d1"
+  },
+  {
+    "language": "sw",
+    "method": "full",
+    "task": "IFEval instruction strict",
+    "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/sw_full/core/results/__user__models__Qwen3-4B/samples_sft_v1_ifeval_2026-11-10T00-13-58.071637.jsonl",
+    "sha256": "af4dc2ddec32160c3a062a1483feac95f6e60216cce751c8f0d4e07325891e03"
+  },
+  {
+    "language": "sw",
+    "method": "random",
+    "task": "GSM8K strict",
+    "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/sw_random/core/results/__user__models__Qwen3-4B/samples_sft_v1_gsm8k_2026-11-10T00-57-10.125385.jsonl",
+    "sha256": "57e2f664484ad8c4fee01deb8b0d718c85cde20ebbe777dff1a6d457a3aeaecc"
+  },
+  {
+    "language": "sw",
+    "method": "random",
+    "task": "IFEval instruction strict",
+    "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/sw_random/core/results/__user__models__Qwen3-4B/samples_sft_v1_ifeval_2026-11-10T00-57-10.125385.jsonl",
+    "sha256": "18f22ebaa8d3355221cea7281ae78f487957b81efceab687f01165fc3afa1916"
+  },
+  {
+    "language": "sw",
     "method": "HistoricalFull36",
     "task": "GSM8K strict",
     "path": "/path/to/logs/qwen3-multilingual/functional-representation-20261109/p2/evaluation/full_feature/core/results/__user__models__Qwen3-4B/samples_sft_v1_gsm8k_2026-11-09T05-33-28.696445.jsonl",

@@ -2,6 +2,8 @@
 
 ## 当前优先：5+5进行中，XQuAD补测已完成
 
+**指标更正：**此前5+5汇总的历史IFEval三行误用了指令级strict；现修正为提示级strict：SW49.35%、AR42.70%、RU42.33%，相应均值已重算。原始预测和历史源分数未变。[更正记录](research/benchmark_5plus5_20261109/metric_correction.json)。
+
 目标五项为 Belebele、XNLI、XL-Sum、Global-MMLU、SIB-200；通用五项为 GSM8K、IFEval、HumanEval+、EN MMLU、EN Belebele。XQuAD仅作为AR/RU补充，SW不支持，不并入主平均。TargetACC4只平均四项ACC，摘要独立报告。
 
 - [最新ChatGPT交接：真实补测结果、格式诊断与限制](research/benchmark_5plus5_20261109/chatgpt_handoff.md)
@@ -11,7 +13,7 @@
 - [功能加权方法的设置与未完成比较](research/function_aware_formal_20261109/chatgpt_handoff.md)
 - [FFT补充设置与比较边界](research/fft_representation_20261109/README.md)
 
-XQuAD的10个端点已全部完成并逐题复核，公开数值复算通过。AR候选未显示明确优于普通LoRA的问答收益；RU候选F1低于普通LoRA，负结果保留。Base低EM明显受答案格式影响。5+5其余测评继续运行，其公开表仍是上一阶段快照，完整结果待补齐。
+XQuAD的10个端点已全部完成并逐题复核，公开数值复算通过。AR候选未显示明确优于普通LoRA的问答收益；RU候选F1低于普通LoRA，负结果保留。Base低EM明显受答案格式影响。5+5其余测评继续运行；本次同步已完成分数、逐题数值与更正审计，仍为部分结果，缺失单元格继续留空。
 
 当前仍是整体研究的阶段性快照。所有允许继续收尾的训练已完成，三语言功能候选均为固定400步；其完整正式分数尚未出齐。用户要求已运行训练正常收尾、优先补测，五个待启动训练与机制诊断、额外翻译被明确暂缓，不自动恢复。未完成分数留空，暂缓不是失败，也不表示原研究目标已全部完成。
 

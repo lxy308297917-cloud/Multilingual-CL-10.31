@@ -1415,5 +1415,986 @@
       ]
     ],
     "raw_sample_file_sha256": "88b054f1c863833ebeb53c45490fb5bc5c4a12a8b0ae87330073c1ceadb0757d"
+  },
+  "ru_all": {
+    "samples": 204,
+    "primary_acc_norm": 25.980392156862745,
+    "raw_acc": 71.07843137254902,
+    "macro_f1": 7.884893473440664,
+    "labels": [
+      "science/technology",
+      "travel",
+      "politics",
+      "sports",
+      "health",
+      "entertainment",
+      "geography"
+    ],
+    "class_counts": [
+      51,
+      40,
+      30,
+      25,
+      22,
+      19,
+      17
+    ],
+    "prediction_counts": [
+      202,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "per_class_recall": [
+      100.0,
+      2.5,
+      0.0,
+      0.0,
+      0.0,
+      5.2631578947368425,
+      0.0
+    ],
+    "majority_baseline": 25.0,
+    "confusion_matrix_gold_rows_pred_columns": [
+      [
+        51,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        39,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        30,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        25,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        22,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        18,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        17,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "raw_sample_file_sha256": "571ea8b0dfc4511e6ff928bacf17b1f515cb5b5b0d994140c226093fca0c6afc"
+  },
+  "ru_full": {
+    "samples": 204,
+    "primary_acc_norm": 54.411764705882355,
+    "raw_acc": 73.0392156862745,
+    "macro_f1": 52.99798580831705,
+    "labels": [
+      "science/technology",
+      "travel",
+      "politics",
+      "sports",
+      "health",
+      "entertainment",
+      "geography"
+    ],
+    "class_counts": [
+      51,
+      40,
+      30,
+      25,
+      22,
+      19,
+      17
+    ],
+    "prediction_counts": [
+      132,
+      12,
+      10,
+      15,
+      16,
+      4,
+      15
+    ],
+    "per_class_recall": [
+      100.0,
+      27.5,
+      33.333333333333336,
+      60.0,
+      54.54545454545455,
+      21.05263157894737,
+      47.05882352941177
+    ],
+    "majority_baseline": 25.0,
+    "confusion_matrix_gold_rows_pred_columns": [
+      [
+        51,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        22,
+        11,
+        0,
+        0,
+        2,
+        0,
+        5
+      ],
+      [
+        18,
+        0,
+        10,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        8,
+        0,
+        0,
+        15,
+        2,
+        0,
+        0
+      ],
+      [
+        10,
+        0,
+        0,
+        0,
+        12,
+        0,
+        0
+      ],
+      [
+        14,
+        1,
+        0,
+        0,
+        0,
+        4,
+        0
+      ],
+      [
+        9,
+        0,
+        0,
+        0,
+        0,
+        0,
+        8
+      ]
+    ],
+    "raw_sample_file_sha256": "042676df3e116e21f2af4ff4c2f8387994781e25a4127cf7428a4cdf041e2891"
+  },
+  "ru_random": {
+    "samples": 204,
+    "primary_acc_norm": 46.568627450980394,
+    "raw_acc": 71.07843137254902,
+    "macro_f1": 42.83532414566898,
+    "labels": [
+      "science/technology",
+      "travel",
+      "politics",
+      "sports",
+      "health",
+      "entertainment",
+      "geography"
+    ],
+    "class_counts": [
+      51,
+      40,
+      30,
+      25,
+      22,
+      19,
+      17
+    ],
+    "prediction_counts": [
+      152,
+      10,
+      7,
+      11,
+      13,
+      2,
+      9
+    ],
+    "per_class_recall": [
+      100.0,
+      22.5,
+      23.333333333333332,
+      44.0,
+      45.45454545454545,
+      10.526315789473685,
+      29.41176470588235
+    ],
+    "majority_baseline": 25.0,
+    "confusion_matrix_gold_rows_pred_columns": [
+      [
+        51,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        27,
+        9,
+        0,
+        0,
+        1,
+        0,
+        3
+      ],
+      [
+        22,
+        0,
+        7,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        12,
+        0,
+        0,
+        11,
+        2,
+        0,
+        0
+      ],
+      [
+        12,
+        0,
+        0,
+        0,
+        10,
+        0,
+        0
+      ],
+      [
+        16,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        12,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5
+      ]
+    ],
+    "raw_sample_file_sha256": "19befed8f1885b3d052b5c42f551708d035ea9115afbe207fc7f097565f0cea0"
+  },
+  "ru_function": {
+    "samples": 204,
+    "primary_acc_norm": 53.431372549019606,
+    "raw_acc": 72.05882352941177,
+    "macro_f1": 50.83553943037556,
+    "labels": [
+      "science/technology",
+      "travel",
+      "politics",
+      "sports",
+      "health",
+      "entertainment",
+      "geography"
+    ],
+    "class_counts": [
+      51,
+      40,
+      30,
+      25,
+      22,
+      19,
+      17
+    ],
+    "prediction_counts": [
+      134,
+      13,
+      10,
+      15,
+      16,
+      3,
+      13
+    ],
+    "per_class_recall": [
+      100.0,
+      30.0,
+      33.333333333333336,
+      60.0,
+      54.54545454545455,
+      15.789473684210526,
+      35.294117647058826
+    ],
+    "majority_baseline": 25.0,
+    "confusion_matrix_gold_rows_pred_columns": [
+      [
+        51,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        21,
+        12,
+        0,
+        0,
+        2,
+        0,
+        5
+      ],
+      [
+        18,
+        0,
+        10,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        8,
+        0,
+        0,
+        15,
+        2,
+        0,
+        0
+      ],
+      [
+        10,
+        0,
+        0,
+        0,
+        12,
+        0,
+        0
+      ],
+      [
+        15,
+        1,
+        0,
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        11,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6
+      ]
+    ],
+    "raw_sample_file_sha256": "c31d95e576686295d7e9b67d68bc7d124ac7ff1529d73402df556b4f9881baa1"
+  },
+  "historical_fft": {
+    "samples": 204,
+    "primary_acc_norm": 25.0,
+    "raw_acc": 57.35294117647059,
+    "macro_f1": 5.714285714285714,
+    "labels": [
+      "science/technology",
+      "travel",
+      "politics",
+      "sports",
+      "health",
+      "entertainment",
+      "geography"
+    ],
+    "class_counts": [
+      51,
+      40,
+      30,
+      25,
+      22,
+      19,
+      17
+    ],
+    "prediction_counts": [
+      204,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "per_class_recall": [
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "majority_baseline": 25.0,
+    "confusion_matrix_gold_rows_pred_columns": [
+      [
+        51,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        40,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        30,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        25,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        22,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        19,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        17,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "raw_sample_file_sha256": "92cc7b93174633681e3439553f6f7217483bcdf38f284b9e4f4cc009ded81f91"
+  },
+  "historical_ssu": {
+    "samples": 204,
+    "primary_acc_norm": 25.49019607843137,
+    "raw_acc": 56.372549019607845,
+    "macro_f1": 7.165354330708662,
+    "labels": [
+      "science/technology",
+      "travel",
+      "politics",
+      "sports",
+      "health",
+      "entertainment",
+      "geography"
+    ],
+    "class_counts": [
+      51,
+      40,
+      30,
+      25,
+      22,
+      19,
+      17
+    ],
+    "prediction_counts": [
+      203,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "per_class_recall": [
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      5.2631578947368425,
+      0.0
+    ],
+    "majority_baseline": 25.0,
+    "confusion_matrix_gold_rows_pred_columns": [
+      [
+        51,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        40,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        30,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        25,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        22,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        18,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        17,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "raw_sample_file_sha256": "45cb8a773b621b44ad11212f63f86b098ed10d34d4a07270def151af7981e035"
+  },
+  "fft_full36": {
+    "samples": 204,
+    "primary_acc_norm": 25.49019607843137,
+    "raw_acc": 53.431372549019606,
+    "macro_f1": 8.616780045351472,
+    "labels": [
+      "science/technology",
+      "travel",
+      "politics",
+      "sports",
+      "health",
+      "entertainment",
+      "geography"
+    ],
+    "class_counts": [
+      51,
+      40,
+      30,
+      25,
+      22,
+      19,
+      17
+    ],
+    "prediction_counts": [
+      201,
+      0,
+      0,
+      0,
+      0,
+      2,
+      1
+    ],
+    "per_class_recall": [
+      98.03921568627452,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      5.2631578947368425,
+      5.882352941176471
+    ],
+    "majority_baseline": 25.0,
+    "confusion_matrix_gold_rows_pred_columns": [
+      [
+        50,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        40,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        30,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        25,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        22,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        18,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "raw_sample_file_sha256": "d6e72246411373f686808abe87b1e698fbc0f2ac014b79f1fb066c60564529a1"
+  },
+  "p2_full36": {
+    "samples": 204,
+    "primary_acc_norm": 48.03921568627451,
+    "raw_acc": 54.90196078431373,
+    "macro_f1": 43.1117925854768,
+    "labels": [
+      "science/technology",
+      "travel",
+      "politics",
+      "sports",
+      "health",
+      "entertainment",
+      "geography"
+    ],
+    "class_counts": [
+      51,
+      40,
+      30,
+      25,
+      22,
+      19,
+      17
+    ],
+    "prediction_counts": [
+      120,
+      5,
+      18,
+      15,
+      15,
+      3,
+      28
+    ],
+    "per_class_recall": [
+      88.23529411764706,
+      10.0,
+      60.0,
+      52.0,
+      31.818181818181817,
+      5.2631578947368425,
+      58.8235294117647
+    ],
+    "majority_baseline": 25.0,
+    "confusion_matrix_gold_rows_pred_columns": [
+      [
+        45,
+        0,
+        0,
+        1,
+        3,
+        1,
+        1
+      ],
+      [
+        20,
+        4,
+        0,
+        0,
+        3,
+        0,
+        13
+      ],
+      [
+        10,
+        0,
+        18,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        8,
+        1,
+        0,
+        13,
+        1,
+        1,
+        1
+      ],
+      [
+        14,
+        0,
+        0,
+        1,
+        7,
+        0,
+        0
+      ],
+      [
+        16,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        7,
+        0,
+        0,
+        0,
+        0,
+        0,
+        10
+      ]
+    ],
+    "raw_sample_file_sha256": "e783e51e870633e2eb9115e424ba2d1217e2ee8e0ce0e94ab399c54734cef79b"
+  },
+  "p2_ce": {
+    "samples": 204,
+    "primary_acc_norm": 25.49019607843137,
+    "raw_acc": 61.76470588235294,
+    "macro_f1": 7.120002151058051,
+    "labels": [
+      "science/technology",
+      "travel",
+      "politics",
+      "sports",
+      "health",
+      "entertainment",
+      "geography"
+    ],
+    "class_counts": [
+      51,
+      40,
+      30,
+      25,
+      22,
+      19,
+      17
+    ],
+    "prediction_counts": [
+      202,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0
+    ],
+    "per_class_recall": [
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      5.2631578947368425,
+      0.0
+    ],
+    "majority_baseline": 25.0,
+    "confusion_matrix_gold_rows_pred_columns": [
+      [
+        51,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        40,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        30,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        24,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        22,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        18,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        17,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "raw_sample_file_sha256": "c1c220068eee6a0e130f49d8d14324d1536830912300e51b64de3eaba2b2a26f"
   }
 }

@@ -1,0 +1,1309 @@
+{
+  "at": "2026-11-10T02:19:31.948838+08:00",
+  "status": "ALL_ELIGIBLE_MISSING_CELLS_COVERED",
+  "scope": "Queue coverage only. Present scores depend on separate raw audits; live queues do not prove successful completion.",
+  "score_table_sha256": "bcab4261920935718b19152227842547eae68149847d9309f3658dea8827b2a5",
+  "eligible_models": 22,
+  "required_cells": 220,
+  "present_cells": 151,
+  "deferred_models": [
+    "ar_full",
+    "ar_kd",
+    "ar_random",
+    "matched_fft",
+    "ru_kd"
+  ],
+  "queue_live": {
+    "fa": true,
+    "fft": true,
+    "supplement": true,
+    "general": false
+  },
+  "cells": [
+    {
+      "model": "sw_Base",
+      "task": "SIB-200",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_Base",
+      "task": "Belebele",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_Base",
+      "task": "XNLI",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_Base",
+      "task": "XL-Sum",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_Base",
+      "task": "Global-MMLU",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_Base",
+      "task": "GSM8K",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_Base",
+      "task": "IFEval",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_Base",
+      "task": "HumanEval+",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_Base",
+      "task": "EN MMLU",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_Base",
+      "task": "EN Belebele",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_historical_lora",
+      "task": "SIB-200",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_historical_lora",
+      "task": "Belebele",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_historical_lora",
+      "task": "XNLI",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_historical_lora",
+      "task": "XL-Sum",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_historical_lora",
+      "task": "Global-MMLU",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_historical_lora",
+      "task": "GSM8K",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_historical_lora",
+      "task": "IFEval",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_historical_lora",
+      "task": "HumanEval+",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_historical_lora",
+      "task": "EN MMLU",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_historical_lora",
+      "task": "EN Belebele",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "ar_Base",
+      "task": "SIB-200",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "ar_Base",
+      "task": "Belebele",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "ar_Base",
+      "task": "XNLI",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "ar_Base",
+      "task": "XL-Sum",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "ar_Base",
+      "task": "Global-MMLU",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "ar_Base",
+      "task": "GSM8K",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "ar_Base",
+      "task": "IFEval",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "ar_Base",
+      "task": "HumanEval+",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "ar_Base",
+      "task": "EN MMLU",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "ar_Base",
+      "task": "EN Belebele",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "ar_historical_lora",
+      "task": "SIB-200",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "ar_historical_lora",
+      "task": "Belebele",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "ar_historical_lora",
+      "task": "XNLI",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "ar_historical_lora",
+      "task": "XL-Sum",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "ar_historical_lora",
+      "task": "Global-MMLU",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "ar_historical_lora",
+      "task": "GSM8K",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "ar_historical_lora",
+      "task": "IFEval",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "ar_historical_lora",
+      "task": "HumanEval+",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "ar_historical_lora",
+      "task": "EN MMLU",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "ar_historical_lora",
+      "task": "EN Belebele",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "ru_Base",
+      "task": "SIB-200",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "ru_Base",
+      "task": "Belebele",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "ru_Base",
+      "task": "XNLI",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "ru_Base",
+      "task": "XL-Sum",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "ru_Base",
+      "task": "Global-MMLU",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "ru_Base",
+      "task": "GSM8K",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "ru_Base",
+      "task": "IFEval",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "ru_Base",
+      "task": "HumanEval+",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "ru_Base",
+      "task": "EN MMLU",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "ru_Base",
+      "task": "EN Belebele",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "ru_historical_lora",
+      "task": "SIB-200",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "ru_historical_lora",
+      "task": "Belebele",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "ru_historical_lora",
+      "task": "XNLI",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "ru_historical_lora",
+      "task": "XL-Sum",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "ru_historical_lora",
+      "task": "Global-MMLU",
+      "stage": "gmmlu",
+      "family": "supplement",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ru_historical_lora",
+      "task": "GSM8K",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "ru_historical_lora",
+      "task": "IFEval",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "ru_historical_lora",
+      "task": "HumanEval+",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "ru_historical_lora",
+      "task": "EN MMLU",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "ru_historical_lora",
+      "task": "EN Belebele",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_all",
+      "task": "SIB-200",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_all",
+      "task": "Belebele",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_all",
+      "task": "XNLI",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_all",
+      "task": "XL-Sum",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_all",
+      "task": "Global-MMLU",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_all",
+      "task": "GSM8K",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_all",
+      "task": "IFEval",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_all",
+      "task": "HumanEval+",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_all",
+      "task": "EN MMLU",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_all",
+      "task": "EN Belebele",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_full",
+      "task": "SIB-200",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_full",
+      "task": "Belebele",
+      "stage": "reading",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "sw_full",
+      "task": "XNLI",
+      "stage": "reading",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "sw_full",
+      "task": "XL-Sum",
+      "stage": "summary",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "sw_full",
+      "task": "Global-MMLU",
+      "stage": "gmmlu",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "sw_full",
+      "task": "GSM8K",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_full",
+      "task": "IFEval",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_full",
+      "task": "HumanEval+",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_full",
+      "task": "EN MMLU",
+      "stage": "mmlu",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "sw_full",
+      "task": "EN Belebele",
+      "stage": "reading",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "sw_kd",
+      "task": "SIB-200",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_kd",
+      "task": "Belebele",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_kd",
+      "task": "XNLI",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_kd",
+      "task": "XL-Sum",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_kd",
+      "task": "Global-MMLU",
+      "stage": "gmmlu",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "sw_kd",
+      "task": "GSM8K",
+      "stage": "core",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "sw_kd",
+      "task": "IFEval",
+      "stage": "core",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "sw_kd",
+      "task": "HumanEval+",
+      "stage": "code",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "sw_kd",
+      "task": "EN MMLU",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_kd",
+      "task": "EN Belebele",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_random",
+      "task": "SIB-200",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_random",
+      "task": "Belebele",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_random",
+      "task": "XNLI",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_random",
+      "task": "XL-Sum",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_random",
+      "task": "Global-MMLU",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_random",
+      "task": "GSM8K",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_random",
+      "task": "IFEval",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_random",
+      "task": "HumanEval+",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_random",
+      "task": "EN MMLU",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_random",
+      "task": "EN Belebele",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_function",
+      "task": "SIB-200",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_function",
+      "task": "Belebele",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_function",
+      "task": "XNLI",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_function",
+      "task": "XL-Sum",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_function",
+      "task": "Global-MMLU",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_function",
+      "task": "GSM8K",
+      "stage": "core",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "sw_function",
+      "task": "IFEval",
+      "stage": "core",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "sw_function",
+      "task": "HumanEval+",
+      "stage": "code",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "sw_function",
+      "task": "EN MMLU",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "sw_function",
+      "task": "EN Belebele",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "ar_all",
+      "task": "SIB-200",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "ar_all",
+      "task": "Belebele",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "ar_all",
+      "task": "XNLI",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "ar_all",
+      "task": "XL-Sum",
+      "stage": "summary",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ar_all",
+      "task": "Global-MMLU",
+      "stage": "gmmlu",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ar_all",
+      "task": "GSM8K",
+      "stage": "core",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ar_all",
+      "task": "IFEval",
+      "stage": "core",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ar_all",
+      "task": "HumanEval+",
+      "stage": "code",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ar_all",
+      "task": "EN MMLU",
+      "stage": "mmlu",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ar_all",
+      "task": "EN Belebele",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "ar_function",
+      "task": "SIB-200",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "ar_function",
+      "task": "Belebele",
+      "stage": "reading",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ar_function",
+      "task": "XNLI",
+      "stage": "reading",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ar_function",
+      "task": "XL-Sum",
+      "stage": "summary",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ar_function",
+      "task": "Global-MMLU",
+      "stage": "gmmlu",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ar_function",
+      "task": "GSM8K",
+      "stage": "core",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ar_function",
+      "task": "IFEval",
+      "stage": "core",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ar_function",
+      "task": "HumanEval+",
+      "stage": "code",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ar_function",
+      "task": "EN MMLU",
+      "stage": "mmlu",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ar_function",
+      "task": "EN Belebele",
+      "stage": "reading",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ru_all",
+      "task": "SIB-200",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "ru_all",
+      "task": "Belebele",
+      "stage": "reading",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ru_all",
+      "task": "XNLI",
+      "stage": "reading",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ru_all",
+      "task": "XL-Sum",
+      "stage": "summary",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ru_all",
+      "task": "Global-MMLU",
+      "stage": "gmmlu",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ru_all",
+      "task": "GSM8K",
+      "stage": "core",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ru_all",
+      "task": "IFEval",
+      "stage": "core",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ru_all",
+      "task": "HumanEval+",
+      "stage": "code",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ru_all",
+      "task": "EN MMLU",
+      "stage": "mmlu",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ru_all",
+      "task": "EN Belebele",
+      "stage": "reading",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ru_full",
+      "task": "SIB-200",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "ru_full",
+      "task": "Belebele",
+      "stage": "reading",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ru_full",
+      "task": "XNLI",
+      "stage": "reading",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ru_full",
+      "task": "XL-Sum",
+      "stage": "summary",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ru_full",
+      "task": "Global-MMLU",
+      "stage": "gmmlu",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ru_full",
+      "task": "GSM8K",
+      "stage": "core",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ru_full",
+      "task": "IFEval",
+      "stage": "core",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ru_full",
+      "task": "HumanEval+",
+      "stage": "code",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ru_full",
+      "task": "EN MMLU",
+      "stage": "mmlu",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ru_full",
+      "task": "EN Belebele",
+      "stage": "reading",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ru_random",
+      "task": "SIB-200",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "ru_random",
+      "task": "Belebele",
+      "stage": "reading",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ru_random",
+      "task": "XNLI",
+      "stage": "reading",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ru_random",
+      "task": "XL-Sum",
+      "stage": "summary",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ru_random",
+      "task": "Global-MMLU",
+      "stage": "gmmlu",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ru_random",
+      "task": "GSM8K",
+      "stage": "core",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ru_random",
+      "task": "IFEval",
+      "stage": "core",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ru_random",
+      "task": "HumanEval+",
+      "stage": "code",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ru_random",
+      "task": "EN MMLU",
+      "stage": "mmlu",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ru_random",
+      "task": "EN Belebele",
+      "stage": "reading",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ru_function",
+      "task": "SIB-200",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "ru_function",
+      "task": "Belebele",
+      "stage": "reading",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ru_function",
+      "task": "XNLI",
+      "stage": "reading",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ru_function",
+      "task": "XL-Sum",
+      "stage": "summary",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ru_function",
+      "task": "Global-MMLU",
+      "stage": "gmmlu",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ru_function",
+      "task": "GSM8K",
+      "stage": "core",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ru_function",
+      "task": "IFEval",
+      "stage": "core",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ru_function",
+      "task": "HumanEval+",
+      "stage": "code",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ru_function",
+      "task": "EN MMLU",
+      "stage": "mmlu",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "ru_function",
+      "task": "EN Belebele",
+      "stage": "reading",
+      "family": "fa",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "historical_fft",
+      "task": "SIB-200",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "historical_fft",
+      "task": "Belebele",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "historical_fft",
+      "task": "XNLI",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "historical_fft",
+      "task": "XL-Sum",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "historical_fft",
+      "task": "Global-MMLU",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "historical_fft",
+      "task": "GSM8K",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "historical_fft",
+      "task": "IFEval",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "historical_fft",
+      "task": "HumanEval+",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "historical_fft",
+      "task": "EN MMLU",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "historical_fft",
+      "task": "EN Belebele",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "historical_ssu",
+      "task": "SIB-200",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "historical_ssu",
+      "task": "Belebele",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "historical_ssu",
+      "task": "XNLI",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "historical_ssu",
+      "task": "XL-Sum",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "historical_ssu",
+      "task": "Global-MMLU",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "historical_ssu",
+      "task": "GSM8K",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "historical_ssu",
+      "task": "IFEval",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "historical_ssu",
+      "task": "HumanEval+",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "historical_ssu",
+      "task": "EN MMLU",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "historical_ssu",
+      "task": "EN Belebele",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "fft_full36",
+      "task": "SIB-200",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "fft_full36",
+      "task": "Belebele",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "fft_full36",
+      "task": "XNLI",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "fft_full36",
+      "task": "XL-Sum",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "fft_full36",
+      "task": "Global-MMLU",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "fft_full36",
+      "task": "GSM8K",
+      "stage": "core",
+      "family": "fft",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "fft_full36",
+      "task": "IFEval",
+      "stage": "core",
+      "family": "fft",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "fft_full36",
+      "task": "HumanEval+",
+      "stage": "code",
+      "family": "fft",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "fft_full36",
+      "task": "EN MMLU",
+      "stage": "mmlu",
+      "family": "fft",
+      "status": "COVERED_BY_LIVE_QUEUE"
+    },
+    {
+      "model": "fft_full36",
+      "task": "EN Belebele",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "p2_full36",
+      "task": "SIB-200",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "p2_full36",
+      "task": "Belebele",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "p2_full36",
+      "task": "XNLI",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "p2_full36",
+      "task": "XL-Sum",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "p2_full36",
+      "task": "Global-MMLU",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "p2_full36",
+      "task": "GSM8K",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "p2_full36",
+      "task": "IFEval",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "p2_full36",
+      "task": "HumanEval+",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "p2_full36",
+      "task": "EN MMLU",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "p2_full36",
+      "task": "EN Belebele",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "p2_ce",
+      "task": "SIB-200",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "p2_ce",
+      "task": "Belebele",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "p2_ce",
+      "task": "XNLI",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "p2_ce",
+      "task": "XL-Sum",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "p2_ce",
+      "task": "Global-MMLU",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "p2_ce",
+      "task": "GSM8K",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "p2_ce",
+      "task": "IFEval",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "p2_ce",
+      "task": "HumanEval+",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "p2_ce",
+      "task": "EN MMLU",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    },
+    {
+      "model": "p2_ce",
+      "task": "EN Belebele",
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
+    }
+  ],
+  "xquad_required": 10,
+  "xquad_queue_live": false,
+  "xquad_cells": [
+    {
+      "model": "ar_Base",
+      "status": "DONE_SUBJECT_TO_RAW_AUDIT"
+    },
+    {
+      "model": "ar_historical_lora",
+      "status": "DONE_SUBJECT_TO_RAW_AUDIT"
+    },
+    {
+      "model": "ru_Base",
+      "status": "DONE_SUBJECT_TO_RAW_AUDIT"
+    },
+    {
+      "model": "ru_historical_lora",
+      "status": "DONE_SUBJECT_TO_RAW_AUDIT"
+    },
+    {
+      "model": "ar_all",
+      "status": "DONE_SUBJECT_TO_RAW_AUDIT"
+    },
+    {
+      "model": "ar_function",
+      "status": "DONE_SUBJECT_TO_RAW_AUDIT"
+    },
+    {
+      "model": "ru_all",
+      "status": "DONE_SUBJECT_TO_RAW_AUDIT"
+    },
+    {
+      "model": "ru_full",
+      "status": "DONE_SUBJECT_TO_RAW_AUDIT"
+    },
+    {
+      "model": "ru_random",
+      "status": "DONE_SUBJECT_TO_RAW_AUDIT"
+    },
+    {
+      "model": "ru_function",
+      "status": "DONE_SUBJECT_TO_RAW_AUDIT"
+    }
+  ],
+  "uncovered": [],
+  "new_gpu_jobs": 0,
+  "new_training_jobs": 0
+}

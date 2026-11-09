@@ -1,5 +1,9 @@
 # 五项目标语言＋五项通用能力补测
 
+## 历史IFEval主指标更正（2026-11-10）
+
+此前新5+5汇总错误地用历史IFEval的instruction-level strict覆盖了prompt-level strict，原始测评和旧历史报告没有改变。主表现在固定采用541个提示的prompt_level_strict_acc：SW 49.35%、AR 42.70%、RU 42.33%；62.47%、56.47%、56.35%是834条指令的补充指标，不能混用。历史三行的Base差与GeneralAvg5已重算，其他任务的定义不变。公开更正前数值与原因见 [更正记录](metric_correction.json)。解析现按任务＋指标双键取值，并拒绝重复主指标；独立复算器核对18个历史主指标单元格。
+
 入口：[当前设置](current_objective.md)、[持续结果](results.md)、[SIB诊断](sib_error_analysis.md)、[优先级变更](priority_scope.json)。
 
 目标5：Belebele、XNLI、XL-Sum、Global-MMLU、SIB-200；通用5：GSM8K、IFEval、HumanEval+、EN MMLU、EN Belebele。旧EN XNLI、strict子指标和翻译成绩保留在原轨道，未删除。
