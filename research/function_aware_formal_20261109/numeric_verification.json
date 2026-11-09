@@ -1,16 +1,16 @@
 {
   "status": "PASS_AVAILABLE_NUMERIC_CONSISTENCY_SCOPE_ONLY",
-  "observed_at": "2026-11-10T04:10:30.943919+08:00",
+  "observed_at": "2026-11-10T06:04:34.523518+08:00",
   "reports": [
     {
       "status": "PASS_AVAILABLE_NUMERIC_CONSISTENCY_SCOPE_ONLY",
       "family": "fa",
-      "primary_score_cells": 102,
-      "auxiliary_score_cells": 20,
+      "primary_score_cells": 122,
+      "auxiliary_score_cells": 24,
       "required_primary_score_cells": 190,
       "required_auxiliary_score_cells": 38,
       "all_expected_cells_present": false,
-      "paired_intervals_recomputed": 155,
+      "paired_intervals_recomputed": 195,
       "resamples": 2000,
       "numpy": "2.4.6",
       "sacrebleu": "2.6.0",
@@ -31,8 +31,8 @@
       "source_identity_scope": "Original prompts, model files and code-execution identity are supported by the separate server-side audits; this command checks exported numerical consistency only."
     }
   ],
-  "score_cells_verified": 218,
-  "paired_intervals_recomputed": 231,
+  "score_cells_verified": 242,
+  "paired_intervals_recomputed": 271,
   "verifier_source_sha256": "a717bf6298e32f6e7a66f52934b5ba9c5ed5ce17d171da2a27088c4ddc7fea79",
   "numeric_inputs": [
     {
@@ -201,7 +201,7 @@
     },
     {
       "path": "research/function_aware_formal_20261109/audited_scores.csv",
-      "sha256": "c799d3091578ea1866211b01e767105371dc4701efba2ee5db7124c660729f7b"
+      "sha256": "45e5d6d665702c7f425417007134d67fb2c180aee7af99867be7a0eefb9eff65"
     },
     {
       "path": "research/function_aware_formal_20261109/auxiliary_numeric/ar_0.json",
@@ -213,11 +213,11 @@
     },
     {
       "path": "research/function_aware_formal_20261109/auxiliary_numeric/ru_0.json",
-      "sha256": "e9082db139b906413538bf6db9d62b29b38362c997c7d33a216ffc23272d6db4"
+      "sha256": "457a9743f65519122642ce5b61ebc0ad394b77f533d96df45d020390d57dbce5"
     },
     {
       "path": "research/function_aware_formal_20261109/auxiliary_numeric/ru_1.json",
-      "sha256": "da797231482d81a9db67372f14d49271bb4bfd3b8022ad3e76849f313b3f03c1"
+      "sha256": "131b7178d792a4dfc01be04cbbc747218d9d3fc1199d20983ce5dc2adda73e0a"
     },
     {
       "path": "research/function_aware_formal_20261109/auxiliary_numeric/sw_0.json",
@@ -229,11 +229,11 @@
     },
     {
       "path": "research/function_aware_formal_20261109/auxiliary_paired_changes.csv",
-      "sha256": "c92426946f3e5d25e36f98b8525f942ce2fc50b92f4d4d1377d714441079605a"
+      "sha256": "3ef5a53855393b1b1c894ccd8dd791c11742dccdbacf2202c604f51275dcf84b"
     },
     {
       "path": "research/function_aware_formal_20261109/auxiliary_scores.csv",
-      "sha256": "8c0607b0e2cffedf50bdf901e475b03451d758cd030eaf37e72d2d6ed857e5b8"
+      "sha256": "0d578e42a0243e339ffbd75bc785b724c523c1748e0795cf34524d1a53c6c942"
     },
     {
       "path": "research/function_aware_formal_20261109/numeric/ar_en_code.json",
@@ -277,43 +277,43 @@
     },
     {
       "path": "research/function_aware_formal_20261109/numeric/ru_en_code.json",
-      "sha256": "d2c365bdb1de5a9d92e23631947e19747ddc5107e0cd3dc6650a4aee618a3e6a"
+      "sha256": "b0306af34931367c4a96db5660ca5c7765d8e28868c4ab36c49c973a79222582"
     },
     {
       "path": "research/function_aware_formal_20261109/numeric/ru_en_gsm8k.json",
-      "sha256": "980eb267239f5e92cc1253ea16a2f8bad1de7c16507c130a1116d06fee535813"
+      "sha256": "88ca71203d5c928ed4cbe90bdca27bc102237e568e75fcd591a0c4a34dde3a00"
     },
     {
       "path": "research/function_aware_formal_20261109/numeric/ru_en_ifeval.json",
-      "sha256": "5b5386139a7d7e1a73d207c96758451212b2067264b2c765f4f2ffbe9e921f95"
+      "sha256": "6eb59230d355e9b268b73cbf57366749f67a2bd60697e2c0fdc756af4af13a82"
     },
     {
       "path": "research/function_aware_formal_20261109/numeric/ru_en_mmlu.json",
-      "sha256": "c3699124010ccc2f613687b227131b0b2457cc661d5399d7f9ac743db0db1a43"
+      "sha256": "312ea0c1fc8a7f5114ba16edc4c2626bf28a4514d9bf9162d31eecd81e80cd19"
     },
     {
       "path": "research/function_aware_formal_20261109/numeric/ru_en_reading.json",
-      "sha256": "6b1d50e8cbb0d290401a477f9e77380fe58bc7c18509a8826df6554725e2e131"
+      "sha256": "a9e73f837b74f906f08ffb8a3ded7a3dcde71183cb2811e4c3c9c7b5c95cec73"
     },
     {
       "path": "research/function_aware_formal_20261109/numeric/ru_en_xnli.json",
-      "sha256": "e41093ffc930a716697d18b88c8bcb10f34519abdf4cf8ee072c293748a20a7b"
+      "sha256": "0c8900cea7a24eb9e9251b0654c8a871e0cee13b23b6361fe443e0669e3117e4"
     },
     {
       "path": "research/function_aware_formal_20261109/numeric/ru_target_knowledge.json",
-      "sha256": "0344f56d7f4bdd610e158a5fc87facb35bc8007aaccafc3b66ba0d4550168ce6"
+      "sha256": "fdd1cc53b1976c399f61e96932715836c8d960c991646c52dbe69f86e371f181"
     },
     {
       "path": "research/function_aware_formal_20261109/numeric/ru_target_reading.json",
-      "sha256": "ba57561f7648eb796bf9aebae0311c0847013e8356221710cac25e88475ffae5"
+      "sha256": "c7c8eee81178580526f43aeda8930bd396885cc4d2623aca7535708404622ca5"
     },
     {
       "path": "research/function_aware_formal_20261109/numeric/ru_target_summary.json",
-      "sha256": "1294689f8bccfeef25eef522ba86f4777fd46988fd7754e29d5ea4a8df98c67c"
+      "sha256": "d98c4af204d6ffb05dd330d81ab53a5b19e020101f70e94224fa5b7c0e08236b"
     },
     {
       "path": "research/function_aware_formal_20261109/numeric/ru_target_xnli.json",
-      "sha256": "59f4e0df2cd22ab418adceabca45ce51a58b2dbaaa9eca5014e3d625ab2db41c"
+      "sha256": "fed5847086dc6efbac53860cfb0d3a94b7583c5d39cf7cd2d35c5e13823db53c"
     },
     {
       "path": "research/function_aware_formal_20261109/numeric/sw_en_code.json",
@@ -357,15 +357,15 @@
     },
     {
       "path": "research/function_aware_formal_20261109/paired_changes.csv",
-      "sha256": "d4b2609c0e5f2bf721f944c119a466d0eb5c85f3550c5087e40f51056cecb769"
+      "sha256": "cd72cdc978df04d1438a3b73da0356036510270c925a266af1b113cb5558f195"
     },
     {
       "path": "research/function_aware_formal_20261109/scores_long.csv",
-      "sha256": "6844d04a45e60ed93eb7b5107e975aa91da58736796f62d3c43a67e60e6e4e79"
+      "sha256": "cb0a63b67e9523940b08d8f4f4612faee53abb2ac392b195c368c3fb0ce57c45"
     },
     {
       "path": "research/function_aware_formal_20261109/scores_wide.csv",
-      "sha256": "d33d91c9fb067ba09e41f3f430d15883b16f0a4e56510beb6e5d1c2f7b59dc99"
+      "sha256": "10fa4be2193f9b8e3553d94a21d4987512f219329eb48b115fc166f4a6344301"
     }
   ]
 }

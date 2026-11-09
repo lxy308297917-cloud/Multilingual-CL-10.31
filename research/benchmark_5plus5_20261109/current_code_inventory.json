@@ -1,9 +1,9 @@
 {
-  "at": "2026-11-10T03:52:22.559588+08:00",
+  "at": "2026-11-10T06:03:46.669023+08:00",
   "files": [
     {
       "path": "/path/to/project/scripts/benchmark_5plus5_20261109/README.md",
-      "sha256": "1cbcf6f1fbdcafe3b91a05c31cd3c9ee0f16d1e8852e049f1139c248bb2d8aa0"
+      "sha256": "53a1fe0b4aa5a3f6cf5d96fff3fbef314b3426ff4888603b736f7f403828ecb5"
     },
     {
       "path": "/path/to/project/scripts/benchmark_5plus5_20261109/audit_coverage.py",
@@ -104,6 +104,10 @@
     {
       "path": "/path/to/project/configs/benchmark_5plus5_20261109/sib_manifest.json",
       "sha256": "a17e71a8314ef519d290ced9c174e8b2f7bfaaa20613e8376da0a93a6d7adf5e"
+    },
+    {
+      "path": "/path/to/project/scripts/benchmark_5plus5_20261109/evaluation_costs.py",
+      "sha256": "8602cffdf33a56e7458b6ffb69aa066dd39af4bde3f5e78bf37e5056c95fb8da"
     }
   ],
   "postprocessing_update": {
@@ -131,9 +135,9 @@
     "frozen_gpu_code_unchanged": true
   },
   "latest_change": {
-    "scope": "CPU cost accounting only",
+    "scope": "CPU-only observed FA/FFT evaluation cost report",
     "files": [
-      "scripts/benchmark_5plus5_20261109/report.py"
+      "scripts/benchmark_5plus5_20261109/evaluation_costs.py"
     ],
     "frozen_inference_training_and_scoring_unchanged": true
   }

@@ -138,5 +138,33 @@
     "task": "IFEval instruction strict",
     "path": "/path/to/logs/qwen3-multilingual/aya-4b-20261105/base-generation-v2/core/results/__user__models__Qwen3-4B/samples_sft_v1_ifeval_2026-11-06T03-12-22.973111.jsonl",
     "sha256": "7d859c60a79f7752d062981e5708742f83332b631e19571f6cfc5e2bb1e88d6a"
+  },
+  {
+    "language": "ru",
+    "method": "all",
+    "task": "GSM8K strict",
+    "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ru_all/core/results/__user__models__Qwen3-4B/samples_sft_v1_gsm8k_2026-11-10T05-06-43.894621.jsonl",
+    "sha256": "5c8c182e71ab6ed78271b3ddcc8553dc4cbcc2f193ac8587e484d4c9731081b9"
+  },
+  {
+    "language": "ru",
+    "method": "all",
+    "task": "IFEval instruction strict",
+    "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ru_all/core/results/__user__models__Qwen3-4B/samples_sft_v1_ifeval_2026-11-10T05-06-43.894621.jsonl",
+    "sha256": "9c09df33e7579aef30f623ee14b56b2853593125796f22cc746240e3b5d7d91f"
+  },
+  {
+    "language": "ru",
+    "method": "full",
+    "task": "GSM8K strict",
+    "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ru_full/core/results/__user__models__Qwen3-4B/samples_sft_v1_gsm8k_2026-11-10T05-58-35.600614.jsonl",
+    "sha256": "2cc69fabd42e18f4c5f4bef91e1e27bdeb0ae9be54321eae648ffc4e9439ffe7"
+  },
+  {
+    "language": "ru",
+    "method": "full",
+    "task": "IFEval instruction strict",
+    "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ru_full/core/results/__user__models__Qwen3-4B/samples_sft_v1_ifeval_2026-11-10T05-58-35.600614.jsonl",
+    "sha256": "6b114024fae49e2df9766e351f5881b97ec1d510dd57792911a9cc767a360122"
   }
 ]

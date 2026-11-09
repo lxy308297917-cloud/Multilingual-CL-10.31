@@ -1,6 +1,6 @@
 {
   "status": "INCOMPLETE",
-  "verified_cells": 20,
+  "verified_cells": 24,
   "required_cells": 38,
   "missing": [
     [
@@ -45,26 +45,6 @@
     ],
     [
       "ru",
-      "all",
-      "GSM8K strict"
-    ],
-    [
-      "ru",
-      "all",
-      "IFEval instruction strict"
-    ],
-    [
-      "ru",
-      "full",
-      "GSM8K strict"
-    ],
-    [
-      "ru",
-      "full",
-      "IFEval instruction strict"
-    ],
-    [
-      "ru",
       "kd",
       "GSM8K strict"
     ],
@@ -94,7 +74,7 @@
       "IFEval instruction strict"
     ]
   ],
-  "paired_contrasts": 26,
+  "paired_contrasts": 32,
   "IFEval_score_denominator": 834,
   "IFEval_resampling_clusters": 541,
   "bootstrap_resamples": 2000,

@@ -22,3 +22,5 @@
 历史表导入必须按task和metric双键匹配：IFEval只选prompt_level_strict_acc（541提示），GSM8K只选flexible-extract（1319题），拒绝重复。verify_numeric.py另行核对18个历史主指标值，防止同任务补充行覆盖主指标。更正说明见research/benchmark_5plus5_20261109/metric_correction.json。
 
 只读observe_v3.py在SIB/历史补测结束后仍继续刷新主表，直到22个可执行模型语言行的220个主单元格全部出齐，再自然结束；没有GPU启动或实验恢复功能。
+
+`evaluation_costs.py` 仅在CPU上汇总主线FA/FFT的已完成测评日志，成功、失败、复用和嵌套代码执行分别记录；不会启动任何实验或改变评分协议。

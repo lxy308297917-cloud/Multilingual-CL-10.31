@@ -2,10 +2,10 @@
 
 ## 当前优先：5+5进行中，XQuAD补测已完成
 
-本阶段已完成三语言历史基线完整5+5（60个单元格）、SW/AR候选完整端点、FFT当前排定补测、SIB22端点与XQuAD10端点。其他主线对照及AR/RU方法网格仍在运行，当前主表快照176/220。SW候选尚无超过随机或原36点强参考的明确总体证据；AR候选改善通用能力保持，但相对普通LoRA的AR阅读下降1.78pp、XNLI下降4.19pp，SIB也未改善。FFT保护组仍有指令/代码遗忘。
+本阶段已完成三语言历史基线完整5+5（60个单元格）、SW/AR候选完整端点、RU普通LoRA与均匀72点完整对照、FFT当前排定补测、SIB22端点与XQuAD10端点。其他主线对照及AR/RU方法网格仍在运行，当前主表快照194/220。SW候选尚无超过随机或原36点强参考的明确总体证据；AR候选改善通用能力保持，但相对普通LoRA的AR阅读下降1.78pp、XNLI下降4.19pp，SIB也未改善。FFT保护组仍有指令/代码遗忘。
 
 - [三语言历史基线完整报告](research/benchmark_5plus5_20261109/baseline_report.md)
-- [SW/AR完整候选与当前强对照](research/function_aware_formal_20261109/chatgpt_handoff.md)
+- [SW/AR候选及RU完整强对照](research/function_aware_formal_20261109/chatgpt_handoff.md)
 - [FFT已完成补测及暂缓边界](research/fft_representation_20261109/README.md)
 
 **指标更正：**此前5+5汇总的历史IFEval三行误用了指令级strict；现修正为提示级strict：SW49.35%、AR42.70%、RU42.33%，相应均值已重算。原始预测和历史源分数未变。[更正记录](research/benchmark_5plus5_20261109/metric_correction.json)。

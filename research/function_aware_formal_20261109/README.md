@@ -33,3 +33,7 @@ SW功能权重已用此前完整保存的build-only校准CE直接计算；AR/RU�
 输出固定Final的36层／72点表示漂移及参考回答NLL，作为辅助解释，与下游成效表分开。当前状态为 **NOT_RUN，等待正式benchmark**。新增教师缓存与诊断耗时另计，不把NLL或低漂移当作方法收益。
 
 离线复算入口为 `scripts/function_aware_formal_20261109/verify_numeric.py`，传入本目录并指定 `--family fa` 或 `--family fft`。当前部分单元格可复算通过；`--require-complete`会要求所有预定单元格齐全。验证范围是导出数值的一致性，原始输入与模型身份由独立服务器审计支持。
+
+## 测评成本记录（CPU日志汇总）
+
+[evaluation_costs.json](evaluation_costs.json)记录本轨道已完成测评的启动至完成墙钟、原始计时文件哈希、代码生成与实际隔离执行耗时；失败和复用单列。并行任务时长之和不是自然完成时间或CUDA内核时间，嵌套生成/执行时长不能重复相加。运行 `scripts/benchmark_5plus5_20261109/evaluation_costs.py` 只做CPU汇总，不启动实验；未完成和未知历史成本不填0。训练、教师缓存与校准成本仍见compute_costs.json。

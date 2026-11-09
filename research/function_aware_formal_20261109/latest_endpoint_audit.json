@@ -1,0 +1,399 @@
+{
+  "observed_at": "2026-11-10T04:30:19.394151+08:00",
+  "model": "ru_all",
+  "stage": "summary",
+  "samples": 7780,
+  "ROUGE-Lsum": 18.85625302064479,
+  "raw_per_sample_mean_verified": true,
+  "prediction_sha256_matches_scorer": true,
+  "done_sha256": "8b946a918bff0b36535b8ad1ecc5b95eb289a6350aa4b728b52ced2a39f47400",
+  "model_sha256": "4e9b6524d8ef41412f1dd06f94238149cf40c9a1b7bd85a9020e13a2afad82ee",
+  "source": [
+    {
+      "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ru_all/summary/scores/scores.json",
+      "sha256": "0d29ae91ad4f91108c2d6799e958b89159de069ba07220c11a23987d4aab9aea",
+      "samples": 7780
+    }
+  ],
+  "no_new_gpu_job": true,
+  "additional_verified_endpoints": [
+    {
+      "model": "ru_all",
+      "task": "EN MMLU",
+      "samples": 14042,
+      "subjects": 57,
+      "score": 67.99601196410768,
+      "verification": "Per-option argmax and per-subject/overall means independently recomputed from raw records"
+    },
+    {
+      "model": "ru_all",
+      "task": "HumanEval+",
+      "samples": 164,
+      "correct": 94,
+      "score": 57.31707317073171,
+      "verification": "164 actual execution records complete; plus pass requires base pass; score and executor identities verified",
+      "isolated_execution_wall_seconds": 107.71861014800379
+    }
+  ],
+  "updated_at": "2026-11-10T05:08:01.705357+08:00",
+  "full_ru_plain_5plus5_verified": true,
+  "full_primary_raw_audit": {
+    "status": "INCOMPLETE_FORMAL_RESULTS",
+    "verified_cells": 122,
+    "main_cells_verified": 112,
+    "historical_cells_verified": 10,
+    "required_main_cells": 180,
+    "missing": [
+      [
+        "sw",
+        "full",
+        "target_reading"
+      ],
+      [
+        "sw",
+        "full",
+        "target_summary"
+      ],
+      [
+        "sw",
+        "full",
+        "target_knowledge"
+      ],
+      [
+        "sw",
+        "full",
+        "target_xnli"
+      ],
+      [
+        "sw",
+        "full",
+        "en_mmlu"
+      ],
+      [
+        "sw",
+        "full",
+        "en_reading"
+      ],
+      [
+        "sw",
+        "full",
+        "en_xnli"
+      ],
+      [
+        "sw",
+        "kd",
+        "target_knowledge"
+      ],
+      [
+        "sw",
+        "kd",
+        "en_gsm8k"
+      ],
+      [
+        "sw",
+        "kd",
+        "en_ifeval"
+      ],
+      [
+        "sw",
+        "kd",
+        "en_code"
+      ],
+      [
+        "ar",
+        "all",
+        "target_summary"
+      ],
+      [
+        "ar",
+        "full",
+        "target_reading"
+      ],
+      [
+        "ar",
+        "full",
+        "target_summary"
+      ],
+      [
+        "ar",
+        "full",
+        "target_knowledge"
+      ],
+      [
+        "ar",
+        "full",
+        "target_xnli"
+      ],
+      [
+        "ar",
+        "full",
+        "en_gsm8k"
+      ],
+      [
+        "ar",
+        "full",
+        "en_ifeval"
+      ],
+      [
+        "ar",
+        "full",
+        "en_mmlu"
+      ],
+      [
+        "ar",
+        "full",
+        "en_code"
+      ],
+      [
+        "ar",
+        "full",
+        "en_reading"
+      ],
+      [
+        "ar",
+        "full",
+        "en_xnli"
+      ],
+      [
+        "ar",
+        "kd",
+        "target_reading"
+      ],
+      [
+        "ar",
+        "kd",
+        "target_summary"
+      ],
+      [
+        "ar",
+        "kd",
+        "target_knowledge"
+      ],
+      [
+        "ar",
+        "kd",
+        "target_xnli"
+      ],
+      [
+        "ar",
+        "kd",
+        "en_gsm8k"
+      ],
+      [
+        "ar",
+        "kd",
+        "en_ifeval"
+      ],
+      [
+        "ar",
+        "kd",
+        "en_mmlu"
+      ],
+      [
+        "ar",
+        "kd",
+        "en_code"
+      ],
+      [
+        "ar",
+        "kd",
+        "en_reading"
+      ],
+      [
+        "ar",
+        "kd",
+        "en_xnli"
+      ],
+      [
+        "ar",
+        "random",
+        "target_reading"
+      ],
+      [
+        "ar",
+        "random",
+        "target_summary"
+      ],
+      [
+        "ar",
+        "random",
+        "target_knowledge"
+      ],
+      [
+        "ar",
+        "random",
+        "target_xnli"
+      ],
+      [
+        "ar",
+        "random",
+        "en_gsm8k"
+      ],
+      [
+        "ar",
+        "random",
+        "en_ifeval"
+      ],
+      [
+        "ar",
+        "random",
+        "en_mmlu"
+      ],
+      [
+        "ar",
+        "random",
+        "en_code"
+      ],
+      [
+        "ar",
+        "random",
+        "en_reading"
+      ],
+      [
+        "ar",
+        "random",
+        "en_xnli"
+      ],
+      [
+        "ru",
+        "kd",
+        "target_reading"
+      ],
+      [
+        "ru",
+        "kd",
+        "target_summary"
+      ],
+      [
+        "ru",
+        "kd",
+        "target_knowledge"
+      ],
+      [
+        "ru",
+        "kd",
+        "target_xnli"
+      ],
+      [
+        "ru",
+        "kd",
+        "en_gsm8k"
+      ],
+      [
+        "ru",
+        "kd",
+        "en_ifeval"
+      ],
+      [
+        "ru",
+        "kd",
+        "en_mmlu"
+      ],
+      [
+        "ru",
+        "kd",
+        "en_code"
+      ],
+      [
+        "ru",
+        "kd",
+        "en_reading"
+      ],
+      [
+        "ru",
+        "kd",
+        "en_xnli"
+      ],
+      [
+        "ru",
+        "random",
+        "target_summary"
+      ],
+      [
+        "ru",
+        "random",
+        "target_knowledge"
+      ],
+      [
+        "ru",
+        "random",
+        "en_gsm8k"
+      ],
+      [
+        "ru",
+        "random",
+        "en_ifeval"
+      ],
+      [
+        "ru",
+        "random",
+        "en_mmlu"
+      ],
+      [
+        "ru",
+        "random",
+        "en_code"
+      ],
+      [
+        "ru",
+        "function",
+        "target_reading"
+      ],
+      [
+        "ru",
+        "function",
+        "target_summary"
+      ],
+      [
+        "ru",
+        "function",
+        "target_knowledge"
+      ],
+      [
+        "ru",
+        "function",
+        "target_xnli"
+      ],
+      [
+        "ru",
+        "function",
+        "en_gsm8k"
+      ],
+      [
+        "ru",
+        "function",
+        "en_ifeval"
+      ],
+      [
+        "ru",
+        "function",
+        "en_mmlu"
+      ],
+      [
+        "ru",
+        "function",
+        "en_code"
+      ],
+      [
+        "ru",
+        "function",
+        "en_reading"
+      ],
+      [
+        "ru",
+        "function",
+        "en_xnli"
+      ]
+    ],
+    "paired_comparisons": 163,
+    "all_acc_argmax_recomputed": true,
+    "all_aggregates_match_items": true,
+    "paired_identity_verified": true,
+    "bootstrap_resamples": 2000,
+    "bootstrap_note": "Fixed model/benchmark uncertainty only, not training-seed robustness; no multiple-comparison correction; no method selection",
+    "question_text_publication": false
+  },
+  "scores_5plus5_sha256": "10c205cb0a798d4dd112bf7706f0796543084febf5497aff6703715838bab768",
+  "full_ru_uniform_5plus5_verified": true,
+  "paired_changes_sha256": "cd72cdc978df04d1438a3b73da0356036510270c925a266af1b113cb5558f195"
+}

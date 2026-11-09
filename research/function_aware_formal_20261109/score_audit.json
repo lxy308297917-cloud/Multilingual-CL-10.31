@@ -1,7 +1,7 @@
 {
   "status": "INCOMPLETE_FORMAL_RESULTS",
-  "verified_cells": 102,
-  "main_cells_verified": 92,
+  "verified_cells": 122,
+  "main_cells_verified": 112,
   "historical_cells_verified": 10,
   "required_main_cells": 180,
   "missing": [
@@ -217,86 +217,6 @@
     ],
     [
       "ru",
-      "all",
-      "target_summary"
-    ],
-    [
-      "ru",
-      "all",
-      "target_knowledge"
-    ],
-    [
-      "ru",
-      "all",
-      "en_gsm8k"
-    ],
-    [
-      "ru",
-      "all",
-      "en_ifeval"
-    ],
-    [
-      "ru",
-      "all",
-      "en_mmlu"
-    ],
-    [
-      "ru",
-      "all",
-      "en_code"
-    ],
-    [
-      "ru",
-      "full",
-      "target_reading"
-    ],
-    [
-      "ru",
-      "full",
-      "target_summary"
-    ],
-    [
-      "ru",
-      "full",
-      "target_knowledge"
-    ],
-    [
-      "ru",
-      "full",
-      "target_xnli"
-    ],
-    [
-      "ru",
-      "full",
-      "en_gsm8k"
-    ],
-    [
-      "ru",
-      "full",
-      "en_ifeval"
-    ],
-    [
-      "ru",
-      "full",
-      "en_mmlu"
-    ],
-    [
-      "ru",
-      "full",
-      "en_code"
-    ],
-    [
-      "ru",
-      "full",
-      "en_reading"
-    ],
-    [
-      "ru",
-      "full",
-      "en_xnli"
-    ],
-    [
-      "ru",
       "kd",
       "target_reading"
     ],
@@ -348,22 +268,12 @@
     [
       "ru",
       "random",
-      "target_reading"
-    ],
-    [
-      "ru",
-      "random",
       "target_summary"
     ],
     [
       "ru",
       "random",
       "target_knowledge"
-    ],
-    [
-      "ru",
-      "random",
-      "target_xnli"
     ],
     [
       "ru",
@@ -384,16 +294,6 @@
       "ru",
       "random",
       "en_code"
-    ],
-    [
-      "ru",
-      "random",
-      "en_reading"
-    ],
-    [
-      "ru",
-      "random",
-      "en_xnli"
     ],
     [
       "ru",
@@ -446,7 +346,7 @@
       "en_xnli"
     ]
   ],
-  "paired_comparisons": 129,
+  "paired_comparisons": 163,
   "all_acc_argmax_recomputed": true,
   "all_aggregates_match_items": true,
   "paired_identity_verified": true,
