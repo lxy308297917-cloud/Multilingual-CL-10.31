@@ -1,0 +1,20 @@
+{
+  "at": "2026-11-09T23:06:47.639931+08:00",
+  "updates": [
+    {
+      "family": "fa",
+      "waiting_workers_requeued": 4,
+      "scientific_evaluator_unchanged": true,
+      "account_limit": 5,
+      "reason": "Prevent old four-GPU guard from leaving an available fifth GPU idle while prioritized benchmarks wait. Explicit user authorization; no change to scientific protocol."
+    },
+    {
+      "family": "fft",
+      "waiting_workers_requeued": 2,
+      "scientific_evaluator_unchanged": true,
+      "account_limit": 5,
+      "reason": "Prevent old four-GPU guard from leaving an available fifth GPU idle while prioritized benchmarks wait. Explicit user authorization; no change to scientific protocol."
+    }
+  ],
+  "actual_gpu_jobs_interrupted": 0
+}

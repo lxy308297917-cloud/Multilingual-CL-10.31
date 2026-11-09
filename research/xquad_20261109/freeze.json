@@ -1,0 +1,36 @@
+{
+  "at": "2026-11-09T22:37:53.682158+08:00",
+  "max_account_gpus": 5,
+  "models": 10,
+  "languages": [
+    "ar",
+    "ru"
+  ],
+  "sw": "UNSUPPORTED",
+  "files": [
+    {
+      "path": "/path/to/project/scripts/xquad_20261109/schedule.py",
+      "sha256": "cc500dbdc94a34e40cfc5671b7aa3e47682dedd9c55a4308fbcd71128ec9cc65"
+    },
+    {
+      "path": "/path/to/project/scripts/xquad_20261109/utils.py",
+      "sha256": "6194dc964a5d0066c52d4fee2ed379d0b1216c5528b84b25d044d0731c0d3cc6"
+    },
+    {
+      "path": "/path/to/project/scripts/xquad_20261109/prepare.py",
+      "sha256": "1e5145fbfa1617a9dc79c23ae2202c87faace6cd7455952db106a06d505e4d76"
+    },
+    {
+      "path": "/path/to/project/scripts/xquad_20261109/evaluate.py",
+      "sha256": "69ed5303f76ae7738072377cf6933bdaeb01c65aea0d6443074a505275062d38"
+    },
+    {
+      "path": "/path/to/project/configs/xquad_20261109/models.json",
+      "sha256": "60e39dcd45cc45c7142bd92efa2470da6b6d0a43cc2fb5b01637e695294882a4"
+    },
+    {
+      "path": "/path/to/project/configs/xquad_20261109/data_manifest.json",
+      "sha256": "8f6f824035b695007dea61a8984f974825129b85d310f0c62a2fdd17dd65d5d2"
+    }
+  ]
+}

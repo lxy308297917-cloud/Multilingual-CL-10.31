@@ -1,0 +1,734 @@
+[
+  {
+    "model": "sw_Base",
+    "task": "Belebele",
+    "source": "/path/to/project/research/function_aware_formal_20261109/scores_long.csv",
+    "source_sha256": "3c55eb236251c4017cb6b0aba6199924c19466e4ee033a2b1b8c1898535439c8"
+  },
+  {
+    "model": "sw_Base",
+    "task": "XL-Sum",
+    "source": "/path/to/project/research/function_aware_formal_20261109/scores_long.csv",
+    "source_sha256": "3c55eb236251c4017cb6b0aba6199924c19466e4ee033a2b1b8c1898535439c8"
+  },
+  {
+    "model": "sw_Base",
+    "task": "Global-MMLU",
+    "source": "/path/to/project/research/function_aware_formal_20261109/scores_long.csv",
+    "source_sha256": "3c55eb236251c4017cb6b0aba6199924c19466e4ee033a2b1b8c1898535439c8"
+  },
+  {
+    "model": "sw_Base",
+    "task": "XNLI",
+    "source": "/path/to/project/research/function_aware_formal_20261109/scores_long.csv",
+    "source_sha256": "3c55eb236251c4017cb6b0aba6199924c19466e4ee033a2b1b8c1898535439c8"
+  },
+  {
+    "model": "sw_Base",
+    "task": "GSM8K",
+    "source": "/path/to/project/research/function_aware_formal_20261109/scores_long.csv",
+    "source_sha256": "3c55eb236251c4017cb6b0aba6199924c19466e4ee033a2b1b8c1898535439c8"
+  },
+  {
+    "model": "sw_Base",
+    "task": "IFEval",
+    "source": "/path/to/project/research/function_aware_formal_20261109/scores_long.csv",
+    "source_sha256": "3c55eb236251c4017cb6b0aba6199924c19466e4ee033a2b1b8c1898535439c8"
+  },
+  {
+    "model": "sw_Base",
+    "task": "EN MMLU",
+    "source": "/path/to/project/research/function_aware_formal_20261109/scores_long.csv",
+    "source_sha256": "3c55eb236251c4017cb6b0aba6199924c19466e4ee033a2b1b8c1898535439c8"
+  },
+  {
+    "model": "sw_Base",
+    "task": "HumanEval+",
+    "source": "/path/to/project/research/function_aware_formal_20261109/scores_long.csv",
+    "source_sha256": "3c55eb236251c4017cb6b0aba6199924c19466e4ee033a2b1b8c1898535439c8"
+  },
+  {
+    "model": "sw_Base",
+    "task": "EN Belebele",
+    "source": "/path/to/project/research/function_aware_formal_20261109/scores_long.csv",
+    "source_sha256": "3c55eb236251c4017cb6b0aba6199924c19466e4ee033a2b1b8c1898535439c8"
+  },
+  {
+    "model": "sw_all",
+    "task": "Belebele",
+    "source": "/path/to/project/research/function_aware_formal_20261109/scores_long.csv",
+    "source_sha256": "3c55eb236251c4017cb6b0aba6199924c19466e4ee033a2b1b8c1898535439c8"
+  },
+  {
+    "model": "sw_all",
+    "task": "XL-Sum",
+    "source": "/path/to/project/research/function_aware_formal_20261109/scores_long.csv",
+    "source_sha256": "3c55eb236251c4017cb6b0aba6199924c19466e4ee033a2b1b8c1898535439c8"
+  },
+  {
+    "model": "sw_all",
+    "task": "Global-MMLU",
+    "source": "/path/to/project/research/function_aware_formal_20261109/scores_long.csv",
+    "source_sha256": "3c55eb236251c4017cb6b0aba6199924c19466e4ee033a2b1b8c1898535439c8"
+  },
+  {
+    "model": "sw_all",
+    "task": "XNLI",
+    "source": "/path/to/project/research/function_aware_formal_20261109/scores_long.csv",
+    "source_sha256": "3c55eb236251c4017cb6b0aba6199924c19466e4ee033a2b1b8c1898535439c8"
+  },
+  {
+    "model": "sw_all",
+    "task": "GSM8K",
+    "source": "/path/to/project/research/function_aware_formal_20261109/scores_long.csv",
+    "source_sha256": "3c55eb236251c4017cb6b0aba6199924c19466e4ee033a2b1b8c1898535439c8"
+  },
+  {
+    "model": "sw_all",
+    "task": "IFEval",
+    "source": "/path/to/project/research/function_aware_formal_20261109/scores_long.csv",
+    "source_sha256": "3c55eb236251c4017cb6b0aba6199924c19466e4ee033a2b1b8c1898535439c8"
+  },
+  {
+    "model": "sw_all",
+    "task": "EN MMLU",
+    "source": "/path/to/project/research/function_aware_formal_20261109/scores_long.csv",
+    "source_sha256": "3c55eb236251c4017cb6b0aba6199924c19466e4ee033a2b1b8c1898535439c8"
+  },
+  {
+    "model": "sw_all",
+    "task": "HumanEval+",
+    "source": "/path/to/project/research/function_aware_formal_20261109/scores_long.csv",
+    "source_sha256": "3c55eb236251c4017cb6b0aba6199924c19466e4ee033a2b1b8c1898535439c8"
+  },
+  {
+    "model": "sw_all",
+    "task": "EN Belebele",
+    "source": "/path/to/project/research/function_aware_formal_20261109/scores_long.csv",
+    "source_sha256": "3c55eb236251c4017cb6b0aba6199924c19466e4ee033a2b1b8c1898535439c8"
+  },
+  {
+    "model": "sw_kd",
+    "task": "Belebele",
+    "source": "/path/to/project/research/function_aware_formal_20261109/scores_long.csv",
+    "source_sha256": "3c55eb236251c4017cb6b0aba6199924c19466e4ee033a2b1b8c1898535439c8"
+  },
+  {
+    "model": "sw_kd",
+    "task": "XL-Sum",
+    "source": "/path/to/project/research/function_aware_formal_20261109/scores_long.csv",
+    "source_sha256": "3c55eb236251c4017cb6b0aba6199924c19466e4ee033a2b1b8c1898535439c8"
+  },
+  {
+    "model": "sw_kd",
+    "task": "XNLI",
+    "source": "/path/to/project/research/function_aware_formal_20261109/scores_long.csv",
+    "source_sha256": "3c55eb236251c4017cb6b0aba6199924c19466e4ee033a2b1b8c1898535439c8"
+  },
+  {
+    "model": "sw_kd",
+    "task": "EN MMLU",
+    "source": "/path/to/project/research/function_aware_formal_20261109/scores_long.csv",
+    "source_sha256": "3c55eb236251c4017cb6b0aba6199924c19466e4ee033a2b1b8c1898535439c8"
+  },
+  {
+    "model": "sw_kd",
+    "task": "EN Belebele",
+    "source": "/path/to/project/research/function_aware_formal_20261109/scores_long.csv",
+    "source_sha256": "3c55eb236251c4017cb6b0aba6199924c19466e4ee033a2b1b8c1898535439c8"
+  },
+  {
+    "model": "ar_Base",
+    "task": "Belebele",
+    "source": "/path/to/project/research/function_aware_formal_20261109/scores_long.csv",
+    "source_sha256": "3c55eb236251c4017cb6b0aba6199924c19466e4ee033a2b1b8c1898535439c8"
+  },
+  {
+    "model": "ar_Base",
+    "task": "XL-Sum",
+    "source": "/path/to/project/research/function_aware_formal_20261109/scores_long.csv",
+    "source_sha256": "3c55eb236251c4017cb6b0aba6199924c19466e4ee033a2b1b8c1898535439c8"
+  },
+  {
+    "model": "ar_Base",
+    "task": "Global-MMLU",
+    "source": "/path/to/project/research/function_aware_formal_20261109/scores_long.csv",
+    "source_sha256": "3c55eb236251c4017cb6b0aba6199924c19466e4ee033a2b1b8c1898535439c8"
+  },
+  {
+    "model": "ar_Base",
+    "task": "XNLI",
+    "source": "/path/to/project/research/function_aware_formal_20261109/scores_long.csv",
+    "source_sha256": "3c55eb236251c4017cb6b0aba6199924c19466e4ee033a2b1b8c1898535439c8"
+  },
+  {
+    "model": "ar_Base",
+    "task": "GSM8K",
+    "source": "/path/to/project/research/function_aware_formal_20261109/scores_long.csv",
+    "source_sha256": "3c55eb236251c4017cb6b0aba6199924c19466e4ee033a2b1b8c1898535439c8"
+  },
+  {
+    "model": "ar_Base",
+    "task": "IFEval",
+    "source": "/path/to/project/research/function_aware_formal_20261109/scores_long.csv",
+    "source_sha256": "3c55eb236251c4017cb6b0aba6199924c19466e4ee033a2b1b8c1898535439c8"
+  },
+  {
+    "model": "ar_Base",
+    "task": "EN MMLU",
+    "source": "/path/to/project/research/function_aware_formal_20261109/scores_long.csv",
+    "source_sha256": "3c55eb236251c4017cb6b0aba6199924c19466e4ee033a2b1b8c1898535439c8"
+  },
+  {
+    "model": "ar_Base",
+    "task": "HumanEval+",
+    "source": "/path/to/project/research/function_aware_formal_20261109/scores_long.csv",
+    "source_sha256": "3c55eb236251c4017cb6b0aba6199924c19466e4ee033a2b1b8c1898535439c8"
+  },
+  {
+    "model": "ar_Base",
+    "task": "EN Belebele",
+    "source": "/path/to/project/research/function_aware_formal_20261109/scores_long.csv",
+    "source_sha256": "3c55eb236251c4017cb6b0aba6199924c19466e4ee033a2b1b8c1898535439c8"
+  },
+  {
+    "model": "ar_all",
+    "task": "Belebele",
+    "source": "/path/to/project/research/function_aware_formal_20261109/scores_long.csv",
+    "source_sha256": "3c55eb236251c4017cb6b0aba6199924c19466e4ee033a2b1b8c1898535439c8"
+  },
+  {
+    "model": "ar_all",
+    "task": "XNLI",
+    "source": "/path/to/project/research/function_aware_formal_20261109/scores_long.csv",
+    "source_sha256": "3c55eb236251c4017cb6b0aba6199924c19466e4ee033a2b1b8c1898535439c8"
+  },
+  {
+    "model": "ar_all",
+    "task": "EN Belebele",
+    "source": "/path/to/project/research/function_aware_formal_20261109/scores_long.csv",
+    "source_sha256": "3c55eb236251c4017cb6b0aba6199924c19466e4ee033a2b1b8c1898535439c8"
+  },
+  {
+    "model": "ru_Base",
+    "task": "Belebele",
+    "source": "/path/to/project/research/function_aware_formal_20261109/scores_long.csv",
+    "source_sha256": "3c55eb236251c4017cb6b0aba6199924c19466e4ee033a2b1b8c1898535439c8"
+  },
+  {
+    "model": "ru_Base",
+    "task": "XL-Sum",
+    "source": "/path/to/project/research/function_aware_formal_20261109/scores_long.csv",
+    "source_sha256": "3c55eb236251c4017cb6b0aba6199924c19466e4ee033a2b1b8c1898535439c8"
+  },
+  {
+    "model": "ru_Base",
+    "task": "Global-MMLU",
+    "source": "/path/to/project/research/function_aware_formal_20261109/scores_long.csv",
+    "source_sha256": "3c55eb236251c4017cb6b0aba6199924c19466e4ee033a2b1b8c1898535439c8"
+  },
+  {
+    "model": "ru_Base",
+    "task": "XNLI",
+    "source": "/path/to/project/research/function_aware_formal_20261109/scores_long.csv",
+    "source_sha256": "3c55eb236251c4017cb6b0aba6199924c19466e4ee033a2b1b8c1898535439c8"
+  },
+  {
+    "model": "ru_Base",
+    "task": "GSM8K",
+    "source": "/path/to/project/research/function_aware_formal_20261109/scores_long.csv",
+    "source_sha256": "3c55eb236251c4017cb6b0aba6199924c19466e4ee033a2b1b8c1898535439c8"
+  },
+  {
+    "model": "ru_Base",
+    "task": "IFEval",
+    "source": "/path/to/project/research/function_aware_formal_20261109/scores_long.csv",
+    "source_sha256": "3c55eb236251c4017cb6b0aba6199924c19466e4ee033a2b1b8c1898535439c8"
+  },
+  {
+    "model": "ru_Base",
+    "task": "EN MMLU",
+    "source": "/path/to/project/research/function_aware_formal_20261109/scores_long.csv",
+    "source_sha256": "3c55eb236251c4017cb6b0aba6199924c19466e4ee033a2b1b8c1898535439c8"
+  },
+  {
+    "model": "ru_Base",
+    "task": "HumanEval+",
+    "source": "/path/to/project/research/function_aware_formal_20261109/scores_long.csv",
+    "source_sha256": "3c55eb236251c4017cb6b0aba6199924c19466e4ee033a2b1b8c1898535439c8"
+  },
+  {
+    "model": "ru_Base",
+    "task": "EN Belebele",
+    "source": "/path/to/project/research/function_aware_formal_20261109/scores_long.csv",
+    "source_sha256": "3c55eb236251c4017cb6b0aba6199924c19466e4ee033a2b1b8c1898535439c8"
+  },
+  {
+    "model": "historical_fft",
+    "task": "Belebele",
+    "source": "/path/to/project/research/fft_representation_20261109/scores.csv",
+    "source_sha256": "3c4524a4819909a80642417a6063cf242577d5a21ad632092be8666bdd5c04d5"
+  },
+  {
+    "model": "historical_fft",
+    "task": "XL-Sum",
+    "source": "/path/to/project/research/fft_representation_20261109/scores.csv",
+    "source_sha256": "3c4524a4819909a80642417a6063cf242577d5a21ad632092be8666bdd5c04d5"
+  },
+  {
+    "model": "historical_fft",
+    "task": "Global-MMLU",
+    "source": "/path/to/project/research/fft_representation_20261109/scores.csv",
+    "source_sha256": "3c4524a4819909a80642417a6063cf242577d5a21ad632092be8666bdd5c04d5"
+  },
+  {
+    "model": "historical_fft",
+    "task": "XNLI",
+    "source": "/path/to/project/research/fft_representation_20261109/scores.csv",
+    "source_sha256": "3c4524a4819909a80642417a6063cf242577d5a21ad632092be8666bdd5c04d5"
+  },
+  {
+    "model": "historical_fft",
+    "task": "EN Belebele",
+    "source": "/path/to/project/research/fft_representation_20261109/scores.csv",
+    "source_sha256": "3c4524a4819909a80642417a6063cf242577d5a21ad632092be8666bdd5c04d5"
+  },
+  {
+    "model": "historical_fft",
+    "task": "EN MMLU",
+    "source": "/path/to/project/research/fft_representation_20261109/scores.csv",
+    "source_sha256": "3c4524a4819909a80642417a6063cf242577d5a21ad632092be8666bdd5c04d5"
+  },
+  {
+    "model": "historical_fft",
+    "task": "GSM8K",
+    "source": "/path/to/project/research/fft_representation_20261109/scores.csv",
+    "source_sha256": "3c4524a4819909a80642417a6063cf242577d5a21ad632092be8666bdd5c04d5"
+  },
+  {
+    "model": "historical_fft",
+    "task": "IFEval",
+    "source": "/path/to/project/research/fft_representation_20261109/scores.csv",
+    "source_sha256": "3c4524a4819909a80642417a6063cf242577d5a21ad632092be8666bdd5c04d5"
+  },
+  {
+    "model": "historical_fft",
+    "task": "HumanEval+",
+    "source": "/path/to/project/research/fft_representation_20261109/scores.csv",
+    "source_sha256": "3c4524a4819909a80642417a6063cf242577d5a21ad632092be8666bdd5c04d5"
+  },
+  {
+    "model": "p2_full36",
+    "task": "Belebele",
+    "source": "/path/to/project/research/fft_representation_20261109/scores.csv",
+    "source_sha256": "3c4524a4819909a80642417a6063cf242577d5a21ad632092be8666bdd5c04d5"
+  },
+  {
+    "model": "p2_full36",
+    "task": "XL-Sum",
+    "source": "/path/to/project/research/fft_representation_20261109/scores.csv",
+    "source_sha256": "3c4524a4819909a80642417a6063cf242577d5a21ad632092be8666bdd5c04d5"
+  },
+  {
+    "model": "p2_full36",
+    "task": "Global-MMLU",
+    "source": "/path/to/project/research/fft_representation_20261109/scores.csv",
+    "source_sha256": "3c4524a4819909a80642417a6063cf242577d5a21ad632092be8666bdd5c04d5"
+  },
+  {
+    "model": "p2_full36",
+    "task": "XNLI",
+    "source": "/path/to/project/research/fft_representation_20261109/scores.csv",
+    "source_sha256": "3c4524a4819909a80642417a6063cf242577d5a21ad632092be8666bdd5c04d5"
+  },
+  {
+    "model": "p2_full36",
+    "task": "EN Belebele",
+    "source": "/path/to/project/research/fft_representation_20261109/scores.csv",
+    "source_sha256": "3c4524a4819909a80642417a6063cf242577d5a21ad632092be8666bdd5c04d5"
+  },
+  {
+    "model": "p2_full36",
+    "task": "GSM8K",
+    "source": "/path/to/project/research/fft_representation_20261109/scores.csv",
+    "source_sha256": "3c4524a4819909a80642417a6063cf242577d5a21ad632092be8666bdd5c04d5"
+  },
+  {
+    "model": "p2_full36",
+    "task": "IFEval",
+    "source": "/path/to/project/research/fft_representation_20261109/scores.csv",
+    "source_sha256": "3c4524a4819909a80642417a6063cf242577d5a21ad632092be8666bdd5c04d5"
+  },
+  {
+    "model": "p2_full36",
+    "task": "HumanEval+",
+    "source": "/path/to/project/research/fft_representation_20261109/scores.csv",
+    "source_sha256": "3c4524a4819909a80642417a6063cf242577d5a21ad632092be8666bdd5c04d5"
+  },
+  {
+    "model": "p2_ce",
+    "task": "Belebele",
+    "source": "/path/to/project/research/fft_representation_20261109/scores.csv",
+    "source_sha256": "3c4524a4819909a80642417a6063cf242577d5a21ad632092be8666bdd5c04d5"
+  },
+  {
+    "model": "p2_ce",
+    "task": "XL-Sum",
+    "source": "/path/to/project/research/fft_representation_20261109/scores.csv",
+    "source_sha256": "3c4524a4819909a80642417a6063cf242577d5a21ad632092be8666bdd5c04d5"
+  },
+  {
+    "model": "p2_ce",
+    "task": "Global-MMLU",
+    "source": "/path/to/project/research/fft_representation_20261109/scores.csv",
+    "source_sha256": "3c4524a4819909a80642417a6063cf242577d5a21ad632092be8666bdd5c04d5"
+  },
+  {
+    "model": "p2_ce",
+    "task": "XNLI",
+    "source": "/path/to/project/research/fft_representation_20261109/scores.csv",
+    "source_sha256": "3c4524a4819909a80642417a6063cf242577d5a21ad632092be8666bdd5c04d5"
+  },
+  {
+    "model": "p2_ce",
+    "task": "EN Belebele",
+    "source": "/path/to/project/research/fft_representation_20261109/scores.csv",
+    "source_sha256": "3c4524a4819909a80642417a6063cf242577d5a21ad632092be8666bdd5c04d5"
+  },
+  {
+    "model": "p2_ce",
+    "task": "GSM8K",
+    "source": "/path/to/project/research/fft_representation_20261109/scores.csv",
+    "source_sha256": "3c4524a4819909a80642417a6063cf242577d5a21ad632092be8666bdd5c04d5"
+  },
+  {
+    "model": "p2_ce",
+    "task": "IFEval",
+    "source": "/path/to/project/research/fft_representation_20261109/scores.csv",
+    "source_sha256": "3c4524a4819909a80642417a6063cf242577d5a21ad632092be8666bdd5c04d5"
+  },
+  {
+    "model": "p2_ce",
+    "task": "HumanEval+",
+    "source": "/path/to/project/research/fft_representation_20261109/scores.csv",
+    "source_sha256": "3c4524a4819909a80642417a6063cf242577d5a21ad632092be8666bdd5c04d5"
+  },
+  {
+    "model": "historical_ssu",
+    "task": "Belebele",
+    "source": "/path/to/project/research/fft_representation_20261109/scores.csv",
+    "source_sha256": "3c4524a4819909a80642417a6063cf242577d5a21ad632092be8666bdd5c04d5"
+  },
+  {
+    "model": "historical_ssu",
+    "task": "XL-Sum",
+    "source": "/path/to/project/research/fft_representation_20261109/scores.csv",
+    "source_sha256": "3c4524a4819909a80642417a6063cf242577d5a21ad632092be8666bdd5c04d5"
+  },
+  {
+    "model": "historical_ssu",
+    "task": "Global-MMLU",
+    "source": "/path/to/project/research/fft_representation_20261109/scores.csv",
+    "source_sha256": "3c4524a4819909a80642417a6063cf242577d5a21ad632092be8666bdd5c04d5"
+  },
+  {
+    "model": "historical_ssu",
+    "task": "XNLI",
+    "source": "/path/to/project/research/fft_representation_20261109/scores.csv",
+    "source_sha256": "3c4524a4819909a80642417a6063cf242577d5a21ad632092be8666bdd5c04d5"
+  },
+  {
+    "model": "historical_ssu",
+    "task": "EN Belebele",
+    "source": "/path/to/project/research/fft_representation_20261109/scores.csv",
+    "source_sha256": "3c4524a4819909a80642417a6063cf242577d5a21ad632092be8666bdd5c04d5"
+  },
+  {
+    "model": "historical_ssu",
+    "task": "EN MMLU",
+    "source": "/path/to/project/research/fft_representation_20261109/scores.csv",
+    "source_sha256": "3c4524a4819909a80642417a6063cf242577d5a21ad632092be8666bdd5c04d5"
+  },
+  {
+    "model": "historical_ssu",
+    "task": "GSM8K",
+    "source": "/path/to/project/research/fft_representation_20261109/scores.csv",
+    "source_sha256": "3c4524a4819909a80642417a6063cf242577d5a21ad632092be8666bdd5c04d5"
+  },
+  {
+    "model": "historical_ssu",
+    "task": "IFEval",
+    "source": "/path/to/project/research/fft_representation_20261109/scores.csv",
+    "source_sha256": "3c4524a4819909a80642417a6063cf242577d5a21ad632092be8666bdd5c04d5"
+  },
+  {
+    "model": "historical_ssu",
+    "task": "HumanEval+",
+    "source": "/path/to/project/research/fft_representation_20261109/scores.csv",
+    "source_sha256": "3c4524a4819909a80642417a6063cf242577d5a21ad632092be8666bdd5c04d5"
+  },
+  {
+    "model": "sw_historical_lora",
+    "task": "Belebele",
+    "source": "/path/to/project/research/updates_20261108/aya-4b-generalization-20261107/three-language-scores.csv",
+    "source_sha256": "fba235a2a2580fe66ff9df2cdaf809a2a4d4959848200a8f4608c126fc1c785a"
+  },
+  {
+    "model": "sw_historical_lora",
+    "task": "XNLI",
+    "source": "/path/to/project/research/updates_20261108/aya-4b-generalization-20261107/three-language-scores.csv",
+    "source_sha256": "fba235a2a2580fe66ff9df2cdaf809a2a4d4959848200a8f4608c126fc1c785a"
+  },
+  {
+    "model": "sw_historical_lora",
+    "task": "XL-Sum",
+    "source": "/path/to/project/research/updates_20261108/aya-4b-generalization-20261107/three-language-scores.csv",
+    "source_sha256": "fba235a2a2580fe66ff9df2cdaf809a2a4d4959848200a8f4608c126fc1c785a"
+  },
+  {
+    "model": "sw_historical_lora",
+    "task": "EN Belebele",
+    "source": "/path/to/project/research/updates_20261108/aya-4b-generalization-20261107/three-language-scores.csv",
+    "source_sha256": "fba235a2a2580fe66ff9df2cdaf809a2a4d4959848200a8f4608c126fc1c785a"
+  },
+  {
+    "model": "sw_historical_lora",
+    "task": "GSM8K",
+    "source": "/path/to/project/research/updates_20261108/aya-4b-generalization-20261107/three-language-scores.csv",
+    "source_sha256": "fba235a2a2580fe66ff9df2cdaf809a2a4d4959848200a8f4608c126fc1c785a"
+  },
+  {
+    "model": "sw_historical_lora",
+    "task": "GSM8K",
+    "source": "/path/to/project/research/updates_20261108/aya-4b-generalization-20261107/three-language-scores.csv",
+    "source_sha256": "fba235a2a2580fe66ff9df2cdaf809a2a4d4959848200a8f4608c126fc1c785a"
+  },
+  {
+    "model": "sw_historical_lora",
+    "task": "IFEval",
+    "source": "/path/to/project/research/updates_20261108/aya-4b-generalization-20261107/three-language-scores.csv",
+    "source_sha256": "fba235a2a2580fe66ff9df2cdaf809a2a4d4959848200a8f4608c126fc1c785a"
+  },
+  {
+    "model": "sw_historical_lora",
+    "task": "IFEval",
+    "source": "/path/to/project/research/updates_20261108/aya-4b-generalization-20261107/three-language-scores.csv",
+    "source_sha256": "fba235a2a2580fe66ff9df2cdaf809a2a4d4959848200a8f4608c126fc1c785a"
+  },
+  {
+    "model": "ar_historical_lora",
+    "task": "Belebele",
+    "source": "/path/to/project/research/updates_20261108/aya-4b-generalization-20261107/three-language-scores.csv",
+    "source_sha256": "fba235a2a2580fe66ff9df2cdaf809a2a4d4959848200a8f4608c126fc1c785a"
+  },
+  {
+    "model": "ar_historical_lora",
+    "task": "XNLI",
+    "source": "/path/to/project/research/updates_20261108/aya-4b-generalization-20261107/three-language-scores.csv",
+    "source_sha256": "fba235a2a2580fe66ff9df2cdaf809a2a4d4959848200a8f4608c126fc1c785a"
+  },
+  {
+    "model": "ar_historical_lora",
+    "task": "EN Belebele",
+    "source": "/path/to/project/research/updates_20261108/aya-4b-generalization-20261107/three-language-scores.csv",
+    "source_sha256": "fba235a2a2580fe66ff9df2cdaf809a2a4d4959848200a8f4608c126fc1c785a"
+  },
+  {
+    "model": "ar_historical_lora",
+    "task": "XL-Sum",
+    "source": "/path/to/project/research/updates_20261108/aya-4b-generalization-20261107/three-language-scores.csv",
+    "source_sha256": "fba235a2a2580fe66ff9df2cdaf809a2a4d4959848200a8f4608c126fc1c785a"
+  },
+  {
+    "model": "ar_historical_lora",
+    "task": "GSM8K",
+    "source": "/path/to/project/research/updates_20261108/aya-4b-generalization-20261107/three-language-scores.csv",
+    "source_sha256": "fba235a2a2580fe66ff9df2cdaf809a2a4d4959848200a8f4608c126fc1c785a"
+  },
+  {
+    "model": "ar_historical_lora",
+    "task": "GSM8K",
+    "source": "/path/to/project/research/updates_20261108/aya-4b-generalization-20261107/three-language-scores.csv",
+    "source_sha256": "fba235a2a2580fe66ff9df2cdaf809a2a4d4959848200a8f4608c126fc1c785a"
+  },
+  {
+    "model": "ar_historical_lora",
+    "task": "IFEval",
+    "source": "/path/to/project/research/updates_20261108/aya-4b-generalization-20261107/three-language-scores.csv",
+    "source_sha256": "fba235a2a2580fe66ff9df2cdaf809a2a4d4959848200a8f4608c126fc1c785a"
+  },
+  {
+    "model": "ar_historical_lora",
+    "task": "IFEval",
+    "source": "/path/to/project/research/updates_20261108/aya-4b-generalization-20261107/three-language-scores.csv",
+    "source_sha256": "fba235a2a2580fe66ff9df2cdaf809a2a4d4959848200a8f4608c126fc1c785a"
+  },
+  {
+    "model": "ru_historical_lora",
+    "task": "Belebele",
+    "source": "/path/to/project/research/updates_20261108/aya-4b-generalization-20261107/three-language-scores.csv",
+    "source_sha256": "fba235a2a2580fe66ff9df2cdaf809a2a4d4959848200a8f4608c126fc1c785a"
+  },
+  {
+    "model": "ru_historical_lora",
+    "task": "XNLI",
+    "source": "/path/to/project/research/updates_20261108/aya-4b-generalization-20261107/three-language-scores.csv",
+    "source_sha256": "fba235a2a2580fe66ff9df2cdaf809a2a4d4959848200a8f4608c126fc1c785a"
+  },
+  {
+    "model": "ru_historical_lora",
+    "task": "EN Belebele",
+    "source": "/path/to/project/research/updates_20261108/aya-4b-generalization-20261107/three-language-scores.csv",
+    "source_sha256": "fba235a2a2580fe66ff9df2cdaf809a2a4d4959848200a8f4608c126fc1c785a"
+  },
+  {
+    "model": "ru_historical_lora",
+    "task": "XL-Sum",
+    "source": "/path/to/project/research/updates_20261108/aya-4b-generalization-20261107/three-language-scores.csv",
+    "source_sha256": "fba235a2a2580fe66ff9df2cdaf809a2a4d4959848200a8f4608c126fc1c785a"
+  },
+  {
+    "model": "ru_historical_lora",
+    "task": "GSM8K",
+    "source": "/path/to/project/research/updates_20261108/aya-4b-generalization-20261107/three-language-scores.csv",
+    "source_sha256": "fba235a2a2580fe66ff9df2cdaf809a2a4d4959848200a8f4608c126fc1c785a"
+  },
+  {
+    "model": "ru_historical_lora",
+    "task": "GSM8K",
+    "source": "/path/to/project/research/updates_20261108/aya-4b-generalization-20261107/three-language-scores.csv",
+    "source_sha256": "fba235a2a2580fe66ff9df2cdaf809a2a4d4959848200a8f4608c126fc1c785a"
+  },
+  {
+    "model": "ru_historical_lora",
+    "task": "IFEval",
+    "source": "/path/to/project/research/updates_20261108/aya-4b-generalization-20261107/three-language-scores.csv",
+    "source_sha256": "fba235a2a2580fe66ff9df2cdaf809a2a4d4959848200a8f4608c126fc1c785a"
+  },
+  {
+    "model": "ru_historical_lora",
+    "task": "IFEval",
+    "source": "/path/to/project/research/updates_20261108/aya-4b-generalization-20261107/three-language-scores.csv",
+    "source_sha256": "fba235a2a2580fe66ff9df2cdaf809a2a4d4959848200a8f4608c126fc1c785a"
+  },
+  {
+    "model": "sw_historical_lora",
+    "task": "Global-MMLU",
+    "source": "/path/to/project/research/updates_20261108/sw_original_all_scores.csv",
+    "source_sha256": "e80e2d9f8c5c3393d75f11504c47991da5ce1bbcb5ed6c4db4cb6e78233e34f9"
+  },
+  {
+    "model": "sw_historical_lora",
+    "task": "EN MMLU",
+    "source": "/path/to/project/research/updates_20261108/sw_original_all_scores.csv",
+    "source_sha256": "e80e2d9f8c5c3393d75f11504c47991da5ce1bbcb5ed6c4db4cb6e78233e34f9"
+  },
+  {
+    "model": "sw_Base",
+    "task": "SIB-200",
+    "source": "/path/to/logs/qwen3-multilingual/benchmark-5plus5-20261109/sw_Base/sib200/results/__user__models__Qwen3-4B/samples_mcl5_sib200_sw_2026-11-09T22-59-24.239538.jsonl",
+    "source_sha256": "7a0a142488488867f7b4918f71f6b33f9b84cef06856f3d1af62be58f7f04626"
+  },
+  {
+    "model": "sw_historical_lora",
+    "task": "HumanEval+",
+    "source": "/path/to/logs/qwen3-multilingual/benchmark-5plus5-20261109/sw_historical_lora/code/DONE.json",
+    "source_sha256": "4147193218c630dbbdf17ff6415af7625cc4edc74e58d34fc154972372ce28c9"
+  },
+  {
+    "model": "sw_historical_lora",
+    "task": "SIB-200",
+    "source": "/path/to/logs/qwen3-multilingual/benchmark-5plus5-20261109/sw_historical_lora/sib200/results/__storage__checkpoints__aya_4b_20261105__lora_final_v1/samples_mcl5_sib200_sw_2026-11-09T23-00-11.235784.jsonl",
+    "source_sha256": "6f07d59596acac9b207b170be19c6e59015d17c751ee6a025242614da946b876"
+  },
+  {
+    "model": "ar_Base",
+    "task": "SIB-200",
+    "source": "/path/to/logs/qwen3-multilingual/benchmark-5plus5-20261109/ar_Base/sib200/results/__user__models__Qwen3-4B/samples_mcl5_sib200_ar_2026-11-09T23-00-49.147021.jsonl",
+    "source_sha256": "6f9c1a22754f96df065f9e32e1d8f1b96ad974c9080faa5eb5cade6334cb6bdb"
+  },
+  {
+    "model": "ar_Base",
+    "task": "Global-MMLU",
+    "source": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_Base/gmmlu/DONE.json",
+    "source_sha256": "6f4349bd57def1d09c9e159d6b9bf5ba77d13be581a50f9b9266eac10cc4f443"
+  },
+  {
+    "model": "ar_historical_lora",
+    "task": "HumanEval+",
+    "source": "/path/to/logs/qwen3-multilingual/benchmark-5plus5-20261109/ar_historical_lora/code/DONE.json",
+    "source_sha256": "a3403486dba34e6d06be45aa618d75e7b629177a71682195c3ca95eb0d294265"
+  },
+  {
+    "model": "ar_historical_lora",
+    "task": "SIB-200",
+    "source": "/path/to/logs/qwen3-multilingual/benchmark-5plus5-20261109/ar_historical_lora/sib200/results/__storage__checkpoints__aya_4b_generalization_20261107__ar_lora_final_v1/samples_mcl5_sib200_ar_2026-11-09T23-01-33.782888.jsonl",
+    "source_sha256": "6c754379db0bd630f63e4cb10a4e130dc6d2eede251309007b85a3f5274ad896"
+  },
+  {
+    "model": "ar_historical_lora",
+    "task": "Global-MMLU",
+    "source": "/path/to/logs/qwen3-multilingual/benchmark-5plus5-20261109/ar_historical_lora/gmmlu/DONE.json",
+    "source_sha256": "5ba5344899216d41c09722f3165a70d91bbc8a49bc4a65d6e3d9dba1cd21e540"
+  },
+  {
+    "model": "ru_Base",
+    "task": "SIB-200",
+    "source": "/path/to/logs/qwen3-multilingual/benchmark-5plus5-20261109/ru_Base/sib200/results/__user__models__Qwen3-4B/samples_mcl5_sib200_ru_2026-11-09T23-02-11.508827.jsonl",
+    "source_sha256": "bf7873615dbd9eee08d9c62a1a8b0938eb2a0cd98ebf32e7996006dee7428987"
+  },
+  {
+    "model": "ru_Base",
+    "task": "Global-MMLU",
+    "source": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ru_Base/gmmlu/DONE.json",
+    "source_sha256": "7f5359e7299407ac7703c00e5f790121b1e3e17a2519dbc7c52b7253a78106d0"
+  },
+  {
+    "model": "ru_historical_lora",
+    "task": "SIB-200",
+    "source": "/path/to/logs/qwen3-multilingual/benchmark-5plus5-20261109/ru_historical_lora/sib200/results/__storage__checkpoints__aya_4b_generalization_20261107__ru_lora_final_v1/samples_mcl5_sib200_ru_2026-11-09T23-02-57.384088.jsonl",
+    "source_sha256": "7bd25a2d4488b2b0412cc3f6fa81616d284d2da5c60f764377fbfb7b77cb8446"
+  },
+  {
+    "model": "sw_all",
+    "task": "SIB-200",
+    "source": "/path/to/logs/qwen3-multilingual/benchmark-5plus5-20261109/sw_all/sib200/results/__storage__checkpoints__functional_representation_20261109__p2__all_layer_final_v1/samples_mcl5_sib200_sw_2026-11-09T23-03-44.503049.jsonl",
+    "source_sha256": "c5693c887be793c255f67a3c9d8810b163c12e3b52902dde654bfa510aca4bdf"
+  },
+  {
+    "model": "sw_full",
+    "task": "SIB-200",
+    "source": "/path/to/logs/qwen3-multilingual/benchmark-5plus5-20261109/sw_full/sib200/results/__storage__checkpoints__function_aware_formal_20261109__sw_full_final_v1/samples_mcl5_sib200_sw_2026-11-09T23-04-31.313507.jsonl",
+    "source_sha256": "02d4d537f17660973db181cdd6a1a048dd896055ea78f146b3c73dff0bb3b0f3"
+  },
+  {
+    "model": "sw_kd",
+    "task": "SIB-200",
+    "source": "/path/to/logs/qwen3-multilingual/benchmark-5plus5-20261109/sw_kd/sib200/results/__storage__checkpoints__function_aware_formal_20261109__sw_kd_final_v1/samples_mcl5_sib200_sw_2026-11-09T23-05-17.893875.jsonl",
+    "source_sha256": "10db983a088293bf0d9ccb8f3c5b48d3912d9ce0a33504193d3908fdcf9e40c0"
+  },
+  {
+    "model": "sw_random",
+    "task": "SIB-200",
+    "source": "/path/to/logs/qwen3-multilingual/benchmark-5plus5-20261109/sw_random/sib200/results/__storage__checkpoints__function_aware_formal_20261109__sw_random_final_v1/samples_mcl5_sib200_sw_2026-11-09T23-06-05.744765.jsonl",
+    "source_sha256": "611d2792f3a301ee217c0e71c3bd8ab5def688fd1abe0ac600a2bd959da95722"
+  },
+  {
+    "model": "sw_function",
+    "task": "SIB-200",
+    "source": "/path/to/logs/qwen3-multilingual/benchmark-5plus5-20261109/sw_function/sib200/results/__storage__checkpoints__function_aware_formal_20261109__sw_function_final_v1/samples_mcl5_sib200_sw_2026-11-09T23-07-18.062437.jsonl",
+    "source_sha256": "42667b42009d8275ce6bd9160f04b71d3da1b026a418449371f26263d6faccb2"
+  },
+  {
+    "model": "ar_all",
+    "task": "SIB-200",
+    "source": "/path/to/logs/qwen3-multilingual/benchmark-5plus5-20261109/ar_all/sib200/results/__storage__checkpoints__function_aware_formal_20261109__ar_all_final_v1/samples_mcl5_sib200_ar_2026-11-09T23-08-03.626142.jsonl",
+    "source_sha256": "19484b387fbdb310f45c48d6dc6d03c9a0b5f0cca7863d00d7ac811ee6f9c120"
+  },
+  {
+    "model": "ar_function",
+    "task": "SIB-200",
+    "source": "/path/to/logs/qwen3-multilingual/benchmark-5plus5-20261109/ar_function/sib200/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mcl5_sib200_ar_2026-11-09T23-08-49.727076.jsonl",
+    "source_sha256": "88b054f1c863833ebeb53c45490fb5bc5c4a12a8b0ae87330073c1ceadb0757d"
+  }
+]

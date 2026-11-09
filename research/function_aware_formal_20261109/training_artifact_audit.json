@@ -1,29 +1,47 @@
 {
   "status": "INCOMPLETE_RUNNING",
-  "verified_count": 2,
+  "verified_count": 10,
   "expected": 14,
   "pending": [
-    "sw_full",
-    "sw_random",
-    "sw_function",
-    "ar_all",
     "ar_full",
     "ar_kd",
     "ar_random",
-    "ar_function",
-    "ru_all",
-    "ru_kd",
-    "ru_random",
-    "ru_function"
+    "ru_kd"
   ],
   "initial_weight_sha256": {
     "sw_all_reused": "b18a31736036aee10b7f8c5eb82e3eebd5342c6134e4b7e169c06028c34b4bec",
+    "sw_full": "b18a31736036aee10b7f8c5eb82e3eebd5342c6134e4b7e169c06028c34b4bec",
     "sw_kd": "b18a31736036aee10b7f8c5eb82e3eebd5342c6134e4b7e169c06028c34b4bec",
-    "ru_full": "b18a31736036aee10b7f8c5eb82e3eebd5342c6134e4b7e169c06028c34b4bec"
+    "sw_random": "b18a31736036aee10b7f8c5eb82e3eebd5342c6134e4b7e169c06028c34b4bec",
+    "sw_function": "b18a31736036aee10b7f8c5eb82e3eebd5342c6134e4b7e169c06028c34b4bec",
+    "ar_all": "b18a31736036aee10b7f8c5eb82e3eebd5342c6134e4b7e169c06028c34b4bec",
+    "ar_function": "b18a31736036aee10b7f8c5eb82e3eebd5342c6134e4b7e169c06028c34b4bec",
+    "ru_all": "b18a31736036aee10b7f8c5eb82e3eebd5342c6134e4b7e169c06028c34b4bec",
+    "ru_full": "b18a31736036aee10b7f8c5eb82e3eebd5342c6134e4b7e169c06028c34b4bec",
+    "ru_random": "b18a31736036aee10b7f8c5eb82e3eebd5342c6134e4b7e169c06028c34b4bec",
+    "ru_function": "b18a31736036aee10b7f8c5eb82e3eebd5342c6134e4b7e169c06028c34b4bec"
   },
   "observed_initial_weights_identical": true,
   "all_initials_observed": false,
   "models": [
+    {
+      "name": "sw_full",
+      "method": "full",
+      "language": "sw",
+      "verified_final400": true,
+      "adapter_sha256": "488950ed4dbfa6ed5159c524319e0024facbf2032f2793297af76f6395d1dbfb",
+      "initial_adapter_sha256": "b18a31736036aee10b7f8c5eb82e3eebd5342c6134e4b7e169c06028c34b4bec",
+      "exact_target_input_label_stream_6400": true,
+      "old_build_samples": 3200,
+      "old_check_samples": 0,
+      "old_input_tokens": 393750,
+      "old_reference_prefix_tokens": 211250,
+      "effective_delta_frobenius": 8.026753678765235,
+      "method_weight_input_provenance": null,
+      "elapsed_seconds": 3920.812615610019,
+      "peak_allocated_bytes": 16832992768,
+      "historical_configuration_matches_source": true
+    },
     {
       "name": "sw_kd",
       "method": "kd",
@@ -43,6 +61,135 @@
       "historical_configuration_matches_source": true
     },
     {
+      "name": "sw_random",
+      "method": "random",
+      "language": "sw",
+      "verified_final400": true,
+      "adapter_sha256": "8c2bb3f32836b1cd38ec50b9d039f8e318f8ed67cb02e76b8b65a4ab5b1d6ee1",
+      "initial_adapter_sha256": "b18a31736036aee10b7f8c5eb82e3eebd5342c6134e4b7e169c06028c34b4bec",
+      "exact_target_input_label_stream_6400": true,
+      "old_build_samples": 3200,
+      "old_check_samples": 0,
+      "old_input_tokens": 393750,
+      "old_reference_prefix_tokens": 211250,
+      "effective_delta_frobenius": 8.033303633436999,
+      "method_weight_input_provenance": {
+        "frozen_input_sha256": "5402493c4466e347235ce5bc36f8769e7a860f58d9052f86cdc9b3311f4aca4f",
+        "selected_six_weights": [
+          2.0,
+          0.5824964788281158,
+          0.5824964788281158,
+          1.3170968033497696,
+          0.5824964788281158,
+          0.9354137601658834
+        ],
+        "calibration_raw_sha256": "01a934d52aad6cecee840257d492bb6c3e6c2520e1490dbe2e38ef87b2296b17",
+        "weight_file_predates_training": true,
+        "source": "Independent post-run audit of immutable input used by the frozen loss code; not a newly invented in-training log"
+      },
+      "elapsed_seconds": 3920.352129564999,
+      "peak_allocated_bytes": 16832992768,
+      "historical_configuration_matches_source": true
+    },
+    {
+      "name": "sw_function",
+      "method": "function",
+      "language": "sw",
+      "verified_final400": true,
+      "adapter_sha256": "48fc6f9be199bb2bc3adf53e6b146d11d5e6021015ec7d67430c675e17439f2a",
+      "initial_adapter_sha256": "b18a31736036aee10b7f8c5eb82e3eebd5342c6134e4b7e169c06028c34b4bec",
+      "exact_target_input_label_stream_6400": true,
+      "old_build_samples": 3200,
+      "old_check_samples": 0,
+      "old_input_tokens": 393750,
+      "old_reference_prefix_tokens": 211250,
+      "effective_delta_frobenius": 8.023987553380799,
+      "method_weight_input_provenance": {
+        "frozen_input_sha256": "5402493c4466e347235ce5bc36f8769e7a860f58d9052f86cdc9b3311f4aca4f",
+        "selected_six_weights": [
+          0.5824964788281158,
+          0.5824964788281158,
+          2.0,
+          1.3170968033497696,
+          0.9354137601658834,
+          0.5824964788281158
+        ],
+        "calibration_raw_sha256": "01a934d52aad6cecee840257d492bb6c3e6c2520e1490dbe2e38ef87b2296b17",
+        "weight_file_predates_training": true,
+        "source": "Independent post-run audit of immutable input used by the frozen loss code; not a newly invented in-training log"
+      },
+      "elapsed_seconds": 3923.9482771140174,
+      "peak_allocated_bytes": 16832992768,
+      "historical_configuration_matches_source": true
+    },
+    {
+      "name": "ar_all",
+      "method": "all",
+      "language": "ar",
+      "verified_final400": true,
+      "adapter_sha256": "036ba98c90a67d395da7002221841eaba82e65d29369afd0066a977bd1ad9871",
+      "initial_adapter_sha256": "b18a31736036aee10b7f8c5eb82e3eebd5342c6134e4b7e169c06028c34b4bec",
+      "exact_target_input_label_stream_6400": true,
+      "old_build_samples": 0,
+      "old_check_samples": 0,
+      "old_input_tokens": 0,
+      "old_reference_prefix_tokens": 0,
+      "effective_delta_frobenius": 7.878608447860818,
+      "method_weight_input_provenance": null,
+      "elapsed_seconds": 2941.341794659995,
+      "peak_allocated_bytes": 16865185792,
+      "historical_configuration_matches_source": true
+    },
+    {
+      "name": "ar_function",
+      "method": "function",
+      "language": "ar",
+      "verified_final400": true,
+      "adapter_sha256": "2b3d70d8367a949be0780d78e2f8323395ef2c21a25416af79718ecb2e93588c",
+      "initial_adapter_sha256": "b18a31736036aee10b7f8c5eb82e3eebd5342c6134e4b7e169c06028c34b4bec",
+      "exact_target_input_label_stream_6400": true,
+      "old_build_samples": 3200,
+      "old_check_samples": 0,
+      "old_input_tokens": 393750,
+      "old_reference_prefix_tokens": 211250,
+      "effective_delta_frobenius": 7.7695569012361805,
+      "method_weight_input_provenance": {
+        "frozen_input_sha256": "cc43e5108e26b1170e85f16f15d82d9c611b70f94f887cdb7e89e5bb6b559d8f",
+        "selected_six_weights": [
+          0.6800799417435894,
+          0.6800799417435894,
+          2.0,
+          0.6834371436121418,
+          1.276323031157091,
+          0.6800799417435894
+        ],
+        "calibration_raw_sha256": "0615b3a1fd85d1c38fc97ef8320b20f42a916249f93311109763014c04988f02",
+        "weight_file_predates_training": true,
+        "source": "Independent post-run audit of immutable input used by the frozen loss code; not a newly invented in-training log"
+      },
+      "elapsed_seconds": 3752.9239732190035,
+      "peak_allocated_bytes": 16865185792,
+      "historical_configuration_matches_source": true
+    },
+    {
+      "name": "ru_all",
+      "method": "all",
+      "language": "ru",
+      "verified_final400": true,
+      "adapter_sha256": "4e9b6524d8ef41412f1dd06f94238149cf40c9a1b7bd85a9020e13a2afad82ee",
+      "initial_adapter_sha256": "b18a31736036aee10b7f8c5eb82e3eebd5342c6134e4b7e169c06028c34b4bec",
+      "exact_target_input_label_stream_6400": true,
+      "old_build_samples": 0,
+      "old_check_samples": 0,
+      "old_input_tokens": 0,
+      "old_reference_prefix_tokens": 0,
+      "effective_delta_frobenius": 7.565216770805676,
+      "method_weight_input_provenance": null,
+      "elapsed_seconds": 3371.066367912019,
+      "peak_allocated_bytes": 16865834496,
+      "historical_configuration_matches_source": true
+    },
+    {
       "name": "ru_full",
       "method": "full",
       "language": "ru",
@@ -59,9 +206,71 @@
       "elapsed_seconds": 4107.763701154996,
       "peak_allocated_bytes": 16865834496,
       "historical_configuration_matches_source": true
+    },
+    {
+      "name": "ru_random",
+      "method": "random",
+      "language": "ru",
+      "verified_final400": true,
+      "adapter_sha256": "06e5347c077601d0ce97a6b4e8b507fc4e53dbd13ed8020f339f22d53b085696",
+      "initial_adapter_sha256": "b18a31736036aee10b7f8c5eb82e3eebd5342c6134e4b7e169c06028c34b4bec",
+      "exact_target_input_label_stream_6400": true,
+      "old_build_samples": 3200,
+      "old_check_samples": 0,
+      "old_input_tokens": 393750,
+      "old_reference_prefix_tokens": 211250,
+      "effective_delta_frobenius": 7.323001807896362,
+      "method_weight_input_provenance": {
+        "frozen_input_sha256": "bdc375808b6a72dcdd8cfd3a3c1aaa8badfa7e90056a2b388145a1bb8102722b",
+        "selected_six_weights": [
+          2.0,
+          0.5267420139954109,
+          0.5267420139954109,
+          0.7322160871194032,
+          0.5267420139954109,
+          1.6875578708943648
+        ],
+        "calibration_raw_sha256": "487195d16020fda0b8d7c04b62fe35a969d88f13d402e8e7980b89d1af8766ac",
+        "weight_file_predates_training": true,
+        "source": "Independent post-run audit of immutable input used by the frozen loss code; not a newly invented in-training log"
+      },
+      "elapsed_seconds": 4117.246229928016,
+      "peak_allocated_bytes": 16865834496,
+      "historical_configuration_matches_source": true
+    },
+    {
+      "name": "ru_function",
+      "method": "function",
+      "language": "ru",
+      "verified_final400": true,
+      "adapter_sha256": "a6b40212b8ee144370a90a335b10320c0f3f68262c859a9f681d0f2b3fcaa4ba",
+      "initial_adapter_sha256": "b18a31736036aee10b7f8c5eb82e3eebd5342c6134e4b7e169c06028c34b4bec",
+      "exact_target_input_label_stream_6400": true,
+      "old_build_samples": 3200,
+      "old_check_samples": 0,
+      "old_input_tokens": 393750,
+      "old_reference_prefix_tokens": 211250,
+      "effective_delta_frobenius": 7.322208095055178,
+      "method_weight_input_provenance": {
+        "frozen_input_sha256": "bdc375808b6a72dcdd8cfd3a3c1aaa8badfa7e90056a2b388145a1bb8102722b",
+        "selected_six_weights": [
+          0.5267420139954109,
+          0.5267420139954109,
+          2.0,
+          0.7322160871194032,
+          1.6875578708943648,
+          0.5267420139954109
+        ],
+        "calibration_raw_sha256": "487195d16020fda0b8d7c04b62fe35a969d88f13d402e8e7980b89d1af8766ac",
+        "weight_file_predates_training": true,
+        "source": "Independent post-run audit of immutable input used by the frozen loss code; not a newly invented in-training log"
+      },
+      "elapsed_seconds": 4070.0408229609893,
+      "peak_allocated_bytes": 16865834496,
+      "historical_configuration_matches_source": true
     }
   ],
-  "audit_cpu_seconds": 2.7067954869999085,
+  "audit_cpu_seconds": 21.833232455013786,
   "extra_gpu_jobs": 0,
   "no_effectiveness_claim_from_norms": true
 }

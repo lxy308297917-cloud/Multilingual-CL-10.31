@@ -1,0 +1,97 @@
+{
+  "at": "2026-11-09T23:40:26.133957+08:00",
+  "files": [
+    {
+      "path": "/path/to/project/configs/benchmark_5plus5_20261109/deferred_models.json",
+      "sha256": "2772eab0bd630688491e80f4e0d47bbe28b853246c8f7f7548edc6defe97f64c"
+    },
+    {
+      "path": "/path/to/project/configs/benchmark_5plus5_20261109/harness_identity.json",
+      "sha256": "6653bc3a347e2ce60dd3ff899c6c42da6b4ddca187059c34416d654a020f461e"
+    },
+    {
+      "path": "/path/to/project/configs/benchmark_5plus5_20261109/models.json",
+      "sha256": "6a283b048f57fa826512d6e4fa654470fa9e9362b7a97feb088f85c5d635ae64"
+    },
+    {
+      "path": "/path/to/project/configs/benchmark_5plus5_20261109/priority_evaluation_plan.json",
+      "sha256": "90e2389e1e08755ff1bdec9f2ae57e4436d7cfb873f2e1a46e35859aea791a4f"
+    },
+    {
+      "path": "/path/to/project/configs/benchmark_5plus5_20261109/priority_resource_policy.json",
+      "sha256": "50dd1d6eb9da4440b3900235d45b0cc5897bfa54022b2fb447f4e3df3cc1140e"
+    },
+    {
+      "path": "/path/to/project/configs/benchmark_5plus5_20261109/sib_manifest.json",
+      "sha256": "a17e71a8314ef519d290ced9c174e8b2f7bfaaa20613e8376da0a93a6d7adf5e"
+    },
+    {
+      "path": "/path/to/project/scripts/benchmark_5plus5_20261109/diagnostic_barrier.py",
+      "sha256": "7b6e473f1d9600c148cb9f9a44fdac1e31f8a6e6938f847429c94e085fc611e5"
+    },
+    {
+      "path": "/path/to/project/scripts/benchmark_5plus5_20261109/evaluate.py",
+      "sha256": "9537e4235932034e458e23bb54a174fb07eaccea8901b7837858b27928c3ea46"
+    },
+    {
+      "path": "/path/to/project/scripts/benchmark_5plus5_20261109/evaluate_general.py",
+      "sha256": "0f6b9b67e0f157c2809827924f7387b3abadf949d757ad56847f1e9ac8d3cff6"
+    },
+    {
+      "path": "/path/to/project/scripts/benchmark_5plus5_20261109/evaluate_priority.py",
+      "sha256": "aa2d89d3e8904510ffc0eb30b6f42d6167b2be80815ea3ead6002760bbad2bc5"
+    },
+    {
+      "path": "/path/to/project/scripts/benchmark_5plus5_20261109/evaluate_v2.py",
+      "sha256": "401f1a0b884b90391173bc1cbe03393836fa01346fb2988e0fad6a6e5ab77d77"
+    },
+    {
+      "path": "/path/to/project/scripts/benchmark_5plus5_20261109/general_schedule.py",
+      "sha256": "e6c2dd84589dfa2b813e5b1e5ac77e0886c543974e286e70dfbef6b1c79916a1"
+    },
+    {
+      "path": "/path/to/project/scripts/benchmark_5plus5_20261109/gpu_slot_five.py",
+      "sha256": "be382ab1bcfe76767ca4f71be37f4d5f60e36aa057d4ec092eb4f183a970e543"
+    },
+    {
+      "path": "/path/to/project/scripts/benchmark_5plus5_20261109/observe.py",
+      "sha256": "8396e48e733dc599d9b38d8b871d784815aec095c620db7f40b58cadc4633aa6"
+    },
+    {
+      "path": "/path/to/project/scripts/benchmark_5plus5_20261109/observe_v2.py",
+      "sha256": "f55a4195b1c3649cfae74f8e19c2e1a283f165e31b5b7600da074657fc6bcdaa"
+    },
+    {
+      "path": "/path/to/project/scripts/benchmark_5plus5_20261109/observe_v3.py",
+      "sha256": "a3f8d643a8ebcddc763f8117f7534c84b1774fcceab0a55273ce3858114b8a32"
+    },
+    {
+      "path": "/path/to/project/scripts/benchmark_5plus5_20261109/prepare.py",
+      "sha256": "f30b42e521296c4be4dcbb2ec774be06973a6e9248d62a5b4ee5b622b9795900"
+    },
+    {
+      "path": "/path/to/project/scripts/benchmark_5plus5_20261109/priority_evaluations.py",
+      "sha256": "bfdbe4bdd179b06a3bc7dd950b541f83a8bd3034cf5e3272c1e43147dbe10b83"
+    },
+    {
+      "path": "/path/to/project/scripts/benchmark_5plus5_20261109/priority_evaluations_v2.py",
+      "sha256": "5f8e6affb82b1aedacf31d6f87f598522d08f9530d89cdd842fafede862167ce"
+    },
+    {
+      "path": "/path/to/project/scripts/benchmark_5plus5_20261109/report.py",
+      "sha256": "1c94dd5c59492d5eb1a05ef598341c3b915ae0b19c8c3b275bde5988854a7acc"
+    },
+    {
+      "path": "/path/to/project/scripts/benchmark_5plus5_20261109/schedule.py",
+      "sha256": "3471f98c13ad065fbad430013a01207c309ae8ff9159adf3612b55559dac24fc"
+    },
+    {
+      "path": "/path/to/project/scripts/benchmark_5plus5_20261109/schedule_v2.py",
+      "sha256": "1dcb1badbb69a278d270a96d398c204719d3e9134826336f1571c071bfd33c3d"
+    },
+    {
+      "path": "/path/to/project/scripts/benchmark_5plus5_20261109/schedule_v3.py",
+      "sha256": "2074dbf38e4b8ae365804d6d107e338c075158d0d328bb095a4266e41d475837"
+    }
+  ]
+}

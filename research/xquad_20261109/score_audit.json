@@ -1,0 +1,33 @@
+{
+  "at": "2026-11-09T23:41:37.327975+08:00",
+  "completed_models": 2,
+  "required_models": 10,
+  "missing": [
+    "ru_Base",
+    "ru_historical_lora",
+    "ar_all",
+    "ar_function",
+    "ru_all",
+    "ru_full",
+    "ru_random",
+    "ru_function"
+  ],
+  "all_raw_EM_F1_recomputed": true,
+  "all_official_references_used": true,
+  "paired_unit": "240 original passages, all questions retained together",
+  "sources": [
+    {
+      "model": "ar_Base",
+      "samples_sha256": "4f7ec2502c1c35c15e5768ea266062de7e6398ceaff6aa1c453debff069b5ab4",
+      "results_sha256": "167e3bcea3bf2b2adc496dedcb78399590c9f9af1db4df984309b822a8bd2a2d",
+      "checkpoint_sha256": "OFFICIAL_BASE_REVISION_1cfa9a7208912126459214e8b04321603b3df60c"
+    },
+    {
+      "model": "ar_historical_lora",
+      "samples_sha256": "a2c134d434f1340e9aefd1722befc6905c982851f6a13c3ff47c667a4a71a2d2",
+      "results_sha256": "49ca7e8837929c139b8e2bf281e17c9172c86d0996462a67afcdb39216c316e7",
+      "checkpoint_sha256": "b31ff453af2d595b7f7484e7e8be85f16a799573e2d19a67a1cc242b3ad5c321"
+    }
+  ],
+  "not_training_seed_uncertainty": true
+}

@@ -1,0 +1,18 @@
+{
+  "at": "2026-11-09T22:56:59.599146+08:00",
+  "original_new_main_runs": 14,
+  "user_deferred": [
+    "ar_full",
+    "ar_kd",
+    "ar_random",
+    "ru_kd"
+  ],
+  "currently_eligible_runs": 10,
+  "verified_complete": 9,
+  "eligible_pending": [
+    "ru_random"
+  ],
+  "deferred_not_failure": true,
+  "no_resume_without_user_instruction": true,
+  "source": "training_artifact_audit.json plus latest priority request"
+}

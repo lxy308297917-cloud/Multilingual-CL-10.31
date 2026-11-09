@@ -1,14 +1,19 @@
 # Multilingual-CL：最新研究入口（2026-11-09）
 
-## 进行中：三语言功能加权与 FFT 表示保持补充
+## 当前优先：5+5 与 XQuAD 补测（进行中）
 
-本轮是阶段性快照，尚未完成全部实验。三语言主线新增14组、FFT补充2组完整训练；当前2组正式训练完成，FFT两组工程验证通过。结果按固定Final400评估，未完成项留空。
+目标五项为 Belebele、XNLI、XL-Sum、Global-MMLU、SIB-200；通用五项为 GSM8K、IFEval、HumanEval+、EN MMLU、EN Belebele。XQuAD仅作为AR/RU补充，SW不支持，不并入主平均。TargetACC4只平均四项ACC，摘要独立报告。
 
-- [当前ChatGPT交接：算法、设置、首批结果与限制](research/function_aware_formal_20261109/chatgpt_handoff.md)
-- [三语言主结果表与可复算数值](research/function_aware_formal_20261109/results.md)
-- [FFT补充设置与完整比较表](research/fft_representation_20261109/README.md)
+- [最新ChatGPT交接：真实补测结果、格式诊断与限制](research/benchmark_5plus5_20261109/chatgpt_handoff.md)
+- [5+5持续结果表](research/benchmark_5plus5_20261109/results.md) · [SIB标签偏好与错误分析](research/benchmark_5plus5_20261109/sib_error_analysis.md)
+- [XQuAD结果与原始EM/F1审计](research/xquad_20261109/results.md)
+- [暂缓训练与当前优先范围](research/benchmark_5plus5_20261109/priority_scope.json)
+- [功能加权方法的设置与未完成比较](research/function_aware_formal_20261109/chatgpt_handoff.md)
+- [FFT补充设置与比较边界](research/fft_representation_20261109/README.md)
 
-本提交包含冻结代码、配置及已完成任务的汇总、区间和逐题数值；覆盖所有模型的完整结果、最终诊断与报告将在实验完成后更新。此前已完成的研究结果保留如下。
+当前是阶段性快照。三语言功能候选的固定400步训练已完成；其完整正式分数尚未出齐。用户要求已运行训练正常收尾、优先补测，五个待启动训练与机制诊断、额外翻译被明确暂缓，不自动恢复。未完成分数留空，暂缓不是失败，也不表示原研究目标已全部完成。
+
+首批结果既包括AR知识与问答收益，也包括SIB标签偏好和归一化敏感性；全部负结果保留。历史模型micro1与新P2/主线micro2分行；当前三语言是独立适配，不是顺序CL或跨训练种子证据。以下保留历史研究记录，其旧“进行中／未运行”状态不表示恢复暂停任务。
 
 ## 最新：表示机制复现与 XNLI / HumanEval+ 补测
 
@@ -176,6 +181,7 @@ MASSIVE和MathOctopus首批固定Final结果已完成：前者目标任务提升
 当前上传精选的SFT代码、必要配置、结果及交接说明。服务器运行管理文件、完整内部资产清单、进程记录、AGENTS、权重、数据集和逐题大日志不发布。本地路径已替换为`/path/to/...`；服务器原始工程保持原样。代码不是开箱即用发行包：需要锁定上游环境、准备模型/数据/校准掩码及按机器设置路径；未宣称已在新机器重跑。
 
 正式测试不用于调参或选种子。新方法先明确机制假设、独立开发依据、对应baseline及公平预算，再冻结正式比较；不把现有英语保护或SSU改名充当创新。
+
 
 
 

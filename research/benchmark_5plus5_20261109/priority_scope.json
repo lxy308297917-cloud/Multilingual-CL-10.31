@@ -1,0 +1,32 @@
+{
+  "at": "2026-11-09T22:32:49.910089+08:00",
+  "user_priority": "5+5 benchmarks and XQuAD",
+  "deferred_training": [
+    "ar_full",
+    "ar_kd",
+    "ar_random",
+    "ru_kd",
+    "matched_fft"
+  ],
+  "running_training_allowed_to_finish": [
+    "sw_function",
+    "ru_function",
+    "ru_random",
+    "fft_full36"
+  ],
+  "new_training_after_completion": false,
+  "hold_gpu_after_completion": false,
+  "auxiliary_diagnostics": "USER_DEFERRED",
+  "extra_translation": "USER_DEFERRED",
+  "maximum_account_gpus": 5,
+  "cap_authorization": "Explicit temporary fifth-GPU allowance for this benchmark supplement",
+  "sib_available_expected": 22,
+  "sib_untrained_deferred": 5,
+  "xquad_supported_languages": [
+    "ar",
+    "ru"
+  ],
+  "xquad_expected": 10,
+  "sw_xquad": "UNSUPPORTED",
+  "existing_results_and_weights_retained": true
+}

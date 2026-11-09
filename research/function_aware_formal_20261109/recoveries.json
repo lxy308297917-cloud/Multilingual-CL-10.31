@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "stages": {
+    "sw_kd/summary": {
+      "status": "RECOVERY_COMPLETE_PENDING_RAW_AUDIT",
+      "language": "sw",
+      "method": "kd",
+      "stage": "summary",
+      "cause": "GPU ownership handoff check failed before predictions; conflicting PID was not recorded in this first attempt",
+      "original_failure_at": "2026-11-09T20:00:02.379711+08:00",
+      "failed_archive": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation-failed/sw_kd/summary-20261109T200002",
+      "failed_state_sha256": "3eaafc1fea422d9bb5ff1dc33b7f27d8afef526132fb23a585119cb2a5faab07",
+      "failed_inference_log_sha256": "63bb4ff11d819f46d955b1b3f69252bac2e4c040e99f72d09cf03ff13a14077f",
+      "failed_command_sha256": "f1df6cb14176a48bab140fbac1110daa660490bae2d31dbecc13fe8dca9e26e6",
+      "logical_output": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/sw_kd/summary",
+      "recovery_base": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation-recovery-20261109T2100",
+      "recovery_output": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation-recovery-20261109T2100/sw_kd/summary",
+      "checkpoint": "/path/to/storage/checkpoints/function_aware_formal_20261109/sw_kd_final_v1",
+      "model_sha256": "beb541253924e82c53468128c4412e1fd5a8f7c3e3fcfc5adf662bc5ee594236",
+      "dataset": "/path/to/storage/datasets/aya-4b-20261105/evaluation-v1/xlsum_sw_v2",
+      "dataset_data_sha256": "7a2a449245c044386030adc9a60ea0c1c8c62354458dc2ad40e10b1e64990d5e",
+      "dataset_manifest_sha256": "1b3c316c67d0787de2152106da639d8e3a2744647a4896ed0731e9d78355142f",
+      "frozen_evaluation_source_sha256": "42f0f807d99f42cc2aa5fd52ef2101609b7a8a2501b5f2620aca5a42efbb89f3",
+      "scientific_protocol_changed": false,
+      "independent_recovery_output": true,
+      "selection_policy": "Same fixed Final400, same987 samples, generation/scoring and batch8; no retuning",
+      "handoff_trace": "Private read-only PID/ancestry evidence added to this recovery only",
+      "prepared_at": "2026-11-09T21:08:25.109021+08:00",
+      "updated_at": "2026-11-09T21:44:47.635893+08:00",
+      "recovered_done_sha256": "d9ef205bef133520d1537d2aa1b477314482180f0711e3ab49be24f2660683d6"
+    }
+  }
+}

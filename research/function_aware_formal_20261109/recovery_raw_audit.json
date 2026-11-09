@@ -1,0 +1,17 @@
+{
+  "status": "RECOVERED_SUMMARY_RAW_AUDITED",
+  "at": "2026-11-09T21:47:02.429332+08:00",
+  "stage": "sw_kd/summary",
+  "same_final400_model_sha256": "beb541253924e82c53468128c4412e1fd5a8f7c3e3fcfc5adf662bc5ee594236",
+  "samples": 987,
+  "rouge_lsum": 20.387958686326915,
+  "per_sample_mean_matches_aggregate": true,
+  "paired_input_identity_verified_by": "score_audit.json and paired_changes.csv",
+  "done_sha256": "d9ef205bef133520d1537d2aa1b477314482180f0711e3ab49be24f2660683d6",
+  "predictions_sha256": "c67fb0f843e3a35a701e75a1f0afac272fd45ad24ec5bd0e379f9d1291dcdbfd",
+  "scores_sha256": "6024d21098584fa9735f2a2a7d9d098b615d1251b93ccbe87270af10d3ba1292",
+  "raw_per_sample_sha256": "e644f25fa7ed9a7e0a722b72f91c00473e373048117d5a1f0a168dd9e32289f8",
+  "failed_logs_retained": true,
+  "logical_output_resolves_to_independent_recovery": true,
+  "does_not_mutate_worker_done_or_registry": true
+}

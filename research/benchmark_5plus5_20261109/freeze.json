@@ -1,0 +1,80 @@
+{
+  "at": "2026-11-09T22:23:24.571413+08:00",
+  "max_account_gpus": 5,
+  "temporary_user_authorization": "2026-11-09 benchmark extension only",
+  "does_not_modify_global_default": true,
+  "no_new_training": true,
+  "models": 27,
+  "sib_tasks": 27,
+  "new_historical_gm_tasks": 2,
+  "base_ar_ru_gm": "reuse already completed formal same protocol, no duplicate",
+  "files": [
+    {
+      "path": "/path/to/project/scripts/benchmark_5plus5_20261109/schedule.py",
+      "sha256": "3471f98c13ad065fbad430013a01207c309ae8ff9159adf3612b55559dac24fc"
+    },
+    {
+      "path": "/path/to/project/scripts/benchmark_5plus5_20261109/prepare.py",
+      "sha256": "f30b42e521296c4be4dcbb2ec774be06973a6e9248d62a5b4ee5b622b9795900"
+    },
+    {
+      "path": "/path/to/project/scripts/benchmark_5plus5_20261109/evaluate.py",
+      "sha256": "9537e4235932034e458e23bb54a174fb07eaccea8901b7837858b27928c3ea46"
+    },
+    {
+      "path": "/path/to/project/scripts/benchmark_5plus5_20261109/evaluate_v2.py",
+      "sha256": "401f1a0b884b90391173bc1cbe03393836fa01346fb2988e0fad6a6e5ab77d77"
+    },
+    {
+      "path": "/path/to/project/scripts/benchmark_5plus5_20261109/gpu_slot_five.py",
+      "sha256": "be382ab1bcfe76767ca4f71be37f4d5f60e36aa057d4ec092eb4f183a970e543"
+    },
+    {
+      "path": "/path/to/project/configs/benchmark_5plus5_20261109/sib_manifest.json",
+      "sha256": "a17e71a8314ef519d290ced9c174e8b2f7bfaaa20613e8376da0a93a6d7adf5e"
+    },
+    {
+      "path": "/path/to/project/configs/benchmark_5plus5_20261109/models.json",
+      "sha256": "6a283b048f57fa826512d6e4fa654470fa9e9362b7a97feb088f85c5d635ae64"
+    }
+  ],
+  "supplement_runtime_clarification": "v2 serial supplement does not wait for long AR GM; both share global account cap5, no held GPU. Original scientific evaluator v1 preserved. Auxiliary diagnostic controller replaced while CPU-waiting only, original frozen113-stage/script/data remain unchanged, extra29-stage benchmark barrier added.",
+  "all_extension_files": [
+    {
+      "path": "/path/to/project/scripts/benchmark_5plus5_20261109/diagnostic_barrier.py",
+      "sha256": "7b6e473f1d9600c148cb9f9a44fdac1e31f8a6e6938f847429c94e085fc611e5"
+    },
+    {
+      "path": "/path/to/project/scripts/benchmark_5plus5_20261109/evaluate.py",
+      "sha256": "9537e4235932034e458e23bb54a174fb07eaccea8901b7837858b27928c3ea46"
+    },
+    {
+      "path": "/path/to/project/scripts/benchmark_5plus5_20261109/evaluate_v2.py",
+      "sha256": "401f1a0b884b90391173bc1cbe03393836fa01346fb2988e0fad6a6e5ab77d77"
+    },
+    {
+      "path": "/path/to/project/scripts/benchmark_5plus5_20261109/gpu_slot_five.py",
+      "sha256": "be382ab1bcfe76767ca4f71be37f4d5f60e36aa057d4ec092eb4f183a970e543"
+    },
+    {
+      "path": "/path/to/project/scripts/benchmark_5plus5_20261109/observe.py",
+      "sha256": "8396e48e733dc599d9b38d8b871d784815aec095c620db7f40b58cadc4633aa6"
+    },
+    {
+      "path": "/path/to/project/scripts/benchmark_5plus5_20261109/prepare.py",
+      "sha256": "f30b42e521296c4be4dcbb2ec774be06973a6e9248d62a5b4ee5b622b9795900"
+    },
+    {
+      "path": "/path/to/project/scripts/benchmark_5plus5_20261109/report.py",
+      "sha256": "b72eeeac3f71f69f8f00fe4b6a70704a3dbf55ec3c9f39076277096638e1718e"
+    },
+    {
+      "path": "/path/to/project/scripts/benchmark_5plus5_20261109/schedule.py",
+      "sha256": "3471f98c13ad065fbad430013a01207c309ae8ff9159adf3612b55559dac24fc"
+    },
+    {
+      "path": "/path/to/project/scripts/benchmark_5plus5_20261109/schedule_v2.py",
+      "sha256": "1dcb1badbb69a278d270a96d398c204719d3e9134826336f1571c071bfd33c3d"
+    }
+  ]
+}

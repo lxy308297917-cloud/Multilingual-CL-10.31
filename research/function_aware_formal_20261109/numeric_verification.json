@@ -1,31 +1,39 @@
 {
   "status": "PASS_AVAILABLE_NUMERIC_CONSISTENCY_SCOPE_ONLY",
-  "observed_at": "2026-11-09T20:18:42.102212+08:00",
+  "observed_at": "2026-11-09T23:45:47.062057+08:00",
   "reports": [
     {
+      "status": "PASS_AVAILABLE_NUMERIC_CONSISTENCY_SCOPE_ONLY",
       "family": "fa",
-      "primary_score_cells": 51,
+      "primary_score_cells": 59,
       "auxiliary_score_cells": 10,
       "required_primary_score_cells": 190,
       "required_auxiliary_score_cells": 38,
       "all_expected_cells_present": false,
-      "paired_intervals_recomputed": 19
+      "paired_intervals_recomputed": 28,
+      "resamples": 2000,
+      "numpy": "2.4.6",
+      "sacrebleu": "2.6.0",
+      "source_identity_scope": "Original prompts, model files and code-execution identity are supported by the separate server-side audits; this command checks exported numerical consistency only."
     },
     {
+      "status": "PASS_AVAILABLE_NUMERIC_CONSISTENCY_SCOPE_ONLY",
       "family": "fft",
-      "primary_score_cells": 62,
+      "primary_score_cells": 64,
       "auxiliary_score_cells": 18,
       "required_primary_score_cells": 96,
       "required_auxiliary_score_cells": 32,
       "all_expected_cells_present": false,
-      "paired_intervals_recomputed": 27
+      "paired_intervals_recomputed": 27,
+      "resamples": 2000,
+      "numpy": "2.4.6",
+      "sacrebleu": "2.6.0",
+      "source_identity_scope": "Original prompts, model files and code-execution identity are supported by the separate server-side audits; this command checks exported numerical consistency only."
     }
   ],
-  "score_cells_verified": 141,
-  "paired_intervals_recomputed": 46,
+  "score_cells_verified": 151,
+  "paired_intervals_recomputed": 55,
   "resamples": 2000,
-  "numpy": "2.4.6",
-  "sacrebleu": "2.6.0",
   "verifier_source_sha256": "a717bf6298e32f6e7a66f52934b5ba9c5ed5ce17d171da2a27088c4ddc7fea79",
   "numeric_inputs": [
     {
@@ -46,11 +54,11 @@
     },
     {
       "path": "research/function_aware_formal_20261109/numeric/ar_en_reading.json",
-      "sha256": "424cb06a4cb8c119878a547bea7cf9e8012bc1da8aab42da28c8e9c471533b8f"
+      "sha256": "e3e5e7679bd5cc6ce7c0e8d136821b4acff60ab0c74a6a4b369323a16aca1c83"
     },
     {
       "path": "research/function_aware_formal_20261109/numeric/ar_en_xnli.json",
-      "sha256": "608b63c32464b11c0707d6ac8c0dd65fdd08482858c5707843bba9e54f5e7c43"
+      "sha256": "4e8ab02435a70dd4e0938ff8e677ed7b566ee33bbe30a83813325a7f0f1f9d8e"
     },
     {
       "path": "research/function_aware_formal_20261109/numeric/ar_target_knowledge.json",
@@ -58,7 +66,7 @@
     },
     {
       "path": "research/function_aware_formal_20261109/numeric/ar_target_reading.json",
-      "sha256": "cfd010215f031da9a85092eceeb109c336dfc77aeed5f514b2aa4ba7af268c00"
+      "sha256": "f885dcdfed410c4de197ba517ee1b1cf833ed644eaafe8dbfb195021127a1a0d"
     },
     {
       "path": "research/function_aware_formal_20261109/numeric/ar_target_summary.json",
@@ -66,7 +74,7 @@
     },
     {
       "path": "research/function_aware_formal_20261109/numeric/ar_target_xnli.json",
-      "sha256": "3e3514a7852de99af2c23f67378d15a09fd13d2d427af088cb3de42b970b032d"
+      "sha256": "84710462a8dfc42a87354b1affc9fe1066f42e4f0cfcd65b64c00f41c177aeb6"
     },
     {
       "path": "research/function_aware_formal_20261109/numeric/ru_en_code.json",
@@ -91,6 +99,10 @@
     {
       "path": "research/function_aware_formal_20261109/numeric/ru_en_xnli.json",
       "sha256": "9e6be330a95935335801d438dc3d3f309329bcae963e721127c4f4a0aa26731e"
+    },
+    {
+      "path": "research/function_aware_formal_20261109/numeric/ru_target_knowledge.json",
+      "sha256": "0344f56d7f4bdd610e158a5fc87facb35bc8007aaccafc3b66ba0d4550168ce6"
     },
     {
       "path": "research/function_aware_formal_20261109/numeric/ru_target_reading.json",
@@ -118,7 +130,7 @@
     },
     {
       "path": "research/function_aware_formal_20261109/numeric/sw_en_mmlu.json",
-      "sha256": "f1f4b9a8f1bbd1a11511b1483fa167418780012ea4d3bc64ca69d938af9c645d"
+      "sha256": "c4dd7dcfdccfed4bc4442bb9252416a685a61fb445e49dab9cf935ac4929c3eb"
     },
     {
       "path": "research/function_aware_formal_20261109/numeric/sw_en_reading.json",
@@ -138,7 +150,7 @@
     },
     {
       "path": "research/function_aware_formal_20261109/numeric/sw_target_summary.json",
-      "sha256": "60722e0080f387b3560ab17d8a4606089af5896d4e4e3dd52d7ada2ac6875d45"
+      "sha256": "7f22611d6304692d06a9e2da379c2a41d78cf900fbc686568c679cad299a9a97"
     },
     {
       "path": "research/function_aware_formal_20261109/numeric/sw_target_xnli.json",
@@ -169,6 +181,22 @@
       "sha256": "528ebfae951ffc0a96e0ab337409a30bbdd3f4be15bd7f5472bf92545cda4b64"
     },
     {
+      "path": "research/function_aware_formal_20261109/audited_scores.csv",
+      "sha256": "fac8f4a172c2125e991aebe9745495d75afbcf2e87ca07409e9a7fde4054d360"
+    },
+    {
+      "path": "research/function_aware_formal_20261109/auxiliary_scores.csv",
+      "sha256": "85570be90c9b743dbda0f78059323e241348fbcf75ed23bac8f13f55c47f2764"
+    },
+    {
+      "path": "research/function_aware_formal_20261109/paired_changes.csv",
+      "sha256": "f3b00c18bffd5266be3596aeb90122d428d155c8c1afce38c1349117ba406055"
+    },
+    {
+      "path": "research/function_aware_formal_20261109/auxiliary_paired_changes.csv",
+      "sha256": "421f1d3b8a6ae6accbad933d6fcdd34f2beb44ea10602b0af48cd718144c8c8c"
+    },
+    {
       "path": "research/fft_representation_20261109/numeric/Base_en_sw_chrf.json",
       "sha256": "575b5a5a1d7ed60a1a136bed32c20a96394577fc4f66053f62f716c9e3c2c255"
     },
@@ -178,7 +206,7 @@
     },
     {
       "path": "research/fft_representation_20261109/numeric/en_code.json",
-      "sha256": "4cbf8f9f82679165687d4d7f0df86a93fb04493fbd968cac9996cffda358b5ed"
+      "sha256": "f76d853b2b3dcb16598eef5bb3a5d14fd515d87eb1ee7640aad3d1b411c03362"
     },
     {
       "path": "research/fft_representation_20261109/numeric/en_gsm8k.json",
@@ -190,7 +218,7 @@
     },
     {
       "path": "research/fft_representation_20261109/numeric/en_mmlu.json",
-      "sha256": "3b2f6492a41a104a0cf7904555b55ebc35d24a3c2173d0fcbd55d4bc6b67aeee"
+      "sha256": "8e59d7d1b49815870bd6be62b2dfdeaa5a4146c2fb13652b3daf6b11a92f8b13"
     },
     {
       "path": "research/fft_representation_20261109/numeric/en_reading.json",
@@ -303,7 +331,23 @@
     {
       "path": "research/fft_representation_20261109/auxiliary_numeric/p2_full36_1.json",
       "sha256": "d6611191c8b20470ff33f778ba8c4ad05b07bdd72f3064699d4bdb591487d3d9"
+    },
+    {
+      "path": "research/fft_representation_20261109/audited_scores.csv",
+      "sha256": "b1d8ea49be7514e46e9dbbbe25cb093f5fb7ae1153b0de88deecc103a91e4c7b"
+    },
+    {
+      "path": "research/fft_representation_20261109/auxiliary_scores.csv",
+      "sha256": "fa09452f2d08f64545571efdba551599c588bf312d78cbeb546a4c320dd9fa02"
+    },
+    {
+      "path": "research/fft_representation_20261109/paired_changes.csv",
+      "sha256": "b90e26482e798711fc8429ce64c150c4c45e3b6d0481ad1f5cedece7a6a4e796"
+    },
+    {
+      "path": "research/fft_representation_20261109/auxiliary_paired_changes.csv",
+      "sha256": "5b9d44bd0280160d8298c536bfa1fdd78d38567f68b72df93a1fd3ec69055eaa"
     }
   ],
-  "scope": "Recorded real command output; exported numerical consistency only. Full experiment/model/source verification remains governed by separate audits and completion criteria."
+  "scope": "Partial FA/FFT exported numeric consistency only. User-deferred training remains incomplete; benchmark5 and XQuAD raw audits are separate."
 }

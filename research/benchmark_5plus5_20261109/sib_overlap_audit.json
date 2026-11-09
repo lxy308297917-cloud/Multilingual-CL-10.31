@@ -1,0 +1,3722 @@
+{
+  "sw": {
+    "method": "NFKC casefold whitespace normalized equality and bidirectional full-passage containment; train uses full SIB text containment. No fuzzy/semantic dedup or post-test filtering.",
+    "belebele_source": "/path/to/storage/datasets/belebele-official-20261031/swh_Latn.jsonl",
+    "belebele_sha256": "c7b1c735c1b555f7d12219b7c16ceff3bc9f76d61f1736097acbefe055349813",
+    "train_source": "/path/to/storage/datasets/aya-4b-20261105/mixture-v1/train6400.jsonl",
+    "train_sha256": "9caa853fa92d16c18778186330bc60a26411f2ec2d56bb8d97bbb42cbe48f1fd",
+    "sib_samples": 204,
+    "belebele_unique_passages": 488,
+    "sib_exact_overlap": 0,
+    "sib_containment_overlap": 178,
+    "sib_train_fulltext_overlap": 0,
+    "items": [
+      {
+        "index_id": 1523,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1644,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 558,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 456,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 906,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 452,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1557,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1360,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1675,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1430,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1907,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1555,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1632,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1354,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 462,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 404,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 604,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 352,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 459,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1519,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1338,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1679,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1428,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1432,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1024,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 373,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1332,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1670,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 61,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 454,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1234,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1025,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1254,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 780,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 649,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 917,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 603,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1518,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 584,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1589,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1558,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 922,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1981,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 351,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1429,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 578,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 905,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 264,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 628,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1366,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 779,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1874,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1734,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1840,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1919,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 828,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 818,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 978,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 765,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1992,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 823,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 762,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 932,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 678,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 822,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1820,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1947,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1713,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 731,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1808,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1929,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 131,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 814,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1799,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1715,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1801,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 957,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 953,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1334,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 931,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 855,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1607,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 2004,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 677,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1932,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 846,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 960,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 662,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 942,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1894,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 956,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1172,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 433,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1162,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1320,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 181,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 963,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1068,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 284,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1868,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1015,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1023,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1545,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 300,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1565,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 8,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 489,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1543,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1296,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1289,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1413,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1161,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1067,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1440,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1937,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 168,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1055,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1319,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 92,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1189,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1295,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1323,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 308,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 215,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1748,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 6,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 552,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 159,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 11,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 184,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1335,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1317,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1200,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1750,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1149,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1199,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1177,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1853,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 158,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 809,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1062,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1417,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 78,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1238,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 551,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1324,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1584,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 803,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 564,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1482,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 998,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 511,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 138,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 520,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1226,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1526,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1153,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1208,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1204,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1822,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 510,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1097,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1129,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 495,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1279,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 997,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1576,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1187,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1221,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1791,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 777,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 668,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 38,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1058,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 414,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 39,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 480,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1896,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1602,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1898,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1797,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 344,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1209,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1235,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 309,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1020,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1648,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1690,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1903,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 891,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 706,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 117,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1459,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 400,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 139,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 429,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1900,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1765,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 326,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1649,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1731,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 289,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1457,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      }
+    ],
+    "id_audit": "SIB official index_id is retained; Belebele exposes source URL, question number and passage but no canonical FLORES integer ID. No unverified ID correspondence asserted.",
+    "limitations": "Exact/containment checks do not exclude paraphrases, partial fragments or pretraining exposure. No test rows removed or tuned."
+  },
+  "ar": {
+    "method": "NFKC casefold whitespace normalized equality and bidirectional full-passage containment; train uses full SIB text containment. No fuzzy/semantic dedup or post-test filtering.",
+    "belebele_source": "/path/to/storage/datasets/aya-4b-multilang-20261106/evaluation-v1/arb_Arab.jsonl",
+    "belebele_sha256": "a2282b0974826172b1ce76a5d9e362091cfc8a7a25023df2d011f88f588b56e0",
+    "train_source": "/path/to/storage/datasets/aya-4b-multilang-20261106/mixtures/ar/train6400.jsonl",
+    "train_sha256": "fb01b9f8511858bf68da80853ff9f91fc8d8bb76b467c671fb0dc57efd894905",
+    "sib_samples": 204,
+    "belebele_unique_passages": 488,
+    "sib_exact_overlap": 0,
+    "sib_containment_overlap": 170,
+    "sib_train_fulltext_overlap": 0,
+    "items": [
+      {
+        "index_id": 1523,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1644,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 558,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 456,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 906,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 452,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1557,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1360,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1675,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1430,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1907,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1555,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1632,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1354,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 462,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 404,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 604,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 352,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 459,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1519,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1338,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1679,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1428,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1432,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1024,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 373,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1332,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1670,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 61,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 454,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1234,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1025,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1254,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 780,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 649,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 917,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 603,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1518,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 584,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1589,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1558,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 922,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1981,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 351,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1429,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 578,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 905,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 264,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 628,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1366,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 779,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1874,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1734,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1840,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1919,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 828,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 818,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 978,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 765,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1992,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 823,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 762,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 932,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 678,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 822,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1820,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1947,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1713,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 731,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1808,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1929,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 131,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 814,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1799,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1715,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1801,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 957,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 953,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1334,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 931,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 855,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1607,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 2004,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 677,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1932,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 846,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 960,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 662,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 942,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1894,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 956,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1172,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 433,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1162,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1320,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 181,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 963,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1068,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 284,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1868,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1015,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1023,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1545,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 300,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1565,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 8,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 489,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1543,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1296,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1289,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1413,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1161,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1067,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1440,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1937,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 168,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1055,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1319,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 92,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1189,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1295,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1323,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 308,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 215,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1748,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 6,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 552,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 159,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 11,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 184,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1335,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1317,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1200,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1750,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1149,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1199,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1177,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1853,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 158,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 809,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1062,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1417,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 78,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1238,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 551,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1324,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1584,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 803,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 564,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1482,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 998,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 511,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 138,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 520,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1226,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1526,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1153,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1208,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1204,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1822,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 510,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1097,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1129,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 495,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1279,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 997,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1576,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1187,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1221,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1791,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 777,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 668,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 38,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1058,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 414,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 39,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 480,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1896,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1602,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1898,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1797,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 344,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1209,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1235,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 309,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1020,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1648,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1690,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1903,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 891,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 706,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 117,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1459,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 400,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 139,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 429,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1900,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1765,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 326,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1649,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1731,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 289,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1457,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      }
+    ],
+    "id_audit": "SIB official index_id is retained; Belebele exposes source URL, question number and passage but no canonical FLORES integer ID. No unverified ID correspondence asserted.",
+    "limitations": "Exact/containment checks do not exclude paraphrases, partial fragments or pretraining exposure. No test rows removed or tuned."
+  },
+  "ru": {
+    "method": "NFKC casefold whitespace normalized equality and bidirectional full-passage containment; train uses full SIB text containment. No fuzzy/semantic dedup or post-test filtering.",
+    "belebele_source": "/path/to/storage/datasets/aya-4b-multilang-20261106/evaluation-v1/rus_Cyrl.jsonl",
+    "belebele_sha256": "e8b81853605b97e993af07a34ad2c0a48ccd8dab80956b0650a161e8fea00de5",
+    "train_source": "/path/to/storage/datasets/aya-4b-multilang-20261106/mixtures/ru/train6400.jsonl",
+    "train_sha256": "e84860a97f56fb3ac54c2d12ae292adb786305ed77102a5348b810aaa7d72937",
+    "sib_samples": 204,
+    "belebele_unique_passages": 488,
+    "sib_exact_overlap": 0,
+    "sib_containment_overlap": 171,
+    "sib_train_fulltext_overlap": 0,
+    "items": [
+      {
+        "index_id": 1523,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1644,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 558,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 456,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 906,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 452,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1557,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1360,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1675,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1430,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1907,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1555,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1632,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1354,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 462,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 404,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 604,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 352,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 459,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1519,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1338,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1679,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1428,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1432,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1024,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 373,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1332,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1670,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 61,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 454,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1234,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1025,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1254,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 780,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 649,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 917,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 603,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1518,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 584,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1589,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1558,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 922,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1981,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 351,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1429,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 578,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 905,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 264,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 628,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1366,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 779,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1874,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1734,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1840,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1919,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 828,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 818,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 978,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 765,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1992,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 823,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 762,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 932,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 678,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 822,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1820,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1947,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1713,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 731,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1808,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1929,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 131,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 814,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1799,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1715,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1801,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 957,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 953,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1334,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 931,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 855,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1607,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 2004,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 677,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1932,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 846,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 960,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 662,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 942,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1894,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 956,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1172,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 433,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1162,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1320,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 181,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 963,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1068,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 284,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1868,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1015,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1023,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1545,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 300,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1565,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 8,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 489,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1543,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1296,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1289,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1413,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1161,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1067,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1440,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1937,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 168,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1055,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1319,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 92,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1189,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1295,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1323,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 308,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 215,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1748,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 6,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 552,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 159,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 11,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 184,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1335,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1317,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1200,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1750,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1149,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1199,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1177,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1853,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 158,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 809,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1062,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1417,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 78,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1238,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 551,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1324,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1584,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 803,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 564,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1482,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 998,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 511,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 138,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 520,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1226,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1526,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1153,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1208,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1204,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1822,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 510,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1097,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1129,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 495,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1279,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 997,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1576,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1187,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1221,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1791,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 777,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 668,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 38,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1058,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 414,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 39,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 480,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1896,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1602,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1898,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1797,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 344,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1209,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1235,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 309,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1020,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1648,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1690,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1903,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 891,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 706,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 117,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1459,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 400,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 139,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 429,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1900,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1765,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 0,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 326,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1649,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1731,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 289,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      },
+      {
+        "index_id": 1457,
+        "belebele_exact_passages": 0,
+        "belebele_containment_passages": 1,
+        "training_full_text_containment_rows": []
+      }
+    ],
+    "id_audit": "SIB official index_id is retained; Belebele exposes source URL, question number and passage but no canonical FLORES integer ID. No unverified ID correspondence asserted.",
+    "limitations": "Exact/containment checks do not exclude paraphrases, partial fragments or pretraining exposure. No test rows removed or tuned."
+  }
+}

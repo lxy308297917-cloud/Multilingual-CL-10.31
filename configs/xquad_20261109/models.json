@@ -1,0 +1,70 @@
+{
+  "ar_Base": {
+    "language": "ar",
+    "model": "/path/to/models/Qwen3-4B",
+    "adapter": null,
+    "role": "shared official Base"
+  },
+  "ar_historical_lora": {
+    "language": "ar",
+    "model": "/path/to/models/Qwen3-4B",
+    "adapter": "/path/to/storage/checkpoints/aya_4b_generalization_20261107/ar_lora_final_v1",
+    "role": "historical micro1 GA16 Final400",
+    "adapter_sha256": "b31ff453af2d595b7f7484e7e8be85f16a799573e2d19a67a1cc242b3ad5c321"
+  },
+  "ru_Base": {
+    "language": "ru",
+    "model": "/path/to/models/Qwen3-4B",
+    "adapter": null,
+    "role": "shared official Base"
+  },
+  "ru_historical_lora": {
+    "language": "ru",
+    "model": "/path/to/models/Qwen3-4B",
+    "adapter": "/path/to/storage/checkpoints/aya_4b_generalization_20261107/ru_lora_final_v1",
+    "role": "historical micro1 GA16 Final400",
+    "adapter_sha256": "8b9830b0f9e97636f5a631a1497e40c9b7370c957752c25440bc7f1226889b91"
+  },
+  "ar_all": {
+    "language": "ar",
+    "model": "/path/to/models/Qwen3-4B",
+    "adapter": "/path/to/storage/checkpoints/function_aware_formal_20261109/ar_all_final_v1",
+    "role": "existing formal/historical ar_all",
+    "source_family": "function_aware_formal_20261109"
+  },
+  "ar_function": {
+    "language": "ar",
+    "model": "/path/to/models/Qwen3-4B",
+    "adapter": "/path/to/storage/checkpoints/function_aware_formal_20261109/ar_function_final_v1",
+    "role": "existing formal/historical ar_function",
+    "source_family": "function_aware_formal_20261109"
+  },
+  "ru_all": {
+    "language": "ru",
+    "model": "/path/to/models/Qwen3-4B",
+    "adapter": "/path/to/storage/checkpoints/function_aware_formal_20261109/ru_all_final_v1",
+    "role": "existing formal/historical ru_all",
+    "source_family": "function_aware_formal_20261109"
+  },
+  "ru_full": {
+    "language": "ru",
+    "model": "/path/to/models/Qwen3-4B",
+    "adapter": "/path/to/storage/checkpoints/function_aware_formal_20261109/ru_full_final_v1",
+    "role": "existing formal/historical ru_full",
+    "source_family": "function_aware_formal_20261109"
+  },
+  "ru_random": {
+    "language": "ru",
+    "model": "/path/to/models/Qwen3-4B",
+    "adapter": "/path/to/storage/checkpoints/function_aware_formal_20261109/ru_random_final_v1",
+    "role": "existing formal/historical ru_random",
+    "source_family": "function_aware_formal_20261109"
+  },
+  "ru_function": {
+    "language": "ru",
+    "model": "/path/to/models/Qwen3-4B",
+    "adapter": "/path/to/storage/checkpoints/function_aware_formal_20261109/ru_function_final_v1",
+    "role": "existing formal/historical ru_function",
+    "source_family": "function_aware_formal_20261109"
+  }
+}

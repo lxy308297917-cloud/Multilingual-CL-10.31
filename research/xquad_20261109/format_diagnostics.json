@@ -1,0 +1,22 @@
+{
+  "ar_Base": {
+    "samples": 1190,
+    "empty_outputs": 0,
+    "think_tag_outputs": 0,
+    "anchored_answer_label_prefix": 611,
+    "bold_markdown_outputs": 765,
+    "full_reference_token_containment": 607,
+    "median_prediction_reference_character_ratio": 5.025,
+    "scope": "Posthoc output-format diagnostic prompted by exposed AR Base outputs. Frozen official EM/F1 unchanged; reference containment is not accuracy and may count copying/context repetition; no answer extraction, new prompt or test-based scoring choice."
+  },
+  "ar_historical_lora": {
+    "samples": 1190,
+    "empty_outputs": 0,
+    "think_tag_outputs": 0,
+    "anchored_answer_label_prefix": 0,
+    "bold_markdown_outputs": 0,
+    "full_reference_token_containment": 710,
+    "median_prediction_reference_character_ratio": 1.0,
+    "scope": "Posthoc output-format diagnostic prompted by exposed AR Base outputs. Frozen official EM/F1 unchanged; reference containment is not accuracy and may count copying/context repetition; no answer extraction, new prompt or test-based scoring choice."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "at": "2026-11-09T23:40:26.135342+08:00",
+  "files": [
+    {
+      "path": "/path/to/project/configs/xquad_20261109/data_manifest.json",
+      "sha256": "8f6f824035b695007dea61a8984f974825129b85d310f0c62a2fdd17dd65d5d2"
+    },
+    {
+      "path": "/path/to/project/configs/xquad_20261109/harness_identity.json",
+      "sha256": "6653bc3a347e2ce60dd3ff899c6c42da6b4ddca187059c34416d654a020f461e"
+    },
+    {
+      "path": "/path/to/project/configs/xquad_20261109/models.json",
+      "sha256": "60e39dcd45cc45c7142bd92efa2470da6b6d0a43cc2fb5b01637e695294882a4"
+    },
+    {
+      "path": "/path/to/project/scripts/xquad_20261109/evaluate.py",
+      "sha256": "69ed5303f76ae7738072377cf6933bdaeb01c65aea0d6443074a505275062d38"
+    },
+    {
+      "path": "/path/to/project/scripts/xquad_20261109/observe.py",
+      "sha256": "2ff32490642d24a73607d28990388a73c19ae5d23f97f3318fe3a25571458c2f"
+    },
+    {
+      "path": "/path/to/project/scripts/xquad_20261109/prepare.py",
+      "sha256": "1e5145fbfa1617a9dc79c23ae2202c87faace6cd7455952db106a06d505e4d76"
+    },
+    {
+      "path": "/path/to/project/scripts/xquad_20261109/report.py",
+      "sha256": "563bfa575983b1f0c71cae97a888d838b61812ca7da2e71572075d20207d465e"
+    },
+    {
+      "path": "/path/to/project/scripts/xquad_20261109/schedule.py",
+      "sha256": "cc500dbdc94a34e40cfc5671b7aa3e47682dedd9c55a4308fbcd71128ec9cc65"
+    },
+    {
+      "path": "/path/to/project/scripts/xquad_20261109/utils.py",
+      "sha256": "6194dc964a5d0066c52d4fee2ed379d0b1216c5528b84b25d044d0731c0d3cc6"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "at": "2026-11-09T23:41:45.208040+08:00",
+  "sib_completed": 13,
+  "sib_required_available": 22,
+  "user_deferred_models": [
+    "ar_full",
+    "ar_kd",
+    "ar_random",
+    "ru_kd",
+    "matched_fft"
+  ],
+  "samples_per_sib_model": 204,
+  "primary_length_normalized_LL_argmax_recomputed": true,
+  "raw_secondary_LL_argmax_recomputed": true,
+  "raw_aggregate_matches_every_item": true,
+  "paired_input_identity_verified": true,
+  "paired_intervals": 57,
+  "resamples": 2000,
+  "normalization_frozen_before_test": true,
+  "not_chosen_max_primary_secondary": true,
+  "sib_manifest_sha256": "a17e71a8314ef519d290ced9c174e8b2f7bfaaa20613e8376da0a93a6d7adf5e",
+  "status": "PARTIAL_RAW_AUDIT"
+}

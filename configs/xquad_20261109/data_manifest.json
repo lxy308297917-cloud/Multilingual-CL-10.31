@@ -1,0 +1,50 @@
+{
+  "repository": "https://github.com/google-deepmind/xquad",
+  "revision": "7d30520c717524000f0d9d2f9c10a069acd9d285",
+  "split": "official XQuAD evaluation; translated subset of SQuAD validation",
+  "languages": {
+    "ar": {
+      "samples": 1190,
+      "paragraphs": 240,
+      "source_sha256": "abdabd7afed5c635d99cca0f3f0d0c9d9ed0bc77451e963c2e4e0638c29e486d",
+      "jsonl_sha256": "15bd274d8cfac94247357e86d2e4a6c7e85839e812f6f1620b6bfb7fce0f45de",
+      "task_sha256": "fd7c3270bf6093aa3a4ecf3d75b6c73a4855d8a44d6c3de91117aad7bf7418a7",
+      "prompt": "\u0633\u064a\u0627: {{context}}\n\n\u0633\u0624\u0627\u0644: {{question}}\n\n\u0625\u062c\u0627\u0628\u0629:",
+      "answer_offset_mismatch_ids": [],
+      "offset_note": "Offsets audited only; scoring uses all official reference strings; no examples repaired or removed",
+      "reference_count_distribution": {
+        "1": 1190
+      }
+    },
+    "ru": {
+      "samples": 1190,
+      "paragraphs": 240,
+      "source_sha256": "208d5b1aa154c52b1b5c5eda16281e455e8fd198cdb9af3f469f0d6037d973bf",
+      "jsonl_sha256": "623d1728337804a06e93cb724c037619e7ac85be412b70ca53047aa5cc283e2b",
+      "task_sha256": "6cdfc66a1fda36cc5dfe8679f51ce26c250d90c4153fb949919439b16f06f65c",
+      "prompt": "\u041a\u043e\u043d\u0442\u0435\u043a\u0441\u0442: {{context}}\n\n\u0412\u043e\u043f\u0440\u043e\u0441: {{question}}\n\n\u041e\u0442\u0432\u0435\u0442:",
+      "answer_offset_mismatch_ids": [],
+      "offset_note": "Offsets audited only; scoring uses all official reference strings; no examples repaired or removed",
+      "reference_count_distribution": {
+        "1": 1190
+      }
+    }
+  },
+  "shots": 0,
+  "nonthinking": true,
+  "greedy": true,
+  "max_new_tokens": 128,
+  "stop": [
+    "\n"
+  ],
+  "metrics": [
+    "official SQuAD v1.1 exact_match",
+    "official SQuAD v1.1 token_f1"
+  ],
+  "normalization": "Official English SQuAD v1.1 lower/punctuation/articles/whitespace rules, including for AR/RU",
+  "multiple_gold": "maximum over all references, as official evaluate-v1.1; unlike installed Harness XQuAD first-reference-only helper",
+  "scorer_source_sha256": "fff72374f535aadddb8e75eade4e820b6fe9ff90f16d4f29e88e442f8d2e9eb8",
+  "harness_inference": "lm_eval generate_until hf; language-native built-in XQuAD prompt",
+  "sw": "UNSUPPORTED: no synthetic SW translation or substitute dataset",
+  "created_at": "2026-11-09T22:37:04.725157+08:00"
+}

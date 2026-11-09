@@ -1,27 +1,27 @@
 # Function-Aware正式实验进度
 
-2026-11-09T20:14:45.150268+08:00
+2026-11-09T23:45:23.958617+08:00
 
 当前目标：SW/AR/RU五方法同预算Final400正式比较。旧条件式P3目标与误转跨层求解方案均已被本目标替代。
 
-三语言主线新增正式训练完成：2/14；历史SW batch2普通LoRA复用。
+三语言主线新增正式训练完成：10/14；历史SW batch2普通LoRA复用。
 
 | 任务 | 状态 | 阶段 | 最近已保存节点 |
 |---|---|---|---|
-| sw_full | WAITING_FREE_GPU_ACCOUNT_AND_QUEUE_MAX4 | final | None |
+| sw_full | VERIFIED_FINAL400 | final | 400 |
 | sw_kd | VERIFIED_FINAL400 | final | 400 |
-| sw_random | WAITING_FREE_GPU_ACCOUNT_AND_QUEUE_MAX4 | final | None |
-| sw_function | WAITING_FREE_GPU_ACCOUNT_AND_QUEUE_MAX4 | smoke | None |
-| ar_all | RUNNING | final | 100 |
-| ar_full | WAITING_FREE_GPU_ACCOUNT_AND_QUEUE_MAX4 | final | None |
-| ar_kd | WAITING_FREE_GPU_ACCOUNT_AND_QUEUE_MAX4 | smoke | None |
-| ar_random | WAITING_FREE_GPU_ACCOUNT_AND_QUEUE_MAX4 | smoke | None |
-| ar_function | WAITING_FREE_GPU_ACCOUNT_AND_QUEUE_MAX4 | smoke | None |
-| ru_all | RUNNING | final | 200 |
+| sw_random | VERIFIED_FINAL400 | final | 400 |
+| sw_function | VERIFIED_FINAL400 | final | 400 |
+| ar_all | VERIFIED_FINAL400 | final | 400 |
+| ar_full | USER_DEFERRED_BEFORE_FORMAL_START | final | None |
+| ar_kd | USER_DEFERRED_BEFORE_FORMAL_START | smoke | None |
+| ar_random | USER_DEFERRED_BEFORE_FORMAL_START | final | None |
+| ar_function | VERIFIED_FINAL400 | final | 400 |
+| ru_all | VERIFIED_FINAL400 | final | 400 |
 | ru_full | VERIFIED_FINAL400 | final | 400 |
-| ru_kd | WAITING_FREE_GPU_ACCOUNT_AND_QUEUE_MAX4 | smoke | None |
-| ru_random | WAITING_FIXED_CALIBRATION_WEIGHTS | not_started | None |
-| ru_function | WAITING_FIXED_CALIBRATION_WEIGHTS | not_started | None |
+| ru_kd | USER_DEFERRED_BEFORE_FORMAL_START | smoke | None |
+| ru_random | VERIFIED_FINAL400 | final | 400 |
+| ru_function | VERIFIED_FINAL400 | final | 400 |
 
 另有独立FFT补充2组完整训练；它们不计入上述14组，进度见[FFT轨道](../fft_representation_20261109/README.md)。主线和FFT合计16组新增完整训练。
 

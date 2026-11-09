@@ -1,0 +1,525 @@
+{
+  "fa": {
+    "log_family": "function-aware-formal-20261109",
+    "script_family": "function_aware_formal_20261109",
+    "key": "name",
+    "workers": 4,
+    "pending": [
+      [
+        "sw_full",
+        "core"
+      ],
+      [
+        "sw_full",
+        "code"
+      ],
+      [
+        "sw_random",
+        "reading"
+      ],
+      [
+        "sw_random",
+        "summary"
+      ],
+      [
+        "sw_random",
+        "gmmlu"
+      ],
+      [
+        "sw_random",
+        "mmlu"
+      ],
+      [
+        "sw_random",
+        "core"
+      ],
+      [
+        "sw_random",
+        "code"
+      ],
+      [
+        "sw_function",
+        "reading"
+      ],
+      [
+        "sw_function",
+        "summary"
+      ],
+      [
+        "sw_function",
+        "gmmlu"
+      ],
+      [
+        "sw_function",
+        "mmlu"
+      ],
+      [
+        "sw_function",
+        "core"
+      ],
+      [
+        "sw_function",
+        "code"
+      ],
+      [
+        "ar_all",
+        "gmmlu"
+      ],
+      [
+        "ar_all",
+        "mmlu"
+      ],
+      [
+        "ar_all",
+        "core"
+      ],
+      [
+        "ar_all",
+        "code"
+      ],
+      [
+        "ar_function",
+        "reading"
+      ],
+      [
+        "ar_function",
+        "summary"
+      ],
+      [
+        "ar_function",
+        "gmmlu"
+      ],
+      [
+        "ar_function",
+        "mmlu"
+      ],
+      [
+        "ar_function",
+        "core"
+      ],
+      [
+        "ar_function",
+        "code"
+      ],
+      [
+        "ru_all",
+        "reading"
+      ],
+      [
+        "ru_all",
+        "summary"
+      ],
+      [
+        "ru_all",
+        "gmmlu"
+      ],
+      [
+        "ru_all",
+        "mmlu"
+      ],
+      [
+        "ru_all",
+        "core"
+      ],
+      [
+        "ru_all",
+        "code"
+      ],
+      [
+        "ru_full",
+        "reading"
+      ],
+      [
+        "ru_full",
+        "summary"
+      ],
+      [
+        "ru_full",
+        "gmmlu"
+      ],
+      [
+        "ru_full",
+        "mmlu"
+      ],
+      [
+        "ru_full",
+        "core"
+      ],
+      [
+        "ru_full",
+        "code"
+      ],
+      [
+        "ru_random",
+        "reading"
+      ],
+      [
+        "ru_random",
+        "summary"
+      ],
+      [
+        "ru_random",
+        "gmmlu"
+      ],
+      [
+        "ru_random",
+        "mmlu"
+      ],
+      [
+        "ru_random",
+        "core"
+      ],
+      [
+        "ru_random",
+        "code"
+      ],
+      [
+        "ru_function",
+        "reading"
+      ],
+      [
+        "ru_function",
+        "summary"
+      ],
+      [
+        "ru_function",
+        "gmmlu"
+      ],
+      [
+        "ru_function",
+        "mmlu"
+      ],
+      [
+        "ru_function",
+        "core"
+      ],
+      [
+        "ru_function",
+        "code"
+      ],
+      [
+        "sw_kd",
+        "gmmlu"
+      ],
+      [
+        "sw_kd",
+        "core"
+      ],
+      [
+        "sw_kd",
+        "code"
+      ],
+      [
+        "ar_all",
+        "summary"
+      ],
+      [
+        "sw_full",
+        "reading"
+      ],
+      [
+        "sw_full",
+        "summary"
+      ],
+      [
+        "sw_full",
+        "gmmlu"
+      ],
+      [
+        "sw_full",
+        "mmlu"
+      ]
+    ],
+    "completed": [
+      {
+        "name": "sw_kd",
+        "stage": "reading",
+        "exit_code": 0
+      },
+      {
+        "name": "ar_Base",
+        "stage": "gmmlu",
+        "exit_code": 0
+      },
+      {
+        "name": "sw_all",
+        "stage": "mmlu",
+        "exit_code": 0
+      },
+      {
+        "name": "ru_Base",
+        "stage": "gmmlu",
+        "exit_code": 0
+      },
+      {
+        "name": "sw_kd",
+        "stage": "mmlu",
+        "exit_code": 0
+      },
+      {
+        "name": "ar_all",
+        "stage": "reading",
+        "exit_code": 0
+      }
+    ],
+    "failed": [
+      {
+        "name": "sw_Base",
+        "stage": "mmlu",
+        "exit_code": -15
+      },
+      {
+        "name": "sw_kd",
+        "stage": "summary",
+        "exit_code": 1
+      }
+    ],
+    "deferred": [
+      [
+        "ar_full",
+        "reading"
+      ],
+      [
+        "ar_full",
+        "summary"
+      ],
+      [
+        "ar_full",
+        "gmmlu"
+      ],
+      [
+        "ar_full",
+        "mmlu"
+      ],
+      [
+        "ar_full",
+        "core"
+      ],
+      [
+        "ar_full",
+        "code"
+      ],
+      [
+        "ar_kd",
+        "reading"
+      ],
+      [
+        "ar_kd",
+        "summary"
+      ],
+      [
+        "ar_kd",
+        "gmmlu"
+      ],
+      [
+        "ar_kd",
+        "mmlu"
+      ],
+      [
+        "ar_kd",
+        "core"
+      ],
+      [
+        "ar_kd",
+        "code"
+      ],
+      [
+        "ar_random",
+        "reading"
+      ],
+      [
+        "ar_random",
+        "summary"
+      ],
+      [
+        "ar_random",
+        "gmmlu"
+      ],
+      [
+        "ar_random",
+        "mmlu"
+      ],
+      [
+        "ar_random",
+        "core"
+      ],
+      [
+        "ar_random",
+        "code"
+      ],
+      [
+        "ru_kd",
+        "reading"
+      ],
+      [
+        "ru_kd",
+        "summary"
+      ],
+      [
+        "ru_kd",
+        "gmmlu"
+      ],
+      [
+        "ru_kd",
+        "mmlu"
+      ],
+      [
+        "ru_kd",
+        "core"
+      ],
+      [
+        "ru_kd",
+        "code"
+      ]
+    ],
+    "artifacts": {
+      "sw_full": "/path/to/storage/checkpoints/function_aware_formal_20261109/sw_full_final_v1",
+      "sw_kd": "/path/to/storage/checkpoints/function_aware_formal_20261109/sw_kd_final_v1",
+      "sw_random": "/path/to/storage/checkpoints/function_aware_formal_20261109/sw_random_final_v1",
+      "sw_function": "/path/to/storage/checkpoints/function_aware_formal_20261109/sw_function_final_v1",
+      "ar_all": "/path/to/storage/checkpoints/function_aware_formal_20261109/ar_all_final_v1",
+      "ar_full": "/path/to/storage/checkpoints/function_aware_formal_20261109/ar_full_final_v1",
+      "ar_kd": "/path/to/storage/checkpoints/function_aware_formal_20261109/ar_kd_final_v1",
+      "ar_random": "/path/to/storage/checkpoints/function_aware_formal_20261109/ar_random_final_v1",
+      "ar_function": "/path/to/storage/checkpoints/function_aware_formal_20261109/ar_function_final_v1",
+      "ru_all": "/path/to/storage/checkpoints/function_aware_formal_20261109/ru_all_final_v1",
+      "ru_full": "/path/to/storage/checkpoints/function_aware_formal_20261109/ru_full_final_v1",
+      "ru_kd": "/path/to/storage/checkpoints/function_aware_formal_20261109/ru_kd_final_v1",
+      "ru_random": "/path/to/storage/checkpoints/function_aware_formal_20261109/ru_random_final_v1",
+      "ru_function": "/path/to/storage/checkpoints/function_aware_formal_20261109/ru_function_final_v1",
+      "sw_all": "/path/to/storage/checkpoints/functional_representation_20261109/p2/all_layer_final_v1"
+    },
+    "source_archive": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/priority-account5-requeue-20261109T2304",
+    "reason": "User prioritizes5+5/XQuAD; no new training, no translation or diagnostics now"
+  },
+  "fft": {
+    "log_family": "fft-representation-20261109",
+    "script_family": "fft_representation_20261109",
+    "key": "profile",
+    "workers": 2,
+    "pending": [
+      [
+        "fft_full36",
+        "reading"
+      ],
+      [
+        "fft_full36",
+        "summary"
+      ],
+      [
+        "fft_full36",
+        "gmmlu"
+      ],
+      [
+        "fft_full36",
+        "mmlu"
+      ],
+      [
+        "fft_full36",
+        "core"
+      ],
+      [
+        "fft_full36",
+        "code"
+      ],
+      [
+        "p2_full36",
+        "mmlu"
+      ],
+      [
+        "p2_ce",
+        "mmlu"
+      ]
+    ],
+    "completed": [
+      {
+        "profile": "historical_fft",
+        "stage": "code",
+        "exit_code": 0
+      },
+      {
+        "profile": "historical_ssu",
+        "stage": "code",
+        "exit_code": 0
+      }
+    ],
+    "failed": [],
+    "deferred": [
+      [
+        "matched_fft",
+        "reading"
+      ],
+      [
+        "matched_fft",
+        "summary"
+      ],
+      [
+        "matched_fft",
+        "gmmlu"
+      ],
+      [
+        "matched_fft",
+        "mmlu"
+      ],
+      [
+        "matched_fft",
+        "core"
+      ],
+      [
+        "matched_fft",
+        "code"
+      ],
+      [
+        "matched_fft",
+        "mt_en_sw"
+      ],
+      [
+        "matched_fft",
+        "mt_sw_en"
+      ],
+      [
+        "fft_full36",
+        "mt_en_sw"
+      ],
+      [
+        "fft_full36",
+        "mt_sw_en"
+      ],
+      [
+        "p2_all",
+        "mt_en_sw"
+      ],
+      [
+        "p2_all",
+        "mt_sw_en"
+      ],
+      [
+        "p2_full36",
+        "mt_en_sw"
+      ],
+      [
+        "p2_full36",
+        "mt_sw_en"
+      ],
+      [
+        "p2_ce",
+        "mt_en_sw"
+      ],
+      [
+        "p2_ce",
+        "mt_sw_en"
+      ]
+    ],
+    "artifacts": {
+      "historical_fft": "/path/to/storage/checkpoints/aya_4b_20261105/fft_final_v2",
+      "historical_ssu": "/path/to/storage/checkpoints/aya_4b_20261105/ssu_final_v2",
+      "matched_fft": "/path/to/storage/checkpoints/fft_representation_20261109/none_final_v1",
+      "fft_full36": "/path/to/storage/checkpoints/fft_representation_20261109/full36_final_v1",
+      "p2_all": "/path/to/storage/checkpoints/functional_representation_20261109/p2/all_layer_final_v1",
+      "p2_full36": "/path/to/storage/checkpoints/functional_representation_20261109/p2/full_feature_final_v1",
+      "p2_ce": "/path/to/storage/checkpoints/functional_representation_20261109/p2/ce_replay_final_v1"
+    },
+    "source_archive": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/priority-account5-requeue-20261109T2304",
+    "reason": "User prioritizes5+5/XQuAD; no new training, no translation or diagnostics now"
+  }
+}

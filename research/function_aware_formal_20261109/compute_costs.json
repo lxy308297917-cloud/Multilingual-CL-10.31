@@ -1,7 +1,52 @@
 {
   "status": "PARTIAL_OBSERVED_COSTS",
-  "updated_at": "2026-11-09T19:06:15.042421+08:00",
+  "updated_at": "2026-11-09T23:44:00.780697+08:00",
   "records": [
+    {
+      "kind": "incremental_formal_training",
+      "name": "ar_all_final_v1",
+      "source": "/path/to/storage/checkpoints/function_aware_formal_20261109/ar_all_final_v1/TRAINING_DONE.json",
+      "observed_seconds": 2941.341794659995,
+      "target_samples": 6400,
+      "input_tokens": 2265373,
+      "assistant_tokens": 265783,
+      "peak_allocated_bytes": 16865185792,
+      "trainable_parameters": 33030144,
+      "old_build_samples": 0,
+      "old_forward_backward_calls": 0,
+      "old_measured_seconds_including_sync": 0,
+      "timing_note": "Old timing is nested inside total; never add it twice. Wall time is not CUDA kernel time."
+    },
+    {
+      "kind": "incremental_formal_training",
+      "name": "ar_function_final_v1",
+      "source": "/path/to/storage/checkpoints/function_aware_formal_20261109/ar_function_final_v1/TRAINING_DONE.json",
+      "observed_seconds": 3752.9239732190035,
+      "target_samples": 6400,
+      "input_tokens": 2265373,
+      "assistant_tokens": 265783,
+      "peak_allocated_bytes": 16865185792,
+      "trainable_parameters": 33030144,
+      "old_build_samples": 3200,
+      "old_forward_backward_calls": 3200,
+      "old_measured_seconds_including_sync": 931.2243184611143,
+      "timing_note": "Old timing is nested inside total; never add it twice. Wall time is not CUDA kernel time."
+    },
+    {
+      "kind": "incremental_formal_training",
+      "name": "ru_all_final_v1",
+      "source": "/path/to/storage/checkpoints/function_aware_formal_20261109/ru_all_final_v1/TRAINING_DONE.json",
+      "observed_seconds": 3371.066367912019,
+      "target_samples": 6400,
+      "input_tokens": 2520204,
+      "assistant_tokens": 305046,
+      "peak_allocated_bytes": 16865834496,
+      "trainable_parameters": 33030144,
+      "old_build_samples": 0,
+      "old_forward_backward_calls": 0,
+      "old_measured_seconds_including_sync": 0,
+      "timing_note": "Old timing is nested inside total; never add it twice. Wall time is not CUDA kernel time."
+    },
     {
       "kind": "incremental_formal_training",
       "name": "ru_full_final_v1",
@@ -15,6 +60,66 @@
       "old_build_samples": 3200,
       "old_forward_backward_calls": 3200,
       "old_measured_seconds_including_sync": 941.5889455106517,
+      "timing_note": "Old timing is nested inside total; never add it twice. Wall time is not CUDA kernel time."
+    },
+    {
+      "kind": "incremental_formal_training",
+      "name": "ru_function_final_v1",
+      "source": "/path/to/storage/checkpoints/function_aware_formal_20261109/ru_function_final_v1/TRAINING_DONE.json",
+      "observed_seconds": 4070.0408229609893,
+      "target_samples": 6400,
+      "input_tokens": 2520204,
+      "assistant_tokens": 305046,
+      "peak_allocated_bytes": 16865834496,
+      "trainable_parameters": 33030144,
+      "old_build_samples": 3200,
+      "old_forward_backward_calls": 3200,
+      "old_measured_seconds_including_sync": 917.0990320631245,
+      "timing_note": "Old timing is nested inside total; never add it twice. Wall time is not CUDA kernel time."
+    },
+    {
+      "kind": "incremental_formal_training",
+      "name": "ru_random_final_v1",
+      "source": "/path/to/storage/checkpoints/function_aware_formal_20261109/ru_random_final_v1/TRAINING_DONE.json",
+      "observed_seconds": 4117.246229928016,
+      "target_samples": 6400,
+      "input_tokens": 2520204,
+      "assistant_tokens": 305046,
+      "peak_allocated_bytes": 16865834496,
+      "trainable_parameters": 33030144,
+      "old_build_samples": 3200,
+      "old_forward_backward_calls": 3200,
+      "old_measured_seconds_including_sync": 931.671255761612,
+      "timing_note": "Old timing is nested inside total; never add it twice. Wall time is not CUDA kernel time."
+    },
+    {
+      "kind": "incremental_formal_training",
+      "name": "sw_full_final_v1",
+      "source": "/path/to/storage/checkpoints/function_aware_formal_20261109/sw_full_final_v1/TRAINING_DONE.json",
+      "observed_seconds": 3920.812615610019,
+      "target_samples": 6400,
+      "input_tokens": 2373891,
+      "assistant_tokens": 324892,
+      "peak_allocated_bytes": 16832992768,
+      "trainable_parameters": 33030144,
+      "old_build_samples": 3200,
+      "old_forward_backward_calls": 3200,
+      "old_measured_seconds_including_sync": 913.7722396796453,
+      "timing_note": "Old timing is nested inside total; never add it twice. Wall time is not CUDA kernel time."
+    },
+    {
+      "kind": "incremental_formal_training",
+      "name": "sw_function_final_v1",
+      "source": "/path/to/storage/checkpoints/function_aware_formal_20261109/sw_function_final_v1/TRAINING_DONE.json",
+      "observed_seconds": 3923.9482771140174,
+      "target_samples": 6400,
+      "input_tokens": 2373891,
+      "assistant_tokens": 324892,
+      "peak_allocated_bytes": 16832992768,
+      "trainable_parameters": 33030144,
+      "old_build_samples": 3200,
+      "old_forward_backward_calls": 3200,
+      "old_measured_seconds_including_sync": 915.6757047718565,
       "timing_note": "Old timing is nested inside total; never add it twice. Wall time is not CUDA kernel time."
     },
     {
@@ -33,10 +138,49 @@
       "timing_note": "Old timing is nested inside total; never add it twice. Wall time is not CUDA kernel time."
     },
     {
+      "kind": "incremental_formal_training",
+      "name": "sw_random_final_v1",
+      "source": "/path/to/storage/checkpoints/function_aware_formal_20261109/sw_random_final_v1/TRAINING_DONE.json",
+      "observed_seconds": 3920.352129564999,
+      "target_samples": 6400,
+      "input_tokens": 2373891,
+      "assistant_tokens": 324892,
+      "peak_allocated_bytes": 16832992768,
+      "trainable_parameters": 33030144,
+      "old_build_samples": 3200,
+      "old_forward_backward_calls": 3200,
+      "old_measured_seconds_including_sync": 912.288939844264,
+      "timing_note": "Old timing is nested inside total; never add it twice. Wall time is not CUDA kernel time."
+    },
+    {
       "kind": "incremental_engineering",
       "name": "ar_all_smoke_v1",
       "source": "/path/to/storage/checkpoints/function_aware_formal_20261109/ar_all_smoke_v1/SMOKE_DONE.json",
       "observed_seconds": 20.40669375201105,
+      "target_samples": 32,
+      "benchmark_selection": false
+    },
+    {
+      "kind": "incremental_engineering",
+      "name": "ar_full_smoke_v1",
+      "source": "/path/to/storage/checkpoints/function_aware_formal_20261109/ar_full_smoke_v1/SMOKE_DONE.json",
+      "observed_seconds": 25.76751167300972,
+      "target_samples": 32,
+      "benchmark_selection": false
+    },
+    {
+      "kind": "incremental_engineering",
+      "name": "ar_function_smoke_v1",
+      "source": "/path/to/storage/checkpoints/function_aware_formal_20261109/ar_function_smoke_v1/SMOKE_DONE.json",
+      "observed_seconds": 24.668961411021883,
+      "target_samples": 32,
+      "benchmark_selection": false
+    },
+    {
+      "kind": "incremental_engineering",
+      "name": "ar_random_smoke_v1",
+      "source": "/path/to/storage/checkpoints/function_aware_formal_20261109/ar_random_smoke_v1/SMOKE_DONE.json",
+      "observed_seconds": 24.507437868014676,
       "target_samples": 32,
       "benchmark_selection": false
     },
@@ -58,6 +202,22 @@
     },
     {
       "kind": "incremental_engineering",
+      "name": "ru_function_smoke_v1",
+      "source": "/path/to/storage/checkpoints/function_aware_formal_20261109/ru_function_smoke_v1/SMOKE_DONE.json",
+      "observed_seconds": 32.572941949008964,
+      "target_samples": 32,
+      "benchmark_selection": false
+    },
+    {
+      "kind": "incremental_engineering",
+      "name": "ru_random_smoke_v1",
+      "source": "/path/to/storage/checkpoints/function_aware_formal_20261109/ru_random_smoke_v1/SMOKE_DONE.json",
+      "observed_seconds": 32.79271458098083,
+      "target_samples": 32,
+      "benchmark_selection": false
+    },
+    {
+      "kind": "incremental_engineering",
       "name": "sw_full_smoke_v1",
       "source": "/path/to/storage/checkpoints/function_aware_formal_20261109/sw_full_smoke_v1/SMOKE_DONE.json",
       "observed_seconds": 28.917069530987646,
@@ -66,9 +226,25 @@
     },
     {
       "kind": "incremental_engineering",
+      "name": "sw_function_smoke_v1",
+      "source": "/path/to/storage/checkpoints/function_aware_formal_20261109/sw_function_smoke_v1/SMOKE_DONE.json",
+      "observed_seconds": 23.79330745799234,
+      "target_samples": 32,
+      "benchmark_selection": false
+    },
+    {
+      "kind": "incremental_engineering",
       "name": "sw_kd_smoke_v1",
       "source": "/path/to/storage/checkpoints/function_aware_formal_20261109/sw_kd_smoke_v1/SMOKE_DONE.json",
       "observed_seconds": 23.177580814022804,
+      "target_samples": 32,
+      "benchmark_selection": false
+    },
+    {
+      "kind": "incremental_engineering",
+      "name": "sw_random_smoke_v1",
+      "source": "/path/to/storage/checkpoints/function_aware_formal_20261109/sw_random_smoke_v1/SMOKE_DONE.json",
+      "observed_seconds": 24.46538249598234,
       "target_samples": 32,
       "benchmark_selection": false
     },
@@ -102,22 +278,22 @@
       "kind": "incremental_calibration",
       "name": "ar",
       "source": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/ar_calibration/worker.log",
-      "observed_seconds": null,
-      "completed_variants": 0,
+      "observed_seconds": 246.79331929798354,
+      "completed_variants": 13,
       "expected_variants": 13,
       "rows_per_variant": 224,
-      "status": "PENDING_OR_RUNNING",
+      "status": "COMPLETE",
       "timing_note": "Observed variant forward-loop wall times; excludes loading/queue, not assumed GPU kernel time"
     },
     {
       "kind": "incremental_calibration",
       "name": "ru",
       "source": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/ru_calibration/worker.log",
-      "observed_seconds": null,
-      "completed_variants": 0,
+      "observed_seconds": 270.40020273200935,
+      "completed_variants": 13,
       "expected_variants": 13,
       "rows_per_variant": 224,
-      "status": "PENDING_OR_RUNNING",
+      "status": "COMPLETE",
       "timing_note": "Observed variant forward-loop wall times; excludes loading/queue, not assumed GPU kernel time"
     },
     {

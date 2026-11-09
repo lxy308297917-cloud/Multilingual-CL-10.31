@@ -1,6 +1,6 @@
 {
   "status": "PARTIAL_OBSERVED_COSTS",
-  "updated_at": "2026-11-09T19:06:15.010357+08:00",
+  "updated_at": "2026-11-09T23:44:00.762704+08:00",
   "records": [
     {
       "profile": "historical_fft",
@@ -112,6 +112,14 @@
       "kind": "incremental_cpu_code_execution",
       "source": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/historical_fft/code/execution/scores.json",
       "elapsed_seconds": 103.52367334201699,
+      "samples": 164,
+      "timing_scope": "isolated model-program execution; excludes generation/loading/queue"
+    },
+    {
+      "profile": "historical_ssu",
+      "kind": "incremental_cpu_code_execution",
+      "source": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/historical_ssu/code/execution/scores.json",
+      "elapsed_seconds": 101.35147123300703,
       "samples": 164,
       "timing_scope": "isolated model-program execution; excludes generation/loading/queue"
     }

@@ -1,0 +1,33 @@
+{
+  "recorded_at": "2026-11-09T23:04:38.204484+08:00",
+  "scope": "Observed installed inference/scoring identities; no environment/source changes",
+  "python": "3.11.18 (main, Oct 26 2026, 11:35:17) [GCC 15.3.0]",
+  "versions": {
+    "torch": "2.6.0+cu118",
+    "transformers": "4.57.6",
+    "lm_eval": "0.4.14.dev0",
+    "datasets": "4.0.0",
+    "peft": "0.18.1",
+    "accelerate": "1.11.0",
+    "numpy": "2.4.6"
+  },
+  "sources": {
+    "Harness_ConfigurableTask": {
+      "path": "/path/to/storage/envs/qwen3-multilingual-20261031/lib/python3.11/site-packages/lm_eval/api/task.py",
+      "sha256": "4c25a4f1949488483b833ce4fcf91cfd3e066084a9ea00079c6879ae3ba95657",
+      "mtime_ns": 1793393864989855916
+    },
+    "Harness_HFLM": {
+      "path": "/path/to/storage/envs/qwen3-multilingual-20261031/lib/python3.11/site-packages/lm_eval/models/huggingface.py",
+      "sha256": "56d215b8f713d7579f9c7b58a9b8771b09c88e0e4fb8d1b6dd9068033b614b80",
+      "mtime_ns": 1793393864993855819
+    },
+    "Transformers_official_SQuAD_metrics": {
+      "path": "/path/to/storage/envs/qwen3-multilingual-20261031/lib/python3.11/site-packages/transformers/data/metrics/squad_metrics.py",
+      "sha256": "fff72374f535aadddb8e75eade4e820b6fe9ff90f16d4f29e88e442f8d2e9eb8",
+      "mtime_ns": 1793391116900728426
+    }
+  },
+  "SIB_primary": "Standard ConfigurableTask acc_norm, Unicode character length of exact fixed label string",
+  "XQuAD": "Official SQuAD v1.1 compute_exact/compute_f1, maximum over all official references"
+}

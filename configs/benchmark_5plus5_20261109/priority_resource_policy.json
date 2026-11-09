@@ -1,0 +1,16 @@
+{
+  "max_account_gpus": 5,
+  "authorization": "Explicit user fifth-GPU allowance, latest priority5+5/XQuAD",
+  "scientific_change": false,
+  "resource_only": "Global account cap and generation-child GPU guard4->5; same data/model/prompt/scorer/precision/batch/fewshot/generation",
+  "evaluators": {
+    "fa": {
+      "path": "/path/to/project/scripts/function_aware_formal_20261109/evaluate.py",
+      "sha256": "42f0f807d99f42cc2aa5fd52ef2101609b7a8a2501b5f2620aca5a42efbb89f3"
+    },
+    "fft": {
+      "path": "/path/to/project/scripts/fft_representation_20261109/evaluate.py",
+      "sha256": "04ad60eb9d59edff8ab76f39462cb4723d23c4bf22bdc35dc5baeab50a1346cf"
+    }
+  }
+}

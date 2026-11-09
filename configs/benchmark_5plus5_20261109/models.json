@@ -1,0 +1,188 @@
+{
+  "sw_Base": {
+    "language": "sw",
+    "model": "/path/to/models/Qwen3-4B",
+    "adapter": null,
+    "role": "shared official Base"
+  },
+  "sw_historical_lora": {
+    "language": "sw",
+    "model": "/path/to/models/Qwen3-4B",
+    "adapter": "/path/to/storage/checkpoints/aya_4b_20261105/lora_final_v1",
+    "role": "historical micro1 GA16 Final400",
+    "adapter_sha256": "0e3e8de0b3fa0fa2434b3a8946eeaca21b9580b613c475347ff4000f2e8d2265"
+  },
+  "ar_Base": {
+    "language": "ar",
+    "model": "/path/to/models/Qwen3-4B",
+    "adapter": null,
+    "role": "shared official Base"
+  },
+  "ar_historical_lora": {
+    "language": "ar",
+    "model": "/path/to/models/Qwen3-4B",
+    "adapter": "/path/to/storage/checkpoints/aya_4b_generalization_20261107/ar_lora_final_v1",
+    "role": "historical micro1 GA16 Final400",
+    "adapter_sha256": "b31ff453af2d595b7f7484e7e8be85f16a799573e2d19a67a1cc242b3ad5c321"
+  },
+  "ru_Base": {
+    "language": "ru",
+    "model": "/path/to/models/Qwen3-4B",
+    "adapter": null,
+    "role": "shared official Base"
+  },
+  "ru_historical_lora": {
+    "language": "ru",
+    "model": "/path/to/models/Qwen3-4B",
+    "adapter": "/path/to/storage/checkpoints/aya_4b_generalization_20261107/ru_lora_final_v1",
+    "role": "historical micro1 GA16 Final400",
+    "adapter_sha256": "8b9830b0f9e97636f5a631a1497e40c9b7370c957752c25440bc7f1226889b91"
+  },
+  "sw_all": {
+    "language": "sw",
+    "model": "/path/to/models/Qwen3-4B",
+    "adapter": "/path/to/storage/checkpoints/functional_representation_20261109/p2/all_layer_final_v1",
+    "role": "existing formal/historical sw_all",
+    "source_family": "function_aware_formal_20261109"
+  },
+  "sw_full": {
+    "language": "sw",
+    "model": "/path/to/models/Qwen3-4B",
+    "adapter": "/path/to/storage/checkpoints/function_aware_formal_20261109/sw_full_final_v1",
+    "role": "existing formal/historical sw_full",
+    "source_family": "function_aware_formal_20261109"
+  },
+  "sw_kd": {
+    "language": "sw",
+    "model": "/path/to/models/Qwen3-4B",
+    "adapter": "/path/to/storage/checkpoints/function_aware_formal_20261109/sw_kd_final_v1",
+    "role": "existing formal/historical sw_kd",
+    "source_family": "function_aware_formal_20261109"
+  },
+  "sw_random": {
+    "language": "sw",
+    "model": "/path/to/models/Qwen3-4B",
+    "adapter": "/path/to/storage/checkpoints/function_aware_formal_20261109/sw_random_final_v1",
+    "role": "existing formal/historical sw_random",
+    "source_family": "function_aware_formal_20261109"
+  },
+  "sw_function": {
+    "language": "sw",
+    "model": "/path/to/models/Qwen3-4B",
+    "adapter": "/path/to/storage/checkpoints/function_aware_formal_20261109/sw_function_final_v1",
+    "role": "existing formal/historical sw_function",
+    "source_family": "function_aware_formal_20261109"
+  },
+  "ar_all": {
+    "language": "ar",
+    "model": "/path/to/models/Qwen3-4B",
+    "adapter": "/path/to/storage/checkpoints/function_aware_formal_20261109/ar_all_final_v1",
+    "role": "existing formal/historical ar_all",
+    "source_family": "function_aware_formal_20261109"
+  },
+  "ar_full": {
+    "language": "ar",
+    "model": "/path/to/models/Qwen3-4B",
+    "adapter": "/path/to/storage/checkpoints/function_aware_formal_20261109/ar_full_final_v1",
+    "role": "existing formal/historical ar_full",
+    "source_family": "function_aware_formal_20261109"
+  },
+  "ar_kd": {
+    "language": "ar",
+    "model": "/path/to/models/Qwen3-4B",
+    "adapter": "/path/to/storage/checkpoints/function_aware_formal_20261109/ar_kd_final_v1",
+    "role": "existing formal/historical ar_kd",
+    "source_family": "function_aware_formal_20261109"
+  },
+  "ar_random": {
+    "language": "ar",
+    "model": "/path/to/models/Qwen3-4B",
+    "adapter": "/path/to/storage/checkpoints/function_aware_formal_20261109/ar_random_final_v1",
+    "role": "existing formal/historical ar_random",
+    "source_family": "function_aware_formal_20261109"
+  },
+  "ar_function": {
+    "language": "ar",
+    "model": "/path/to/models/Qwen3-4B",
+    "adapter": "/path/to/storage/checkpoints/function_aware_formal_20261109/ar_function_final_v1",
+    "role": "existing formal/historical ar_function",
+    "source_family": "function_aware_formal_20261109"
+  },
+  "ru_all": {
+    "language": "ru",
+    "model": "/path/to/models/Qwen3-4B",
+    "adapter": "/path/to/storage/checkpoints/function_aware_formal_20261109/ru_all_final_v1",
+    "role": "existing formal/historical ru_all",
+    "source_family": "function_aware_formal_20261109"
+  },
+  "ru_full": {
+    "language": "ru",
+    "model": "/path/to/models/Qwen3-4B",
+    "adapter": "/path/to/storage/checkpoints/function_aware_formal_20261109/ru_full_final_v1",
+    "role": "existing formal/historical ru_full",
+    "source_family": "function_aware_formal_20261109"
+  },
+  "ru_kd": {
+    "language": "ru",
+    "model": "/path/to/models/Qwen3-4B",
+    "adapter": "/path/to/storage/checkpoints/function_aware_formal_20261109/ru_kd_final_v1",
+    "role": "existing formal/historical ru_kd",
+    "source_family": "function_aware_formal_20261109"
+  },
+  "ru_random": {
+    "language": "ru",
+    "model": "/path/to/models/Qwen3-4B",
+    "adapter": "/path/to/storage/checkpoints/function_aware_formal_20261109/ru_random_final_v1",
+    "role": "existing formal/historical ru_random",
+    "source_family": "function_aware_formal_20261109"
+  },
+  "ru_function": {
+    "language": "ru",
+    "model": "/path/to/models/Qwen3-4B",
+    "adapter": "/path/to/storage/checkpoints/function_aware_formal_20261109/ru_function_final_v1",
+    "role": "existing formal/historical ru_function",
+    "source_family": "function_aware_formal_20261109"
+  },
+  "historical_fft": {
+    "language": "sw",
+    "model": "/path/to/storage/checkpoints/aya_4b_20261105/fft_final_v2",
+    "adapter": null,
+    "role": "existing formal/historical historical_fft",
+    "source_family": "fft_representation_20261109"
+  },
+  "historical_ssu": {
+    "language": "sw",
+    "model": "/path/to/storage/checkpoints/aya_4b_20261105/ssu_final_v2",
+    "adapter": null,
+    "role": "existing formal/historical historical_ssu",
+    "source_family": "fft_representation_20261109"
+  },
+  "matched_fft": {
+    "language": "sw",
+    "model": "/path/to/storage/checkpoints/fft_representation_20261109/none_final_v1",
+    "adapter": null,
+    "role": "existing formal/historical matched_fft",
+    "source_family": "fft_representation_20261109"
+  },
+  "fft_full36": {
+    "language": "sw",
+    "model": "/path/to/storage/checkpoints/fft_representation_20261109/full36_final_v1",
+    "adapter": null,
+    "role": "existing formal/historical fft_full36",
+    "source_family": "fft_representation_20261109"
+  },
+  "p2_full36": {
+    "language": "sw",
+    "model": "/path/to/models/Qwen3-4B",
+    "adapter": "/path/to/storage/checkpoints/functional_representation_20261109/p2/full_feature_final_v1",
+    "role": "existing formal/historical p2_full36",
+    "source_family": "fft_representation_20261109"
+  },
+  "p2_ce": {
+    "language": "sw",
+    "model": "/path/to/models/Qwen3-4B",
+    "adapter": "/path/to/storage/checkpoints/functional_representation_20261109/p2/ce_replay_final_v1",
+    "role": "existing formal/historical p2_ce",
+    "source_family": "fft_representation_20261109"
+  }
+}
