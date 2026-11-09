@@ -1,0 +1,178 @@
+{
+  "new_training_jobs": 0,
+  "account_gpu_limit": 4,
+  "formal_xnli_primary_predictions": 40080,
+  "formal_xnli_rotation_predictions": 40080,
+  "formal_code_generations": 656,
+  "official_canonical_isolated_checks": 164,
+  "formal_model_isolated_checks": 656,
+  "parallel_probe_pairs": 300,
+  "old_english_probe_rows": 256,
+  "benchmark_jobs": [
+    {
+      "job": "formal-all_layer-code",
+      "stage": "code",
+      "scope": "formal",
+      "model": "all_layer",
+      "command_to_completion_seconds": 182.145192,
+      "including_queue_seconds": 183.45606675400632
+    },
+    {
+      "job": "formal-base-xnli",
+      "stage": "xnli",
+      "scope": "formal",
+      "model": "Base",
+      "command_to_completion_seconds": 372.140377,
+      "including_queue_seconds": 373.1154772089794
+    },
+    {
+      "job": "smoke-full_feature-xnli",
+      "stage": "xnli",
+      "scope": "smoke",
+      "model": "full_feature",
+      "command_to_completion_seconds": 20.109924,
+      "including_queue_seconds": 21.076013420999516
+    },
+    {
+      "job": "formal-full_feature-xnli",
+      "stage": "xnli",
+      "scope": "formal",
+      "model": "full_feature",
+      "command_to_completion_seconds": 485.689152,
+      "including_queue_seconds": 1339.0908836739982
+    },
+    {
+      "job": "formal-ce_replay-code",
+      "stage": "code",
+      "scope": "formal",
+      "model": "ce_replay",
+      "command_to_completion_seconds": 177.14519,
+      "including_queue_seconds": 178.2066360389872
+    },
+    {
+      "job": "formal-ce_replay-xnli",
+      "stage": "xnli",
+      "scope": "formal",
+      "model": "ce_replay",
+      "command_to_completion_seconds": 485.647457,
+      "including_queue_seconds": 845.1098537670041
+    },
+    {
+      "job": "formal-base-code",
+      "stage": "code",
+      "scope": "formal",
+      "model": "Base",
+      "command_to_completion_seconds": 194.344461,
+      "including_queue_seconds": 195.27723565199994
+    },
+    {
+      "job": "formal-all_layer-xnli",
+      "stage": "xnli",
+      "scope": "formal",
+      "model": "all_layer",
+      "command_to_completion_seconds": 486.603448,
+      "including_queue_seconds": 1263.0994902810053
+    },
+    {
+      "job": "formal-full_feature-code",
+      "stage": "code",
+      "scope": "formal",
+      "model": "full_feature",
+      "command_to_completion_seconds": 171.770543,
+      "including_queue_seconds": 172.8003818069992
+    },
+    {
+      "job": "smoke-feature-code",
+      "stage": "code",
+      "scope": "smoke",
+      "model": "full_feature",
+      "command_to_completion_seconds": 59.44406,
+      "including_queue_seconds": 74.85951727400243
+    },
+    {
+      "job": "smoke-base-xnli",
+      "stage": "xnli",
+      "scope": "smoke",
+      "model": "Base",
+      "command_to_completion_seconds": 18.320425,
+      "including_queue_seconds": 19.70321834301285
+    }
+  ],
+  "representation_models": {
+    "Base": {
+      "done_sha256": "83178b5423105d8b78b6732b23092aaa6ae6811693e5f1151a8061786cfb05a3",
+      "hashes": {
+        "old.safetensors": "4a0746829fc65234181b12541d5a95f5b5babb0f9bdeb6a547a4e0f26520cbe0",
+        "old_rows.json": "beea092791fdb76fb37372749615c93a447978a26ba62e95fb637d92305f5dbc",
+        "parallel.safetensors": "0d3beaf57735d835ee784a69eae8fc6bb6e316bf76d3cac915b75b0cd6f18b78"
+      },
+      "seconds": 69.89472911399207,
+      "peak_allocated": 8143174656
+    },
+    "all_layer": {
+      "done_sha256": "23b96db41f387dd989f896036daa5a54243ce8d5369c23b9c7793daf03874cf4",
+      "hashes": {
+        "old.safetensors": "9d96bc249757a0ffa219cdb8ad5aa9d0bf0b7986d2fdc6a972e0c970c65e2fb7",
+        "old_rows.json": "beea092791fdb76fb37372749615c93a447978a26ba62e95fb637d92305f5dbc",
+        "parallel.safetensors": "4389772bafd8c0b63e850f9adf16c8b40c11ef43f03f06e3d5f34981a5cac1e1"
+      },
+      "seconds": 115.59560818798491,
+      "peak_allocated": 8365950464
+    },
+    "full_feature": {
+      "done_sha256": "577c209904bddf164d60d3a3b360007e20cac23935a3092215d3e59cbecc095a",
+      "hashes": {
+        "old.safetensors": "5a6738c1838d057da3359b5b07334f00a78c59a8ec3905463824139d5a436c7b",
+        "old_rows.json": "beea092791fdb76fb37372749615c93a447978a26ba62e95fb637d92305f5dbc",
+        "parallel.safetensors": "1a38601d9ba8815a9ef846921e3885eee54eb505b5330d33aaebaf5276f97d49"
+      },
+      "seconds": 113.50862791601685,
+      "peak_allocated": 8365950464
+    },
+    "ce_replay": {
+      "done_sha256": "1fdd1772d6234ff9d1fcdc93e75690078c9d6c64428ef2dea713bbd8c8e61ce3",
+      "hashes": {
+        "old.safetensors": "3db33ced945186884cebe4f195211906f35b4c9bc4e21d49d1d19bed103ff4e3",
+        "old_rows.json": "beea092791fdb76fb37372749615c93a447978a26ba62e95fb637d92305f5dbc",
+        "parallel.safetensors": "66e9338f0c41fafa3936334410695882ce8f11d32df3b011ff6cf52a4cd2fa49"
+      },
+      "seconds": 114.8032795790059,
+      "peak_allocated": 8365950464
+    }
+  },
+  "code": [
+    {
+      "model": "Base",
+      "generated_tokens": 53604,
+      "input_tokens": 27424,
+      "generation_seconds_excluding_initial_prompt_hash_preparation": 163.9101484260027,
+      "model_sandbox_serial_coordinator_seconds": 104.80044411998824,
+      "sum_isolated_task_wall_seconds": 207.80636274500284
+    },
+    {
+      "model": "all_layer",
+      "generated_tokens": 30141,
+      "input_tokens": 27424,
+      "generation_seconds_excluding_initial_prompt_hash_preparation": 149.95342509498005,
+      "model_sandbox_serial_coordinator_seconds": 102.13404393600649,
+      "sum_isolated_task_wall_seconds": 202.4638097989082
+    },
+    {
+      "model": "full_feature",
+      "generated_tokens": 31769,
+      "input_tokens": 27424,
+      "generation_seconds_excluding_initial_prompt_hash_preparation": 140.08808417600812,
+      "model_sandbox_serial_coordinator_seconds": 104.86553204100346,
+      "sum_isolated_task_wall_seconds": 208.07210122203105
+    },
+    {
+      "model": "ce_replay",
+      "generated_tokens": 27633,
+      "input_tokens": 27424,
+      "generation_seconds_excluding_initial_prompt_hash_preparation": 145.2874013480032,
+      "model_sandbox_serial_coordinator_seconds": 102.59679996600607,
+      "sum_isolated_task_wall_seconds": 202.9051975228649
+    }
+  ],
+  "note": "Command-to-completion includes model init/cleanup and is NOT pure kernel time. Queue waits separate. Mechanism process seconds include model load. Do not equate sample tasks or layer count with independent model conditions; no new training cost."
+}

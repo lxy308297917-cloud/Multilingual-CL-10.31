@@ -1,0 +1,58 @@
+{
+  "status": "COMPLETE",
+  "source_commit": "50640bb",
+  "models": [
+    "Base",
+    "all_layer",
+    "full_feature",
+    "ce_replay"
+  ],
+  "fresh_base_vs_P1_cache_max_normalized_squared_l2": 0.0,
+  "primary_generalization": "check128,64 math and64 instruction; build128 exposed in P2",
+  "sources": {
+    "Base": {
+      "done_sha256": "83178b5423105d8b78b6732b23092aaa6ae6811693e5f1151a8061786cfb05a3",
+      "hashes": {
+        "old.safetensors": "4a0746829fc65234181b12541d5a95f5b5babb0f9bdeb6a547a4e0f26520cbe0",
+        "old_rows.json": "beea092791fdb76fb37372749615c93a447978a26ba62e95fb637d92305f5dbc",
+        "parallel.safetensors": "0d3beaf57735d835ee784a69eae8fc6bb6e316bf76d3cac915b75b0cd6f18b78"
+      },
+      "seconds": 69.89472911399207,
+      "peak_allocated": 8143174656
+    },
+    "all_layer": {
+      "done_sha256": "23b96db41f387dd989f896036daa5a54243ce8d5369c23b9c7793daf03874cf4",
+      "hashes": {
+        "old.safetensors": "9d96bc249757a0ffa219cdb8ad5aa9d0bf0b7986d2fdc6a972e0c970c65e2fb7",
+        "old_rows.json": "beea092791fdb76fb37372749615c93a447978a26ba62e95fb637d92305f5dbc",
+        "parallel.safetensors": "4389772bafd8c0b63e850f9adf16c8b40c11ef43f03f06e3d5f34981a5cac1e1"
+      },
+      "seconds": 115.59560818798491,
+      "peak_allocated": 8365950464
+    },
+    "full_feature": {
+      "done_sha256": "577c209904bddf164d60d3a3b360007e20cac23935a3092215d3e59cbecc095a",
+      "hashes": {
+        "old.safetensors": "5a6738c1838d057da3359b5b07334f00a78c59a8ec3905463824139d5a436c7b",
+        "old_rows.json": "beea092791fdb76fb37372749615c93a447978a26ba62e95fb637d92305f5dbc",
+        "parallel.safetensors": "1a38601d9ba8815a9ef846921e3885eee54eb505b5330d33aaebaf5276f97d49"
+      },
+      "seconds": 113.50862791601685,
+      "peak_allocated": 8365950464
+    },
+    "ce_replay": {
+      "done_sha256": "1fdd1772d6234ff9d1fcdc93e75690078c9d6c64428ef2dea713bbd8c8e61ce3",
+      "hashes": {
+        "old.safetensors": "3db33ced945186884cebe4f195211906f35b4c9bc4e21d49d1d19bed103ff4e3",
+        "old_rows.json": "beea092791fdb76fb37372749615c93a447978a26ba62e95fb637d92305f5dbc",
+        "parallel.safetensors": "66e9338f0c41fafa3936334410695882ce8f11d32df3b011ff6cf52a4cd2fa49"
+      },
+      "seconds": 114.8032795790059,
+      "peak_allocated": 8365950464
+    }
+  },
+  "zero_base_drift": true,
+  "shuffled_control": "One cyclic shift of frozen hash-selected pair order, fixed before feature extraction; no additional prompting or model generation",
+  "paper_layerwise_curve": "NOT_IDENTIFIABLE_FROM_PAPER_FORMULA; do not label sample covariance as exact original implementation",
+  "new_training_jobs": 0
+}

@@ -1,0 +1,40 @@
+{
+  "source_files_sha256": {
+    "metrics.py": "c25b4659ae181fec5d7533f12cf0f432e6d99de4425b88cbbc452ff3cde7f13f",
+    "finish_benchmarks.py": "0f9553cc25bb8f2706d5ac2c2e8a96781854af357f2f06c27d3bd1fb1636207f",
+    "build_tables.py": "02f2c47e668385a8746a3e13968d0921da9bc08728296ab2cd741015c16edc75",
+    "prepare.py": "8f27bd5c61cd62ec53ab0b3c042312287929090ad8e94d91482c04f528744072",
+    "prepare_parallel.py": "c01df245d6b9ca2dc58a89c2236ebe5ccace233176ba073d8c11599ef8d0378c",
+    "supervise.py": "97ef41943bd0101e4fc20ed71ecbfc338c3a5573caee04553fbe461f7998cd39",
+    "mechanism_supervise.py": "83cd4ee92ed56c595752a3ad8547bf09d3d5d9bdb4ec4cba8da8d558fad9f6a0",
+    "analyze_benchmarks.py": "f4c9bf0094594c7c7e41d383c2800dc7afc86ab88e226f35c399eb77297a0a10",
+    "extract.py": "25fc1a0de0902e387fbf0dc80417a1ef3626756c6746100e618d6976a514e3e4",
+    "analyze_representations.py": "18d69d6c241fc13c1d5661956fe715d8579da9aac200d3485cc26a2deb511e58",
+    "benchmark.py": "b4f9b10fdb62071dc01d82ee23b20587b7986da8ba4e65fabc51abcd0fe54dfd",
+    "execute_pending_code.py": "0b3f29472c4e99fcc11f44986303d8195d3a13ae197be966bc6ed141bf6eec8a",
+    "generate_code.py": "ae11c123f4040a06270ed92a1baf16845b327c5903387ebf045ddf898e2d77c1",
+    "verify_results.py": "7044db4a0a31c1b8378c8969c11db093f842fc51d9c5a8111b9b5b686d29c053"
+  },
+  "no_new_training": true,
+  "public_research_baseline_commit": "50640bb",
+  "actual_local_checkout_head": "acb135be579935abc99c8a587163a06a5dbe2cdd",
+  "execution_worktree_clean": false,
+  "provenance_note": "50640bb identifies the published P2 baseline, not a clean runtime checkout. Server working files include subsequent changes; actual executed file and asset SHA256 records, not checkout HEAD alone, identify this run.",
+  "public_source_files_sha256": {
+    "metrics.py": "c25b4659ae181fec5d7533f12cf0f432e6d99de4425b88cbbc452ff3cde7f13f",
+    "finish_benchmarks.py": "0f9553cc25bb8f2706d5ac2c2e8a96781854af357f2f06c27d3bd1fb1636207f",
+    "build_tables.py": "02f2c47e668385a8746a3e13968d0921da9bc08728296ab2cd741015c16edc75",
+    "prepare.py": "8f27bd5c61cd62ec53ab0b3c042312287929090ad8e94d91482c04f528744072",
+    "prepare_parallel.py": "c01df245d6b9ca2dc58a89c2236ebe5ccace233176ba073d8c11599ef8d0378c",
+    "supervise.py": "97ef41943bd0101e4fc20ed71ecbfc338c3a5573caee04553fbe461f7998cd39",
+    "mechanism_supervise.py": "83cd4ee92ed56c595752a3ad8547bf09d3d5d9bdb4ec4cba8da8d558fad9f6a0",
+    "analyze_benchmarks.py": "f4c9bf0094594c7c7e41d383c2800dc7afc86ab88e226f35c399eb77297a0a10",
+    "extract.py": "25fc1a0de0902e387fbf0dc80417a1ef3626756c6746100e618d6976a514e3e4",
+    "analyze_representations.py": "18d69d6c241fc13c1d5661956fe715d8579da9aac200d3485cc26a2deb511e58",
+    "benchmark.py": "b4f9b10fdb62071dc01d82ee23b20587b7986da8ba4e65fabc51abcd0fe54dfd",
+    "execute_pending_code.py": "0b3f29472c4e99fcc11f44986303d8195d3a13ae197be966bc6ed141bf6eec8a",
+    "generate_code.py": "ae11c123f4040a06270ed92a1baf16845b327c5903387ebf045ddf898e2d77c1",
+    "verify_results.py": "c06eb170995e6b0ff2656aa071270afd4a4e7ce5b96dd66f2e1d821936e082cc"
+  },
+  "public_verifier_note": "Adds non-executing SHA check of included sanitized code to the aggregate verifier; scientific evaluation code is unchanged."
+}

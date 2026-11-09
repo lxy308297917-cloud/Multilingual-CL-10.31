@@ -1,0 +1,706 @@
+[
+  {
+    "model": "Base",
+    "language": "sw",
+    "protocol": "primary",
+    "semantic_labels": [
+      "entailment",
+      "neutral",
+      "contradiction"
+    ],
+    "confusion_true_rows_predicted_columns": [
+      [
+        1649,
+        21,
+        0
+      ],
+      [
+        1656,
+        14,
+        0
+      ],
+      [
+        1628,
+        42,
+        0
+      ]
+    ],
+    "per_semantic_class_acc": [
+      98.74251497005989,
+      0.8383233532934131,
+      0.0
+    ],
+    "predicted_letter_counts": [
+      4933,
+      77,
+      0
+    ],
+    "predicted_semantic_counts": [
+      4933,
+      77,
+      0
+    ],
+    "max_letter_share": 0.9846307385229541,
+    "max_semantic_share": 0.9846307385229541
+  },
+  {
+    "model": "Base",
+    "language": "sw",
+    "protocol": "rotated",
+    "semantic_labels": [
+      "entailment",
+      "neutral",
+      "contradiction"
+    ],
+    "confusion_true_rows_predicted_columns": [
+      [
+        864,
+        427,
+        379
+      ],
+      [
+        750,
+        496,
+        424
+      ],
+      [
+        763,
+        414,
+        493
+      ]
+    ],
+    "per_semantic_class_acc": [
+      51.73652694610779,
+      29.700598802395213,
+      29.520958083832333
+    ],
+    "predicted_letter_counts": [
+      3895,
+      1112,
+      3
+    ],
+    "predicted_semantic_counts": [
+      2377,
+      1337,
+      1296
+    ],
+    "max_letter_share": 0.7774451097804391,
+    "max_semantic_share": 0.4744510978043912
+  },
+  {
+    "model": "Base",
+    "language": "en",
+    "protocol": "primary",
+    "semantic_labels": [
+      "entailment",
+      "neutral",
+      "contradiction"
+    ],
+    "confusion_true_rows_predicted_columns": [
+      [
+        1656,
+        12,
+        2
+      ],
+      [
+        1163,
+        503,
+        4
+      ],
+      [
+        908,
+        454,
+        308
+      ]
+    ],
+    "per_semantic_class_acc": [
+      99.16167664670658,
+      30.11976047904192,
+      18.44311377245509
+    ],
+    "predicted_letter_counts": [
+      3727,
+      969,
+      314
+    ],
+    "predicted_semantic_counts": [
+      3727,
+      969,
+      314
+    ],
+    "max_letter_share": 0.7439121756487026,
+    "max_semantic_share": 0.7439121756487026
+  },
+  {
+    "model": "Base",
+    "language": "en",
+    "protocol": "rotated",
+    "semantic_labels": [
+      "entailment",
+      "neutral",
+      "contradiction"
+    ],
+    "confusion_true_rows_predicted_columns": [
+      [
+        1378,
+        171,
+        121
+      ],
+      [
+        578,
+        888,
+        204
+      ],
+      [
+        329,
+        354,
+        987
+      ]
+    ],
+    "per_semantic_class_acc": [
+      82.51497005988024,
+      53.17365269461077,
+      59.101796407185624
+    ],
+    "predicted_letter_counts": [
+      2490,
+      1537,
+      983
+    ],
+    "predicted_semantic_counts": [
+      2285,
+      1413,
+      1312
+    ],
+    "max_letter_share": 0.49700598802395207,
+    "max_semantic_share": 0.4560878243512974
+  },
+  {
+    "model": "all_layer",
+    "language": "sw",
+    "protocol": "primary",
+    "semantic_labels": [
+      "entailment",
+      "neutral",
+      "contradiction"
+    ],
+    "confusion_true_rows_predicted_columns": [
+      [
+        831,
+        834,
+        5
+      ],
+      [
+        418,
+        1244,
+        8
+      ],
+      [
+        413,
+        1217,
+        40
+      ]
+    ],
+    "per_semantic_class_acc": [
+      49.76047904191617,
+      74.49101796407186,
+      2.3952095808383236
+    ],
+    "predicted_letter_counts": [
+      1662,
+      3295,
+      53
+    ],
+    "predicted_semantic_counts": [
+      1662,
+      3295,
+      53
+    ],
+    "max_letter_share": 0.6576846307385229,
+    "max_semantic_share": 0.6576846307385229
+  },
+  {
+    "model": "all_layer",
+    "language": "sw",
+    "protocol": "rotated",
+    "semantic_labels": [
+      "entailment",
+      "neutral",
+      "contradiction"
+    ],
+    "confusion_true_rows_predicted_columns": [
+      [
+        781,
+        819,
+        70
+      ],
+      [
+        391,
+        1219,
+        60
+      ],
+      [
+        334,
+        1155,
+        181
+      ]
+    ],
+    "per_semantic_class_acc": [
+      46.76646706586826,
+      72.9940119760479,
+      10.838323353293413
+    ],
+    "predicted_letter_counts": [
+      1684,
+      1988,
+      1338
+    ],
+    "predicted_semantic_counts": [
+      1506,
+      3193,
+      311
+    ],
+    "max_letter_share": 0.3968063872255489,
+    "max_semantic_share": 0.6373253493013972
+  },
+  {
+    "model": "all_layer",
+    "language": "en",
+    "protocol": "primary",
+    "semantic_labels": [
+      "entailment",
+      "neutral",
+      "contradiction"
+    ],
+    "confusion_true_rows_predicted_columns": [
+      [
+        1266,
+        399,
+        5
+      ],
+      [
+        134,
+        1522,
+        14
+      ],
+      [
+        16,
+        882,
+        772
+      ]
+    ],
+    "per_semantic_class_acc": [
+      75.80838323353294,
+      91.1377245508982,
+      46.22754491017964
+    ],
+    "predicted_letter_counts": [
+      1416,
+      2803,
+      791
+    ],
+    "predicted_semantic_counts": [
+      1416,
+      2803,
+      791
+    ],
+    "max_letter_share": 0.5594810379241517,
+    "max_semantic_share": 0.5594810379241517
+  },
+  {
+    "model": "all_layer",
+    "language": "en",
+    "protocol": "rotated",
+    "semantic_labels": [
+      "entailment",
+      "neutral",
+      "contradiction"
+    ],
+    "confusion_true_rows_predicted_columns": [
+      [
+        1224,
+        429,
+        17
+      ],
+      [
+        172,
+        1439,
+        59
+      ],
+      [
+        17,
+        716,
+        937
+      ]
+    ],
+    "per_semantic_class_acc": [
+      73.2934131736527,
+      86.16766467065868,
+      56.107784431137716
+    ],
+    "predicted_letter_counts": [
+      1387,
+      1877,
+      1746
+    ],
+    "predicted_semantic_counts": [
+      1413,
+      2584,
+      1013
+    ],
+    "max_letter_share": 0.37465069860279443,
+    "max_semantic_share": 0.5157684630738523
+  },
+  {
+    "model": "full_feature",
+    "language": "sw",
+    "protocol": "primary",
+    "semantic_labels": [
+      "entailment",
+      "neutral",
+      "contradiction"
+    ],
+    "confusion_true_rows_predicted_columns": [
+      [
+        1112,
+        554,
+        4
+      ],
+      [
+        650,
+        1016,
+        4
+      ],
+      [
+        539,
+        1042,
+        89
+      ]
+    ],
+    "per_semantic_class_acc": [
+      66.58682634730539,
+      60.83832335329341,
+      5.3293413173652695
+    ],
+    "predicted_letter_counts": [
+      2301,
+      2612,
+      97
+    ],
+    "predicted_semantic_counts": [
+      2301,
+      2612,
+      97
+    ],
+    "max_letter_share": 0.5213572854291417,
+    "max_semantic_share": 0.5213572854291417
+  },
+  {
+    "model": "full_feature",
+    "language": "sw",
+    "protocol": "rotated",
+    "semantic_labels": [
+      "entailment",
+      "neutral",
+      "contradiction"
+    ],
+    "confusion_true_rows_predicted_columns": [
+      [
+        857,
+        768,
+        45
+      ],
+      [
+        435,
+        1188,
+        47
+      ],
+      [
+        352,
+        1111,
+        207
+      ]
+    ],
+    "per_semantic_class_acc": [
+      51.31736526946108,
+      71.13772455089821,
+      12.395209580838323
+    ],
+    "predicted_letter_counts": [
+      1949,
+      1662,
+      1399
+    ],
+    "predicted_semantic_counts": [
+      1644,
+      3067,
+      299
+    ],
+    "max_letter_share": 0.38902195608782436,
+    "max_semantic_share": 0.6121756487025948
+  },
+  {
+    "model": "full_feature",
+    "language": "en",
+    "protocol": "primary",
+    "semantic_labels": [
+      "entailment",
+      "neutral",
+      "contradiction"
+    ],
+    "confusion_true_rows_predicted_columns": [
+      [
+        1590,
+        76,
+        4
+      ],
+      [
+        516,
+        1145,
+        9
+      ],
+      [
+        72,
+        809,
+        789
+      ]
+    ],
+    "per_semantic_class_acc": [
+      95.20958083832335,
+      68.562874251497,
+      47.24550898203593
+    ],
+    "predicted_letter_counts": [
+      2178,
+      2030,
+      802
+    ],
+    "predicted_semantic_counts": [
+      2178,
+      2030,
+      802
+    ],
+    "max_letter_share": 0.4347305389221557,
+    "max_semantic_share": 0.4347305389221557
+  },
+  {
+    "model": "full_feature",
+    "language": "en",
+    "protocol": "rotated",
+    "semantic_labels": [
+      "entailment",
+      "neutral",
+      "contradiction"
+    ],
+    "confusion_true_rows_predicted_columns": [
+      [
+        1461,
+        189,
+        20
+      ],
+      [
+        387,
+        1215,
+        68
+      ],
+      [
+        45,
+        648,
+        977
+      ]
+    ],
+    "per_semantic_class_acc": [
+      87.48502994011976,
+      72.75449101796407,
+      58.50299401197605
+    ],
+    "predicted_letter_counts": [
+      1620,
+      1785,
+      1605
+    ],
+    "predicted_semantic_counts": [
+      1893,
+      2052,
+      1065
+    ],
+    "max_letter_share": 0.3562874251497006,
+    "max_semantic_share": 0.4095808383233533
+  },
+  {
+    "model": "ce_replay",
+    "language": "sw",
+    "protocol": "primary",
+    "semantic_labels": [
+      "entailment",
+      "neutral",
+      "contradiction"
+    ],
+    "confusion_true_rows_predicted_columns": [
+      [
+        1537,
+        117,
+        16
+      ],
+      [
+        1535,
+        123,
+        12
+      ],
+      [
+        1525,
+        129,
+        16
+      ]
+    ],
+    "per_semantic_class_acc": [
+      92.03592814371258,
+      7.365269461077845,
+      0.9580838323353293
+    ],
+    "predicted_letter_counts": [
+      4597,
+      369,
+      44
+    ],
+    "predicted_semantic_counts": [
+      4597,
+      369,
+      44
+    ],
+    "max_letter_share": 0.9175648702594811,
+    "max_semantic_share": 0.9175648702594811
+  },
+  {
+    "model": "ce_replay",
+    "language": "sw",
+    "protocol": "rotated",
+    "semantic_labels": [
+      "entailment",
+      "neutral",
+      "contradiction"
+    ],
+    "confusion_true_rows_predicted_columns": [
+      [
+        635,
+        560,
+        475
+      ],
+      [
+        624,
+        583,
+        463
+      ],
+      [
+        620,
+        530,
+        520
+      ]
+    ],
+    "per_semantic_class_acc": [
+      38.02395209580838,
+      34.91017964071857,
+      31.137724550898206
+    ],
+    "predicted_letter_counts": [
+      4399,
+      560,
+      51
+    ],
+    "predicted_semantic_counts": [
+      1879,
+      1673,
+      1458
+    ],
+    "max_letter_share": 0.8780439121756487,
+    "max_semantic_share": 0.37504990019960077
+  },
+  {
+    "model": "ce_replay",
+    "language": "en",
+    "protocol": "primary",
+    "semantic_labels": [
+      "entailment",
+      "neutral",
+      "contradiction"
+    ],
+    "confusion_true_rows_predicted_columns": [
+      [
+        1608,
+        36,
+        26
+      ],
+      [
+        1582,
+        67,
+        21
+      ],
+      [
+        1506,
+        72,
+        92
+      ]
+    ],
+    "per_semantic_class_acc": [
+      96.2874251497006,
+      4.0119760479041915,
+      5.508982035928144
+    ],
+    "predicted_letter_counts": [
+      4696,
+      175,
+      139
+    ],
+    "predicted_semantic_counts": [
+      4696,
+      175,
+      139
+    ],
+    "max_letter_share": 0.9373253493013972,
+    "max_semantic_share": 0.9373253493013972
+  },
+  {
+    "model": "ce_replay",
+    "language": "en",
+    "protocol": "rotated",
+    "semantic_labels": [
+      "entailment",
+      "neutral",
+      "contradiction"
+    ],
+    "confusion_true_rows_predicted_columns": [
+      [
+        747,
+        694,
+        229
+      ],
+      [
+        554,
+        820,
+        296
+      ],
+      [
+        531,
+        608,
+        531
+      ]
+    ],
+    "per_semantic_class_acc": [
+      44.73053892215569,
+      49.101796407185624,
+      31.796407185628745
+    ],
+    "predicted_letter_counts": [
+      4105,
+      369,
+      536
+    ],
+    "predicted_semantic_counts": [
+      1832,
+      2122,
+      1056
+    ],
+    "max_letter_share": 0.8193612774451098,
+    "max_semantic_share": 0.4235528942115768
+  }
+]

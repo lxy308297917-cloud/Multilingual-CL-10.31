@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "offline_stdlib_verifier_executed": true,
+  "xnli_likelihood_items": 80160,
+  "executed_code_items": 656,
+  "sanitized_solution_hashes_verified": 656,
+  "drift_items": 36864,
+  "cosine_items": 133200,
+  "covariance_cpu_oracles": "Dense/Gram Frobenius and spectral, translation, scale, identity: PASS",
+  "covariance_full_reconstruction": "Requires hashed original feature cache or re-extraction; aggregate CSV verifier does not claim full covariance reconstruction",
+  "new_training_jobs": 0
+}

@@ -1,0 +1,25 @@
+model,task,metric,protocol,score,samples,unit
+Base,XNLI SW,ACC,primary,33.1936127744511,5010,percent
+Base,XNLI SW,ACC,rotated,36.986027944111775,5010,percent
+Base,XNLI EN,ACC,primary,49.24151696606786,5010,percent
+Base,XNLI EN,ACC,rotated,64.93013972055888,5010,percent
+all_layer,XNLI SW,ACC,primary,42.21556886227545,5010,percent
+all_layer,XNLI SW,ACC,rotated,43.532934131736525,5010,percent
+all_layer,XNLI EN,ACC,primary,71.05788423153693,5010,percent
+all_layer,XNLI EN,ACC,rotated,71.8562874251497,5010,percent
+full_feature,XNLI SW,ACC,primary,44.25149700598802,5010,percent
+full_feature,XNLI SW,ACC,rotated,44.9500998003992,5010,percent
+full_feature,XNLI EN,ACC,primary,70.33932135728543,5010,percent
+full_feature,XNLI EN,ACC,rotated,72.91417165668662,5010,percent
+ce_replay,XNLI SW,ACC,primary,33.45309381237525,5010,percent
+ce_replay,XNLI SW,ACC,rotated,34.69061876247505,5010,percent
+ce_replay,XNLI EN,ACC,primary,35.26946107784431,5010,percent
+ce_replay,XNLI EN,ACC,rotated,41.87624750499002,5010,percent
+Base,HumanEval,pass@1,greedy_n1_isolated_evalplus,84.7560975609756,164,percent
+Base,HumanEval+,pass@1,greedy_n1_isolated_evalplus,78.04878048780488,164,percent
+all_layer,HumanEval,pass@1,greedy_n1_isolated_evalplus,65.2439024390244,164,percent
+all_layer,HumanEval+,pass@1,greedy_n1_isolated_evalplus,60.36585365853659,164,percent
+full_feature,HumanEval,pass@1,greedy_n1_isolated_evalplus,80.48780487804879,164,percent
+full_feature,HumanEval+,pass@1,greedy_n1_isolated_evalplus,74.39024390243902,164,percent
+ce_replay,HumanEval,pass@1,greedy_n1_isolated_evalplus,69.51219512195121,164,percent
+ce_replay,HumanEval+,pass@1,greedy_n1_isolated_evalplus,62.80487804878049,164,percent

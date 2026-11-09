@@ -1,5 +1,17 @@
 # Multilingual-CL：最新研究入口（2026-11-09）
 
+## 最新：表示机制复现与 XNLI / HumanEval+ 补测
+
+四模型固定端点的新增测评与表示分析已完成，无新训练。全表示保持相对普通LoRA的 SW XNLI、代码保持更好；跨语言平均余弦尚未提供独立额外解释。
+
+- [本轮 ChatGPT 交接](research/representation_benchmarks_20261109/chatgpt_handoff.md)
+- [九项主要任务与配对区间](research/representation_benchmarks_20261109/results.md)
+- [完整机制报告和边界](research/representation_benchmarks_20261109/final_report.md)
+- [科学代码与离线数值复算](scripts/representation_benchmarks/README.md)
+
+## 此前 P2 训练与固定测评
+
+
 SW三项P2训练与完整固定端点评测已完成：普通全层LoRA、训练中全表示保持、同池英语CE回放。40项绝对分数和48项配对比较均已复核。
 
 - [最新ChatGPT交接](research/functional_representation_20261109/p2/chatgpt_handoff.md)
@@ -154,5 +166,6 @@ MASSIVE和MathOctopus首批固定Final结果已完成：前者目标任务提升
 当前上传精选的SFT代码、必要配置、结果及交接说明。服务器运行管理文件、完整内部资产清单、进程记录、AGENTS、权重、数据集和逐题大日志不发布。本地路径已替换为`/path/to/...`；服务器原始工程保持原样。代码不是开箱即用发行包：需要锁定上游环境、准备模型/数据/校准掩码及按机器设置路径；未宣称已在新机器重跑。
 
 正式测试不用于调参或选种子。新方法先明确机制假设、独立开发依据、对应baseline及公平预算，再冻结正式比较；不把现有英语保护或SSU改名充当创新。
+
 
 

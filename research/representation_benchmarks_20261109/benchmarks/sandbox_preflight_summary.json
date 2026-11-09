@@ -1,0 +1,35 @@
+{
+  "status": "FRESH_TRUSTED_GATES_PASSED",
+  "host_data_paths_inaccessible": true,
+  "memory_allocation_blocked": true,
+  "network_connect_blocked": true,
+  "nested_user_namespace_blocked": true,
+  "all_candidate_syscall_denials": true,
+  "no_new_privileges": true,
+  "effective_capabilities_zero": true,
+  "maximum_processes": 2,
+  "per_process_memory_bytes": 4294967296,
+  "cpus": 2,
+  "writable_tmpfs_bytes": 83886080,
+  "per_task_outer_wall_seconds": 120,
+  "resource_probe_results": {
+    "cpu": {
+      "exit_code": 137,
+      "wall_timeout": false,
+      "wall_seconds": 1.0206118939968292
+    },
+    "wall": {
+      "exit_code": -9,
+      "wall_timeout": true,
+      "wall_seconds": 2.0050999429950025
+    },
+    "package": {
+      "exit_code": 0,
+      "wall_timeout": false,
+      "wall_seconds": 5.9348402860050555
+    }
+  },
+  "official_canonical_reference_tasks": 164,
+  "official_canonical_all_passed": true,
+  "docker_access": "Permission denied on current read-only check; actual execution used verified isolated namespaces"
+}

@@ -1,0 +1,47 @@
+task,protocol,reference,comparison,bootstrap_unit,delta_percentage_points,paired95_low,paired95_high,base_correct_adapted_wrong,base_wrong_adapted_correct,samples,bootstrap_clusters,bootstrap_resamples
+XNLI SW,primary,Base,all_layer,shared premise cluster,9.021956087824352,8.003992015968064,9.994165170556553,824,1276,5010,1669,2000
+XNLI SW,primary,Base,full_feature,shared premise cluster,11.057884231536926,10.00584182144997,12.103192275279003,547,1101,5010,1669,2000
+XNLI SW,primary,Base,ce_replay,shared premise cluster,0.2594810379241517,-0.19948433474164776,0.718562874251497,142,155,5010,1669,2000
+XNLI SW,primary,all_layer,full_feature,shared premise cluster,2.035928143712575,1.0185587482913145,3.014017202264135,353,455,5010,1669,2000
+XNLI SW,primary,ce_replay,full_feature,shared premise cluster,10.798403193612774,9.694793536804308,11.903335330537248,583,1124,5010,1669,2000
+XNLI SW,primary_to_fixed_rotation,Base:primary,Base:rotated,shared premise cluster,3.792415169660679,2.4965048931495906,5.052925903734772,799,989,5010,1669,2000
+XNLI SW,primary_to_fixed_rotation,all_layer:primary,all_layer:rotated,shared premise cluster,1.3173652694610778,0.3193612774451098,2.3525425226102814,331,397,5010,1669,2000
+XNLI SW,primary_to_fixed_rotation,full_feature:primary,full_feature:rotated,shared premise cluster,0.6986027944111777,-0.17932664259049147,1.5968303058353033,301,336,5010,1669,2000
+XNLI SW,primary_to_fixed_rotation,ce_replay:primary,ce_replay:rotated,shared premise cluster,1.2375249500998005,-0.08038596264630711,2.5748502994011977,1030,1092,5010,1669,2000
+XNLI SW,rotated,Base,all_layer,shared premise cluster,6.54690618762475,4.986683813218048,8.10864789294987,865,1193,5010,1669,2000
+XNLI SW,rotated,Base,full_feature,shared premise cluster,7.964071856287425,6.506584195300232,9.461219562074174,765,1164,5010,1669,2000
+XNLI SW,rotated,Base,ce_replay,shared premise cluster,-2.2954091816367264,-3.3353305372478528,-1.1783503095666068,479,364,5010,1669,2000
+XNLI SW,rotated,all_layer,full_feature,shared premise cluster,1.4171656686626746,0.43859649122807015,2.435129740518962,327,398,5010,1669,2000
+XNLI SW,rotated,ce_replay,full_feature,shared premise cluster,10.259481037924152,8.647892949870181,11.809295830839817,807,1321,5010,1669,2000
+XNLI SW,primary_to_fixed_rotation,Base:primary,Base:rotated,shared premise cluster,3.792415169660679,2.4965048931495906,5.052925903734772,799,989,5010,1669,2000
+XNLI SW,primary_to_fixed_rotation,all_layer:primary,all_layer:rotated,shared premise cluster,1.3173652694610778,0.3193612774451098,2.3525425226102814,331,397,5010,1669,2000
+XNLI SW,primary_to_fixed_rotation,full_feature:primary,full_feature:rotated,shared premise cluster,0.6986027944111777,-0.17932664259049147,1.5968303058353033,301,336,5010,1669,2000
+XNLI SW,primary_to_fixed_rotation,ce_replay:primary,ce_replay:rotated,shared premise cluster,1.2375249500998005,-0.08038596264630711,2.5748502994011977,1030,1092,5010,1669,2000
+XNLI EN,primary,Base,all_layer,shared premise cluster,21.81636726546906,20.4186626746507,23.073852295409182,408,1501,5010,1670,2000
+XNLI EN,primary,Base,full_feature,shared premise cluster,21.097804391217565,19.919660678642714,22.255489021956087,77,1134,5010,1670,2000
+XNLI EN,primary,Base,ce_replay,shared premise cluster,-13.972055888223553,-15.089820359281436,-12.893712574850301,802,102,5010,1670,2000
+XNLI EN,primary,all_layer,full_feature,shared premise cluster,-0.718562874251497,-1.716566866267465,0.27994011976047634,432,396,5010,1670,2000
+XNLI EN,primary,ce_replay,full_feature,shared premise cluster,35.069860279441116,33.93213572854291,36.26746506986028,98,1855,5010,1670,2000
+XNLI EN,primary_to_fixed_rotation,Base:primary,Base:rotated,shared premise cluster,15.68862275449102,14.491017964071856,16.886227544910177,316,1102,5010,1670,2000
+XNLI EN,primary_to_fixed_rotation,all_layer:primary,all_layer:rotated,shared premise cluster,0.7984031936127743,-0.07984031936127745,1.656686626746507,234,274,5010,1670,2000
+XNLI EN,primary_to_fixed_rotation,full_feature:primary,full_feature:rotated,shared premise cluster,2.5748502994011977,1.7365269461077846,3.3932135728542914,193,322,5010,1670,2000
+XNLI EN,primary_to_fixed_rotation,ce_replay:primary,ce_replay:rotated,shared premise cluster,6.606786427145709,5.249500998003992,7.98453093812375,921,1252,5010,1670,2000
+XNLI EN,rotated,Base,all_layer,shared premise cluster,6.926147704590818,5.5489021956087825,8.423153692614772,549,896,5010,1670,2000
+XNLI EN,rotated,Base,full_feature,shared premise cluster,7.984031936127744,6.766467065868263,9.181636726546905,313,713,5010,1670,2000
+XNLI EN,rotated,Base,ce_replay,shared premise cluster,-23.053892215568865,-24.510978043912175,-21.556387225548907,1492,337,5010,1670,2000
+XNLI EN,rotated,all_layer,full_feature,shared premise cluster,1.0578842315369261,0.059880239520958084,1.976047904191617,296,349,5010,1670,2000
+XNLI EN,rotated,ce_replay,full_feature,shared premise cluster,31.037924151696604,29.40069860279441,32.69461077844311,414,1969,5010,1670,2000
+XNLI EN,primary_to_fixed_rotation,Base:primary,Base:rotated,shared premise cluster,15.68862275449102,14.491017964071856,16.886227544910177,316,1102,5010,1670,2000
+XNLI EN,primary_to_fixed_rotation,all_layer:primary,all_layer:rotated,shared premise cluster,0.7984031936127743,-0.07984031936127745,1.656686626746507,234,274,5010,1670,2000
+XNLI EN,primary_to_fixed_rotation,full_feature:primary,full_feature:rotated,shared premise cluster,2.5748502994011977,1.7365269461077846,3.3932135728542914,193,322,5010,1670,2000
+XNLI EN,primary_to_fixed_rotation,ce_replay:primary,ce_replay:rotated,shared premise cluster,6.606786427145709,5.249500998003992,7.98453093812375,921,1252,5010,1670,2000
+HumanEval,greedy_n1_isolated_evalplus,Base,all_layer,code task,-19.51219512195122,-26.82926829268293,-12.804878048780488,38,6,164,164,2000
+HumanEval,greedy_n1_isolated_evalplus,Base,full_feature,code task,-4.2682926829268295,-9.146341463414634,0.6097560975609756,11,4,164,164,2000
+HumanEval,greedy_n1_isolated_evalplus,Base,ce_replay,code task,-15.24390243902439,-22.5609756097561,-7.926829268292683,33,8,164,164,2000
+HumanEval,greedy_n1_isolated_evalplus,all_layer,full_feature,code task,15.24390243902439,9.146341463414634,21.951219512195124,5,30,164,164,2000
+HumanEval,greedy_n1_isolated_evalplus,ce_replay,full_feature,code task,10.975609756097562,4.878048780487805,17.682926829268293,8,26,164,164,2000
+HumanEval+,greedy_n1_isolated_evalplus,Base,all_layer,code task,-17.682926829268293,-24.390243902439025,-10.975609756097562,34,5,164,164,2000
+HumanEval+,greedy_n1_isolated_evalplus,Base,full_feature,code task,-3.6585365853658534,-7.926829268292683,1.2195121951219512,11,5,164,164,2000
+HumanEval+,greedy_n1_isolated_evalplus,Base,ce_replay,code task,-15.24390243902439,-23.170731707317074,-7.926829268292683,34,9,164,164,2000
+HumanEval+,greedy_n1_isolated_evalplus,all_layer,full_feature,code task,14.02439024390244,7.926829268292683,20.121951219512198,4,27,164,164,2000
+HumanEval+,greedy_n1_isolated_evalplus,ce_replay,full_feature,code task,11.585365853658537,4.862804878048781,18.902439024390244,9,28,164,164,2000

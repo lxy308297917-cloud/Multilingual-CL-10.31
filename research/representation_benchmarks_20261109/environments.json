@@ -1,0 +1,27 @@
+{
+  "hf_and_representation": {
+    "torch": "2.6.0+cu118",
+    "transformers": "4.57.6",
+    "peft": "0.18.1",
+    "lm_eval": "0.4.14.dev0",
+    "numpy": "2.4.6",
+    "safetensors": "0.8.0",
+    "matplotlib": "3.11.2"
+  },
+  "generation": {
+    "torch": "2.7.0+cu118",
+    "transformers": "4.53.2",
+    "vllm": "0.9.2+cu118",
+    "numpy": "2.2.6"
+  },
+  "isolated_execution": {
+    "evalplus": "0.3.1+documented find_zero success bookkeeping fix",
+    "numpy": "1.26.4"
+  },
+  "resources": {
+    "gpu": "RTX3090",
+    "account_gpu_limit": 4,
+    "actually_free_used_gpus": 2,
+    "new_training_jobs": 0
+  }
+}

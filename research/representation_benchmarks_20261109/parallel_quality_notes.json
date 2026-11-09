@@ -1,0 +1,13 @@
+{
+  "reviewer": "Assistant text spot review, not human/native-speaker annotation",
+  "selection": "24 fixed hash-selected pairs, before feature extraction",
+  "rows_reviewed": 24,
+  "action": "Keep all fixed300; no score-based removals",
+  "flags": {
+    "flores-dev-570": "Possible technical-term mistranslation: monomorphic rendered using same-sex wording; not independently adjudicated",
+    "flores-dev-730": "Downtown rendered literally as lower Vancouver; minor place-description mismatch",
+    "flores-dev-104": "Financial qualifier on restrictions is not explicit in SW excerpt"
+  },
+  "overall": "No gross empty/different-event mismatch observed in remaining reviewed pairs; cannot infer all300 perfect or population error rate",
+  "limitations": "Official FLORES dev still has translation terminology/noise; primary curve includes all300, no native-speaker guarantee"
+}

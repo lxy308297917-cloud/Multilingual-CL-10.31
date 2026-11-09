@@ -1,0 +1,14 @@
+{
+  "status": "COMPLETE",
+  "xnli_primary_rows": 40080,
+  "xnli_auxiliary_rotation_rows": 40080,
+  "real_generated_executed_code": 656,
+  "models": [
+    "Base",
+    "all_layer",
+    "full_feature",
+    "ce_replay"
+  ],
+  "new_training_jobs": 0,
+  "bootstrap_note": "2000 paired resamples; XNLI shared premise clusters, code tasks; intervals describe this fixed seed42 model, no cross-training-seed claim"
+}

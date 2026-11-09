@@ -1,0 +1,106 @@
+[
+  {
+    "model": "Base",
+    "official_base_status_counts": {
+      "pass": 139,
+      "fail": 25
+    },
+    "official_plus_status_counts": {
+      "pass": 128,
+      "fail": 36
+    },
+    "static_diagnostics": {
+      "empty_code_count": 0,
+      "syntax_error_count": 0,
+      "signature_arity_valid_count": 163,
+      "cap_count": 2,
+      "fenced_output_count": 164,
+      "runtime_error_count": null,
+      "timeout_count": null
+    },
+    "static_helper_caveat": "Legacy static-only helper emits an obsolete NOT_RUN execution explanation. It does not execute candidates; actual scores and COMPLETE statuses here come from the subsequent verified isolated executor, not that static summary.",
+    "generation_hit_cap": 2,
+    "generated_tokens": 53604,
+    "canonical_calibration": "164/164 base and plus pass; exact executor identity reused after first model",
+    "static_details_sha256": "5577f8dc0e1ec4481d55716db3458e4de6be4c20ff3c949fc6387b249fb32dff",
+    "runtime_error_subtype": "Official fast_check fail does not distinguish assertion, runtime exception or syntax; static syntax is separate, no fabricated subtype counts"
+  },
+  {
+    "model": "all_layer",
+    "official_base_status_counts": {
+      "fail": 57,
+      "pass": 107
+    },
+    "official_plus_status_counts": {
+      "fail": 64,
+      "pass": 100
+    },
+    "static_diagnostics": {
+      "empty_code_count": 0,
+      "syntax_error_count": 0,
+      "signature_arity_valid_count": 163,
+      "cap_count": 1,
+      "fenced_output_count": 8,
+      "runtime_error_count": null,
+      "timeout_count": null
+    },
+    "static_helper_caveat": "Legacy static-only helper emits an obsolete NOT_RUN execution explanation. It does not execute candidates; actual scores and COMPLETE statuses here come from the subsequent verified isolated executor, not that static summary.",
+    "generation_hit_cap": 1,
+    "generated_tokens": 30141,
+    "canonical_calibration": "164/164 base and plus pass; exact executor identity reused after first model",
+    "static_details_sha256": "25882416189eead1aa12574f3f0b5411013f9a890f78597cc02d30cef3830b0f",
+    "runtime_error_subtype": "Official fast_check fail does not distinguish assertion, runtime exception or syntax; static syntax is separate, no fabricated subtype counts"
+  },
+  {
+    "model": "full_feature",
+    "official_base_status_counts": {
+      "pass": 132,
+      "fail": 32
+    },
+    "official_plus_status_counts": {
+      "pass": 122,
+      "fail": 42
+    },
+    "static_diagnostics": {
+      "empty_code_count": 0,
+      "syntax_error_count": 0,
+      "signature_arity_valid_count": 163,
+      "cap_count": 1,
+      "fenced_output_count": 164,
+      "runtime_error_count": null,
+      "timeout_count": null
+    },
+    "static_helper_caveat": "Legacy static-only helper emits an obsolete NOT_RUN execution explanation. It does not execute candidates; actual scores and COMPLETE statuses here come from the subsequent verified isolated executor, not that static summary.",
+    "generation_hit_cap": 1,
+    "generated_tokens": 31769,
+    "canonical_calibration": "164/164 base and plus pass; exact executor identity reused after first model",
+    "static_details_sha256": "369156baf9e6dd1445cc04d289474722bd9c7c0ad29efa67223bc57ea7644853",
+    "runtime_error_subtype": "Official fast_check fail does not distinguish assertion, runtime exception or syntax; static syntax is separate, no fabricated subtype counts"
+  },
+  {
+    "model": "ce_replay",
+    "official_base_status_counts": {
+      "fail": 50,
+      "pass": 114
+    },
+    "official_plus_status_counts": {
+      "fail": 61,
+      "pass": 103
+    },
+    "static_diagnostics": {
+      "empty_code_count": 0,
+      "syntax_error_count": 0,
+      "signature_arity_valid_count": 163,
+      "cap_count": 2,
+      "fenced_output_count": 22,
+      "runtime_error_count": null,
+      "timeout_count": null
+    },
+    "static_helper_caveat": "Legacy static-only helper emits an obsolete NOT_RUN execution explanation. It does not execute candidates; actual scores and COMPLETE statuses here come from the subsequent verified isolated executor, not that static summary.",
+    "generation_hit_cap": 2,
+    "generated_tokens": 27633,
+    "canonical_calibration": "164/164 base and plus pass; exact executor identity reused after first model",
+    "static_details_sha256": "9780288bf6540e978ebad4b5f604d4139f7a50e5479fb184bccb072ac97951e6",
+    "runtime_error_subtype": "Official fast_check fail does not distinguish assertion, runtime exception or syntax; static syntax is separate, no fabricated subtype counts"
+  }
+]
