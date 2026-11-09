@@ -1,0 +1,66 @@
+{
+  "scope": "Per endpoint postlaunch wall time including loading and CPU checks; not CUDA kernel time, queue time not counted as GPU compute; no extra training for XQuAD",
+  "records": [
+    {
+      "model": "ar_Base",
+      "postlaunch_wall_seconds_including_load_and_audit": 1365.9788444042206,
+      "elapsed_including_queue_seconds": 2156.012044314004,
+      "samples": 1190
+    },
+    {
+      "model": "ar_historical_lora",
+      "postlaunch_wall_seconds_including_load_and_audit": 495.1083400249481,
+      "elapsed_including_queue_seconds": 496.28549094402115,
+      "samples": 1190
+    },
+    {
+      "model": "ru_Base",
+      "postlaunch_wall_seconds_including_load_and_audit": 1401.152506351471,
+      "elapsed_including_queue_seconds": 1402.0979220829904,
+      "samples": 1190
+    },
+    {
+      "model": "ru_historical_lora",
+      "postlaunch_wall_seconds_including_load_and_audit": 660.2778232097626,
+      "elapsed_including_queue_seconds": 661.283280484,
+      "samples": 1190
+    },
+    {
+      "model": "ar_all",
+      "postlaunch_wall_seconds_including_load_and_audit": 473.49183225631714,
+      "elapsed_including_queue_seconds": 474.83912638001493,
+      "samples": 1190
+    },
+    {
+      "model": "ar_function",
+      "postlaunch_wall_seconds_including_load_and_audit": 459.1880509853363,
+      "elapsed_including_queue_seconds": 460.40596064698184,
+      "samples": 1190
+    },
+    {
+      "model": "ru_all",
+      "postlaunch_wall_seconds_including_load_and_audit": 636.4975368976593,
+      "elapsed_including_queue_seconds": 637.8928038039885,
+      "samples": 1190
+    },
+    {
+      "model": "ru_full",
+      "postlaunch_wall_seconds_including_load_and_audit": 615.2042710781097,
+      "elapsed_including_queue_seconds": 616.3669388680137,
+      "samples": 1190
+    },
+    {
+      "model": "ru_random",
+      "postlaunch_wall_seconds_including_load_and_audit": 636.2921094894409,
+      "elapsed_including_queue_seconds": 637.7195363819774,
+      "samples": 1190
+    },
+    {
+      "model": "ru_function",
+      "postlaunch_wall_seconds_including_load_and_audit": 595.4671688079834,
+      "elapsed_including_queue_seconds": 596.8739015269966,
+      "samples": 1190
+    }
+  ],
+  "new_training_jobs": 0
+}

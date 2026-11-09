@@ -1,3 +1,11 @@
 language,model,role,samples,paragraph_clusters,EM,F1
 ar,ar_Base,shared official Base,1190,240,0.08403361344537816,26.46292780970697
 ar,ar_historical_lora,historical micro1 GA16 Final400,1190,240,49.32773109243698,66.70576739763804
+ru,ru_Base,shared official Base,1190,240,0.16806722689075632,30.935352692456096
+ru,ru_historical_lora,historical micro1 GA16 Final400,1190,240,44.53781512605042,64.9367281669827
+ar,ar_all,existing formal/historical ar_all,1190,240,48.739495798319325,66.14249595135955
+ar,ar_function,existing formal/historical ar_function,1190,240,48.8235294117647,66.35652817110768
+ru,ru_all,existing formal/historical ru_all,1190,240,46.21848739495798,65.8271937595182
+ru,ru_full,existing formal/historical ru_full,1190,240,44.20168067226891,62.81378576287243
+ru,ru_random,existing formal/historical ru_random,1190,240,43.865546218487395,62.39976281154651
+ru,ru_function,existing formal/historical ru_function,1190,240,44.95798319327731,63.70434427205233

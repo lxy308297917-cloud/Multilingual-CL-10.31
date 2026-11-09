@@ -18,5 +18,85 @@
     "full_reference_token_containment": 710,
     "median_prediction_reference_character_ratio": 1.0,
     "scope": "Posthoc output-format diagnostic prompted by exposed AR Base outputs. Frozen official EM/F1 unchanged; reference containment is not accuracy and may count copying/context repetition; no answer extraction, new prompt or test-based scoring choice."
+  },
+  "ru_Base": {
+    "samples": 1190,
+    "empty_outputs": 0,
+    "think_tag_outputs": 0,
+    "anchored_answer_label_prefix": 713,
+    "bold_markdown_outputs": 821,
+    "full_reference_token_containment": 676,
+    "median_prediction_reference_character_ratio": 4.292857142857143,
+    "scope": "Posthoc output-format diagnostic prompted by exposed AR Base outputs. Frozen official EM/F1 unchanged; reference containment is not accuracy and may count copying/context repetition; no answer extraction, new prompt or test-based scoring choice."
+  },
+  "ru_historical_lora": {
+    "samples": 1190,
+    "empty_outputs": 0,
+    "think_tag_outputs": 0,
+    "anchored_answer_label_prefix": 0,
+    "bold_markdown_outputs": 0,
+    "full_reference_token_containment": 721,
+    "median_prediction_reference_character_ratio": 1.0,
+    "scope": "Posthoc output-format diagnostic prompted by exposed AR Base outputs. Frozen official EM/F1 unchanged; reference containment is not accuracy and may count copying/context repetition; no answer extraction, new prompt or test-based scoring choice."
+  },
+  "ar_all": {
+    "samples": 1190,
+    "empty_outputs": 0,
+    "think_tag_outputs": 0,
+    "anchored_answer_label_prefix": 0,
+    "bold_markdown_outputs": 0,
+    "full_reference_token_containment": 704,
+    "median_prediction_reference_character_ratio": 1.0,
+    "scope": "Posthoc output-format diagnostic prompted by exposed AR Base outputs. Frozen official EM/F1 unchanged; reference containment is not accuracy and may count copying/context repetition; no answer extraction, new prompt or test-based scoring choice."
+  },
+  "ar_function": {
+    "samples": 1190,
+    "empty_outputs": 0,
+    "think_tag_outputs": 0,
+    "anchored_answer_label_prefix": 0,
+    "bold_markdown_outputs": 0,
+    "full_reference_token_containment": 697,
+    "median_prediction_reference_character_ratio": 1.0,
+    "scope": "Posthoc output-format diagnostic prompted by exposed AR Base outputs. Frozen official EM/F1 unchanged; reference containment is not accuracy and may count copying/context repetition; no answer extraction, new prompt or test-based scoring choice."
+  },
+  "ru_all": {
+    "samples": 1190,
+    "empty_outputs": 0,
+    "think_tag_outputs": 0,
+    "anchored_answer_label_prefix": 0,
+    "bold_markdown_outputs": 0,
+    "full_reference_token_containment": 724,
+    "median_prediction_reference_character_ratio": 1.0,
+    "scope": "Posthoc output-format diagnostic prompted by exposed AR Base outputs. Frozen official EM/F1 unchanged; reference containment is not accuracy and may count copying/context repetition; no answer extraction, new prompt or test-based scoring choice."
+  },
+  "ru_full": {
+    "samples": 1190,
+    "empty_outputs": 0,
+    "think_tag_outputs": 0,
+    "anchored_answer_label_prefix": 0,
+    "bold_markdown_outputs": 0,
+    "full_reference_token_containment": 674,
+    "median_prediction_reference_character_ratio": 1.0,
+    "scope": "Posthoc output-format diagnostic prompted by exposed AR Base outputs. Frozen official EM/F1 unchanged; reference containment is not accuracy and may count copying/context repetition; no answer extraction, new prompt or test-based scoring choice."
+  },
+  "ru_random": {
+    "samples": 1190,
+    "empty_outputs": 0,
+    "think_tag_outputs": 0,
+    "anchored_answer_label_prefix": 0,
+    "bold_markdown_outputs": 0,
+    "full_reference_token_containment": 677,
+    "median_prediction_reference_character_ratio": 1.0,
+    "scope": "Posthoc output-format diagnostic prompted by exposed AR Base outputs. Frozen official EM/F1 unchanged; reference containment is not accuracy and may count copying/context repetition; no answer extraction, new prompt or test-based scoring choice."
+  },
+  "ru_function": {
+    "samples": 1190,
+    "empty_outputs": 0,
+    "think_tag_outputs": 0,
+    "anchored_answer_label_prefix": 0,
+    "bold_markdown_outputs": 0,
+    "full_reference_token_containment": 676,
+    "median_prediction_reference_character_ratio": 1.0,
+    "scope": "Posthoc output-format diagnostic prompted by exposed AR Base outputs. Frozen official EM/F1 unchanged; reference containment is not accuracy and may count copying/context repetition; no answer extraction, new prompt or test-based scoring choice."
   }
 }

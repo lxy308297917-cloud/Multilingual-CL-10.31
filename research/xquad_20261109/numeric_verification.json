@@ -1,0 +1,58 @@
+{
+  "status": "PASS_COMPLETE_NUMERIC_RECOMPUTATION",
+  "at": "2026-11-10T00:55:05.553800+08:00",
+  "models": 10,
+  "item_score_vectors": 11900,
+  "absolute_metrics": 20,
+  "paired_intervals": 42,
+  "clusters_per_language": 240,
+  "resamples": 2000,
+  "numpy": "2.4.6",
+  "scope": "Numeric consistency only; original generated outputs and official scorer were separately verified by report.py against retained local raw records.",
+  "inputs": [
+    {
+      "path": "research/xquad_20261109/numeric/ar_Base.json",
+      "sha256": "23477663ae398ee092396fb04f16849b718baf283db2b9ee63b94ce673fbeadd"
+    },
+    {
+      "path": "research/xquad_20261109/numeric/ar_historical_lora.json",
+      "sha256": "e129a534f385e5dd2bed1482faf41f3602add39558e3cc6246533b8f03bc0a76"
+    },
+    {
+      "path": "research/xquad_20261109/numeric/ru_Base.json",
+      "sha256": "b0d6dfd9809c0431eef592db5b0b32966603af60cf268e243b104fdd188a01b4"
+    },
+    {
+      "path": "research/xquad_20261109/numeric/ru_historical_lora.json",
+      "sha256": "4a4d53c311ae2ab727cc85403a45ddbf539483840839dff510c8fc3681c1aff4"
+    },
+    {
+      "path": "research/xquad_20261109/numeric/ar_all.json",
+      "sha256": "ec314a8d5ee5675d30c3fb75127833474ed845a55c013fa5b5e12fbc6ec8c205"
+    },
+    {
+      "path": "research/xquad_20261109/numeric/ar_function.json",
+      "sha256": "17bd1987df8a9854548bd27e3a991e731cbbc70b301433f09ce78e63f2541726"
+    },
+    {
+      "path": "research/xquad_20261109/numeric/ru_all.json",
+      "sha256": "f83c82ab6b15d29cc1f76af03d5f0d1d979c2b663e3b4ad3b2844c37c0e6f69c"
+    },
+    {
+      "path": "research/xquad_20261109/numeric/ru_full.json",
+      "sha256": "5d1ef2b64f3c3720bb49b6d1c76835f7d2b275c3cf654de2ca82d6d47388586d"
+    },
+    {
+      "path": "research/xquad_20261109/numeric/ru_random.json",
+      "sha256": "325de1f82b590dcd6f19274b65943f851a8900abdd3331711d6a3edc3cdb2712"
+    },
+    {
+      "path": "research/xquad_20261109/numeric/ru_function.json",
+      "sha256": "0390da8d7eda5177766d4e2064f5f5ab09773d184423c23a933d8286eb9a6ecf"
+    }
+  ],
+  "table_sha256": {
+    "scores.csv": "3f5fb03a1e269f93458299190d1bc8637caad0b7f23fa3133b36cb9ea5897b37",
+    "paired_changes.csv": "eca18da6eee9c0058cd91985878b4ac559b6d631c1446d1a8faf66662f880440"
+  }
+}
