@@ -1,0 +1,147 @@
+{
+  "status": "INCOMPLETE",
+  "verified_cells": 62,
+  "required_cells": 96,
+  "missing": [
+    [
+      "matched_fft",
+      "SW Belebele"
+    ],
+    [
+      "matched_fft",
+      "SW XL-Sum"
+    ],
+    [
+      "matched_fft",
+      "SW Global-MMLU"
+    ],
+    [
+      "matched_fft",
+      "SW XNLI"
+    ],
+    [
+      "matched_fft",
+      "EN Belebele"
+    ],
+    [
+      "matched_fft",
+      "EN XNLI"
+    ],
+    [
+      "matched_fft",
+      "EN MMLU"
+    ],
+    [
+      "matched_fft",
+      "GSM8K flexible"
+    ],
+    [
+      "matched_fft",
+      "IFEval prompt strict"
+    ],
+    [
+      "matched_fft",
+      "HumanEval+"
+    ],
+    [
+      "matched_fft",
+      "EN\u2192SW chrF++"
+    ],
+    [
+      "matched_fft",
+      "SW\u2192EN chrF++"
+    ],
+    [
+      "fft_full36",
+      "SW Belebele"
+    ],
+    [
+      "fft_full36",
+      "SW XL-Sum"
+    ],
+    [
+      "fft_full36",
+      "SW Global-MMLU"
+    ],
+    [
+      "fft_full36",
+      "SW XNLI"
+    ],
+    [
+      "fft_full36",
+      "EN Belebele"
+    ],
+    [
+      "fft_full36",
+      "EN XNLI"
+    ],
+    [
+      "fft_full36",
+      "EN MMLU"
+    ],
+    [
+      "fft_full36",
+      "GSM8K flexible"
+    ],
+    [
+      "fft_full36",
+      "IFEval prompt strict"
+    ],
+    [
+      "fft_full36",
+      "HumanEval+"
+    ],
+    [
+      "fft_full36",
+      "EN\u2192SW chrF++"
+    ],
+    [
+      "fft_full36",
+      "SW\u2192EN chrF++"
+    ],
+    [
+      "p2_all",
+      "EN MMLU"
+    ],
+    [
+      "p2_all",
+      "EN\u2192SW chrF++"
+    ],
+    [
+      "p2_all",
+      "SW\u2192EN chrF++"
+    ],
+    [
+      "p2_full36",
+      "EN MMLU"
+    ],
+    [
+      "p2_full36",
+      "EN\u2192SW chrF++"
+    ],
+    [
+      "p2_full36",
+      "SW\u2192EN chrF++"
+    ],
+    [
+      "p2_ce",
+      "EN MMLU"
+    ],
+    [
+      "p2_ce",
+      "EN\u2192SW chrF++"
+    ],
+    [
+      "p2_ce",
+      "SW\u2192EN chrF++"
+    ],
+    [
+      "historical_ssu",
+      "HumanEval+"
+    ]
+  ],
+  "paired_contrasts": 21,
+  "bootstrap_resamples": 2000,
+  "note": "Paired benchmark uncertainty for fixed models, not training-seed robustness; unadjusted comparisons; no method selection. Translation resamples corpus statistics, never averages sentence chrF.",
+  "xnli_identity": "Exact effective prompt hash, target hash, raw ID/prompt/label, and premise cluster; inert added metadata excluded"
+}

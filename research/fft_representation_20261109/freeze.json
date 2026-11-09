@@ -1,0 +1,26 @@
+{
+  "status": "QUEUED_ENGINEERING_THEN_FIXED_FINAL400",
+  "at": "2026-11-09T17:35:40.068000+08:00",
+  "code_sha256": {
+    "schedule_evaluation.py": "babf5410a3da4bbb595589971572dc59795f17556824c35dfb49110ca3e3b49b",
+    "run.py": "1360e0487c87fd1b3aa399a27e751d6cf8fabc88011825b733b6582ec34a8bdd",
+    "train.py": "1a8bfa15b8a3e769a9207c43fe1c57643a694134519631edfa4f522768cbafa5",
+    "prepare.py": "c468112cf1dfb99b127a3d959bd25e47bfc139602e8084eb2eb0207780e04c10",
+    "evaluate.py": "04ad60eb9d59edff8ab76f39462cb4723d23c4bf22bdc35dc5baeab50a1346cf",
+    "validate_joint.py": "6a656c0cdbd19d42a37441649f6cc3e24e90d74c5204995b45e34e907f0ef0e0",
+    "joint_loss.py": "680088a7dbffdd1c8d1a4914c54db9b51d439f0fe7e3022e5b55405dd6c61e0e"
+  },
+  "config_sha256": {
+    "full36_smoke.yaml": "c35f43b3cf6c56b28b76351e954b206b16bc27325414f1a6adafa93770c38425",
+    "full36_final.yaml": "c013e46d178e879b13df6e060fbf279e90a5b3dd58efe9ed1e0a8f955dcd82c2",
+    "none_smoke.yaml": "ee2838a1b497dd69cfc47a53bc4f1fdd8d1c59efa2834a7d6708232d9b5fa8f6",
+    "none_final.yaml": "0e82b80f0da4fb9383f857dd2a044c54810f33b4968a5f1ab2399ef3c59a2264"
+  },
+  "cpu_gradient_validation": "PASS original36 states and checkpoint gradients plus lambda1 accumulation oracle",
+  "gpu_engineering": "NOT_RUN_WAITING_FREE_GPU",
+  "formal_training": "NOT_STARTED_WAITING_ENGINEERING",
+  "scientific_score_gate": false,
+  "other_users_untouched": true,
+  "account_gpu_limit": 4,
+  "amendment": "Both LF model flag and HF TrainingArguments explicitly set use_reentrant=False; actual36 checkpoint wrappers verified on_train_begin. Queued-only v1 services replaced; no training had started."
+}

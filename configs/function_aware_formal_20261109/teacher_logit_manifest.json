@@ -1,0 +1,23 @@
+{
+  "status": "BUILD_ONLY_TEACHER_DONE",
+  "files": {
+    "normalizer_rows.json": "ba4a88bfdaab513040eb93d27704f266fb573f508e1c39d2beb05e7d70cf4656",
+    "build_pool.jsonl": "d000a5bc587e96c6efc03e785cba8662f9dc3a9301bdb5e3e043c3f90f0b6519",
+    "teacher_log_probs.safetensors": "ac39bfe64bbbe0758e3310df0f9f6559ffc442b1a46271d627de1f66da85af0a"
+  },
+  "normalizers": {
+    "math": 0.9622739570913836,
+    "instruction": 0.15938826663477812
+  },
+  "temperature": 1,
+  "coefficient": 1,
+  "old_pool_sha256": "d000a5bc587e96c6efc03e785cba8662f9dc3a9301bdb5e3e043c3f90f0b6519",
+  "source_old_manifest_sha256": "385c7c4352e8723450545696be4f982db7178f0b685155406b2b5646fb4b4e30",
+  "reference_adapter_sha256": "0e3e8de0b3fa0fa2434b3a8946eeaca21b9580b613c475347ff4000f2e8d2265",
+  "teacher_full_forward_kl_error": 0.0,
+  "positions": "same max4 protected answer prediction slots as P2 FullRep",
+  "old_check_used": 0,
+  "elapsed_seconds": 15.25359903901699,
+  "teacher_cache_kind": "dense_FP32_log_probabilities",
+  "normalizer_source": "same legacy All-layer LoRA used for P2 FullRep normalization"
+}

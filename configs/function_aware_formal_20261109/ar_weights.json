@@ -1,0 +1,119 @@
+{
+  "status": "WEIGHTS_FROZEN_NO_PERFORMANCE_GATE",
+  "language": "ar",
+  "groups": [
+    "early_attention",
+    "early_mlp",
+    "middle_attention",
+    "middle_mlp",
+    "late_attention",
+    "late_mlp"
+  ],
+  "function": [
+    0.6800799417435894,
+    0.6800799417435894,
+    2.0,
+    0.6834371436121418,
+    1.276323031157091,
+    0.6800799417435894
+  ],
+  "random": [
+    2.0,
+    0.6800799417435894,
+    0.6800799417435894,
+    0.6834371436121418,
+    0.6800799417435894,
+    1.276323031157091
+  ],
+  "random_permutation": [
+    2,
+    5,
+    0,
+    3,
+    1,
+    4
+  ],
+  "sum_weight": 6,
+  "bounds": [
+    0.5,
+    2
+  ],
+  "details": [
+    {
+      "group": "early_attention",
+      "relative_recoveries": {
+        "old_math": 0.002918900202964569,
+        "old_instruction": -0.005427818779631298,
+        "ar_reading": -0.008233187875070762,
+        "ar_summary": -0.0006140776258168468
+      },
+      "old_recovery": -0.0012544592883333644,
+      "target_cost": 0.004423632750443805,
+      "risk": -0.005678092038777169
+    },
+    {
+      "group": "early_mlp",
+      "relative_recoveries": {
+        "old_math": 0.006743112621017474,
+        "old_instruction": -0.01482994353768054,
+        "ar_reading": -0.029168721530651674,
+        "ar_summary": -0.0001686018326895177
+      },
+      "old_recovery": -0.004043415458331533,
+      "target_cost": 0.014668661681670596,
+      "risk": -0.01871207714000213
+    },
+    {
+      "group": "middle_attention",
+      "relative_recoveries": {
+        "old_math": 0.003237707440811386,
+        "old_instruction": 0.05665460002085339,
+        "ar_reading": 0.01091054633906179,
+        "ar_summary": 0.00013445220084370524
+      },
+      "old_recovery": 0.029946153730832387,
+      "target_cost": -0.005522499269952747,
+      "risk": 0.029946153730832387
+    },
+    {
+      "group": "middle_mlp",
+      "relative_recoveries": {
+        "old_math": 0.0030329210273788722,
+        "old_instruction": -0.002949155575403541,
+        "ar_reading": 0.0031882877972499142,
+        "ar_summary": -0.0009246049979573806
+      },
+      "old_recovery": 4.188272598766563e-05,
+      "target_cost": -0.0011318413996462668,
+      "risk": 4.188272598766563e-05
+    },
+    {
+      "group": "late_attention",
+      "relative_recoveries": {
+        "old_math": -0.00783401694994107,
+        "old_instruction": 0.026877039418082407,
+        "ar_reading": -0.004199534603162233,
+        "ar_summary": 3.3357146854044034e-05
+      },
+      "old_recovery": 0.009521511234070669,
+      "target_cost": 0.0020830887281540946,
+      "risk": 0.007438422505916574
+    },
+    {
+      "group": "late_mlp",
+      "relative_recoveries": {
+        "old_math": -0.014382047545130843,
+        "old_instruction": -0.044050685108271495,
+        "ar_reading": -0.00420672396180794,
+        "ar_summary": -0.0016274000151063998
+      },
+      "old_recovery": -0.02921636632670117,
+      "target_cost": 0.0029170619884571697,
+      "risk": -0.03213342831515834
+    }
+  ],
+  "calibration_manifest_sha256": "e98a6b1352db9e364914353a1f4dbc445dba3ff138bafd87bb3ea819d49a4d03",
+  "calibration_raw_sha256": "0615b3a1fd85d1c38fc97ef8320b20f42a916249f93311109763014c04988f02",
+  "algorithm": "relative CE recovery - positive target CE cost; positive-score allocation; Euclidean capped-simplex projection",
+  "source": "existing independently trained per-language adapter; all build rows; no formal outcomes"
+}

@@ -1,0 +1,21 @@
+{
+  "status": "COMMON72_REFERENCE_COMPLETE",
+  "files": {
+    "normalizer_rows.json": "07402e2d7943c25bc8dd13f5bdd79d9b6bf9f44892d667190f6d3b6e6750f755",
+    "build_reference_features.safetensors": "0d3d6882f10d3e6e05dbadf39b225f774978fe4b40f02be4c5d32b82087655c1",
+    "build_pool.jsonl": "d000a5bc587e96c6efc03e785cba8662f9dc3a9301bdb5e3e043c3f90f0b6519"
+  },
+  "normalizers": {
+    "math": 0.11927841778378934,
+    "instruction": 0.16436582896858454
+  },
+  "sites": 72,
+  "groups": 6,
+  "sites_per_group": 12,
+  "old36_site_oracle_max_error": 0.0,
+  "normalizer_reference_adapter_sha256": "0e3e8de0b3fa0fa2434b3a8946eeaca21b9580b613c475347ff4000f2e8d2265",
+  "normalizer_common_across_languages": true,
+  "old_pool_sha256": "d000a5bc587e96c6efc03e785cba8662f9dc3a9301bdb5e3e043c3f90f0b6519",
+  "check_training_rows": 0,
+  "elapsed_seconds": 18.70583767199423
+}

@@ -1,5 +1,15 @@
 # Multilingual-CL：最新研究入口（2026-11-09）
 
+## 进行中：三语言功能加权与 FFT 表示保持补充
+
+本轮是阶段性快照，尚未完成全部实验。三语言主线新增14组、FFT补充2组完整训练；当前2组正式训练完成，FFT两组工程验证通过。结果按固定Final400评估，未完成项留空。
+
+- [当前ChatGPT交接：算法、设置、首批结果与限制](research/function_aware_formal_20261109/chatgpt_handoff.md)
+- [三语言主结果表与可复算数值](research/function_aware_formal_20261109/results.md)
+- [FFT补充设置与完整比较表](research/fft_representation_20261109/README.md)
+
+本提交包含冻结代码、配置及已完成任务的汇总、区间和逐题数值；覆盖所有模型的完整结果、最终诊断与报告将在实验完成后更新。此前已完成的研究结果保留如下。
+
 ## 最新：表示机制复现与 XNLI / HumanEval+ 补测
 
 四模型固定端点的新增测评与表示分析已完成，无新训练。全表示保持相对普通LoRA的 SW XNLI、代码保持更好；跨语言平均余弦尚未提供独立额外解释。

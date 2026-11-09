@@ -1,0 +1,32 @@
+{
+  "sw": {
+    "source_config": "/path/to/project/configs/functional_representation_20261109/p2/all_layer_formal_v1.yaml",
+    "old_microbatch": 2,
+    "old_accumulation": 8,
+    "original_adapter": "/path/to/storage/checkpoints/aya_4b_20261105/lora_final_v1",
+    "original_adapter_sha256": "0e3e8de0b3fa0fa2434b3a8946eeaca21b9580b613c475347ff4000f2e8d2265",
+    "data_lock_sha256": "c52a1e7016a2460b51b08ca2133f53cab118674595a0fb3739d96c4d4357021c",
+    "examples": 6400,
+    "data_dir": "/path/to/storage/datasets/aya-4b-20261105/mixture-v1"
+  },
+  "ar": {
+    "source_config": "/path/to/project/configs/aya_4b_generalization_20261107/ar_lora_final.yaml",
+    "old_microbatch": 1,
+    "old_accumulation": 16,
+    "original_adapter": "/path/to/storage/checkpoints/aya_4b_generalization_20261107/ar_lora_final_v1",
+    "original_adapter_sha256": "b31ff453af2d595b7f7484e7e8be85f16a799573e2d19a67a1cc242b3ad5c321",
+    "data_lock_sha256": "dd94e87279f87dbdc17934479e972fef10584957c3d930d43a8bbe3cf113f93a",
+    "examples": 6400,
+    "data_dir": "/path/to/storage/datasets/aya-4b-multilang-20261106/mixtures/ar"
+  },
+  "ru": {
+    "source_config": "/path/to/project/configs/aya_4b_generalization_20261107/ru_lora_final.yaml",
+    "old_microbatch": 1,
+    "old_accumulation": 16,
+    "original_adapter": "/path/to/storage/checkpoints/aya_4b_generalization_20261107/ru_lora_final_v1",
+    "original_adapter_sha256": "8b9830b0f9e97636f5a631a1497e40c9b7370c957752c25440bc7f1226889b91",
+    "data_lock_sha256": "093ed0c1eb23b554fa9b13ebd67ae3cb71e1bfd9cc52934435674ac75dbc7ab2",
+    "examples": 6400,
+    "data_dir": "/path/to/storage/datasets/aya-4b-multilang-20261106/mixtures/ru"
+  }
+}

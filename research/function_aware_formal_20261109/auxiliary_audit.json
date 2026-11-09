@@ -1,0 +1,153 @@
+{
+  "status": "INCOMPLETE",
+  "verified_cells": 10,
+  "required_cells": 38,
+  "missing": [
+    [
+      "sw",
+      "full",
+      "GSM8K strict"
+    ],
+    [
+      "sw",
+      "full",
+      "IFEval instruction strict"
+    ],
+    [
+      "sw",
+      "kd",
+      "GSM8K strict"
+    ],
+    [
+      "sw",
+      "kd",
+      "IFEval instruction strict"
+    ],
+    [
+      "sw",
+      "random",
+      "GSM8K strict"
+    ],
+    [
+      "sw",
+      "random",
+      "IFEval instruction strict"
+    ],
+    [
+      "sw",
+      "function",
+      "GSM8K strict"
+    ],
+    [
+      "sw",
+      "function",
+      "IFEval instruction strict"
+    ],
+    [
+      "ar",
+      "all",
+      "GSM8K strict"
+    ],
+    [
+      "ar",
+      "all",
+      "IFEval instruction strict"
+    ],
+    [
+      "ar",
+      "full",
+      "GSM8K strict"
+    ],
+    [
+      "ar",
+      "full",
+      "IFEval instruction strict"
+    ],
+    [
+      "ar",
+      "kd",
+      "GSM8K strict"
+    ],
+    [
+      "ar",
+      "kd",
+      "IFEval instruction strict"
+    ],
+    [
+      "ar",
+      "random",
+      "GSM8K strict"
+    ],
+    [
+      "ar",
+      "random",
+      "IFEval instruction strict"
+    ],
+    [
+      "ar",
+      "function",
+      "GSM8K strict"
+    ],
+    [
+      "ar",
+      "function",
+      "IFEval instruction strict"
+    ],
+    [
+      "ru",
+      "all",
+      "GSM8K strict"
+    ],
+    [
+      "ru",
+      "all",
+      "IFEval instruction strict"
+    ],
+    [
+      "ru",
+      "full",
+      "GSM8K strict"
+    ],
+    [
+      "ru",
+      "full",
+      "IFEval instruction strict"
+    ],
+    [
+      "ru",
+      "kd",
+      "GSM8K strict"
+    ],
+    [
+      "ru",
+      "kd",
+      "IFEval instruction strict"
+    ],
+    [
+      "ru",
+      "random",
+      "GSM8K strict"
+    ],
+    [
+      "ru",
+      "random",
+      "IFEval instruction strict"
+    ],
+    [
+      "ru",
+      "function",
+      "GSM8K strict"
+    ],
+    [
+      "ru",
+      "function",
+      "IFEval instruction strict"
+    ]
+  ],
+  "paired_contrasts": 2,
+  "IFEval_score_denominator": 834,
+  "IFEval_resampling_clusters": 541,
+  "bootstrap_resamples": 2000,
+  "no_mean_prompt_instruction_rate": true,
+  "not_training_seed_uncertainty": true
+}

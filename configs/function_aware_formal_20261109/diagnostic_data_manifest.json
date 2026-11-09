@@ -1,0 +1,17 @@
+{
+  "status": "CPU_PREPARED_GPU_NOT_RUN",
+  "rows": 128,
+  "class_counts": {
+    "math": 64,
+    "instruction": 64
+  },
+  "data_sha256": "047f7a84e8a71074a674bded10737889a699e5a37409a98d5feef3b0936e09d6",
+  "p1_encoded_sha256": "dc1666bd32f45189c05da05403374e3e51efb1008f0eb6fa8a6d6eae68383f7d",
+  "p1_reference_sha256": "4a0746829fc65234181b12541d5a95f5b5babb0f9bdeb6a547a4e0f26520cbe0",
+  "models_sha256": "73b64ec8f69f5731bf1b6a618ce6825c66de382e345d35f44dfab0a57e61d67e",
+  "diagnostic_source_sha256": "81f1dc66089dee048f0b63357843ff1694d117655a4550741775640e76ded2df",
+  "purpose": "Auxiliary final-only drift and reference-answer NLL; not downstream accuracy, not selection",
+  "data_use": "Check128 excluded from formal training; historically exposed P1 diagnostic material",
+  "gpu_barrier": "All main14 formal six-stage evaluations plus SW all MMLU, AR/RU Base GM and all26 FFT stages complete",
+  "no_hyperparameter_selection": true
+}

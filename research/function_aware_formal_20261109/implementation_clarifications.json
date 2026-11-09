@@ -1,0 +1,36 @@
+{
+  "at": "2026-11-09T16:45:17.474328+08:00",
+  "source_terminology": {
+    "sw_config_microbatch": 2,
+    "sw_order_reference_adapter_microbatch": 1,
+    "sw_calibration_adapter": "/path/to/storage/checkpoints/functional_representation_20261109/p2/all_layer_final_v1",
+    "sw_calibration_adapter_microbatch": 2,
+    "ar_ru_calibration_adapter_microbatch": 1,
+    "all_new_training_microbatch": 2,
+    "target_order_reference": "original per-language exposure stream, not identical training padding/dropout"
+  },
+  "six_group_representation_semantics": "Post-attention residual includes previous residual; post-MLP residual includes attention and previous residual. Groups are feature sites, not causally isolated functions. Weighted protection does not guarantee matched gradient norms.",
+  "kd_metadata_interpretation": "Common audited trainer internally calls old_mode full_feature to schedule the extra backward. KD has zero feature layers; uses dense teacher logits and capability-normalized KL(Base||student), not hidden-state MSE. Top-level final mode records kd. Additional teacher manifest listed separately.",
+  "source_sha256": {
+    "schedule.py": "636eb466a0acc61d5324ca70c31b2d443a81e721ac80d2fa7ad920c0e2302c71",
+    "build.py": "81c94623cfcffb1e0a209a4cd07eb0c07891ced79c7f329a3e60b3b874762287",
+    "prepare_evaluation.py": "0adfeb1d15773afbd3cc571c48e3c10913c1383c0671d1e22601bee29efce0f7",
+    "resources.py": "edfa5a9cf8fd06122c574491d8ec2cdd8d9d83bbd3374c4beb5970ba9cd1add2",
+    "schedule_evaluation.py": "b80c9fc59ed406da83c6ee4f380fd6214bf4dd791e78cec7b00e2fa34dc9c862",
+    "validate_features.py": "d8c80fae8cdc8e58e34b85c33380cd240d5c32f96be871e8e5d85abcc716bc13",
+    "run.py": "1888064a95a6d85085c9309ab166aea3bc425692e1e7078252545d5ce16bf808",
+    "train.py": "14d56122ced03772365feeb949cd865eb671b38c58e7ffdcf4e1022577b1c262",
+    "progress.py": "bc4f93fb336adc312d3803a0c6e2bad8badfc4a3492a1e1b70ffe0400c523a42",
+    "logit_kd.py": "deb7f7f291c426e0824446e0cbfa190e06e903415109fa8c6b3a2894d19f16d7",
+    "evaluate.py": "42f0f807d99f42cc2aa5fd52ef2101609b7a8a2501b5f2620aca5a42efbb89f3",
+    "trainer_core.py": "0de11ea3a0f9c5dd5b8a51061df0148ea99522581e3de9b51f41126bf2021a39",
+    "losses.py": "ee0238a7c1dccf09ac1e42aab4f241fce9becd1675122b7284e4890bdf7d1ff0",
+    "prepare_configs.py": "7ef500b50a7f16cb2d5d2ae513b4c252a61f646bfcf192b33f30ffd41ca750fd",
+    "calibrate.py": "691544c67dec55a5132eaf9f25a8470f5b4175e5dff95bb22d60d4fd3d6ec9dc",
+    "prepare_calibration.py": "9a1533719984146a5ae19a5807527276b618cf539722cbc241785414116ca9dc"
+  },
+  "teacher_cache_manifest_sha256": "d95340aa086a049ba91de53b61a468090bd573e049c10bb37bb25042161c0801",
+  "reuse_old_partial_KD_training": false,
+  "all_old_wrong_units_verified_inactive": true,
+  "official_ar_ru_Global_MMLU": "Both available at pinned SW revision, 14042 test questions / 57 subjects each; official dataset source https://huggingface.co/datasets/CohereLabs/Global-MMLU"
+}

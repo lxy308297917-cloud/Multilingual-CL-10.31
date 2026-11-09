@@ -1,0 +1,57 @@
+{
+  "new_inference_stages": 26,
+  "profiles": {
+    "historical_fft": {
+      "artifact": "/path/to/storage/checkpoints/aya_4b_20261105/fft_final_v2",
+      "kind": "full",
+      "comparison": "historical CPUoffload/reentrant baseline, LR1e-5 micro1 GA16"
+    },
+    "historical_ssu": {
+      "artifact": "/path/to/storage/checkpoints/aya_4b_20261105/ssu_final_v2",
+      "kind": "full",
+      "comparison": "historical sparse control; update budget differs"
+    },
+    "matched_fft": {
+      "artifact": "/path/to/storage/checkpoints/fft_representation_20261109/none_final_v1",
+      "kind": "full",
+      "comparison": "new non-reentrant matched unprotected FFT"
+    },
+    "fft_full36": {
+      "artifact": "/path/to/storage/checkpoints/fft_representation_20261109/full36_final_v1",
+      "kind": "full",
+      "comparison": "new non-reentrant full36 representation protection"
+    },
+    "p2_all": {
+      "artifact": "/path/to/storage/checkpoints/functional_representation_20261109/p2/all_layer_final_v1",
+      "kind": "lora",
+      "comparison": "P2 existing micro2 GA8 LR1e-4; extra old information only for protected/replay groups"
+    },
+    "p2_full36": {
+      "artifact": "/path/to/storage/checkpoints/functional_representation_20261109/p2/full_feature_final_v1",
+      "kind": "lora",
+      "comparison": "P2 existing micro2 GA8 LR1e-4; extra old information only for protected/replay groups"
+    },
+    "p2_ce": {
+      "artifact": "/path/to/storage/checkpoints/functional_representation_20261109/p2/ce_replay_final_v1",
+      "kind": "lora",
+      "comparison": "P2 existing micro2 GA8 LR1e-4; extra old information only for protected/replay groups"
+    }
+  },
+  "metric_matrix": [
+    "SW Belebele900 ACC",
+    "EN Belebele900 ACC",
+    "SW Global-MMLU14042/57/5shot ACC",
+    "EN MMLU14042/57/5shot ACC",
+    "SW XL-Sum987 ROUGE-Lsum",
+    "GSM8K1319 5shot flexible and strict",
+    "IFEval541prompt/834instruction strict",
+    "XNLI SW/EN5010 each0shot ACC",
+    "HumanEval+164 real isolated pass@1",
+    "EN->SW and SW->EN FLORES1012 each3shot corpus chrF++ and BLEU"
+  ],
+  "no_formal_test_checkpoint_selection": true,
+  "translation_negative_results_preserved": true,
+  "xnli_legacy_primary_prompt_label_ids_all5010_exact_equal": true,
+  "source_code_evaluation": "same existing EvalPlus isolated executor and164 canonical reference proof",
+  "base_mmlu_reuse": "same Base official weights, HF BF16 batch4 5shot seed42; cancelled duplicate CPU wait before any inference"
+}

@@ -1,0 +1,169 @@
+{
+  "status": "PARTIAL_OBSERVED_COSTS",
+  "updated_at": "2026-11-09T19:06:15.042421+08:00",
+  "records": [
+    {
+      "kind": "incremental_formal_training",
+      "name": "ru_full_final_v1",
+      "source": "/path/to/storage/checkpoints/function_aware_formal_20261109/ru_full_final_v1/TRAINING_DONE.json",
+      "observed_seconds": 4107.763701154996,
+      "target_samples": 6400,
+      "input_tokens": 2520204,
+      "assistant_tokens": 305046,
+      "peak_allocated_bytes": 16865834496,
+      "trainable_parameters": 33030144,
+      "old_build_samples": 3200,
+      "old_forward_backward_calls": 3200,
+      "old_measured_seconds_including_sync": 941.5889455106517,
+      "timing_note": "Old timing is nested inside total; never add it twice. Wall time is not CUDA kernel time."
+    },
+    {
+      "kind": "incremental_formal_training",
+      "name": "sw_kd_final_v1",
+      "source": "/path/to/storage/checkpoints/function_aware_formal_20261109/sw_kd_final_v1/TRAINING_DONE.json",
+      "observed_seconds": 3866.4618566019926,
+      "target_samples": 6400,
+      "input_tokens": 2373891,
+      "assistant_tokens": 324892,
+      "peak_allocated_bytes": 16832992768,
+      "trainable_parameters": 33030144,
+      "old_build_samples": 3200,
+      "old_forward_backward_calls": 3200,
+      "old_measured_seconds_including_sync": 859.8142222660535,
+      "timing_note": "Old timing is nested inside total; never add it twice. Wall time is not CUDA kernel time."
+    },
+    {
+      "kind": "incremental_engineering",
+      "name": "ar_all_smoke_v1",
+      "source": "/path/to/storage/checkpoints/function_aware_formal_20261109/ar_all_smoke_v1/SMOKE_DONE.json",
+      "observed_seconds": 20.40669375201105,
+      "target_samples": 32,
+      "benchmark_selection": false
+    },
+    {
+      "kind": "incremental_engineering",
+      "name": "ru_all_smoke_v1",
+      "source": "/path/to/storage/checkpoints/function_aware_formal_20261109/ru_all_smoke_v1/SMOKE_DONE.json",
+      "observed_seconds": 28.52613274898613,
+      "target_samples": 32,
+      "benchmark_selection": false
+    },
+    {
+      "kind": "incremental_engineering",
+      "name": "ru_full_smoke_v1",
+      "source": "/path/to/storage/checkpoints/function_aware_formal_20261109/ru_full_smoke_v1/SMOKE_DONE.json",
+      "observed_seconds": 33.50025271400227,
+      "target_samples": 32,
+      "benchmark_selection": false
+    },
+    {
+      "kind": "incremental_engineering",
+      "name": "sw_full_smoke_v1",
+      "source": "/path/to/storage/checkpoints/function_aware_formal_20261109/sw_full_smoke_v1/SMOKE_DONE.json",
+      "observed_seconds": 28.917069530987646,
+      "target_samples": 32,
+      "benchmark_selection": false
+    },
+    {
+      "kind": "incremental_engineering",
+      "name": "sw_kd_smoke_v1",
+      "source": "/path/to/storage/checkpoints/function_aware_formal_20261109/sw_kd_smoke_v1/SMOKE_DONE.json",
+      "observed_seconds": 23.177580814022804,
+      "target_samples": 32,
+      "benchmark_selection": false
+    },
+    {
+      "kind": "incremental_common_teacher_cache",
+      "name": "72_reference_and_normalizer",
+      "source": "/path/to/storage/datasets/function-aware-formal-20261109/features-v1/manifest.json",
+      "observed_seconds": 18.70583767199423,
+      "shared_across_languages_and_methods": true
+    },
+    {
+      "kind": "reused_teacher_cache",
+      "name": "dense_logit_KD_reference",
+      "source": "/path/to/storage/datasets/crosslayer-formal-20261109/teacher-v1/manifest.json",
+      "observed_seconds": 15.25359903901699,
+      "shared_across_languages": true,
+      "incremental_recompute_seconds": 0
+    },
+    {
+      "kind": "reused_sw_calibration",
+      "name": "13_existing_CE_runs",
+      "source": "/path/to/logs/qwen3-multilingual/functional-risk-p3-20261109/ce-mc-v3",
+      "observed_seconds": 623.4937391949934,
+      "completed_variants": 13,
+      "source_rows": 7488,
+      "used_build_rows_per_variant": 224,
+      "incremental_recompute_seconds": 0,
+      "includes_original_unused_check_compute": true
+    },
+    {
+      "kind": "incremental_calibration",
+      "name": "ar",
+      "source": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/ar_calibration/worker.log",
+      "observed_seconds": null,
+      "completed_variants": 0,
+      "expected_variants": 13,
+      "rows_per_variant": 224,
+      "status": "PENDING_OR_RUNNING",
+      "timing_note": "Observed variant forward-loop wall times; excludes loading/queue, not assumed GPU kernel time"
+    },
+    {
+      "kind": "incremental_calibration",
+      "name": "ru",
+      "source": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/ru_calibration/worker.log",
+      "observed_seconds": null,
+      "completed_variants": 0,
+      "expected_variants": 13,
+      "rows_per_variant": 224,
+      "status": "PENDING_OR_RUNNING",
+      "timing_note": "Observed variant forward-loop wall times; excludes loading/queue, not assumed GPU kernel time"
+    },
+    {
+      "kind": "reused_calibration_adapter_training",
+      "name": "sw",
+      "source": "/path/to/storage/checkpoints/aya_4b_20261105/lora_final_v1/TRAINING_DONE.json",
+      "observed_seconds": null,
+      "target_samples": 6400,
+      "incremental_recompute_seconds": 0,
+      "comparison_note": "Historical calibrator training is part of resource provenance; aligned AR/RU ordinary controls are separately reported, not reused as identical microbatch runs"
+    },
+    {
+      "kind": "reused_calibration_adapter_training",
+      "name": "ar",
+      "source": "/path/to/storage/checkpoints/aya_4b_generalization_20261107/ar_lora_final_v1/TRAINING_DONE.json",
+      "observed_seconds": null,
+      "target_samples": 6400,
+      "incremental_recompute_seconds": 0,
+      "comparison_note": "Historical calibrator training is part of resource provenance; aligned AR/RU ordinary controls are separately reported, not reused as identical microbatch runs"
+    },
+    {
+      "kind": "reused_calibration_adapter_training",
+      "name": "ru",
+      "source": "/path/to/storage/checkpoints/aya_4b_generalization_20261107/ru_lora_final_v1/TRAINING_DONE.json",
+      "observed_seconds": null,
+      "target_samples": 6400,
+      "incremental_recompute_seconds": 0,
+      "comparison_note": "Historical calibrator training is part of resource provenance; aligned AR/RU ordinary controls are separately reported, not reused as identical microbatch runs"
+    },
+    {
+      "kind": "abandoned_previous_plan",
+      "name": "unused_SST_basis",
+      "source": "/path/to/storage/datasets/crosslayer-formal-20261109/sst-v1/DONE.json",
+      "observed_seconds": 893.7110236939916,
+      "used_by_current_method": false,
+      "not_charged_as_candidate_training": true
+    }
+  ],
+  "not_recorded_is_not_zero": true,
+  "excludes_unfinished_training": true,
+  "caveats": [
+    "Queue waiting is separate from training wall time.",
+    "Reused historical costs are not zero compute; no newly rerun teacher/calibration is implied.",
+    "Shared caches are listed once, not multiplied by every method.",
+    "CPU offload, model loading and saving are included only according to their source timers.",
+    "Training metadata FLOPs estimates omit custom old-model work and must not be called total measured FLOPs.",
+    "Final compute comparison requires every method complete; no speed advantage claimed yet."
+  ]
+}

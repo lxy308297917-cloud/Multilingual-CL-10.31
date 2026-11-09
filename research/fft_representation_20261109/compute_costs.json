@@ -1,0 +1,131 @@
+{
+  "status": "PARTIAL_OBSERVED_COSTS",
+  "updated_at": "2026-11-09T19:06:15.010357+08:00",
+  "records": [
+    {
+      "profile": "historical_fft",
+      "kind": "reused_historical_training",
+      "source": "/path/to/storage/checkpoints/aya_4b_20261105/fft_final_v2/TRAINING_DONE.json",
+      "elapsed_seconds": 10858.747800137848,
+      "target_samples": 6400,
+      "input_tokens": 2373891,
+      "assistant_tokens": 324892,
+      "old_build_samples": 0,
+      "peak_allocated_bytes": null,
+      "parameters": {
+        "unique_model_parameters": 4022468096,
+        "trainable_unique_parameters": 4022468096
+      },
+      "saved_optimizer_state": false,
+      "incremental_recompute": false
+    },
+    {
+      "profile": "historical_ssu",
+      "kind": "reused_historical_training",
+      "source": "/path/to/storage/checkpoints/aya_4b_20261105/ssu_final_v2/TRAINING_DONE.json",
+      "elapsed_seconds": 13112.223531695083,
+      "target_samples": 6400,
+      "input_tokens": 2373891,
+      "assistant_tokens": 324892,
+      "old_build_samples": 0,
+      "peak_allocated_bytes": null,
+      "parameters": {
+        "unique_model_parameters": 4022468096,
+        "trainable_unique_parameters": 4022468096
+      },
+      "saved_optimizer_state": false,
+      "incremental_recompute": false
+    },
+    {
+      "profile": "p2_all",
+      "kind": "reused_historical_training",
+      "source": "/path/to/storage/checkpoints/functional_representation_20261109/p2/all_layer_final_v1/TRAINING_DONE.json",
+      "elapsed_seconds": 3133.599547238002,
+      "target_samples": 6400,
+      "input_tokens": 2373891,
+      "assistant_tokens": 324892,
+      "old_build_samples": 0,
+      "peak_allocated_bytes": 16832992768,
+      "parameters": {
+        "unique_model_parameters": 4055498240,
+        "trainable_unique_parameters": 33030144
+      },
+      "saved_optimizer_state": true,
+      "incremental_recompute": false
+    },
+    {
+      "profile": "p2_full36",
+      "kind": "reused_historical_training",
+      "source": "/path/to/storage/checkpoints/functional_representation_20261109/p2/full_feature_final_v1/TRAINING_DONE.json",
+      "elapsed_seconds": 3884.9336373910046,
+      "target_samples": 6400,
+      "input_tokens": 2373891,
+      "assistant_tokens": 324892,
+      "old_build_samples": 3200,
+      "peak_allocated_bytes": 16832992768,
+      "parameters": {
+        "unique_model_parameters": 4055498240,
+        "trainable_unique_parameters": 33030144
+      },
+      "saved_optimizer_state": true,
+      "incremental_recompute": false
+    },
+    {
+      "profile": "p2_ce",
+      "kind": "reused_historical_training",
+      "source": "/path/to/storage/checkpoints/functional_representation_20261109/p2/ce_replay_final_v1/TRAINING_DONE.json",
+      "elapsed_seconds": 3747.947207786012,
+      "target_samples": 6400,
+      "input_tokens": 2373891,
+      "assistant_tokens": 324892,
+      "old_build_samples": 3200,
+      "peak_allocated_bytes": 16832992768,
+      "parameters": {
+        "unique_model_parameters": 4055498240,
+        "trainable_unique_parameters": 33030144
+      },
+      "saved_optimizer_state": true,
+      "incremental_recompute": false
+    },
+    {
+      "profile": "full36_smoke_v1",
+      "kind": "incremental_engineering",
+      "elapsed_seconds": 275.23877704300685,
+      "target_samples": 48,
+      "old_build_samples": 24,
+      "peak_allocated_bytes": 21084080128,
+      "source": "/path/to/storage/checkpoints/fft_representation_20261109/full36_smoke_v1/SMOKE_DONE.json",
+      "used_as_benchmark_result": false
+    },
+    {
+      "profile": "none_smoke_v1",
+      "kind": "incremental_engineering",
+      "elapsed_seconds": 274.02189376801834,
+      "target_samples": 48,
+      "old_build_samples": 0,
+      "peak_allocated_bytes": 13998225920,
+      "source": "/path/to/storage/checkpoints/fft_representation_20261109/none_smoke_v1/SMOKE_DONE.json",
+      "used_as_benchmark_result": false
+    },
+    {
+      "profile": "historical_fft",
+      "kind": "incremental_cpu_code_execution",
+      "source": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/historical_fft/code/execution/scores.json",
+      "elapsed_seconds": 103.52367334201699,
+      "samples": 164,
+      "timing_scope": "isolated model-program execution; excludes generation/loading/queue"
+    }
+  ],
+  "not_recorded_is_not_zero": true,
+  "unfinished_runs_excluded": true,
+  "reference36_cache_recomputed": false,
+  "reference36_cache_cost": "Historical source cost retained separately; not recorded by this track, never invent zero.",
+  "timing_caveats": [
+    "Queue waiting is not training duration.",
+    "FFT optimizer save/offload and CPU initialization are included according to original timers.",
+    "Do not add nested old-loss timings to total twice.",
+    "Engineering uses longest examples and cannot reliably extrapolate complete training duration.",
+    "Reused LoRA/FFT/SSU timings came from different implementations and resource states.",
+    "Evaluation GPU durations not recorded in source are unknown, not zero."
+  ]
+}

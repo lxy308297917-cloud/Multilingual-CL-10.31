@@ -1,0 +1,93 @@
+{
+  "status": "BOTH_FFT_ENGINEERING_PASSED",
+  "updated_at": "2026-11-09T19:03:48.242494+08:00",
+  "models": [
+    {
+      "mode": "none",
+      "verified_engineering_only": true,
+      "steps": 3,
+      "target_samples": 48,
+      "old_build_samples": 0,
+      "old_check_samples": 0,
+      "all_398_unique_parameter_tensors_received_finite_gradient": true,
+      "backward_calls": 48,
+      "applied_learning_rates": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1e-05,
+          1e-05
+        ],
+        [
+          5e-06,
+          5e-06
+        ]
+      ],
+      "actual_weight_decays": [
+        0.0,
+        0.0
+      ],
+      "cpu_adam_scheduler_binding_verified": true,
+      "peak_allocated_bytes": 13998225920,
+      "elapsed_seconds": 274.02189376801834,
+      "normalized_old_drift_range": null,
+      "proof_sha256": {
+        "SMOKE_DONE.json": "88a0b22b85b2e37150161e861d84dd9078e736962f1f15210f7059734807c3c2",
+        "gradient_coverage.json": "5b278054cea5686de0adaba2fcfeed6e8116ec10632c5f9e1e8cc12d8892c853",
+        "joint_backward_audit.json": "cd4187fefad040f01eea5e14c3b97ce2e1aa9f131acf497c715c3deceea6ecff",
+        "old_exposure.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "applied-lr-rank0.jsonl": "22cd65a40089b396f9b935cd1cf65c0fd100e949a4037eddbf13cc226ce45eb8",
+        "optimizer-binding.json": "34da8368b167da8ebac486062faf4a59c459e351dc13c6ba86c9bfa53951364b"
+      }
+    },
+    {
+      "mode": "full36",
+      "verified_engineering_only": true,
+      "steps": 3,
+      "target_samples": 48,
+      "old_build_samples": 24,
+      "old_check_samples": 0,
+      "all_398_unique_parameter_tensors_received_finite_gradient": true,
+      "backward_calls": 48,
+      "applied_learning_rates": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1e-05,
+          1e-05
+        ],
+        [
+          5e-06,
+          5e-06
+        ]
+      ],
+      "actual_weight_decays": [
+        0.0,
+        0.0
+      ],
+      "cpu_adam_scheduler_binding_verified": true,
+      "peak_allocated_bytes": 21084080128,
+      "elapsed_seconds": 275.23877704300685,
+      "normalized_old_drift_range": [
+        0.0010030814446508884,
+        0.009972707368433475
+      ],
+      "proof_sha256": {
+        "SMOKE_DONE.json": "3cdffbae4453f19f5ec0e3e1f9f38b26e211ea2519cf49fd4890382d9c4e84c9",
+        "gradient_coverage.json": "bb77b2ba9a3152bd672a76b270ea4591e819de82b9bb84e6fe08291dad7317da",
+        "joint_backward_audit.json": "fbd5f15d5fb5ed086461fe68d5da357943318fdd86fa5a08d380a65dea1688c0",
+        "old_exposure.jsonl": "3a4021b5152a905b687f0ed5e477660bdce2352e261879334299db78d4975108",
+        "applied-lr-rank0.jsonl": "22cd65a40089b396f9b935cd1cf65c0fd100e949a4037eddbf13cc226ce45eb8",
+        "optimizer-binding.json": "34da8368b167da8ebac486062faf4a59c459e351dc13c6ba86c9bfa53951364b"
+      }
+    }
+  ],
+  "pending": [],
+  "scope": "Engineering only; full400 starts fresh. No benchmark performance gate.",
+  "numerical_note": "Preserve the protected initial nonzero feature-loss floor; do not call all nonzero loss adaptation-induced drift.",
+  "benchmark_results_used": false
+}

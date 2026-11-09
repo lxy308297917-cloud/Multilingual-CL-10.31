@@ -1,0 +1,67 @@
+{
+  "status": "INCOMPLETE_RUNNING",
+  "verified_count": 2,
+  "expected": 14,
+  "pending": [
+    "sw_full",
+    "sw_random",
+    "sw_function",
+    "ar_all",
+    "ar_full",
+    "ar_kd",
+    "ar_random",
+    "ar_function",
+    "ru_all",
+    "ru_kd",
+    "ru_random",
+    "ru_function"
+  ],
+  "initial_weight_sha256": {
+    "sw_all_reused": "b18a31736036aee10b7f8c5eb82e3eebd5342c6134e4b7e169c06028c34b4bec",
+    "sw_kd": "b18a31736036aee10b7f8c5eb82e3eebd5342c6134e4b7e169c06028c34b4bec",
+    "ru_full": "b18a31736036aee10b7f8c5eb82e3eebd5342c6134e4b7e169c06028c34b4bec"
+  },
+  "observed_initial_weights_identical": true,
+  "all_initials_observed": false,
+  "models": [
+    {
+      "name": "sw_kd",
+      "method": "kd",
+      "language": "sw",
+      "verified_final400": true,
+      "adapter_sha256": "beb541253924e82c53468128c4412e1fd5a8f7c3e3fcfc5adf662bc5ee594236",
+      "initial_adapter_sha256": "b18a31736036aee10b7f8c5eb82e3eebd5342c6134e4b7e169c06028c34b4bec",
+      "exact_target_input_label_stream_6400": true,
+      "old_build_samples": 3200,
+      "old_check_samples": 0,
+      "old_input_tokens": 393750,
+      "old_reference_prefix_tokens": 211250,
+      "effective_delta_frobenius": 7.533401587811763,
+      "method_weight_input_provenance": null,
+      "elapsed_seconds": 3866.4618566019926,
+      "peak_allocated_bytes": 16832992768,
+      "historical_configuration_matches_source": true
+    },
+    {
+      "name": "ru_full",
+      "method": "full",
+      "language": "ru",
+      "verified_final400": true,
+      "adapter_sha256": "6c611660f0bea7c948a6ef985a306f57c684bb01f0faafbcbb8a90ac05f81df1",
+      "initial_adapter_sha256": "b18a31736036aee10b7f8c5eb82e3eebd5342c6134e4b7e169c06028c34b4bec",
+      "exact_target_input_label_stream_6400": true,
+      "old_build_samples": 3200,
+      "old_check_samples": 0,
+      "old_input_tokens": 393750,
+      "old_reference_prefix_tokens": 211250,
+      "effective_delta_frobenius": 7.337628133421718,
+      "method_weight_input_provenance": null,
+      "elapsed_seconds": 4107.763701154996,
+      "peak_allocated_bytes": 16865834496,
+      "historical_configuration_matches_source": true
+    }
+  ],
+  "audit_cpu_seconds": 2.7067954869999085,
+  "extra_gpu_jobs": 0,
+  "no_effectiveness_claim_from_norms": true
+}

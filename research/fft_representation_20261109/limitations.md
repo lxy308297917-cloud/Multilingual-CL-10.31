@@ -1,0 +1,19 @@
+# FFT补充实验的比较边界
+
+- 历史FFT与新匹配FFT分开报告。新匹配FFT和保护FFT共同改用非重入梯度检查点；同时显式设置LLaMA-Factory模型参数与HF TrainingArguments，避免Trainer重新启用默认重入实现。二者同目标数据、目标microbatch1、GA16、LR1e-5、CPUAdam、调度和seed42。
+- 保护FFT采用P2原始36个decoder原始输出点和原尺度，不采用新六组72点版本，不新增层加权或动态控制。原缓存和保护样本在既有P2中使用过，不能说是全新未曝光材料。
+- 每个optimizer step使用8条旧样本，顺序与P2一致，共3200次旧样本曝光。FFT的16个目标microbatch中，每隔一个加入旧损失，按HF实际目标归一化规则加权，保证每步旧损失均值的总系数仍为lambda1。这样不会因为FFT GA16而把旧样本曝光翻倍。
+- 保护损失与目标损失合并后只调用一次DeepSpeed backward。直接照搬LoRA的两次accelerator.backward会在累积边界影响step次数，也可能触发ZeRO2重复梯度归约，不能当作等价实现。
+- 原36点特征是final norm之前的decoder输出。它不直接惩罚最终读出logits或最终model.norm的变化。Qwen3-4B配置为tie_word_embeddings=True，lm_head与输入embedding共享权重，因此不能把输出头视为完全脱离表示损失的独立参数：表示损失可通过输入embedding路径约束这份共享权重。FFT会更新共享embedding/readout与最终norm，LoRA原配方冻结它们。**完整目标SFT应使全部预定参数获得梯度；不要求原36点表示损失给没有依赖路径的最终norm产生梯度。** CPU表示梯度检验主要验证embedding和decoder路径。
+- 因此将额外单列共享embedding/readout、最终norm和decoder的参数变化量；审计保存的embedding与lm_head是否逐值相同，共享参数只计一次，不因checkpoint重复存储而翻倍。若FFT保持较弱，不能仅据结果断言低秩结构有特殊因果作用，也需要考虑读出端在表示正则之外仍可变化；本轮不据此临时加新损失、冻结读出端或修改配置。
+- 3步工程验证使用最长目标16条和最长旧样本，不参与400步结果。完整正式训练重新初始化，固定Final400；不按测试分数早停或选择中间点。
+- 历史FFT/SSU及P2 LoRA各自学习率、参数预算、microbatch和额外旧数据不同。主因果比较是新匹配FFT对新保护FFT，以及P2 LoRA对P2原36点FullRep；横向比较只能结合这些限制解释。
+- 翻译必须保留两个方向的语料级chrF++及BLEU。配对区间重采样句对的充分统计量后重新计算语料分数，不能对句级chrF++取平均代替。既有重复生成和负迁移不从正式表中删除。
+- XNLI原始FFT任务与P2 primary任务的5010个ID、prompt和label逐项完全一致；新增字段只是固定语义映射等元数据。配对时核对有效prompt/target和共享premise，不能把无效元数据差异误当题目变化，也不能忽略真正的提示或标签变化。
+- HumanEval+复用已有官方数据、代码生成配置和经过验证的隔离执行器；只接受真实执行，静态分析不能替代通过率。
+- Checkpoint新增optimizer状态保存会增加I/O成本。训练进程墙钟、模型加载、保存、CPU Offload和排队分别报告，不能把全部差额算成表示损失的纯计算成本。计时中的CUDA异步同步部分也不能冒充独立kernel测时。
+- 本轮单seed42；所有区间是固定模型在当前样本上的探索性配对区间，未经多重比较校正，不代表跨训练种子稳定性。正式benchmark已有历史曝光，本轮规则不据新测试成绩修改。
+
+- 范数定义：FFT以实际保存／加载权重减Base计算；LoRA以固定alpha/r下的有效BA矩阵增量计算，Gram运算使用FP64，共享embedding/readout只计一次。这些不是原始A/B因子的范数，也不是模型输出变化；混合精度、运行时舍入和更新支持范围不同，不能仅据全局范数宣称跨参数化机制因果。
+
+- 本FFT补充验证的是原36点均匀Full Representation，未训练功能加权FFT；不能把它的结果当作新Function-Aware方法已经跨参数化泛化的证据。本轮也没有同池FFT CE／KD组，LoRA的CE／KD结果不能替代这些FFT对照；因此FFT保护组相对普通FFT的收益不足以证明它优于所有其它FFT保持方式。

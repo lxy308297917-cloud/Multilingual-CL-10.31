@@ -1,0 +1,13 @@
+{
+  "status": "INCOMPLETE",
+  "verified_count": 0,
+  "expected": 2,
+  "pending": [
+    "none",
+    "full36"
+  ],
+  "models": [],
+  "new_protected_unprotected_scientific_recipes_identical": true,
+  "historical_implementation_difference": "Both new runs use non-reentrant checkpointing and the same combined-backward wrapper; historical FFT remains separately identified.",
+  "additional_gpu_jobs": 0
+}

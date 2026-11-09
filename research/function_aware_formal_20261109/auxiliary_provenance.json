@@ -1,0 +1,72 @@
+[
+  {
+    "language": "sw",
+    "method": "Base",
+    "task": "GSM8K strict",
+    "path": "/path/to/logs/qwen3-multilingual/aya-4b-20261105/base-generation-v2/core/results/__user__models__Qwen3-4B/samples_sft_v1_gsm8k_2026-11-06T03-12-22.973111.jsonl",
+    "sha256": "2cfa370cac19868f1681e953fff8d2208de305b6ea3e7325afeb15802f5b94a6"
+  },
+  {
+    "language": "sw",
+    "method": "Base",
+    "task": "IFEval instruction strict",
+    "path": "/path/to/logs/qwen3-multilingual/aya-4b-20261105/base-generation-v2/core/results/__user__models__Qwen3-4B/samples_sft_v1_ifeval_2026-11-06T03-12-22.973111.jsonl",
+    "sha256": "7d859c60a79f7752d062981e5708742f83332b631e19571f6cfc5e2bb1e88d6a"
+  },
+  {
+    "language": "sw",
+    "method": "all",
+    "task": "GSM8K strict",
+    "path": "/path/to/logs/qwen3-multilingual/functional-representation-20261109/p2/evaluation/all_layer/core/results/__user__models__Qwen3-4B/samples_sft_v1_gsm8k_2026-11-09T05-24-09.191567.jsonl",
+    "sha256": "a92ac6905be42bd60556d6d3b113930c2840857f76e1aaaaba10f3f272977b73"
+  },
+  {
+    "language": "sw",
+    "method": "all",
+    "task": "IFEval instruction strict",
+    "path": "/path/to/logs/qwen3-multilingual/functional-representation-20261109/p2/evaluation/all_layer/core/results/__user__models__Qwen3-4B/samples_sft_v1_ifeval_2026-11-09T05-24-09.191567.jsonl",
+    "sha256": "a42c6a9a977c637a6792a364dfe8649424dbaa4659fc39f0301cc5aa1832e97d"
+  },
+  {
+    "language": "sw",
+    "method": "HistoricalFull36",
+    "task": "GSM8K strict",
+    "path": "/path/to/logs/qwen3-multilingual/functional-representation-20261109/p2/evaluation/full_feature/core/results/__user__models__Qwen3-4B/samples_sft_v1_gsm8k_2026-11-09T05-33-28.696445.jsonl",
+    "sha256": "826a349c402029796fe30e62871af3fbc4588af7e40eaf750dda894fb358312b"
+  },
+  {
+    "language": "sw",
+    "method": "HistoricalFull36",
+    "task": "IFEval instruction strict",
+    "path": "/path/to/logs/qwen3-multilingual/functional-representation-20261109/p2/evaluation/full_feature/core/results/__user__models__Qwen3-4B/samples_sft_v1_ifeval_2026-11-09T05-33-28.696445.jsonl",
+    "sha256": "36a2dd891a119c890ce4b217e2212489b6136ab6bc44a3fa648de5b8333ea352"
+  },
+  {
+    "language": "ar",
+    "method": "Base",
+    "task": "GSM8K strict",
+    "path": "/path/to/logs/qwen3-multilingual/aya-4b-20261105/base-generation-v2/core/results/__user__models__Qwen3-4B/samples_sft_v1_gsm8k_2026-11-06T03-12-22.973111.jsonl",
+    "sha256": "2cfa370cac19868f1681e953fff8d2208de305b6ea3e7325afeb15802f5b94a6"
+  },
+  {
+    "language": "ar",
+    "method": "Base",
+    "task": "IFEval instruction strict",
+    "path": "/path/to/logs/qwen3-multilingual/aya-4b-20261105/base-generation-v2/core/results/__user__models__Qwen3-4B/samples_sft_v1_ifeval_2026-11-06T03-12-22.973111.jsonl",
+    "sha256": "7d859c60a79f7752d062981e5708742f83332b631e19571f6cfc5e2bb1e88d6a"
+  },
+  {
+    "language": "ru",
+    "method": "Base",
+    "task": "GSM8K strict",
+    "path": "/path/to/logs/qwen3-multilingual/aya-4b-20261105/base-generation-v2/core/results/__user__models__Qwen3-4B/samples_sft_v1_gsm8k_2026-11-06T03-12-22.973111.jsonl",
+    "sha256": "2cfa370cac19868f1681e953fff8d2208de305b6ea3e7325afeb15802f5b94a6"
+  },
+  {
+    "language": "ru",
+    "method": "Base",
+    "task": "IFEval instruction strict",
+    "path": "/path/to/logs/qwen3-multilingual/aya-4b-20261105/base-generation-v2/core/results/__user__models__Qwen3-4B/samples_sft_v1_ifeval_2026-11-06T03-12-22.973111.jsonl",
+    "sha256": "7d859c60a79f7752d062981e5708742f83332b631e19571f6cfc5e2bb1e88d6a"
+  }
+]

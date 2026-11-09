@@ -1,0 +1,114 @@
+{
+  "sw_full": {
+    "language": "sw",
+    "method": "full",
+    "data_lock": "/path/to/project/configs/aya_4b_20261105/data.lock.json",
+    "source_exposure": "/path/to/storage/checkpoints/aya_4b_20261105/lora_final_v1/exposure-rank0.jsonl",
+    "steps": 400,
+    "status": "PREPARED_NOT_STARTED"
+  },
+  "sw_kd": {
+    "language": "sw",
+    "method": "kd",
+    "data_lock": "/path/to/project/configs/aya_4b_20261105/data.lock.json",
+    "source_exposure": "/path/to/storage/checkpoints/aya_4b_20261105/lora_final_v1/exposure-rank0.jsonl",
+    "steps": 400,
+    "status": "PREPARED_NOT_STARTED"
+  },
+  "sw_random": {
+    "language": "sw",
+    "method": "random",
+    "data_lock": "/path/to/project/configs/aya_4b_20261105/data.lock.json",
+    "source_exposure": "/path/to/storage/checkpoints/aya_4b_20261105/lora_final_v1/exposure-rank0.jsonl",
+    "steps": 400,
+    "status": "PREPARED_NOT_STARTED"
+  },
+  "sw_function": {
+    "language": "sw",
+    "method": "function",
+    "data_lock": "/path/to/project/configs/aya_4b_20261105/data.lock.json",
+    "source_exposure": "/path/to/storage/checkpoints/aya_4b_20261105/lora_final_v1/exposure-rank0.jsonl",
+    "steps": 400,
+    "status": "PREPARED_NOT_STARTED"
+  },
+  "ar_all": {
+    "language": "ar",
+    "method": "all",
+    "data_lock": "/path/to/project/configs/aya_4b_generalization_20261107/data_ar.lock.json",
+    "source_exposure": "/path/to/storage/checkpoints/aya_4b_generalization_20261107/ar_lora_final_v1/exposure-rank0.jsonl",
+    "steps": 400,
+    "status": "PREPARED_NOT_STARTED"
+  },
+  "ar_full": {
+    "language": "ar",
+    "method": "full",
+    "data_lock": "/path/to/project/configs/aya_4b_generalization_20261107/data_ar.lock.json",
+    "source_exposure": "/path/to/storage/checkpoints/aya_4b_generalization_20261107/ar_lora_final_v1/exposure-rank0.jsonl",
+    "steps": 400,
+    "status": "PREPARED_NOT_STARTED"
+  },
+  "ar_kd": {
+    "language": "ar",
+    "method": "kd",
+    "data_lock": "/path/to/project/configs/aya_4b_generalization_20261107/data_ar.lock.json",
+    "source_exposure": "/path/to/storage/checkpoints/aya_4b_generalization_20261107/ar_lora_final_v1/exposure-rank0.jsonl",
+    "steps": 400,
+    "status": "PREPARED_NOT_STARTED"
+  },
+  "ar_random": {
+    "language": "ar",
+    "method": "random",
+    "data_lock": "/path/to/project/configs/aya_4b_generalization_20261107/data_ar.lock.json",
+    "source_exposure": "/path/to/storage/checkpoints/aya_4b_generalization_20261107/ar_lora_final_v1/exposure-rank0.jsonl",
+    "steps": 400,
+    "status": "PREPARED_NOT_STARTED"
+  },
+  "ar_function": {
+    "language": "ar",
+    "method": "function",
+    "data_lock": "/path/to/project/configs/aya_4b_generalization_20261107/data_ar.lock.json",
+    "source_exposure": "/path/to/storage/checkpoints/aya_4b_generalization_20261107/ar_lora_final_v1/exposure-rank0.jsonl",
+    "steps": 400,
+    "status": "PREPARED_NOT_STARTED"
+  },
+  "ru_all": {
+    "language": "ru",
+    "method": "all",
+    "data_lock": "/path/to/project/configs/aya_4b_generalization_20261107/data_ru.lock.json",
+    "source_exposure": "/path/to/storage/checkpoints/aya_4b_generalization_20261107/ru_lora_final_v1/exposure-rank0.jsonl",
+    "steps": 400,
+    "status": "PREPARED_NOT_STARTED"
+  },
+  "ru_full": {
+    "language": "ru",
+    "method": "full",
+    "data_lock": "/path/to/project/configs/aya_4b_generalization_20261107/data_ru.lock.json",
+    "source_exposure": "/path/to/storage/checkpoints/aya_4b_generalization_20261107/ru_lora_final_v1/exposure-rank0.jsonl",
+    "steps": 400,
+    "status": "PREPARED_NOT_STARTED"
+  },
+  "ru_kd": {
+    "language": "ru",
+    "method": "kd",
+    "data_lock": "/path/to/project/configs/aya_4b_generalization_20261107/data_ru.lock.json",
+    "source_exposure": "/path/to/storage/checkpoints/aya_4b_generalization_20261107/ru_lora_final_v1/exposure-rank0.jsonl",
+    "steps": 400,
+    "status": "PREPARED_NOT_STARTED"
+  },
+  "ru_random": {
+    "language": "ru",
+    "method": "random",
+    "data_lock": "/path/to/project/configs/aya_4b_generalization_20261107/data_ru.lock.json",
+    "source_exposure": "/path/to/storage/checkpoints/aya_4b_generalization_20261107/ru_lora_final_v1/exposure-rank0.jsonl",
+    "steps": 400,
+    "status": "PREPARED_NOT_STARTED"
+  },
+  "ru_function": {
+    "language": "ru",
+    "method": "function",
+    "data_lock": "/path/to/project/configs/aya_4b_generalization_20261107/data_ru.lock.json",
+    "source_exposure": "/path/to/storage/checkpoints/aya_4b_generalization_20261107/ru_lora_final_v1/exposure-rank0.jsonl",
+    "steps": 400,
+    "status": "PREPARED_NOT_STARTED"
+  }
+}

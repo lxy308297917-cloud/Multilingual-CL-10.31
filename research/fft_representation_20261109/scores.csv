@@ -1,0 +1,97 @@
+profile,task,score,status,source
+Base,SW Belebele,27.333333333333332,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/research/representation_benchmarks_20261109/complete_scores.csv
+Base,SW XL-Sum,13.709945670869477,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/research/representation_benchmarks_20261109/complete_scores.csv
+Base,SW Global-MMLU,33.37843612021079,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/research/representation_benchmarks_20261109/complete_scores.csv
+Base,SW XNLI,33.1936127744511,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/research/representation_benchmarks_20261109/complete_scores.csv
+Base,EN Belebele,62.888888888888886,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/research/representation_benchmarks_20261109/complete_scores.csv
+Base,EN XNLI,49.24151696606786,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/research/representation_benchmarks_20261109/complete_scores.csv
+Base,EN MMLU,66.74262925509187,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/results/aya_4b_20261105/analysis-v1/scores.csv
+Base,GSM8K flexible,84.4579226686884,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/research/representation_benchmarks_20261109/complete_scores.csv
+Base,IFEval prompt strict,78.37338262476895,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/research/representation_benchmarks_20261109/complete_scores.csv
+Base,HumanEval+,78.04878048780488,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/research/representation_benchmarks_20261109/complete_scores.csv
+Base,EN→SW chrF++,14.89873985308201,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/results/aya_4b_20261105/analysis-v1/scores.csv
+Base,SW→EN chrF++,36.07375836883267,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/results/aya_4b_20261105/analysis-v1/scores.csv
+historical_fft,SW Belebele,39.77777777777778,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/results/aya_4b_20261105/analysis-v1/scores.csv
+historical_fft,SW XL-Sum,18.364870658487167,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/results/aya_4b_20261105/analysis-v1/scores.csv
+historical_fft,SW Global-MMLU,32.72325879504344,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/results/aya_4b_20261105/analysis-v1/scores.csv
+historical_fft,SW XNLI,49.00199600798403,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/results/aya_4b_20261105/supplemental-analysis-v1/scores.json
+historical_fft,EN Belebele,87.0,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/results/aya_4b_20261105/analysis-v1/scores.csv
+historical_fft,EN XNLI,83.41317365269461,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/results/aya_4b_20261105/supplemental-analysis-v1/scores.json
+historical_fft,EN MMLU,68.08859136875088,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/results/aya_4b_20261105/analysis-v1/scores.csv
+historical_fft,GSM8K flexible,81.88021228203185,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/results/aya_4b_20261105/analysis-v1/scores.csv
+historical_fft,IFEval prompt strict,44.91682070240296,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/results/aya_4b_20261105/analysis-v1/scores.csv
+historical_fft,HumanEval+,60.97560975609756,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/historical_fft/code/execution/scores.json
+historical_fft,EN→SW chrF++,7.077095169957401,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/results/aya_4b_20261105/analysis-v1/scores.csv
+historical_fft,SW→EN chrF++,29.020092119498912,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/results/aya_4b_20261105/analysis-v1/scores.csv
+matched_fft,SW Belebele,,NOT_COMPLETE,
+matched_fft,SW XL-Sum,,NOT_COMPLETE,
+matched_fft,SW Global-MMLU,,NOT_COMPLETE,
+matched_fft,SW XNLI,,NOT_COMPLETE,
+matched_fft,EN Belebele,,NOT_COMPLETE,
+matched_fft,EN XNLI,,NOT_COMPLETE,
+matched_fft,EN MMLU,,NOT_COMPLETE,
+matched_fft,GSM8K flexible,,NOT_COMPLETE,
+matched_fft,IFEval prompt strict,,NOT_COMPLETE,
+matched_fft,HumanEval+,,NOT_COMPLETE,
+matched_fft,EN→SW chrF++,,NOT_COMPLETE,
+matched_fft,SW→EN chrF++,,NOT_COMPLETE,
+fft_full36,SW Belebele,,NOT_COMPLETE,
+fft_full36,SW XL-Sum,,NOT_COMPLETE,
+fft_full36,SW Global-MMLU,,NOT_COMPLETE,
+fft_full36,SW XNLI,,NOT_COMPLETE,
+fft_full36,EN Belebele,,NOT_COMPLETE,
+fft_full36,EN XNLI,,NOT_COMPLETE,
+fft_full36,EN MMLU,,NOT_COMPLETE,
+fft_full36,GSM8K flexible,,NOT_COMPLETE,
+fft_full36,IFEval prompt strict,,NOT_COMPLETE,
+fft_full36,HumanEval+,,NOT_COMPLETE,
+fft_full36,EN→SW chrF++,,NOT_COMPLETE,
+fft_full36,SW→EN chrF++,,NOT_COMPLETE,
+p2_all,SW Belebele,36.333333333333336,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/research/representation_benchmarks_20261109/complete_scores.csv
+p2_all,SW XL-Sum,20.1792464092937,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/research/representation_benchmarks_20261109/complete_scores.csv
+p2_all,SW Global-MMLU,33.02948297963253,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/research/representation_benchmarks_20261109/complete_scores.csv
+p2_all,SW XNLI,42.21556886227545,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/research/representation_benchmarks_20261109/complete_scores.csv
+p2_all,EN Belebele,87.55555555555556,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/research/representation_benchmarks_20261109/complete_scores.csv
+p2_all,EN XNLI,71.05788423153693,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/research/representation_benchmarks_20261109/complete_scores.csv
+p2_all,EN MMLU,,NOT_COMPLETE,
+p2_all,GSM8K flexible,81.04624715693707,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/research/representation_benchmarks_20261109/complete_scores.csv
+p2_all,IFEval prompt strict,48.42883548983364,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/research/representation_benchmarks_20261109/complete_scores.csv
+p2_all,HumanEval+,60.36585365853659,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/research/representation_benchmarks_20261109/complete_scores.csv
+p2_all,EN→SW chrF++,,NOT_COMPLETE,
+p2_all,SW→EN chrF++,,NOT_COMPLETE,
+p2_full36,SW Belebele,40.888888888888886,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/research/representation_benchmarks_20261109/complete_scores.csv
+p2_full36,SW XL-Sum,20.583733107107975,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/research/representation_benchmarks_20261109/complete_scores.csv
+p2_full36,SW Global-MMLU,35.336846603048,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/research/representation_benchmarks_20261109/complete_scores.csv
+p2_full36,SW XNLI,44.25149700598802,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/research/representation_benchmarks_20261109/complete_scores.csv
+p2_full36,EN Belebele,88.44444444444444,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/research/representation_benchmarks_20261109/complete_scores.csv
+p2_full36,EN XNLI,70.33932135728543,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/research/representation_benchmarks_20261109/complete_scores.csv
+p2_full36,EN MMLU,,NOT_COMPLETE,
+p2_full36,GSM8K flexible,84.76118271417741,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/research/representation_benchmarks_20261109/complete_scores.csv
+p2_full36,IFEval prompt strict,79.85212569316081,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/research/representation_benchmarks_20261109/complete_scores.csv
+p2_full36,HumanEval+,74.39024390243902,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/research/representation_benchmarks_20261109/complete_scores.csv
+p2_full36,EN→SW chrF++,,NOT_COMPLETE,
+p2_full36,SW→EN chrF++,,NOT_COMPLETE,
+p2_ce,SW Belebele,37.0,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/research/representation_benchmarks_20261109/complete_scores.csv
+p2_ce,SW XL-Sum,20.83552089002919,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/research/representation_benchmarks_20261109/complete_scores.csv
+p2_ce,SW Global-MMLU,33.74875373878365,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/research/representation_benchmarks_20261109/complete_scores.csv
+p2_ce,SW XNLI,33.45309381237525,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/research/representation_benchmarks_20261109/complete_scores.csv
+p2_ce,EN Belebele,87.22222222222223,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/research/representation_benchmarks_20261109/complete_scores.csv
+p2_ce,EN XNLI,35.26946107784431,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/research/representation_benchmarks_20261109/complete_scores.csv
+p2_ce,EN MMLU,,NOT_COMPLETE,
+p2_ce,GSM8K flexible,62.4715693707354,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/research/representation_benchmarks_20261109/complete_scores.csv
+p2_ce,IFEval prompt strict,59.51940850277264,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/research/representation_benchmarks_20261109/complete_scores.csv
+p2_ce,HumanEval+,62.80487804878049,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/research/representation_benchmarks_20261109/complete_scores.csv
+p2_ce,EN→SW chrF++,,NOT_COMPLETE,
+p2_ce,SW→EN chrF++,,NOT_COMPLETE,
+historical_ssu,SW Belebele,44.111111111111114,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/results/aya_4b_20261105/analysis-v1/scores.csv
+historical_ssu,SW XL-Sum,19.886027732492423,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/results/aya_4b_20261105/analysis-v1/scores.csv
+historical_ssu,SW Global-MMLU,34.67454778521578,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/results/aya_4b_20261105/analysis-v1/scores.csv
+historical_ssu,SW XNLI,43.31337325349301,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/results/aya_4b_20261105/supplemental-analysis-v1/scores.json
+historical_ssu,EN Belebele,89.22222222222223,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/results/aya_4b_20261105/analysis-v1/scores.csv
+historical_ssu,EN XNLI,78.16367265469061,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/results/aya_4b_20261105/supplemental-analysis-v1/scores.json
+historical_ssu,EN MMLU,69.33485258510184,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/results/aya_4b_20261105/analysis-v1/scores.csv
+historical_ssu,GSM8K flexible,81.57695223654284,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/results/aya_4b_20261105/analysis-v1/scores.csv
+historical_ssu,IFEval prompt strict,69.68576709796673,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/results/aya_4b_20261105/analysis-v1/scores.csv
+historical_ssu,HumanEval+,,NOT_COMPLETE,
+historical_ssu,EN→SW chrF++,8.705029102306936,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/results/aya_4b_20261105/analysis-v1/scores.csv
+historical_ssu,SW→EN chrF++,32.15428871278706,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/results/aya_4b_20261105/analysis-v1/scores.csv

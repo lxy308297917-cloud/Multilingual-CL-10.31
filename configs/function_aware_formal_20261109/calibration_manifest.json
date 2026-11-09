@@ -1,0 +1,29 @@
+{
+  "status": "FROZEN_BEFORE_NEW_CALIBRATION_INFERENCE",
+  "old_build128_reused": true,
+  "per_language": {
+    "old_math": 64,
+    "old_instruction": 64,
+    "target_reading": 64,
+    "target_summary": 32
+  },
+  "target_scope": "unused TyDiQA train articles and official XL-Sum validation; SW reuses previous P3 build CE; not target benchmark effectiveness evidence",
+  "files": {
+    "sw.jsonl": "87b4c18ded3e17788f79fb600383b31b16a6ee1e6150ea56bd3cc1a6c8181509",
+    "ar.jsonl": "1915bf98a5e3d57aafe5f38f34ac84cd298a05f6752c8f87bc95b9e79f86a6ec",
+    "ru.jsonl": "a26c3288f4b0219f804a6a01a23403b1f82ba8f25fc51128a7156c6a79605a53"
+  },
+  "sources": {
+    "ar": {
+      "/path/to/storage/datasets/aya-4b-multilang-20261106/mixtures/ar/train6400.provenance.jsonl": "bfe2094e23f6051b1ef11bfaebf05a625a953e80a0911eb164c825bb8ad26c65",
+      "/path/to/storage/datasets/aya-4b-multilang-20261106/raw/arabic_XLSum_v2.0.tar.bz2": "371a07df0f89d83c2ca330f56ba33cc4cd39c1b532d6886910c97dfbacfdf2b7"
+    },
+    "ru": {
+      "/path/to/storage/datasets/aya-4b-multilang-20261106/mixtures/ru/train6400.provenance.jsonl": "28bba34257ed0436436d1619e61697b9c844a0bf57ab6519a040ae9757ad550e",
+      "/path/to/storage/datasets/aya-4b-multilang-20261106/raw/russian_XLSum_v2.0.tar.bz2": "5a582ea371c981295da82b6d4c3a8f44d8e266837a86aeae199e2a49b04af3bf"
+    }
+  },
+  "old_pool_sha256": "d000a5bc587e96c6efc03e785cba8662f9dc3a9301bdb5e3e043c3f90f0b6519",
+  "sw_development_sha256": "6b0b66e8ce07abd304ee4a751ef8bd4eed4721aacde1ddfec6661b664f58b820",
+  "all_formal_tests_used": false
+}

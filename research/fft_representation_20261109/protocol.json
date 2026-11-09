@@ -1,0 +1,27 @@
+{
+  "status": "HISTORICAL_FFT_VERIFIED_NEW_PAIRED_RUNS_PREPARED",
+  "at": "2026-11-09T17:25:38.009250+08:00",
+  "historical_fft": "/path/to/storage/checkpoints/aya_4b_20261105/fft_final_v2",
+  "historical_done_sha256": "9c6cdbeba3b58634720886d81cb2ebe6d62adb861a1cbe5286d8b8bac8b2520d",
+  "historical_weights_sha256": {
+    "model-00001-of-00002.safetensors": "a816a272981c1aa396a356ff6c72ef407c88cee8a5fdee88575ab22e980f3d1d",
+    "model-00002-of-00002.safetensors": "410a334310508267945dd98b48aaf8f1c398f2de375e78474dfae4729249d7ed"
+  },
+  "historical_seconds": 10858.747800137848,
+  "original_data_lock_sha256": "c52a1e7016a2460b51b08ca2133f53cab118674595a0fb3739d96c4d4357021c",
+  "new_modes": [
+    "none",
+    "full36"
+  ],
+  "new_target_recipe": "same SW6400, original order, micro1 GA16, LR1e-5, AdamW CPU offload, cosine warmup0.05, seed42, BF16, cutoff2048, no packing, fixedFinal400",
+  "implementation_amendment": "non-reentrant checkpointing plus a SINGLE combined backward per target microbatch; same change in protected and unprotected new FFT; historic FFT retained separately",
+  "protected_old_budget": "Original P2 build128, original raw36 feature cache/scales/lambda1; eight old rows per optimizer step (every second target microbatch), exactly matching P2 old-sample exposure3200 rather than doubling it because FFT GA16",
+  "engineering": "3 updates on frozen16 longest target examples and longest old examples; no benchmark scores; starts formal400 fresh only if masks, gradients, applied LR, single backward and memory pass",
+  "longest_target_input_sha256": {
+    "dataset_dict.json": "c172eebfc28c1400d6be4338ce7d00191507ffb4ae64c315f039585c894df5b7",
+    "train/dataset_info.json": "2d4d048eea9f68a62b9488465df49de56fff8c40382878d73a820bae08a5da5e",
+    "train/state.json": "b745bc28de428c8776e7abb18bff44dd556abd5d903496ee9da0de5535053fcd",
+    "train/data-00000-of-00001.arrow": "93167c62ddb2407774311c38913975705621c5d6728c2da3a3b853fc51c12de4"
+  },
+  "old_scale_source": "Historical unprotected SW LoRA, frozen P2 scales; no FFT-specific refitting"
+}
