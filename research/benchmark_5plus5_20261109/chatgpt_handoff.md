@@ -76,3 +76,11 @@ SW/AR历史LoRA在归一化评分下分别有201/204、204/204题预测为第一
 - 配置及数据revision/hash见 `configs/benchmark_5plus5_20261109` 和 `configs/xquad_20261109`；只改账号资源上限的适配器保留原科学评测源码哈希，不改任务协议。
 
 本文件是本地正在进行的阶段快照，尚未声称全部补测完成；GitHub最终提交将在完整结果与审计之后更新。
+
+## AR候选端点及补测成本更新
+
+2026-11-10：AR功能候选固定Final400的5+5已齐，见[主线完整端点与配对变化](../function_aware_formal_20261109/chatgpt_handoff.md)。相对对齐普通LoRA，GSM8K为74.98→85.52、IFEval为41.22→76.34、HumanEval+为60.37→73.17；同时AR Belebele为80.67→78.89、XNLI为36.93→32.73。后两项配对区间均不跨零，不能说候选全面更优。普通组摘要仍未完成；AR均匀/随机/KL训练继续暂缓。
+
+AR SIB主指标普通/候选均25.00%，两者204题均预测第一类；未归一化ACC为50.98%→34.80%，退化不能完全归因于主指标长度归一化。报告完整保留该负结果，不改主指标或测试协议。
+
+已补齐历史三语LoRA代码与AR/RU EN MMLU共五项新增通用补测的成本。与22项SIB及四项完整Global-MMLU一起，31项补测均有去重后的启动到完成墙钟记录，合计约5.76小时。此数为各任务墙钟时长之和，不是自然等待时长或CUDA内核时间；代码生成及隔离执行时长已分别记录且不能重复累加。见[evaluation_costs.json](evaluation_costs.json)和[cost_coverage_audit.json](cost_coverage_audit.json)。主线FA/FFT的测评成本在各自目录单独报告，未混入这31项。

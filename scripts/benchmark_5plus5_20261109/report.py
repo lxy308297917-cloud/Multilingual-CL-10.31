@@ -14,6 +14,25 @@ def csvrows(p):return list(csv.DictReader(p.open()))
 def writecsv(name,data):
  if data:
   with (Q/name).open('w',newline='') as f:w=csv.DictWriter(f,fieldnames=list(data[0]));w.writeheader();w.writerows(data)
+def completed_stage_cost(folder,model,task):
+ command=folder/'inference.log.command.json'
+ if not command.exists():return None
+ start=datetime.datetime.fromisoformat(load(command)['started_at']).timestamp()
+ elapsed=(folder/'DONE.json').stat().st_mtime-start
+ assert elapsed>=0,(model,task,elapsed)
+ record=dict(model=model,task=task,postlaunch_wall_seconds_including_model_load_cpu_audit=elapsed,inference_log_bytes=(folder/'inference.log').stat().st_size,command_record_sha256=sha(command),done_record_sha256=sha(folder/'DONE.json'))
+ generation=folder/'generation/cost.json'
+ if generation.exists():
+  details=load(generation)
+  for key in ['elapsed_seconds','input_tokens','generated_tokens','gpu_peak_allocated_bytes']:
+   if key in details:record['generation_'+key]=details[key]
+  record['generation_cost_sha256']=sha(generation)
+ execution=folder/'execution/scores.json'
+ if execution.exists():
+  details=load(execution);assert details['status']=='COMPLETE'
+  record['isolated_code_execution_wall_seconds']=details['seconds_model_execution'];record['execution_score_sha256']=sha(execution)
+ return record
+
 def main():
  models=load(C/'models.json');values={};provenance=[];vectors={};sib_reports={};subjects=[];cost=[]
  def put(model,task,value,source):
@@ -47,6 +66,8 @@ def main():
    folder=L/name/stage
    if not (folder/'DONE.json').exists():continue
    vec,files=existing_audit.mc(folder,'mmlu_*') if stage=='mmlu' else existing_audit.code(folder);put(name,task,np.mean([x['value'] for x in vec.values()]),folder/'DONE.json')
+   stage_cost=completed_stage_cost(folder,name,stage)
+   if stage_cost is not None:cost.append(stage_cost)
   for task in ['sib200','gmmlu']:
    folder=L/name/task
    if task=='gmmlu' and name in ['ar_Base','ru_Base']:folder=Path('/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation')/name/'gmmlu'
@@ -67,9 +88,8 @@ def main():
      scores=np.array([r[0] if isinstance(r,(list,tuple)) else r for r in x['filtered_resps']],dtype=float);assert scores.shape==(7,) and np.isfinite(scores).all();gold=int(x['doc']['label']);pred=int(np.argmax(scores/np.array([len(t) for t in LABELS])));raw=int(np.argmax(scores));hit=int(pred==gold);assert hit==x['acc_norm'];assert int(raw==gold)==x['acc'];conf[gold,pred]+=1;rawhits.append(raw==gold);key=str(x['doc']['index_id']);assert key not in v;v[key]=dict(identity=[x['doc_hash'],x['prompt_hash'],x['target_hash']],value=hit,raw_value=int(raw==gold));numeric.append(dict(id=key,gold=gold,pred=pred,raw_pred=raw,option_loglikelihoods=scores.tolist(),input_identity_sha256=hashlib.sha256(json.dumps(v[key]['identity']).encode()).hexdigest()))
     aggregate=load(only(folder,'results_*.json'))['results']['mcl5_sib200_'+m['language']];score=100*conf.trace()/204;assert abs(score/100-aggregate['acc_norm,none'])<1e-10 and abs(np.mean(rawhits)-aggregate['acc,none'])<1e-10
     support=conf.sum(1);predcounts=conf.sum(0);f1=np.divide(2*np.diag(conf),support+predcounts,out=np.zeros(7),where=(support+predcounts)>0);sib_reports[name]=dict(samples=204,primary_acc_norm=score,raw_acc=100*np.mean(rawhits),macro_f1=100*f1.mean(),labels=LABELS,class_counts=support.tolist(),prediction_counts=predcounts.tolist(),per_class_recall=np.divide(np.diag(conf)*100,support).tolist(),majority_baseline=100*support.max()/204,confusion_matrix_gold_rows_pred_columns=conf.tolist(),raw_sample_file_sha256=sha(file));vectors[name,'SIB-200']=v;vectors[name,'SIB-200 raw']={k:{**x,'value':x['raw_value']} for k,x in v.items()};put(name,'SIB-200',score,file);(Q/'numeric').mkdir(exist_ok=True);(Q/'numeric'/(name+'_sib200.json')).write_text(json.dumps(numeric,separators=(',',':'))+'\n')
-   command=folder/'inference.log.command.json'
-   if command.exists():
-    start=datetime.datetime.fromisoformat(load(command)['started_at']).timestamp();cost.append(dict(model=name,task=task,postlaunch_wall_seconds_including_model_load_cpu_audit=max(0,(folder/'DONE.json').stat().st_mtime-start),inference_log_bytes=(folder/'inference.log').stat().st_size))
+   stage_cost=completed_stage_cost(folder,name,task)
+   if stage_cost is not None:cost.append(stage_cost)
  intervals=[]
  for base,name in itertools.combinations(models,2):
   if models[base]['language']!=models[name]['language']:continue
@@ -86,7 +106,7 @@ def main():
   names=[l+'_'+method for l in ['sw','ar','ru']];group=[lookup[n] for n in names];ready=all(r['TargetACC4']!='' for r in group);bases=[lookup[l+'_Base'] for l in ['sw','ar','ru']];base_ready=all(r['TargetACC4']!='' for r in bases)
   macros.append(dict(method=method,languages='sw/ar/ru',benchmarks='Belebele/XNLI/Global-MMLU/SIB-200',multilingual_TargetACC4=sum(r['TargetACC4'] for r in group)/3 if ready else '',mean_relative_to_language_Base=sum(r['TargetACC4']-b['TargetACC4'] for r,b in zip(group,bases))/3 if ready and base_ready else '',status='COMPLETE' if ready else 'NOT_READY'))
  writecsv('cross_language_macro.csv',macros)
- writecsv('scores_5plus5.csv',summary);writecsv('base_deltas.csv',deltas);writecsv('paired_changes.csv',intervals);writecsv('gmmlu_subjects.csv',subjects);(Q/'sib_diagnostics.json').write_text(json.dumps(sib_reports,indent=2)+'\n');(Q/'score_provenance.json').write_text(json.dumps(provenance,indent=2)+'\n');(Q/'evaluation_costs.json').write_text(json.dumps(dict(scope='Postlaunch wall time, not CUDA kernel time; existing reused task cost not newly charged',records=cost),indent=2)+'\n')
+ writecsv('scores_5plus5.csv',summary);writecsv('base_deltas.csv',deltas);writecsv('paired_changes.csv',intervals);writecsv('gmmlu_subjects.csv',subjects);(Q/'sib_diagnostics.json').write_text(json.dumps(sib_reports,indent=2)+'\n');(Q/'score_provenance.json').write_text(json.dumps(provenance,indent=2)+'\n');(Q/'evaluation_costs.json').write_text(json.dumps(dict(scope='Completed supplement stages only: SIB200, full Global-MMLU and five historical General5 gaps. Postlaunch wall includes loading and CPU audit, excludes GPU queue wait; not CUDA kernel time. Generation and isolated code execution wall times overlap the postlaunch total and must not be summed into it. Existing reused task cost not newly charged; main FA/FFT evaluation costs are reported separately.',records=cost),indent=2)+'\n')
  md=['# 5+5持续结果表','',datetime.datetime.now().astimezone().isoformat(),'','—表示未完成，不是0。历史micro1与新micro2严格分行。SIB主指标为预先固定的Harness acc_norm（标签字符长度归一化）；原始ACC、Macro-F1和混淆矩阵另外完整保留。','', '| 语言 | 模型 | Belebele | XNLI | XL-Sum | Global-MMLU | SIB-200 | TargetACC4 |','|---|---|---:|---:|---:|---:|---:|---:|']
  for row in summary:md.append('| '+row['language']+' | '+row['model']+' | '+' | '.join('—' if row[t]=='' else f'{row[t]:.2f}' for t in TARGET+['TargetACC4'])+' |')
  md+=['','## 通用能力五项','','| 语言 | 模型 | GSM8K | IFEval | HumanEval+ | EN MMLU | EN Belebele | GeneralAvg5 |','|---|---|---:|---:|---:|---:|---:|---:|']

@@ -1,7 +1,7 @@
 {
   "status": "INCOMPLETE_FORMAL_RESULTS",
-  "verified_cells": 91,
-  "main_cells_verified": 81,
+  "verified_cells": 102,
+  "main_cells_verified": 92,
   "historical_cells_verified": 10,
   "required_main_cells": 180,
   "missing": [
@@ -67,16 +67,6 @@
     ],
     [
       "ar",
-      "all",
-      "en_gsm8k"
-    ],
-    [
-      "ar",
-      "all",
-      "en_ifeval"
-    ],
-    [
-      "ar",
       "full",
       "target_reading"
     ],
@@ -226,36 +216,6 @@
       "en_xnli"
     ],
     [
-      "ar",
-      "function",
-      "target_knowledge"
-    ],
-    [
-      "ar",
-      "function",
-      "en_gsm8k"
-    ],
-    [
-      "ar",
-      "function",
-      "en_ifeval"
-    ],
-    [
-      "ar",
-      "function",
-      "en_mmlu"
-    ],
-    [
-      "ar",
-      "function",
-      "en_code"
-    ],
-    [
-      "ru",
-      "all",
-      "target_reading"
-    ],
-    [
       "ru",
       "all",
       "target_summary"
@@ -268,11 +228,6 @@
     [
       "ru",
       "all",
-      "target_xnli"
-    ],
-    [
-      "ru",
-      "all",
       "en_gsm8k"
     ],
     [
@@ -289,16 +244,6 @@
       "ru",
       "all",
       "en_code"
-    ],
-    [
-      "ru",
-      "all",
-      "en_reading"
-    ],
-    [
-      "ru",
-      "all",
-      "en_xnli"
     ],
     [
       "ru",
@@ -501,7 +446,7 @@
       "en_xnli"
     ]
   ],
-  "paired_comparisons": 113,
+  "paired_comparisons": 129,
   "all_acc_argmax_recomputed": true,
   "all_aggregates_match_items": true,
   "paired_identity_verified": true,

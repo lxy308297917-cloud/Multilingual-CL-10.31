@@ -98,6 +98,34 @@
     "sha256": "7d859c60a79f7752d062981e5708742f83332b631e19571f6cfc5e2bb1e88d6a"
   },
   {
+    "language": "ar",
+    "method": "all",
+    "task": "GSM8K strict",
+    "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_all/core/results/__user__models__Qwen3-4B/samples_sft_v1_gsm8k_2026-11-10T03-47-36.170344.jsonl",
+    "sha256": "6e5219cbf0ef63062f6b0873b4a418763ed2daa419d7fba7ea7650cf511fdfa5"
+  },
+  {
+    "language": "ar",
+    "method": "all",
+    "task": "IFEval instruction strict",
+    "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_all/core/results/__user__models__Qwen3-4B/samples_sft_v1_ifeval_2026-11-10T03-47-36.170344.jsonl",
+    "sha256": "7dd2f43c9b4e2516556884a241b847984deee68efe8fcb2cc1760c33b8d0c118"
+  },
+  {
+    "language": "ar",
+    "method": "function",
+    "task": "GSM8K strict",
+    "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/core/results/__user__models__Qwen3-4B/samples_sft_v1_gsm8k_2026-11-10T04-04-27.201746.jsonl",
+    "sha256": "64d073e7b9182d2aeba57a0c8f73bc6ce335328c8a52e4f57c0d5cb0fbe160dc"
+  },
+  {
+    "language": "ar",
+    "method": "function",
+    "task": "IFEval instruction strict",
+    "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/core/results/__user__models__Qwen3-4B/samples_sft_v1_ifeval_2026-11-10T04-04-27.201746.jsonl",
+    "sha256": "9107907edd3f1c8177382c2d250617080cfb76f7988ecce742fef58da42d23d2"
+  },
+  {
     "language": "ru",
     "method": "Base",
     "task": "GSM8K strict",

@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-10T03:30:17.977134+08:00",
+  "at": "2026-11-10T03:52:22.559588+08:00",
   "files": [
     {
       "path": "/path/to/project/scripts/benchmark_5plus5_20261109/README.md",
@@ -63,7 +63,7 @@
     },
     {
       "path": "/path/to/project/scripts/benchmark_5plus5_20261109/report.py",
-      "sha256": "5febef25d9b77a528f786ea4bf00dd1d5bb2b1470b7f529e37da3093aee8cc1c"
+      "sha256": "a94556d3111376e36d2d62c17c03db36ec4a7631a47cd27638165715e798499f"
     },
     {
       "path": "/path/to/project/scripts/benchmark_5plus5_20261109/schedule.py",
@@ -129,5 +129,12 @@
     "prior_sha256": "a3f8d643a8ebcddc763f8117f7534c84b1774fcceab0a55273ce3858114b8a32",
     "current_sha256": "6dfba3fe5500bf7074efa208ece508f11aa217293363378e008207c87bb316dc",
     "frozen_gpu_code_unchanged": true
+  },
+  "latest_change": {
+    "scope": "CPU cost accounting only",
+    "files": [
+      "scripts/benchmark_5plus5_20261109/report.py"
+    ],
+    "frozen_inference_training_and_scoring_unchanged": true
   }
 }

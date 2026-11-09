@@ -4786,6 +4786,30 @@
   {
     "language": "ar",
     "method": "all",
+    "task": "en_gsm8k",
+    "files": [
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_all/core/results/__user__models__Qwen3-4B/samples_sft_v1_gsm8k_2026-11-10T03-47-36.170344.jsonl",
+        "sha256": "6e5219cbf0ef63062f6b0873b4a418763ed2daa419d7fba7ea7650cf511fdfa5",
+        "samples": 1319
+      }
+    ]
+  },
+  {
+    "language": "ar",
+    "method": "all",
+    "task": "en_ifeval",
+    "files": [
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_all/core/results/__user__models__Qwen3-4B/samples_sft_v1_ifeval_2026-11-10T03-47-36.170344.jsonl",
+        "sha256": "7dd2f43c9b4e2516556884a241b847984deee68efe8fcb2cc1760c33b8d0c118",
+        "samples": 541
+      }
+    ]
+  },
+  {
+    "language": "ar",
+    "method": "all",
     "task": "en_mmlu",
     "files": [
       {
@@ -5138,12 +5162,632 @@
   {
     "language": "ar",
     "method": "function",
+    "task": "target_knowledge",
+    "files": [
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_abstract_algebra_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "9249d3ecfdc31de36d6320187e7a292fee2589a28f07904a618294afe08ee0d3",
+        "samples": 100
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_anatomy_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "8dc0ff6f35058c00fbe1a3c6a73ba7b9aa1c9cf07d4b14f3d5e49ddac2bd9af3",
+        "samples": 135
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_astronomy_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "96c175ae06a4ff3845f973a23ee9cb8ed66cf591a1c84fcfa2169456eef8f6d5",
+        "samples": 152
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_business_ethics_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "d4ed313bd4c6066db5ad50c372e13b88315db5f4ae08c9afd2299a5529d23d34",
+        "samples": 100
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_clinical_knowledge_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "2f631533bc57a357e133fefc5c337642ac90920bcbfda587a4bc546c235462df",
+        "samples": 265
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_college_biology_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "35fbbebb9012bac7bc6284567885224cbdceeeb74905a9a35fba3bd8bf4528d7",
+        "samples": 144
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_college_chemistry_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "0f8a762c266c555778e07032a069457a8fc337f52b3a798911fccbe3b02e46d8",
+        "samples": 100
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_college_computer_science_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "3ab32ad6998aa9eae36b1de9cea73cb7839abe9ea3dd2e2d0ccadbb5479233f1",
+        "samples": 100
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_college_mathematics_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "a299a02320794874ea9228b558ecc4ca5e2cc3e5c7d84b49c4deee82143c7f17",
+        "samples": 100
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_college_medicine_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "8459970cb5117bb60d8cc968a38d6c04aebf72e540e38a25bc4bd77519963812",
+        "samples": 173
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_college_physics_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "e5f9e85f1256e8830ba0e53a634f4a124a12d00d7883eb1a44edc0ee0e7e19b1",
+        "samples": 102
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_computer_security_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "a7646285e0d0b06813e7534b750c125175a427425e80767005e135c1e778a059",
+        "samples": 100
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_conceptual_physics_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "4daab29cfcb562fafcbdc9d277d79112e78888b7ec07ce1a1febbabc6c0bebcb",
+        "samples": 235
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_econometrics_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "1abb3d0be0d587ed7c251c07b27fd5829c92f0bf32719195351d1bc8f35daa58",
+        "samples": 114
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_electrical_engineering_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "25b1383d9490f3b245504113ddac1d17d5a2a23fc6d823969955bb869fec7027",
+        "samples": 145
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_elementary_mathematics_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "626c51289ec55554278dbe92123d71ea48fed838831c12519f82bd8eef8f2f58",
+        "samples": 378
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_formal_logic_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "5298cbf51f7f01c91c59a1654dbf25365ee96a7acd6f8458801a92117457469e",
+        "samples": 126
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_global_facts_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "7cb1ca777cee7805e61a938e0287f233f0b35af8e4f6a2ac513089c4b8f20234",
+        "samples": 100
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_high_school_biology_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "4ff91b7ceb4a4523dae8a0ef9a2fb4202cc1339163a4867c2e19939ac02354e1",
+        "samples": 310
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_high_school_chemistry_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "938f8ca44fae214d8dbe7263078b00eadbeb5da3d6f86367393c653e48f64d30",
+        "samples": 203
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_high_school_computer_science_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "50d876dfd19d852238c5199df65e7387c0ac5efd8bcb8d6b86e9ce5e312175bd",
+        "samples": 100
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_high_school_european_history_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "ad76a1e870753e7ad6a474ea8987aacd94daf31eb1c747bb2fcd8c3e9f8e2a62",
+        "samples": 165
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_high_school_geography_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "c18eb6a32a576d0015ef5da7f0bc457363450a94baa68fb31894b7ee56f09e07",
+        "samples": 198
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_high_school_government_and_politics_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "c54097c3c23512c2bbbe3d34a6cdcd419f3180c1557c9402e2c0d5d7a80d29b9",
+        "samples": 193
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_high_school_macroeconomics_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "4675bb54e46a6183394fc85b615782dca965e884f8b7bc3078d074c1c388dfc7",
+        "samples": 390
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_high_school_mathematics_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "41760ddc8f16ab74afccf463f182ed0787624ce96e7fd846398016184d45a5b9",
+        "samples": 270
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_high_school_microeconomics_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "b966974a4ecb4eabbcab25719f814c31c4e79c3849fe080505f2732fbf3f10dc",
+        "samples": 238
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_high_school_physics_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "15b61826d83320ff60807d3a40f3ef1c4944cd25dfc696df50c42f90d97b282f",
+        "samples": 151
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_high_school_psychology_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "54f8541596e1e98f203618cabfb309566fb8ec7b2b4db522d2c73082b8f5af65",
+        "samples": 545
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_high_school_statistics_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "fb08ae905f9178ce3f7e34a785cab0f34c961782b4ff14c59821585009a4a1d6",
+        "samples": 216
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_high_school_us_history_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "2784775fed543e56a5892409d5e300cd72e0de2a30414b8d4f4a6e50234f8c7c",
+        "samples": 204
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_high_school_world_history_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "2c74999be4444d52785e80d4f80bf5cd4cf57c56b4394745e86da497dab8c6a5",
+        "samples": 237
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_human_aging_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "b4c71912f16fff88b2234211179a2b8c95ad14a050aba86e1c39f77e8da79fa7",
+        "samples": 223
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_human_sexuality_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "6630a65e251d48373f3af9447a28ddeaccd5d56c4d17f8fd6eaf8029cdf9ab93",
+        "samples": 131
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_international_law_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "76be47f2716507f829f8f58d3df57de808f30b4c2589b25fa420d8209041235a",
+        "samples": 121
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_jurisprudence_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "ad5a5a56f1dec1db971a462e43c20947fa8aafbda3337ba267d2efe0aa35a238",
+        "samples": 108
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_logical_fallacies_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "df4e9ed427ff00ef9eca65046d1bab24836ba992f874022c3b818160136ec5d0",
+        "samples": 163
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_machine_learning_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "f985c062f048c266fdde78eb359b39276a058130fbd0bf3a3d3b322ddb88cd2e",
+        "samples": 112
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_management_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "d34e915d25c3b119dcca705944bea842521a85814c4a3b9a4b29c1f6bbdb6d93",
+        "samples": 103
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_marketing_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "8e2aeaeddd84eb2f2c37dc4344d7ab2e7c5580d0652a7619d16fb7aa39b9ce64",
+        "samples": 234
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_medical_genetics_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "89867de0cf419eba9e25901a3f6b8e42b6e419e15314fe2537b5cacc1af18921",
+        "samples": 100
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_miscellaneous_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "e7688c19fdd2886bfbb84952619f7735db0435797b91424106eba7e80023fc56",
+        "samples": 783
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_moral_disputes_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "699364ca367b85914a776a69ff840f0f757b5cadb14fc66c26c31c837e7c778a",
+        "samples": 346
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_moral_scenarios_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "4a33cd2356fc9d843471461987fee21e12b0c19001f27c3597aa2178f2dca0d2",
+        "samples": 895
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_nutrition_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "99caa1e87218ea4257f416e17d73f20a2421437295599c1fa90d15ede4aa8c9b",
+        "samples": 306
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_philosophy_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "0389b784e03407d632ca6a62066e5d3cbbcd7165a02f6a1bd37493bd7dba8759",
+        "samples": 311
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_prehistory_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "aa7dbba20fbb5f2b070012d77b295b5921fa0a34abaea84c4fc202260b9d3f70",
+        "samples": 324
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_professional_accounting_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "d686ae16d63ebc7cf853bb004745eaa716208496a7298be5dc9659c9fe0a6eee",
+        "samples": 282
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_professional_law_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "01d66ae9beb16a08de269b97c1442e933afeab2b251cf16057760485523070da",
+        "samples": 1534
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_professional_medicine_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "6e1a712a8102d440ba0dabdbec620d9fc6a1cb2004b8a06999dfd6e6defa9380",
+        "samples": 272
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_professional_psychology_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "9c3c05abf9c35834a54dc6244f9531b988c9b1a5a261e92c48e3933e8b02e1a5",
+        "samples": 612
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_public_relations_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "0e4aaefa18b742a9407a7f57991c6ec10a082a56e8041914c2a21d087ffa1b27",
+        "samples": 110
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_security_studies_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "637ca26f3c8aaf1504cf0adcf98d532ebb05c5d1ecee6315201071713b39cb8d",
+        "samples": 245
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_sociology_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "ca652dd526d2ed32ffe64d39c45669bd856e3fe5636afc84fff0850c75b56072",
+        "samples": 201
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_us_foreign_policy_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "0a1a0900cb2d7dcdac852143f0ad7e652aeab3bc246acd2c9393968ac4642b19",
+        "samples": 100
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_virology_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "9bf8dc68b5d0a19328674a2b2392e135918d6a821b8d67c64094c957c3fd1247",
+        "samples": 166
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/gmmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_global_mmlu_full_ar_world_religions_locked_2026-11-10T03-48-38.766166.jsonl",
+        "sha256": "0a36dc1ca16cbc9cd015a7820877c4f81892a2a2c584b6dbd1115524cadcf35a",
+        "samples": 171
+      }
+    ]
+  },
+  {
+    "language": "ar",
+    "method": "function",
     "task": "target_xnli",
     "files": [
       {
         "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/reading/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_aya4bml_xnli_ar_2026-11-10T02-49-14.193834.jsonl",
         "sha256": "cf7ce993b8be6a2790daa636f7858ba28c8e48e50b3e65faadc89bb1e9c406d5",
         "samples": 5010
+      }
+    ]
+  },
+  {
+    "language": "ar",
+    "method": "function",
+    "task": "en_gsm8k",
+    "files": [
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/core/results/__user__models__Qwen3-4B/samples_sft_v1_gsm8k_2026-11-10T04-04-27.201746.jsonl",
+        "sha256": "64d073e7b9182d2aeba57a0c8f73bc6ce335328c8a52e4f57c0d5cb0fbe160dc",
+        "samples": 1319
+      }
+    ]
+  },
+  {
+    "language": "ar",
+    "method": "function",
+    "task": "en_ifeval",
+    "files": [
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/core/results/__user__models__Qwen3-4B/samples_sft_v1_ifeval_2026-11-10T04-04-27.201746.jsonl",
+        "sha256": "9107907edd3f1c8177382c2d250617080cfb76f7988ecce742fef58da42d23d2",
+        "samples": 541
+      }
+    ]
+  },
+  {
+    "language": "ar",
+    "method": "function",
+    "task": "en_mmlu",
+    "files": [
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_abstract_algebra_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "3e8679c932810f9494fd211dd504e23181d77c37fb51f045a0c7173d9f7fa07f",
+        "samples": 100
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_anatomy_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "1b65fcb5b24a3b72d611be28c279bc8a7f8d8d33f9ec0394b1a8632963f16474",
+        "samples": 135
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_astronomy_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "0c53bf648c499c57dbe83ded094f7739ca7beec6cb209ec3d3b9d45cd92176ac",
+        "samples": 152
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_business_ethics_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "4ee9444d2ce0bd93cbe2d48746a836fb62f1e72f6eb70ec59f3fef390fcd7743",
+        "samples": 100
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_clinical_knowledge_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "737cbff38a7439f867fe19148b16478f362561640c823f325f7fb146a5217984",
+        "samples": 265
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_college_biology_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "8ad213a1754d41dd9500db505b7bd1524fe2d49ab4a6bdd9f20a4b793774a8bd",
+        "samples": 144
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_college_chemistry_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "1427195231a07aa708d088220320a99ea8f43fdb908f2d32587001df983830e4",
+        "samples": 100
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_college_computer_science_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "7b8a57c3c9f75ba340f83ff3fdcfb11e876337d076bde22e7092c6aa3fa97484",
+        "samples": 100
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_college_mathematics_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "4b42588235780e7dcf72a99d5c1cdf31283e3c3e946fb395fd0cdd7fc172a023",
+        "samples": 100
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_college_medicine_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "d253791b453f8e1ce864871623966ee63430562f949321cd44f2782f5a547734",
+        "samples": 173
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_college_physics_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "fd5f5e9ecaebead93d0a688f31884b4a61bb2dc02d85e718f435d3efaf771514",
+        "samples": 102
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_computer_security_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "8580844e7cf787eced0a90afde0b9ba59de696e84b38619f6460c056f5aea379",
+        "samples": 100
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_conceptual_physics_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "b67c80ea7ed45d55a95c6f6ca247081dfd02d5303e3ffda588c5a007881c8e36",
+        "samples": 235
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_econometrics_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "b5a667d0e52b692157d58bb423d5b7982576a6a350129e4cd1ec1c3aba965f85",
+        "samples": 114
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_electrical_engineering_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "fe4b7df5bda479360301cefe1b2c34a33c4d2e0de01da2e511b53cb2f98dde33",
+        "samples": 145
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_elementary_mathematics_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "db3334d0d9dce34b0619fc1608ee463b52e0adce67380bf94f0978798722dd98",
+        "samples": 378
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_formal_logic_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "cea7fdfdde7eda06c8c3b82a0b9809caa365579577be2f85d366bc371ffab157",
+        "samples": 126
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_global_facts_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "a9cf812ed34a61d9f807f19eb2ae117bc39c738b0c031a2b8150d83d41dc0739",
+        "samples": 100
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_high_school_biology_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "52ef56273e5ac90a7769e4ebb4c853b7c32d5413e8e8f56ea0d0ec496071992e",
+        "samples": 310
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_high_school_chemistry_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "a18cbc4f78e0d3bd2a6fcc6222333b3e4ac5cad6a62cc7b4b3b727a7334968ff",
+        "samples": 203
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_high_school_computer_science_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "3f0f18e2c15041a11432a67be659f009e32a33c3d014fb32f4f6051619469293",
+        "samples": 100
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_high_school_european_history_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "75886975794d501885b32263fdb0070201a5ec616eb0bab7182196727ded0c6b",
+        "samples": 165
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_high_school_geography_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "087149893168b2f655ec208c5a8a7d2c0611a16d6c0e9b1c3d32c4d1cbcb9f72",
+        "samples": 198
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_high_school_government_and_politics_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "8b5485abc09f5b751b7fc6f3ec378fed342cacb4fa9bdbecee1602c186a1cc79",
+        "samples": 193
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_high_school_macroeconomics_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "31d3eba6ea410f492c2282598bcc32d2ac418154d62cccd42c65b01b7b3315ba",
+        "samples": 390
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_high_school_mathematics_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "034bec782312d8a92992d4c4651a159516aa8af1d0b696792d9e637a0c5836e0",
+        "samples": 270
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_high_school_microeconomics_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "eb4074c613d0308257f4df4acf970741bf58b94c72d834c6dde2858cfeadbb67",
+        "samples": 238
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_high_school_physics_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "5c61046b95396ed2ace812de5c4053c110a4dfdcf5361ed729f8a7cb875798a1",
+        "samples": 151
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_high_school_psychology_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "bb579641643b59ac73ba7aaa016d7753975c67eafbff5ba3512910d979edcb4e",
+        "samples": 545
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_high_school_statistics_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "8850040bf319355acaa850dfaf2f696f64b07a604d6b610a79500fdd2ba41e2e",
+        "samples": 216
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_high_school_us_history_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "eb7a713649f891e8d722f6340017a130b746b21fdf71ca037fe6ec34f3d9fd73",
+        "samples": 204
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_high_school_world_history_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "953f6f97447330dd7e2b713d5f82ed7a5942fc706abf94e9bd9dd509684303c6",
+        "samples": 237
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_human_aging_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "08271d971b57251dfe944d0c8eead827256d5eeeda51c2a0da8a486e2999b4f3",
+        "samples": 223
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_human_sexuality_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "ecf58e8d3169140131c299fe4390926fc9a346735471de49871aa926005d3d55",
+        "samples": 131
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_international_law_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "3f9950a9f8dd025c835a90bb2e9cc249e02f39cdb1482a6001668bca29022d35",
+        "samples": 121
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_jurisprudence_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "1cec736f21c6b726feae27debc880bad04764920ef7b02c55674bbefb5e85ed4",
+        "samples": 108
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_logical_fallacies_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "4e11994cb6fa812f300f73c8fdcaada1ec0db9afd133db3c94db63288af4c5df",
+        "samples": 163
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_machine_learning_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "8bd2462f9260ab830c9b9cb0de70de1e78365ac9b5d5a0563cc76a15542d3b48",
+        "samples": 112
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_management_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "ac09062e26a58fddec4f4feefdd2f210c4f35c8aa9fbfd7b9dd332f1216e0195",
+        "samples": 103
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_marketing_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "9a296b1bc95b15895f21b712304e73983365bfbfff490a8f9f7abd6367aebfc7",
+        "samples": 234
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_medical_genetics_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "465c8fc56e41f5f6a4095585eaafae25e098a7536940ba6dd173f9c2d770f758",
+        "samples": 100
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_miscellaneous_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "36f4748bcb10fe15d36d3c20db21506a6075f157091df491c7876482f2fdcbed",
+        "samples": 783
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_moral_disputes_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "5f3c5aa14c2860cdf47ce5b11632701705f2a756cf9a1909018e4cc84c157d50",
+        "samples": 346
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_moral_scenarios_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "c078bcbedefe6d10c85fd2ec9a3f2237567e76581ae71317ca1d0abb039656df",
+        "samples": 895
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_nutrition_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "ab8a92eaad698301dfec1c3cf213110467028fbf7aec4b48df64b3c6b2cddf41",
+        "samples": 306
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_philosophy_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "9b1e8f0599a882f5c104ff4cfe7e0e87a3c7594820fbe1d646889990cb37cac1",
+        "samples": 311
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_prehistory_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "07b6ccb5fd8272c5f0c4731bd477ff4de6ea1189de30b7328429c589b49b766c",
+        "samples": 324
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_professional_accounting_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "e42b8987d6925e9f4c408d78dccf04b6042d3437bad5622391e74268b83cca48",
+        "samples": 282
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_professional_law_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "284a136b03825fa0fc968a5c0877ab504dcb3c20cc2c5d76d3bcfc393fe0b2f7",
+        "samples": 1534
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_professional_medicine_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "b31e80edab788d85730e4573e681f78542753be48d0e529f941fecc3ebc55218",
+        "samples": 272
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_professional_psychology_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "32319ebd24b35eac4a401e07e64d6d30c6e33efe839f299517fbd209a8c5eb6f",
+        "samples": 612
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_public_relations_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "0a0ee15f3cbcfdcd20f26fb359ec9ee70e71ac75607a8134ad47a9f954975a2e",
+        "samples": 110
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_security_studies_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "cfb1fd03a3a52e5d2495feb2a3fda0806d57abec2c183a9d95d84bd816d62be8",
+        "samples": 245
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_sociology_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "78fab0f09301f939349e58c62bb2fbfdfc5d4269ff2cab245c9af7d8fd3d884c",
+        "samples": 201
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_us_foreign_policy_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "09e6984cdb13013be5042f102253a3501bdc37a7b3d7d160041bfae6f66eb41d",
+        "samples": 100
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_virology_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "de12dc86a046241cfe9c4b4535cd32f45345a8c952a3848e6f017fdb140282be",
+        "samples": 166
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/mmlu/results/__storage__checkpoints__function_aware_formal_20261109__ar_function_final_v1/samples_mmlu_world_religions_locked_2026-11-10T03-32-10.706133.jsonl",
+        "sha256": "8fe719623d2fee9f0a715601305e9d45a09f2af826701101b433a5cc5e08f3c7",
+        "samples": 171
+      }
+    ]
+  },
+  {
+    "language": "ar",
+    "method": "function",
+    "task": "en_code",
+    "files": [
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_function/code/execution/scores.json",
+        "sha256": "defafef44bee58794d8b934e33596c2b2be02a554077ab47db4019288f430ed2",
+        "samples": 164
       }
     ]
   },
@@ -5847,6 +6491,54 @@
       {
         "path": "/path/to/logs/qwen3-multilingual/representation-benchmarks-20261109/formal-base-xnli/results/__user__models__Qwen3-4B/samples_rb_xnli_en_formal_primary_2026-11-09T11-51-12.095120.jsonl",
         "sha256": "2bff629457ff22bc68717f3db2b812303aab92f1397b9948da9e603c3fad98b1",
+        "samples": 5010
+      }
+    ]
+  },
+  {
+    "language": "ru",
+    "method": "all",
+    "task": "target_reading",
+    "files": [
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ru_all/reading/results/__storage__checkpoints__function_aware_formal_20261109__ru_all_final_v1/samples_aya4bml_belebele_ru_2026-11-10T03-43-20.398680.jsonl",
+        "sha256": "15683268110964d2445f3625b8d55f08b9d72afa86fa4f7c3cb762cd6c13ec48",
+        "samples": 900
+      }
+    ]
+  },
+  {
+    "language": "ru",
+    "method": "all",
+    "task": "target_xnli",
+    "files": [
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ru_all/reading/results/__storage__checkpoints__function_aware_formal_20261109__ru_all_final_v1/samples_aya4bml_xnli_ru_2026-11-10T03-43-20.398680.jsonl",
+        "sha256": "84d22eb176e005338d13361833cb64f2244bafd19508b8b9b4af7098a648696c",
+        "samples": 5010
+      }
+    ]
+  },
+  {
+    "language": "ru",
+    "method": "all",
+    "task": "en_reading",
+    "files": [
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ru_all/reading/results/__storage__checkpoints__function_aware_formal_20261109__ru_all_final_v1/samples_belebele_eng_Latn_locked_2026-11-10T03-43-20.398680.jsonl",
+        "sha256": "0e4ee689d891ffe7222eca221247981b31792af46781b12de860db0c13bbd2d0",
+        "samples": 900
+      }
+    ]
+  },
+  {
+    "language": "ru",
+    "method": "all",
+    "task": "en_xnli",
+    "files": [
+      {
+        "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ru_all/reading/results/__storage__checkpoints__function_aware_formal_20261109__ru_all_final_v1/samples_rb_xnli_en_formal_primary_2026-11-10T03-43-20.398680.jsonl",
+        "sha256": "8c699135cdd38ba9df5edc46585550f8b5899b9ca3650e970609d5b5afee876d",
         "samples": 5010
       }
     ]
