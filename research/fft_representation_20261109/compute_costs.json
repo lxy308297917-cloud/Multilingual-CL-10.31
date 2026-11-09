@@ -1,6 +1,6 @@
 {
   "status": "PARTIAL_OBSERVED_COSTS",
-  "updated_at": "2026-11-10T02:16:54.653491+08:00",
+  "updated_at": "2026-11-10T02:56:22.382125+08:00",
   "records": [
     {
       "profile": "historical_fft",
@@ -123,6 +123,14 @@
       "peak_allocated_bytes": 13998225920,
       "source": "/path/to/storage/checkpoints/fft_representation_20261109/none_smoke_v1/SMOKE_DONE.json",
       "used_as_benchmark_result": false
+    },
+    {
+      "profile": "fft_full36",
+      "kind": "incremental_cpu_code_execution",
+      "source": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/code/execution/scores.json",
+      "elapsed_seconds": 221.0590967379976,
+      "samples": 164,
+      "timing_scope": "isolated model-program execution; excludes generation/loading/queue"
     },
     {
       "profile": "historical_fft",

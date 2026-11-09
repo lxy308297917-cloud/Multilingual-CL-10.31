@@ -41,10 +41,10 @@ fft_full36,SW Global-MMLU,32.97251103831363,COMPLETE_SCORE_PENDING_CROSS_FAMILY_
 fft_full36,SW XNLI,44.87025948103792,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/reading/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/results_2026-11-10T00-59-11.979682.json
 fft_full36,EN Belebele,87.22222222222223,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/reading/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/results_2026-11-10T00-59-11.979682.json
 fft_full36,EN XNLI,79.74051896207584,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/reading/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/results_2026-11-10T00-59-11.979682.json
-fft_full36,EN MMLU,,NOT_COMPLETE,
-fft_full36,GSM8K flexible,,NOT_COMPLETE,
-fft_full36,IFEval prompt strict,,NOT_COMPLETE,
-fft_full36,HumanEval+,,NOT_COMPLETE,
+fft_full36,EN MMLU,68.51588092864264,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/scoring.log
+fft_full36,GSM8K flexible,84.4579226686884,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/core/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/results_2026-11-10T02-40-10.457050.json
+fft_full36,IFEval prompt strict,60.62846580406654,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/core/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/results_2026-11-10T02-40-10.457050.json
+fft_full36,HumanEval+,67.6829268292683,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/code/execution/scores.json
 fft_full36,EN→SW chrF++,,NOT_COMPLETE,
 fft_full36,SW→EN chrF++,,NOT_COMPLETE,
 p2_all,SW Belebele,36.333333333333336,COMPLETE_SCORE_PENDING_CROSS_FAMILY_PAIRED_AUDIT,/path/to/project/research/representation_benchmarks_20261109/complete_scores.csv

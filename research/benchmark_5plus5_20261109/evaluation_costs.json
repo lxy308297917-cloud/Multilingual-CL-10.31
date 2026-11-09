@@ -56,6 +56,12 @@
       "inference_log_bytes": 19820
     },
     {
+      "model": "ru_historical_lora",
+      "task": "gmmlu",
+      "postlaunch_wall_seconds_including_model_load_cpu_audit": 4045.3455488681793,
+      "inference_log_bytes": 1670908
+    },
+    {
       "model": "sw_all",
       "task": "sib200",
       "postlaunch_wall_seconds_including_model_load_cpu_audit": 45.722044706344604,

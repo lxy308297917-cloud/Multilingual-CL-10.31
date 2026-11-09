@@ -1,0 +1,142 @@
+{
+  "at": "2026-11-10T03:25:59.337053+08:00",
+  "status": "THREE_LANGUAGE_HISTORICAL_BASELINE_5PLUS5_COMPLETE_MAIN_GRID_RUNNING",
+  "model_language_rows": [
+    "sw_Base",
+    "sw_historical_lora",
+    "ar_Base",
+    "ar_historical_lora",
+    "ru_Base",
+    "ru_historical_lora"
+  ],
+  "primary_cells_present": 60,
+  "shared_base_english_scores_reused_not_independent_seeds": true,
+  "new_training_jobs": 0,
+  "sib_endpoints": 22,
+  "historical_full_global_mmlu_new_endpoints": 2,
+  "historical_missing_general5_stages": 5,
+  "done_markers": [
+    {
+      "path": "ar_Base/sib200/DONE.json",
+      "sha256": "a40deb1aa55d9f8dc9c7667328b5e707d790500f12d92fa81583730cd4731277"
+    },
+    {
+      "path": "ar_all/sib200/DONE.json",
+      "sha256": "f6eb064fd9b3d633533e9f2867ad8e902fa17ad2155ee5a61984de8e576d8aaf"
+    },
+    {
+      "path": "ar_function/sib200/DONE.json",
+      "sha256": "f890f54d09cf6125393b39777b7cdd485f81b34bb097ca46e524dda01279f0c8"
+    },
+    {
+      "path": "ar_historical_lora/code/DONE.json",
+      "sha256": "a3403486dba34e6d06be45aa618d75e7b629177a71682195c3ca95eb0d294265"
+    },
+    {
+      "path": "ar_historical_lora/gmmlu/DONE.json",
+      "sha256": "5ba5344899216d41c09722f3165a70d91bbc8a49bc4a65d6e3d9dba1cd21e540"
+    },
+    {
+      "path": "ar_historical_lora/mmlu/DONE.json",
+      "sha256": "e5df9cc8161ca226eb70b191b4c287f7786d74a12761267aa1d765c3017ce246"
+    },
+    {
+      "path": "ar_historical_lora/sib200/DONE.json",
+      "sha256": "8105de2be07c6b43fb4adcfd5d21481761e74b0db64eada5e0697014ff1b032f"
+    },
+    {
+      "path": "fft_full36/sib200/DONE.json",
+      "sha256": "1e2b6cbea3e1abe0ea3bca8207384b26963f90708a53627e116fdcaa11edc00d"
+    },
+    {
+      "path": "historical_fft/sib200/DONE.json",
+      "sha256": "8ab8a91eb7739e81a7b35c2dd783e522ce53d8d92b2d5587da179250d696842d"
+    },
+    {
+      "path": "historical_ssu/sib200/DONE.json",
+      "sha256": "5c990e15fa0fd41ebc8538e3c8aed35daab71fde4020d1bc6ea708b958ea9a9c"
+    },
+    {
+      "path": "p2_ce/sib200/DONE.json",
+      "sha256": "29a50a6dba848623180a3df599df370da8aa767b59ba6a640dbe16fa960d4cf6"
+    },
+    {
+      "path": "p2_full36/sib200/DONE.json",
+      "sha256": "848f7333109f21e2b52642c63241aed3d1fbe40be7263e250331d6429096d5d8"
+    },
+    {
+      "path": "ru_Base/sib200/DONE.json",
+      "sha256": "c8df6871f35828eebc8f3c07f2ff92f1fc5d26ce1f5d71da3942e9b52792c654"
+    },
+    {
+      "path": "ru_all/sib200/DONE.json",
+      "sha256": "14d6797c962c70d311ab5eb3b0b7c1b95265e7ef3eef186e1da6fd9ada714a36"
+    },
+    {
+      "path": "ru_full/sib200/DONE.json",
+      "sha256": "94a2fea1923d24b5ffda523c1f0d8742b48d7805e270b529c9a5558f44886e47"
+    },
+    {
+      "path": "ru_function/sib200/DONE.json",
+      "sha256": "2b5ff2afaaa75ef238a7c2910eb74eafe5050fac9bb8293588f5e790adcabae0"
+    },
+    {
+      "path": "ru_historical_lora/code/DONE.json",
+      "sha256": "fb6f94d6db21a7f5c13292478d3e2934d31a8743b79faf37242d223480791591"
+    },
+    {
+      "path": "ru_historical_lora/gmmlu/DONE.json",
+      "sha256": "ed84cebd2fc24e6aa785b6f2eb83823442dd3164977b03b087e86bf01672ae75"
+    },
+    {
+      "path": "ru_historical_lora/mmlu/DONE.json",
+      "sha256": "5351c2e555f23bac99fac51bede089fd68273129883f5aabd5711bf67c4ae1de"
+    },
+    {
+      "path": "ru_historical_lora/sib200/DONE.json",
+      "sha256": "45f3720b523d7fb4705d91fb761ada178cf82a9dca96aea97d04d87df5589284"
+    },
+    {
+      "path": "ru_random/sib200/DONE.json",
+      "sha256": "40dcee32539d9d62d8735bb563b3d3e096106dd4cff06518ee7fc20085283c93"
+    },
+    {
+      "path": "sw_Base/sib200/DONE.json",
+      "sha256": "d122e849fc829aa6e5c1bddebf217b393917e5f5631c087fd1e5a4adfa1e41d0"
+    },
+    {
+      "path": "sw_all/sib200/DONE.json",
+      "sha256": "fef3be398afef4816558626346cf06642774cea21a44402fcc3babc6fc619d45"
+    },
+    {
+      "path": "sw_full/sib200/DONE.json",
+      "sha256": "2c2d75c558c6e5ef4a7b9db61572080e64f65a6343fb7d04b3364f854f5a8651"
+    },
+    {
+      "path": "sw_function/sib200/DONE.json",
+      "sha256": "08aedab8ceb546c9b32558abb8783252ce78c54baee6e76ee285dc415cf3a48a"
+    },
+    {
+      "path": "sw_historical_lora/code/DONE.json",
+      "sha256": "4147193218c630dbbdf17ff6415af7625cc4edc74e58d34fc154972372ce28c9"
+    },
+    {
+      "path": "sw_historical_lora/sib200/DONE.json",
+      "sha256": "8498b1e5b6e4fe8d6b2dbcc3ab788cfd5e3b7e8e2a22242bb615535886fbbb06"
+    },
+    {
+      "path": "sw_kd/sib200/DONE.json",
+      "sha256": "d4be985df0e7e25df52814fe784548ef0ae2d61d3d8babf0c942115ce8c3517b"
+    },
+    {
+      "path": "sw_random/sib200/DONE.json",
+      "sha256": "a1251c14f8cce72872331413931ad22f73810521ba663bd53d75fa897f6c8548"
+    }
+  ],
+  "all_220_grid_complete": false,
+  "current_grid_cells": 166,
+  "required_current_grid_cells": 220,
+  "source_table_sha256": "866af2747c212b6111482f277cc4d7261793e855587bd2628aa5cccd14aea8f1",
+  "historical_primary_IFEval": "prompt_level_strict_acc,541 prompts; metric_correction.json preserves correction",
+  "remaining_scope": "Authorized existing-model main benchmarks continue; five queued trainings and extra translation/diagnostics stay user-deferred"
+}

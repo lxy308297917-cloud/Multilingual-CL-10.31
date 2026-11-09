@@ -3,9 +3,9 @@
   "all_eligible_cells_present": false,
   "legacy_primary_cells_verified": 18,
   "sib_models_recomputed": 22,
-  "full_gmmlu_models_recomputed": 3,
-  "paired_intervals_recomputed": 175,
-  "present_5plus5_cells": 151,
+  "full_gmmlu_models_recomputed": 4,
+  "paired_intervals_recomputed": 176,
+  "present_5plus5_cells": 166,
   "required_5plus5_cells": 220,
   "resamples": 2000,
   "numpy": "2.4.6",
@@ -49,6 +49,10 @@
     {
       "path": "research/benchmark_5plus5_20261109/numeric/ru_historical_lora_sib200.json",
       "sha256": "a482775229eb42f630966cf397562073598d2fc07fa9ed2d3e66f9ca36c264c8"
+    },
+    {
+      "path": "research/benchmark_5plus5_20261109/numeric/ru_historical_lora_global_mmlu.json",
+      "sha256": "d9cee00da003378fca34f6064891173d2828077d4919906c16e365b2c3f0b773"
     },
     {
       "path": "research/benchmark_5plus5_20261109/numeric/sw_all_sib200.json",
@@ -117,8 +121,8 @@
   ],
   "scope": "SIB option likelihoods and full GM correctness/paired intervals plus descriptive table means only. Other task raw scoring depends on the separate formal/FFT audits; this is not proof of all ten raw task scores.",
   "table_sha256": {
-    "scores_5plus5.csv": "bcab4261920935718b19152227842547eae68149847d9309f3658dea8827b2a5",
-    "paired_changes.csv": "45e8afbcdb9c95ca7e34e1b8985e1514070af4edeaff04f716c36b69306cfaf5",
-    "gmmlu_subjects.csv": "22b61b64598dfc3555334660f865de76943958f1fb10f41900d663c68e885c22"
+    "scores_5plus5.csv": "866af2747c212b6111482f277cc4d7261793e855587bd2628aa5cccd14aea8f1",
+    "paired_changes.csv": "55eb88d799f5800446d1670ba2a5bcac767a2bf1743d4427fb6a6ebc2c9d7000",
+    "gmmlu_subjects.csv": "3a78e311d5544ac1c83bbc476e947a0e462ea64111329d4659bf24976c1b89f8"
   }
 }

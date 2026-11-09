@@ -1,6 +1,6 @@
 # Benchmark extension: five target + five general
 
-User authorization 2026-11-09: add SIB-200 SW/AR/RU and missing historical AR/RU Global-MMLU; total account GPUs temporarily at most5 for this extension. Other frozen queues keep their existing4 cap. No global GPU defaults changed. No new training or seeds for this supplement; existing formal training continues.
+User authorization 2026-11-09: add SIB-200 SW/AR/RU and missing historical AR/RU Global-MMLU; total account GPUs temporarily at most5 for this extension. The main evaluation coordinator retains four workers; resource handoff counts all benchmark jobs under the temporary account-wide cap5, while the global default remains4. No global GPU defaults changed. No new training or seeds for this supplement; existing formal training continues.
 
 Target5: Belebele ACC, XNLI ACC, XL-Sum ROUGE-Lsum, Global-MMLU ACC, SIB-200 length-normalized likelihood ACC. General5: GSM8K flexible, official IFEval prompt strict, HumanEval+, EN MMLU, EN Belebele. Preserve EN XNLI, GSM strict, IFE instruction strict and translation as supplemental results.
 

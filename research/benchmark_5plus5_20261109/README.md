@@ -13,3 +13,5 @@
 TargetACC4只平均四项ACC；摘要独立报告。SIB按已冻结的标准Harness acc_norm字符长度归一化评分，原始ACC另报，禁止选较高分。SIB与Belebele存在大量文本包含重叠，详情见sib_overlap_audit.json；未发现当前6400例中包含完整SIB测试文本，但该检查不能排除改写、片段或预训练曝光。
 
 本次临时允许账号总量5卡，仅测评利用新增槽位；正在运行的训练正常结束，暂停训练和诊断不自动恢复。所有任务完成后释放GPU，不占空卡。
+
+已完成基线请看 [三语言历史5+5完整报告](baseline_report.md) 和baseline_completion.json；完整主线方法网格仍在进行。

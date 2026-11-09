@@ -1,6 +1,6 @@
 {
   "status": "INCOMPLETE",
-  "verified_cells": 72,
+  "verified_cells": 76,
   "required_cells": 96,
   "missing": [
     [
@@ -53,22 +53,6 @@
     ],
     [
       "fft_full36",
-      "EN MMLU"
-    ],
-    [
-      "fft_full36",
-      "GSM8K flexible"
-    ],
-    [
-      "fft_full36",
-      "IFEval prompt strict"
-    ],
-    [
-      "fft_full36",
-      "HumanEval+"
-    ],
-    [
-      "fft_full36",
       "EN\u2192SW chrF++"
     ],
     [
@@ -100,7 +84,7 @@
       "SW\u2192EN chrF++"
     ]
   ],
-  "paired_contrasts": 46,
+  "paired_contrasts": 62,
   "bootstrap_resamples": 2000,
   "note": "Paired benchmark uncertainty for fixed models, not training-seed robustness; unadjusted comparisons; no method selection. Translation resamples corpus statistics, never averages sentence chrF.",
   "xnli_identity": "Exact effective prompt hash, target hash, raw ID/prompt/label, and premise cluster; inert added metadata excluded"

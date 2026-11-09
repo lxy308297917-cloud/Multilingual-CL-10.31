@@ -20,3 +20,5 @@
 `verify_numeric.py` 在CPU上从numeric中的SIB七候选似然和新补全量Global-MMLU逐题数值复算分数、配对区间、主表平均；不读取题文或模型，不代替其余八项任务的原始评分审计。默认只核验已有结果；完整验收时增加 `--require-complete`，要求22个SIB、4个新补GM数值端点及220个主表单元格均齐。
 
 历史表导入必须按task和metric双键匹配：IFEval只选prompt_level_strict_acc（541提示），GSM8K只选flexible-extract（1319题），拒绝重复。verify_numeric.py另行核对18个历史主指标值，防止同任务补充行覆盖主指标。更正说明见research/benchmark_5plus5_20261109/metric_correction.json。
+
+只读observe_v3.py在SIB/历史补测结束后仍继续刷新主表，直到22个可执行模型语言行的220个主单元格全部出齐，再自然结束；没有GPU启动或实验恢复功能。

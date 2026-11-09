@@ -57,6 +57,20 @@
   },
   {
     "language": "sw",
+    "method": "function",
+    "task": "GSM8K strict",
+    "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/sw_function/core/results/__user__models__Qwen3-4B/samples_sft_v1_gsm8k_2026-11-10T02-22-55.407677.jsonl",
+    "sha256": "f802637861156aa4a3b1ce76970053ecec14fbff3882996e833e06653951116a"
+  },
+  {
+    "language": "sw",
+    "method": "function",
+    "task": "IFEval instruction strict",
+    "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/sw_function/core/results/__user__models__Qwen3-4B/samples_sft_v1_ifeval_2026-11-10T02-22-55.407677.jsonl",
+    "sha256": "466ac629ecab8d15c41a25be00e5fcfd4b1f61c9df43a893419a9ec1a8530bf6"
+  },
+  {
+    "language": "sw",
     "method": "HistoricalFull36",
     "task": "GSM8K strict",
     "path": "/path/to/logs/qwen3-multilingual/functional-representation-20261109/p2/evaluation/full_feature/core/results/__user__models__Qwen3-4B/samples_sft_v1_gsm8k_2026-11-09T05-33-28.696445.jsonl",

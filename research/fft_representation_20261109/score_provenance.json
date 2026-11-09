@@ -1730,6 +1730,330 @@
     ]
   },
   {
+    "profile": "fft_full36",
+    "task": "EN MMLU",
+    "files": [
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_abstract_algebra_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "5fa8e86751e67fca14e3a5ca669d19cd2224cae22920ebf80e202ddccd64f0da",
+        "samples": 100
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_anatomy_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "461479416af8995c44bb55d7c532a1bb3bfee1b9fb4dd2ef1bd55b5391c07965",
+        "samples": 135
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_astronomy_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "35d3dd4ae4ec1499ddc80beee7bf0c089125a08cd21d8a7227fb3e2d66ccb341",
+        "samples": 152
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_business_ethics_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "c276ef798aa6af63b7f0cf36b76b28e84bc0adfc42cf3fe01039328941f85cdc",
+        "samples": 100
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_clinical_knowledge_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "067322c48a504f9be949c98bd3574535e6fe9efe4ff102b57f7cca1c28843c40",
+        "samples": 265
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_college_biology_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "eed5b07877341c19a24f17ad8926f2c4f9c9c040b9230ff2bfbf72972d0e90b4",
+        "samples": 144
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_college_chemistry_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "058dcaededbeaf78fedd540799936e982557e3fa0e631ecf046c6a58bb929a58",
+        "samples": 100
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_college_computer_science_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "564102cc35699a6e9682d8aa0ed9809cc7b35167f305fd551dc1c135a93a5dbe",
+        "samples": 100
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_college_mathematics_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "0f81f1bc24bd0d336eb3683a28d6bc800f42d3e070e9866987307ceed3c3d403",
+        "samples": 100
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_college_medicine_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "eba52c3be9da0e97c223b9066c13a4989255061fe6932fdfe510eebd03838797",
+        "samples": 173
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_college_physics_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "f0eb52cace2b380c08c160f3c03a7164089ab038c93171587908e2b815711e59",
+        "samples": 102
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_computer_security_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "dc3f52055a48c45e6da4336d4973bd0f3143dac349ff894c13df13a9ae3ac58e",
+        "samples": 100
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_conceptual_physics_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "8d9c06b68257300485fbac421d6e3d929b94aa823ab045735a469017aa52c395",
+        "samples": 235
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_econometrics_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "c066404db3560401a7a8acc9a40d99966276cd640057f9a3431ab50f8708777c",
+        "samples": 114
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_electrical_engineering_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "36ad3bcd6cfa468159eae6132ee5b48d4f5844976420900d6fada21bd7172449",
+        "samples": 145
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_elementary_mathematics_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "a13fe5de61b920e7b41af24a07060585128d8f0b16c56ce4d67eefb4c2d60df7",
+        "samples": 378
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_formal_logic_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "cb700003487a67a94065c34b9de83a3fe419ef4e760a8c332428eaa51aaea7ff",
+        "samples": 126
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_global_facts_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "54f5dda738c36df01ac07599766f660a0b606c78cd68ff100aa29b0097a4ad35",
+        "samples": 100
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_high_school_biology_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "92902f24a84bd8a4055398f16baf7a4a2dd6464cb416290e7f5d322dca8be271",
+        "samples": 310
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_high_school_chemistry_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "ace21f034e699f51dd6f2ea85d8ed35328228062682e77c279ec287fe68e3a23",
+        "samples": 203
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_high_school_computer_science_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "604db14df617cb555d5321b390a498186f4727616184e5125b9b30aa96ec7aa3",
+        "samples": 100
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_high_school_european_history_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "de483f9a0d4e8c39da92a4c17b55f164de391eda2df53e6d439b29b58527138e",
+        "samples": 165
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_high_school_geography_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "49cfd9879140a78529e29609f7999d537db32c59f3c08d3366801af059874c4c",
+        "samples": 198
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_high_school_government_and_politics_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "50242e74723a92d6fccc6f3edc82144d9cd2c126f5a59d76b3c14105ed625959",
+        "samples": 193
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_high_school_macroeconomics_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "af933d7139b3e093a3bc5cc1a5daf3efbf8331c48ec5648028a7b57bafb222d5",
+        "samples": 390
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_high_school_mathematics_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "ddc427ef9ad6c9c0111c20ae975f8bb8bf5b67df7cfa3807959f27e2ca43f58a",
+        "samples": 270
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_high_school_microeconomics_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "b02cd5f9b1a765b1df3136cef66e7f0453565060c118b7e782067eb14388a60e",
+        "samples": 238
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_high_school_physics_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "c9c12090e2ab4e9ea2bf4b714a708819debf540bccee884f76d7e13ad2ff001d",
+        "samples": 151
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_high_school_psychology_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "465433ff0eef0a96c2a73f082818958e8b1ad5c56447758038155dfbd64b33c4",
+        "samples": 545
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_high_school_statistics_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "d80f17e3f60f7fe296487807a29babe593ea5b138e4e116c0e2afca832d8fe25",
+        "samples": 216
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_high_school_us_history_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "3592872d71b2000d7fdd8fe526fea7f4d4daf3cc451f8038b7f6618c6de0a02c",
+        "samples": 204
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_high_school_world_history_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "729baaf21a6e39bb5f2155a554f555d85101cbb2627334ed82ada8dd0bc039ff",
+        "samples": 237
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_human_aging_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "8ba77b5a5126bee1c258f3d56e1f903ec7f13e01cd3f3fb77e665bd7b66f1515",
+        "samples": 223
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_human_sexuality_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "770bcf88c5399cf7d94cb73624b4d54d0cdbad8a2e7f101bfcc3c347db299f79",
+        "samples": 131
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_international_law_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "93c9ab2087f424a2084414a11116783d8495c41401c33c81108d5a3a01804109",
+        "samples": 121
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_jurisprudence_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "75dca94eb989cf071449029c63f375ac1385c504c527bf38ba1bfa066faefbd9",
+        "samples": 108
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_logical_fallacies_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "533e70cfdb908f7d44607223db9862d25642ca114ff9063953dab092bc1109f9",
+        "samples": 163
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_machine_learning_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "7f27d3fc717b6eecec6bbb7d4487fba950ebebeb9848a66191830e7534d3c046",
+        "samples": 112
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_management_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "bc9438655d4321f4101e16b5e589b04f839c8afbe2b60edda1c2b803cef9c664",
+        "samples": 103
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_marketing_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "15a08ea4a3a9ed457fb6d434ea41e43789094bdeb98ef023e5807094cab3f37c",
+        "samples": 234
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_medical_genetics_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "ee5b041cfce334abbe8b13be98cd567f42bcf55df04a687eb028f2dc0a2dce93",
+        "samples": 100
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_miscellaneous_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "d0f0cc7a210cf0d4b3dea61e6bfc178ce4e36fc57b1e3fffeba0811e5324aefc",
+        "samples": 783
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_moral_disputes_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "1f9ef7a742170e5c28d02517a79aa47a231c285a9ba3319b12fb52dd6da8eee2",
+        "samples": 346
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_moral_scenarios_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "866ed1a3edd1b7a5eb89b297ffdfefe6faae7d8700880e12e9b66ae76057e9b8",
+        "samples": 895
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_nutrition_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "7195e848bc50d3af7f2085060a4a4eacf3d1c26b96eed9f55d4f410c595d84e1",
+        "samples": 306
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_philosophy_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "7240e9109da8096e4c03237762c8201415601ed8fc1daefdfeb91f95e631f116",
+        "samples": 311
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_prehistory_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "4e33358aaa443bf2ff511474b250ac0fe71dc656f2d2809fc104e2bf92bdb6e8",
+        "samples": 324
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_professional_accounting_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "a57158dfb2612a516aa0321292a563ca67367c43e7ffca49d333c30f7abca96a",
+        "samples": 282
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_professional_law_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "3173b6de5677c25513e1b3d10dd889b0dd56bff5fe126dd10efb606348f9a948",
+        "samples": 1534
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_professional_medicine_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "256344bae4b812569b26767f9dbc79972783ed329f3250a36c11cf76e0ef972d",
+        "samples": 272
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_professional_psychology_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "ad748f739146ecce025d7f6aeba0b55990c14fe898491419449f39704a93d9a8",
+        "samples": 612
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_public_relations_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "7caac538e89318d16f9cbc92b1f01f3030007329071b9fb54a1c35a6a40a1d0c",
+        "samples": 110
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_security_studies_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "41aabb1f13e59fe9623e888124099fc7cb602e633344af166e44f02bbf850826",
+        "samples": 245
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_sociology_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "10f84e7ab059cda02fa04672839d8f94102176aa2f14813b70a80b159eba0295",
+        "samples": 201
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_us_foreign_policy_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "4099a07cb85b6cb07bcbd58d1c4d9e9d5d0ca5ae2de68caa2c8cee7bf2fcf255",
+        "samples": 100
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_virology_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "28cc57ba8e09ab965570995b6f67c6c6ef5cdbca254c83ba0810c4233f50fa22",
+        "samples": 166
+      },
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/mmlu/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_mmlu_world_religions_locked_2026-11-10T02-39-46.649915.jsonl",
+        "sha256": "ae4031e35684ece77afe365a193bef42516589dfc4898827df3723f351131d39",
+        "samples": 171
+      }
+    ]
+  },
+  {
+    "profile": "fft_full36",
+    "task": "GSM8K flexible",
+    "files": [
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/core/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_sft_v1_gsm8k_2026-11-10T02-40-10.457050.jsonl",
+        "sha256": "5e881a7b90a8d636590da1b1637f831791038aaf6fe6a03bfba6215dfa51c5a7",
+        "samples": 1319
+      }
+    ]
+  },
+  {
+    "profile": "fft_full36",
+    "task": "IFEval prompt strict",
+    "files": [
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/core/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_sft_v1_ifeval_2026-11-10T02-40-10.457050.jsonl",
+        "sha256": "7bfb68885bbfd9d3b7a47b33fe96cf79a892f162df9614d1c5b385d97ce232ab",
+        "samples": 541
+      }
+    ]
+  },
+  {
+    "profile": "fft_full36",
+    "task": "HumanEval+",
+    "files": [
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/code/execution/scores.json",
+        "sha256": "57c176708e4f7a74f648bfa45d73dccdccc61b119a4428c96406dd9cebf9f9c3",
+        "samples": 164
+      }
+    ]
+  },
+  {
     "profile": "p2_all",
     "task": "SW Belebele",
     "files": [

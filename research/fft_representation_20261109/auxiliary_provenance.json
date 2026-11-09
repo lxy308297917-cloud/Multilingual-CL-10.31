@@ -184,5 +184,25 @@
         "sha256": "589115f9cb7c8c8f73b9b552a542b09ba74b1fc16fbf897fd37fd6bfca5f477b"
       }
     ]
+  },
+  {
+    "profile": "fft_full36",
+    "task": "GSM8K strict",
+    "files": [
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/core/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_sft_v1_gsm8k_2026-11-10T02-40-10.457050.jsonl",
+        "sha256": "5e881a7b90a8d636590da1b1637f831791038aaf6fe6a03bfba6215dfa51c5a7"
+      }
+    ]
+  },
+  {
+    "profile": "fft_full36",
+    "task": "IFEval instruction strict",
+    "files": [
+      {
+        "path": "/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/core/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/samples_sft_v1_ifeval_2026-11-10T02-40-10.457050.jsonl",
+        "sha256": "7bfb68885bbfd9d3b7a47b33fe96cf79a892f162df9614d1c5b385d97ce232ab"
+      }
+    ]
   }
 ]

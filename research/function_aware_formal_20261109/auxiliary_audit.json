@@ -1,6 +1,6 @@
 {
   "status": "INCOMPLETE",
-  "verified_cells": 14,
+  "verified_cells": 16,
   "required_cells": 38,
   "missing": [
     [
@@ -11,16 +11,6 @@
     [
       "sw",
       "kd",
-      "IFEval instruction strict"
-    ],
-    [
-      "sw",
-      "function",
-      "GSM8K strict"
-    ],
-    [
-      "sw",
-      "function",
       "IFEval instruction strict"
     ],
     [
@@ -124,7 +114,7 @@
       "IFEval instruction strict"
     ]
   ],
-  "paired_contrasts": 10,
+  "paired_contrasts": 20,
   "IFEval_score_denominator": 834,
   "IFEval_resampling_clusters": 541,
   "bootstrap_resamples": 2000,

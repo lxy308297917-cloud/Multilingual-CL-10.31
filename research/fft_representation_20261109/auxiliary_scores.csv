@@ -11,8 +11,8 @@ matched_fft,GSM8K strict,,NOT_COMPLETE,
 matched_fft,IFEval instruction strict,,NOT_COMPLETE,
 matched_fft,EN→SW BLEU,,NOT_COMPLETE,
 matched_fft,SW→EN BLEU,,NOT_COMPLETE,
-fft_full36,GSM8K strict,,NOT_COMPLETE,
-fft_full36,IFEval instruction strict,,NOT_COMPLETE,
+fft_full36,GSM8K strict,82.4109173616376,RAW_AUDITED,/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/core/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/results_2026-11-10T02-40-10.457050.json
+fft_full36,IFEval instruction strict,71.70263788968825,RAW_AUDITED,/path/to/logs/qwen3-multilingual/fft-representation-20261109/evaluation/fft_full36/core/results/__storage__checkpoints__fft_representation_20261109__full36_final_v1/results_2026-11-10T02-40-10.457050.json
 fft_full36,EN→SW BLEU,,NOT_COMPLETE,
 fft_full36,SW→EN BLEU,,NOT_COMPLETE,
 p2_all,GSM8K strict,63.76042456406368,RAW_AUDITED,/path/to/project/research/representation_benchmarks_20261109/complete_scores.csv

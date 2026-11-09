@@ -1,0 +1,232 @@
+{
+  "at": "2026-11-10T02:58:52.453510+08:00",
+  "status": "ALL_USER_PRIORITIZED_FFT_BENCHMARKS_COMPLETE_ORIGINAL_SCOPE_DEFERRED",
+  "completed_stages": [
+    {
+      "profile": "historical_fft",
+      "stage": "code",
+      "done_sha256": "dad6311d3c6f20d96d133d02fedc3343ae6d83f421158f9ff68af65b3e45ffe8"
+    },
+    {
+      "profile": "historical_ssu",
+      "stage": "code",
+      "done_sha256": "544bbbf10bcd1bfdd5487d9b929086489e24d76565cf63111eba3a1e78bdaf42"
+    },
+    {
+      "profile": "p2_ce",
+      "stage": "mmlu",
+      "done_sha256": "c9c8458b3a2be0547f62639cb29a7dc54b608f01eab8762400f53a784628ca4a"
+    },
+    {
+      "profile": "p2_full36",
+      "stage": "mmlu",
+      "done_sha256": "e9573ce9903316641658ef83738698c46c3dac1b28535c1f8360b321fc793ca4"
+    },
+    {
+      "profile": "fft_full36",
+      "stage": "reading",
+      "done_sha256": "c424a3a1da7c3b6e7226eaa22a2e2808eaf36072c8fa1be6e102aa7721e394db"
+    },
+    {
+      "profile": "fft_full36",
+      "stage": "summary",
+      "done_sha256": "9f966e142d0a394e1bb23954c2c6cbf7397b692fabbd009e68fefc14a0dd8884"
+    },
+    {
+      "profile": "fft_full36",
+      "stage": "gmmlu",
+      "done_sha256": "466f33c036fb45f6060413bc630453f7efe1c8aef1fd5b019286dd42d5909499"
+    },
+    {
+      "profile": "fft_full36",
+      "stage": "mmlu",
+      "done_sha256": "8742ac0e4598e7dcb85402773e56d6ed83cf2d6b68741f5fb2d28404a6c370d6"
+    },
+    {
+      "profile": "fft_full36",
+      "stage": "core",
+      "done_sha256": "294e871cc08c1d1af2d575daa1ff270196d9dc080b52fd148f27209492d1a9b4"
+    },
+    {
+      "profile": "fft_full36",
+      "stage": "code",
+      "done_sha256": "e4e6331b608e773863df0191984d1044df2afa69ec4923fdfb5bded2d72cb0c7"
+    }
+  ],
+  "verified_score_cells": {
+    "scores.csv": 76,
+    "auxiliary_scores.csv": 20
+  },
+  "all_missing_cells_explained_by_user_defer": true,
+  "deferred_cells": {
+    "scores.csv": [
+      {
+        "profile": "matched_fft",
+        "task": "SW Belebele",
+        "reason": "USER_DEFERRED"
+      },
+      {
+        "profile": "matched_fft",
+        "task": "SW XL-Sum",
+        "reason": "USER_DEFERRED"
+      },
+      {
+        "profile": "matched_fft",
+        "task": "SW Global-MMLU",
+        "reason": "USER_DEFERRED"
+      },
+      {
+        "profile": "matched_fft",
+        "task": "SW XNLI",
+        "reason": "USER_DEFERRED"
+      },
+      {
+        "profile": "matched_fft",
+        "task": "EN Belebele",
+        "reason": "USER_DEFERRED"
+      },
+      {
+        "profile": "matched_fft",
+        "task": "EN XNLI",
+        "reason": "USER_DEFERRED"
+      },
+      {
+        "profile": "matched_fft",
+        "task": "EN MMLU",
+        "reason": "USER_DEFERRED"
+      },
+      {
+        "profile": "matched_fft",
+        "task": "GSM8K flexible",
+        "reason": "USER_DEFERRED"
+      },
+      {
+        "profile": "matched_fft",
+        "task": "IFEval prompt strict",
+        "reason": "USER_DEFERRED"
+      },
+      {
+        "profile": "matched_fft",
+        "task": "HumanEval+",
+        "reason": "USER_DEFERRED"
+      },
+      {
+        "profile": "matched_fft",
+        "task": "EN\u2192SW chrF++",
+        "reason": "USER_DEFERRED"
+      },
+      {
+        "profile": "matched_fft",
+        "task": "SW\u2192EN chrF++",
+        "reason": "USER_DEFERRED"
+      },
+      {
+        "profile": "fft_full36",
+        "task": "EN\u2192SW chrF++",
+        "reason": "USER_DEFERRED"
+      },
+      {
+        "profile": "fft_full36",
+        "task": "SW\u2192EN chrF++",
+        "reason": "USER_DEFERRED"
+      },
+      {
+        "profile": "p2_all",
+        "task": "EN\u2192SW chrF++",
+        "reason": "USER_DEFERRED"
+      },
+      {
+        "profile": "p2_all",
+        "task": "SW\u2192EN chrF++",
+        "reason": "USER_DEFERRED"
+      },
+      {
+        "profile": "p2_full36",
+        "task": "EN\u2192SW chrF++",
+        "reason": "USER_DEFERRED"
+      },
+      {
+        "profile": "p2_full36",
+        "task": "SW\u2192EN chrF++",
+        "reason": "USER_DEFERRED"
+      },
+      {
+        "profile": "p2_ce",
+        "task": "EN\u2192SW chrF++",
+        "reason": "USER_DEFERRED"
+      },
+      {
+        "profile": "p2_ce",
+        "task": "SW\u2192EN chrF++",
+        "reason": "USER_DEFERRED"
+      }
+    ],
+    "auxiliary_scores.csv": [
+      {
+        "profile": "matched_fft",
+        "task": "GSM8K strict",
+        "reason": "USER_DEFERRED"
+      },
+      {
+        "profile": "matched_fft",
+        "task": "IFEval instruction strict",
+        "reason": "USER_DEFERRED"
+      },
+      {
+        "profile": "matched_fft",
+        "task": "EN\u2192SW BLEU",
+        "reason": "USER_DEFERRED"
+      },
+      {
+        "profile": "matched_fft",
+        "task": "SW\u2192EN BLEU",
+        "reason": "USER_DEFERRED"
+      },
+      {
+        "profile": "fft_full36",
+        "task": "EN\u2192SW BLEU",
+        "reason": "USER_DEFERRED"
+      },
+      {
+        "profile": "fft_full36",
+        "task": "SW\u2192EN BLEU",
+        "reason": "USER_DEFERRED"
+      },
+      {
+        "profile": "p2_all",
+        "task": "EN\u2192SW BLEU",
+        "reason": "USER_DEFERRED"
+      },
+      {
+        "profile": "p2_all",
+        "task": "SW\u2192EN BLEU",
+        "reason": "USER_DEFERRED"
+      },
+      {
+        "profile": "p2_full36",
+        "task": "EN\u2192SW BLEU",
+        "reason": "USER_DEFERRED"
+      },
+      {
+        "profile": "p2_full36",
+        "task": "SW\u2192EN BLEU",
+        "reason": "USER_DEFERRED"
+      },
+      {
+        "profile": "p2_ce",
+        "task": "EN\u2192SW BLEU",
+        "reason": "USER_DEFERRED"
+      },
+      {
+        "profile": "p2_ce",
+        "task": "SW\u2192EN BLEU",
+        "reason": "USER_DEFERRED"
+      }
+    ]
+  },
+  "original_full_scope_complete": false,
+  "matched_fft_training": "USER_DEFERRED",
+  "new_translation": "USER_DEFERRED",
+  "new_gpu_jobs": 0,
+  "read_only_observer_stopped_after_completion": true
+}

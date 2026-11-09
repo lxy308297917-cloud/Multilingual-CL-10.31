@@ -1,16 +1,16 @@
 {
   "status": "PASS_AVAILABLE_NUMERIC_CONSISTENCY_SCOPE_ONLY",
-  "observed_at": "2026-11-10T02:20:16.246823+08:00",
+  "observed_at": "2026-11-10T03:29:19.492588+08:00",
   "reports": [
     {
       "status": "PASS_AVAILABLE_NUMERIC_CONSISTENCY_SCOPE_ONLY",
       "family": "fa",
-      "primary_score_cells": 80,
-      "auxiliary_score_cells": 14,
+      "primary_score_cells": 91,
+      "auxiliary_score_cells": 16,
       "required_primary_score_cells": 190,
       "required_auxiliary_score_cells": 38,
       "all_expected_cells_present": false,
-      "paired_intervals_recomputed": 96,
+      "paired_intervals_recomputed": 133,
       "resamples": 2000,
       "numpy": "2.4.6",
       "sacrebleu": "2.6.0",
@@ -19,25 +19,25 @@
     {
       "status": "PASS_AVAILABLE_NUMERIC_CONSISTENCY_SCOPE_ONLY",
       "family": "fft",
-      "primary_score_cells": 72,
-      "auxiliary_score_cells": 18,
+      "primary_score_cells": 76,
+      "auxiliary_score_cells": 20,
       "required_primary_score_cells": 96,
       "required_auxiliary_score_cells": 32,
       "all_expected_cells_present": false,
-      "paired_intervals_recomputed": 52,
+      "paired_intervals_recomputed": 76,
       "resamples": 2000,
       "numpy": "2.4.6",
       "sacrebleu": "2.6.0",
       "source_identity_scope": "Original prompts, model files and code-execution identity are supported by the separate server-side audits; this command checks exported numerical consistency only."
     }
   ],
-  "score_cells_verified": 184,
-  "paired_intervals_recomputed": 148,
+  "score_cells_verified": 203,
+  "paired_intervals_recomputed": 209,
   "verifier_source_sha256": "a717bf6298e32f6e7a66f52934b5ba9c5ed5ce17d171da2a27088c4ddc7fea79",
   "numeric_inputs": [
     {
       "path": "research/function_aware_formal_20261109/audited_scores.csv",
-      "sha256": "01c01cbb39a7532693fe8eaeb81ba106625b286bf184140d4f201e88a410354d"
+      "sha256": "2b0cd294fba3bb5d542a2fd8c9800e3d79850114e81bca7e20023d0207f21a71"
     },
     {
       "path": "research/function_aware_formal_20261109/auxiliary_numeric/ar_0.json",
@@ -57,23 +57,23 @@
     },
     {
       "path": "research/function_aware_formal_20261109/auxiliary_numeric/sw_0.json",
-      "sha256": "b2b679f3fedd9546a6f6cd6f944dcc524fe7d52adfc1595b1281fff6cee1adfc"
+      "sha256": "6ccf924c0cede1acec7fb08c1b85a7419db192e6ef6e55b725544271c05fb08a"
     },
     {
       "path": "research/function_aware_formal_20261109/auxiliary_numeric/sw_1.json",
-      "sha256": "1b9df8951a0ec1862560ea03b78454db6b3dc021b02f5182a357c0423f519abd"
+      "sha256": "61545c26e8e85b7945d169612c7eadf986f1cd468ebe118e672d9ffe85913301"
     },
     {
       "path": "research/function_aware_formal_20261109/auxiliary_paired_changes.csv",
-      "sha256": "211ed7309ed7952394e110f08bde2671885e6360ecbfa617a8c8a837d2a1cc4c"
+      "sha256": "187b2d7b725ee03b30293b061994cb38a35ead11d0cd1d7a75ee074000db3400"
     },
     {
       "path": "research/function_aware_formal_20261109/auxiliary_scores.csv",
-      "sha256": "908a1c088f0ba5ba2d5c58e13ae281c77928f7a7ca4b128a936f1a512ea9e33d"
+      "sha256": "abb0109fd089780acf7c5676158c3619c2fe83104acdac742051c28f60b3e2f0"
     },
     {
       "path": "research/function_aware_formal_20261109/numeric/ar_en_code.json",
-      "sha256": "fdd4602ef8b5cf78a0c31a0bf1b27195839225a576ef335f542afdaf63597dac"
+      "sha256": "0b0436941bd6f3ebcc9050267f6e5a34e992dd9d79e3376217146f90a896e135"
     },
     {
       "path": "research/function_aware_formal_20261109/numeric/ar_en_gsm8k.json",
@@ -85,31 +85,31 @@
     },
     {
       "path": "research/function_aware_formal_20261109/numeric/ar_en_mmlu.json",
-      "sha256": "e77b19218c4ca6447a11da63f7e4747488bd9341e8d038953e36c0f0a56842dd"
+      "sha256": "b46453fb7e8322315b96062e776e3a4e452a98c15f1bc917947ef8f4209dd377"
     },
     {
       "path": "research/function_aware_formal_20261109/numeric/ar_en_reading.json",
-      "sha256": "e3e5e7679bd5cc6ce7c0e8d136821b4acff60ab0c74a6a4b369323a16aca1c83"
+      "sha256": "e09d7d591017d0b127c970e0b67f6eb07fdebae7171b5f5e79b52793baa0b3ff"
     },
     {
       "path": "research/function_aware_formal_20261109/numeric/ar_en_xnli.json",
-      "sha256": "4e8ab02435a70dd4e0938ff8e677ed7b566ee33bbe30a83813325a7f0f1f9d8e"
+      "sha256": "df7917bda7a0a14082285a0aee71de7be62147af05707167143e7d17c5886ef7"
     },
     {
       "path": "research/function_aware_formal_20261109/numeric/ar_target_knowledge.json",
-      "sha256": "68f1e066efedd6432de799fae0c30b4a8a5f3c72ba5b9a11b588dbd3c1a6dfbb"
+      "sha256": "a79531639ba9a46612a7c073dc444c7e25a1e27f3daca088beee7cd53ba0d438"
     },
     {
       "path": "research/function_aware_formal_20261109/numeric/ar_target_reading.json",
-      "sha256": "f885dcdfed410c4de197ba517ee1b1cf833ed644eaafe8dbfb195021127a1a0d"
+      "sha256": "2e68cac5c1bf2f1b1f0ce68986a3fbf93f436aedd14948825f95b0e0cdae06c1"
     },
     {
       "path": "research/function_aware_formal_20261109/numeric/ar_target_summary.json",
-      "sha256": "eb4a11062f4b6f1f759189865f469c78a78aa4fe42e1495abc0534969df9bbd9"
+      "sha256": "496cdb64653da1238134a09815ddbfd8563b2f8b0ef9a149606a08c3e2df067b"
     },
     {
       "path": "research/function_aware_formal_20261109/numeric/ar_target_xnli.json",
-      "sha256": "84710462a8dfc42a87354b1affc9fe1066f42e4f0cfcd65b64c00f41c177aeb6"
+      "sha256": "8c3230eb573d691c2c0f1b75c534583e964442868fb134076caa3255af18baa6"
     },
     {
       "path": "research/function_aware_formal_20261109/numeric/ru_en_code.json",
@@ -153,15 +153,15 @@
     },
     {
       "path": "research/function_aware_formal_20261109/numeric/sw_en_code.json",
-      "sha256": "09a401f084b34e4a91b6f5fbed7d0e737b40ef6b6a171a351da340b966f67eb9"
+      "sha256": "2b6fe240551d86a02402398f1c1e6185bb5589c324f28af1c78346b1ac123508"
     },
     {
       "path": "research/function_aware_formal_20261109/numeric/sw_en_gsm8k.json",
-      "sha256": "20078fc611ce0d7ff552dd24b574109d645881b4a505b54d2d4150577236bb92"
+      "sha256": "7bb4f0c9fc91518fd22658335f602f7b2536077ee10ca51e21a495f65f01447d"
     },
     {
       "path": "research/function_aware_formal_20261109/numeric/sw_en_ifeval.json",
-      "sha256": "3bef13a50562ee09e08c7201c67069ea6b43e25ff8da011ad0c0d4af3e17c62a"
+      "sha256": "c67eaea542ed1d26d2491b3b10ed6dc4b3ed919b6bd9a7276d650ce411a26b2f"
     },
     {
       "path": "research/function_aware_formal_20261109/numeric/sw_en_mmlu.json",
@@ -193,19 +193,19 @@
     },
     {
       "path": "research/function_aware_formal_20261109/paired_changes.csv",
-      "sha256": "c5dd119ea2a51f2a2bed4591bcdcf304b240ca0780433a980dbee0d9d33136f8"
+      "sha256": "a319aa0bc8edfbdea8bac8f85cd33ff4548195074d6ebf1e5ec8ed2a9fc29052"
     },
     {
       "path": "research/function_aware_formal_20261109/scores_long.csv",
-      "sha256": "eb1ef05b3b469932be41b6306eff2ad7bfe480aa87f3caa68988c08e8defb57a"
+      "sha256": "62113a9f9cd962862347def1b4827f19c14e90c245d847f4ddba1b985a4847e5"
     },
     {
       "path": "research/function_aware_formal_20261109/scores_wide.csv",
-      "sha256": "ae0b02774f439b867055cedf6da4270c1c14e2e2f17c2886f42ad55cb9d6a28f"
+      "sha256": "d18ed9932cb1cfe1bfd1a4d7c9762d3a4126c5ad6fe6fead84ddfbf0197e0dcb"
     },
     {
       "path": "research/fft_representation_20261109/audited_scores.csv",
-      "sha256": "0abd3784e203225bdf527d0649579d9afe623585d1126a0089e672262d4a803a"
+      "sha256": "c135bbb528858db0a263490127f00bc833b82a246a56935ef5bbe84a3731d3f6"
     },
     {
       "path": "research/fft_representation_20261109/auxiliary_numeric/Base_0.json",
@@ -222,6 +222,14 @@
     {
       "path": "research/fft_representation_20261109/auxiliary_numeric/Base_3.json",
       "sha256": "0b4981aee1546cce42b22df0c6f9738a9e2a08fdf281c5649ab9450bf02d6312"
+    },
+    {
+      "path": "research/fft_representation_20261109/auxiliary_numeric/fft_full36_0.json",
+      "sha256": "014b37fa3eb11fd241a5a5e364f9afdcda25061b20b0c5acb3192acc4ec0c861"
+    },
+    {
+      "path": "research/fft_representation_20261109/auxiliary_numeric/fft_full36_1.json",
+      "sha256": "eccdfc02b78fa50afaa0e730e1aaf1f585e1c69f5b2b4cf6737df6927d942085"
     },
     {
       "path": "research/fft_representation_20261109/auxiliary_numeric/historical_fft_0.json",
@@ -281,11 +289,11 @@
     },
     {
       "path": "research/fft_representation_20261109/auxiliary_paired_changes.csv",
-      "sha256": "5b9d44bd0280160d8298c536bfa1fdd78d38567f68b72df93a1fd3ec69055eaa"
+      "sha256": "c451c191695df654b20313fe1a60c73dd4a8417c6ef6bbe17bc8796c2cd011ee"
     },
     {
       "path": "research/fft_representation_20261109/auxiliary_scores.csv",
-      "sha256": "fa09452f2d08f64545571efdba551599c588bf312d78cbeb546a4c320dd9fa02"
+      "sha256": "7d6025baa538286efd03c30115d2b5f5d7bb6471e85de43dc7424f5822bda3ed"
     },
     {
       "path": "research/fft_representation_20261109/numeric/Base_en_sw_chrf.json",
@@ -297,19 +305,19 @@
     },
     {
       "path": "research/fft_representation_20261109/numeric/en_code.json",
-      "sha256": "f76d853b2b3dcb16598eef5bb3a5d14fd515d87eb1ee7640aad3d1b411c03362"
+      "sha256": "d8765078ede81803138419542fd778527233abc21aee1d8ea714999eaff15748"
     },
     {
       "path": "research/fft_representation_20261109/numeric/en_gsm8k.json",
-      "sha256": "66368f5eeae456b9e07a0093fa1c35d8b71c14d281e9e9532c1c04e48e868168"
+      "sha256": "27ee96f1339ff88c6c8e9976f095c8b1d14d36a9b33a793fd531fd7be3a5c36f"
     },
     {
       "path": "research/fft_representation_20261109/numeric/en_ifeval.json",
-      "sha256": "2a88612ffe99f0a8761b8d9f7a942c0a2134c219fe96ee2e5d5be86fac259fa9"
+      "sha256": "ee9fed569eb1f1fafa1723761a31cd7c0ceb65d0e4acde73f96c0ed6aaa2f4bc"
     },
     {
       "path": "research/fft_representation_20261109/numeric/en_mmlu.json",
-      "sha256": "5ba70d035ec4ffc4fdd6475e171aaaf18905931c17bd02b71f0ed47e01087282"
+      "sha256": "2b5510d428e88d28aff20cbee8c4bbcf64d8f8eaf78aefc4eda1a220907b15e6"
     },
     {
       "path": "research/fft_representation_20261109/numeric/en_reading.json",
@@ -353,11 +361,11 @@
     },
     {
       "path": "research/fft_representation_20261109/paired_changes.csv",
-      "sha256": "ffc869408366364bbe6256ed7c15f7916350a5863d6fe60b5488f5556f7ea654"
+      "sha256": "5ab207155bfd8a8773015a95a6aabf888bb1e0570fe733e67c2a4315c44a8d0b"
     },
     {
       "path": "research/fft_representation_20261109/scores.csv",
-      "sha256": "cf8ebaee7a3a7560dff11c3937578972b9cfaf5f244748039e3fb23d383a2836"
+      "sha256": "5c14c7db51a2e0f0d0c52eca443957d40107a0f8c492281760006ec737c42542"
     }
   ]
 }

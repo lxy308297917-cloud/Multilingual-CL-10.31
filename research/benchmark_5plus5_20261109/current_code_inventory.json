@@ -1,33 +1,9 @@
 {
-  "at": "2026-11-10T02:22:25.188748+08:00",
+  "at": "2026-11-10T03:30:17.977134+08:00",
   "files": [
     {
-      "path": "/path/to/project/configs/benchmark_5plus5_20261109/deferred_models.json",
-      "sha256": "2772eab0bd630688491e80f4e0d47bbe28b853246c8f7f7548edc6defe97f64c"
-    },
-    {
-      "path": "/path/to/project/configs/benchmark_5plus5_20261109/harness_identity.json",
-      "sha256": "6653bc3a347e2ce60dd3ff899c6c42da6b4ddca187059c34416d654a020f461e"
-    },
-    {
-      "path": "/path/to/project/configs/benchmark_5plus5_20261109/models.json",
-      "sha256": "6a283b048f57fa826512d6e4fa654470fa9e9362b7a97feb088f85c5d635ae64"
-    },
-    {
-      "path": "/path/to/project/configs/benchmark_5plus5_20261109/priority_evaluation_plan.json",
-      "sha256": "90e2389e1e08755ff1bdec9f2ae57e4436d7cfb873f2e1a46e35859aea791a4f"
-    },
-    {
-      "path": "/path/to/project/configs/benchmark_5plus5_20261109/priority_resource_policy.json",
-      "sha256": "50dd1d6eb9da4440b3900235d45b0cc5897bfa54022b2fb447f4e3df3cc1140e"
-    },
-    {
-      "path": "/path/to/project/configs/benchmark_5plus5_20261109/sib_manifest.json",
-      "sha256": "a17e71a8314ef519d290ced9c174e8b2f7bfaaa20613e8376da0a93a6d7adf5e"
-    },
-    {
       "path": "/path/to/project/scripts/benchmark_5plus5_20261109/README.md",
-      "sha256": "8b444d2ab6061a11cca5b168c4e91043d852803b48c94f4fb2c354caf8921ff2"
+      "sha256": "1cbcf6f1fbdcafe3b91a05c31cd3c9ee0f16d1e8852e049f1139c248bb2d8aa0"
     },
     {
       "path": "/path/to/project/scripts/benchmark_5plus5_20261109/audit_coverage.py",
@@ -71,7 +47,7 @@
     },
     {
       "path": "/path/to/project/scripts/benchmark_5plus5_20261109/observe_v3.py",
-      "sha256": "a3f8d643a8ebcddc763f8117f7534c84b1774fcceab0a55273ce3858114b8a32"
+      "sha256": "6dfba3fe5500bf7074efa208ece508f11aa217293363378e008207c87bb316dc"
     },
     {
       "path": "/path/to/project/scripts/benchmark_5plus5_20261109/prepare.py",
@@ -104,6 +80,30 @@
     {
       "path": "/path/to/project/scripts/benchmark_5plus5_20261109/verify_numeric.py",
       "sha256": "4d1a3b15e29926cd77eae17c51eaf81477db3295636ccdfcee2ff504166bc762"
+    },
+    {
+      "path": "/path/to/project/configs/benchmark_5plus5_20261109/deferred_models.json",
+      "sha256": "2772eab0bd630688491e80f4e0d47bbe28b853246c8f7f7548edc6defe97f64c"
+    },
+    {
+      "path": "/path/to/project/configs/benchmark_5plus5_20261109/harness_identity.json",
+      "sha256": "6653bc3a347e2ce60dd3ff899c6c42da6b4ddca187059c34416d654a020f461e"
+    },
+    {
+      "path": "/path/to/project/configs/benchmark_5plus5_20261109/models.json",
+      "sha256": "6a283b048f57fa826512d6e4fa654470fa9e9362b7a97feb088f85c5d635ae64"
+    },
+    {
+      "path": "/path/to/project/configs/benchmark_5plus5_20261109/priority_evaluation_plan.json",
+      "sha256": "90e2389e1e08755ff1bdec9f2ae57e4436d7cfb873f2e1a46e35859aea791a4f"
+    },
+    {
+      "path": "/path/to/project/configs/benchmark_5plus5_20261109/priority_resource_policy.json",
+      "sha256": "50dd1d6eb9da4440b3900235d45b0cc5897bfa54022b2fb447f4e3df3cc1140e"
+    },
+    {
+      "path": "/path/to/project/configs/benchmark_5plus5_20261109/sib_manifest.json",
+      "sha256": "a17e71a8314ef519d290ced9c174e8b2f7bfaaa20613e8376da0a93a6d7adf5e"
     }
   ],
   "postprocessing_update": {
@@ -123,5 +123,11 @@
     "details": "research/benchmark_5plus5_20261109/metric_correction.json",
     "all_existing_gpu_evaluator_and_config_hashes_unchanged": true
   },
-  "terminal_queue_coverage_fix": "Completed General5 queue has no live PID; terminal status is recognized without restarting it. No inference changes."
+  "terminal_queue_coverage_fix": "Completed General5 queue has no live PID; terminal status is recognized without restarting it. No inference changes.",
+  "reporter_completion_fix": {
+    "scope": "CPU-only reporter now waits for all220 eligible primary cells as well as extension DONE markers; never starts GPU work",
+    "prior_sha256": "a3f8d643a8ebcddc763f8117f7534c84b1774fcceab0a55273ce3858114b8a32",
+    "current_sha256": "6dfba3fe5500bf7074efa208ece508f11aa217293363378e008207c87bb316dc",
+    "frozen_gpu_code_unchanged": true
+  }
 }

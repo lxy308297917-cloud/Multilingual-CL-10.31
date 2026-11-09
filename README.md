@@ -2,6 +2,12 @@
 
 ## 当前优先：5+5进行中，XQuAD补测已完成
 
+本阶段已完成三语言历史基线完整5+5（60个单元格）、SW候选完整端点、FFT当前排定补测、SIB22端点与XQuAD10端点。其他主线对照及AR/RU方法网格仍在运行，当前主表快照166/220。候选尚无超过随机或原36点强参考的明确总体证据；FFT保护组仍有指令/代码遗忘。
+
+- [三语言历史基线完整报告](research/benchmark_5plus5_20261109/baseline_report.md)
+- [SW完整候选与强对照](research/function_aware_formal_20261109/chatgpt_handoff.md)
+- [FFT已完成补测及暂缓边界](research/fft_representation_20261109/README.md)
+
 **指标更正：**此前5+5汇总的历史IFEval三行误用了指令级strict；现修正为提示级strict：SW49.35%、AR42.70%、RU42.33%，相应均值已重算。原始预测和历史源分数未变。[更正记录](research/benchmark_5plus5_20261109/metric_correction.json)。
 
 目标五项为 Belebele、XNLI、XL-Sum、Global-MMLU、SIB-200；通用五项为 GSM8K、IFEval、HumanEval+、EN MMLU、EN Belebele。XQuAD仅作为AR/RU补充，SW不支持，不并入主平均。TargetACC4只平均四项ACC，摘要独立报告。

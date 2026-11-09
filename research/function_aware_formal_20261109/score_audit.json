@@ -1,7 +1,7 @@
 {
   "status": "INCOMPLETE_FORMAL_RESULTS",
-  "verified_cells": 80,
-  "main_cells_verified": 70,
+  "verified_cells": 91,
+  "main_cells_verified": 81,
   "historical_cells_verified": 10,
   "required_main_cells": 180,
   "missing": [
@@ -61,21 +61,6 @@
       "en_code"
     ],
     [
-      "sw",
-      "function",
-      "en_gsm8k"
-    ],
-    [
-      "sw",
-      "function",
-      "en_ifeval"
-    ],
-    [
-      "sw",
-      "function",
-      "en_code"
-    ],
-    [
       "ar",
       "all",
       "target_summary"
@@ -83,27 +68,12 @@
     [
       "ar",
       "all",
-      "target_knowledge"
-    ],
-    [
-      "ar",
-      "all",
       "en_gsm8k"
     ],
     [
       "ar",
       "all",
       "en_ifeval"
-    ],
-    [
-      "ar",
-      "all",
-      "en_mmlu"
-    ],
-    [
-      "ar",
-      "all",
-      "en_code"
     ],
     [
       "ar",
@@ -258,22 +228,7 @@
     [
       "ar",
       "function",
-      "target_reading"
-    ],
-    [
-      "ar",
-      "function",
-      "target_summary"
-    ],
-    [
-      "ar",
-      "function",
       "target_knowledge"
-    ],
-    [
-      "ar",
-      "function",
-      "target_xnli"
     ],
     [
       "ar",
@@ -294,16 +249,6 @@
       "ar",
       "function",
       "en_code"
-    ],
-    [
-      "ar",
-      "function",
-      "en_reading"
-    ],
-    [
-      "ar",
-      "function",
-      "en_xnli"
     ],
     [
       "ru",
@@ -556,7 +501,7 @@
       "en_xnli"
     ]
   ],
-  "paired_comparisons": 86,
+  "paired_comparisons": 113,
   "all_acc_argmax_recomputed": true,
   "all_aggregates_match_items": true,
   "paired_identity_verified": true,
