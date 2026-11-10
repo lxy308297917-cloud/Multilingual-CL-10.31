@@ -1,71 +1,11 @@
 {
   "status": "INCOMPLETE_FORMAL_RESULTS",
-  "verified_cells": 122,
-  "main_cells_verified": 112,
+  "verified_cells": 150,
+  "main_cells_verified": 140,
   "historical_cells_verified": 10,
   "required_main_cells": 180,
   "missing": [
     [
-      "sw",
-      "full",
-      "target_reading"
-    ],
-    [
-      "sw",
-      "full",
-      "target_summary"
-    ],
-    [
-      "sw",
-      "full",
-      "target_knowledge"
-    ],
-    [
-      "sw",
-      "full",
-      "target_xnli"
-    ],
-    [
-      "sw",
-      "full",
-      "en_mmlu"
-    ],
-    [
-      "sw",
-      "full",
-      "en_reading"
-    ],
-    [
-      "sw",
-      "full",
-      "en_xnli"
-    ],
-    [
-      "sw",
-      "kd",
-      "target_knowledge"
-    ],
-    [
-      "sw",
-      "kd",
-      "en_gsm8k"
-    ],
-    [
-      "sw",
-      "kd",
-      "en_ifeval"
-    ],
-    [
-      "sw",
-      "kd",
-      "en_code"
-    ],
-    [
-      "ar",
-      "all",
-      "target_summary"
-    ],
-    [
       "ar",
       "full",
       "target_reading"
@@ -263,90 +203,10 @@
     [
       "ru",
       "kd",
-      "en_xnli"
-    ],
-    [
-      "ru",
-      "random",
-      "target_summary"
-    ],
-    [
-      "ru",
-      "random",
-      "target_knowledge"
-    ],
-    [
-      "ru",
-      "random",
-      "en_gsm8k"
-    ],
-    [
-      "ru",
-      "random",
-      "en_ifeval"
-    ],
-    [
-      "ru",
-      "random",
-      "en_mmlu"
-    ],
-    [
-      "ru",
-      "random",
-      "en_code"
-    ],
-    [
-      "ru",
-      "function",
-      "target_reading"
-    ],
-    [
-      "ru",
-      "function",
-      "target_summary"
-    ],
-    [
-      "ru",
-      "function",
-      "target_knowledge"
-    ],
-    [
-      "ru",
-      "function",
-      "target_xnli"
-    ],
-    [
-      "ru",
-      "function",
-      "en_gsm8k"
-    ],
-    [
-      "ru",
-      "function",
-      "en_ifeval"
-    ],
-    [
-      "ru",
-      "function",
-      "en_mmlu"
-    ],
-    [
-      "ru",
-      "function",
-      "en_code"
-    ],
-    [
-      "ru",
-      "function",
-      "en_reading"
-    ],
-    [
-      "ru",
-      "function",
       "en_xnli"
     ]
   ],
-  "paired_comparisons": 163,
+  "paired_comparisons": 250,
   "all_acc_argmax_recomputed": true,
   "all_aggregates_match_items": true,
   "paired_identity_verified": true,

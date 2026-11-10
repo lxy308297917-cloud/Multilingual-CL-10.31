@@ -1,0 +1,76 @@
+{
+  "at": "2026-11-10T09:22:21.025648+08:00",
+  "status": "ALL_AVAILABLE_AUTHORIZED_BENCHMARKS_COMPLETE",
+  "eligible_models": 22,
+  "primary_cells": 220,
+  "required_primary_cells": 220,
+  "xquad_models": 10,
+  "xquad_scores": 20,
+  "xquad_paired_intervals": 42,
+  "main_fa_raw_cells": 150,
+  "main_fa_missing_original_cells": 40,
+  "missing_original_models": [
+    "ar_full",
+    "ar_kd",
+    "ar_random",
+    "ru_kd"
+  ],
+  "deferred_training": [
+    "ar_full",
+    "ar_kd",
+    "ar_random",
+    "matched_fft",
+    "ru_kd"
+  ],
+  "extra_translation": "USER_DEFERRED",
+  "gpu_mechanism_diagnostics": "NOT_RUN_USER_DEFERRED",
+  "original_research_scope_complete": false,
+  "all_eligible_primary_rows_complete": true,
+  "new_training_jobs": 0,
+  "no_new_seeds": true,
+  "scores_sha256": "dcf78ccce146d8ea780ab91f1e75bbbccc9244031da90d35c95475f2eb04cf05",
+  "raw_fa_audit_sha256": "19499274a0804888f356abe1efea0d562ac4c48e31168729fc9f9225f1c39a52",
+  "bench_numeric_verification_sha256": "5ff11ba4854599441d00fa29104d557d6708071b0bf39f6bba674ad0d0b4ee26",
+  "resource_release": {
+    "observed_at": "2026-11-10T09:26:10.717516+08:00",
+    "actual_account_compute_gpu_count": 0,
+    "main_coordinator_exit_result": "success",
+    "main_coordinator_exit_status": 0,
+    "pending_stages": 0,
+    "running_stages": 0,
+    "cpu_observers_stopped": true,
+    "no_successor_training_or_hold": true
+  },
+  "numerical_verification": [
+    {
+      "status": "PASS_AVAILABLE_NUMERIC_CONSISTENCY_SCOPE_ONLY",
+      "family": "fa",
+      "primary_score_cells": 150,
+      "auxiliary_score_cells": 30,
+      "required_primary_score_cells": 190,
+      "required_auxiliary_score_cells": 38,
+      "all_expected_cells_present": false,
+      "paired_intervals_recomputed": 300,
+      "resamples": 2000,
+      "numpy": "2.4.6",
+      "sacrebleu": "2.6.0",
+      "source_identity_scope": "Original prompts, model files and code-execution identity are supported by the separate server-side audits; this command checks exported numerical consistency only."
+    },
+    {
+      "status": "PASS_AVAILABLE_NUMERIC_CONSISTENCY_SCOPE_ONLY",
+      "family": "fft",
+      "primary_score_cells": 76,
+      "auxiliary_score_cells": 20,
+      "required_primary_score_cells": 96,
+      "required_auxiliary_score_cells": 32,
+      "all_expected_cells_present": false,
+      "paired_intervals_recomputed": 76,
+      "resamples": 2000,
+      "numpy": "2.4.6",
+      "sacrebleu": "2.6.0",
+      "source_identity_scope": "Original prompts, model files and code-execution identity are supported by the separate server-side audits; this command checks exported numerical consistency only."
+    }
+  ],
+  "weights_rehashed": 10,
+  "stage_model_hashes_matched": 60
+}

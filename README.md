@@ -1,29 +1,23 @@
 # Multilingual-CL：最新研究入口（2026-11-10）
 
-## 当前优先：5+5进行中，XQuAD补测已完成
+## 当前补测阶段已完成：220/220与XQuAD10端点
 
-本阶段已完成三语言历史基线完整5+5（60个单元格）、SW/AR候选完整端点、RU普通LoRA与均匀72点完整对照、FFT当前排定补测、SIB22端点与XQuAD10端点。其他主线对照及AR/RU方法网格仍在运行，当前主表快照194/220。SW候选尚无超过随机或原36点强参考的明确总体证据；AR候选改善通用能力保持，但相对普通LoRA的AR阅读下降1.78pp、XNLI下降4.19pp，SIB也未改善。FFT保护组仍有指令/代码遗忘。
+已完成22个可运行模型/语言端点的全部5+5分数、AR/RU共10个XQuAD端点及逐题/配对核验。GPU已全部释放，没有接续训练或占卡。原计划的5个未启动训练、额外翻译和GPU机制诊断仍由用户暂缓；当前阶段完成不等于原研究整体全部完成。
 
-- [三语言历史基线完整报告](research/benchmark_5plus5_20261109/baseline_report.md)
-- [SW/AR候选及RU完整强对照](research/function_aware_formal_20261109/chatgpt_handoff.md)
-- [FFT已完成补测及暂缓边界](research/fft_representation_20261109/README.md)
+- [完整正式报告：方法、三语言对齐表、强对照与限制](research/function_aware_formal_20261109/final_report.md)
+- [ChatGPT交接与当前研究判断](research/benchmark_5plus5_20261109/chatgpt_handoff.md)
+- [完整5+5主矩阵](research/benchmark_5plus5_20261109/results.md) · [阶段验收与暂缓范围](research/benchmark_5plus5_20261109/priority_completion.json)
+- [历史micro1三语言基线](research/benchmark_5plus5_20261109/baseline_report.md)
+- [XQuAD完整报告与格式诊断](research/xquad_20261109/final_report.md)
+- [FFT已完成补测及匹配对照暂缓边界](research/fft_representation_20261109/README.md)
 
-**指标更正：**此前5+5汇总的历史IFEval三行误用了指令级strict；现修正为提示级strict：SW49.35%、AR42.70%、RU42.33%，相应均值已重算。原始预测和历史源分数未变。[更正记录](research/benchmark_5plus5_20261109/metric_correction.json)。
+普通LoRA获得目标阅读/摘要等收益，并伴随部分数学、指令和代码退化。均匀和随机表示保持已是很强的baseline；当前静态功能风险加权尚无明确超越强对照的总体优势。三语言是独立适配，不是顺序CL或多训练种子证据。SIB归一化/标签偏好、同源文本重叠、XNLI选项偏好和XQuAD输出格式效应完整保留，不挑选有利指标宣布算法成功。
 
-目标五项为 Belebele、XNLI、XL-Sum、Global-MMLU、SIB-200；通用五项为 GSM8K、IFEval、HumanEval+、EN MMLU、EN Belebele。XQuAD仅作为AR/RU补充，SW不支持，不并入主平均。TargetACC4只平均四项ACC，摘要独立报告。
+**历史指标更正保留：**5+5历史IFEval三行现为prompt strict：SW49.35%、AR42.70%、RU42.33%，不是instruction strict。原始预测未改，见[更正记录](research/benchmark_5plus5_20261109/metric_correction.json)。
 
-- [最新ChatGPT交接：真实补测结果、格式诊断与限制](research/benchmark_5plus5_20261109/chatgpt_handoff.md)
-- [5+5持续结果表](research/benchmark_5plus5_20261109/results.md) · [SIB标签偏好与错误分析](research/benchmark_5plus5_20261109/sib_error_analysis.md)
-- [XQuAD完整报告：10端点、20项分数、42项配对区间](research/xquad_20261109/final_report.md) · [完整分数](research/xquad_20261109/results.md)
-- [暂缓训练与当前优先范围](research/benchmark_5plus5_20261109/priority_scope.json)
-- [功能加权方法的设置与未完成比较](research/function_aware_formal_20261109/chatgpt_handoff.md)
-- [FFT补充设置与比较边界](research/fft_representation_20261109/README.md)
+公开脚本、配置、数值向量、身份哈希和报告支持CPU复算；原始题面、生成答案、权重和运行隐私信息留在服务器。墙钟成本、失败与复用分列，不将并行时长之和叫作自然耗时或GPU内核时间。
 
-XQuAD的10个端点已全部完成并逐题复核，公开数值复算通过。AR候选未显示明确优于普通LoRA的问答收益；RU候选F1低于普通LoRA，负结果保留。Base低EM明显受答案格式影响。5+5其余测评继续运行；本次同步已完成分数、逐题数值与更正审计，仍为部分结果，缺失单元格继续留空。
-
-当前仍是整体研究的阶段性快照。所有允许继续收尾的训练已完成，三语言功能候选均为固定400步；其完整正式分数尚未出齐。用户要求已运行训练正常收尾、优先补测，五个待启动训练与机制诊断、额外翻译被明确暂缓，不自动恢复。未完成分数留空，暂缓不是失败，也不表示原研究目标已全部完成。
-
-首批结果既包括AR知识与问答收益，也包括SIB标签偏好和归一化敏感性；全部负结果保留。历史模型micro1与新P2/主线micro2分行；当前三语言是独立适配，不是顺序CL或跨训练种子证据。以下保留历史研究记录，其旧“进行中／未运行”状态不表示恢复暂停任务。
+以下保留历史研究记录。历史“进行中/未运行”不表示恢复用户暂停任务。
 
 ## 最新：表示机制复现与 XNLI / HumanEval+ 补测
 

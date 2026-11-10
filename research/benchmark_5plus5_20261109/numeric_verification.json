@@ -1,11 +1,11 @@
 {
   "status": "PASS_AVAILABLE_EXPORTED_NUMERIC",
-  "all_eligible_cells_present": false,
+  "all_eligible_cells_present": true,
   "legacy_primary_cells_verified": 18,
   "sib_models_recomputed": 22,
   "full_gmmlu_models_recomputed": 4,
   "paired_intervals_recomputed": 176,
-  "present_5plus5_cells": 194,
+  "present_5plus5_cells": 220,
   "required_5plus5_cells": 220,
   "resamples": 2000,
   "numpy": "2.4.6",
@@ -121,7 +121,7 @@
   ],
   "scope": "SIB option likelihoods and full GM correctness/paired intervals plus descriptive table means only. Other task raw scoring depends on the separate formal/FFT audits; this is not proof of all ten raw task scores.",
   "table_sha256": {
-    "scores_5plus5.csv": "10c205cb0a798d4dd112bf7706f0796543084febf5497aff6703715838bab768",
+    "scores_5plus5.csv": "dcf78ccce146d8ea780ab91f1e75bbbccc9244031da90d35c95475f2eb04cf05",
     "paired_changes.csv": "55eb88d799f5800446d1670ba2a5bcac767a2bf1743d4427fb6a6ebc2c9d7000",
     "gmmlu_subjects.csv": "3a78e311d5544ac1c83bbc476e947a0e462ea64111329d4659bf24976c1b89f8"
   }

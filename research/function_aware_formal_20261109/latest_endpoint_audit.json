@@ -35,76 +35,16 @@
       "isolated_execution_wall_seconds": 107.71861014800379
     }
   ],
-  "updated_at": "2026-11-10T05:08:01.705357+08:00",
+  "updated_at": "2026-11-10T09:25:16.304413+08:00",
   "full_ru_plain_5plus5_verified": true,
   "full_primary_raw_audit": {
     "status": "INCOMPLETE_FORMAL_RESULTS",
-    "verified_cells": 122,
-    "main_cells_verified": 112,
+    "verified_cells": 150,
+    "main_cells_verified": 140,
     "historical_cells_verified": 10,
     "required_main_cells": 180,
     "missing": [
       [
-        "sw",
-        "full",
-        "target_reading"
-      ],
-      [
-        "sw",
-        "full",
-        "target_summary"
-      ],
-      [
-        "sw",
-        "full",
-        "target_knowledge"
-      ],
-      [
-        "sw",
-        "full",
-        "target_xnli"
-      ],
-      [
-        "sw",
-        "full",
-        "en_mmlu"
-      ],
-      [
-        "sw",
-        "full",
-        "en_reading"
-      ],
-      [
-        "sw",
-        "full",
-        "en_xnli"
-      ],
-      [
-        "sw",
-        "kd",
-        "target_knowledge"
-      ],
-      [
-        "sw",
-        "kd",
-        "en_gsm8k"
-      ],
-      [
-        "sw",
-        "kd",
-        "en_ifeval"
-      ],
-      [
-        "sw",
-        "kd",
-        "en_code"
-      ],
-      [
-        "ar",
-        "all",
-        "target_summary"
-      ],
-      [
         "ar",
         "full",
         "target_reading"
@@ -302,90 +242,10 @@
       [
         "ru",
         "kd",
-        "en_xnli"
-      ],
-      [
-        "ru",
-        "random",
-        "target_summary"
-      ],
-      [
-        "ru",
-        "random",
-        "target_knowledge"
-      ],
-      [
-        "ru",
-        "random",
-        "en_gsm8k"
-      ],
-      [
-        "ru",
-        "random",
-        "en_ifeval"
-      ],
-      [
-        "ru",
-        "random",
-        "en_mmlu"
-      ],
-      [
-        "ru",
-        "random",
-        "en_code"
-      ],
-      [
-        "ru",
-        "function",
-        "target_reading"
-      ],
-      [
-        "ru",
-        "function",
-        "target_summary"
-      ],
-      [
-        "ru",
-        "function",
-        "target_knowledge"
-      ],
-      [
-        "ru",
-        "function",
-        "target_xnli"
-      ],
-      [
-        "ru",
-        "function",
-        "en_gsm8k"
-      ],
-      [
-        "ru",
-        "function",
-        "en_ifeval"
-      ],
-      [
-        "ru",
-        "function",
-        "en_mmlu"
-      ],
-      [
-        "ru",
-        "function",
-        "en_code"
-      ],
-      [
-        "ru",
-        "function",
-        "en_reading"
-      ],
-      [
-        "ru",
-        "function",
         "en_xnli"
       ]
     ],
-    "paired_comparisons": 163,
+    "paired_comparisons": 250,
     "all_acc_argmax_recomputed": true,
     "all_aggregates_match_items": true,
     "paired_identity_verified": true,
@@ -393,7 +253,109 @@
     "bootstrap_note": "Fixed model/benchmark uncertainty only, not training-seed robustness; no multiple-comparison correction; no method selection",
     "question_text_publication": false
   },
-  "scores_5plus5_sha256": "10c205cb0a798d4dd112bf7706f0796543084febf5497aff6703715838bab768",
+  "scores_5plus5_sha256": "dcf78ccce146d8ea780ab91f1e75bbbccc9244031da90d35c95475f2eb04cf05",
   "full_ru_uniform_5plus5_verified": true,
-  "paired_changes_sha256": "cd72cdc978df04d1438a3b73da0356036510270c925a266af1b113cb5558f195"
+  "paired_changes_sha256": "1b11e0d9a5ffdd50e4dcf1e9be8f20ba1caac510ecae6af3f424dad95fcf4479",
+  "new_random_endpoint_audits": [
+    {
+      "model": "ru_random",
+      "stage": "summary",
+      "samples": 7780,
+      "score": 18.79367238247067,
+      "source": [
+        {
+          "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ru_random/summary/scores/scores.json",
+          "sha256": "6a953ca9f9399630db66ad4313d04e19998316b57c2c78ed6f7e19a3a37269e3",
+          "samples": 7780
+        }
+      ],
+      "done_sha256": "f2c6d47237f59b9058bb119e86bc9448154e919b7309697ee313bacf6a1e1889",
+      "raw_item_aggregate_verified": true
+    },
+    {
+      "model": "ru_random",
+      "stage": "code",
+      "samples": 164,
+      "score": 74.39024390243902,
+      "source": [
+        {
+          "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ru_random/code/execution/scores.json",
+          "sha256": "3f974767c4d9ab15586a1e91aca98840f8389a1cc937d1a075aa3cd2e455aab7",
+          "samples": 164
+        }
+      ],
+      "done_sha256": "a7615835692a1684997271f435e44c9753231c938f64c67030098c334f2dc490",
+      "raw_item_aggregate_verified": true
+    }
+  ],
+  "full_ru_random_5plus5_verified": true,
+  "new_candidate_endpoint_audits": [
+    {
+      "model": "ru_function",
+      "stage": "summary",
+      "samples": 7780,
+      "score": 18.815079896392803,
+      "source": [
+        {
+          "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ru_function/summary/scores/scores.json",
+          "sha256": "2a9b7c61174acc922375eb67a71f453455b651811358f456cab60ecda935affb",
+          "samples": 7780
+        }
+      ],
+      "done_sha256": "ccd86a5a78cd033453967112d96c301229e2e4eef4ef4d934cd530e9a94e914a",
+      "raw_items_verified": true
+    },
+    {
+      "model": "ru_function",
+      "stage": "code",
+      "samples": 164,
+      "score": 73.78048780487805,
+      "source": [
+        {
+          "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ru_function/code/execution/scores.json",
+          "sha256": "c1ff75e3ade8a06c36ffa978dd1846522aec42190a6dde62c0cb2ac66c088817",
+          "samples": 164
+        }
+      ],
+      "done_sha256": "bebea5df825401b10198cbc13ae957bdd6e27cd87ddd631300ca4cc370fcf33a",
+      "raw_items_verified": true
+    }
+  ],
+  "full_ru_candidate_5plus5_verified": true,
+  "new_completed_control_summaries": [
+    {
+      "model": "ar_all",
+      "task": "target_summary",
+      "samples": 4689,
+      "ROUGE-Lsum": 20.83156015941686,
+      "source": [
+        {
+          "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ar_all/summary/scores/scores.json",
+          "sha256": "b87f518cbcd8b8d29adf8bba6b1a84b541ab38d6d929b328afed2b6d5ef424a4",
+          "samples": 4689
+        }
+      ],
+      "raw_aggregate_and_prediction_identity_verified": true,
+      "done_sha256": "773c7a4b8a1188ad6a62ae9c8c55e263dd7d1a0707ac6cd290a8d12c97f80766"
+    },
+    {
+      "model": "sw_full",
+      "task": "target_summary",
+      "samples": 987,
+      "ROUGE-Lsum": 20.48472128001975,
+      "source": [
+        {
+          "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/sw_full/summary/scores/summary.json",
+          "sha256": "cda2feabfe5d31fc7a7a8945b8e18894ecfd9f6d219de0bb340f7e0e5bc3ce38",
+          "samples": 987
+        }
+      ],
+      "raw_aggregate_and_prediction_identity_verified": true,
+      "done_sha256": "5b11e3e66ba1c21232bbaa6e5e70a457fcdb5639f7c7b038981667ce0b1c0cee"
+    }
+  ],
+  "all_available_benchmark_phase_complete": true,
+  "final_adapter_weights_rehashed": 10,
+  "completed_stage_model_identities_matched": 60,
+  "original_scope_complete": false
 }

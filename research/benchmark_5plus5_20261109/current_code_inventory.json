@@ -1,5 +1,5 @@
 {
-  "at": "2026-11-10T06:03:46.669023+08:00",
+  "at": "2026-11-10T09:19:10.644016+08:00",
   "files": [
     {
       "path": "/path/to/project/scripts/benchmark_5plus5_20261109/README.md",
@@ -63,7 +63,7 @@
     },
     {
       "path": "/path/to/project/scripts/benchmark_5plus5_20261109/report.py",
-      "sha256": "a94556d3111376e36d2d62c17c03db36ec4a7631a47cd27638165715e798499f"
+      "sha256": "8ac3bee79f173dd16c875e1c328cd04a63fb15d56efe11385e1cab594a6d4ee6"
     },
     {
       "path": "/path/to/project/scripts/benchmark_5plus5_20261109/schedule.py",
@@ -135,9 +135,9 @@
     "frozen_gpu_code_unchanged": true
   },
   "latest_change": {
-    "scope": "CPU-only observed FA/FFT evaluation cost report",
+    "scope": "CPU report status and completed-stage wording only",
     "files": [
-      "scripts/benchmark_5plus5_20261109/evaluation_costs.py"
+      "scripts/benchmark_5plus5_20261109/report.py"
     ],
     "frozen_inference_training_and_scoring_unchanged": true
   }

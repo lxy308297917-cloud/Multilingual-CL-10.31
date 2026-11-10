@@ -5,6 +5,8 @@ sw,all,GSM8K strict,63.76042456406368,1319,1319
 sw,all,IFEval instruction strict,61.270983213429254,541,834
 sw,full,GSM8K strict,76.04245640636846,1319,1319
 sw,full,IFEval instruction strict,85.4916067146283,541,834
+sw,kd,GSM8K strict,71.64518574677786,1319,1319
+sw,kd,IFEval instruction strict,83.57314148681056,541,834
 sw,random,GSM8K strict,76.11827141774071,1319,1319
 sw,random,IFEval instruction strict,84.89208633093526,541,834
 sw,function,GSM8K strict,76.26990144048521,1319,1319
@@ -23,3 +25,7 @@ ru,all,GSM8K strict,20.84912812736922,1319,1319
 ru,all,IFEval instruction strict,55.75539568345324,541,834
 ru,full,GSM8K strict,78.77179681576952,1319,1319
 ru,full,IFEval instruction strict,81.29496402877697,541,834
+ru,random,GSM8K strict,78.54435178165276,1319,1319
+ru,random,IFEval instruction strict,82.61390887290167,541,834
+ru,function,GSM8K strict,79.22668688400303,1319,1319
+ru,function,IFEval instruction strict,82.49400479616307,541,834

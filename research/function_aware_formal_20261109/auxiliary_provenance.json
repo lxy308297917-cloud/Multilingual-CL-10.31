@@ -43,6 +43,20 @@
   },
   {
     "language": "sw",
+    "method": "kd",
+    "task": "GSM8K strict",
+    "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/sw_kd/core/results/__user__models__Qwen3-4B/samples_sft_v1_gsm8k_2026-11-10T08-21-27.691906.jsonl",
+    "sha256": "943a5fbcbcb4e84151e5715b24dcb3a559c9bb126c211f0310ace8dc9b44d6fe"
+  },
+  {
+    "language": "sw",
+    "method": "kd",
+    "task": "IFEval instruction strict",
+    "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/sw_kd/core/results/__user__models__Qwen3-4B/samples_sft_v1_ifeval_2026-11-10T08-21-27.691906.jsonl",
+    "sha256": "7cd0a54c678f206f91df1591a48694bf31ec290d08047bf0b099070785226511"
+  },
+  {
+    "language": "sw",
     "method": "random",
     "task": "GSM8K strict",
     "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/sw_random/core/results/__user__models__Qwen3-4B/samples_sft_v1_gsm8k_2026-11-10T00-57-10.125385.jsonl",
@@ -166,5 +180,33 @@
     "task": "IFEval instruction strict",
     "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ru_full/core/results/__user__models__Qwen3-4B/samples_sft_v1_ifeval_2026-11-10T05-58-35.600614.jsonl",
     "sha256": "6b114024fae49e2df9766e351f5881b97ec1d510dd57792911a9cc767a360122"
+  },
+  {
+    "language": "ru",
+    "method": "random",
+    "task": "GSM8K strict",
+    "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ru_random/core/results/__user__models__Qwen3-4B/samples_sft_v1_gsm8k_2026-11-10T06-53-14.952125.jsonl",
+    "sha256": "dbca6c4d58a057c6c528bc04070ae1e75b1b942f26cbe7b609e728ef71a81cc5"
+  },
+  {
+    "language": "ru",
+    "method": "random",
+    "task": "IFEval instruction strict",
+    "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ru_random/core/results/__user__models__Qwen3-4B/samples_sft_v1_ifeval_2026-11-10T06-53-14.952125.jsonl",
+    "sha256": "ac3b88f1e73cddcddd9928bff691aa1ad5e7af92c13f4aaec6a860c8e737a10f"
+  },
+  {
+    "language": "ru",
+    "method": "function",
+    "task": "GSM8K strict",
+    "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ru_function/core/results/__user__models__Qwen3-4B/samples_sft_v1_gsm8k_2026-11-10T07-45-14.107942.jsonl",
+    "sha256": "7334abfcfefe8cc6598a51ffb38ccd445904c39a4821cd48f24c496215d4eda3"
+  },
+  {
+    "language": "ru",
+    "method": "function",
+    "task": "IFEval instruction strict",
+    "path": "/path/to/logs/qwen3-multilingual/function-aware-formal-20261109/evaluation/ru_function/core/results/__user__models__Qwen3-4B/samples_sft_v1_ifeval_2026-11-10T07-45-14.107942.jsonl",
+    "sha256": "d21f0602cda0f18d4aa749687b070601296cedd39630be4ff2a4489f0f8e1f4b"
   }
 ]

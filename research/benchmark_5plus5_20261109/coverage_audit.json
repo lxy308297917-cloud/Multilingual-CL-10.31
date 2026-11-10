@@ -1,11 +1,11 @@
 {
-  "at": "2026-11-10T06:00:36.116892+08:00",
+  "at": "2026-11-10T09:19:58.074489+08:00",
   "status": "ALL_ELIGIBLE_MISSING_CELLS_COVERED",
   "scope": "Queue coverage only. Present scores depend on separate raw audits; live queues do not prove successful completion.",
-  "score_table_sha256": "10c205cb0a798d4dd112bf7706f0796543084febf5497aff6703715838bab768",
+  "score_table_sha256": "dcf78ccce146d8ea780ab91f1e75bbbccc9244031da90d35c95475f2eb04cf05",
   "eligible_models": 22,
   "required_cells": 220,
-  "present_cells": 194,
+  "present_cells": 220,
   "deferred_models": [
     "ar_full",
     "ar_kd",
@@ -14,7 +14,7 @@
     "ru_kd"
   ],
   "queue_live": {
-    "fa": true,
+    "fa": false,
     "fft": false,
     "supplement": false,
     "general": false
@@ -378,30 +378,22 @@
     {
       "model": "sw_full",
       "task": "Belebele",
-      "stage": "reading",
-      "family": "fa",
-      "status": "COVERED_BY_LIVE_QUEUE"
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
     },
     {
       "model": "sw_full",
       "task": "XNLI",
-      "stage": "reading",
-      "family": "fa",
-      "status": "COVERED_BY_LIVE_QUEUE"
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
     },
     {
       "model": "sw_full",
       "task": "XL-Sum",
-      "stage": "summary",
-      "family": "fa",
-      "status": "COVERED_BY_LIVE_QUEUE"
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
     },
     {
       "model": "sw_full",
       "task": "Global-MMLU",
-      "stage": "gmmlu",
-      "family": "fa",
-      "status": "COVERED_BY_LIVE_QUEUE"
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
     },
     {
       "model": "sw_full",
@@ -421,16 +413,12 @@
     {
       "model": "sw_full",
       "task": "EN MMLU",
-      "stage": "mmlu",
-      "family": "fa",
-      "status": "COVERED_BY_LIVE_QUEUE"
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
     },
     {
       "model": "sw_full",
       "task": "EN Belebele",
-      "stage": "reading",
-      "family": "fa",
-      "status": "COVERED_BY_LIVE_QUEUE"
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
     },
     {
       "model": "sw_kd",
@@ -455,30 +443,22 @@
     {
       "model": "sw_kd",
       "task": "Global-MMLU",
-      "stage": "gmmlu",
-      "family": "fa",
-      "status": "COVERED_BY_LIVE_QUEUE"
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
     },
     {
       "model": "sw_kd",
       "task": "GSM8K",
-      "stage": "core",
-      "family": "fa",
-      "status": "COVERED_BY_LIVE_QUEUE"
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
     },
     {
       "model": "sw_kd",
       "task": "IFEval",
-      "stage": "core",
-      "family": "fa",
-      "status": "COVERED_BY_LIVE_QUEUE"
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
     },
     {
       "model": "sw_kd",
       "task": "HumanEval+",
-      "stage": "code",
-      "family": "fa",
-      "status": "COVERED_BY_LIVE_QUEUE"
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
     },
     {
       "model": "sw_kd",
@@ -608,9 +588,7 @@
     {
       "model": "ar_all",
       "task": "XL-Sum",
-      "stage": "summary",
-      "family": "fa",
-      "status": "COVERED_BY_LIVE_QUEUE"
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
     },
     {
       "model": "ar_all",
@@ -810,44 +788,32 @@
     {
       "model": "ru_random",
       "task": "XL-Sum",
-      "stage": "summary",
-      "family": "fa",
-      "status": "COVERED_BY_LIVE_QUEUE"
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
     },
     {
       "model": "ru_random",
       "task": "Global-MMLU",
-      "stage": "gmmlu",
-      "family": "fa",
-      "status": "COVERED_BY_LIVE_QUEUE"
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
     },
     {
       "model": "ru_random",
       "task": "GSM8K",
-      "stage": "core",
-      "family": "fa",
-      "status": "COVERED_BY_LIVE_QUEUE"
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
     },
     {
       "model": "ru_random",
       "task": "IFEval",
-      "stage": "core",
-      "family": "fa",
-      "status": "COVERED_BY_LIVE_QUEUE"
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
     },
     {
       "model": "ru_random",
       "task": "HumanEval+",
-      "stage": "code",
-      "family": "fa",
-      "status": "COVERED_BY_LIVE_QUEUE"
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
     },
     {
       "model": "ru_random",
       "task": "EN MMLU",
-      "stage": "mmlu",
-      "family": "fa",
-      "status": "COVERED_BY_LIVE_QUEUE"
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
     },
     {
       "model": "ru_random",
@@ -862,65 +828,47 @@
     {
       "model": "ru_function",
       "task": "Belebele",
-      "stage": "reading",
-      "family": "fa",
-      "status": "COVERED_BY_LIVE_QUEUE"
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
     },
     {
       "model": "ru_function",
       "task": "XNLI",
-      "stage": "reading",
-      "family": "fa",
-      "status": "COVERED_BY_LIVE_QUEUE"
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
     },
     {
       "model": "ru_function",
       "task": "XL-Sum",
-      "stage": "summary",
-      "family": "fa",
-      "status": "COVERED_BY_LIVE_QUEUE"
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
     },
     {
       "model": "ru_function",
       "task": "Global-MMLU",
-      "stage": "gmmlu",
-      "family": "fa",
-      "status": "COVERED_BY_LIVE_QUEUE"
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
     },
     {
       "model": "ru_function",
       "task": "GSM8K",
-      "stage": "core",
-      "family": "fa",
-      "status": "COVERED_BY_LIVE_QUEUE"
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
     },
     {
       "model": "ru_function",
       "task": "IFEval",
-      "stage": "core",
-      "family": "fa",
-      "status": "COVERED_BY_LIVE_QUEUE"
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
     },
     {
       "model": "ru_function",
       "task": "HumanEval+",
-      "stage": "code",
-      "family": "fa",
-      "status": "COVERED_BY_LIVE_QUEUE"
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
     },
     {
       "model": "ru_function",
       "task": "EN MMLU",
-      "stage": "mmlu",
-      "family": "fa",
-      "status": "COVERED_BY_LIVE_QUEUE"
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
     },
     {
       "model": "ru_function",
       "task": "EN Belebele",
-      "stage": "reading",
-      "family": "fa",
-      "status": "COVERED_BY_LIVE_QUEUE"
+      "status": "PRESENT_IN_AUDITED_PROJECTION"
     },
     {
       "model": "historical_fft",
