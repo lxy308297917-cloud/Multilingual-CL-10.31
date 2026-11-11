@@ -1,0 +1,45 @@
+{
+  "status": "COMPLETE_KEY_RESULTS_PUBLICATION",
+  "primary_cells": 80,
+  "paired_intervals": 120,
+  "single_models": 3,
+  "source_single_scores_sha256": "dcf78ccce146d8ea780ab91f1e75bbbccc9244031da90d35c95475f2eb04cf05",
+  "files": {
+    "README.md": {
+      "bytes": 14854,
+      "sha256": "06a53f64f97db411c319cd32a57e7a732cf986fed6efe0e426005014cd511429"
+    },
+    "auxiliary_paired_changes.csv": {
+      "bytes": 4284,
+      "sha256": "1014ef00e7e43a2aed5da3100a9b3da855af3a6a86ff546c393781b80229ac6a"
+    },
+    "auxiliary_scores.csv": {
+      "bytes": 2042,
+      "sha256": "a7d14722604faee0a6dc84828da54963e674015dc57ba8293c1a8051909e4876"
+    },
+    "paired_changes.csv": {
+      "bytes": 25590,
+      "sha256": "0d868ba0b11228b4a476f824acd7a6828024fd1261c8bd03441579a01d90caf2"
+    },
+    "protocol.json": {
+      "bytes": 137157,
+      "sha256": "9e22e18c3ba7588d81060b1fdc926b759626b3930d6ba0ce564e26f47273038f"
+    },
+    "scores.csv": {
+      "bytes": 5137,
+      "sha256": "54560012262352a736de25933b27d647b0e012283d2ade718ff80892b17f98e3"
+    },
+    "single_scores.csv": {
+      "bytes": 1559,
+      "sha256": "756686d3420d3f698f9cc4c60efe6c38a9b82bdaff3db61cb95db0c31c601c66"
+    },
+    "stage_scores.png": {
+      "bytes": 517238,
+      "sha256": "7df7eb933714781482c92b3fe5939d96f48873847b97adc8780c8c083206a36a"
+    },
+    "training_identity.json": {
+      "bytes": 2861,
+      "sha256": "786ff0d314f08366eb423deb048ef8d9a6a25912070ad56ce5139d771a89e0c3"
+    }
+  }
+}
