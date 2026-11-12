@@ -1,0 +1,68 @@
+{
+  "status": "COMPLETE_INDEPENDENT_TRAINING_AUDIT",
+  "verified_at": "2026-11-10T19:26:39.667389+08:00",
+  "base_repository": "Qwen/Qwen3-4B",
+  "base_revision": "1cfa9a7208912126459214e8b04321603b3df60c",
+  "all_base_files_rehashed_against_revision_lock": true,
+  "stages": [
+    {
+      "endpoint": "W1_SW",
+      "actual_path": "/path/to/storage/checkpoints/functional_representation_20261109/p2/all_layer_final_v1",
+      "adapter_sha256": "7900ed8d0f4199a6bdfafa909315f36b12ad2650527779cd2cd481464bb01338",
+      "exact_samples": 6400,
+      "steps": 400,
+      "exposure": {
+        "samples": 6400,
+        "input_tokens": 2373891,
+        "shifted_assistant_tokens": 324892,
+        "padded_positions": 3677984
+      },
+      "exposure_order_verified": true,
+      "tensors": 504,
+      "all_tensors_finite": true,
+      "changed_tensors_from_previous": null,
+      "config_sha256": "13c70986421d2e702c5e703f9a9563ba4d47d06db37b964271eae81a56a1f200",
+      "done_sha256": "cb9bc152583f6a2219b9bf887bc6419e9dacd8d1958e562d6494c59e6456e1c3"
+    },
+    {
+      "endpoint": "W2_SW_AR",
+      "actual_path": "/path/to/storage/checkpoints/sequential_lora_20261110/sw_ar_ru_lora_seed42_20261110_recovery1/stage2_ar",
+      "adapter_sha256": "a96d2de7a1818c8c7d04688048e5f12420283099de74482aef5dc3f85bf789bc",
+      "exact_samples": 6400,
+      "steps": 400,
+      "exposure": {
+        "samples": 6400,
+        "input_tokens": 2265373,
+        "shifted_assistant_tokens": 265783,
+        "padded_positions": 3475440
+      },
+      "exposure_order_verified": true,
+      "tensors": 504,
+      "all_tensors_finite": true,
+      "changed_tensors_from_previous": 504,
+      "config_sha256": "37bb169b4194443196051111404eee8d8ec59576616a40d51afe7cab7b2542d7",
+      "done_sha256": "9a2376413db456bf102bc272daf00c50f54a3a930539c089a9f9101e038a73ff"
+    },
+    {
+      "endpoint": "W3_SW_AR_RU",
+      "actual_path": "/path/to/storage/checkpoints/sequential_lora_20261110/sw_ar_ru_lora_seed42_20261110_recovery1/stage3_ru",
+      "adapter_sha256": "73bebb3e0cb3f1e5a77073ee45cb9af433f307c9fd876363e5d5711683fb59f4",
+      "exact_samples": 6400,
+      "steps": 400,
+      "exposure": {
+        "samples": 6400,
+        "input_tokens": 2520204,
+        "shifted_assistant_tokens": 305046,
+        "padded_positions": 3906816
+      },
+      "exposure_order_verified": true,
+      "tensors": 504,
+      "all_tensors_finite": true,
+      "changed_tensors_from_previous": 504,
+      "config_sha256": "8efe55590f38167fbe11d2d30505eed36bb86f0b818dc2c6ab6f47326610dba4",
+      "done_sha256": "fc34182dc89ddd7a92e3e9f5da35f6060511675b59c5b232dd216576e142386c"
+    }
+  ],
+  "stage_budget": "6400 examples,400 optimizer steps each; token totals differ by language",
+  "optimizer_boundary": "Prior adapter continued exactly, optimizer and scheduler restarted at each language"
+}

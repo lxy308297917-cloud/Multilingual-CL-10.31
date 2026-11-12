@@ -1,6 +1,26 @@
-# Multilingual-CL：最新研究入口（2026-11-10）
+# Multilingual-CL：最新研究入口（2026-11-12）
 
-## 当前补测阶段已完成：220/220与XQuAD10端点
+## 完成：single 跨语言迁移矩阵与 XQuAD 补测
+
+- [研究问题、完整矩阵、配对区间与研究定位](research/single_cross_language_20261111/README.md)
+- [60项五任务分数](research/single_cross_language_20261111/scores.csv) · [90组配对区间](research/single_cross_language_20261111/paired_changes.csv)
+- [生成式XQuAD报告](research/single_cross_language_20261111/xquad_report.md) · [16项分数](research/single_cross_language_20261111/xquad_scores.csv) · [英语对照](research/single_cross_language_20261111/english_anchor_scores.csv)
+
+阅读收益可由其他语言训练大量获得；摘要仍有语言匹配优势，XNLI迁移具有方向性。旧SW→AR→RU设置的任务收益提前出现，不能作为干净的语言特异学习/遗忘基准。跨模型结果未因果隔离指令、格式、内容和语言学习；不据这些已暴露测试调出预期曲线。
+
+另行开展Mistral-7B-v0.1英文Alpaca→11语言MultiAlpaca全参数复现，目前P1训练中，尚无P1/P2完整下游分数。Base测评与工程通过不等于两阶段方法有效。本次归档不宣称该复现已完成。
+
+## 普通LoRA顺序训练已完成：SW → AR → RU
+
+- [单语言与顺序训练关键结论、完整分数及配对区间](research/sequential_lora_20261110/README.md)
+- [四阶段结果图](research/sequential_lora_20261110/stage_scores.png) · [80项主分](research/sequential_lora_20261110/scores.csv) · [120组配对区间](research/sequential_lora_20261110/paired_changes.csv)
+
+单语言适配提升多项阅读、推理和摘要任务，但伴随指令、数学与代码代价。顺序训练存在提前跨语言收益和任务特异的遗忘；AR/RU本阶段并非所有任务上涨，未显示稳定优于独立适配。单顺序、单seed及评分接口敏感性限制一并报告，不据已暴露测试挑选有利协议。
+
+下列内容为此前独立适配阶段；其中“不是顺序CL”描述其独立训练，不包括上述新增顺序实验。暂缓实验范围保持原记录。
+
+
+## 上一阶段已完成：220/220与XQuAD10端点
 
 已完成22个可运行模型/语言端点的全部5+5分数、AR/RU共10个XQuAD端点及逐题/配对核验。GPU已全部释放，没有接续训练或占卡。原计划的5个未启动训练、额外翻译和GPU机制诊断仍由用户暂缓；当前阶段完成不等于原研究整体全部完成。
 

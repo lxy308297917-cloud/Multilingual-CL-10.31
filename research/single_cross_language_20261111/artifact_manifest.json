@@ -1,0 +1,69 @@
+{
+  "status": "COMPLETED_FIXED_MODEL_CROSS_LANGUAGE_RESULTS",
+  "date": "2026-11-12",
+  "base": "Qwen/Qwen3-4B@1cfa9a7208912126459214e8b04321603b3df60c",
+  "single_adapter_sha256": {
+    "sw": "7900ed8d0f4199a6bdfafa909315f36b12ad2650527779cd2cd481464bb01338",
+    "ar": "036ba98c90a67d395da7002221841eaba82e65d29369afd0066a977bd1ad9871",
+    "ru": "4e9b6524d8ef41412f1dd06f94238149cf40c9a1b7bd85a9020e13a2afad82ee"
+  },
+  "primary_scores": 60,
+  "paired_intervals": 90,
+  "xquad_scores": 16,
+  "xquad_intervals": 24,
+  "english_anchor_scores": 8,
+  "english_anchor_intervals": 12,
+  "limits": "One training seed; unequal tokens; bilingual mixtures; previous test exposure; no causal isolation of instruction/format/language; no multiple comparison adjustment.",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "af89aa1ab518d6254f90a50be5c43b77c3655e44625dad445f5c42daea11f06f",
+      "bytes": 16954
+    },
+    {
+      "path": "choice_behavior.csv",
+      "sha256": "f0439767c252e22221d59bbf9f4bd1343e698fd9f33610b4d24ac67ff1a1b395",
+      "bytes": 10641
+    },
+    {
+      "path": "english_anchor_paired.csv",
+      "sha256": "a723420a674376b522c967781b1c3fb9918909e0dd6cf732745b103cd16dfbc9",
+      "bytes": 2046
+    },
+    {
+      "path": "english_anchor_scores.csv",
+      "sha256": "b69b47b17279435e7cb18fec2c78c560fe0ec3b26d9a651ecb07b8a20c66b3c8",
+      "bytes": 633
+    },
+    {
+      "path": "paired_changes.csv",
+      "sha256": "dcf9f9ff68688f7b5514d8674f554bdd6d728dc4a3a1cede97fcede98904991e",
+      "bytes": 14908
+    },
+    {
+      "path": "scores.csv",
+      "sha256": "fdbc33137266626c9b5f0528dbc9eca0644a357ede535a230574cdd25060f614",
+      "bytes": 3982
+    },
+    {
+      "path": "summary_output_diagnostics.csv",
+      "sha256": "0d20d0655eceec65b5ba6e54bcb8cfa1e161e0c5ac4e9f80ca8a64730933886e",
+      "bytes": 432
+    },
+    {
+      "path": "xquad_paired_changes.csv",
+      "sha256": "8f64e1e1b794f4f53dbed87ab8cf534478581e28e051902cbf898a83e222b6d4",
+      "bytes": 3954
+    },
+    {
+      "path": "xquad_report.md",
+      "sha256": "bb3eaf6f568b51c483c0482b35392e54712ce0d980db612bb611465b32ca6fbe",
+      "bytes": 3822
+    },
+    {
+      "path": "xquad_scores.csv",
+      "sha256": "6d09769704327efa5ea4ec6e2bd738e724e61fd510f7744aaeb76f7558cabfa6",
+      "bytes": 1116
+    }
+  ]
+}
