@@ -1,4 +1,14 @@
-# Multilingual-CL：最新研究入口（2026-11-11）
+# Multilingual-CL：最新研究入口（2026-11-12）
+
+## 完成：single 跨语言迁移矩阵与 XQuAD 补测
+
+- [研究问题、完整矩阵、配对区间与研究定位](research/single_cross_language_20261111/README.md)
+- [60项五任务分数](research/single_cross_language_20261111/scores.csv) · [90组配对区间](research/single_cross_language_20261111/paired_changes.csv)
+- [生成式XQuAD报告](research/single_cross_language_20261111/xquad_report.md) · [16项分数](research/single_cross_language_20261111/xquad_scores.csv) · [英语对照](research/single_cross_language_20261111/english_anchor_scores.csv)
+
+阅读收益可由其他语言训练大量获得；摘要仍有语言匹配优势，XNLI迁移具有方向性。旧SW→AR→RU设置的任务收益提前出现，不能作为干净的语言特异学习/遗忘基准。跨模型结果未因果隔离指令、格式、内容和语言学习；不据这些已暴露测试调出预期曲线。
+
+另行开展Mistral-7B-v0.1英文Alpaca→11语言MultiAlpaca全参数复现，目前P1训练中，尚无P1/P2完整下游分数。Base测评与工程通过不等于两阶段方法有效。本次归档不宣称该复现已完成。
 
 ## 普通LoRA顺序训练已完成：SW → AR → RU
 
