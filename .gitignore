@@ -1,14 +1,17 @@
 __pycache__/
 *.py[cod]
-.env*
+*.egg-info/
+.venv/
+.pytest_cache/
+build/
+dist/
+assets/
+data/
+outputs/
+runs/
+checkpoints/
+wandb/
 *.safetensors
 *.pt
 *.bin
-data/
-models/
-logs/
-
-# Local reproduction outputs and downloaded dependencies
-/runs/
-/vendor/
-/.venv-metrics/
+.env

@@ -1,0 +1,49 @@
+# 路径模板：使用前绑定已冻结资产。三组共用配方，仅 arm、输出目录和冻结映射不同。
+model_name_or_path: models/Qwen3-4B
+stage: sft
+do_train: true
+finetuning_type: lora
+template: qwen3
+enable_thinking: false
+train_on_prompt: false
+mask_history: false
+dataset_dir: data/bactrian
+cutoff_len: 2048
+packing: false
+num_train_epochs: 1.0
+per_device_train_batch_size: 2
+gradient_accumulation_steps: 8
+learning_rate: 0.0001
+lr_scheduler_type: cosine
+warmup_ratio: 0.05
+optim: adamw_torch
+bf16: true
+gradient_checkpointing: true
+seed: 42
+data_seed: 42
+save_strategy: steps
+save_only_model: false
+overwrite_output_dir: false
+report_to: none
+lora_rank: 16
+lora_alpha: 32
+lora_dropout: 0.05
+lora_target: q_proj,k_proj,v_proj,o_proj,gate_proj,up_proj,down_proj
+logging_steps: 20
+preprocessing_num_workers: 1
+dataloader_num_workers: 0
+accelerator_config:
+  use_seedable_sampler: true
+weight_decay: 0.0
+max_grad_norm: 1.0
+flash_attn: sdpa
+ddp_find_unused_parameters: false
+dataset: sw_train
+tokenized_path: data/bactrian/sw_train_tokenized
+output_dir: runs/T0
+logging_dir: runs/T0/logs
+save_steps: 1000
+save_total_limit: 1
+use_reentrant_gc: false
+gradient_checkpointing_kwargs:
+  use_reentrant: false

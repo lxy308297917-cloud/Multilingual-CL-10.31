@@ -1,0 +1,27 @@
+{
+  "status": "CPU_CHECKS_PASSED",
+  "checked_at_utc": "2026-11-16T10:32:03.269778+00:00",
+  "tests": {
+    "unit_tests_passed": 6,
+    "historical_AST_definitions_identical": 9,
+    "report_artifacts_byte_identical": 40,
+    "published_score_cells_recomputed": 12,
+    "navigation_links_checked": 9,
+    "python_syntax": "passed",
+    "train_cli_help": "passed",
+    "upstream_harness_cli_help": "passed"
+  },
+  "gpu_training_regression": "NOT_RUN",
+  "historical_scores_produced_by_this_refactor": false,
+  "limitations": [
+    "Requires external frozen data and teacher assets",
+    "Historical full run identity assertions remain in archive",
+    "No end-to-end model training or benchmark inference in this cleanup"
+  ],
+  "commands": [
+    "CUDA_VISIBLE_DEVICES= python -B -m unittest discover -s tests -v",
+    "python scripts/analyze.py --vectors reports/mapping/analysis/formal_numeric.json --scores reports/mapping/analysis/training_results.csv",
+    "python scripts/train.py --help",
+    "CUDA_VISIBLE_DEVICES= python -B scripts/evaluate.py --help"
+  ]
+}

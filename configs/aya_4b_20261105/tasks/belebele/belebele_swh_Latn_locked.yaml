@@ -1,5 +1,0 @@
-include: _belebele_locked_base.yaml
-task: belebele_swh_Latn_locked
-dataset_kwargs:
-  data_files:
-    test: ${BELEBELE_DATA}/swh_Latn.jsonl
