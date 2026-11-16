@@ -1,0 +1,12 @@
+集合,数量,语言与任务,用途,暴露及限制,ID清单或协议
+历史主SFT,65415,SW及同ID来源,历史训练，现有A/B/S/E/D,已用于训练，不能称未见集,inputs/main_sft_ids.json
+新三组主SFT,65415,SW,T0/T1/T2同一数据顺序和监督词元,统一FULL-65K,inputs/main_sft_ids.json
+英语保持池,128,EN数学64/指令64,原B保持及新三组每步1条,历史Base正确筛选，含参考答案,inputs/english_keep_ids.json
+映射构造,1024,EN/SW；旧公共V另含ZH/FR/DE,原共享构造与新T1/T2固定映射,均在主训练池，构造集,inputs/alignment.jsonl
+梯度校准,32,SW同一1024中的固定源ID,仅初始梯度尺度，无优化更新,不使用任务成绩,assets/mapping_metadata.json
+历史语义开发,256,五语缓存，本轮EN/SW,六模型语义检索,已暴露历史开发，不是新确认,previous cache manifest
+关系诊断拟合,981,EN/SW,排除43个数学/排序家族后仅任务二拟合,与实际训练1024映射明确分开,records/RELATION_DATA_FROZEN.json
+关系开发,32,EN/SW排序模板,预先固定语义正负对，不调参,provisional，无母语审校,inputs/relations64.jsonl
+关系确认,32,EN/SW减法顺序模板,模板家族与关系开发分开,provisional；来源模板历史主SFT见过，非完整未见集,inputs/relations64.jsonl
+数学新诊断,256,EN GSM8K train,四模型生成与参考前缀表示分析,"排除全部历史5-shot演示4,375题及已知旧池/SFT精确重叠，合计4,631；余2,842中预抽256。v3于任何诊断输出前重抽，逐题上游提示核验；不声称预训练未见。",records/MATH_DATA_FROZEN.json
+正式核心,900/1319/541,SW阅读/EN数学/EN指令,全部三组同一协议正式终点,历史测试已暴露，不用于调参,EVALUATION_LOCK.json

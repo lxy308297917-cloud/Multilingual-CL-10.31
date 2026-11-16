@@ -1,0 +1,82 @@
+{
+  "scope": "CurrentSW ready. JA/BN are planned extensions; published availability is distinct from locally frozen runnable configuration.",
+  "source_links": {
+    "training": "https://huggingface.co/datasets/MBZUAI/Bactrian-X",
+    "reading": "https://huggingface.co/datasets/facebook/belebele",
+    "knowledge": "https://huggingface.co/datasets/CohereLabs/Global-MMLU",
+    "translation": "https://github.com/facebookresearch/flores/blob/main/flores200/README.md",
+    "summary": "https://huggingface.co/datasets/csebuetnlp/xlsum"
+  },
+  "rows": [
+    {
+      "language": "sw",
+      "training_config": "sw",
+      "published_bactrian_train_rows": 67017,
+      "clean_sft_rows": 65415,
+      "held_out_train_dev_rows": 500,
+      "belebele_config": "swh_Latn",
+      "belebele_test_rows": 900,
+      "belebele_split": "test only; no independent official development split",
+      "global_mmlu_config": "sw",
+      "global_mmlu_test_rows": 14042,
+      "global_mmlu_test_count_basis": "local actual57 subjects",
+      "global_mmlu_dev_used": "5-shot examples; never tune on test",
+      "flores_config": "swh_Latn",
+      "flores_local_split_counts": {
+        "dev": 997,
+        "devtest": 1012
+      },
+      "scoring": "Harness conditional-choice likelihood ACC; corpus SacreBLEU chrF++; fixed prompt/decode reused",
+      "local_execution": "ready",
+      "xlsum_source_test_rows": 987,
+      "xlsum_unified_score_ready": true
+    },
+    {
+      "language": "ja",
+      "training_config": "ja",
+      "published_bactrian_train_rows": 67017,
+      "clean_sft_rows": null,
+      "held_out_train_dev_rows": null,
+      "belebele_config": "jpn_Jpan",
+      "belebele_test_rows": 900,
+      "belebele_split": "test only; no independent official development split",
+      "global_mmlu_config": "ja",
+      "global_mmlu_test_rows": 14042,
+      "global_mmlu_test_count_basis": "official full translated task series; local pinned file count must be verified before expansion",
+      "global_mmlu_dev_used": "5-shot examples; never tune on test",
+      "flores_config": "jpn_Jpan",
+      "flores_local_split_counts": {
+        "dev": 997,
+        "devtest": 1012
+      },
+      "scoring": "Harness conditional-choice likelihood ACC; corpus SacreBLEU chrF++; fixed prompt/decode reused",
+      "local_execution": "task/data adaptation still required before training/evaluation",
+      "xlsum_source_test_rows": 889,
+      "xlsum_unified_score_ready": false
+    },
+    {
+      "language": "bn",
+      "training_config": "bn",
+      "published_bactrian_train_rows": 67017,
+      "clean_sft_rows": null,
+      "held_out_train_dev_rows": null,
+      "belebele_config": "ben_Beng",
+      "belebele_test_rows": 900,
+      "belebele_split": "test only; no independent official development split",
+      "global_mmlu_config": "bn",
+      "global_mmlu_test_rows": 14042,
+      "global_mmlu_test_count_basis": "official full translated task series; local pinned file count must be verified before expansion",
+      "global_mmlu_dev_used": "5-shot examples; never tune on test",
+      "flores_config": "ben_Beng",
+      "flores_local_split_counts": {
+        "dev": 997,
+        "devtest": 1012
+      },
+      "scoring": "Harness conditional-choice likelihood ACC; corpus SacreBLEU chrF++; fixed prompt/decode reused",
+      "local_execution": "task/data adaptation still required before training/evaluation",
+      "xlsum_source_test_rows": 1012,
+      "xlsum_unified_score_ready": false
+    }
+  ],
+  "thai_gap": "Global-MMLU lacks th; no substitute knowledge task is inserted."
+}

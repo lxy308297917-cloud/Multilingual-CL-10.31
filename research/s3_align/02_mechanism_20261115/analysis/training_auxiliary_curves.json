@@ -1,0 +1,123 @@
+[
+  {
+    "model": "B",
+    "n": 4089,
+    "available_fields": [
+      "accelerator_GA",
+      "auxiliary_backward_divisor",
+      "auxiliary_exposures_per_update",
+      "keep_loss",
+      "keep_weight",
+      "old_id",
+      "old_input_tokens",
+      "step"
+    ],
+    "keep_loss": {
+      "first100_mean": 0.00632374981243629,
+      "last100_mean": 0.002341669172747061,
+      "all_mean": 0.007049486265315859
+    }
+  },
+  {
+    "model": "S",
+    "n": 4089,
+    "available_fields": [
+      "accelerator_GA",
+      "alignment_id",
+      "alignment_input_tokens",
+      "alignment_loss",
+      "alignment_mode",
+      "auxiliary_backward_divisor",
+      "auxiliary_exposures_per_update",
+      "keep_loss",
+      "keep_weight",
+      "old_id",
+      "old_input_tokens",
+      "raw_alignment",
+      "step"
+    ],
+    "alignment_loss": {
+      "first100_mean": 0.07223717798944562,
+      "last100_mean": 0.0037271165114361794,
+      "all_mean": 0.016220229193333064
+    },
+    "raw_alignment": {
+      "first100_mean": 8.360669314265252,
+      "last100_mean": 0.43137329488992693,
+      "all_mean": 1.8773155204785952
+    },
+    "keep_loss": {
+      "first100_mean": 0.0,
+      "last100_mean": 0.0,
+      "all_mean": 0.0
+    }
+  },
+  {
+    "model": "E",
+    "n": 4089,
+    "available_fields": [
+      "accelerator_GA",
+      "alignment_id",
+      "alignment_input_tokens",
+      "alignment_loss",
+      "alignment_mode",
+      "auxiliary_backward_divisor",
+      "auxiliary_exposures_per_update",
+      "keep_loss",
+      "keep_weight",
+      "old_id",
+      "old_input_tokens",
+      "raw_alignment",
+      "step"
+    ],
+    "alignment_loss": {
+      "first100_mean": 0.07293603535741568,
+      "last100_mean": 0.004220197880640626,
+      "all_mean": 0.01660356403099121
+    },
+    "raw_alignment": {
+      "first100_mean": 8.441554595828057,
+      "last100_mean": 0.4884421099722385,
+      "all_mean": 1.9216823628753985
+    },
+    "keep_loss": {
+      "first100_mean": 0.006448921978590079,
+      "last100_mean": 0.0023913736094255,
+      "all_mean": 0.007222670535522238
+    }
+  },
+  {
+    "model": "D",
+    "n": 4089,
+    "available_fields": [
+      "accelerator_GA",
+      "alignment_id",
+      "alignment_input_tokens",
+      "alignment_loss",
+      "alignment_mode",
+      "auxiliary_backward_divisor",
+      "auxiliary_exposures_per_update",
+      "keep_loss",
+      "keep_weight",
+      "old_id",
+      "old_input_tokens",
+      "raw_alignment",
+      "step"
+    ],
+    "alignment_loss": {
+      "first100_mean": 0.06976444812491536,
+      "last100_mean": 0.007748427512124181,
+      "all_mean": 0.017150091602951906
+    },
+    "raw_alignment": {
+      "first100_mean": 0.26153992764651773,
+      "last100_mean": 0.029048078237101437,
+      "all_mean": 0.06429397458983614
+    },
+    "keep_loss": {
+      "first100_mean": 0.0066679451463278385,
+      "last100_mean": 0.002450473268982023,
+      "all_mean": 0.007078051901718305
+    }
+  }
+]

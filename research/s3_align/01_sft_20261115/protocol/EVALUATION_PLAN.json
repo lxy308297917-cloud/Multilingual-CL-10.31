@@ -1,0 +1,66 @@
+{
+  "model": "Qwen/Qwen3-4B@1cfa9a7208912126459214e8b04321603b3df60c",
+  "models": [
+    "Base",
+    "Bactrian_EN_single",
+    "Bactrian_SW_single"
+  ],
+  "primary_tasks": [
+    "Belebele_SW_900",
+    "Global-MMLU_Full_SW_14042_57subjects",
+    "XL-Sum_SW_987",
+    "FLORES200_EN_SW_devtest1012",
+    "FLORES200_SW_EN_devtest1012",
+    "Belebele_EN_900",
+    "MMLU_EN_14042_57subjects",
+    "IFEval_EN_541prompts_834instructions",
+    "GSM8K_EN_1319"
+  ],
+  "supplementary": [
+    "Belebele_AR_900",
+    "Belebele_RU_900"
+  ],
+  "frozen_existing_task_protocols": [
+    {
+      "benchmark": "Belebele SW/AR/RU/EN",
+      "execution": "直接调用lm-evaluation-harness；本地离线数据／任务适配",
+      "primary": "ACC，各900题，0-shot",
+      "adaptation": "固定P/Q/A-D提示、Qwen3 non-thinking聊天模板、bare A/B/C/D候选似然；原始答案1..4映射0..3；保留既有提示，不声称所有上游默认配置。"
+    },
+    {
+      "benchmark": "Global-MMLU SW/AR/RU 与 EN MMLU",
+      "execution": "直接调用lm-evaluation-harness上游任务／评分；本地parquet锁定",
+      "primary": "ACC，各14042题／57学科，5-shot dev示例",
+      "adaptation": "固定离线数据与Full任务；A/B/C/D候选似然；不使用Global-MMLU-Lite。"
+    },
+    {
+      "benchmark": "GSM8K EN",
+      "execution": "lm-evaluation-harness上游GSM8K任务与过滤器；本地数据及vLLM追踪包装",
+      "primary": "flexible-extract最终答案ACC，1319题，5-shot；strict-match并列辅助",
+      "adaptation": "greedy、1280 token及冻结停止词。主／辅角色沿11月9日5+5协议固定；生成格式与提取分歧单列，不据分数选择提取器。"
+    },
+    {
+      "benchmark": "IFEval EN",
+      "execution": "lm-evaluation-harness的官方strict指令评分移植；本地数据及vLLM追踪包装",
+      "primary": "提示级strict，541提示；指令级strict，834指令",
+      "adaptation": "0-shot、greedy、1280 token、langdetect seed42。64条真实既有输出已直接调用钉死上游函数复核，提示及逐指令标记一致；这不等于另装Google仓库端到端运行。"
+    },
+    {
+      "benchmark": "XL-Sum SW",
+      "execution": "自写vLLM生成；调用rouge-score0.1.2评分",
+      "primary": "ROUGE-Lsum，987篇",
+      "adaptation": "固定SW摘要提示、default ASCII词元、English Punkt分句、无stemming；SW分句限制单列；32条真实输出与原库直接调用一致。"
+    }
+  ],
+  "translation_assets": "/srv/research/Documents/Codex/2026-11-10/new-chat/work/bactrian-single-20261112/eval-assets-v1",
+  "generation": "Qwen3 nonthinking official base tokenizer; greedy; fixed task-specific caps and stops; existing summary/core protocols retained",
+  "historical_reuse": "Only model bytes, prompt/template, input IDs, scoring and decoding equivalence verified individually. Otherwise run Base anew.",
+  "test_exposure": "Existing benchmarks already exposed in earlier research; fixed supplementary comparison, never use to tune this training.",
+  "not_in_scope": [
+    "XNLI",
+    "SIB200",
+    "XQuAD",
+    "extra training languages",
+    "HumanEval optional not scheduled"
+  ]
+}

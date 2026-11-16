@@ -1,0 +1,5 @@
+model,task,n,mean_generated_tokens,length_limit,empty,missing_final_marker,numeric_format_false_negatives,outputs_with_repeated_exact_lines
+Base,GSM8K,256,133.828125,0,0,33,5,0
+A,GSM8K,256,117.7734375,1,0,26,5,1
+B,GSM8K,256,129.82421875,0,0,11,3,0
+E,GSM8K,256,127.3828125,0,0,14,3,0
